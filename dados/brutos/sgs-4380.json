@@ -4,7 +4,7 @@
  "descricao": "PIB mensal, valores correntes (R$ milhões)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=4380",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4380/dados?formato=json",
- "coleta": "2026-11-02T13:17:52Z",
+ "coleta": "2026-11-02T14:59:40Z",
  "dados": [
   {
    "data": "01/02/1990",

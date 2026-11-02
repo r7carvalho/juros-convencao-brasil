@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/Metadados",
- "coleta": "2026-11-02T13:34:36Z",
+ "coleta": "2026-11-02T15:11:11Z",
  "filtro": [
   "capital fixo",
   "estoque de capital",

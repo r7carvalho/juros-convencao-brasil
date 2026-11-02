@@ -4,7 +4,7 @@
  "descricao": "Dívida líquida do setor público consolidado, % do PIB",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=4513",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json",
- "coleta": "2026-11-02T13:16:58Z",
+ "coleta": "2026-11-02T14:58:40Z",
  "dados": [
   {
    "data": "01/12/2001",

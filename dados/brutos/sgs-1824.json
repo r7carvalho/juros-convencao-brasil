@@ -4,7 +4,7 @@
  "descricao": "Meios de pagamento M1, saldo em fim de período (R$ milhões) (conferir)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=1824",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1824/dados?formato=json",
- "coleta": "2026-11-02T13:19:58Z",
+ "coleta": "2026-11-02T15:03:29Z",
  "dados": [
   {
    "data": "01/02/1980",

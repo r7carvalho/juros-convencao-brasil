@@ -1,10 +1,10 @@
 {
  "fonte": "Banco Central do Brasil, Sistema Gerenciador de Séries Temporais (SGS)",
  "serie": 1178,
- "descricao": "Taxa de juros de longo prazo, TJLP (% a.a.) (conferir)",
+ "descricao": "Selic anualizada base 252, diária (% a.a.)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=1178",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1178/dados?formato=json",
- "coleta": "2026-11-02T13:20:55Z",
+ "coleta": "2026-11-02T15:07:52Z",
  "dados": [
   {
    "data": "04/06/1986",
