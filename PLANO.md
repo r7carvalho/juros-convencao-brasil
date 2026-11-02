@@ -94,13 +94,13 @@ fim; publicada em `docs/` sem erro de build.
 
 ## 3. Dívida pública
 
-- [ ] 3.0 Página macro
-- [ ] 3.1 Aritmética aplicada ao Brasil (r, g, d, s atuais e cenários)
-- [ ] 3.2 Decomposição da alta pelos fatores condicionantes do BCB (insumo `frente-J.json`)
-- [ ] 3.3a Detentores da DPF (Tesouro) e evolução
+- [x] 3.0 Página macro
+- [x] 3.1 Aritmética aplicada ao Brasil (r, g, d, s atuais e cenários)
+- [x] 3.2 Decomposição da alta pelos fatores condicionantes do BCB (insumo `frente-J.json`)
+- [x] 3.3a Detentores da DPF (Tesouro) e evolução
 - [ ] 3.3b Contas Econômicas Integradas (IBGE): juros pagos e recebidos por setor institucional
-- [ ] 3.4 Comparação internacional de nível e de custo
-- [ ] 3.5 Auditoria Cidadã da Dívida: o que afirma, a resposta do Tesouro e as críticas metodológicas
+- [x] 3.4 Comparação internacional de nível e de custo
+- [x] 3.5 Auditoria Cidadã da Dívida: o que afirma, a resposta do Tesouro e as críticas metodológicas
 - [ ] 3.R Revisão independente da macroárea 3
 
 ## 4. Inflação: de onde vem
