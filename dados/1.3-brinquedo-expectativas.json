@@ -1,0 +1,192 @@
+{
+ "titulo": "Brinquedo: três maneiras de formar a expectativa quando a inflação cai de 10% para 4%",
+ "tipo": "barras",
+ "unidade": "% ao ano",
+ "fonte": "Simulação do painel com números de brinquedo (sem dado real)",
+ "url": "",
+ "consulta": "2026-11-02",
+ "nota": "A inflação efetiva cai de 10% para 4% no ano 4 e fica lá. Adaptativa: a expectativa corrige metade do erro do ano anterior. Regra de bolso: espera-se a inflação do ano anterior. Racional com regime crível: a expectativa acompanha o novo regime no momento do anúncio.",
+ "governos": false,
+ "series": [
+  {
+   "nome": "Inflação efetiva",
+   "pontos": [
+    {
+     "t": "Ano 1",
+     "v": 10
+    },
+    {
+     "t": "Ano 2",
+     "v": 10
+    },
+    {
+     "t": "Ano 3",
+     "v": 10
+    },
+    {
+     "t": "Ano 4",
+     "v": 4
+    },
+    {
+     "t": "Ano 5",
+     "v": 4
+    },
+    {
+     "t": "Ano 6",
+     "v": 4
+    },
+    {
+     "t": "Ano 7",
+     "v": 4
+    },
+    {
+     "t": "Ano 8",
+     "v": 4
+    },
+    {
+     "t": "Ano 9",
+     "v": 4
+    },
+    {
+     "t": "Ano 10",
+     "v": 4
+    }
+   ]
+  },
+  {
+   "nome": "Expectativa adaptativa",
+   "pontos": [
+    {
+     "t": "Ano 1",
+     "v": 10
+    },
+    {
+     "t": "Ano 2",
+     "v": 10.0
+    },
+    {
+     "t": "Ano 3",
+     "v": 10.0
+    },
+    {
+     "t": "Ano 4",
+     "v": 10.0
+    },
+    {
+     "t": "Ano 5",
+     "v": 7.0
+    },
+    {
+     "t": "Ano 6",
+     "v": 5.5
+    },
+    {
+     "t": "Ano 7",
+     "v": 4.75
+    },
+    {
+     "t": "Ano 8",
+     "v": 4.38
+    },
+    {
+     "t": "Ano 9",
+     "v": 4.19
+    },
+    {
+     "t": "Ano 10",
+     "v": 4.09
+    }
+   ]
+  },
+  {
+   "nome": "Regra de bolso",
+   "pontos": [
+    {
+     "t": "Ano 1",
+     "v": 10
+    },
+    {
+     "t": "Ano 2",
+     "v": 10
+    },
+    {
+     "t": "Ano 3",
+     "v": 10
+    },
+    {
+     "t": "Ano 4",
+     "v": 10
+    },
+    {
+     "t": "Ano 5",
+     "v": 4
+    },
+    {
+     "t": "Ano 6",
+     "v": 4
+    },
+    {
+     "t": "Ano 7",
+     "v": 4
+    },
+    {
+     "t": "Ano 8",
+     "v": 4
+    },
+    {
+     "t": "Ano 9",
+     "v": 4
+    },
+    {
+     "t": "Ano 10",
+     "v": 4
+    }
+   ]
+  },
+  {
+   "nome": "Expectativa racional",
+   "pontos": [
+    {
+     "t": "Ano 1",
+     "v": 10
+    },
+    {
+     "t": "Ano 2",
+     "v": 10
+    },
+    {
+     "t": "Ano 3",
+     "v": 10
+    },
+    {
+     "t": "Ano 4",
+     "v": 4
+    },
+    {
+     "t": "Ano 5",
+     "v": 4
+    },
+    {
+     "t": "Ano 6",
+     "v": 4
+    },
+    {
+     "t": "Ano 7",
+     "v": 4
+    },
+    {
+     "t": "Ano 8",
+     "v": 4
+    },
+    {
+     "t": "Ano 9",
+     "v": 4
+    },
+    {
+     "t": "Ano 10",
+     "v": 4
+    }
+   ]
+  }
+ ]
+}

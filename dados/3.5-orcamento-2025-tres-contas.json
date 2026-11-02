@@ -1,0 +1,36 @@
+{
+ "titulo": "Peso da dívida no orçamento federal de 2025, conforme o que se soma (% da despesa)",
+ "tipo": "barras",
+ "unidade": "% da despesa considerada",
+ "fonte": "Lei 15.121/2025 (LOA 2025: despesa dos orçamentos fiscal e da seguridade de cerca de R$ 5,72 tri, refinanciamento de R$ 1.655,8 bi); Nota Técnica Conjunta CONOF/CONORF sobre o PLOA 2025 (juros e encargos R$ 480,0 bi; amortização R$ 393,1 bi); Auditoria Cidadã da Dívida (executado 2025: R$ 2,135 tri de R$ 5,054 tri); BGU 2025 (juros e encargos pagos R$ 363,6 bi); cálculo do painel",
+ "url": "https://www12.senado.leg.br/orcamento/documentos/estudos/tipos-de-estudos/notas-tecnicas-e-informativos/ploa-2025_notatecnicaconjunta.pdf",
+ "consulta": "2026-11-02",
+ "nota": "Barras 1 a 3: dotações da LOA/PLOA 2025. Barras 4 e 5: execução de 2025. Juros e amortização da LOA usam os valores do PLOA, que podem ter mudado na tramitação.",
+ "series": [
+  {
+   "nome": "Participação",
+   "pontos": [
+    {
+     "t": "LOA: juros + amortização + refinanciamento",
+     "v": 44.2
+    },
+    {
+     "t": "LOA: sem refinanciamento",
+     "v": 21.5
+    },
+    {
+     "t": "LOA: só juros, sem operações de principal",
+     "v": 13.1
+    },
+    {
+     "t": "Executado: conta da ACD",
+     "v": 42.24
+    },
+    {
+     "t": "Executado: só juros pagos, sem principal",
+     "v": 11.1
+    }
+   ]
+  }
+ ]
+}

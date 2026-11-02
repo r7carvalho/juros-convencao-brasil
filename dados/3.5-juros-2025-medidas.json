@@ -1,0 +1,40 @@
+{
+ "titulo": "Quanto custaram os juros em 2025? Cinco medidas (R$ bilhões)",
+ "tipo": "barrash",
+ "unidade": "R$ bi",
+ "fonte": "BGU 2025 (juros e encargos pagos pela União, caixa); Inesc (2026); BCB, NFSP (juros nominais do setor público consolidado, competência); Auditoria Cidadã da Dívida (estimativa e conta de juros + amortizações); cálculo do painel para o juro real",
+ "url": "https://inesc.org.br/brasil-gastou-cinco-vezes-mais-com-juros-da-divida-do-que-com-investimentos-publicos-em-2025/",
+ "consulta": "2026-11-02",
+ "nota": "Juro real do setor público: juros nominais menos IPCA de 2025 (4,26%) vezes a DLSP de dez/2024 (61,3% do PIB), aproximação do painel. A barra da ACD de R$ 2.135 bi inclui principal (amortização e refinanciamento), que não é custo.",
+ "series": [
+  {
+   "nome": "Juros",
+   "pontos": [
+    {
+     "t": "Juros e encargos pagos pela União (BGU, caixa)",
+     "v": 363.6
+    },
+    {
+     "t": "Juros pagos pela União (Inesc)",
+     "v": 371.7
+    },
+    {
+     "t": "Juro real do setor público (aprox. do painel)",
+     "v": 700
+    },
+    {
+     "t": "Juros nominais do setor público (BCB, competência)",
+     "v": 1007.6
+    },
+    {
+     "t": "Estimativa de juros da ACD",
+     "v": 1165
+    },
+    {
+     "t": "Juros + amortizações + rolagem (ACD)",
+     "v": 2135
+    }
+   ]
+  }
+ ]
+}

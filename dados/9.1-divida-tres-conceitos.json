@@ -1,0 +1,171 @@
+{
+ "titulo": "Três medidas da dívida pública (% do PIB)",
+ "tipo": "linha",
+ "unidade": "% do PIB",
+ "fonte": "BCB, SGS 13762 (DBGG conceito BCB) e 4513 (DLSP); tabela especial Divggnp.xlsx (DBGG conceito FMI)",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
+ "consulta": "2026-10-28",
+ "nota": "Posição de dezembro; último ponto agosto de 2026. Conceito FMI = conceito BCB mais os títulos do Tesouro na carteira livre do Banco Central. A DLSP desconta ativos (reservas, créditos junto ao BNDES) e inclui o Banco Central. Razões sobre o PIB mudam quando o IBGE revisa o PIB.",
+ "governos": true,
+ "series": [
+  {
+   "nome": "DBGG, conceito FMI",
+   "pontos": [
+    {
+     "t": "2015-12",
+     "v": 71.72
+    },
+    {
+     "t": "2016-12",
+     "v": 77.42
+    },
+    {
+     "t": "2017-12",
+     "v": 82.75
+    },
+    {
+     "t": "2018-12",
+     "v": 84.78
+    },
+    {
+     "t": "2019-12",
+     "v": 87.12
+    },
+    {
+     "t": "2020-12",
+     "v": 96.01
+    },
+    {
+     "t": "2021-12",
+     "v": 88.94
+    },
+    {
+     "t": "2022-12",
+     "v": 83.94
+    },
+    {
+     "t": "2023-12",
+     "v": 84.0
+    },
+    {
+     "t": "2024-12",
+     "v": 87.03
+    },
+    {
+     "t": "2025-12",
+     "v": 93.33
+    },
+    {
+     "t": "2026-08",
+     "v": 94.53
+    }
+   ]
+  },
+  {
+   "nome": "DBGG, conceito BCB",
+   "pontos": [
+    {
+     "t": "2015-12",
+     "v": 65.5
+    },
+    {
+     "t": "2016-12",
+     "v": 69.84
+    },
+    {
+     "t": "2017-12",
+     "v": 73.72
+    },
+    {
+     "t": "2018-12",
+     "v": 75.27
+    },
+    {
+     "t": "2019-12",
+     "v": 74.44
+    },
+    {
+     "t": "2020-12",
+     "v": 86.94
+    },
+    {
+     "t": "2021-12",
+     "v": 77.31
+    },
+    {
+     "t": "2022-12",
+     "v": 71.68
+    },
+    {
+     "t": "2023-12",
+     "v": 73.83
+    },
+    {
+     "t": "2024-12",
+     "v": 76.27
+    },
+    {
+     "t": "2025-12",
+     "v": 78.64
+    },
+    {
+     "t": "2026-08",
+     "v": 82.87
+    }
+   ]
+  },
+  {
+   "nome": "DLSP",
+   "pontos": [
+    {
+     "t": "2015-12",
+     "v": 35.64
+    },
+    {
+     "t": "2016-12",
+     "v": 46.14
+    },
+    {
+     "t": "2017-12",
+     "v": 51.37
+    },
+    {
+     "t": "2018-12",
+     "v": 52.77
+    },
+    {
+     "t": "2019-12",
+     "v": 54.7
+    },
+    {
+     "t": "2020-12",
+     "v": 61.37
+    },
+    {
+     "t": "2021-12",
+     "v": 55.11
+    },
+    {
+     "t": "2022-12",
+     "v": 56.13
+    },
+    {
+     "t": "2023-12",
+     "v": 60.43
+    },
+    {
+     "t": "2024-12",
+     "v": 61.3
+    },
+    {
+     "t": "2025-12",
+     "v": 65.24
+    },
+    {
+     "t": "2026-08",
+     "v": 69.27
+    }
+   ]
+  }
+ ]
+}

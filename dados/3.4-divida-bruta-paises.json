@@ -1,0 +1,74 @@
+{
+ "titulo": "Dívida bruta do governo geral, 2025 (% do PIB, conceito FMI)",
+ "tipo": "barrash",
+ "unidade": "% do PIB",
+ "fonte": "FMI, DataMapper (WEO/Fiscal Monitor), GGXWDG_NGDP, GGXONLB_G01_GDP_PT e GGXCNL_G01_GDP_PT",
+ "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP",
+ "consulta": "2026-10-28",
+ "nota": "Conceito FMI: inclui todos os títulos do Tesouro na carteira do banco central. Para o Brasil, 93,3% contra 78,6% no conceito BCB em dez/2025.",
+ "ref": [
+  {
+   "v": 108.2,
+   "rotulo": "média avançadas"
+  },
+  {
+   "v": 94.0,
+   "rotulo": "mundo"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Dívida bruta",
+   "pontos": [
+    {
+     "t": "Japão",
+     "v": 204.8
+    },
+    {
+     "t": "Itália",
+     "v": 137.1
+    },
+    {
+     "t": "Estados Unidos",
+     "v": 124.4
+    },
+    {
+     "t": "França",
+     "v": 115.5
+    },
+    {
+     "t": "Reino Unido",
+     "v": 102.1
+    },
+    {
+     "t": "China",
+     "v": 98.6
+    },
+    {
+     "t": "Brasil",
+     "v": 93.3
+    },
+    {
+     "t": "Índia",
+     "v": 84.3
+    },
+    {
+     "t": "África do Sul",
+     "v": 78.4
+    },
+    {
+     "t": "México",
+     "v": 61.7
+    },
+    {
+     "t": "Colômbia",
+     "v": 59.9
+    },
+    {
+     "t": "Turquia",
+     "v": 23.7
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "titulo": "Detentores da DPMFi, 2020 a agosto de 2026 (% do estoque)",
+ "tipo": "empilhadas",
+ "unidade": "% da DPMFi",
+ "fonte": "Tesouro Nacional, Relatório Mensal da Dívida (apresentação de março de 2026 para dezembros; texto de agosto de 2026)",
+ "url": "https://static.poder360.com.br/2026/04/Apresentacao-RMD-Marco.pdf",
+ "consulta": "2026-10-28",
+ "nota": "Ago/2026: 'demais' soma seguradoras (3,34), Tesouro Direto (3,04) e governo e outros (7,34).",
+ "series": [
+  {
+   "nome": "Instituições financeiras",
+   "pontos": [
+    {
+     "t": "2020",
+     "v": 30.3
+    },
+    {
+     "t": "2022",
+     "v": 29.5
+    },
+    {
+     "t": "2024",
+     "v": 30.1
+    },
+    {
+     "t": "2025",
+     "v": 32.9
+    },
+    {
+     "t": "ago/2026",
+     "v": 31.22
+    }
+   ]
+  },
+  {
+   "nome": "Fundos de investimento",
+   "pontos": [
+    {
+     "t": "2020",
+     "v": 25.4
+    },
+    {
+     "t": "2022",
+     "v": 23.8
+    },
+    {
+     "t": "2024",
+     "v": 21.3
+    },
+    {
+     "t": "2025",
+     "v": 20.8
+    },
+    {
+     "t": "ago/2026",
+     "v": 22.52
+    }
+   ]
+  },
+  {
+   "nome": "Previdência",
+   "pontos": [
+    {
+     "t": "2020",
+     "v": 22.6
+    },
+    {
+     "t": "2022",
+     "v": 22.8
+    },
+    {
+     "t": "2024",
+     "v": 23.9
+    },
+    {
+     "t": "2025",
+     "v": 22.8
+    },
+    {
+     "t": "ago/2026",
+     "v": 22.63
+    }
+   ]
+  },
+  {
+   "nome": "Não residentes",
+   "pontos": [
+    {
+     "t": "2020",
+     "v": 9.2
+    },
+    {
+     "t": "2022",
+     "v": 9.4
+    },
+    {
+     "t": "2024",
+     "v": 10.2
+    },
+    {
+     "t": "2025",
+     "v": 10.3
+    },
+    {
+     "t": "ago/2026",
+     "v": 9.91
+    }
+   ]
+  },
+  {
+   "nome": "Demais (seguradoras, Tesouro Direto, governo, outros)",
+   "pontos": [
+    {
+     "t": "2020",
+     "v": 12.4
+    },
+    {
+     "t": "2022",
+     "v": 14.6
+    },
+    {
+     "t": "2024",
+     "v": 14.5
+    },
+    {
+     "t": "2025",
+     "v": 13.2
+    },
+    {
+     "t": "ago/2026",
+     "v": 13.72
+    }
+   ]
+  }
+ ]
+}
