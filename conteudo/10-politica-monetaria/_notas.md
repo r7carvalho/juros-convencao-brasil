@@ -2,35 +2,49 @@
 
 ## Páginas entregues
 
-- 10 Política monetária: instrumentos convencionais e não convencionais (página macro), 1ª versão, 1.995 palavras pela contagem do build (02/11/2026). Gráfico: `dados/10-compromissadas-conta-unica.json` (compromissadas do BC e conta única do Tesouro, % do PIB, dez/2006 a ago/2026, da tabela Divggnp.xlsx do BCB via insumo Frente J, consulta 28/10/2026).
+- 10 Política monetária: instrumentos convencionais e não convencionais (página macro), revisada em 02/11/2026, cerca de 1.750 palavras de prosa. Gráfico: `dados/10-compromissadas-conta-unica.json` (compromissadas do BC e conta única do Tesouro, % do PIB, dez/2006 a ago/2026, da tabela Divggnp.xlsx do BCB, consulta 28/10/2026).
 
-## Fontes principais usadas
+## Fontes principais usadas (página 10)
 
-- BCB, tabela especial Divggnp.xlsx (compromissadas, conta única, DBGG conceitos BCB e FMI), via `insumos/frente-J.json`.
-- Reservas de US$ 372,6 bi e 14,5% do PIB em ago/2026: texto de análise da Frente J.
-- Selic (15% de jun/2025 a mar/2026; 13,75% em out/2026), juros nominais de 8,86% do PIB (SGS 5727 e 5793), crédito direcionado de 43,9% (SGS 20593/20539), LFT de 52,74% da DPF (RMD ago/2026), balanço do Fed de US$ 0,9 tri (2008) a US$ 4,5 tri (2015): `insumos/frente-K.json`.
-- Juro real ex-ante de 8,7% (23/10/2026): página 9.1.
-- Literatura citada sem recorte entre aspas (paráfrase): Poole (1970), McLeay, Radia e Thomas (2014), Borio e Disyatat (2009, BIS WP 292: princípio da separação e classificação das políticas de balanço), Bernanke (2020, AER: cerca de 3 p.p. de espaço adicional com neutro nominal de 2% a 3%), Taylor (1993), Bagehot (1873), Mishkin (2019, 12ª ed., cap. 15).
-- Único recorte entre aspas: Constituição, art. 164, § 1º.
+- BCB, tabela especial Divggnp.xlsx (compromissadas, conta única, DBGG conceitos BCB e FMI), consulta em 28/10/2026.
+- Reservas de US$ 372,6 bi em ago/2026: BCB, SGS 3546 (set/2026 = 362,8; mesma série, mês diferente).
+- Selic (SGS 432), juros nominais (SGS 5727, 5793, 4382), direcionado (SGS 20593/20539), base e depósitos voluntários (SGS 1788 e 28964), coleta de 02/11/2026; LFT de 52,74% da DPF (Tesouro, RMD ago/2026).
+- Único recorte entre aspas na macro: Constituição, art. 164, § 1º.
 
-## Limites desta sessão
+## Pendências após a revisão (02/11/2026)
 
-A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetch não resolveu bcb.gov.br, bis.org nem aeaweb.org. Nada foi conferido na web neste item; tudo o que tem número vem dos insumos ou de páginas já escritas.
+Resolvidas na aplicação da revisão: reservas de ago/2026 (SGS 3546, fecha a divergência nº 1), base e depósitos voluntários (SGS 1788 e 28964), comunicado de 05/08/2020 (232ª reunião), recompra do Tesouro de mar/2020 (RMD de mar/2020 via Seu Dinheiro; Agência Brasil, mar/2020), avaliação de Flug e Honohan (resposta do Riksbank de 2022 confirma que o banco discordou da crítica à saída de −0,5% para zero em 2018–2019), repasse do Fed referente a 2021 (US$ 107,4 bi no comunicado de 14/01/2022; US$ 109 bi auditado), leilões de 2024 (Poder360: dólar subiu em 5, caiu em 2 e ficou estável em 1 dos 8 dias), primeiro corte de compulsório do PBoC (anúncio de 30/11/2011), SGS 1849 identificada pelo catálogo de dados abertos do BCB como recursos à vista em espécie não remunerados.
 
-## [a conferir]
+Retiradas por falta de confirmação: Campos Neto chamando de erro, na CFT em set/2023, a queda a 2% (busca não achou; a matéria citada fala de demora na queda da Selic e outra, de mar/2021, diz que não houve erro); recorte do FMI (GFSR out/2020, cap. 2) virou paráfrase do resumo; recorte de Ueda (25/12/2023) virou paráfrase; recorte de Tucker (2020) virou paráfrase; recorte de Goodhart (1975) virou "formulação usual"; recortes de Eggertsson et al. (2019) e de Yehoue (2012) viraram paráfrase do resumo; artigo de Lara Resende no Valor de abr/2020 ("Quem vai pagar essa conta?", via Comsefaz) trocado pela menção às propostas de 2020 e à resposta de Schwartsman ("A cloroquina monetária", InfoMoney, 2020).
 
-- Base monetária e saldo de depósitos voluntários remunerados em ago/2026 (demonstrações financeiras do BCB de jun/2026; SGS 1788 para a base). Com eles, o balanço real da página fica completo.
-- Carteira total de títulos do BC "perto de 22% do PIB" é aproximação do painel: títulos livres (11,7 p.p. = DBGG FMI 94,5% menos DBGG BCB 82,9%) mais compromissadas (10,3%), supondo lastro igual ao saldo das compromissadas. Conferir com o balancete do BCB.
-- Comunicado do Copom de agosto de 2020 dizendo que o espaço remanescente para cortes, se houvesse, seria pequeno (paráfrase de memória; conferir texto e data).
-- EC 106/2020 "não virou programa relevante" de compra de títulos: afirmação da Frente K, que ela mesma registra como não conferida em fonte primária.
-- Texto literal do art. 164, § 1º, da Constituição: reproduzido sem abrir o Planalto nesta sessão; conferir a literalidade.
-- URLs não abertas nesta sessão: página do RPM (`https://www.bcb.gov.br/publicacoes/rpm`) e Lei 14.185/2021 no Planalto (`.../2021/lei/L14185.htm`).
-- Mishkin: capítulo 15 ("Tools of Monetary Policy") na 12ª ed. (2019) citado sem página; conferir numeração do capítulo na edição usada.
-- Página BCB de instrumentos de política monetária e Relatório de Política Monetária (exigidos no cartão) não foram lidos; a página os cita só como referência geral.
+Ainda pendentes (o texto público já não afirma além do que está abaixo):
 
-## Divergências
+- Proposta de Lara Resende de 2026 (trajetória e intervalo para a Selic): só localizada pela crítica de Oreiro (2026, Substack); texto original, veículo e data não localizados. 10.2.1 e 10.5 citam "descrita e criticada por Oreiro (2026)".
+- SGS 1849 em dez/2019 (R$ 35,9 bi) não bate com os R$ 45,5 bi do EE 72; conciliar conceito. SGS 1828 e 1847, coletadas com rótulos "(conferir)", não identificadas: 1828 cai só R$ 61 bi entre ago/2008 e jan/2009 (contra R$ 99,8 bi liberados) e salta de R$ 62,9 bi para R$ 323,7 bi entre dez/2009 e dez/2010, o que não combina com "saldo total"; o total é a SGS 17633 e a poupança em espécie a SGS 1848, fora da coleta. O rótulo de 1849 em dados/brutos ("poupança") está trocado.
+- Remuneração do compulsório da poupança ("a da própria poupança"): conferir na Resolução BCB 188/2022.
+- Estudo Especial 101 (3,42% → 3,30%, cerca de 60%, 11 p.b.): conferir no PDF, inclusive o "−0,27 p.p." registrado antes.
+- Data da cláusula "mesmo que o teto de gastos nominal continuasse de pé" (ata de out/2020, 234ª, ou de dez/2020, 235ª): o texto diz "nas atas do fim de 2020".
+- Boxe do RI de dez/2021 (suavização 0,91, hiato com peso zero) e documento do FMI com 27 regras: só via Blog do IBRE; o texto atribui ao blog.
+- Bráulio Borges: post e data da simulação do BC sobre a redução da meta não identificados (fonte é página de listagem do autor).
+- Blog do IBRE "Três erros sobre o repasse cambial": autor e data.
+- Mesquita e Torós (2010) sobre a janela de 2008 e Bernanke (2010) sobre US$ 1,5 tri: via citação secundária; dar página.
+- Bagehot: recorte do cap. VII é o texto conhecido de *Lombard Street*; conferir no Gutenberg.
+- Schwartsman sobre depósitos voluntários: só via clipping da Abras, sem data.
+- Turner (2016) sobre reservas sem remuneração: referência exata não localizada.
+- Mankiw (2020), Morris, Shin e Tong (2006), Chamon, Garcia e Souza (2015, 2017): lidos por resumo.
+- Recortes de comunicados do Copom (234ª, 236ª, 267ª, 271ª) lidos por reprodução na imprensa; Nobel de 2026, Fed sob Warsh e Shin no Banco da Coreia por imprensa.
+- Paráfrase de Blanchard (2023) sobre o comprador com bolsos fundos: dar capítulo e seção.
+- Ativo diferido do Fed de US$ 236 bi em jul/2026: as duas páginas citam o MPR de jul/2026; conferir no H.4.1.
 
-- Reservas internacionais: US$ 372,6 bi em ago/2026 (Frente J, texto de análise, convertidas em R$ 1,93 tri e 14,5% do PIB) contra US$ 362,8 bi em set/2026 (Frente A, SGS 3546, conceito liquidez). A diferença pode ser de mês ou de conceito (total × liquidez); a página usa o dado da Frente J porque os demais itens do balanço são de ago/2026. Registrar em `_divergencias.md` se o coordenador quiser.
+## Achados da revisão não aplicados
+
+- 10.2.3 nº 7 e 10.3.5 nº 3: a LTEL-LFG (R$ 121,9 bi) ficou com um parágrafo em 10.2.3 e a tabela em 10.3.7; 10.3.5 mantém o número com link (o revisor aceitou).
+- 10.3.8 nº 5 (sobreposição com 7.8 e 7.7): a correção cabe à área 7, que deve linkar para 10.3.8.
+- 10.3.3 nº 4 (extensão de 10.3.3, ~3.800 palavras de prosa): não cortado; o coordenador só fixou teto para 10, 10.2.5 e 10.3.2, e a página não repete outras.
+- 10.2 nº 1: números repetidos na ponte mantidos (o revisor os considerou aceitáveis numa ponte).
+- 10.2.1 nº 7 e 10.3.2 nº 5: só registro de conferência, nada a corrigir.
+
+As seções por item abaixo são o registro de produção de cada página, anterior à revisão; para pendências vale a seção acima.
 
 ## Para a próxima rodada
 

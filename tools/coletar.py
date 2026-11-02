@@ -74,7 +74,7 @@ SGS = {
     1828: "Recolhimentos compulsórios, saldo (conferir)",
     1847: "Recolhimento compulsório sobre recursos à vista, saldo (conferir)",
     1848: "Recolhimento compulsório sobre depósitos a prazo, saldo (conferir)",
-    1849: "Recolhimento compulsório sobre depósitos de poupança, saldo (conferir)",
+    1849: "Recolhimento compulsório sobre recursos à vista em espécie, não remunerado, saldo (catálogo de dados abertos do BCB)",
     28964: "Base monetária ampliada, depósitos voluntários remunerados, saldo (conferir)",
     1178: "Selic anualizada base 252, diária (% a.a.)",
     256: "Taxa de juros de longo prazo, TJLP (% a.a.) (conferir)",

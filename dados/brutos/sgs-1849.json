@@ -1,7 +1,7 @@
 {
  "fonte": "Banco Central do Brasil, Sistema Gerenciador de Séries Temporais (SGS)",
  "serie": 1849,
- "descricao": "Recolhimento compulsório sobre depósitos de poupança, saldo (conferir)",
+ "descricao": "Recolhimento compulsório sobre recursos à vista em espécie, não remunerado, saldo (catálogo de dados abertos do BCB)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=1849",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1849/dados?formato=json",
  "coleta": "2026-11-02T15:06:28Z",
