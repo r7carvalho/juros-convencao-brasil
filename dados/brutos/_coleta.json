@@ -1,0 +1,388 @@
+{
+ "inicio": "2026-11-02T12:09:02Z",
+ "ok": [
+  {
+   "grupo": "sgs",
+   "nome": "432 Selic meta definida pelo Copom (% a.a.)",
+   "arquivo": "dados/brutos/sgs-432.json",
+   "registros": 6454
+  },
+  {
+   "grupo": "sgs",
+   "nome": "11 Selic over diária (% a.d.)",
+   "arquivo": "dados/brutos/sgs-11.json",
+   "registros": 10131
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4189 Selic acumulada no mês anualizada base 252 (% a.a.)",
+   "arquivo": "dados/brutos/sgs-4189.json",
+   "registros": 483
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4390 Selic acumulada no mês (% a.m.)",
+   "arquivo": "dados/brutos/sgs-4390.json",
+   "registros": 483
+  },
+  {
+   "grupo": "sgs",
+   "nome": "12 CDI diário (% a.d.)",
+   "arquivo": "dados/brutos/sgs-12.json",
+   "registros": 10173
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4391 CDI acumulado no mês (% a.m.)",
+   "arquivo": "dados/brutos/sgs-4391.json",
+   "registros": 483
+  },
+  {
+   "grupo": "sgs",
+   "nome": "433 IPCA, variação mensal (%)",
+   "arquivo": "dados/brutos/sgs-433.json",
+   "registros": 561
+  },
+  {
+   "grupo": "sgs",
+   "nome": "13522 IPCA, variação acumulada em 12 meses (%)",
+   "arquivo": "dados/brutos/sgs-13522.json",
+   "registros": 550
+  },
+  {
+   "grupo": "sgs",
+   "nome": "11428 IPCA, itens livres, variação mensal (%)",
+   "arquivo": "dados/brutos/sgs-11428.json",
+   "registros": 429
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4449 IPCA, preços monitorados, variação mensal (%)",
+   "arquivo": "dados/brutos/sgs-4449.json",
+   "registros": 429
+  },
+  {
+   "grupo": "sgs",
+   "nome": "1635 IPCA, alimentação e bebidas, variação mensal (%) (conferir)",
+   "arquivo": "dados/brutos/sgs-1635.json",
+   "registros": 428
+  },
+  {
+   "grupo": "sgs",
+   "nome": "10844 IPCA, serviços, variação mensal (%) (conferir)",
+   "arquivo": "dados/brutos/sgs-10844.json",
+   "registros": 429
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4447 IPCA, comercializáveis, variação mensal (%) (conferir)",
+   "arquivo": "dados/brutos/sgs-4447.json",
+   "registros": 429
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4448 IPCA, não comercializáveis, variação mensal (%) (conferir)",
+   "arquivo": "dados/brutos/sgs-4448.json",
+   "registros": 429
+  },
+  {
+   "grupo": "sgs",
+   "nome": "11426 IPCA, núcleo por exclusão EX0, variação mensal (%) (conferir)",
+   "arquivo": "dados/brutos/sgs-11426.json",
+   "registros": 429
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4466 IPCA, núcleo médias aparadas com suavização, variação mensal (%) (conferir)",
+   "arquivo": "dados/brutos/sgs-4466.json",
+   "registros": 418
+  },
+  {
+   "grupo": "sgs",
+   "nome": "189 IGP-M, variação mensal (%)",
+   "arquivo": "dados/brutos/sgs-189.json",
+   "registros": 449
+  },
+  {
+   "grupo": "sgs",
+   "nome": "1 Dólar comercial PTAX venda, diário (R$/US$)",
+   "arquivo": "dados/brutos/sgs-1.json",
+   "registros": 10506
+  },
+  {
+   "grupo": "sgs",
+   "nome": "3698 Dólar PTAX venda, média mensal (R$/US$)",
+   "arquivo": "dados/brutos/sgs-3698.json",
+   "registros": 561
+  },
+  {
+   "grupo": "sgs",
+   "nome": "11752 Taxa de câmbio real efetiva, IPCA, índice jun/1994=100",
+   "arquivo": "dados/brutos/sgs-11752.json",
+   "registros": 343
+  },
+  {
+   "grupo": "sgs",
+   "nome": "3546 Reservas internacionais, conceito liquidez, mensal (US$ milhões)",
+   "arquivo": "dados/brutos/sgs-3546.json",
+   "registros": 561
+  },
+  {
+   "grupo": "sgs",
+   "nome": "13762 Dívida bruta do governo geral, % do PIB (conceito BCB)",
+   "arquivo": "dados/brutos/sgs-13762.json",
+   "registros": 238
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4513 Dívida líquida do setor público consolidado, % do PIB",
+   "arquivo": "dados/brutos/sgs-4513.json",
+   "registros": 298
+  },
+  {
+   "grupo": "sgs",
+   "nome": "5793 NFSP primária do setor público consolidado, 12 meses, % do PIB",
+   "arquivo": "dados/brutos/sgs-5793.json",
+   "registros": 287
+  },
+  {
+   "grupo": "sgs",
+   "nome": "5727 NFSP nominal do setor público consolidado, 12 meses, % do PIB",
+   "arquivo": "dados/brutos/sgs-5727.json",
+   "registros": 287
+  },
+  {
+   "grupo": "sgs",
+   "nome": "5839 NFSP juros nominais do setor público consolidado, 12 meses, % do PIB (conferir)",
+   "arquivo": "dados/brutos/sgs-5839.json",
+   "registros": 121
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4382 PIB acumulado dos últimos 12 meses, valores correntes (R$ milhões)",
+   "arquivo": "dados/brutos/sgs-4382.json",
+   "registros": 440
+  },
+  {
+   "grupo": "sgs",
+   "nome": "4380 PIB mensal, valores correntes (R$ milhões)",
+   "arquivo": "dados/brutos/sgs-4380.json",
+   "registros": 440
+  },
+  {
+   "grupo": "sgs",
+   "nome": "24364 IBC-Br com ajuste sazonal, índice",
+   "arquivo": "dados/brutos/sgs-24364.json",
+   "registros": 284
+  },
+  {
+   "grupo": "sgs",
+   "nome": "20539 Saldo da carteira de crédito, total (R$ milhões)",
+   "arquivo": "dados/brutos/sgs-20539.json",
+   "registros": 460
+  },
+  {
+   "grupo": "sgs",
+   "nome": "20593 Saldo da carteira de crédito com recursos direcionados, total (R$ milhões)",
+   "arquivo": "dados/brutos/sgs-20593.json",
+   "registros": 235
+  },
+  {
+   "grupo": "sgs",
+   "nome": "20542 Saldo da carteira de crédito com recursos livres, total (R$ milhões) (conferir)",
+   "arquivo": "dados/brutos/sgs-20542.json",
+   "registros": 235
+  },
+  {
+   "grupo": "sgs",
+   "nome": "20783 Spread médio das operações de crédito, total (p.p.)",
+   "arquivo": "dados/brutos/sgs-20783.json",
+   "registros": 187
+  },
+  {
+   "grupo": "sgs",
+   "nome": "20714 Taxa média de juros das operações de crédito, total (% a.a.) (conferir)",
+   "arquivo": "dados/brutos/sgs-20714.json",
+   "registros": 187
+  },
+  {
+   "grupo": "sgs",
+   "nome": "27815 Base monetária, saldo em fim de período (R$ mil) (conferir)",
+   "arquivo": "dados/brutos/sgs-27815.json",
+   "registros": 298
+  },
+  {
+   "grupo": "sgs",
+   "nome": "28964 Base monetária ampliada, depósitos voluntários remunerados, saldo (conferir)",
+   "arquivo": "dados/brutos/sgs-28964.json",
+   "registros": 60
+  },
+  {
+   "grupo": "sgs",
+   "nome": "1178 Taxa de juros de longo prazo, TJLP (% a.a.) (conferir)",
+   "arquivo": "dados/brutos/sgs-1178.json",
+   "registros": 10131
+  },
+  {
+   "grupo": "sgs",
+   "nome": "24369 Taxa de desocupação, PNAD Contínua (%) (conferir)",
+   "arquivo": "dados/brutos/sgs-24369.json",
+   "registros": 175
+  },
+  {
+   "grupo": "sgs",
+   "nome": "7326 PIB, variação real anual (%) (conferir)",
+   "arquivo": "dados/brutos/sgs-7326.json",
+   "registros": 46
+  },
+  {
+   "grupo": "focus",
+   "nome": "anuais_ipca",
+   "arquivo": "dados/brutos/focus-anuais_ipca.json",
+   "registros": 40000
+  },
+  {
+   "grupo": "focus",
+   "nome": "anuais_selic",
+   "arquivo": "dados/brutos/focus-anuais_selic.json",
+   "registros": 39632
+  },
+  {
+   "grupo": "focus",
+   "nome": "anuais_pib",
+   "arquivo": "dados/brutos/focus-anuais_pib.json",
+   "registros": 39780
+  },
+  {
+   "grupo": "focus",
+   "nome": "inflacao_12m",
+   "arquivo": "dados/brutos/focus-inflacao_12m.json",
+   "registros": 18938
+  },
+  {
+   "grupo": "sidra",
+   "nome": "pib_trimestral_correntes",
+   "arquivo": "dados/brutos/sidra-pib_trimestral_correntes.json",
+   "registros": 2806
+  },
+  {
+   "grupo": "sidra",
+   "nome": "pib_trimestral_volume",
+   "arquivo": "dados/brutos/sidra-pib_trimestral_volume.json",
+   "registros": 2684
+  },
+  {
+   "grupo": "sidra",
+   "nome": "pib_trimestral_taxas",
+   "arquivo": "dados/brutos/sidra-pib_trimestral_taxas.json",
+   "registros": 10736
+  },
+  {
+   "grupo": "sidra",
+   "nome": "ipca_grupos_2020_hoje",
+   "arquivo": "dados/brutos/sidra-ipca_grupos_2020_hoje.json",
+   "registros": 2430
+  },
+  {
+   "grupo": "sidra",
+   "nome": "ipca_grupos_2012_2019",
+   "arquivo": "dados/brutos/sidra-ipca_grupos_2012_2019.json",
+   "registros": 2880
+  },
+  {
+   "grupo": "sidra",
+   "nome": "pnad_desocupacao",
+   "arquivo": "dados/brutos/sidra-pnad_desocupacao.json",
+   "registros": 58
+  },
+  {
+   "grupo": "sidra",
+   "nome": "pnad_rendimento_real",
+   "arquivo": "dados/brutos/sidra-pnad_rendimento_real.json",
+   "registros": 50
+  },
+  {
+   "grupo": "scn",
+   "nome": "PIBReal_1947_2023.xls",
+   "arquivo": "dados/brutos/scn/PIBReal_1947_2023.xls",
+   "registros": 552448
+  },
+  {
+   "grupo": "scn",
+   "nome": "PIBReal_1947_2023.ods",
+   "arquivo": "dados/brutos/scn/PIBReal_1947_2023.ods",
+   "registros": 192573
+  },
+  {
+   "grupo": "tesouro",
+   "nome": "detentores",
+   "arquivo": "dados/brutos/tesouro-busca-detentores.json",
+   "registros": 0
+  },
+  {
+   "grupo": "tesouro",
+   "nome": "divida publica federal estoque",
+   "arquivo": "dados/brutos/tesouro-busca-divida-publica-federal-estoque.json",
+   "registros": 21
+  },
+  {
+   "grupo": "tesouro",
+   "nome": "relatorio mensal da divida",
+   "arquivo": "dados/brutos/tesouro-busca-relatorio-mensal-da-divida.json",
+   "registros": 18
+  },
+  {
+   "grupo": "tesouro",
+   "nome": "resultado do tesouro nacional",
+   "arquivo": "dados/brutos/tesouro-busca-resultado-do-tesouro-nacional.json",
+   "registros": 29
+  },
+  {
+   "grupo": "bis",
+   "nome": "politica_monetaria",
+   "arquivo": "dados/brutos/bis-politica_monetaria.csv",
+   "registros": 7063
+  },
+  {
+   "grupo": "bis",
+   "nome": "cpi",
+   "arquivo": "dados/brutos/bis-cpi.csv",
+   "registros": 11038
+  }
+ ],
+ "falhas": [
+  {
+   "grupo": "sidra",
+   "nome": "ipca_grupos_2006_2011",
+   "url": "https://apisidra.ibge.gov.br/values/t/2938/n1/all/v/63,66,2265/p/all/c315/7169,7170,7445,7486,7558,7625,7660,7712,7766,7786",
+   "erro": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  {
+   "grupo": "ipea",
+   "nome": "estoque liquido de capital fixo",
+   "url": "http://www.ipeadata.gov.br/api/odata4/Metadados?$filter=contains%28SERNOME%2C%27estoque%20liquido%20de%20capital%20fixo%27%29&$format=json",
+   "erro": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  {
+   "grupo": "ipea",
+   "nome": "taxa de investimento",
+   "url": "http://www.ipeadata.gov.br/api/odata4/Metadados?$filter=contains%28SERNOME%2C%27taxa%20de%20investimento%27%29&$format=json",
+   "erro": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  {
+   "grupo": "ipea",
+   "nome": "capital fixo",
+   "url": "http://www.ipeadata.gov.br/api/odata4/Metadados?$filter=contains%28SERNOME%2C%27capital%20fixo%27%29&$format=json",
+   "erro": "HTTPError: HTTP Error 400: Bad Request"
+  }
+ ],
+ "diagnostico": {
+  "api.bcb.gov.br": 0,
+  "apisidra.ibge.gov.br": 0,
+  "ftp.ibge.gov.br": 0,
+  "olinda.bcb.gov.br": 0,
+  "stats.bis.org": 1,
+  "www.tesourotransparente.gov.br": 0
+ },
+ "fim": "2026-11-02T12:25:40Z"
+}

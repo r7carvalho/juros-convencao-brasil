@@ -1,0 +1,470 @@
+{
+ "fonte": "Tesouro Transparente (CKAN)",
+ "url_api": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q=relatorio%20mensal%20da%20divida",
+ "coleta": "2026-11-02T12:16:55Z",
+ "pacotes": [
+  {
+   "nome": "relatorios-da-divida-contratual-da-uniao",
+   "titulo": "Relatórios da Dívida Contratual da União",
+   "recursos": [
+    {
+     "nome": "Relatorio Estoque Apropriacao Detalhado 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/3156910c-7530-4a76-bb2c-61973b4147c5/download/relatorio-estoque-apropriacao-detalhado.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque Apropriacao 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/16f978b6-55f4-4175-856d-b63e4865f6d3/download/relatorio-estoque-apropriacao.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque TIR 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/375f3d7f-4069-4410-9908-c7e7889d530a/download/relatorio-estoque-tir.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Informacoes Contratuais 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/7b35899b-7869-4614-a5d2-fda57f809e19/download/relatorio-informacoes-contratuais.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Informacoes Financeiras 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/e236ffe5-9c1b-4017-aaca-fc76b764494e/download/relatorio-informacoes-financeiras.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque Apropriacao Detalhado 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/fc4b655b-2730-4d50-8494-187246d8149e/download/relatorio-estoque-apropriacao-detalhado.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque Apropriacao 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/d9331cdc-9300-46a7-b6a5-97a53d80768c/download/relatorio-estoque-apropriacao.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque TIR 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/b3547b30-959d-4cb3-b540-428aedfdea70/download/relatorio-estoque-tir.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Informacoes Contratuais 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/fb489a9c-8ef0-4924-8ed4-a39534cc893f/download/relatorio-informacoes-contratuais.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Informacoes Financeiras 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/4b96ba28-fdf4-40ea-b4b9-eaffe6ef610b/download/relatorio-informacoes-financeiras.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "estoque-da-divida-publica-federal",
+   "titulo": "Estoque da Dívida Pública Federal",
+   "recursos": [
+    {
+     "nome": "Metadados - Estoque da DPF",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0998f610-bc25-4ce3-b32c-a873447500c2/resource/f91de38e-dff5-4a18-b13d-871583c7655e/download/metadados---estoque-da-dpf.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Estoque da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0998f610-bc25-4ce3-b32c-a873447500c2/resource/0402cb77-5e4c-4414-966f-0e87d802a29a/download/estoque-da-divida-publica-federal.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Estoque da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0998f610-bc25-4ce3-b32c-a873447500c2/resource/b6280ed3-ef7e-4569-954a-bded97c2c8a1/download/estoquedpf.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "api-rgf-entes",
+   "titulo": "Relatório de Gestão Fiscal (RGF) dos Entes da Federação",
+   "recursos": [
+    {
+     "nome": "API Dados Abertos - RGF",
+     "url": "http://apidatalake.tesouro.gov.br/docs/siconfi/#/RGF/get_rgf",
+     "formato": "API"
+    },
+    {
+     "nome": "Metadados RGF",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/2f40b888-0292-4467-83c9-23854c06ded9/resource/8f2ce080-b11a-4363-af19-4e3a2209d91b/download/metadadosrgf.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "relatorios-de-encerramento-de-programas",
+   "titulo": "Relatórios de Encerramento de Programas",
+   "recursos": [
+    {
+     "nome": "Relatório de Encerramento - Clube de Paris",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/e8eb9f31-220f-4e30-9d0d-26a3e2ffcd48/resource/86374e36-1dac-49f7-8fdb-0e42cc1edd54/download/clube-de-paris---relatorio-de-encerramento.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Relatório de Encerramento - BEA",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/e8eb9f31-220f-4e30-9d0d-26a3e2ffcd48/resource/284297b8-753e-4a1c-adfe-c424a39721d5/download/bea---relatorio-de-encerramento.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Relatório de Encerramento - FUNDEF",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/e8eb9f31-220f-4e30-9d0d-26a3e2ffcd48/resource/9b218448-76c7-4db3-a117-a4c364b0a932/download/fundef---relatorio-de-encerramento.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Relatório de Encerramento - Lei 7976",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/e8eb9f31-220f-4e30-9d0d-26a3e2ffcd48/resource/26c14a05-a195-4579-8701-26683939693a/download/lei-n-7976---relatorio-de-encerramento.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Relatório de Encerramento - PMSS",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/e8eb9f31-220f-4e30-9d0d-26a3e2ffcd48/resource/eea6774d-8407-44c9-943b-0e6ddc4dc9c7/download/pmss---relatorio-de-encerramento.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Relatório de Encerramento - USAID",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/e8eb9f31-220f-4e30-9d0d-26a3e2ffcd48/resource/c3ca262f-06e2-4c60-9887-f009dfd1fe9c/download/usaid---reiatorio-de-encerrramento.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "limites-da-lrf-para-a-uniao-divida-consolidada-liquida-da-uniao",
+   "titulo": "Limites da LRF para a União: Dívida Consolidada Líquida da União",
+   "recursos": [
+    {
+     "nome": "Metadados - Limites da LRF para a União - Dívida Consolidada Líquida",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/d71b6e17-dec9-4c50-8156-7b82c0b7d116/download/metadados---limites-da-lrf-para-a-uniao---divida-consolidada-liquida.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Dívida Consolidada Líquida da União - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/90adbb1e-2d22-4398-ac09-29145b4cc89d/download/limites-da-lrf-para-a-uniao---divida-consolidada-liquida.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "ds018",
+   "titulo": "Emissões Diretas de Títulos da Dívida Pública Mobiliária Federal interna - DPMFi",
+   "recursos": [
+    {
+     "nome": "Metadados - Emissões Diretas de Títulos da Dívida Pública Mobiliária interna - DPMFi",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9a5c6b80-4498-4ce9-af8d-4cd645aaefaf/resource/400b9afb-e362-4e7f-b6f3-adbb39669722/download/metadados---emissoes-diretas-de-titulos-da-dpmfiretirado-do-tt.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Emissões Diretas de Títulos da Dívida Pública Mobiliária interna - DPMFi",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9a5c6b80-4498-4ce9-af8d-4cd645aaefaf/resource/21f43863-60e9-494f-b519-99ded89a1730/download/emissoes-diretas-de-titulos-da-dpmfi.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "Emissões Diretas de Títulos da Dívida Pública Mobiliária Federal interna - DPMFi",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9a5c6b80-4498-4ce9-af8d-4cd645aaefaf/resource/9cc06ab7-6701-40bd-acd6-6c8639d35715/download/emissoes-diretas-de-titulos-da-dpmfi.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "emissoes-e-resgates-divida-publica-federal",
+   "titulo": "Emissões e Resgates - Dívida Pública Federal",
+   "recursos": [
+    {
+     "nome": "Metadados - Emissões e Resgates da DPF",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/48a31b6b-034a-473b-be7d-228be30437a1/resource/8bd48230-db6e-4e6b-8001-9117540ea32f/download/metadadosemissoeseresgatesdadpf.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Emissões e Resgates da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/48a31b6b-034a-473b-be7d-228be30437a1/resource/bf69babd-ac07-40ce-90ff-c8e07ec8c8bf/download/emissoes-e-resgates---divida-publica-federal.xlsx",
+     "formato": "XLSX"
+    }
+   ]
+  },
+  {
+   "nome": "api-extrato-entes",
+   "titulo": "Extrato de Entregas dos Entes da Federação",
+   "recursos": [
+    {
+     "nome": "API Dados Abertos - Extrato de Entregas",
+     "url": "http://apidatalake.tesouro.gov.br/docs/siconfi/#/Extrato%20de%20Entregas/get_extrato_entregas",
+     "formato": "API"
+    },
+    {
+     "nome": "Metadados Extrato de Entregas",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/7c4dc876-2151-4d07-ac5f-9ee128637aca/resource/171d3640-2357-4651-b91c-4eb059af78da/download/metadadosextratoentregas.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "api-msc-patrimonial-entes",
+   "titulo": "Informações Patrimoniais da Matriz de Saldos Contábeis (MSC) dos Entes da Federação",
+   "recursos": [
+    {
+     "nome": "API Dados Abertos - MSC Patrimonial",
+     "url": "http://apidatalake.tesouro.gov.br/docs/siconfi/#/MSC%20-%20Patrimonial/get_msc_patrimonial",
+     "formato": "API"
+    },
+    {
+     "nome": "Metadados MSC Patrimonial",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0acb4523-7664-4a7c-90f8-52e098de4b86/resource/e9d64440-7a44-47f0-8457-06e4afadcc45/download/metadadosmscpatrimonial.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "limites-da-lrf-para-a-uniao-garantias-concedidas",
+   "titulo": "Limites da LRF para a União: Garantias Concedidas",
+   "recursos": [
+    {
+     "nome": "Metadados - Limites da LRF para a União - Concessão de Garantias",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/7e848b37-6d2a-487e-b306-083496446989/resource/c927fe0b-2b9a-4537-8d87-c6b73b1422a1/download/metadados---limites-da-lrf-para-a-uniao---concessao-de-garantias.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Garantias Concedidas - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/7e848b37-6d2a-487e-b306-083496446989/resource/3450f844-af95-4720-b79c-6d73fd58936b/download/limites-da-lrf-para-a-uniao---concessao-de-garantias.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "saldos-e-fluxos-de-recebimentos-dos-haveres-da-uniao-excetos-os-relacionados-a-entes-federacao",
+   "titulo": "Saldos e Fluxos de Recebimentos dos Haveres da União, Excetos os Relacionados a Entes da Federação",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/b68e2618-a8c3-44dd-9001-74f95a1a3839/resource/5d9f0256-fa5c-41af-bd66-9a8ef52af37a/download/metadadoshaverescofis.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Saldos e Fluxos de Recebimentos dos Haveres da União, exceto os Relacionados a Entes da Federação",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/b68e2618-a8c3-44dd-9001-74f95a1a3839/resource/18415ca3-7c73-44d2-8e2e-a26f57df9638/download/tesouro-transparente-haveres-cofi-recebimentos-e-saldos-2018atualizado-ate-31102018.xlsx",
+     "formato": "XLSX"
+    }
+   ]
+  },
+  {
+   "nome": "limites-da-lrf-para-a-uniao-despesas-com-pessoal-do-poder-executivo-federal",
+   "titulo": "Limites da LRF para a União: Despesas com Pessoal do Poder Executivo Federal",
+   "recursos": [
+    {
+     "nome": "Metadados - Limites da LRF para a União Despesas com Pessoal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a49d6433-ab0b-41d2-bf79-4d16973831f3/resource/ccbabe2c-6929-49fb-aca4-482e91572b1f/download/metadados-limites-da-lrf-para-a-uniao-despesas-com-pessoal.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Despesas com Pessoal do Poder Executivo Federal - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a49d6433-ab0b-41d2-bf79-4d16973831f3/resource/92580d1e-0e30-45c9-9aa1-7a05586a30da/download/limites-da-lrf-para-a-uniao---despesas-com-pessoal.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "dcl-estados-2000-2014",
+   "titulo": "Dívida consolidada líquida dos estados e do DF, de 2000 a 2014",
+   "recursos": [
+    {
+     "nome": "Dívida Consolidada Líquida",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d6b967d-1bc5-4f80-92ba-05e4498c111a/resource/b2c8aa27-5551-41de-82cb-c325e87550cc/download/estados-dcl.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Receita Corrente Líquida dos Estados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d6b967d-1bc5-4f80-92ba-05e4498c111a/resource/c0243b86-7e94-4c2c-ab70-df6f5e8cb8cf/download/estados-rcl.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relação Dívida Consolidada Líquida sobre Receita Corrente Líquida dos Estados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d6b967d-1bc5-4f80-92ba-05e4498c111a/resource/46fb732d-0182-45a9-8672-8c824be72fb7/download/estados-dcl-sobre-rcl.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d6b967d-1bc5-4f80-92ba-05e4498c111a/resource/8f6a695e-f46d-442e-9570-95e43f88bc09/download/metadados.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "limites-lrf-uniao",
+   "titulo": "Limites da LRF para a União: Contratação de Operações de Crédito",
+   "recursos": [
+    {
+     "nome": "Operações de Crédito - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/1e871e16-3511-47de-bf4f-8b1ac90d63f1/resource/9721126b-6b97-42fa-adbd-53a9f037e3a3/download/limites-da-lrf-para-a-uniao---operacoes-de-credito.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Visão Geral do Cumprimento dos Limites - 3º quadrimestre de 2015",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/1e871e16-3511-47de-bf4f-8b1ac90d63f1/resource/fbf47ded-a1d7-4e1c-ad68-af0fd05ae36f/download/rgf-visao-geral-3-quadrimestre-2015.png",
+     "formato": "PNG"
+    },
+    {
+     "nome": "Metadados - Limites da LRF para a União - Operações de Crédito",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/1e871e16-3511-47de-bf4f-8b1ac90d63f1/resource/828bb488-644a-4f72-9f82-80004c713b17/download/metadados---limites-da-lrf-para-a-uniao---operacoes-de-credito.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "condicoes-financeiras-dos-haveres-da-uniao",
+   "titulo": "Condições Financeiras dos Haveres da União em Programas de Estados, Municípios e Demais Mutuários Relacionados",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/e3c81f0c-2f3f-47cc-90d2-4f03ce6bf26e/resource/e929eba2-d3fe-4aa6-907b-e6315fa56c2e/download/metadados.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Histórico, informações e condições financeiras",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/e3c81f0c-2f3f-47cc-90d2-4f03ce6bf26e/resource/41633a17-4ef1-448a-b040-c99e423234d8/download/site-tesouro-transparente.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "resultado-do-tesouro-nacional",
+   "titulo": "Resultado do Tesouro Nacional - Série Histórica",
+   "recursos": [
+    {
+     "nome": "Resultado do Tesouro Nacional - Série Histórica - Mensal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/ab56485b-9c40-4efb-8563-9ce3e1973c4b/resource/527ccdb1-3059-42f3-bf23-b5e3ab4c6dc6/download/seriehistoricajul26.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Dicionário de Conceitos e Metodologia de Cálculo",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/ab56485b-9c40-4efb-8563-9ce3e1973c4b/resource/7a535375-4e15-4ebb-bb49-25daf05330bb/download/metadados---nfgc.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/ab56485b-9c40-4efb-8563-9ce3e1973c4b/resource/aaf7f695-9370-46ae-9d7c-1d5cb28b1db4/download/metadados-serie-rtn.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "API Séries Temporais",
+     "url": "https://apiapex.tesouro.gov.br/aria/v1/series-temporais/docs",
+     "formato": "API"
+    },
+    {
+     "nome": "API Séries Temporais",
+     "url": "https://apiapex.tesouro.gov.br/aria/v1/series-temporais/docs",
+     "formato": ""
+    }
+   ]
+  },
+  {
+   "nome": "siafi-relatorio-unidades-gestoras",
+   "titulo": "Unidades Gestoras Cadastradas no Sistema Integrado de Administração Financeira - SIAFI",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/54a699f4-55e3-41cc-a900-27c123545472/resource/dd34918b-572a-4fc2-8bb4-a872e6292650/download/metadadosug.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Unidades Gestoras cadastradas no Sistema Integrado de Administração Financeira - SIAFI",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/54a699f4-55e3-41cc-a900-27c123545472/resource/7b83145e-6dc5-4ad2-9730-77132188eb2f/download/siafirelatoriounidadesgestoras.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Unidades Gestoras cadastradas no Sistema Integrado de Administra§¥o Financeira - SIAFI",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/54a699f4-55e3-41cc-a900-27c123545472/resource/49a9331b-43f3-4a70-a85f-b473c34c208f/download/siafirelatoriounidadesgestoras.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "saldos-devedores-e-fluxo-de-recebimentos-de-haveres-financeiros-por-programa",
+   "titulo": "Saldos devedores e fluxo de recebimentos de haveres financeiros - Por Programa",
+   "recursos": [
+    {
+     "nome": "Metadados - Saldos Devedores e fluxos de recebimentos - Por Programa",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/9d309086-01d1-437c-b931-c6786f5a0712/download/metadados---por-programa.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2006",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/a7f48f79-7710-4ce4-83f4-29b293d80028/download/saldos-e-recebimentos---por-programa---2006.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2007",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/34d1419c-56cf-4185-b5d0-ae812474d593/download/saldos-e-recebimentos---por-programa---2007.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2008",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/dd37c281-b3e5-4e3c-aff4-d16774104f7e/download/saldos-e-recebimentos---por-programa---2008.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2009",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/41e8088f-e50f-441a-9261-c27858018ef7/download/saldos-e-recebimentos---por-programa---2009.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2010",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/a35cdd4b-c201-4221-a23d-0e3973c9e35a/download/saldos-e-recebimentos---por-programa---2010.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2011",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/24385f17-664a-47a6-9b13-d35d9c4a428b/download/saldos-e-recebimentos---por-programa---2011.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2012",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/112d9b18-c042-48ac-84e9-c3a2b2268978/download/saldos-e-recebimentos---por-programa---2012.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2013",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/98294035-d7d0-48ad-a2d2-6d8713bc76d8/download/saldos-e-recebimentos---por-programa---2013.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2014",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/f379c5a5-5f08-459f-b702-d2d5202efefd/download/saldos-e-recebimentos---por-programa---2014.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2015",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/25fc7d84-713b-4c8a-a85b-cc82bc5ae786/download/saldos-e-recebimentos---por-programa---2015.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2016",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/8e119ab2-77cb-43e7-8e0e-5fa9b3cf45b6/download/saldos-e-recebimentos---por-programa---2016.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/4214f09d-d5e4-4a2f-9a21-a175f829f143/download/saldos-e-recebimentos---por-programa---2017.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/f4660c1e-d03a-4ed6-a387-dfae459c8a2a/download/saldos-e-recebimentos---por-programa---2018.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos e Recebimentos - Por Programa - 2019",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/e086a932-a0f4-450c-a6d3-cd6454dd8d23/download/saldos-e-recebimentos---por-programa---2019.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Saldos-e-Recebimentos---Por-Programa---2019",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4f26830e-d6f2-4266-9419-81e37ceb5f49/resource/31375374-eb8e-4677-ac19-569992a5ba85/download/saldos-e-recebimentos---por-programa---2019.xls",
+     "formato": "XLS"
+    }
+   ]
+  }
+ ]
+}

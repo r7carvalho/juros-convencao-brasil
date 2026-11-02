@@ -1,0 +1,548 @@
+{
+ "fonte": "Tesouro Transparente (CKAN)",
+ "url_api": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q=divida%20publica%20federal%20estoque",
+ "coleta": "2026-11-02T12:16:52Z",
+ "pacotes": [
+  {
+   "nome": "estoque-da-divida-publica-federal",
+   "titulo": "Estoque da Dívida Pública Federal",
+   "recursos": [
+    {
+     "nome": "Metadados - Estoque da DPF",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0998f610-bc25-4ce3-b32c-a873447500c2/resource/f91de38e-dff5-4a18-b13d-871583c7655e/download/metadados---estoque-da-dpf.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Estoque da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0998f610-bc25-4ce3-b32c-a873447500c2/resource/0402cb77-5e4c-4414-966f-0e87d802a29a/download/estoque-da-divida-publica-federal.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Estoque da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0998f610-bc25-4ce3-b32c-a873447500c2/resource/b6280ed3-ef7e-4569-954a-bded97c2c8a1/download/estoquedpf.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "fatores-de-variacao-da-divida-publica-federal",
+   "titulo": "Fatores de Variação da Dívida Pública Federal",
+   "recursos": [
+    {
+     "nome": "Metadados - Fatores de Variação da DPF",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/fc2ea6ab-2130-4525-98f6-8bf04407f7fe/resource/10ce700d-9bd4-48c1-9874-5dd506b4ce41/download/metadados---fatores-de-variacao-da-dpf.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Fatores de Variação da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/fc2ea6ab-2130-4525-98f6-8bf04407f7fe/resource/ef6a250b-75bf-44c7-8c9f-8a746b6f469e/download/fatores-de-variacao-da-divida-publica-federal.xlsx",
+     "formato": "XLSX"
+    }
+   ]
+  },
+  {
+   "nome": "estoque-da-divida-de-estados-e-do-distrito-federal",
+   "titulo": "Estoque da Dívida de Estados e do Distrito Federal",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0e763dcf-c7f9-4928-aa3d-61318de7141f/resource/7949a5a4-28d4-4bf0-bdfc-a5f0c4f88b81/download/metadados.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Estoque da Dívida - Por Credor",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0e763dcf-c7f9-4928-aa3d-61318de7141f/resource/f9a981c0-6281-43b2-9238-5270eacd4a77/download/relatorio-estoque-final.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "emissoes-e-resgates-divida-publica-federal",
+   "titulo": "Emissões e Resgates - Dívida Pública Federal",
+   "recursos": [
+    {
+     "nome": "Metadados - Emissões e Resgates da DPF",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/48a31b6b-034a-473b-be7d-228be30437a1/resource/8bd48230-db6e-4e6b-8001-9117540ea32f/download/metadadosemissoeseresgatesdadpf.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Emissões e Resgates da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/48a31b6b-034a-473b-be7d-228be30437a1/resource/bf69babd-ac07-40ce-90ff-c8e07ec8c8bf/download/emissoes-e-resgates---divida-publica-federal.xlsx",
+     "formato": "XLSX"
+    }
+   ]
+  },
+  {
+   "nome": "estoque-do-tesouro-direto",
+   "titulo": "Estoque do Tesouro Direto",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/ca43792c-5580-47d4-9eb5-fae55dce0ce0/download/estoquedotesourodireto-metadados.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Estoque do Tesouro Direto",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/650cdc18-0513-4bb1-9222-003ad1c11ac7/download/estoquetesourodireto.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "ds013",
+   "titulo": "Resultado dos leilões da Dívida Pública Mobiliária Federal Interna",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/402f46f7-51a2-474f-be54-ec0f258c83f6/resource/55249955-c606-4b0a-8cb1-2a3f5f684f15/download/metadados-leiloes-de-titulos.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Todos os resultados dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/todos/desc/historico-leiloes-todos.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2023 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2023.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2022 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2022.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2021 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2021.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2020 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2020.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2019 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2019.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2018 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2018.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2017 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2017.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2016 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2016.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2015 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2015.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2014 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2014.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2013 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2013.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2012 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2012.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2011 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2011.xls",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2010 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2010.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2009 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2009.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2008 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2008.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2007 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2007.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2006 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2006.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2005 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2005.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2004 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2004.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2003 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2003.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2002 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2002.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2001 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2001.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2000 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2000.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "2024 - Resultado dos leilões da DPMFi",
+     "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2024.xlsx",
+     "formato": "XLS"
+    }
+   ]
+  },
+  {
+   "nome": "ds012",
+   "titulo": "Emissões Soberanas da Dívida Pública Federal Externa",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9d056822-5049-4e50-92ee-1c5b61236007/resource/d14a288c-5bac-418d-8aa0-8a36990b2129/download/metadados-emissoes-soberanas.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Emissões soberanas da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9d056822-5049-4e50-92ee-1c5b61236007/resource/5054eac3-36cb-4487-b218-88108d80a930/download/emissoes-soberanas.xlsx",
+     "formato": "XLSX"
+    }
+   ]
+  },
+  {
+   "nome": "ds018",
+   "titulo": "Emissões Diretas de Títulos da Dívida Pública Mobiliária Federal interna - DPMFi",
+   "recursos": [
+    {
+     "nome": "Metadados - Emissões Diretas de Títulos da Dívida Pública Mobiliária interna - DPMFi",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9a5c6b80-4498-4ce9-af8d-4cd645aaefaf/resource/400b9afb-e362-4e7f-b6f3-adbb39669722/download/metadados---emissoes-diretas-de-titulos-da-dpmfiretirado-do-tt.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Emissões Diretas de Títulos da Dívida Pública Mobiliária interna - DPMFi",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9a5c6b80-4498-4ce9-af8d-4cd645aaefaf/resource/21f43863-60e9-494f-b519-99ded89a1730/download/emissoes-diretas-de-titulos-da-dpmfi.xlsx",
+     "formato": "XLS"
+    },
+    {
+     "nome": "Emissões Diretas de Títulos da Dívida Pública Mobiliária Federal interna - DPMFi",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9a5c6b80-4498-4ce9-af8d-4cd645aaefaf/resource/9cc06ab7-6701-40bd-acd6-6c8639d35715/download/emissoes-diretas-de-titulos-da-dpmfi.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "execucao-orcamentaria-e-financeira-da-divida-publica-federal-por-nd",
+   "titulo": "Execução Orçamentária e Financeira da Dívida Pública Federal por Natureza da Despesa",
+   "recursos": [
+    {
+     "nome": "Execução Orçamentária e Financeira da Dívida Pública Federal por Natureza da Despesa",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a95da98c-a4ab-46d5-aadb-3bb270377b85/resource/e493a494-ee39-4269-ab7e-a7cc859cf9cc/download/metadados---execucao-orcamentaria-e-financeira-da-divida-publica-federal-por-nd.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Execução Orçamentária e Financeira da Dívida Pública Federal por Natureza da Despesa",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a95da98c-a4ab-46d5-aadb-3bb270377b85/resource/1a389f7f-138d-450b-9c09-af05e1876229/download/execucao-orcamentaria-e-financeira-da-dpf-por-nd--2009-2026.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "execucao-orcamentaria-e-financeira-da-divida-publica-federal-por-fonte",
+   "titulo": "Execução Orçamentária e Financeira da Dívida Pública Federal por Fonte de Recursos",
+   "recursos": [
+    {
+     "nome": "Execução Orçamentária e Financeira da Dívida Pública Fedral por Fonte de Recuros",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/d48d8395-ed66-40ef-a3de-130563b9e841/resource/a318bc18-ca31-49c1-a2af-ecde9b1df9cf/download/metadados---execucao-orcamentaria-e-financeira-da-divida-publica-federal-por-fr.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Execução Orçamentária e Financeira da Dívida Pública Federal por Fonte de Recursos",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/d48d8395-ed66-40ef-a3de-130563b9e841/resource/0c7cf480-69a8-446c-9942-a01bd5abdd5a/download/execucao-orcamentaria-e-financeira-da-dpf-por-fonte-de-recursos---2009---2026.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "dotacao-orcamentaria-e-credito-empenhado-da-divida-publica-federal-por-fonte-de-recursos",
+   "titulo": "Dotação Orçamentária e Crédito Empenhado da Dívida Pública Federal por Fonte de Recursos",
+   "recursos": [
+    {
+     "nome": "Dotação Orçamentária e Crédito Empenhado da DPF por Fonte de Recursos",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a6992d78-150f-4dc6-9a4d-2b915bc60911/resource/2d964da2-eed7-49e8-b537-328f07a6d621/download/dotacao-e-execucao-orcamentaria-por-fonte-de-recursos.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Dotação Orçamentária e Crédito Empenhado da DPF por Fonte de Recursos",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a6992d78-150f-4dc6-9a4d-2b915bc60911/resource/58384bfa-1f38-45f6-a8ee-3f13ccdbeade/download/dotacao-orcamentaria-e-credito-empenhado-da-dpf-por-fonte-de-recursos--2015-2026.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "relatorios-da-divida-contratual-da-uniao",
+   "titulo": "Relatórios da Dívida Contratual da União",
+   "recursos": [
+    {
+     "nome": "Relatorio Estoque Apropriacao Detalhado 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/3156910c-7530-4a76-bb2c-61973b4147c5/download/relatorio-estoque-apropriacao-detalhado.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque Apropriacao 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/16f978b6-55f4-4175-856d-b63e4865f6d3/download/relatorio-estoque-apropriacao.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque TIR 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/375f3d7f-4069-4410-9908-c7e7889d530a/download/relatorio-estoque-tir.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Informacoes Contratuais 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/7b35899b-7869-4614-a5d2-fda57f809e19/download/relatorio-informacoes-contratuais.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Informacoes Financeiras 2017",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/e236ffe5-9c1b-4017-aaca-fc76b764494e/download/relatorio-informacoes-financeiras.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque Apropriacao Detalhado 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/fc4b655b-2730-4d50-8494-187246d8149e/download/relatorio-estoque-apropriacao-detalhado.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque Apropriacao 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/d9331cdc-9300-46a7-b6a5-97a53d80768c/download/relatorio-estoque-apropriacao.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Estoque TIR 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/b3547b30-959d-4cb3-b540-428aedfdea70/download/relatorio-estoque-tir.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Informacoes Contratuais 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/fb489a9c-8ef0-4924-8ed4-a39534cc893f/download/relatorio-informacoes-contratuais.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Relatorio Informacoes Financeiras 2018",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f74417fc-7943-4022-abb6-44ea967815e3/resource/4b96ba28-fdf4-40ea-b4b9-eaffe6ef610b/download/relatorio-informacoes-financeiras.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "limites-da-lrf-para-a-uniao-divida-consolidada-liquida-da-uniao",
+   "titulo": "Limites da LRF para a União: Dívida Consolidada Líquida da União",
+   "recursos": [
+    {
+     "nome": "Metadados - Limites da LRF para a União - Dívida Consolidada Líquida",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/d71b6e17-dec9-4c50-8156-7b82c0b7d116/download/metadados---limites-da-lrf-para-a-uniao---divida-consolidada-liquida.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Dívida Consolidada Líquida da União - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/90adbb1e-2d22-4398-ac09-29145b4cc89d/download/limites-da-lrf-para-a-uniao---divida-consolidada-liquida.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "limites-da-lrf-para-a-uniao-despesas-com-pessoal-do-poder-executivo-federal",
+   "titulo": "Limites da LRF para a União: Despesas com Pessoal do Poder Executivo Federal",
+   "recursos": [
+    {
+     "nome": "Metadados - Limites da LRF para a União Despesas com Pessoal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a49d6433-ab0b-41d2-bf79-4d16973831f3/resource/ccbabe2c-6929-49fb-aca4-482e91572b1f/download/metadados-limites-da-lrf-para-a-uniao-despesas-com-pessoal.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Despesas com Pessoal do Poder Executivo Federal - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a49d6433-ab0b-41d2-bf79-4d16973831f3/resource/92580d1e-0e30-45c9-9aa1-7a05586a30da/download/limites-da-lrf-para-a-uniao---despesas-com-pessoal.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "garantias-concedidas-em-operacoes-de-credito-internas",
+   "titulo": "Garantias Concedidas em Operações de Crédito Internas",
+   "recursos": [
+    {
+     "nome": "Metadados - Op Internas",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f8dfe745-4500-4b57-81d2-ba49307ae908/resource/e36663c0-8d1b-4be1-a6d8-0da45217d7fc/download/metadados---op-internas.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Concessão de Garantias Internas",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f8dfe745-4500-4b57-81d2-ba49307ae908/resource/282d64c5-7ab0-4f57-a88f-b79068c6b765/download/concessao-de-garantias-internas.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Concessão de Garantias Internas",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/f8dfe745-4500-4b57-81d2-ba49307ae908/resource/6b79c366-e0ce-4dfe-8e7d-fed2de351ed2/download/concessao-de-garantias-internas.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "resultado-do-tesouro-nacional",
+   "titulo": "Resultado do Tesouro Nacional - Série Histórica",
+   "recursos": [
+    {
+     "nome": "Resultado do Tesouro Nacional - Série Histórica - Mensal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/ab56485b-9c40-4efb-8563-9ce3e1973c4b/resource/527ccdb1-3059-42f3-bf23-b5e3ab4c6dc6/download/seriehistoricajul26.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Dicionário de Conceitos e Metodologia de Cálculo",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/ab56485b-9c40-4efb-8563-9ce3e1973c4b/resource/7a535375-4e15-4ebb-bb49-25daf05330bb/download/metadados---nfgc.xlsx",
+     "formato": "XLSX"
+    },
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/ab56485b-9c40-4efb-8563-9ce3e1973c4b/resource/aaf7f695-9370-46ae-9d7c-1d5cb28b1db4/download/metadados-serie-rtn.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "API Séries Temporais",
+     "url": "https://apiapex.tesouro.gov.br/aria/v1/series-temporais/docs",
+     "formato": "API"
+    },
+    {
+     "nome": "API Séries Temporais",
+     "url": "https://apiapex.tesouro.gov.br/aria/v1/series-temporais/docs",
+     "formato": ""
+    }
+   ]
+  },
+  {
+   "nome": "seriestemporaisdotesouronacional",
+   "titulo": "Séries Temporais do Tesouro Nacional",
+   "recursos": [
+    {
+     "nome": "Séries Temporais do Tesouro Nacional",
+     "url": "https://www.tesourotransparente.gov.br/visualizacao/series-temporais-do-tesouro-nacional",
+     "formato": "Visualização"
+    }
+   ]
+  },
+  {
+   "nome": "garantias-concedidas-em-operacoes-de-credito",
+   "titulo": "Garantias Concedidas em Operações de Crédito Externas",
+   "recursos": [
+    {
+     "nome": "Metadados - OP EXTERNAS",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/548288ed-0215-4509-af74-36c8256de31e/resource/e399aeb8-fb1b-4af1-b82b-42163078b8ec/download/metadados---op-externas.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Concessão de Garantias - EXTERNAS",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/548288ed-0215-4509-af74-36c8256de31e/resource/f460a427-ad1a-4073-b7e1-90306c05277d/download/concessao-de-garantias-externas.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Concessão de Garantias - EXTERNAS",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/548288ed-0215-4509-af74-36c8256de31e/resource/3b77dd79-6fbb-4187-aa2f-a9e0ac9e6d19/download/concessao-de-garantias-externas.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "contratos-para-financiamentos-de-projetos-aquisicao-de-bens-ou-servicos",
+   "titulo": "Contratos Para Financiamentos de Projetos, Aquisição de Bens ou Serviços",
+   "recursos": [
+    {
+     "nome": "Contratação Direta",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/cc6e3065-8a6a-4481-a545-bcb9b39ed208/resource/8e5a8e45-c1c9-4b4c-85fc-3dadc45e03d1/download/contratacao-direta---2010-a-2026.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Contratação Direta",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/cc6e3065-8a6a-4481-a545-bcb9b39ed208/resource/a4ee5f5e-917e-4e5a-8d2c-b2eba1b18fe2/download/contratacao-direta---2010-a-2026.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Metadados - Contratação Direta",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/cc6e3065-8a6a-4481-a545-bcb9b39ed208/resource/3eac346e-cb92-4314-8d7e-5991ccb7804c/download/contratacao-direta---2010-a-2024.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "limites-da-lrf-para-a-uniao-garantias-concedidas",
+   "titulo": "Limites da LRF para a União: Garantias Concedidas",
+   "recursos": [
+    {
+     "nome": "Metadados - Limites da LRF para a União - Concessão de Garantias",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/7e848b37-6d2a-487e-b306-083496446989/resource/c927fe0b-2b9a-4537-8d87-c6b73b1422a1/download/metadados---limites-da-lrf-para-a-uniao---concessao-de-garantias.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Garantias Concedidas - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/7e848b37-6d2a-487e-b306-083496446989/resource/3450f844-af95-4720-b79c-6d73fd58936b/download/limites-da-lrf-para-a-uniao---concessao-de-garantias.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "limites-lrf-uniao",
+   "titulo": "Limites da LRF para a União: Contratação de Operações de Crédito",
+   "recursos": [
+    {
+     "nome": "Operações de Crédito - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/1e871e16-3511-47de-bf4f-8b1ac90d63f1/resource/9721126b-6b97-42fa-adbd-53a9f037e3a3/download/limites-da-lrf-para-a-uniao---operacoes-de-credito.csv",
+     "formato": "CSV"
+    },
+    {
+     "nome": "Visão Geral do Cumprimento dos Limites - 3º quadrimestre de 2015",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/1e871e16-3511-47de-bf4f-8b1ac90d63f1/resource/fbf47ded-a1d7-4e1c-ad68-af0fd05ae36f/download/rgf-visao-geral-3-quadrimestre-2015.png",
+     "formato": "PNG"
+    },
+    {
+     "nome": "Metadados - Limites da LRF para a União - Operações de Crédito",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/1e871e16-3511-47de-bf4f-8b1ac90d63f1/resource/828bb488-644a-4f72-9f82-80004c713b17/download/metadados---limites-da-lrf-para-a-uniao---operacoes-de-credito.pdf",
+     "formato": "PDF"
+    }
+   ]
+  }
+ ]
+}
