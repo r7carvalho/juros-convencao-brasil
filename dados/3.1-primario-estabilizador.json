@@ -1,50 +1,50 @@
 {
- "titulo": "Superávit primário que estabiliza a dívida bruta, por hipótese de juro real (% do PIB)",
- "tipo": "barras",
- "unidade": "% do PIB",
- "fonte": "Cálculo da Frente J com p* = d(r − γ)/(1 + γ), d = 82,9% (ago/2026), γ = 2%; IFI, RAF 113 (jun/2026); BCB, NFSP primária do governo geral",
- "url": "https://www12.senado.leg.br/ifi/pdf/raf113_jun2026.pdf",
- "consulta": "2026-10-28",
- "nota": "'Taxas de 2025' usa juro implícito de 12,69% e PIB nominal de 8,14% sobre dívida de 78,6%. A última barra é o resultado observado do governo geral em 12 meses até ago/2026 (déficit).",
- "ref": [
-  {
-   "v": 0,
-   "rotulo": "equilíbrio primário"
-  }
- ],
- "series": [
-  {
-   "nome": "Primário",
-   "pontos": [
+  "titulo": "Superávit primário que estabiliza a dívida bruta, por hipótese de juro (% do PIB)",
+  "tipo": "barras",
+  "unidade": "% do PIB",
+  "fonte": "Cálculo do painel com s* = d(r − γ)/(1 + γ), d = 82,9% do PIB (ago/2026, BCB, SGS 13762) e γ = 2%; juro implícito de 2025 (12,55%) das Estatísticas Fiscais do BCB (fatores condicionantes da DBGG) e PIB nominal (SGS 4382); IFI, Relatório de Acompanhamento Fiscal nº 117 (29/10/2026); BCB, Estatísticas Fiscais, NFSP primária do governo geral",
+  "url": "https://www12.senado.leg.br/ifi",
+  "consulta": "2026-11-02",
+  "nota": "'Taxas de 2025' usa juro implícito de 12,55% (juros apropriados em 2025 ÷ estoque de dez/2024) e PIB nominal de +8,14% sobre a dívida de ago/2026 (82,9%); com a dívida de dez/2025 (78,6%) o número é 3,2%. A barra da IFI usa juro neutro de 6,1% e estabiliza a dívida no nível de dez/2025. A última barra é o resultado observado do governo geral em 12 meses até ago/2026 (déficit).",
+  "ref": [
     {
-     "t": "Juro real 4%",
-     "v": 1.6
-    },
-    {
-     "t": "Juro real 5%",
-     "v": 2.4
-    },
-    {
-     "t": "Juro real 6%",
-     "v": 3.3
-    },
-    {
-     "t": "Juro real 7%",
-     "v": 4.1
-    },
-    {
-     "t": "Taxas de 2025",
-     "v": 3.3
-    },
-    {
-     "t": "IFI (RAF 113)",
-     "v": 2.1
-    },
-    {
-     "t": "Observado, 12m até ago/2026",
-     "v": -0.56
+      "v": 0,
+      "rotulo": "equilíbrio primário"
     }
-   ]
-  }
- ]
+  ],
+  "series": [
+    {
+      "nome": "Primário",
+      "pontos": [
+        {
+          "t": "Juro real 4%",
+          "v": 1.6
+        },
+        {
+          "t": "Juro real 5%",
+          "v": 2.4
+        },
+        {
+          "t": "Juro real 6%",
+          "v": 3.3
+        },
+        {
+          "t": "Juro real 7%",
+          "v": 4.1
+        },
+        {
+          "t": "Taxas de 2025 (i 12,55%, d 82,9%)",
+          "v": 3.4
+        },
+        {
+          "t": "IFI (RAF 117, neutro 6,1%)",
+          "v": 2.9
+        },
+        {
+          "t": "Observado, 12m até ago/2026",
+          "v": -0.56
+        }
+      ]
+    }
+  ]
 }

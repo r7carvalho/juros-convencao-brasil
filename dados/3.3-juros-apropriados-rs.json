@@ -1,84 +1,84 @@
 {
- "titulo": "Juros nominais apropriados do setor público consolidado (R$ bilhões em 12 meses)",
- "tipo": "barras",
- "unidade": "R$ bi",
- "fonte": "BCB, NFSP nominal (SGS 5727) menos NFSP primária (SGS 5793), vezes o PIB de 12 meses (SGS 4382); cálculo da Frente K",
- "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json",
- "consulta": "2026-10-28",
- "nota": "Competência (juros que venceram no período, pagos ou não), setor público consolidado, inclui resultado das operações de swap cambial do BC. Valores nominais, sem descontar a inflação. Último ponto: 12 meses até agosto de 2026.",
- "series": [
-  {
-   "nome": "Juros nominais",
-   "pontos": [
+  "titulo": "Juros nominais apropriados do setor público consolidado (R$ bilhões em 12 meses)",
+  "tipo": "barras",
+  "unidade": "R$ bi",
+  "fonte": "BCB, NFSP nominal (SGS 5727) menos NFSP primária (SGS 5793), vezes o PIB de 12 meses (SGS 4382), setor público consolidado; consulta em 02/11/2026; cálculo do painel",
+  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json",
+  "consulta": "2026-11-02",
+  "nota": "Competência (juros que venceram no período, pagos ou não), setor público consolidado, inclui resultado das operações de swap cambial do BC. Valores nominais, sem descontar a inflação. Último ponto: 12 meses até agosto de 2026.",
+  "series": [
     {
-     "t": "2010",
-     "v": 195.5
-    },
-    {
-     "t": "2011",
-     "v": 236.8
-    },
-    {
-     "t": "2012",
-     "v": 213.8
-    },
-    {
-     "t": "2013",
-     "v": 249.0
-    },
-    {
-     "t": "2014",
-     "v": 311.5
-    },
-    {
-     "t": "2015",
-     "v": 501.2
-    },
-    {
-     "t": "2016",
-     "v": 407.5
-    },
-    {
-     "t": "2017",
-     "v": 401.1
-    },
-    {
-     "t": "2018",
-     "v": 378.9
-    },
-    {
-     "t": "2019",
-     "v": 367.2
-    },
-    {
-     "t": "2020",
-     "v": 312.0
-    },
-    {
-     "t": "2021",
-     "v": 448.8
-    },
-    {
-     "t": "2022",
-     "v": 586.6
-    },
-    {
-     "t": "2023",
-     "v": 717.9
-    },
-    {
-     "t": "2024",
-     "v": 950.6
-    },
-    {
-     "t": "2025",
-     "v": 1007.6
-    },
-    {
-     "t": "12m até ago/2026",
-     "v": 1182.0
+      "nome": "Juros nominais",
+      "pontos": [
+        {
+          "t": "2010",
+          "v": 195.5
+        },
+        {
+          "t": "2011",
+          "v": 236.8
+        },
+        {
+          "t": "2012",
+          "v": 213.8
+        },
+        {
+          "t": "2013",
+          "v": 249.0
+        },
+        {
+          "t": "2014",
+          "v": 311.5
+        },
+        {
+          "t": "2015",
+          "v": 501.2
+        },
+        {
+          "t": "2016",
+          "v": 407.5
+        },
+        {
+          "t": "2017",
+          "v": 401.1
+        },
+        {
+          "t": "2018",
+          "v": 378.9
+        },
+        {
+          "t": "2019",
+          "v": 367.2
+        },
+        {
+          "t": "2020",
+          "v": 312.0
+        },
+        {
+          "t": "2021",
+          "v": 448.8
+        },
+        {
+          "t": "2022",
+          "v": 586.6
+        },
+        {
+          "t": "2023",
+          "v": 717.9
+        },
+        {
+          "t": "2024",
+          "v": 950.6
+        },
+        {
+          "t": "2025",
+          "v": 1007.6
+        },
+        {
+          "t": "12m até ago/2026",
+          "v": 1182.0
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

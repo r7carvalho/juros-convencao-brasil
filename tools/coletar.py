@@ -202,11 +202,29 @@ def coletar_sgs():
                     if "404" in str(e):  # série sem dados nessa janela
                         continue
                     raise
+                for tentativa in range(3):  # o SGS às vezes devolve página HTML de erro
+                    if txt.strip().startswith("[") or not txt.strip():
+                        break
+                    time.sleep(5 * (tentativa + 1))
+                    try:
+                        txt = baixar(url)
+                    except RuntimeError:
+                        txt = ""
                 if txt.strip().startswith("["):
                     pontos.extend(json.loads(txt))
                 elif txt.strip():
                     RELATORIO.setdefault("avisos", []).append({"serie": cod, "url": url, "resposta": txt[:200]})
                 time.sleep(0.3)
+            # mescla com a coleta anterior: nunca perde pontos se uma janela falhar
+            anterior = os.path.join(BRUTOS, f"sgs-{cod}.json")
+            if os.path.exists(anterior):
+                try:
+                    velhos = json.load(open(anterior, encoding="utf-8")).get("dados", [])
+                    por_data = {p["data"]: p for p in velhos}
+                    por_data.update({p["data"]: p for p in pontos})
+                    pontos = sorted(por_data.values(), key=lambda p: (p["data"][6:10], p["data"][3:5], p["data"][0:2]))
+                except Exception:  # noqa
+                    pass
             if not pontos:
                 raise RuntimeError("nenhum dado retornado")
             arq = gravar(f"sgs-{cod}.json", {
