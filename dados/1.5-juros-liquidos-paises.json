@@ -1,0 +1,64 @@
+{
+ "titulo": "Juros líquidos do governo geral em 2025, % do PIB (resultado primário menos resultado nominal)",
+ "tipo": "barrash",
+ "unidade": "% do PIB",
+ "fonte": "FMI, DataMapper (WEO/Fiscal Monitor), séries GGXONLB_G01_GDP_PT e GGXCNL_G01_GDP_PT; cálculo e seleção de países da Frente J do painel irmão",
+ "url": "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
+ "consulta": "2026-10-28",
+ "nota": "Conceito FMI, que difere do conceito BCB. A dívida bruta de cada país em 2025 (FMI) vai entre parênteses no rótulo.",
+ "series": [
+  {
+   "nome": "Juros líquidos 2025",
+   "pontos": [
+    {
+     "t": "Brasil (93,3% do PIB)",
+     "v": 7.29
+    },
+    {
+     "t": "México (61,7% do PIB)",
+     "v": 6.1
+    },
+    {
+     "t": "África do Sul (78,4% do PIB)",
+     "v": 5.41
+    },
+    {
+     "t": "Índia (84,3% do PIB)",
+     "v": 5.13
+    },
+    {
+     "t": "Itália (137,1% do PIB)",
+     "v": 3.61
+    },
+    {
+     "t": "Estados Unidos (124,4% do PIB)",
+     "v": 3.18
+    },
+    {
+     "t": "Turquia (23,7% do PIB)",
+     "v": 2.61
+    },
+    {
+     "t": "Reino Unido (102,1% do PIB)",
+     "v": 2.6
+    },
+    {
+     "t": "Colômbia (59,9% do PIB)",
+     "v": 2.3
+    },
+    {
+     "t": "França (115,5% do PIB)",
+     "v": 2.08
+    },
+    {
+     "t": "China (98,6% do PIB)",
+     "v": 0.96
+    },
+    {
+     "t": "Japão (204,8% do PIB)",
+     "v": 0.2
+    }
+   ]
+  }
+ ]
+}
