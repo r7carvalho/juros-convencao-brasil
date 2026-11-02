@@ -2,10 +2,10 @@
  "titulo": "Selic meta (fim do mês) e IPCA em 12 meses, jan/2019–out/2026 (%)",
  "tipo": "linha",
  "unidade": "%",
- "fonte": "BCB, histórico das taxas de juros do Copom (SGS 432); IBGE, IPCA em 12 meses (SIDRA 1737, SGS 13522)",
+ "fonte": "BCB, Selic meta (SGS 432) e IPCA em 12 meses (SGS 13522, dados do IBGE)",
  "url": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros",
  "consulta": "2026-11-02",
- "nota": "Selic: meta vigente no fim do mês, pelas datas das reuniões do Copom (2026: cortes de 0,25 p.p. em mar, abr, jun, ago e set, até 13,75%). IPCA 12 meses: abr/2025 (5,53%), dez de cada ano e 2026 conferidos nesta sessão; os demais meses de 2019–2024 seguem a série oficial e estão pendentes de reconferência na API do SGS, bloqueada nesta sessão. IPCA de out/2026 ainda não divulgado.",
+ "nota": "Selic: meta vigente no fim do mês (2026: cortes de 0,25 p.p. em mar, abr, jun, ago e set, até 13,75%). IPCA de out/2026 ainda não divulgado na data de consulta.",
  "governos": true,
  "ref": [
   {

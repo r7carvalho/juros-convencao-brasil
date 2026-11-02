@@ -2,10 +2,10 @@
  "titulo": "IPCA anual, centro e teto da meta, 2003–2026 (%)",
  "tipo": "linha",
  "unidade": "%",
- "fonte": "IBGE, IPCA (SIDRA, tabela 1737, variação dez/dez); BCB, histórico de metas; Focus de 23/10/2026 para 2026",
+ "fonte": "BCB, SGS 13522 (IPCA em 12 meses, dezembro; dados do IBGE); BCB, histórico de metas; Focus de 23/10/2026 para 2026",
  "url": "https://www.bcb.gov.br/controleinflacao/historicometas",
  "consulta": "2026-11-02",
- "nota": "2003 e 2004: metas revistas pelo CMN (2003: 4,0% ±2,5; 2004: 5,5% ±2,5); em 2003 o BC trabalhou com 'meta ajustada' de 8,5%. Desde 2025 a meta é contínua (3,0% ±1,5) e o descumprimento se mede por seis meses seguidos fora do intervalo. 2026 = mediana Focus de 23/10/2026 (projeção). IPCA de 2015–2025 conferido nos insumos do painel (frente C); 2003–2014 conforme série oficial do IBGE, a reconferir na SIDRA.",
+ "nota": "2003 e 2004: metas revistas pelo CMN (2003: 4,0% ±2,5; 2004: 5,5% ±2,5); em 2003 o BC trabalhou com 'meta ajustada' de 8,5%. Desde 2025 a meta é contínua (3,0% ±1,5) e o descumprimento se mede por seis meses seguidos fora do intervalo. 2026 = mediana Focus de 23/10/2026 (projeção).",
  "governos": true,
  "series": [
   {

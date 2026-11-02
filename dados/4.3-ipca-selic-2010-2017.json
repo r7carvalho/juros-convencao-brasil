@@ -2,7 +2,7 @@
  "titulo": "IPCA, Selic no fim do ano e juro real ex-post, 2010–2017 (%)",
  "tipo": "linha",
  "unidade": "%",
- "fonte": "IBGE (IPCA, SIDRA 1737); BCB (Selic meta, histórico do Copom; juro real ex-post = Selic acumulada em 12 meses deflacionada pelo IPCA, SGS 4390 e 433, cálculo dos insumos do painel, frente K)",
+ "fonte": "BCB, SGS 13522 (IPCA em 12 meses, dezembro; dados do IBGE) e SGS 432 (Selic meta em 31/12); juro real ex-post = Selic acumulada em 12 meses (SGS 4390) deflacionada pelo IPCA (SGS 433), cálculo do painel",
  "url": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros",
  "consulta": "2026-11-02",
  "nota": "Teto da meta: 6,5% de 2010 a 2016 e 6,0% em 2017. Selic: meta vigente em 31/12.",

@@ -2,10 +2,10 @@
  "titulo": "Juro real ex-post da taxa básica: Brasil e pares, 2017–2026 (% a.a.)",
  "tipo": "linha",
  "unidade": "% a.a.",
- "fonte": "BIS, policy rates (WS_CBPOL) e CPI (WS_LONG_CPI); cálculo dos insumos do painel (frente K)",
+ "fonte": "BIS, taxas de política monetária (WS_CBPOL) e inflação ao consumidor em 12 meses (WS_LONG_CPI); cálculo do painel",
  "url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv",
  "consulta": "2026-11-02",
- "nota": "Média anual da taxa de política deflacionada pela média anual da inflação em 12 meses. 2026 = jan–ago.",
+ "nota": "Juro real ex-post = (1 + média anual da taxa de política) / (1 + média anual da inflação em 12 meses) − 1. 2026 = jan–set. EUA em 2025: meses sem CPI publicado ficam fora da média.",
  "ref": [
   {
    "v": 0,
@@ -54,7 +54,7 @@
     },
     {
      "t": "2026",
-     "v": 9.67
+     "v": 9.64
     }
    ]
   },
@@ -99,7 +99,7 @@
     },
     {
      "t": "2026",
-     "v": 2.75
+     "v": 2.78
     }
    ]
   },
@@ -144,7 +144,52 @@
     },
     {
      "t": "2026",
-     "v": 0.98
+     "v": 0.92
+    }
+   ]
+  },
+  {
+   "nome": "Colômbia",
+   "pontos": [
+    {
+     "t": "2017",
+     "v": 1.61
+    },
+    {
+     "t": "2018",
+     "v": 1.04
+    },
+    {
+     "t": "2019",
+     "v": 0.71
+    },
+    {
+     "t": "2020",
+     "v": 0.27
+    },
+    {
+     "t": "2021",
+     "v": -1.51
+    },
+    {
+     "t": "2022",
+     "v": -2.44
+    },
+    {
+     "t": "2023",
+     "v": 1.19
+    },
+    {
+     "t": "2024",
+     "v": 4.41
+    },
+    {
+     "t": "2025",
+     "v": 3.99
+    },
+    {
+     "t": "2026",
+     "v": 4.94
     }
    ]
   },
@@ -185,11 +230,11 @@
     },
     {
      "t": "2025",
-     "v": 1.48
+     "v": 1.51
     },
     {
      "t": "2026",
-     "v": 0.34
+     "v": 0.29
     }
    ]
   },
@@ -234,7 +279,7 @@
     },
     {
      "t": "2026",
-     "v": -0.51
+     "v": -0.63
     }
    ]
   }

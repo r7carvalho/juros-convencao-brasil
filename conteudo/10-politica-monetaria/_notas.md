@@ -186,3 +186,38 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 - Compromissadas e DBGG FMI vêm da Divggnp (consulta 28/10/2026); DBGG BCB do SGS 13762 (consulta 02/11/2026). Mesmo valor de ago/2026 (82,87) nas duas fontes; nenhuma divergência com 3.1, 3.2, 10 e 10.2.1.
 - O gráfico `dados/3-divida-conceitos.json` reconstruía a DBGG BCB de 2006–2014 pelos fatores condicionantes; o SGS 13762 bruto agora cobre desde dez/2006 e os valores batem com diferença de até 0,05 p.p. Sugestão: a área 3 pode trocar a reconstrução pelo SGS.
 - Página 10 diz "Desde 2002 o BCB não pode emitir título próprio (LRF, art. 34)": consistente (maio de 2002).
+
+## 10.2c
+
+### Página entregue (02/11/2026)
+
+- 10.2.3 Redesconto e assistência de liquidez, 1ª versão: cerca de 3.050 palavras de prosa antes do "Para ler" (3.891 pela contagem do lint, que inclui tabela, fórmulas e referências). Gráfico `dados/10.2.3-linhas-2020.json` (barras: potencial anunciado × uso da LTEL-LFG e do Novo DPGE). Exemplo de brinquedo (banco com R$ 100 de empréstimos, R$ 5 de reservas, saques de R$ 20; venda forçada a 70% com perda de 6,4 contra redesconto a Selic + 1 por 10 dias úteis, custo $15 \times (1{,}16^{10/252}-1) = 0{,}09$; versão insolvente com capital −10), tabela de modalidades e custos, conta do custo extra de R$ 1 bi por um dia a Selic + 0,35 (≈ R$ 12 mil), quadro A favor/Contra, caixa "o painel lê".
+
+### Fontes principais
+
+- Bagehot (1873), cap. VII: recorte em inglês confirmado só por reprodução em Goodhart (1999) e na Wikipedia; a segunda regra ("as largely as the public ask for them") não foi confirmada e ficou fora das aspas. Goodhart (1999), *International Finance* 2(3); Tucker (2014, BIS Papers 79) e Tucker (2020, JFC 2(2), recorte do resumo); Mishkin (2019) e Minsky (1986) parafraseados.
+- Brasil, normas: Lei 4.595/1964 art. 10, V e LRF art. 28 § 2º (parafraseados de memória e de resumos de questões; texto do Planalto não aberto); Res. CMN 2.949/2002 e Circular 3.105/2002 (modalidades intradia, 1 dia, 15 dias úteis, 90 dias corridos); Res. BCB 175/2021 (redesconto intradia e de um dia); Res. BCB 220/2022 (revoga o regime de 2002 a partir de 02/05/2022, segundo a nota de revogação na própria Res. 2.949); Res. BCB 110/2021 e 374/2024 (LFL).
+- Custos: página "Liquidity facilities" do BCB (por busca): intradia sem juros; um dia a Selic + 35 p.b.; LLI 65 p.b. e LLT 90/65/55 p.b. desde 02/01/2023 (antes 60 e 75/50/40). BIS Markets Committee Compendium (2019) e FMI CR 18/345 davam 100 p.b. para o de um dia.
+- PROER: CPI do PROER, relatório final, cap. 2 (total ≈ R$ 20,4 bi; Nacional 5,9, Econômico 5,2, Bamerindus 3,3; BC admitia perda ≥ R$ 10 bi); Res. CMN 2.208 e MP 1.179 de 03/11/1995, Lei 9.710/1998; Maia (1999, BIS Policy Papers 6).
+- PROES: MP 1.514/1996; BCB, tabela de títulos emitidos (R$ 61.922,68 milhões); Salviano Jr. (2004, livro do BCB). Custos em % do PIB: de Mello e Garcia (2011, Valor) ≈ 0,9% PROER e 5,7% PROES; média de 12,8% do PIB em 40 países (Banco Mundial, via Leite Júnior, 2016, dissertação UnB).
+- 2008: Mesquita e Torós (2010, BCB TD 202): R$ 116 bi de compulsório liberado em 2009 (p. 13, via citação secundária), redesconto "não chegou a ser utilizado", vendas à vista US$ 14,5 bi, leilões com recompra US$ 11,8 bi, empréstimos com reservas US$ 12,6 bi (tabela 2, via reprodução em artigo da SciELO); MP 442 (Lei 11.882/2008), MP 443 (Lei 11.908/2009); swap do Fed de US$ 30 bi (Fed, 29/10/2008), nunca sacado (Yale YPFS).
+- 2020: Res. CMN 4.785, 4.786 e 4.795; Carta-Circular 4.042 (Selic + 0,6); potencial total R$ 1.274 bi = 17,5% do PIB (BCB, Evolução Recente do Crédito no SFN, 29/01/2021; TCU); LTEL-LFG potencial R$ 670 bi, 245 operações, 51 IFs, R$ 121,9 bi, últimas liquidadas em 07/12/2022, sem inadimplência (nota do BCB de 23/12/2022 via Legismap e Reuters); saldo ≈ R$ 46 bi em dez/2020 e predominância de S3/S4 (apresentações técnicas das reuniões 233 e 235 do Copom); Novo DPGE R$ 22,6 bi em 74 IFs até o início de nov/2020, potencial R$ 200 bi (dados do BCB via Estadão/Terra); compulsório 25% → 17% (R$ 68 bi, gov.br 23/03/2020); swap do Fed de US$ 60 bi não sacado (Yale JFC 2023).
+- Fed: comunicados de 15/03/2020 (crédito primário no teto do intervalo) e 12/03/2023 (BTFP pelo valor de face); Bernanke (2010, ≈ US$ 1,5 tri de crédito no fim de 2008); GAO-21-180 (≈ US$ 24 bi usados nos programas da Lei CARES até 15/11/2020); Klee, Kotidis e Siemer (2025, FEDS 2025-099: fim das novas operações em 11/03/2024, tudo pago até 07/03/2025). BCE: LTROs de 3 anos (€ 489,2 bi, 523 bancos; € 529,5 bi, 800 bancos; Yale YPFS); procedimentos da ELA (2014).
+- Banco Master: liquidação em 18/11/2025; garantias do FGC ≈ R$ 40,6 bi (imprensa de set/2026; InfoMoney e IstoÉ Dinheiro para o "maior acionamento").
+
+### Lacunas (nada disso entrou como fato)
+
+- O cartão cita a "Resolução CMN 4.581/2017" como norma do redesconto. A 4.581, de 07/06/2017, trata de subdirecionamento de recursos de LCA (MCR 6-7), não de redesconto. A página usa a cadeia Res. CMN 2.949/2002 → Res. BCB 175/2021 → Res. BCB 220/2022 → LFL (Res. BCB 110/2021 e 374/2024). Não li o texto da Res. BCB 220; o que ela regula além da revogação ficou sem confirmação.
+- O cartão cita "Maia 2003"; a referência localizada é Maia (1999), BIS Policy Papers 6, p. 106–123.
+- Sites do BCB, ANBIMA, IE/UFRJ, Gutenberg e blogs não abriram (DNS bloqueado); tudo veio de busca. Não li o REF 2008–2009 e 2020, o Relatório de Gestão/Integrado de 2020 nem o boxe "Resultado da oferta de liquidez pelo BC 2020–2023" do REB 2023 (reb2023b8p.pdf), que provavelmente traz o uso consolidado por modalidade e o resultado financeiro das linhas. Ele é a fonte para trocar o gráfico por um completo.
+- Uso efetivo da LTEL-Debêntures (potencial R$ 91 bi), das compromissadas com títulos soberanos em dólar (potencial R$ 50 bi) e das compras da EC 106: não confirmado. Uma tabela do BCB reproduzida por de Paula (2021, IE/UFRJ TD 016) dá "implementado" de R$ 310,1 bi contra potencial de R$ 1.221,8 bi, com LTEL-LFG 41,3 e DPGE 23,2, sem data visível; outra apresentação do BCB dá R$ 427,1 bi implementados contra R$ 1.274 bi. Não usados por falta de data e de detalhamento.
+- Compulsório liberado em 2008: R$ 116 bi (Mesquita e Torós, 2010, p. 13, via citação) contra R$ 82 bi (apresentação do BCB de 23/03/2020). O texto dá os dois e diz que são de data e conceito diferentes; a neta 10.2.4 deve fixar o número.
+- Pico do saldo do BTFP (fala-se em US$ 165–168 bi no início de 2024): não confirmado no H.4.1; não usado.
+- Lucro ou resultado do BC com as linhas de 2020: não confirmado; o texto diz só "sem inadimplência".
+- Valores das compras do BB (Votorantim) e da Caixa (Panamericano) em 2008–2009: não confirmados; o texto cita as operações sem valor.
+- PROES: o "integral se privatizado/extinto, metade se mantido" vem de resumo (Wikipedia); conferir na MP 1.514.
+
+### Divergências
+
+- Nenhuma com 10, 10.2, 10.2.1 e 10.2.2. Selic over de 13,65% (out/2026) e redesconto do Fed no teto do intervalo são os mesmos de 10.2.1.
+- Custo do PROES: 5,7% do PIB (de Mello e Garcia) contra 2,1% do PIB numa apresentação do BCB (Goldfajn, 2002) e "R$ 90 bi" num texto do PET-UFF; a página usa só a estimativa de 5,7% e os R$ 61,9 bi de títulos do BCB.

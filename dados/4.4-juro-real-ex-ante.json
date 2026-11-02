@@ -2,10 +2,10 @@
  "titulo": "Juro real ex-ante aproximado, 2010–2026 (% a.a.)",
  "tipo": "linha",
  "unidade": "% a.a.",
- "fonte": "BCB, Selic over (SGS 4189) e mediana Focus do IPCA 12 meses à frente; cálculo dos insumos do painel (frente K)",
- "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json",
+ "fonte": "BCB, Selic over diária anualizada (SGS 1178) e mediana Focus do IPCA 12 meses à frente, série não suavizada (API Olinda, base de cálculo 0); cálculo do painel",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1178/dados?formato=json",
  "consulta": "2026-11-02",
- "nota": "Último dia de cada ano; 2026 = 23/10/2026. Juro neutro de referência do BCB: 5,0%. O padrão de mercado (swap DI 360 dias) difere em até 0,4 p.p.",
+ "nota": "r = (1 + Selic over do último dia útil do ano) / (1 + mediana Focus de 12 meses do mesmo dia) − 1. 2026-09 = 30/09/2026; 2026-10 = 23/10/2026. Juro neutro de referência do BCB: 5,0%. Com o juro de mercado de um ano (swap DI 360 dias) o resultado difere em alguns décimos. Com a mediana suavizada, os valores mudam até 0,3 p.p. (30/09/2026: 8,65 em vez de 8,39).",
  "governos": true,
  "ref": [
   {
@@ -19,75 +19,75 @@
    "pontos": [
     {
      "t": "2010",
-     "v": 5.04
+     "v": 4.89
     },
     {
      "t": "2011",
-     "v": 5.29
+     "v": 5.28
     },
     {
      "t": "2012",
-     "v": 1.55
+     "v": 1.56
     },
     {
      "t": "2013",
-     "v": 3.67
+     "v": 3.57
     },
     {
      "t": "2014",
-     "v": 4.66
+     "v": 4.67
     },
     {
      "t": "2015",
-     "v": 6.74
-    },
-    {
-     "t": "2016",
-     "v": 8.44
-    },
-    {
-     "t": "2017",
-     "v": 2.98
-    },
-    {
-     "t": "2018",
-     "v": 2.41
-    },
-    {
-     "t": "2019",
-     "v": 0.83
-    },
-    {
-     "t": "2020",
-     "v": -1.6
-    },
-    {
-     "t": "2021",
-     "v": 3.51
-    },
-    {
-     "t": "2022",
-     "v": 7.93
-    },
-    {
-     "t": "2023",
-     "v": 7.7
-    },
-    {
-     "t": "2024",
      "v": 6.5
     },
     {
+     "t": "2016",
+     "v": 8.55
+    },
+    {
+     "t": "2017",
+     "v": 3.02
+    },
+    {
+     "t": "2018",
+     "v": 2.65
+    },
+    {
+     "t": "2019",
+     "v": 0.25
+    },
+    {
+     "t": "2020",
+     "v": -2.09
+    },
+    {
+     "t": "2021",
+     "v": 3.78
+    },
+    {
+     "t": "2022",
+     "v": 7.94
+    },
+    {
+     "t": "2023",
+     "v": 7.56
+    },
+    {
+     "t": "2024",
+     "v": 6.84
+    },
+    {
      "t": "2025",
-     "v": 10.46
+     "v": 10.52
     },
     {
      "t": "2026-09",
-     "v": 8.78
+     "v": 8.39
     },
     {
      "t": "2026-10",
-     "v": 8.72
+     "v": 8.73
     }
    ]
   }

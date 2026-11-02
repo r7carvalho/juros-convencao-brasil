@@ -2,10 +2,10 @@
  "titulo": "IPCA e grupo Alimentação e bebidas, 2019–2026 (% em 12 meses)",
  "tipo": "barras",
  "unidade": "% em 12 meses",
- "fonte": "IBGE, SIDRA tabelas 1737, 1419 e 7060 (dezembro de cada ano; 2026 = setembro)",
+ "fonte": "IBGE, SIDRA tabelas 1419 e 7060, variável 2265 (variação acumulada em 12 meses; dezembro de cada ano, 2026 = setembro); IPCA: BCB, SGS 13522",
  "url": "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/2265/p/202012,202112,202212,202312,202412,202512,202609/c315/7170",
  "consulta": "2026-11-02",
- "nota": "Séries dos insumos do painel (frente C). 2026 = 12 meses até setembro.",
+ "nota": "2026 = 12 meses até setembro.",
  "series": [
   {
    "nome": "IPCA",

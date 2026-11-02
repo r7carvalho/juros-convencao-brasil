@@ -1,27 +1,39 @@
 {
- "titulo": "Desocupação média anual e IPCA, 2015–2025 (%)",
+ "titulo": "Desocupação, IPCA e inflação de serviços, 2012–2025 (%)",
  "tipo": "linha",
  "unidade": "%",
- "fonte": "IBGE, PNAD Contínua (média anual) e IPCA (SIDRA 1737); insumos do painel (frente C)",
- "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45923-em-2025-vinte-unidades-da-federacao-registram-a-menor-taxa-de-desocupacao-da-serie.html",
+ "fonte": "IBGE, PNAD Contínua (SIDRA 4099, taxa de desocupação trimestral); BCB, SGS 13522 (IPCA, dezembro) e SGS 10844 (serviços, produto dos mensais); dados do IBGE",
+ "url": "https://apisidra.ibge.gov.br/values/t/4099/n1/all/v/4099/p/all",
  "consulta": "2026-11-02",
- "nota": "2025: desocupação média de 5,6%, menor da série iniciada em 2012; mínima trimestral de 5,1% em out–dez/2025.",
+ "nota": "Desocupação: média dos quatro trimestres civis da SIDRA 4099. A média anual que o IBGE divulga usa outra ponderação e fica alguns décimos abaixo em alguns anos (2025: 5,6% na divulgação anual, 5,9% pela média dos trimestres; mínima trimestral de 5,1% em out–dez/2025).",
  "governos": true,
  "series": [
   {
-   "nome": "Desocupação",
+   "nome": "Desocupação (média dos trimestres)",
    "pontos": [
+    {
+     "t": "2012",
+     "v": 7.4
+    },
+    {
+     "t": "2013",
+     "v": 7.2
+    },
+    {
+     "t": "2014",
+     "v": 6.9
+    },
     {
      "t": "2015",
      "v": 8.6
     },
     {
      "t": "2016",
-     "v": 11.7
+     "v": 11.6
     },
     {
      "t": "2017",
-     "v": 12.9
+     "v": 12.8
     },
     {
      "t": "2018",
@@ -41,25 +53,98 @@
     },
     {
      "t": "2022",
-     "v": 9.3
+     "v": 9.2
     },
     {
      "t": "2023",
-     "v": 7.8
+     "v": 8.0
     },
     {
      "t": "2024",
-     "v": 6.6
+     "v": 6.9
     },
     {
      "t": "2025",
-     "v": 5.6
+     "v": 5.9
+    }
+   ]
+  },
+  {
+   "nome": "Serviços (IPCA)",
+   "pontos": [
+    {
+     "t": "2012",
+     "v": 8.74
+    },
+    {
+     "t": "2013",
+     "v": 8.75
+    },
+    {
+     "t": "2014",
+     "v": 8.33
+    },
+    {
+     "t": "2015",
+     "v": 8.11
+    },
+    {
+     "t": "2016",
+     "v": 6.48
+    },
+    {
+     "t": "2017",
+     "v": 4.55
+    },
+    {
+     "t": "2018",
+     "v": 3.35
+    },
+    {
+     "t": "2019",
+     "v": 3.53
+    },
+    {
+     "t": "2020",
+     "v": 1.73
+    },
+    {
+     "t": "2021",
+     "v": 4.75
+    },
+    {
+     "t": "2022",
+     "v": 7.57
+    },
+    {
+     "t": "2023",
+     "v": 6.22
+    },
+    {
+     "t": "2024",
+     "v": 4.74
+    },
+    {
+     "t": "2025",
+     "v": 6.0
     }
    ]
   },
   {
    "nome": "IPCA",
    "pontos": [
+    {
+     "t": "2012",
+     "v": 5.84
+    },
+    {
+     "t": "2013",
+     "v": 5.91
+    },
+    {
+     "t": "2014",
+     "v": 6.41
+    },
     {
      "t": "2015",
      "v": 10.67

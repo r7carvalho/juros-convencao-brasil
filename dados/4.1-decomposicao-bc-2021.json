@@ -5,7 +5,7 @@
  "fonte": "BCB, Relatório de Inflação de mar/2022, boxe 'Decomposição da inflação de 2021'",
  "url": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202203/ri202203b9p.pdf",
  "consulta": "2026-11-02",
- "nota": "Desvio total: 10,06% − 3,75% = 6,31 p.p. 'Demais fatores' é a diferença entre o desvio e a soma dos componentes nomeados (cálculo do painel); o boxe distribui essa parcela entre itens que a busca desta sessão não recuperou (resíduo e outros choques).",
+ "nota": "Desvio total: 10,06% − 3,75% = 6,31 p.p. 'Demais fatores' é a diferença entre o desvio e a soma dos componentes nomeados (cálculo do painel); no boxe, essa parcela se divide entre outros itens (resíduo e choques específicos). Valores a conferir com a tabela do PDF.",
  "series": [
   {
    "nome": "Inflação importada (commodities e câmbio)",
