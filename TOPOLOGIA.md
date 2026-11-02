@@ -54,7 +54,24 @@ Cada macroárea é uma frente de subagente.
 ├─ 7  Caminhos de política
 │   └─ netas: meta, desindexação, alongamento, referência CDI, tributação de juros, renegociação, calote, coordenação, crédito direcionado
 │
-├─ 8  Conclusão: matriz tese × evidência × força, e a direção
+├─ 10 Política monetária: instrumentos convencionais e não convencionais
+│   ├─ 10.1 Regimes e a meta (nível ótimo da meta)
+│   ├─ 10.2 Convencionais: taxa básica e corredor, mercado aberto, redesconto, compulsório, regra de Taylor, comunicação
+│   ├─ 10.3 Não convencionais: forward guidance, QE, QQE e controle da curva, juros negativos, credit easing, câmbio, Brasil 2020, financiamento monetário e MMT
+│   ├─ 10.4 Blanchard por inteiro
+│   └─ 10.5 O que é transponível ao Brasil
+│
+├─ 11 Finanças públicas: os conceitos
+│   └─ dívida bruta e líquida, resultados e NFSP, acima e abaixo da linha, armadilhas, risco fiscal, regras fiscais, sustentabilidade, estatística internacional
+│
+├─ 12 Vozes do debate
+│   ├─ 12.1 Influenciadores digitais (uma página por pessoa)
+│   ├─ 12.2 Mídia e academia (uma página por pessoa)
+│   ├─ 12.3 Economistas de mercado e o Focus
+│   ├─ 12.4 Jargões (uma página por jargão ou grupo)
+│   └─ 12.5 Vozes heterodoxas (mesmo tratamento)
+│
+├─ 8  Conclusão: matriz tese × evidência × força, e a direção (escrita depois dos blocos 10 a 12)
 │
 └─ 9  Método, fontes, glossário e linha do tempo
 ```

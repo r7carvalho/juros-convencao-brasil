@@ -3,15 +3,42 @@
 **Isto supera a forma de trabalho do `BRIEF.md` (subagentes por macroárea em paralelo).** O
 conteúdo, as fontes e o estilo continuam valendo como está no briefing.
 
-Regra de execução: pegue o **primeiro item não marcado**, faça só ele até o critério de pronto,
+**Ordem de execução dos blocos:** 00 → 1 → 10 → 11 → 2 → 3 → 4 → 5 → 6 → 7 → 12 → 8–9. A base
+teórica (1, 10 e 11) vem antes das páginas aplicadas ao Brasil, e as vozes do debate (12) vêm
+depois, porque se apoiam em tudo o que foi escrito antes.
+
+Regra de execução: pegue o **primeiro item não marcado na ordem acima**, faça só ele até o critério de pronto,
 rode o build, faça commit e push com a mensagem `item <id>: <título>`, marque `[x]` aqui no mesmo
 commit e só então comece o próximo. Um item por vez. Se um item for grande demais para uma sessão,
 divida-o aqui mesmo em subitens (`5.1a`, `5.1b`) antes de começar. Ao terminar a sessão, deixe uma
 linha em `RELATORIO.md` dizendo qual foi o último item feito.
 
-Para cada item de texto, use um subagente Opus para a pesquisa (fontes, recortes, dados) e escreva
-você mesmo a página a partir do que ele trouxe; ao fim de cada macroárea, um subagente revisor que
-não escreveu nada audita as páginas dela contra `ESTILO.md` e as regras do briefing.
+**Cada item é uma chamada nova** (atualizado em 02/11/2026). O coordenador não pesquisa nem escreve
+página: ele monta o cartão do item, abre um subagente Opus **novo** para executá-lo, confere o
+resultado pelo checklist, roda o build, faz o commit e marca o item. O subagente não herda a
+conversa do coordenador, então o cartão tem de ser autocontido:
+
+```
+ITEM <id> — <título>
+Leia antes: BRIEF.md (regras), ESTILO.md, CONTEXTO.md e as páginas já publicadas que este item cita.
+Escopo: <o que entra e o que fica para outro item>
+Perguntas que a página responde: <3 a 8>
+Fontes obrigatórias: <lista>; procure outras.
+Insumos: <arquivos de insumos/ e dados/ que servem>
+Saída: conteudo/<area>/<arquivo>.md (frontmatter: título, pai, ordem, resumo) + dados/<arquivo>.json se houver gráfico
+Pronto quando: critério de pronto abaixo + <específico do item>
+```
+
+O subagente devolve só um resumo curto (o que escreveu, fontes principais, lacunas), para que o
+contexto do coordenador não encha. Ao fim de cada macroárea, um subagente revisor que não escreveu
+nada audita as páginas dela contra `ESTILO.md` e as regras do briefing.
+
+**Imagens e prints.** Entram gráficos e quadros de fonte oficial (BCB, Tesouro, IBGE, IFI, FMI, BIS,
+Fed, BCE, BoJ) com atribuição e link, recortados no trecho que interessa, e gráficos refeitos em SVG a
+partir dos dados. Fala pública de economista ou influenciador entra como citação textual curta com
+link e data; captura de tela de post público só quando o texto sozinho perder o sentido. Não entra
+reprodução de material de curso privado (Estratégia, Gran, Direção etc.): o esquema bom de curso se
+redesenha do zero com a fonte primária.
 
 Critério de pronto de uma página: resumo no topo; texto extenso e didático (1.500 a 4.000
 palavras); exemplo de brinquedo antes do dado real; recortes citados com autor, ano e página ou
@@ -121,7 +148,106 @@ fim; publicada em `docs/` sem erro de build.
 - [ ] 7.7 Crédito direcionado e bancos públicos
 - [ ] 7.R Revisão independente da macroárea 7
 
+## 10. Política monetária: instrumentos convencionais e não convencionais
+
+Fontes de base para todo o bloco: Banco Central do Brasil (Relatório de Política Monetária e boxes,
+Relatório de Inflação anterior a 2025, atas e comunicados do Copom, "Sistema de Metas para a
+Inflação", página de instrumentos de política monetária, Trabalhos para Discussão, Relatório de
+Estabilidade Financeira, Lei Complementar 179/2021, Lei 14.185/2021, EC 106/2020); Blanchard
+(manual *Macroeconomics*, caps. de política monetária e de armadilha de liquidez; Blanchard,
+Dell'Ariccia e Mauro, "Rethinking Macroeconomic Policy", 2010; Blanchard, "Public Debt and Low
+Interest Rates", AER 2019; *Fiscal Policy under Low Interest Rates*, 2023); Bernanke ("The New Tools
+of Monetary Policy", AER 2020; discurso de 2002 sobre deflação); Woodford (2003); Svensson; Mishkin
+(*Economics of Money, Banking and Financial Markets*, caps. de instrumentos); Walsh; Borio e
+Disyatat (2009, "Unconventional monetary policies: an appraisal", BIS); Gagnon et al. (2011);
+Krishnamurthy e Vissing-Jorgensen (2011); Campbell, Evans, Fisher e Justiniano (2012); Brunnermeier
+e Koby ("reversal rate"); Kuroda e documentos do BoJ; BCE (APP, PEPP, TLTRO); BoE (APF, FLS);
+Turner (2015), Galí (2020) e Bernanke (2003) sobre financiamento monetário; Kelton e Wray (MMT) e as
+críticas a ela.
+
+- [ ] 10.0 Página macro: mapa de instrumentos (convencionais × não convencionais), canais e regimes; o que cada um faz no balanço do banco central, com um balanço de brinquedo
+- [ ] 10.1a Regimes monetários: metas monetárias, câmbio fixo, metas de inflação; o caso brasileiro de 1999, a meta contínua de 2025, o mandato do BC na LC 179/2021
+- [ ] 10.1b Por que meta de 3%: a literatura sobre o nível ótimo da meta (Blanchard et al. 2010 e a proposta de 4%, Ball, críticas), metas de países emergentes comparadas
+- [ ] 10.2a Taxa básica e corredor: Selic meta × Selic over, operações compromissadas, depósitos voluntários remunerados (Lei 14.185/2021), como o BC faz a taxa "acontecer" no mercado
+- [ ] 10.2b Operações de mercado aberto: definitivas × compromissadas; por que o BC não emite título próprio desde a LRF (2002); a carteira do BC e a DBGG
+- [ ] 10.2c Redesconto e assistência de liquidez: emprestador de última instância (Bagehot), modalidades no Brasil, uso em crises (2008, 2020)
+- [ ] 10.2d Recolhimento compulsório: história no Brasil, uso anticíclico e macroprudencial (2008, 2020), comparação internacional
+- [ ] 10.2e Regra de Taylor e modelos do BC (semiestrutural, projeções condicionais), com exemplo numérico da regra
+- [ ] 10.2f Comunicação convencional: atas, comunicados, balanço de riscos, o "Copom dependente de dados"
+- [ ] 10.3a Forward guidance: Delphic × Odyssean (Campbell et al. 2012), Fed 2011–2013, o BCB em 2020, quando funciona e quando vira armadilha
+- [ ] 10.3b Quantitative easing: Fed (QE1–QE3, 2020), BoE, BCE (APP, PEPP); canais (portfolio balance, sinalização, liquidez); estimativas de efeito (Gagnon, Krishnamurthy e Vissing-Jorgensen); o que aconteceu com inflação e dívida
+- [ ] 10.3c Japão: QQE (2013), controle da curva de juros (2016–2024), Abenomics, saída em 2024; o que ensina
+- [ ] 10.3d Juros negativos: BCE, BoJ, Suíça, Suécia, Dinamarca; efeitos sobre bancos; o "reversal rate"
+- [ ] 10.3e Credit easing e linhas dirigidas: TLTRO, Funding for Lending, facilities do Fed em 2020
+- [ ] 10.3f Câmbio como instrumento: swaps cambiais e reservas do BCB, intervenções, quando substituem juro
+- [ ] 10.3g Brasil 2020: EC 106 (compra de títulos no secundário), linhas do BCB; o que foi usado e o que ficou no papel
+- [ ] 10.3h Financiamento monetário, "dinheiro de helicóptero" e MMT: Bernanke (2003), Turner (2015), Galí (2020), Kelton; o debate com os críticos; o que vale para moeda não reserva
+- [ ] 10.4 Blanchard por inteiro: da dominância fiscal de 2004 ao "dívida com juro baixo" de 2019 e ao livro de 2023; onde as posições dele mudaram e o que dizem sobre o Brasil
+- [ ] 10.5 O que as não convencionais ensinam ao Brasil: moeda não reserva, repasse cambial, dívida indexada à Selic, crédito direcionado; o que é transponível e o que não é
+- [ ] 10.R Revisão independente do bloco 10
+
+## 11. Finanças públicas: os conceitos
+
+Insumo obrigatório: `insumos/financas-publicas-concurso.md` (extraído do material de concurso do
+usuário). Fontes de base: Manual de Estatísticas Fiscais do BCB, notas de estatísticas fiscais do
+BCB, Resultado do Tesouro Nacional (RTN), Relatório Mensal e Anual da Dívida, PAF, Manual Técnico de
+Orçamento, LRF (LC 101/2000), Constituição (art. 167, III), EC 95/2016, LC 200/2023, Anexo de Riscos
+Fiscais da LDO, IFI (RAF), FMI (GFSM 2014, Fiscal Monitor, DSA).
+
+- [ ] 11.0 Página macro: mapa dos conceitos fiscais e como eles se ligam (estoque × fluxo)
+- [ ] 11.1 Dívida bruta e líquida: DBGG conceito BCB × FMI, DLSP, DPF, DPMFi, compromissadas, ativos (reservas, créditos ao BNDES)
+- [ ] 11.2 Resultados fiscais: primário, nominal e operacional; NFSP; competência × caixa; com um orçamento de brinquedo
+- [ ] 11.3 Acima e abaixo da linha: RTN do Tesouro × estatísticas do BCB, a "discrepância estatística" e por que os números divergem
+- [ ] 11.4 Armadilhas conceituais: receita de privatização e NFSP, ajuste patrimonial, juros nominais × reais, efeito câmbio na DLSP (inclui o padrão de erro documentado no insumo)
+- [ ] 11.5 Risco fiscal: o Anexo de Riscos Fiscais da LDO, passivos contingentes, precatórios, judicialização; e o "risco fiscal" no sentido do mercado (prêmio, CDS, curva)
+- [ ] 11.6 Regras fiscais: LRF, regra de ouro, teto (EC 95), arcabouço (LC 200/2023); desenho, desempenho e comparação internacional
+- [ ] 11.7 Sustentabilidade: r − g, teste de Bohn, DSA do FMI, "limite seguro" de dívida e por que ele não existe como número único
+- [ ] 11.8 Estatística fiscal internacional: GFSM 2014 e por que comparar dívida entre países exige cuidado
+- [ ] 11.R Revisão independente do bloco 11
+
+## 12. Vozes do debate: influenciadores, mídia, mercado e jargões
+
+Regras próprias do bloco, além do briefing:
+- Só fala pública, com link e data (vídeo com minutagem, coluna, post, entrevista, relatório).
+  Nada de vida privada, nada de ataque pessoal.
+- Princípio da caridade: apresente o argumento da pessoa na sua forma mais forte antes de avaliá-lo.
+- Classifique cada argumento: **procede**, **procede em parte**, **não procede**, **falta evidência**,
+  com a base teórica e a evidência ao lado. Concordar quando procede é parte do método.
+- Agrupe argumentos repetidos entre pessoas numa página de jargão (bloco 12.4) e, na página da
+  pessoa, remeta a ela.
+- Identidades a confirmar antes de escrever (o pedido veio por voz): "Investidor Sardinha" (Raul
+  Sena), "Primo Rico" (Thiago Nigro), Bruno Perini ("Você Mais Rico"), Samuel Pessôa (FGV IBRE e
+  Folha), "Márcio … do INPE" (provavelmente Marcos Lisboa, do Insper). Se a identidade não se
+  confirmar, registre a dúvida em `RELATORIO.md` e pule a página.
+- Para o painel não ficar de um lado só, as vozes heterodoxas (12.5) recebem o mesmo tratamento.
+
+- [ ] 12.0 Página macro: método, matriz pessoa × argumento × classificação, mapa dos jargões
+- [ ] 12.1a Influenciador: Investidor Sardinha (Raul Sena)
+- [ ] 12.1b Influenciador: Primo Rico (Thiago Nigro)
+- [ ] 12.1c Influenciador: Bruno Perini
+- [ ] 12.1d Outros influenciadores de finanças com alcance comparável que tratem de juros, dívida e "Brasil quebrado" (levantar e abrir uma página por pessoa, dividindo o item)
+- [ ] 12.2a Mídia e academia: Samuel Pessôa
+- [ ] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
+- [ ] 12.2c Outros nomes frequentes da imprensa econômica (por exemplo Armínio Fraga, Alexandre Schwartsman, Zeina Latif, Mansueto Almeida, Felipe Salto): levantar e abrir uma página por pessoa
+- [ ] 12.3a Economistas-chefes de bancos e gestoras: o que projetam, com que histórico de acerto (comparar projeções do Focus e de relatórios com o realizado)
+- [ ] 12.3b O Focus como instituição: composição, viés, acerto histórico
+- [ ] 12.4a Jargão: "o Brasil vai quebrar" / "a dívida é impagável"
+- [ ] 12.4b Jargão: "gastança", "o Estado gasta demais", "o governo é como uma família"
+- [ ] 12.4c Jargão: "o mercado está nervoso", "o mercado está precificando", "risco fiscal"
+- [ ] 12.4d Jargão: "dominância fiscal" usado como explicação de tudo
+- [ ] 12.4e Jargão: "desancoragem das expectativas", "juro neutro subiu"
+- [ ] 12.4f Jargão: "imprimir dinheiro gera inflação"
+- [ ] 12.4g Jargão: "o juro é alto por culpa do governo" / "o BC é técnico e independente"
+- [ ] 12.4h Jargão: "o Brasil vai virar Argentina/Venezuela"
+- [ ] 12.4i Jargão: "não existe almoço grátis", "o arcabouço não para em pé"
+- [ ] 12.4j Jargões do outro lado: "metade do orçamento vai para juros" (Auditoria Cidadã), "o BC trabalha para os bancos", "inflação é só choque externo"; mesmo rigor
+- [ ] 12.5 Vozes heterodoxas com o mesmo tratamento (por exemplo André Lara Resende, Luiz Gonzaga Belluzzo, Paulo Nogueira Batista Jr., Laura Carvalho, André Roncaglia): uma página por pessoa
+- [ ] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala
+
 ## 8–9. Conclusão e apoio
+
+A conclusão (8.1 e 8.2) só se escreve depois dos blocos 10, 11 e 12, porque a matriz final incorpora
+os argumentos deles.
 
 - [ ] 8.1 Matriz tese × evidência × força, item por item
 - [ ] 8.2 Direção de conclusão, com o grau de confiança declarado
