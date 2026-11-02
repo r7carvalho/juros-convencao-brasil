@@ -228,3 +228,9 @@ Não alinhado ou pendente:
 - Reservas de US$ 372,6 bi em ago/2026 vêm do SGS 3546 (fecha a divergência nº 1: ago/2026 372,6; set/2026 362,8; mesma série, meses diferentes).
 - O corte de 0,25 p.p. de 05/08/2020 acompanhou a orientação futura: nada de "só com a palavra do Copom".
 - "Meia-entrada" é leitura do painel, não do BCE; a tese da convenção não defende crédito direcionado com taxa própria.
+
+## Achados do bloco 12 para a matriz final (02/11/2026)
+
+- 12.3.1: o mercado erra muito, atrasado nas viradas e para os dois lados; "o mercado sempre projeta Selic mais alta" não procede (na projeção de janeiro a Selic terminou abaixo em 13 anos e acima em 10, 2002–2025); nos ciclos de corte e de alta o mercado subestima o tamanho; o Focus erra menos que a referência ingênua.
+- 12.3.2: em janeiro, o valor realizado ficou fora de toda a faixa das projeções (mínimo a máximo) em 16 de 24 anos para a Selic, 15 de 24 para o PIB e 6 de 18 para o IPCA; o erro típico da mediana é 3 a 4 desvios-padrão da dispersão: erro comum grande, compatível com convenção nas projeções, mas sem teste direto de efeito manada (respostas individuais não são públicas).
+- 12.1 a 12.2: os influenciadores e economistas ortodoxos acertam a direção de curto prazo com frequência; o que vai além da evidência é atribuir ao gasto a alta recente da dívida, que veio sobretudo dos juros (10,1 de 11,2 p.p. desde dez/2022).

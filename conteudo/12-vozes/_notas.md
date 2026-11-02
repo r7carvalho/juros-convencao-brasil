@@ -559,3 +559,29 @@ Lacunas:
 - Nome do evento da fala 5.
 
 Números que divergem de outras páginas: nenhum. Ibovespa −13,88%, PTAX +9,19%, CDS de 110 e 151,6 pontos e mercados de previsão (75% a 81%) como na 6.1.1; fatores condicionantes (10,1 e 3,6 dos 11,2 pontos) como na 3.2 e na 12.1.5; dívida bruta pela SGS 13762 (77,36% em ago/2024, 76,27% em dez/2024, 78,64% em dez/2025, 82,93% em set/2026); MP 1.303 (R$ 2,6 bi de LCI e LCA, 08/10/2025), renúncia de R$ 31,7 bi e estoques de LCI e LCA de 2025 como na 7.5; Prisma Fiscal de out/2026 como na 11.6; IPCA mensal de 2022 como na 4.2. Novo no bloco: Tesouro IPCA+ 2035 a 6,60% em 21/10/2024 (InfoMoney); Peic de ago e set/2026 (82% e 81,7%).
+
+## 12.3b
+
+Página entregue: `conteudo/12-vozes/12.3.2-focus-instituicao.md` (id 12.3.2, pai 12.3, ordem 2, 1ª versão). Cerca de 2.600 palavras de prosa (sem tabela e sem "Para ler"); o `tools/lint.py` conta 3.719 tokens no corpo inteiro, sem travessão, sem "não é X, é Y" e sem palavra vetada. `build.py --check` sem erro. Script `tools/analises/12.3.2_focus.py` (só biblioteca padrão; `--resumo` imprime a tabela da faixa, os anos um a um, a dispersão por período, os respondentes por ano e a comparação das bases de cálculo). Gráficos: `dados/12.3.2-respondentes.json`, `dados/12.3.2-dispersao-ipca12m.json`, `dados/12.3.2-selic-faixa.json`.
+
+Método: estatísticas agregadas da API Olinda (baseCalculo 0). Projeção no último dia com dado de janeiro de Y (fim de Y) e de janeiro de Y-1; realizado como na 12.3.1 (Selic meta em 31/12, IPCA de dezembro do SGS 13522, PIB pela primeira divulgação aproximada). "Fora da faixa": realizado acima do máximo ou abaixo do mínimo das projeções válidas. z = (realizado − mediana)/desvio-padrão do mesmo dia.
+
+Resultados principais:
+- Realizado fora de toda a faixa: Selic jan 16/24, ano anterior 13/23; IPCA jan 6/18, ano anterior 8/17; PIB jan 15/24, ano anterior 19/23. Mediana de |z|: 3,1; 2,7; 2,1; 2,9; 3,9; 3,9. Desvio-padrão típico de janeiro da Selic 0,61 p.p. contra erro típico de 2,00.
+- Correlação de postos entre o desvio-padrão de janeiro e o |erro| do ano: de −0,38 a 0,17 nas seis combinações (a divergência não antecipa o tamanho do erro).
+- IPCA 12 meses (não suavizado): desvio-padrão máximo 2,73 (nov/2002), mínimo 0,22 (jan/2019); médias 0,38 (2004–2014), 0,51 (2020–2022), 0,42 (2023–2026).
+- Respondentes (média anual do máximo mensal): IPCA do ano corrente 112 (2014) → 154 (2026); Selic 100 → 151; PIB 72 → 118; IPCA 12 meses 79 → 136. Campo só existe desde 02/01/2014.
+- Base de cálculo 1 (desde 2014; Selic desde 2021 no acervo): metade dos respondentes da base 0, mediana a 0,04–0,05 ponto da base 0 em média.
+
+Fontes principais: BCB, Focus pela API Olinda (acervo de 02/11/2026), SGS 432 e 13522; FAQ do Sistema Expectativas de Mercado (janela de 30 dias, 17 horas); Marques (2013, IFC Bulletin 36: coleta desde maio de 1999, respostas individuais sigilosas); Marques, Fachada e Cavalcanti (2003); documento do Top 5 de fev/2008; Carvalho e Minella (2012: Top 5 desde jul/2001, influência do Top 5 sobre os demais, erro comum dominante); Gaglianone (2017); Bonomo et al. (2024, JME); Cordeiro, Gaglianone e Issler (EPGE); Lima e Alves (2011, Ipea TD 1621); Araujo e Caoduro (2024, BCB WP 604); Scharfstein e Stein (1990); Ottaviani e Sørensen (2006); Zarnowitz e Lambros (1987); Carroll (2003); Sinal (reportagem reproduzida sobre bônus e Top 5).
+
+Lacunas:
+- Significado exato da baseCalculo 1 da API (prazo de validade mais curto que 30 dias): a busca não confirmou o número de dias; a página diz só "prazo mais curto".
+- Ano da publicação de Cordeiro, Gaglianone e Issler ("Inattention in individual expectations") não confirmado.
+- Data da reportagem reproduzida pelo Sinal sobre bônus e Top 5 não localizada.
+- Fritsche, Pierdzioch, Rülke e Stadtmann (2015, IJF 31(1): 130–139) aplicaram teste de manada a projeções de câmbio do levantamento do BC; o resultado para o real não foi lido e o trabalho ficou fora do texto. Um artigo em *Estudos Econômicos* (USP) modela o Top 5 com agentes ("Top 5 Ranking and heterogeneity in monthly inflation expectations in the Focus Survey"); autores não confirmados, fora do texto.
+- Nenhum teste formal de manada no Focus da inflação ou da Selic localizado. Os dados individuais não são públicos; a API não traz código anônimo por instituição nem segmentação por tipo.
+- Uso do Focus por regimes próprios de previdência: só um exemplo (documento do Mato Grosso), e nenhuma norma que obrigue o uso.
+- Comparação Focus × Firmus × consumidores segue pendente (já anotada na 2.4.1).
+
+Números que divergem de outras páginas: início do Focus. A 1.3 diz "criado em 1999"; a 12.3 diz que o sistema "recebe projeções desde novembro de 2001". A 12.3.2 concilia: coleta desde maio de 1999 (Marques, 2013) e sistema na internet desde novembro de 2001 (Marques, Fachada e Cavalcanti, 2003). Sugestão: a 12.3 pode trocar "recebe projeções desde novembro de 2001" por "coleta projeções desde maio de 1999, pelo sistema atual desde novembro de 2001". Número de respondentes: a 2.4.1 cita 129 respostas na mediana do IPCA 12 meses de 23/10/2026 (base 0) e a 6.4.1, 142 na do IPCA 2026; ambos conferem com o acervo.
