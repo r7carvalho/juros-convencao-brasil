@@ -721,6 +721,12 @@ def render_pagina(p, raiz, ordem_lin):
 
 
 def main():
+    validos = {"--check", "--palavras"}
+    desconhecidos = [a for a in sys.argv[1:] if a not in validos]
+    if desconhecidos:
+        print(__doc__)
+        print("opções aceitas: --check, --palavras")
+        sys.exit(2)
     checar = "--check" in sys.argv
     global PAGINAS
     PAGINAS = carregar_paginas()

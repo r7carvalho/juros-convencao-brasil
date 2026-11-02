@@ -195,7 +195,7 @@ Orçamento, LRF (LC 101/2000), Constituição (art. 167, III), EC 95/2016, LC 20
 Fiscais da LDO, IFI (RAF), FMI (GFSM 2014, Fiscal Monitor, DSA).
 
 - [x] 11.0 Página macro: mapa dos conceitos fiscais e como eles se ligam (estoque × fluxo)
-- [ ] 11.1 Dívida bruta e líquida: DBGG conceito BCB × FMI, DLSP, DPF, DPMFi, compromissadas, ativos (reservas, créditos ao BNDES)
+- [x] 11.1 Dívida bruta e líquida: DBGG conceito BCB × FMI, DLSP, DPF, DPMFi, compromissadas, ativos (reservas, créditos ao BNDES)
 - [ ] 11.2 Resultados fiscais: primário, nominal e operacional; NFSP; competência × caixa; com um orçamento de brinquedo
 - [ ] 11.3 Acima e abaixo da linha: RTN do Tesouro × estatísticas do BCB, a "discrepância estatística" e por que os números divergem
 - [ ] 11.4 Armadilhas conceituais: receita de privatização e NFSP, ajuste patrimonial, juros nominais × reais, efeito câmbio na DLSP (inclui o padrão de erro documentado no insumo)

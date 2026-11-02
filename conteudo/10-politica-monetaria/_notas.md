@@ -305,3 +305,43 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 - 2.3 e 6.2 usam a regra com hiato do BC (+0,4%) e chegam a ≈ 10,5–10,6% em set–out/2026; a 10.2.5 com o hiato HP dá 9,7% em ago/2026 e diz que, com o hiato do BC, chega a ≈ 10,5%. Consistente, com método declarado.
 - Neutro do Copom: a 10.2.5 diz "3% em 2021 e 5% desde dez/2024" e "4,5% até mai/2024" (como 6.3.2 e 2.3); a data da passagem de 3% para 4,5% não foi confirmada e não é citada.
 - Nenhuma outra divergência com 10, 10.2, 10.2.1, 2.3, 6.2 e 6.3.2.
+
+## 10.2f
+
+### Página entregue (02/11/2026)
+
+- 10.2.6 Comunicação convencional, 1ª versão: cerca de 3.040 palavras de prosa sem parênteses de fonte, fórmulas, tabela e citações em bloco (≈ 3.800 com os parênteses; 5.240 pela contagem do lint, que inclui tabela e referências). Exemplo de brinquedo (três bancos centrais mantêm 10%; taxa de dois anos $i_2 \approx (i_1 + E[i_1'])/2 + \phi$: 9,3% antes, 10,3% com fala dura, 8,8% com fala branda, 10,05% com fala ambígua e prêmio de 0,8), tabela dos canais do Copom, fórmula do peso do sinal público em Morris e Shin, $\kappa = \alpha/(\alpha + \beta(1-r))$, com exemplo resolvido ($\alpha = 1$, $\beta = 3$: 0,25 / 0,40 / 0,625 para $r$ = 0 / 0,5 / 0,8), revisão dos estudos brasileiros, três episódios (2016–2017, 2020–2021, 2024–2026), seção sobre Selic longe da regra e fala × ação, quadro A favor/Contra e duas caixas "o painel lê".
+- Dois gráficos novos, do bruto `dados/brutos/focus-anuais_selic.json` (Focus, API Olinda, baseCalculo 0, coleta de 02/11/2026): `dados/10.2.6-focus-selic-2021.json` (mediana da Selic de fim de 2021 e de 2022, diária, set–nov/2021) e `dados/10.2.6-focus-selic-2024.json` (mediana da Selic de fim de 2025, diária, nov/2024–fev/2025, com linha de referência em 14,25%). Script em scratchpad, não versionado; a extração é um filtro direto do bruto por DataReferencia e Data.
+
+### Números do painel (BCB, Focus, API Olinda, mediana, base de 30 dias)
+
+- Fim de 2017: 10,25% em 11/01/2017 (dia da 204ª reunião), 10,0% em 12/01, 9,75% em 13/01, 9,50% em 20/01.
+- Fim de 2018: 6,25% até 21/05/2018; 6,50% a partir de 22/05 (214ª reunião em 16/05).
+- Fim de 2021: 8,25% de 17/09 a 21/10/2021 (= 6,25 + 1 + 1, a orientação de setembro); 8,75% em 22/10; 9,25% em 29/10. Desvio-padrão 0,09–0,10 em meados de outubro e 0,41 em 22/10.
+- Fim de 2022: 9,0% em 20/10/2021; 9,5% em 22/10; 10,0% em 27/10; 10,5% em 01/11; 11,25% em 30/11. Desvio-padrão 0,61 (20/10) → 1,04 (22/10).
+- Fim de 2025: 11,50% em 01/11/2024; 13,50% em 11/12/2024; 14,0% em 13/12; 14,75% em 23/12; 15,0% em 02/01/2025. Desvio-padrão 0,95 (11/12/2024) → 0,74 (06/01/2025) → 0,64 (07/02/2025).
+- Datas de vigência da Selic (SGS 432) usadas para as decisões de 2016–2026; números das reuniões contados a partir da 279ª (17/06/2026, ata no site do BCB) e da 281ª (16/09/2026, página do BCB em inglês): 202ª 19/10/2016; 204ª 11/01/2017; 214ª 16/05/2018; 234ª 28/10/2020; 236ª 20/01/2021; 239ª 16/06/2021; 241ª 22/09/2021; 242ª 27/10/2021; 262ª 08/05/2024; 264ª 31/07/2024; 267ª 11/12/2024; 271ª 18/06/2025; 276ª 28/01/2026; 277ª 18/03/2026.
+
+### Fontes principais (todas por WebSearch; bcb.gov.br, nber.org, scielo.br, arxiv.org, econ.puc-rio.br, economics.mit.edu e larseosvensson.se não abriram por WebFetch)
+
+- Teoria: Blinder et al. (2008, JEL 46(4)), recorte "an important and powerful part of the central bank's toolkit" confirmado em reprodução do resumo; Woodford (2005, Jackson Hole), argumento contra Morris e Shin por resumo do Herald Business (13/10/2026); Morris e Shin (2002); Svensson (2006) e Morris, Shin e Tong (2006) pelos resumos (Svensson: o resultado só vale para precisão pública "implausivelmente baixa" em relação à privada; resposta: sinais privados correlacionados); Amato, Morris e Shin (2002, OxREP 18(4)); Gürkaynak, Sack e Swanson (2005), citado de memória só no qualitativo (fatores de alvo e de trajetória; o segundo pesa mais nos longos).
+- Brasil: Costa Filho e Rocha (2010, Economia Aplicada 14(3); TD-E 17/2008 FEA-RP/USP); Janot e Mota (2012, BCB TD 265); Carvalho, Cordeiro e Vargas (2013, RBE 67(4)); Chague, De-Losso, Giovannetti e Manoel (2015, RBE 69(2)); Cabral e Guimarães (2015, RBE 69(3)); Montes e Nicolay (2016, Análise Econômica 34(66)); Ramos e Portugal (2021, PPP 47, Ipea); Montes e Nicolay (2017, Applied Economics 49(32)) só na bibliografia.
+- Normas e calendário: Circular 2.698/1996; Res. BCB 61/2021 (ata em até 4 dias úteis; conteúdo da ata, recorte via Abrapp; período de silêncio); nota do BCB de 21/11/2016 sobre o período de silêncio (Jornal do Comércio); mudanças de jul/2016 (Agência Brasil, Monitor Mercantil); atas desde a 21ª reunião, jan/1998 (Portal de Dados Abertos do BCB); RPM v.1 n.1 mar/2025; cartas abertas 2001–2003, 2015, 2017, 2021, 2022, 2024 e jun/2025 (Agência Brasil, 10/07/2025; Poder360).
+- Recortes de comunicados e atas reproduzidos pela imprensa: 236ª (Investing.com), 267ª (IstoÉ Dinheiro), 271ª ("não hesitará em prosseguir no ciclo de ajuste caso julgue apropriado", Jornal de Brasília/CGN), ata de set/2025 ("por período bastante prolongado", Agência Brasil), 234ª ("o espaço remanescente...", texto reproduzido por busca, sem página de imprensa identificada). Galípolo: DGABC 14/10/2024 ("dependente de dados") e Reuters/InfoMoney 2025 (recorte em bloco).
+- 2026: Woodford e Hall, Nobel (O Povo, 13/10/2026); Shin no Banco da Coreia (BIS, 20/04/2026); Warsh e a orientação futura (BBVA Research, jun/2026; Kitco, 17/06/2026).
+
+### Lacunas (nada disso entrou como fato)
+
+- Data exata da entrevista de Galípolo com o recorte "Se por acaso você entendeu..." (Reuters/InfoMoney; fontes divergem entre "quarta-feira" e "terça-feira (12)"); o texto diz só 2025.
+- Texto literal da orientação de março de 2024 (corte de 0,5 "na próxima reunião"): a página usa a leitura da Bloomberg Línea de que os votos vencidos seguiam a orientação.
+- Comunicado de março de 2018 (sinal de "flexibilização moderada adicional"): não confirmado; a página usa só a surpresa de maio (Metrópoles) e o Focus.
+- Sinal de outubro de 2021 para dezembro: imprensa diverge entre 1,25 e 1,5 ponto; a página não cita.
+- Desde quando o comunicado traz os nomes de quem votou e quando o Copom passou a oito reuniões (InfoMoney: 2006; Agência Brasil/Monitor Mercantil: mensais até 2015): não citados.
+- Costa Filho e Rocha na RBE 63(4), 2009: volume vem de lista de referências do RePEc; título e ano a conferir no site da RBE.
+- Reação dos DI (pontos-base) aos comunicados citados: não coletada; a página usa o Focus. Sugestão: acrescentar ao coletor a taxa referencial DI × pré da B3 (ou ETTJ da ANBIMA) e fazer um estudo de evento com janela de um dia em torno de cada comunicado, nos moldes de Carvalho, Cordeiro e Vargas.
+- Gürkaynak, Sack e Swanson (2005): proporção da variância explicada pelo fator de trajetória não conferida; o texto só diz que pesou mais nos juros longos.
+
+### Divergências
+
+- Nenhuma com 10.2, 10.2.5, 4.2, 6.3 e 6.4.1. Orientação de 2020 e sua retirada em 20/01/2021 coincidem com 4.2. A distância Selic − regra (3 a 5 pontos em 2025–2026; até 10 pontos abaixo em 2021 com IPCA passado) é a da 10.2.5.
+- O 10.2 diz que a comunicação "mexe nos juros futuros antes de qualquer operação"; a 10.2.6 dá a evidência e as ressalvas (perda de efeito sob Tombini).
