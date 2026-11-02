@@ -50,6 +50,7 @@ SGS = {
     11426: "IPCA, núcleo por exclusão EX0, variação mensal (%) (conferir)",
     4466: "IPCA, núcleo médias aparadas com suavização, variação mensal (%) (conferir)",
     189: "IGP-M, variação mensal (%)",
+    7: "Ibovespa, fechamento (pontos) (conferir)",
     1: "Dólar comercial PTAX venda, diário (R$/US$)",
     3698: "Dólar PTAX venda, média mensal (R$/US$)",
     11752: "Taxa de câmbio real efetiva, IPCA, índice jun/1994=100",
@@ -124,7 +125,7 @@ BIS = {
 # Ipeadata OData: códigos de série (estoque de capital etc.). Preencha com SERCODIGO conferido em
 # http://www.ipeadata.gov.br. A coleta grava também a busca por palavra-chave para achar os códigos.
 IPEA_BUSCAS = ["capital fixo", "estoque de capital", "taxa de investimento", "formação bruta de capital"]
-IPEA_SERIES = []
+IPEA_SERIES = ["JPM366_EMBI366"]  # EMBI+ Brasil (JP Morgan), via Ipeadata
 
 # ------------------------------------------------------------------ rede
 

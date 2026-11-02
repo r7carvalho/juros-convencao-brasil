@@ -137,3 +137,10 @@ Juro real ex-ante do painel = (1 + Selic over anualizada, SGS 1178, último dia 
 - Juro real ex-ante com a Selic meta sobre o Focus 12m: acima de 9% de jun/2025 a ago/2026, pico de 10,7% em fev/2026. Pela convenção única (Selic over, Focus não suavizado) os níveis diferem um pouco: dizer o método.
 - Focus de 23/10/2026: IPCA 2026 = 5,19; 2027 = 4,34; 2028 = 3,75.
 - IPCA de 2019: 4,31% com centro de 4,25% (praticamente no centro, não abaixo).
+
+## Decisões da correção da área 9 (02/11/2026)
+
+- Juro real ex-ante pela convenção única (média anual ou dezembro conforme o gráfico 9.1): 2019 0,25; 2020 −2,09; 2023 7,56; 2024 6,84; 2025 10,52; set/2026 8,39; 23/10/2026 8,73. Páginas que usam a Selic meta (≈8,8%; 0,8% a 2,7% em 2018–2019) devem dizer que é a versão de comparação: 2, 2.1, 2.3, 6, 6.4.2.
+- Distância do juro real para a média de México, Chile e Colômbia em 2018–2021 (BIS): 1,5 / 0,5 / −0,4 / −1,3 p.p.
+- DLSP em set/2026: 69,98% do PIB (SGS 4513). DPF em ago/2026: R$ 9,29 tri.
+- CDS de dez/2024: 151,6 (InfoMoney) em 9.4; 6.1.1 diz 151,7: alinhar em 151,6 com a fonte.

@@ -254,4 +254,4 @@ os argumentos deles.
 - [x] 9.1 Glossário
 - [x] 9.2 Linha do tempo 1980–2026 (planos, regimes, Selic, inflação, crises)
 - [ ] 9.3 Bibliografia completa e método
-- [ ] 9.R Revisão final do site inteiro e `RELATORIO.md`
+- [x] 9.R Revisão final do site inteiro e `RELATORIO.md`

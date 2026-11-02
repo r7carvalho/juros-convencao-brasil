@@ -25,7 +25,7 @@ A página [Fontes e bibliografia](pagina:9.2) consolida as referências de todas
 
 ## Glossário
 
-O [Glossário](pagina:9.3) traz quase noventa verbetes em ordem alfabética, de âncora nominal a viés do Focus. Cada um tem definição de uma a três frases, exemplo numérico quando ajuda e link para a página em que o termo é usado. Inclui as siglas da dívida (DBGG, DLSP, DPF, DPMFi, NFSP, PAF), os títulos públicos (LFT, LTN, NTN-B), os conceitos das Contas Nacionais (TRU, CEI, valor adicionado, SIFMI, FBCF) e os instrumentos do Banco Central (corredor e piso, compromissadas, depósitos voluntários remunerados, redesconto, compulsório, regra de Taylor, forward guidance, QE) e os termos das teorias em disputa (convenção, dominância fiscal, equivalência ricardiana, FTPL, inércia, histerese, juro neutro). Onde um termo é usado de forma diferente por escolas diferentes, o verbete diz qual sentido o painel adota.
+O [Glossário](pagina:9.3) traz 87 verbetes em ordem alfabética, de âncora nominal a viés do Focus. Cada um tem definição de uma a três frases, exemplo numérico quando ajuda e link para a página em que o termo é usado. Inclui as siglas da dívida (DBGG, DLSP, DPF, DPMFi, NFSP, PAF), os títulos públicos (LFT, LTN, NTN-B), os conceitos das Contas Nacionais (TRU, CEI, valor adicionado, SIFMI, FBCF) e os instrumentos do Banco Central (corredor e piso, compromissadas, depósitos voluntários remunerados, redesconto, compulsório, regra de Taylor, forward guidance, QE) e os termos das teorias em disputa (convenção, dominância fiscal, equivalência ricardiana, FTPL, inércia, histerese, juro neutro). Onde um termo é usado de forma diferente por escolas diferentes, o verbete diz qual sentido o painel adota.
 
 ## Linha do tempo, 1964–2026
 
