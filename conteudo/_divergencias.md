@@ -209,7 +209,7 @@ Não alinhado ou pendente:
 ## Achados para a matriz final (blocos 10 e 11)
 
 - 11.5: os riscos fiscais específicos da União caíram de 57,2% para 37,9% do PIB entre 2022 e 2025 (Anexo de Riscos Fiscais do PLDO 2027, via IFI RAF 112) enquanto o prêmio de mercado subiu: o prêmio responde mais a fluxos (Selic, dívida bruta, trajetória do primário, juros americanos) que ao estoque de passivos contingentes; a revisão do bloco 11 indica que os estudos do BCB (WP 637) destacam os juros domésticos (Selic) e a dívida bruta, o que pesa a favor da tese da convenção nesse ponto. IFI (RAF 116): 3,16 p.p. do prêmio de 5 anos atribuídos à dívida; FMI: risco doméstico explica um terço da depreciação de 2024.
-- 10.2.5: a Selic ficou acima da regra de Taylor em 2003–2010 e 2025–2026 e abaixo em 2011–2021; o desvio médio não tem sinal único; o neutro implícito oscila de 0,8% a 12,7% conforme o período.
+- 10.2.5: a Selic ficou acima da regra de Taylor em 2003–2010 e 2025–2026 e abaixo em 2011–2021; o desvio médio não tem sinal único. O "neutro implícito" (Selic menos a regra sem neutro) acompanha a Selic por construção e não serve de evidência para a tese da convenção; o que o dado sustenta é que um neutro fixo não explica o nível da Selic em todos os períodos (revisão do bloco 10).
 - 10.3.1: a orientação futura do BCB em 2020 durou cerca de três meses e não segurou a ponta longa.
 - 5.4.2: o preço relativo dos serviços financeiros sobe com a Selic (correlação 0,61 com a variação da Selic, 2001–2023).
 - 11.7: i − g da DBGG por período: +0,2 p.p. (2006–2013), +7,2 (2014–2016), +3,1 (2017–2019), −3,0 (2020–2022, média; 2020 foi +3,3), +3,5 (2023–2025), +6,2 (2026 preliminar). Teste de Bohn: o primário respondeu à dívida até o início dos anos 2010 (ρ = +0,062 na DLSP, 2002–2013) e deixou de responder depois; limiar às taxas de 2025: 0,041. FMI (Artigo IV 2026, via resumo secundário): primário estabilizador ≈1,5% do PIB, abaixo dos 2,9% (IFI) a 3,4% (painel) por premissas diferentes.
@@ -221,3 +221,10 @@ Não alinhado ou pendente:
 - Resultado "para fins de meta" do governo central: base do BCB (LC 200): 2025 = 58,7 − 48,7 = R$ 10,0 bi de déficit; a 11.6 deve trocar a base RTN (R$ 13,0 bi).
 - Correção do bloco 11: resultado do governo central para fins de meta (base BCB): 2025 R$ 10,0 bi; 2024 ≈ R$ 13,4 bi (cálculo do painel); média do primário consolidado 2017–2022 sem 2020: −0,42% do PIB; precatórios fora da meta em 2027 ≈ R$ 59,3 bi; Estudo nº 16/2025 da Câmara: autoria de Marcia Rodrigues Moura (jul/2025).
 - 10.4: Blanchard revisou a meta de 4% (2010) para 3% (FT, 28/11/2022): 7.1 e 10.1.2 podem citar. O efeito perverso de 2004 (juro sobe → real deprecia) não aparece em 2025 (real valorizou com Selic a 15%); o fim de 2024 é contraexemplo parcial (Selic subindo e PTAX de 5,48 para 6,16 entre 18/09 e 18/12, com o pacote fiscal), desfeito em 2025. Para a matriz: dominância fiscal no sentido de Blanchard 2004 não está ativa em 2025–2026; o canal de prêmio existe.
+
+## Decisões da revisão do bloco 10 (02/11/2026)
+
+- Comunicado de 05/08/2020 = 232ª reunião do Copom (a 233ª é de 16/09/2020).
+- Reservas de US$ 372,6 bi em ago/2026 vêm do SGS 3546 (fecha a divergência nº 1: ago/2026 372,6; set/2026 362,8; mesma série, meses diferentes).
+- O corte de 0,25 p.p. de 05/08/2020 acompanhou a orientação futura: nada de "só com a palavra do Copom".
+- "Meia-entrada" é leitura do painel, não do BCE; a tese da convenção não defende crédito direcionado com taxa própria.
