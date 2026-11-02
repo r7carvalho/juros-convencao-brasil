@@ -2,9 +2,9 @@
  "titulo": "Juro real ex-post da taxa básica: Brasil e emergentes, média por período (% a.a.)",
  "tipo": "barras",
  "unidade": "% a.a.",
- "fonte": "BIS, taxas de política monetária (WS_CBPOL) e inflação ao consumidor (WS_LONG_CPI); cálculo da Frente K reunido em insumos/frente-K.json; médias do painel",
+ "fonte": "BIS, taxas de política monetária (WS_CBPOL) e inflação ao consumidor (WS_LONG_CPI), consulta em 02/11/2026; cálculo do painel",
  "url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv",
- "nota": "Média anual da taxa de política deflacionada pela inflação média em 12 meses. 2026 = jan-ago. Média simples dos anos de cada período.",
+ "nota": "Média anual da taxa de política deflacionada pela inflação média em 12 meses (fórmula de Fisher). 2026 = jan–set. Média simples dos anos de cada período.",
  "series": [
   {
    "nome": "Brasil",
@@ -53,7 +53,7 @@
     },
     {
      "t": "2023–2026",
-     "v": 1.5
+     "v": 1.4
     }
    ]
   },
@@ -87,7 +87,7 @@
     },
     {
      "t": "2023–2026",
-     "v": 1.8
+     "v": 1.7
     }
    ]
   },
@@ -104,7 +104,7 @@
     },
     {
      "t": "2023–2026",
-     "v": 3.1
+     "v": 3.0
     }
    ]
   }

@@ -74,3 +74,49 @@ Cada página tem exemplo de brinquedo, fórmula com exemplo resolvido (exceto 6.
 3. Comparar estimativas de juro neutro de Brasil, México, Chile e Colômbia pelo mesmo método (Holston-Laubach-Williams ou o do BIS) para testar a circularidade apontada em 6.3.2.
 4. Gráfico de dispersão poupança × juro real entre emergentes (o build não tem tipo dispersão; seria preciso acrescentar).
 5. Links pendentes para páginas que ainda não existiam no build: 8, 10.4 e 12.3.
+
+## Revisão aplicada (02/11/2026)
+
+Conferências feitas na aplicação do relatório conteudo/_revisao/6.md (substituem as marcas "de memória" acima):
+
+- IPCA anual 1980–2025, IPCA 12 meses, administrados de 2015 (18,07%, SGS 4449) e Turquia: conferem com os brutos.
+- Selic do JSON 6.2-desinflacao-2016-2017: jul/2017 = 9,25 e out/2017 = 7,50 (SGS 432, vigente no fim do mês); corrigidos.
+- Medianas Focus da primeira pesquisa do ano (focus-anuais_ipca.json): 6,56 (02/01/2015), 4,86 (02/01/2017), 3,32 (04/01/2021), 5,30 (02/01/2023); usadas na 6.4.1.
+- Juro real ex-ante 2018–2019 (Selic over SGS 4189, média do mês, sobre a mediana Focus suavizada de 12 meses do último dia do mês): entre 1,95% e 2,75% em 2018 e entre 0,83% e 2,72% em 2019; dez/2019 = 0,83% (0,65% pelo método da 2.3, com SGS 1178). IPCA: 3,75% (2018, centro 4,5%) e 4,31% (2019, centro 4,25%). O texto diz "abaixo do centro em 2018 e praticamente no centro em 2019", porque 2019 ficou 0,06 ponto acima do centro.
+- BIS (WS_CBPOL, WS_LONG_CPI), fórmula de Fisher, 2026 = jan–set: Brasil 8,8 / 3,9 / 8,3; Chile 1,4, Índia 1,7 e África do Sul 3,0 em 2023–2026 (JSON corrigido); distância para a média de MX, CL, CO, IN, ZA: 6,6 (2000–2009), 3,1 (2010–2019), 5,5 (2023–2026); por ano, 1,2 (2018), 0,3 (2019), −0,1 (2020), −1,6 (2021).
+- Turquia pelo BIS: 38,22% em jun/2023 (taxa 8,5% até 22/06), 75,43% em mai/2024, 31,07% em nov/2025, 30,9% em dez/2025 (taxa 38%), 29,73% em set/2026 (taxa 37%).
+- Poupança nacional bruta 2024 (NY.GNS.ICTR.ZS, via Statistics of the World): Brasil 14,1 (= IBGE), Chile 21,8, México 19,3, Colômbia 13,6. Índia, Indonésia, China e Coreia continuam da compilação anterior (sem reconferência).
+- Pessôa: coluna "Bolsonaro mantém contrato social da redemocratização" listada na página do autor no Blog do IBRE e na *Conjuntura Econômica* de set/2020; texto de 2019 no blog sobre o mesmo contrato.
+- Debate na *Ilustríssima* (Folha), 2016: resposta de L. F. de Paula e E. Jabbour em 21/08/2016; de Oreiro e Gala em 23/10/2016. Título e data exatos do artigo de Lisboa e Pessôa não localizados.
+- Bacha, Holland e Gonçalves (2009), RBE 63(4), confirmado no RePEc; versão no WBER 23(1), pp. 101–117. Resumo não lido; a 6.3 cita sem resultado.
+- Pastore, Gazzano e Pinotti, *Inflação e crises: o papel da moeda*, Elsevier, 2014 (não 2015).
+- África do Sul: meta de 3% ±1 anunciada pelo National Treasury em 12/11/2025, depois de o SARB passar a mirar 3% em jul/2025.
+
+### "Holland e Padovani" (bastidor, fora do texto público)
+
+O briefing citava "Holland e Padovani" como referência. Nenhuma obra conjunta foi encontrada; "Padovani" no debate público é Roberto Padovani, economista-chefe do BV, com entrevistas, e não com trabalho acadêmico com Holland. A referência acadêmica de Márcio Holland sobre o juro alto é Bacha, Holland e Gonçalves (2009, RBE 63(4); WBER 23(1)), agora na 6.3, ao lado de Gonçalves, Holland e Spacov (2007, RBE 61(1), pp. 49–75), que saiu do Para ler da 6.2. O coordenador deve confirmar se tinha outra obra em mente.
+
+### Pendências após a revisão
+
+- Pastore: o painel resume a posição dele sem página; falta citar um texto com data (coluna ou capítulo de *Inflação e crises*).
+- Bacha, Holland e Gonçalves (2009): ler o resumo e acrescentar uma frase sobre o resultado.
+- Artigo de Lisboa e Pessôa na *Ilustríssima* de 2016: título e data.
+- CDS de 112 e 110 pontos (set e 09/10/2026): falta a data exata da matéria do InfoMoney.
+- DI jan/27 em 28/11/2024: o ajuste da B3 não foi conferido; o texto diz "perto de 14%".
+- Pontos de 14 e 15/10/2026 do DI jan/29 vêm de blog (O Cafezinho); trocar pelo ajuste da B3.
+- Poupança de Índia, Indonésia, China e Coreia: reconferir na base do Banco Mundial.
+- Expectativas de consumidores (Sondagem do Consumidor, FGV) e inflação implícita (prefixado × NTN-B): séries não reunidas (6.4.1).
+- Estimativas de prêmio a termo (BCB, Tesouro, IFI) para a 6.1.1.
+- Prazo médio da DPF em 2020–2021 (RMD) para a frase sobre o encurtamento da dívida na pandemia (6.1.1, hoje como leitura do painel).
+- Carga tributária no início dos anos 1990 (6.1.2 cita só 33,7% em 2005, Receita Federal via Ipea, TD 1350).
+- Estudo sobre a reforma previdenciária chilena e a poupança nacional (Holzmann, 1997, ou outro) para a 6.3.1.
+- Abertura da LFT por detentor (RMD, tabela por indexador e detentor) para a 6.2.2.
+- Link para 10.4 (6.1) e para 8 (6, 6.4.2): páginas ainda inexistentes.
+
+### Achados de que a aplicação discordou ou aplicou de outro modo
+
+- 6.2.1 nº 10 (método da Selic no mês da decisão): mantido o método e explicado no texto e no JSON, em vez de trocar pelo fim do mês.
+- 6.2.2 nº 8 (LFT de 30,1% em 2011): mantido, porque o JSON dono (2.4-lft-na-dpf) traz o ponto de 2011 com fonte no RMD.
+- 6.3.2 nº 8: a seção de estimativas foi reduzida a um parágrafo com link para a 2.3, mas o gráfico próprio foi mantido, com a diferença de método dita no texto e na nota.
+- Coordenador pediu "inflação abaixo da meta" em 2018–2019: 2019 ficou em 4,31% contra centro de 4,25%; o texto diz "abaixo do centro em 2018 e praticamente no centro em 2019".
+- Debate Lisboa × Pessôa: o coordenador indicou out/2016; a busca confirma que o debate correu de agosto a outubro de 2016 (resposta de Oreiro e Gala em 23/10/2016); o texto dá as duas datas.

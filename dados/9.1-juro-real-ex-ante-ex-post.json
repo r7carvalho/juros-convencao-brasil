@@ -2,10 +2,10 @@
  "titulo": "Juro real ex-post e ex-ante no Brasil (% a.a.)",
  "tipo": "linha",
  "unidade": "% a.a.",
- "fonte": "BCB, SGS 4390 (Selic mensal), 4189 (Selic over anualizada), 433 (IPCA) e expectativas Focus (IPCA 12 meses, mediana suavizada); cálculo da Frente K do painel Alarmismo × Fatos",
- "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json",
- "consulta": "2026-10-28",
- "nota": "Ex-post: Selic acumulada em 12 meses deflacionada pelo IPCA de 12 meses, (1+i)/(1+π)−1, posição de dezembro. Ex-ante: Selic over corrente deflacionada pela mediana Focus do IPCA 12 meses à frente, último dia útil de dezembro. Último ponto: setembro de 2026. Dados de 2025–2026 sujeitos a revisão.",
+ "fonte": "BCB, SGS 4390 (Selic mensal), 13522 (IPCA 12 meses) e 1178 (Selic over diária anualizada); BCB, Focus, IPCA 12 meses à frente, mediana não suavizada (API Olinda); cálculo do painel (tools/analises/9.1_juro_real.py)",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1178/dados?formato=json",
+ "consulta": "2026-11-02",
+ "nota": "r = (1 + i) / (1 + π) − 1. Ex-post: Selic acumulada em 12 meses (SGS 4390) sobre o IPCA de 12 meses (SGS 13522), posição de dezembro; 2026-09 = 12 meses até setembro de 2026. Ex-ante: Selic over do último dia útil do mês (SGS 1178) sobre a mediana Focus do IPCA 12 meses à frente, série não suavizada, base de cálculo 0, mesmo dia; 2026-09 = 30/09/2026; 2026-10 = 23/10/2026. Com a mediana suavizada o ex-ante muda até 0,3 ponto (30/09/2026: 8,65 em vez de 8,39). Coleta automática de 02/11/2026; dados de 2025–2026 sujeitos a revisão.",
  "governos": true,
  "ref": [
   {
@@ -35,11 +35,11 @@
     },
     {
      "t": "2004",
-     "v": 8.02
+     "v": 8.03
     },
     {
      "t": "2005",
-     "v": 12.64
+     "v": 12.63
     },
     {
      "t": "2006",
@@ -47,7 +47,7 @@
     },
     {
      "t": "2007",
-     "v": 7.08
+     "v": 7.07
     },
     {
      "t": "2008",
@@ -87,11 +87,11 @@
     },
     {
      "t": "2017",
-     "v": 6.81
+     "v": 6.8
     },
     {
      "t": "2018",
-     "v": 2.58
+     "v": 2.57
     },
     {
      "t": "2019",
@@ -132,107 +132,111 @@
    "pontos": [
     {
      "t": "2001",
-     "v": 13.71
+     "v": 13.63
     },
     {
      "t": "2002",
-     "v": 9.59
+     "v": 10.36
     },
     {
      "t": "2003",
-     "v": 10.34
+     "v": 9.84
     },
     {
      "t": "2004",
-     "v": 11.03
+     "v": 11.07
     },
     {
      "t": "2005",
-     "v": 13.13
+     "v": 12.99
     },
     {
      "t": "2006",
-     "v": 8.77
+     "v": 8.74
     },
     {
      "t": "2007",
-     "v": 6.62
+     "v": 6.41
     },
     {
      "t": "2008",
-     "v": 8.29
+     "v": 8.38
     },
     {
      "t": "2009",
-     "v": 4.03
+     "v": 4.09
     },
     {
      "t": "2010",
-     "v": 5.04
+     "v": 4.89
     },
     {
      "t": "2011",
-     "v": 5.29
+     "v": 5.28
     },
     {
      "t": "2012",
-     "v": 1.55
+     "v": 1.56
     },
     {
      "t": "2013",
-     "v": 3.67
+     "v": 3.57
     },
     {
      "t": "2014",
-     "v": 4.66
+     "v": 4.67
     },
     {
      "t": "2015",
-     "v": 6.74
-    },
-    {
-     "t": "2016",
-     "v": 8.44
-    },
-    {
-     "t": "2017",
-     "v": 2.98
-    },
-    {
-     "t": "2018",
-     "v": 2.41
-    },
-    {
-     "t": "2019",
-     "v": 0.83
-    },
-    {
-     "t": "2020",
-     "v": -1.6
-    },
-    {
-     "t": "2021",
-     "v": 3.51
-    },
-    {
-     "t": "2022",
-     "v": 7.93
-    },
-    {
-     "t": "2023",
-     "v": 7.7
-    },
-    {
-     "t": "2024",
      "v": 6.5
     },
     {
+     "t": "2016",
+     "v": 8.55
+    },
+    {
+     "t": "2017",
+     "v": 3.02
+    },
+    {
+     "t": "2018",
+     "v": 2.65
+    },
+    {
+     "t": "2019",
+     "v": 0.25
+    },
+    {
+     "t": "2020",
+     "v": -2.09
+    },
+    {
+     "t": "2021",
+     "v": 3.78
+    },
+    {
+     "t": "2022",
+     "v": 7.94
+    },
+    {
+     "t": "2023",
+     "v": 7.56
+    },
+    {
+     "t": "2024",
+     "v": 6.84
+    },
+    {
      "t": "2025",
-     "v": 10.46
+     "v": 10.52
     },
     {
      "t": "2026-09",
-     "v": 8.78
+     "v": 8.39
+    },
+    {
+     "t": "2026-10",
+     "v": 8.73
     }
    ]
   }

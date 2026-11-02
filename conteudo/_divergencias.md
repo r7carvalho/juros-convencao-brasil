@@ -124,3 +124,8 @@ Juro real ex-ante do painel = (1 + Selic over anualizada, SGS 1178, último dia 
 - "O juro real alto atravessou todos os regimes" é falso como nível: ex-post de 1,6% em 2019, −1,7% em 2020 e −5,1% em 2021. O que persistiu foi a distância para os pares na maior parte do tempo (não em 2018–2021).
 - Dólar em 2002: +70,5% (não 71,5%).
 - NFSP nominal em 12 meses até set/2026: 9,51% do PIB.
+
+## Decisões da correção da área 7 (02/11/2026)
+
+- DPF em ago/2026 (RMD de 28/09/2026): estoque R$ 9,29 tri; LFT 52,74%, prefixados 23,22%, índices de preços 20,31%, câmbio 3,74%; prazo médio 4,10 anos; 16,39% vencendo em 12 meses. Substitui as composições de dez/2025 (48,3 / 25,9 / 22,1) em qualquer página que fale da composição atual. Gráfico: dados/7.2-composicao-dpf-ago2026.json.
+- Estoque de LFT ≈ R$ 4,9 tri: 1 p.p. de Selic custa ≈ R$ 49 bi por ano só na DPF; na dívida líquida do setor público, R$ 61,7 bi (BCB). Atualiza a divergência nº 27.

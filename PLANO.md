@@ -146,7 +146,7 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 7.5 Renegociação e calote (por que a dívida em reais muda a análise; casos internacionais)
 - [x] 7.6 Coordenação fiscal-monetária
 - [x] 7.7 Crédito direcionado e bancos públicos
-- [ ] 7.R Revisão independente da macroárea 7
+- [x] 7.R Revisão independente da macroárea 7
 
 ## 10. Política monetária: instrumentos convencionais e não convencionais
 
