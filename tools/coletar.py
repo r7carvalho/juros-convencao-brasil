@@ -129,17 +129,31 @@ for cand in (os.environ.get("SSL_CERT_FILE"), "/root/.ccr/ca-bundle.crt"):
             pass
 
 
-def baixar(url, tentativas=3, timeout=60, binario=False):
+FALHAS_HOST = {}
+LIMITE_HOST = 3  # depois de 3 falhas seguidas num host, desiste dele nesta execução
+
+
+def baixar(url, tentativas=2, timeout=40, binario=False):
+    host = urllib.parse.urlsplit(url).hostname
+    if FALHAS_HOST.get(host, 0) >= LIMITE_HOST:
+        raise RuntimeError(f"host {host} desativado nesta execução após {LIMITE_HOST} falhas seguidas")
     ultimo = None
     for k in range(tentativas):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
             with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
                 dados = r.read()
+                FALHAS_HOST[host] = 0
                 return dados if binario else dados.decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as e:
+            if e.code == 404:  # resposta válida do servidor: não conta como host fora do ar
+                raise RuntimeError(f"HTTPError: {e}")
+            ultimo = e
+            time.sleep(2 * (k + 1))
         except Exception as e:  # noqa
             ultimo = e
             time.sleep(2 * (k + 1))
+    FALHAS_HOST[host] = FALHAS_HOST.get(host, 0) + 1
     raise RuntimeError(f"{type(ultimo).__name__}: {ultimo}")
 
 
@@ -312,6 +326,18 @@ def main():
             print(f"sidra {k}: {v}")
         return
     escolhidos = args or list(GRUPOS)
+    print("Diagnóstico de conectividade:")
+    for h in ["https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json",
+              "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/63/p/last%201",
+              "https://ftp.ibge.gov.br/", "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/",
+              "https://stats.bis.org/api/v2/", "https://www.tesourotransparente.gov.br/ckan/api/3/action/site_read"]:
+        try:
+            txt = baixar(h, tentativas=1, timeout=20)
+            print(f"  ok    {h}  -> {txt[:80]!r}")
+        except Exception as e:  # noqa
+            print(f"  falha {h}  -> {str(e)[:120]}")
+    RELATORIO["diagnostico"] = {k: v for k, v in FALHAS_HOST.items()}
+    FALHAS_HOST.clear()
     for g in escolhidos:
         print(f"[{g}]")
         GRUPOS[g]()
