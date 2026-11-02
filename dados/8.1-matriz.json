@@ -1,0 +1,111 @@
+{
+  "titulo": "Apoio da evidência a cada proposição (direção × força)",
+  "tipo": "barrash",
+  "unidade": "escala de −3 a +3",
+  "fonte": "Matriz do painel, a partir das páginas 1 a 7 e 10; critérios da página de método (9.1)",
+  "consulta": "2026-11-02",
+  "nota": "Valor = direção × força: +1 a favor, −1 contra, 0 mista; força 3 forte, 2 moderada, 1 fraca. Barra positiva indica apoio à proposição da linha; nas linhas O, apoio à leitura ortodoxa. Proposição mista fica em zero qualquer que seja a força (a tabela da página mostra a força). Classificação de 1ª versão, sujeita a revisão.",
+  "series": [
+    {
+      "nome": "Apoio",
+      "pontos": [
+        {
+          "t": "P1 Juro real acima dos pares",
+          "v": 3
+        },
+        {
+          "t": "P2 Patamar além do fiscal corrente",
+          "v": 2
+        },
+        {
+          "t": "P3 Convenção que se autorreforça (mista)",
+          "v": 0
+        },
+        {
+          "t": "P4a Selic perdeu a eficácia",
+          "v": -3
+        },
+        {
+          "t": "P4b Selic com menos potência e cara",
+          "v": 2
+        },
+        {
+          "t": "P5a Decisões indexadas ao juro de 1 dia",
+          "v": 3
+        },
+        {
+          "t": "P5b Juro acima do retorno, há anos",
+          "v": -2
+        },
+        {
+          "t": "P5c Margem menor que a dos pares",
+          "v": 2
+        },
+        {
+          "t": "P6a Juro alto reduz o investimento",
+          "v": 2
+        },
+        {
+          "t": "P6b Juro é o freio principal",
+          "v": -1
+        },
+        {
+          "t": "P7a Juro como motor da dívida",
+          "v": 3
+        },
+        {
+          "t": "P7b Dívida, prêmio e juro (mista)",
+          "v": 0
+        },
+        {
+          "t": "P8a Credores recebem renda grande",
+          "v": 3
+        },
+        {
+          "t": "P8b Credores sustentam o patamar",
+          "v": -1
+        },
+        {
+          "t": "P9a Picos de inflação vêm de choques",
+          "v": 3
+        },
+        {
+          "t": "P9b Inflação sem demanda",
+          "v": -3
+        },
+        {
+          "t": "P9c Alarme desproporcional (mista)",
+          "v": 0
+        },
+        {
+          "t": "P10 Focus enviesado para cima",
+          "v": -3
+        },
+        {
+          "t": "O1a Fiscal move as oscilações",
+          "v": 3
+        },
+        {
+          "t": "O1b Fiscal explica o patamar",
+          "v": -2
+        },
+        {
+          "t": "O2a Selic afeta a inflação",
+          "v": 3
+        },
+        {
+          "t": "O2b Selic com custo igual ao dos pares",
+          "v": -2
+        },
+        {
+          "t": "O3 Poupança baixa e neutro alto (mista)",
+          "v": 0
+        },
+        {
+          "t": "O4 Não cortar sem âncora fiscal",
+          "v": 2
+        }
+      ]
+    }
+  ]
+}
