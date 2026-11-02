@@ -270,8 +270,8 @@ def resolver_pagina(pid):
     p = PAGINAS.get(pid.strip())
     if p is None:
         cur = PAGINA_ATUAL[0]
-        erro(f"{cur.src if cur else '?'}: link para página inexistente '{pid}'")
-        return "#"
+        aviso(f"{cur.src if cur else '?'}: link para página ainda inexistente '{pid}'")
+        return None
     return p.arquivo
 
 
@@ -305,7 +305,10 @@ def inline(texto):
             if "#" in alvo:
                 alvo, ancora = alvo.split("#", 1)
                 ancora = "#" + ancora
-            return guarda(f'<a href="{resolver_pagina(alvo)}{html.escape(ancora)}">') + rotulo + guarda("</a>")
+            destino = resolver_pagina(alvo)
+            if destino is None:
+                return guarda('<span class="link-pendente" title="página em preparação">') + rotulo + guarda("</span>")
+            return guarda(f'<a href="{destino}{html.escape(ancora)}">') + rotulo + guarda("</a>")
         if href.startswith("#"):
             return guarda(f'<a href="{html.escape(href)}">') + rotulo + guarda("</a>")
         return guarda(f'<a href="{html.escape(href)}" target="_blank" rel="noopener">') + rotulo + guarda("</a>")
