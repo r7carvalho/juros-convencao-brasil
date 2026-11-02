@@ -134,7 +134,7 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 6.2 Política monetária funciona (Holland e Padovani, estudos do BC, 2025)
 - [x] 6.3 Poupança baixa e juro neutro alto
 - [x] 6.4 Autonomia do BC e credibilidade (lei de 2021, evidência)
-- [ ] 6.R Revisão independente da macroárea 6 (inclui conferir que tem a extensão das áreas 2 a 5)
+- [x] 6.R Revisão independente da macroárea 6 (inclui conferir que tem a extensão das áreas 2 a 5)
 
 ## 7. Caminhos de política
 

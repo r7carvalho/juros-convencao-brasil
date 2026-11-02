@@ -129,3 +129,11 @@ Juro real ex-ante do painel = (1 + Selic over anualizada, SGS 1178, último dia 
 
 - DPF em ago/2026 (RMD de 28/09/2026): estoque R$ 9,29 tri; LFT 52,74%, prefixados 23,22%, índices de preços 20,31%, câmbio 3,74%; prazo médio 4,10 anos; 16,39% vencendo em 12 meses. Substitui as composições de dez/2025 (48,3 / 25,9 / 22,1) em qualquer página que fale da composição atual. Gráfico: dados/7.2-composicao-dpf-ago2026.json.
 - Estoque de LFT ≈ R$ 4,9 tri: 1 p.p. de Selic custa ≈ R$ 49 bi por ano só na DPF; na dívida líquida do setor público, R$ 61,7 bi (BCB). Atualiza a divergência nº 27.
+
+## Decisões da correção da área 6 (02/11/2026)
+
+- Distância do juro real do Brasil para a média de México, Chile, Colômbia, Índia e África do Sul (BIS): 6,6 p.p. (2000–09), 3,1 (2010–19), 5,5 (2023–26); por ano 1,2 / 0,3 / −0,1 / −1,6 em 2018–2021.
+- Poupança nacional bruta 2024 (% do PIB): Brasil 14,1 (IBGE); México 19,3; Colômbia 13,6 (Banco Mundial NY.GNS.ICTR.ZS).
+- Juro real ex-ante com a Selic meta sobre o Focus 12m: acima de 9% de jun/2025 a ago/2026, pico de 10,7% em fev/2026. Pela convenção única (Selic over, Focus não suavizado) os níveis diferem um pouco: dizer o método.
+- Focus de 23/10/2026: IPCA 2026 = 5,19; 2027 = 4,34; 2028 = 3,75.
+- IPCA de 2019: 4,31% com centro de 4,25% (praticamente no centro, não abaixo).
