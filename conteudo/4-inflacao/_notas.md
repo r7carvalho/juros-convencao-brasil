@@ -1,6 +1,6 @@
 # Notas da área 4, "Inflação: de onde vem"
 
-Data de referência: 02/11/2026. Acesso direto a IBGE, BCB e demais sites bloqueado na sessão (WebFetch e curl); o orçamento de buscas web (compartilhado entre os subagentes) acabou no meio da rodada. Por isso parte dos números está marcada `[a conferir]`.
+Data de referência: 02/11/2026. Primeira versão escrita sem acesso direto a IBGE e BCB; a revisão de 02/11/2026 conferiu os números com os brutos de dados/brutos/ e retirou as marcas do texto público (pendências no fim).
 
 ## Páginas entregues
 
@@ -18,7 +18,8 @@ A 4.1 passa um pouco de 4.000 palavras pelo critério do lint (que conta URLs, t
 ## Gráficos (dados/)
 
 - `4.1-ipca-meta-teto.json` (linha): IPCA anual, centro, teto e piso, 2003–2026 (2026 = Focus).
-- `4.1-livres-administrados.json` (barras): livres × administrados em 2015, 2021, 2022, 2024, 2025.
+- `4.1-livres-administrados.json` (linha): livres × monitorados × IPCA, 2003–2025 (SGS 11428, 4449, 13522), refeito na revisão.
+- `4.1-contribuicoes-grupos.json` (empilhadas): contribuição dos nove grupos do IPCA, 2012–2025 (SIDRA 1419 e 7060), criado na revisão.
 - `4.1-alimentos-ipca.json` (barras): IPCA × Alimentação e bebidas, 2019–set/2026.
 - `4.1-decomposicao-bc-2021.json` (empilhadas): desvio de 2021 decomposto pelo BC.
 - `4.2-selic-ipca-2019-2026.json` (linha mensal): Selic meta × IPCA 12 meses, jan/2019–out/2026. Também usado na 4.4.
@@ -27,9 +28,11 @@ A 4.1 passa um pouco de 4.000 palavras pelo critério do lint (que conta URLs, t
 - `4.3-fbcf-pib.json` (linha): FBCF/PIB 2003–2026.
 - `4.4-juro-real-ex-ante.json` (linha): juro real ex-ante 2010–out/2026 com neutro de 5%.
 - `4.4-componentes-2024-2025.json` (barras): IPCA, alimentação no domicílio, serviços, administrados em 2024 e 2025.
-- `4.5-desocupacao-ipca.json` (linha): desocupação média × IPCA, 2015–2025.
+- `4.5-desocupacao-ipca.json` (linha): desocupação (média dos trimestres, SIDRA 4099), serviços (SGS 10844) e IPCA, 2012–2025, refeito na revisão.
+- `4.5-comercializaveis.json` (linha): comercializáveis × não comercializáveis × IPCA, 2003–2025 (SGS 4447, 4448, 13522), criado na revisão.
+- `4.3-fbcf-pib.json`: sem uso desde a revisão; a 4.3 usa `5.2-taxa-de-investimento.json` (decisão da área 5).
 
-Não construído: o gráfico pedido de "contribuições por grupo nos anos-chave em barras empilhadas". Faltam os pesos e as contribuições por grupo conferidos (IBGE/BCB inacessíveis). Em seu lugar há o empilhado da decomposição do BC para 2021. Pendência prioritária para a próxima rodada.
+O gráfico de contribuições por grupo foi construído na revisão (2012–2025).
 
 ## Números que divergem ou têm versões diferentes
 
@@ -85,3 +88,32 @@ Recortes entre aspas usados só quando o trecho veio de busca com a fonte primá
 3. Hiato do BC e da IFI lado a lado, 2014–2026.
 4. Taxa de participação e decomposição dos serviços (indexados × intensivos em trabalho) para fechar a seção "O que mudaria a conclusão" da 4.5.
 5. Conferir com a área 6 (6.2 e 6.2.1) e a área 2 (2.1, 2.3) os números comuns: Selic 2010–2017, juro real ex-ante e ex-post, neutro de 5%. Os valores usados aqui vêm dos mesmos insumos (frente K) e batem com `dados/6.2.1-*` e `dados/6.2-desinflacao-2016-2017.json`.
+
+## Pendências após a revisão (02/11/2026)
+
+Números e afirmações retirados do texto público ou mantidos com ressalva, à espera de fonte primária:
+
+- Boxes de decomposição do BC: conferir no PDF os valores de 2021 (importada 4,38; inércia 1,21; bandeira 0,67; expectativas 0,25; hiato −1,21), 2022 (expectativas 1,02) e 2023 (inércia 0,61), as páginas citadas (pp. 59, 75, 76, 77, 83–86) e montar a tabela completa de 2015 e 2022–2025. A busca só confirma que o hiato foi "a principal contribuição negativa" em 2021.
+- Energia elétrica no IPCA de 2015 (51%): não confirmada (a busca achou 49,03% de jan a out/2015); a 4.3 usa o grupo Habitação (18,31%, 2,70 p.p., SIDRA 1419).
+- IC-Br (SGS 27574): não coletado; frase retirada da 4.1.
+- Bens industriais (SGS 10843 ou equivalente): não coletados; a 4.1 usa comercializáveis (SGS 4447) com o nome certo.
+- Hiato da IFI 2024–2026: retirado da 4.5.
+- PME (desemprego mínimo de dez/2014): trocada pela PNAD Contínua (SIDRA 4099).
+- Pobreza 2019–2021 (31,1%, 32,6%, 36,8%): números retirados da 4.2 (falta edição da SIS e linha de pobreza); ficou só a direção.
+- Ofício da carta de jan/2023 (423/2023): retirado.
+- Hiato "se fechando a partir do 3º tri/2022" (RI mar/2023): retirado da 4.2 e da 4.5.
+- Boxe 4 do RPM de mar/2026 (crédito livre de longo prazo −15,7%): mantido com link primário; falta conferir número e página.
+- Energia em set/2026 (+7,98%, 0,32 p.p.): retirados da 4.4; conferir no release do IPCA de set/2026.
+- Endividamento (49,8%) e comprometimento de renda (≈29%) das famílias em jun/2026: citar código SGS; Serasa (1.990 recuperações judiciais no agro em 2025): citar o relatório com data.
+- Estimativas da Lava Jato além do DIEESE (GO Associados etc.): retiradas. Leitura do "3,6% do PIB" do DIEESE: fixar no PDF antes de voltar ao texto.
+- Leitura de Pessôa e Lisboa sobre o corte de 2011: sem obra localizada; a 4.3 fala em "críticos da Nova Matriz" sem nomes.
+- Caracterização de De Bolle (2016) e de Paula e Pires (2017) e páginas de Paula e Pires: não conferidas; a 4.3 só os apresenta.
+- Link estável de Almeida, Lisboa e Pessôa (2015).
+- 377 subitens: confirmar que não houve troca de POF em 2026.
+- Coletar SIDRA 1621 (FBCF com ajuste sazonal) para fixar o pico do 2º tri/2013 nos brutos.
+
+## Achados da revisão não aplicados (com motivo)
+
+- 4.2 nº 27 (tabela da decomposição de 2021 repetida): mantida na 4.2, porque é o episódio da página; a 4.1 fica com o gráfico e uma linha no quadro dos boxes.
+- 4.1 nº 25 (conferir os boxes no PDF): o acesso aos PDFs não foi possível; ficou como pendência acima.
+- _divergencias nº 26 (administrados de 2021): fechada pelos brutos (16,90%, SGS 4449; o 13,05% da imprensa é o grupo Habitação); o registro em _divergencias.md fica para o coordenador.
