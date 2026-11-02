@@ -179,7 +179,7 @@ críticas a ela.
 - [x] 10.3c Japão: QQE (2013), controle da curva de juros (2016–2024), Abenomics, saída em 2024; o que ensina
 - [x] 10.3d Juros negativos: BCE, BoJ, Suíça, Suécia, Dinamarca; efeitos sobre bancos; o "reversal rate"
 - [x] 10.3e Credit easing e linhas dirigidas: TLTRO, Funding for Lending, facilities do Fed em 2020
-- [ ] 10.3f Câmbio como instrumento: swaps cambiais e reservas do BCB, intervenções, quando substituem juro
+- [x] 10.3f Câmbio como instrumento: swaps cambiais e reservas do BCB, intervenções, quando substituem juro
 - [ ] 10.3g Brasil 2020: EC 106 (compra de títulos no secundário), linhas do BCB; o que foi usado e o que ficou no papel
 - [ ] 10.3h Financiamento monetário, "dinheiro de helicóptero" e MMT: Bernanke (2003), Turner (2015), Galí (2020), Kelton; o debate com os críticos; o que vale para moeda não reserva
 - [ ] 10.4 Blanchard por inteiro: da dominância fiscal de 2004 ao "dívida com juro baixo" de 2019 e ao livro de 2023; onde as posições dele mudaram e o que dizem sobre o Brasil

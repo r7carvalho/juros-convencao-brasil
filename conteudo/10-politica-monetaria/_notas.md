@@ -529,3 +529,40 @@ Bernanke (2009, recorte "pure QE regime" pela reprodução do texto do Fed na bu
 - Uso das linhas do Fed: 10.2.3 dá "cerca de US$ 24 bilhões até novembro de 2020" (GAO-21-180); 10.3.5 repete esse número com link e dá o uso final por linha (Main Street US$ 17,5 bi; SMCCF ≈ US$ 14 bi; MLF US$ 6,6 bi). Datas diferentes, coerentes.
 - LTEL-LFG R$ 121,9 bi, igual a 10.2.3. Direcionado 42,4% (2020) e 43,9% (ago/2026), iguais a `dados/2.4-credito-direcionado.json` e 7.9.
 - Selic de 2020 pelo SGS 432: 3% em 07/05/2020, 2,25% em 18/06, 2% em 06/08/2020.
+
+## 10.3f
+
+### Página entregue (02/11/2026)
+
+- 10.3.6 Câmbio como instrumento: swaps e reservas, 1ª versão: cerca de 3.490 palavras de prosa (sem parênteses de fonte, tabelas, fórmulas, citações em bloco e listas do quadro A favor/Contra); 5.140 pela contagem do lint, que inclui tabelas e referências.
+- Conteúdo: exemplo de brinquedo (US$ 10 vendidos à vista e esterilizados × swap de US$ 10, Selic 15%, juro externo 4%, dólar 5 → 6: +5,5 com câmbio parado e −4,9 com alta, idênticos); regime flutuante e os quatro instrumentos (Res. CMN 2.939/2002); acúmulo 2006–2012 com gráfico do SGS 3546; adequação (IFI NT 58); custo de carregamento com fórmula, exemplo resolvido, gráfico e tabela anual; swap (programa de 22/08/2013 a 31/03/2015, pico ≈ US$ 115 bi, resultado de 2015 e 2016, decomposição BNDES/FGV para 2024–2025, estoque de 2026, efeito na sensibilidade da DLSP); 2008 (link 10.2.3), 2020 e dez/2024; paridade de juros com prêmio e trilema; quadro A favor/Contra; tabela México, Chile, Colômbia, Peru; caixa "o painel lê".
+- Gráficos: `dados/10.3.6-reservas.json` (linha, jan/1995 a set/2026, SGS 3546) e `dados/10.3.6-custo-carregamento.json` (empilhadas, 2003 a 12 meses até set/2026). Script: `tools/analises/10.3.6_reservas.py` (`--resumo` imprime a tabela anual e as somas por período).
+- Sem gráfico do estoque de swaps: só há pontos isolados de imprensa (pico ≈ US$ 115 bi em 2015; US$ 26,5 bi no início de 2017; ≈ US$ 100 bi em fev/2026; US$ 95,75 bi depois). A série oficial está nas notas de mercado aberto/câmbio do BCB, que não abriram.
+
+### Método do custo de carregamento (cálculo do painel)
+
+Mensal: diferencial = reservas do mês anterior (US$, SGS 3546) × PTAX do fim do mês anterior (SGS 1) × (Selic do mês, SGS 4390 − taxa de política dos EUA convertida ao mês, média dos fins de m−1 e m, BIS); efeito cambial = reservas do mês anterior × variação da PTAX no mês; líquido = diferencial − efeito cambial. Soma anual sobre o PIB de dezembro (SGS 4382). Resultados: diferencial médio de 1,23% do PIB em 2003–2025 (R$ 1,72 tri correntes somados); líquido com câmbio de R$ 401 bi em 2003–2025 e de R$ 66 bi em 2012–2025; 12 meses até set/2026: diferencial R$ 189,5 bi (1,41% do PIB), líquido R$ 236,5 bi (1,76%). Cada ponto de Selic ≈ R$ 19 bi por ano de diferencial.
+
+### Fontes principais
+
+BCB, SGS 3546, 1, 4390, 432, 4382, 13522, 5727 e 5793 (coleta de 02/11/2026); BIS, taxa de política dos EUA (bruto do coletor); BCB, *Relatório de Gestão das Reservas Internacionais* de mar/2026 (rentabilidade de 9,18% em dólares em 2025, 5,26 de juros e marcação e 3,92 de paridades; 72% em dólar; ouro 7,19%), via Reuters/Terra e Poder360; IFI, Estudo Especial 1 (2017), NT 39 (2019) e NT 58 (13/12/2024), por busca (resumos e cobertura do Estadão Conteúdo: ARA ≈ 140%); Res. CMN 2.939/2002; InfoMoney (fim do programa em 31/03/2015); Terra (pico de US$ 115 bi); Gazeta do Povo, Agência Brasil e reprodução em GuarulhosWeb (swaps de 2015: R$ 89,657 bi caixa e R$ 102,628 bi competência); Agência Brasil (ganho de R$ 75,562 bi em 2016; estoque de US$ 26,5 bi no início de 2017); Bloomberg Línea (≈ US$ 100 bi em 23/02/2026; US$ 95,75 bi após a primeira compra de dólar futuro em dez anos); Correio Braziliense (15/03/2020); IstoÉ Dinheiro (vendas à vista de US$ 24,768 bi em 2020 e US$ 36,861 bi em 2019; dez/2024: US$ 32,59 bi desde 12/12, US$ 21,59 bi à vista e US$ 11 bi em linha); TV Pampa (venda à vista de dez/2024, US$ 21,57 bi, maior desde 1999); Poder360 (US$ 33,3 bi em 2024, dólar caiu em 2 dos 8 dias); Chamon, Garcia e Souza (2017; TD 630, recorte do resumo pela busca); Kohlscheen e Andrade (2014; WP 317; magnitude de 29 pb por US$ 1 bi pela tabela do cap. 4 do livro do FMI); Chamon, Hofman, Magud e Werner (2019, apresentação do FMI); Banxico (comunicados de 21/02/2017 e 09/03/2020); Banco Central do Chile ("Exceptional measures"; comunicado de 14/07/2022; Reuters 26/09/2022); Banco de la República (regra de volatilidade de set/1999; programa de acumulação de dez/2023); BCRP (*Moneda* 170; swaps a taxa fixa desde 2021); Oliveira e Araujo (2021, BKR).
+
+### Lacunas (nada disso entrou como fato)
+
+- Medida oficial do custo de carregamento: o BCB não publica série; a IFI publica gráficos (NT 39), cujos valores anuais não foram abertos. O número de "R$ 183,5 bi em 2015 e R$ 72,7 bi jan–nov/2020" (Tendências com dados do BC, citado em blog) não entrou por falta de método e de fonte primária.
+- Rendimento efetivo das reservas ano a ano: só 2025 confirmado (9,18%); 2022–2024 vieram com rótulos ambíguos na busca e não entraram. O painel usa a taxa dos EUA como aproximação e mostra a sensibilidade de 2025 (diferencial de R$ 179,5 bi cai a ≈ R$ 160 bi com 5,26% e a ≈ R$ 85 bi com 9,18%).
+- Série do estoque de swaps e do resultado anual de swaps antes de 2024 (exceto 2015 e 2016): não obtidos. Mês exato do pico de US$ 115 bi não confirmado (texto diz "em 2015").
+- Data exata da matéria da Bloomberg Línea com US$ 95,75 bi (meados de 2026) não confirmada; texto diz "pouco depois".
+- Leilões de dez/2024: Poder360 dá US$ 27,8 bi no mês e IstoÉ US$ 32,59 bi entre 12 e 30/12; o texto usa a IstoÉ (abre à vista e linha) e a queda de US$ 33,3 bi do SGS 3546 entre nov e dez/2024 é coerente com ela.
+- Conceito da série SGS 3546 ("liquidez"): a queda de dez/2024 do tamanho da soma à vista + linha sugere que as linhas reduzem o saldo; o texto não afirma como as linhas são contadas. Conferir a definição na nota metodológica do BCB.
+- Swaps do BC em 2008 e a sequência de swaps reversos de 2009–2012 não confirmados; ficaram fora.
+- Peru: estoque de swaps e reservas em % do PIB não confirmados; a tabela fica no qualitativo. Colômbia em 2020 não confirmada.
+- Kohlscheen e Andrade: o efeito de 0,71% (tradicional) e 0,20% (reverso) de uma resenha secundária não entrou.
+
+### Números que divergem ou que outras páginas devem alinhar
+
+- 10.2.1 (linha 97) diz que o custo de carregar reservas "o painel não mediu em fonte primária", e 11.1 (linha 112) e 3.2 dizem que não há estimativa oficial ano a ano. Continua verdadeiro para a medida oficial; agora há o cálculo do painel em 10.3.6 (diferencial de 1,41% do PIB nos 12 meses até set/2026). Sugestão: trocar por link para 10.3.6 na revisão.
+- 11.1 calcula a sensibilidade da DLSP ao câmbio sem os swaps (−1,2 ponto do PIB para alta de 10% do dólar); com ≈ US$ 100 bi de swaps o efeito líquido fica perto de −0,8 ponto (10.3.6). Alinhar na revisão.
+- Glossário 9.3 ("Swap cambial") pode ganhar link para 10.3.6.
+- Reservas: usados ago/2026 = US$ 372,6 bi e set/2026 = US$ 362,8 bi com o mês dito (divergência nº 1 do `_divergencias.md`).
+- Swaps nos juros nominais: +1,0% do PIB em 2024 e −0,8% em 2025 (BNDES/FGV), iguais a 11.2.
