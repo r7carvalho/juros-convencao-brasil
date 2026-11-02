@@ -292,6 +292,14 @@ def resumo(linhas, anos_ipca, anos_focus, n_ipca, n_focus):
     X = np.column_stack([np.ones(n), [r["focus"] - r["meta_focus"] for r in linhas], [r["hiato"] for r in linhas]])
     b = np.linalg.lstsq(X, s - np.array([r["focus"] for r in linhas]), rcond=None)[0]
     print(f"MQO (Selic - πe) = a + b(πe - meta) + c h: a={b[0]:.2f} b={b[1]:.2f} c={b[2]:.2f}")
+    # mesma regressão por subperíodo (conta ilustrativa: MQO sem suavização, hiato do painel)
+    for a0, a1 in ((2003, 2010), (2011, 2016), (2017, 2026)):
+        R = [r for r in linhas if a0 <= int(r["t"][:4]) <= a1]
+        y = np.array([r["selic"] - r["focus"] for r in R])
+        X = np.column_stack([np.ones(len(R)), [r["focus"] - r["meta_focus"] for r in R], [r["hiato"] for r in R]])
+        b = np.linalg.lstsq(X, y, rcond=None)[0]
+        r2 = 1 - ((y - X @ b) ** 2).sum() / ((y - y.mean()) ** 2).sum()
+        print(f"  {a0}-{a1} ({len(R)} meses): a={b[0]:.2f} b={b[1]:.2f} c={b[2]:.2f} R2={r2:.2f}")
     mn = min(linhas, key=lambda r: r["hiato"])
     print(f"hiato mínimo: {mn['t']} {mn['hiato']:.2f} (bruto {mn['hiato_bruto']:.2f})")
 

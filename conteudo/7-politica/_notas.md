@@ -67,3 +67,27 @@ Fatos de memória consolidada usados sem marcação, a reconferir na próxima ro
 4. Conferir a carta aberta de jan/2003 (meta ajustada) e trazer um recorte.
 5. Buscar estimativa empírica do repasse da isenção de LCI/LCA à taxa do crédito imobiliário e rural (a pergunta central da 7.5).
 6. Uniformizar com a área 3 os números de detentores e de LFT (há arquivos 3.3-detentores e 3.4-lft-na-dpf com as mesmas séries).
+
+## Pendências após a revisão (aplicação de 02/11/2026)
+
+Correções do relatório conteudo/_revisao/7.md aplicadas; o que ficou sem confirmação foi reescrito sem o número ou a afirmação e está listado aqui.
+
+- "Eu acuso" (Lara Resende, 25/09/2026): texto integral não aberto (grabois.org.br e diariodocentrodomundo.com.br não resolvem na rede da sessão). As páginas mantêm só a paráfrase do núcleo da proposta (faixa permanente da Selic entre a meta e o crescimento nominal potencial, transição anunciada, conselho integrado), com link e data, sem aspas. Saíram: 12,68%, R$ 10,9 tri, R$ 1,4 tri, 10,5% do PIB, economia de quatro pontos do PIB, faixa de 3% a 5,5%, transição para 7,5% em 12 meses, a admissão de pressão cambial e a frase sobre as LFTs entre aspas. A escala da economia de juros virou cálculo do painel em 7.6 (R$ 111 bi por ponto, 0,83% do PIB). Conferir no texto e, se bater, devolver os números com recorte.
+- Oreiro (2026), dois artigos no Substack, sem data registrada: ficou só a paráfrase sustentada pelos títulos ("diagnóstico correto, terapia ingênua e o risco de um novo 2012"; "mudar a hidráulica operacional não resolve a anomalia da Selic"). Saíram a "anomalia sem equivalente" (7.2), a defesa da troca gradual da LFT (7.2) e os detalhes de fuga para dólar e imóveis e controle de capitais (7.8); a leitura de risco cambial passou a ser do painel.
+- Marcos Mendes (7.8): sem URL nas notas nem no "Para ler"; atribuição retirada.
+- "Interesses dos bancos" (7.4): retirado; ficou "Lara Resende defendeu a troca", com o relato do IE-Unicamp, cuja data não foi encontrada (busca de 02/11/2026).
+- Arida e o CDI: a nota da 7.4 saiu inteira; nenhuma afirmação sobre Arida e o CDI. Na 7.9, Arida (2005) ficou atribuído ao resumo do BNDES; conferir no texto da Casa das Garças.
+- SBT News (Durigan nega tabelar a Selic): data da matéria não encontrada.
+- Composição da DPF de ago/2026 (52,74 / 23,22 / 20,31 / 3,74; R$ 9,29 tri; prazo médio 4,10 anos; 16,39% vincendo em 12 meses): via Agência Brasil e Consultoria de Orçamento da Câmara, citando o RMD de 28/09/2026; o PDF do Tesouro não abriu. Conferir no RMD.
+- Lei 15.270: exclusão dos isentos da base do mínimo (art. 16-A, § 1º, da Lei 9.250) confirmada pelo revisor em fontes secundárias; conferir no texto da lei no Planalto.
+- Resoluções CMN 5.118 e 5.119 (01/02/2024): prazos e lastros vieram de resumos (Mayer Brown, BB Investalk); conferir no BCB.
+- EC 106/2020: o não uso do instrumento vem do RQS 2.584/2020 do Senado (via busca); conferir em balanço do BCB.
+- Números retirados por falta de fonte: participação de flutuantes nos EUA e na Itália; pesos da composição de referência dos PAFs; prazos médios da OCDE, do Reino Unido e da Itália em 2011; patrimônio dos fundos de money market; alíquotas nórdicas e americanas; dívida e adesão do Uruguai (2003) e da Jamaica (2010 e 2013); valor da troca argentina de 2020; fração bloqueada no Plano Collor; IPC russo de 1998; projeção da AGU para precatórios (R$ 244,7 bi); perda de R$ 46 bi com a queda da MP 1.303; queda da bolsa no dia do IOF; R$ 380 bi devolvidos pelo BNDES; "300 mil firmas" de Bonomo e Martins; lotes de R$ 1 tri de LFT em 2027 (ficou só a concentração, com o Poder360); posição detalhada da NT 182 do DIEESE.
+- Literatura brasileira sobre o nível da meta (7.1) e sobre o prazo da dívida (7.3): não localizada; as páginas dizem isso.
+
+## Achados do relatório não aplicados como propostos
+
+- 7.9, nº 5: o relatório diz que as estimativas de neutro do BC caíram até 2020 (cerca de 3%); a página 2.3 só documenta 4,5% → 4,75% → 5% a partir de 2024. A 7.9 passou a dizer "sem queda duradoura do neutro estimado" e cita a 2.3, sem afirmar a queda até 2020.
+- 7.5, nº 5: não foi achado economista liberal com texto publicado sobre os títulos isentos; a frase passou a citar a classificação da Receita (gasto tributário) e o trabalho do BCB sobre o direcionado.
+- 7.6, nº 3: em vez de um JSON combinado, a página usa os dois donos (3.4-divida-bruta-paises e 3.4-juros-liquidos-paises).
+- 7.8: a barra "observado" de dados/3.1-primario-estabilizador.json (−0,56, governo geral até ago/2026) é de outra área; o texto da 7.8 diz o conceito e dá o consolidado de set/2026 (−0,52).
