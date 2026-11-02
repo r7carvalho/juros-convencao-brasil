@@ -173,7 +173,7 @@ críticas a ela.
 - [x] 10.2c Redesconto e assistência de liquidez: emprestador de última instância (Bagehot), modalidades no Brasil, uso em crises (2008, 2020)
 - [x] 10.2d Recolhimento compulsório: história no Brasil, uso anticíclico e macroprudencial (2008, 2020), comparação internacional
 - [x] 10.2e Regra de Taylor e modelos do BC (semiestrutural, projeções condicionais), com exemplo numérico da regra
-- [ ] 10.2f Comunicação convencional: atas, comunicados, balanço de riscos, o "Copom dependente de dados"
+- [x] 10.2f Comunicação convencional: atas, comunicados, balanço de riscos, o "Copom dependente de dados"
 - [ ] 10.3a Forward guidance: Delphic × Odyssean (Campbell et al. 2012), Fed 2011–2013, o BCB em 2020, quando funciona e quando vira armadilha
 - [ ] 10.3b Quantitative easing: Fed (QE1–QE3, 2020), BoE, BCE (APP, PEPP); canais (portfolio balance, sinalização, liquidez); estimativas de efeito (Gagnon, Krishnamurthy e Vissing-Jorgensen); o que aconteceu com inflação e dívida
 - [ ] 10.3c Japão: QQE (2013), controle da curva de juros (2016–2024), Abenomics, saída em 2024; o que ensina
