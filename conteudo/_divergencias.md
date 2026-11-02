@@ -205,3 +205,10 @@ Não alinhado ou pendente:
 - CDS: 151,6 é o fechamento de 26/10/2026 (InfoMoney), não de dez/2024; não há mais 151,7 em página. O fim de 2024 aparece como "perto de 200" (2.2, 2.5) e 205 (6.1.1).
 - dados/4.1-decomposicao-bc-2021.json mantém "Valores a conferir com a tabela do PDF" (o PDF do boxe não foi aberto).
 - O lint ainda conta "insumo" em 4.1, 4.3, 4.4, 5.4.1, 5.4.2 e 6.1, todos no sentido econômico (insumo importado, matriz insumo-produto); ficaram.
+
+## Achados para a matriz final (blocos 10 e 11)
+
+- 11.5: os riscos fiscais específicos da União caíram de 57,2% para 37,9% do PIB entre 2022 e 2025 (Anexo de Riscos Fiscais do PLDO 2027, via IFI RAF 112) enquanto o prêmio de mercado subiu: o mercado precifica a trajetória do primário, a credibilidade das regras e os juros americanos mais que o estoque de passivos contingentes. IFI (RAF 116): 3,16 p.p. do prêmio de 5 anos atribuídos à dívida; FMI: risco doméstico explica um terço da depreciação de 2024.
+- 10.2.5: a Selic ficou acima da regra de Taylor em 2003–2010 e 2025–2026 e abaixo em 2011–2021; o desvio médio não tem sinal único; o neutro implícito oscila de 0,8% a 12,7% conforme o período.
+- 10.3.1: a orientação futura do BCB em 2020 durou cerca de três meses e não segurou a ponta longa.
+- 5.4.2: o preço relativo dos serviços financeiros sobe com a Selic (correlação 0,61 com a variação da Selic, 2001–2023).

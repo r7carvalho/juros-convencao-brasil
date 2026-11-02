@@ -1,0 +1,19 @@
+{
+ "titulo": "Precatórios e RPVs da União fora da meta de primário, projeção do Tesouro (R$ bilhões)",
+ "tipo": "barras",
+ "unidade": "R$ bilhões",
+ "fonte": "Tesouro Nacional, Relatório de Projeções Fiscais, 7ª edição (12/01/2026), conforme CNN Brasil, Exame e Times Brasil de 12/01/2026",
+ "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/tesouro-projeta-pico-de-despesas-com-precatorios-fora-da-meta-em-2028/",
+ "consulta": "2026-11-02",
+ "nota": "Pela EC 136/2025, a despesa com precatórios e requisições de pequeno valor entra na meta de forma gradual a partir de 2027, com acréscimo mínimo de 10 pontos percentuais por ano; a parcela restante fica fora da meta até 2035. Os anos de 2031 a 2034 não foram divulgados na cobertura consultada. O PLDO 2027 (abril de 2026) fixou 39,4% dentro da meta em 2027 e estimou R$ 57,8 bi fora dela, abaixo dos R$ 96,1 bi da projeção de janeiro.",
+ "series": [
+  {"nome": "Fora da meta", "pontos": [
+   {"t": "2026", "v": 57.8},
+   {"t": "2027", "v": 96.1},
+   {"t": "2028", "v": 98.7},
+   {"t": "2029", "v": 91.3},
+   {"t": "2030", "v": 85.1},
+   {"t": "2035", "v": 21.6}
+  ]}
+ ]
+}

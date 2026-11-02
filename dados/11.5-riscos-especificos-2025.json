@@ -1,0 +1,18 @@
+{
+ "titulo": "Riscos fiscais específicos da União em 2025, por grupo (% do PIB)",
+ "tipo": "barrash",
+ "unidade": "% do PIB",
+ "fonte": "Anexo V (Riscos Fiscais) do PLDO 2027, conforme IFI, Relatório de Acompanhamento Fiscal nº 112 (21/05/2026), e Consultoria de Orçamento do Senado e da Câmara, Nota Técnica Conjunta sobre o PLDO 2027 (garantias); PIB de 2025 do BCB, SGS 4382; cálculo do painel nas linhas por diferença",
+ "url": "https://www12.senado.leg.br/ifi/pdf/raf112_mai2026.pdf",
+ "consulta": "2026-11-02",
+ "nota": "Total de R$ 4.828,6 bi (37,9% do PIB). Riscos primários de R$ 3.149,3 bi (24,7%), dos quais demandas judiciais de R$ 2.273,2 bi (17,8%); 'outros riscos primários' é a diferença. Riscos financeiros de R$ 1.679,3 bi (13,2%), dos quais haveres junto a estados e municípios de R$ 888,8 bi (7,0%) e garantias em operações de crédito de R$ 336,6 bi (2,6%, sobre PIB de R$ 12.738,6 bi); 'outros riscos financeiros' é a diferença. São valores de exposição (o que está em jogo), não de perda esperada.",
+ "series": [
+  {"nome": "Exposição em 2025", "pontos": [
+   {"t": "Demandas judiciais", "v": 17.8},
+   {"t": "Haveres junto a estados e municípios", "v": 7.0},
+   {"t": "Outros riscos primários", "v": 6.9},
+   {"t": "Outros riscos financeiros", "v": 3.6},
+   {"t": "Garantias em operações de crédito", "v": 2.6}
+  ]}
+ ]
+}

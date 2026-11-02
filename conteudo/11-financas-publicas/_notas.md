@@ -143,3 +143,36 @@ Lacunas e pendências:
 - O verbete explicativo que descreve o primário como "economia para pagar juros" não foi citado com fonte; a página fala em "linguagem corrente".
 
 Divergências com outras páginas: nenhuma nova. Déficit primário de 2023: a página usa 2,28% (SGS 5793, igual ao JSON da página 11); a cobertura de fev/2024 dizia 2,29%.
+
+## 11.5
+
+Arquivo: `conteudo/11-financas-publicas/11.5-risco-fiscal.md` (id 11.5, pai 11, ordem 5). Redação de 02/11/2026.
+
+Palavras: cerca de 3.500 de prosa fora das tabelas, das fórmulas, dos parênteses de fonte e do "Para ler" (3.760 contando as referências no texto); o `tools/lint.py` conta 5.400 tokens. Sem travessão, sem "não é X, é Y", sem palavra vetada. `build.py --check` sem erro; aviso só para o link a 11.7, ainda não escrita.
+
+Estrutura: exemplo de brinquedo (família com dívidas diretas, ação trabalhista de 60 com 30% de chance, fiança de 40 com 10%; exposição 100, perda esperada 22; o banco cobra 2 pontos pelo comportamento, não pelo parecer); sentido legal (LRF art. 4º, § 3º, citado; art. 5º, III, "b"; MDF 15ª ed. pp. 58-60, matriz direta/contingente × explícita/implícita; riscos gerais e específicos do Anexo V; fórmula da perda esperada); tamanho dos passivos contingentes (tabela de dez/2025 e gráfico); precatórios (fluxo, EC 113/114, ADIs 7.047 e 7.064, MP 1.200, EC 136, PLDO e PLOA 2027, projeção do Tesouro em gráfico); sentido de mercado (CDS, prêmio a termo, inclinação e inflação implícita com fórmula de Fisher e exemplo); medição do prêmio (BCB RI dez/2022, RPM jun/2025 e WP 637; IFI RAF 116; FMI CR 25/194) com três cuidados de método; ponte lei → preço; quadro A favor / Contra e `:::painel`. Não repete os episódios de 6.1.1 nem o registro contábil do precatório de 11.4; liga para 3.2, 6.1, 6.1.1, 6.1.2, 7.2, 7.7, 1.5.2, 2.5, 3.1, 11.4 e 11.7.
+
+Gráficos: `dados/11.5-riscos-especificos-2025.json` (barrash, % do PIB, cinco grupos que somam 37,9%; "outros riscos primários" e "outros riscos financeiros" por diferença; garantias = 336,6 / PIB de 2025 do SGS 4382) e `dados/11.5-precatorios-fora-da-meta.json` (barras, R$ bi, projeção do Tesouro de 12/01/2026: 2026–2030 e 2035; 2031–2034 não divulgados na cobertura).
+
+Fontes principais: LRF (texto do § 3º conferido em reproduções do dispositivo em resultado de busca); MDF 15ª ed. (páginas conforme o material de base); PLDO 2027, Anexo V, via IFI RAF 112 (21/05/2026) e Nota Técnica Conjunta das consultorias de orçamento; JOTA (abr/2026, via CNPL) para as tributárias; Agência Câmara (LDO 2026, dados de 2024) e Conjur (17/04/2024, LDO 2025); AGU (jan/2026); BGU 2025 (provisões); Tesouro, Relatório de Garantias Honradas (dez/2025 e jan/2026) e Relatório de Projeções Fiscais (12/01/2026, via CNN, Exame, Times Brasil); Insper, Mendes, Coelho, Lisboa e Barbosa (2025); IFI RAF 116 (17/09/2026; Poder360 de 19/09/2026); BCB, RI dez/2022 e RPM jun/2025 (boxes) e WP 637; FMI CR 25/194; Anbima ETTJ (28/10/2026); Focus (dados/brutos, 23/10/2026); CNN e Exame (Correios, 28/10/2026); STF (ADIs 7.047 e 7.064). Todos os sites .gov.br, senado.leg.br, camara.leg.br, tcu, insper e repec estavam bloqueados ao WebFetch; os números vêm de trechos e resumos de busca que citam o documento primário.
+
+Números e contas do painel:
+- Exposição de dez/2025: 4.828,6 (37,9%), primários 3.149,3 (24,7%), demandas judiciais 2.273,2 (17,8%), financeiros 1.679,3 (13,2%), haveres 888,8 (7,0%) (IFI RAF 112). Pico de 57,2% do PIB em 2022.
+- Demandas judiciais: ≈ 3,6 tri (dados de 2023, ≈ 1 tri provável), ≈ 2,6 tri (dados de 2024; possível −18,7%, provável −45,1%), 2.273,2 bi (2025; possível de 2.101,5 para 1.740,0). Provável de 2025 ≈ 533 bi por diferença (cálculo do painel), próximo das provisões judiciais e administrativas do BGU 2025 (14,17% de R$ 3,636 tri ≈ R$ 515 bi).
+- Tributárias 2025: 805,8 (provável 172,6, contra 224,7 em 2024; possível 633,2, contra 649,2).
+- Garantias: estoque 336,6 bi (35,7 de estados no RRF); honradas 11,08 bi em 2025 (MG 32%), 86,5 bi desde 2016, 6,03 bi recuperados.
+- Precatórios e RPV: 2026 autorizado 73,8 + 44,2; PLOA 2027 51,3 + 46,4 = 97,7; 39,4% na meta em 2027 (R$ 38,4 bi no PLOA), 56,2% em 2028, 100% em 2036; PLDO estimava R$ 57,8 bi fora em 2027; projeção do Tesouro de jan/2026 (com 10% mínimo): 57,8 / 96,1 / 98,7 / 91,3 / 85,1 (2026–2030) e 21,6 em 2035. IFI: execução média de 0,6% do PIB (2018–2022) e 0,7% (2024–2026).
+- Inflação implícita de 1 ano em 28/10/2026: (1,142476 / 1,067635) − 1 = 7,01% (Anbima ETTJ, vértice 252 du), contra Focus 12 meses ≈ 4,5% em 23/10/2026 (dados/brutos/focus-inflacao_12m.json, mediana não suavizada 4,53 a 4,57).
+- IFI: contribuição média da dívida bruta ao prêmio ACM de 5 anos de 3,16 p.p. nos 12 meses até ago/2026.
+
+Lacunas e pendências:
+- O total de demandas judiciais de 2,27 tri e a queda do risco possível de 2.101,5 para 1.740,0 bi vêm de trechos de busca (IFI e Anexo V); conferir na Tabela de demandas judiciais do Anexo V do PLDO 2027. O provável de 2025 (≈ 533 bi) é derivado por diferença.
+- APET afirmou que o total "no fechamento de 2025" era R$ 2,607 tri segundo o anexo da LDO 2026; parece confundir o ano de referência (a LDO 2026 traz dados de 2024) e não foi usado.
+- Estoque do FCVS em reconhecimento e valores de fundos e estatais no anexo: não localizados; a página cita o FCVS sem número.
+- Tabela de sensibilidade da dívida do Anexo V (efeito de 1 p.p. de Selic, PIB e primário): não localizada; a página usa o R$ 61,7 bi da DLSP (decisão de divergências) e a frase do Tesouro sobre sensibilidade alta a juros curtos e baixa ao câmbio.
+- RI dez/2022 e RPM jun/2025: conclusões lidas em resumos de busca, sem coeficientes; o nível do prêmio ACM de 5 anos não foi localizado. A IFI também cita choque de um desvio-padrão da dívida associado a ≈ 2,16 p.p.; não usado por falta de contexto.
+- Data exata do texto da APET e do TCU sobre o PLDO 2027 não confirmada (2026 pela ordem dos fatos).
+- Os R$ 12 bi de empréstimo dos Correios de dez/2025: a página não afirma que tiveram garantia da União (só o de R$ 7 bi, DOU de 28/10/2026).
+- Sugestão: pôr no coletor a série histórica do Anexo de Riscos Fiscais (exposição por grupo, 2015–2025) para um gráfico de linha, e a série de despesas com sentenças judiciais (SIOP) para o fluxo anual.
+
+Divergências com outras páginas: nenhuma nova. Precatório de dez/2023 (R$ 92,4 bi, 0,84 p.p., R$ 60,1 bi represados), superávit de 2022 (R$ 54,1 bi) e exclusões de 2025 (R$ 48,7 bi, 41,1 de precatórios) iguais a 3.2, 6.1.2 e 7.7. CDS de 110 (09/10/2026), 120→152 (26/10/2026) e 205 (fim de 2024) iguais a 6.1 e 6.1.1. O FMI (CR 25/194, um terço da depreciação de 2024 por risco doméstico) responde em parte à ressalva do `:::painel` de 6.1, que dizia faltar a comparação com outras moedas; sugerir à revisão da área 6 acrescentar o número lá.
