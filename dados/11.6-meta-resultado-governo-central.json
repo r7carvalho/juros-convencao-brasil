@@ -1,0 +1,164 @@
+{
+  "titulo": "Governo central: piso da meta de primário, resultado cheio e resultado para fins de meta, 2016–2026 (% do PIB)",
+  "tipo": "barras",
+  "unidade": "% do PIB",
+  "fonte": "Metas: LDOs de cada ano (2016–2022 via Câmara dos Deputados, Agência Brasil e FGV IBRE; 2023 meta ajustada de R$ 213,6 bi; 2024–2025 meta zero com banda de 0,25 p.p.; 2026 meta de 0,25% com piso zero, LC 200/2023, art. 5º, § 3º). Resultados: Tesouro Nacional, RTN de dezembro de cada ano (valores divulgados em janeiro do ano seguinte); 2026: Relatório de Avaliação de Receitas e Despesas Primárias do 4º bimestre (24/09/2026), projeção. Para fins de meta: Tesouro e BCB (2024: R$ 11,0 bi; 2025: R$ 13,0 bi), STF/Tesouro (2023: sem os R$ 92,4 bi de precatórios) e 4º RARDP de 2026. PIB: BCB, SGS 4382 (dezembro, 12 meses); 2026 = PIB implícito na meta (R$ 34,3 bi = 0,25%). Cálculo do painel.",
+  "url": "https://www.tesourotransparente.gov.br/publicacoes/boletim-resultado-do-tesouro-nacional-rtn",
+  "consulta": "2026-11-02",
+  "nota": "Primeira série: o resultado mínimo que a lei aceitava (meta em déficit até 2023; limite inferior da banda de tolerância de 2024 em diante). 2020: meta dispensada pelo Decreto Legislativo 6/2020 (calamidade), sem barra. 2016: o RTN revisou depois o déficit de R$ 154,3 bi para R$ 161,3 bi (FIES). 2023: a meta da LDO era de déficit de R$ 65,9 bi; a EC 126/2022 e as deduções admitiram até R$ 213,6 bi. 2026 é projeção oficial de setembro, com contingenciamento de R$ 13,6 bi para levar o resultado para fins de meta ao piso.",
+  "ref": [
+    {
+      "v": 0,
+      "rotulo": "equilíbrio"
+    }
+  ],
+  "series": [
+    {
+      "nome": "Piso legal da meta",
+      "pontos": [
+        {
+          "t": "2016",
+          "v": -2.72
+        },
+        {
+          "t": "2017",
+          "v": -2.41
+        },
+        {
+          "t": "2018",
+          "v": -2.27
+        },
+        {
+          "t": "2019",
+          "v": -1.88
+        },
+        {
+          "t": "2020",
+          "v": null
+        },
+        {
+          "t": "2021",
+          "v": -2.74
+        },
+        {
+          "t": "2022",
+          "v": -1.69
+        },
+        {
+          "t": "2023",
+          "v": -1.95
+        },
+        {
+          "t": "2024",
+          "v": -0.25
+        },
+        {
+          "t": "2025",
+          "v": -0.25
+        },
+        {
+          "t": "2026 (proj.)",
+          "v": 0.0
+        }
+      ]
+    },
+    {
+      "nome": "Resultado cheio (RTN)",
+      "pontos": [
+        {
+          "t": "2016",
+          "v": -2.46
+        },
+        {
+          "t": "2017",
+          "v": -1.89
+        },
+        {
+          "t": "2018",
+          "v": -1.72
+        },
+        {
+          "t": "2019",
+          "v": -1.29
+        },
+        {
+          "t": "2020",
+          "v": -9.77
+        },
+        {
+          "t": "2021",
+          "v": -0.39
+        },
+        {
+          "t": "2022",
+          "v": 0.54
+        },
+        {
+          "t": "2023",
+          "v": -2.11
+        },
+        {
+          "t": "2024",
+          "v": -0.37
+        },
+        {
+          "t": "2025",
+          "v": -0.48
+        },
+        {
+          "t": "2026 (proj.)",
+          "v": -0.59
+        }
+      ]
+    },
+    {
+      "nome": "Resultado para fins de meta",
+      "pontos": [
+        {
+          "t": "2016",
+          "v": null
+        },
+        {
+          "t": "2017",
+          "v": null
+        },
+        {
+          "t": "2018",
+          "v": null
+        },
+        {
+          "t": "2019",
+          "v": null
+        },
+        {
+          "t": "2020",
+          "v": null
+        },
+        {
+          "t": "2021",
+          "v": null
+        },
+        {
+          "t": "2022",
+          "v": null
+        },
+        {
+          "t": "2023",
+          "v": -1.26
+        },
+        {
+          "t": "2024",
+          "v": -0.09
+        },
+        {
+          "t": "2025",
+          "v": -0.1
+        },
+        {
+          "t": "2026 (proj.)",
+          "v": -0.1
+        }
+      ]
+    }
+  ]
+}

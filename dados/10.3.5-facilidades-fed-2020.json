@@ -1,0 +1,36 @@
+{
+ "titulo": "Fed, 2020: capacidade anunciada, capital do Tesouro e uso das linhas com apoio da Lei CARES (US$ bilhões)",
+ "tipo": "barras",
+ "unidade": "US$ bilhões",
+ "fonte": "Capacidade e capital do Tesouro: comunicados do Federal Reserve de 23/03/2020 e 09/04/2020 e termos das facilidades. Uso: Main Street, Arseneau, Fillat, Mahar, Morgan e Van den Heuvel (2022, NY Fed Economic Policy Review; Staff Report 984); facilidades de crédito corporativo, Boyarchenko, Kovner e Shachar (NY Fed, Economic Policy Review, 2022) e NY Fed Staff Report 986; Municipal Liquidity Facility, Haughwout (NY Fed Staff Report 985; Economic Policy Review, 2022)",
+ "url": "https://www.newyorkfed.org/research/staff_reports/sr984.html",
+ "consulta": "2026-11-02",
+ "nota": "Uso: Main Street, volume dos 1.830 empréstimos (US$ 17,5 bi); crédito corporativo, compras do SMCCF (cerca de US$ 14 bi; o PMCCF não fez nenhuma operação); MLF, compras totais em quatro operações com o estado de Illinois e a MTA de Nova York (US$ 6,6 bi; saldo máximo de US$ 6,4 bi). Do capital do Tesouro de US$ 35 bi para a MLF, US$ 17,5 bi foram aportados de início. A PPPLF, que chegou a US$ 90,6 bi em 30/06/2021, não tinha teto nem capital do Tesouro e fica fora do gráfico.",
+ "governos": false,
+ "series": [
+  {
+   "nome": "Capacidade anunciada",
+   "pontos": [
+    {"t": "Main Street", "v": 600},
+    {"t": "Crédito corporativo (PMCCF + SMCCF)", "v": 750},
+    {"t": "Municípios (MLF)", "v": 500}
+   ]
+  },
+  {
+   "nome": "Capital do Tesouro (Lei CARES)",
+   "pontos": [
+    {"t": "Main Street", "v": 75},
+    {"t": "Crédito corporativo (PMCCF + SMCCF)", "v": 75},
+    {"t": "Municípios (MLF)", "v": 35}
+   ]
+  },
+  {
+   "nome": "Usado",
+   "pontos": [
+    {"t": "Main Street", "v": 17.5},
+    {"t": "Crédito corporativo (PMCCF + SMCCF)", "v": 14},
+    {"t": "Municípios (MLF)", "v": 6.6}
+   ]
+  }
+ ]
+}

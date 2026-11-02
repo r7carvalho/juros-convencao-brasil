@@ -176,3 +176,39 @@ Lacunas e pendências:
 - Sugestão: pôr no coletor a série histórica do Anexo de Riscos Fiscais (exposição por grupo, 2015–2025) para um gráfico de linha, e a série de despesas com sentenças judiciais (SIOP) para o fluxo anual.
 
 Divergências com outras páginas: nenhuma nova. Precatório de dez/2023 (R$ 92,4 bi, 0,84 p.p., R$ 60,1 bi represados), superávit de 2022 (R$ 54,1 bi) e exclusões de 2025 (R$ 48,7 bi, 41,1 de precatórios) iguais a 3.2, 6.1.2 e 7.7. CDS de 110 (09/10/2026), 120→152 (26/10/2026) e 205 (fim de 2024) iguais a 6.1 e 6.1.1. O FMI (CR 25/194, um terço da depreciação de 2024 por risco doméstico) responde em parte à ressalva do `:::painel` de 6.1, que dizia faltar a comparação com outras moedas; sugerir à revisão da área 6 acrescentar o número lá.
+
+## 11.6
+
+Arquivo: `conteudo/11-financas-publicas/11.6-regras-fiscais.md` (id 11.6, pai 11, ordem 6). Redação de 02/11/2026.
+
+Palavras: cerca de 3.530 de prosa fora das tabelas, das fórmulas, dos parênteses de fonte e do "Para ler" (cerca de 3.800 contando os parênteses); o `tools/lint.py` conta cerca de 6.000 tokens. Sem travessão, sem "não é X, é Y", sem palavra vetada. `build.py --check` sem erro; aviso só para o link a 11.7.
+
+Estrutura: exemplo de brinquedo (família com renda 100, gasto 90, dívida 200 a 5%; quatro regras; ano de queda de 10% em que a regra de resultado exige corte de 11% e a de despesa deixa a dívida ir a 210,5; juro dobrado em que as regras de resultado e despesa seguem cumpridas e a dívida sobe); tipologia com tabela (FMI, Fiscal Rules Dataset) e as oito propriedades de Kopits e Symansky (1998); LRF, regra de ouro, teto e arcabouço (fórmula do limite com exemplo); desempenho com gráfico e tabela por regime; por que o Brasil trocou de regra; Chile, UE e Suíça; evidência sobre regras e spread; a ligação com o juro pelo $s^*$, com as leituras das duas teses, quadro A favor / Contra e `:::painel`. Não repete os episódios de mercado (6.1.1), os precatórios (11.5), a apuração BCB × Tesouro (11.3) nem o argumento da despesa obrigatória (6.1.2); liga para eles.
+
+Gráficos:
+- `dados/11.6-meta-resultado-governo-central.json` (barras, % do PIB, 2016–2026): piso legal da meta, resultado cheio (RTN, valores divulgados em janeiro do ano seguinte) e resultado para fins de meta (2023–2026). Conversão para % do PIB com SGS 4382 (dezembro); 2026 com o PIB implícito na meta (R$ 34,3 bi = 0,25%, ≈ R$ 13,72 tri). 2020 sem barra de meta (dispensada pelo Decreto Legislativo 6/2020).
+- Reusa `dados/3.1-primario-estabilizador.json` (dono: 3.1).
+
+Fontes principais: LRF (arts. 4º, 9º, 12, 19, 35, 42); CF art. 167, III (recorte conferido em resultado de busca que reproduz o texto); EC 95, 106, 109, 113, 114, 123, 126 e 136; LC 200/2023 e LC 211/2024 (dispositivos conforme o texto do Planalto de 27/09/2026 descrito no material de base); Tesouro, RTN (2016–2025, via imprensa) e Relatório de Avaliação de Receitas e Despesas Primárias do 4º bimestre de 2026 (24/09/2026, via Agência Brasil e CNN Brasil); IFI (nota sobre o PLDO 2026; RAF 108, 116 e 117); Blog do IBRE (31/01/2022); Bráulio Borges para a BBC (R$ 794,9 bi acima do teto em 2019–2022); Gazeta do Povo (2022); Consultoria de Orçamento da Câmara (Informativo PLDO 2027); Prisma Fiscal de outubro de 2026; FMI (Fiscal Rules Dataset; WP/25/195 de Acalin, Martinez e Roch; SDN/2025/004); Banco Mundial (PRWP 10741); Kopits e Symansky (1998); Feld et al. (2017); Heinemann, Moessinger e Yeter (2018); Paetz e Truger (2015); Dipres e CFA (Chile); Regulamento (UE) 2024/1263; BCB, SGS 5793, 5727, 13762, 4513 e 4382 (coleta de 02/11/2026). Todos os sites .gov.br, ipea, ebc e senado estavam bloqueados ao WebFetch; os números vêm de trechos de busca que citam o documento primário.
+
+Números e contas do painel:
+- Governo central (R$ bi; meta = resultado mínimo aceito): 2016 −170,5 / −154,3 (revisto depois para −161,3, ver 11.3); 2017 −159 / −124,4; 2018 −159 / −120,3; 2019 −139 / −95,1; 2020 meta dispensada / −743,1; 2021 −247,1 / −35,1; 2022 −170,5 / +54,1; 2023 −213,6 (LDO −65,9) / −230,5, −138,1 sem precatórios; 2024 piso −0,25% / −43,0, −11,0 para fins de meta; 2025 piso −0,25% / −61,7, −13,0 (exclusões de 48,7); 2026 piso 0 / projeção −80,9, −13,6 para fins de meta, contingenciamento de 13,6.
+- Médias por regime (setor público consolidado, SGS 5793 e 5727, dezembro): primário +2,91 (2002–2013), −1,63 (2014–2016), −1,89 (2017–2022; −1,36 em 2017–2019), −1,04 (2023–2025; ≈ −0,8 sem os precatórios de 2023); juros 6,05 / 6,75 / 5,23 / 7,51% do PIB. DLSP 59,9 (2002) → 30,5 (2013) → 46,1 (2016) → 56,1 (2022) → 65,2 (2025) → 70,0 (set/2026); DBGG 55,5 (2006) → 51,5 → 69,8 → 71,7 → 78,6 → 82,9.
+- $s^*$ de brinquedo: d = 0,80, g = 2%: 2,4% do PIB com r = 5% e 4,7% com r = 8%; 0,8 p.p. de primário por ponto de juro real.
+
+Lacunas e pendências:
+- Metas e resultados de 2001–2015 ano a ano (setor público consolidado em % do PIB e governo central) não foram montados: não havia tabela consolidada acessível; o gráfico começa em 2016. Sugestão: pôr no coletor a planilha de série histórica do RTN e os Anexos de Metas Fiscais das LDOs (ou a tabela do Blog do IBRE de 31/01/2022) e estender o gráfico a 2001.
+- Autor do post do Blog do IBRE "21 anos de meta de resultado primário" não confirmado; citado sem autor.
+- Valores aprovados de crédito para a regra de ouro em 2021 (PLN 9/2021: pedido de R$ 164 bi, relatório que propunha aprovar só R$ 28,5 bi), 2022, 2023 e 2024 não confirmados; a página cita 2019, 2020, a insuficiência de 2021 e o PLN 14/2025.
+- Composição das deduções de 2026 (R$ 67,3 bi = 80,9 − 13,6) por item (precatórios, saúde, educação, defesa) não localizada; a página cita só o total implícito e o resultado para fins de meta.
+- O resultado de 2022 aparece como R$ 54,1 bi (RTN) e R$ 54,9 bi (TCU, possivelmente BCB); a página usa o RTN.
+- O total de R$ 794,9 bi acima do teto (Borges) inclui os créditos extraordinários da pandemia, que o teto já excluía; a Gazeta do Povo dá R$ 840 bi com outro recorte. A página usa Borges e diz o que inclui.
+- Números da UE (1 e 0,5 ponto de redução da dívida; margem de 1,5% de déficit estrutural) e da meta chilena de 2001 vêm do conhecimento do regulamento e da literatura, confirmados só em parte pela busca (o Conselho da UE confirma a trajetória de despesa e os planos de 4 a 7 anos); conferir no Regulamento (UE) 2024/1263.
+- Dívida federal suíça em % do PIB não localizada; a página diz só que caiu.
+- PRWP 10741 do Banco Mundial: título e autores não confirmados (a busca sugere Islamaj, Samano e Sommers); citado pelo número.
+
+Divergências com outras páginas:
+- 7.8 diz metas de "zero em 2024 e 2025 e superávit de 0,25% em 2026" e déficit consolidado de 0,40% (2024) e 0,43% (2025) pelo SGS 5793: compatível. A 11.6 acrescenta o resultado do governo central pelo RTN (0,36% e 0,48%).
+- 6.1.2 diz que o arcabouço "limita o crescimento real da despesa total entre 0,6% e 2,5%": correto como faixa; a 11.6 mostra que a regra é 70% ou 50% da receita dentro dela.
+- Primário estabilizador: a 11.6 usa a faixa 2,9% (IFI, RAF 117) a 3,4% (painel, dívida de ago/2026), como `_divergencias.md`.
+- Juro real ex-ante de 2025: 10,5% pela convenção única (10,52).
