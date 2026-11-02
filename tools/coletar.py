@@ -103,7 +103,6 @@ SIDRA = {
 # IBGE FTP: diretórios do Sistema de Contas Nacionais (TRU, CEI, tabelas sinóticas)
 SCN_DIRS = [
     "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/",
-    "https://ftp.ibge.gov.br/Contas_Nacionais/Contas_Trimestrais/Tabelas_Completas/",
 ]
 SCN_PROFUNDIDADE = 3
 SCN_MAX_MB = 60
