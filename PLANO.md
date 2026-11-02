@@ -228,7 +228,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.1d1 Influenciador: Economista Sincero (Charles Mendlowicz)
 - [x] 12.1d2 Influenciador: Ricardo Amorim
 - [x] 12.1d3 Nathalia Arcuri: verificada; poucas falas sobre os temas do painel, sem página
-- [ ] 12.1d4 Influenciador: Tiago Reis (Suno)
+- [x] 12.1d4 Influenciador: Tiago Reis (Suno)
 - [ ] 12.1d5 Influenciador: Eduardo Moreira (ICL)
 - [x] 12.2a Mídia e academia: Samuel Pessôa
 - [x] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
