@@ -1,0 +1,112 @@
+{
+ "titulo": "Ajustes na dívida líquida: variação da DLSP que não veio do déficit nominal (% do PIB do ano)",
+ "tipo": "barras",
+ "unidade": "% do PIB",
+ "fonte": "BCB, SGS 4513 (DLSP), 5727 (NFSP nominal, 12 meses) e 4382 (PIB de 12 meses), coleta de 02/11/2026; cálculo do painel",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json",
+ "consulta": "2026-11-02",
+ "nota": "Ajuste = variação da DLSP em reais no ano (razão × PIB de 12 meses, dezembro contra dezembro) menos a NFSP nominal do ano, dividido pelo PIB do ano. Capta sobretudo o efeito do câmbio, além de reconhecimento de dívidas e privatizações. Negativo reduz a dívida líquida. Anos de depreciação forte do real desde 2008 (2008, 2015, 2018, 2020, 2024) têm ajuste negativo; 2002, com dívida atrelada ao dólar, teve ajuste positivo.",
+ "series": [
+  {
+   "nome": "Ajustes patrimoniais e metodológicos",
+   "pontos": [
+    {
+     "t": "2002",
+     "v": 10.0
+    },
+    {
+     "t": "2003",
+     "v": -2.86
+    },
+    {
+     "t": "2004",
+     "v": -0.3
+    },
+    {
+     "t": "2005",
+     "v": -0.89
+    },
+    {
+     "t": "2006",
+     "v": -0.25
+    },
+    {
+     "t": "2007",
+     "v": 0.63
+    },
+    {
+     "t": "2008",
+     "v": -3.39
+    },
+    {
+     "t": "2009",
+     "v": 2.64
+    },
+    {
+     "t": "2010",
+     "v": 0.51
+    },
+    {
+     "t": "2011",
+     "v": -1.72
+    },
+    {
+     "t": "2012",
+     "v": -1.4
+    },
+    {
+     "t": "2013",
+     "v": -1.53
+    },
+    {
+     "t": "2014",
+     "v": -1.5
+    },
+    {
+     "t": "2015",
+     "v": -5.99
+    },
+    {
+     "t": "2016",
+     "v": 3.08
+    },
+    {
+     "t": "2017",
+     "v": -0.32
+    },
+    {
+     "t": "2018",
+     "v": -2.49
+    },
+    {
+     "t": "2019",
+     "v": -1.13
+    },
+    {
+     "t": "2020",
+     "v": -5.09
+    },
+    {
+     "t": "2021",
+     "v": -0.97
+    },
+    {
+     "t": "2022",
+     "v": 2.29
+    },
+    {
+     "t": "2023",
+     "v": -0.11
+    },
+    {
+     "t": "2024",
+     "v": -3.31
+    },
+    {
+     "t": "2025",
+     "v": 0.22
+    }
+   ]
+  }
+ ]
+}

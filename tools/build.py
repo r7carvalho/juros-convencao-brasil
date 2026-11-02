@@ -284,6 +284,11 @@ RE_ITAL = re.compile(r"(?<![\*\w])\*(?=[^\s*])(.+?)(?<=[^\s*])\*(?![\*\w])")
 RE_AUTO = re.compile(r"&lt;(https?://[^\s&]+)&gt;")
 
 
+def inline_simples(t):
+    t = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", t)
+    return html.escape(re.sub(r"[*`]", "", t), quote=False)
+
+
 def inline(texto):
     guard = []
 
@@ -306,6 +311,12 @@ def inline(texto):
                 alvo, ancora = alvo.split("#", 1)
                 ancora = "#" + ancora
             destino = resolver_pagina(alvo)
+            alvo_p = PAGINAS.get(alvo.strip())
+            if destino and ancora and alvo_p is not None:
+                ancoras = {slug(inline_simples(m)) for m in re.findall(r"^#{1,4}\s+(.*?)\s*#*$", alvo_p.corpo, re.M)}
+                if ancora[1:] not in ancoras:
+                    cur = PAGINA_ATUAL[0]
+                    aviso(f"{cur.src if cur else '?'}: âncora {ancora} não existe em {alvo}")
             if destino is None:
                 return guarda('<span class="link-pendente" title="página em preparação">') + rotulo + guarda("</span>")
             return guarda(f'<a href="{destino}{html.escape(ancora)}">') + rotulo + guarda("</a>")
@@ -629,7 +640,7 @@ TEMPLATE = """<!doctype html>
 <header class="topo">
   <button class="btn-menu" type="button" aria-controls="lateral" aria-expanded="false">☰ <span>Mapa</span></button>
   <a class="marca" href="index.html">{site}</a>
-  <button class="btn-tema" type="button" aria-label="Alternar tema claro ou escuro">◐</button>
+  <button class="btn-tema" type="button" aria-label="Alternar tema claro ou escuro">Tema</button>
 </header>
 <div class="layout">
 <aside class="lateral" id="lateral" aria-label="Navegação">

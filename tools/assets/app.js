@@ -115,11 +115,18 @@
   }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
 
+  var DESTAQUE = null;
+  function corS(i, nome) {
+    if (DESTAQUE && DESTAQUE.indexOf(nome) < 0) return getComputedStyle(root).getPropertyValue("--text-3").trim() || "#888";
+    if (DESTAQUE) return cor(DESTAQUE.indexOf(nome));
+    return cor(i);
+  }
   function legenda(area, series) {
     if (series.length < 2) return;
     var lg = el("div", "g-legenda");
     series.forEach(function (s, i) {
-      var sp = el("span"); var sw = el("i"); sw.style.background = cor(i);
+      var sp = el("span"); var sw = el("i"); sw.style.background = corS(i, s.nome);
+      if (DESTAQUE && DESTAQUE.indexOf(s.nome) < 0) sp.style.opacity = ".75";
       sp.appendChild(sw); sp.appendChild(document.createTextNode(s.nome)); lg.appendChild(sp);
     });
     area.appendChild(lg);
@@ -176,11 +183,12 @@
         if (p.v == null) { pen = false; return; }
         d += (pen ? "L" : "M") + X(p.x).toFixed(1) + " " + Y(p.v).toFixed(1); pen = true;
       });
-      s.appendChild(svg("path", { d: d, fill: "none", stroke: cor(i), "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
-      var poucos = se.pts.length <= 40;
+      var apagada = DESTAQUE && DESTAQUE.indexOf(se.nome) < 0;
+      s.appendChild(svg("path", { d: d, fill: "none", stroke: corS(i, se.nome), "stroke-width": apagada ? 1.2 : 2.4, "stroke-opacity": apagada ? 0.6 : 1, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+      var poucos = se.pts.length <= 40 && !apagada;
       se.pts.forEach(function (p) {
         if (p.v == null || !poucos) return;
-        s.appendChild(svg("circle", { cx: X(p.x), cy: Y(p.v), r: se.pts.length <= 14 ? 3.5 : 2.2, fill: cor(i), stroke: "var(--surface)", "stroke-width": 1.5 }));
+        s.appendChild(svg("circle", { cx: X(p.x), cy: Y(p.v), r: se.pts.length <= 14 ? 3.5 : 2.2, fill: corS(i, se.nome), stroke: "var(--surface)", "stroke-width": 1.5 }));
       });
     });
     var cross = svg("line", { x1: 0, x2: 0, y1: mT, y2: mT + ph, "class": "cross", visibility: "hidden" });
@@ -206,7 +214,7 @@
       var html = "<b>" + esc(tlab) + "</b>";
       linhas.forEach(function (l) {
         if (Math.abs(l.p.x - melhorX) > (x1 - x0) / 25) return;
-        html += "<br><i style=\"background:" + cor(l.i) + "\"></i>" + (series.length > 1 ? esc(l.nome) + ": " : "") + fmt(l.p.v) + (spec.unidade ? " " + esc(spec.unidade) : "");
+        html += "<br><i style=\"background:" + corS(l.i, l.nome) + "\"></i>" + (series.length > 1 ? esc(l.nome) + ": " : "") + fmt(l.p.v) + (spec.unidade ? " " + esc(spec.unidade) : "");
       });
       cross.setAttribute("x1", X(melhorX)); cross.setAttribute("x2", X(melhorX)); cross.setAttribute("visibility", "visible");
       tip.show(html, X(melhorX) / esc_, mT / esc_ + 20);
@@ -342,6 +350,11 @@
     area.innerHTML = "";
     var W = Math.max(280, Math.floor(area.clientWidth || 600));
     var tipo = spec.tipo || "linha";
+    DESTAQUE = null;
+    if (tipo === "linha") {
+      if (Array.isArray(spec.destaque) && spec.destaque.length) DESTAQUE = spec.destaque;
+      else if (spec.series.length > 5 && spec.series.some(function (x) { return x.nome === "Brasil"; })) DESTAQUE = ["Brasil"];
+    }
     try {
       if (tipo === "linha") linha(area, spec, W);
       else if (tipo === "barras") barras(area, spec, W, false);
