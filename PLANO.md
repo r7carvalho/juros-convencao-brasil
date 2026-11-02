@@ -222,7 +222,7 @@ Regras próprias do bloco, além do briefing:
 - Para o painel não ficar de um lado só, as vozes heterodoxas (12.5) recebem o mesmo tratamento.
 
 - [x] 12.0 Página macro: método, matriz pessoa × argumento × classificação, mapa dos jargões
-- [ ] 12.1a Influenciador: Investidor Sardinha (Raul Sena)
+- [x] 12.1a Influenciador: Investidor Sardinha (Raul Sena)
 - [ ] 12.1b Influenciador: Primo Rico (Thiago Nigro)
 - [ ] 12.1c Influenciador: Bruno Perini
 - [ ] 12.1d Outros influenciadores de finanças com alcance comparável que tratem de juros, dívida e "Brasil quebrado" (levantar e abrir uma página por pessoa, dividindo o item)
