@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='PAN_FBKFPIBV')",
- "coleta": "2026-11-02T15:51:53Z",
+ "coleta": "2026-11-02T16:59:38Z",
  "dados": [
   {
    "SERCODIGO": "PAN_FBKFPIBV",

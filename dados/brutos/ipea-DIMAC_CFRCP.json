@@ -1,0 +1,560 @@
+{
+ "fonte": "Ipeadata",
+ "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFRCP')",
+ "coleta": "2026-11-02T16:23:05Z",
+ "dados": [
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1947-01-01T00:00:00-02:00",
+   "VALVALOR": 1.693885,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1948-01-01T00:00:00-02:00",
+   "VALVALOR": 1.625036,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1949-01-01T00:00:00-02:00",
+   "VALVALOR": 1.598943,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1950-01-01T00:00:00-02:00",
+   "VALVALOR": 1.591206,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1951-01-01T00:00:00-02:00",
+   "VALVALOR": 1.657188,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1952-01-01T00:00:00-02:00",
+   "VALVALOR": 1.679438,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1953-01-01T00:00:00-02:00",
+   "VALVALOR": 1.719262,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1954-01-01T00:00:00-02:00",
+   "VALVALOR": 1.735781,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1955-01-01T00:00:00-02:00",
+   "VALVALOR": 1.693564,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1956-01-01T00:00:00-02:00",
+   "VALVALOR": 1.756697,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1957-01-01T00:00:00-02:00",
+   "VALVALOR": 1.753561,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1958-01-01T00:00:00-02:00",
+   "VALVALOR": 1.715914,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1959-01-01T00:00:00-02:00",
+   "VALVALOR": 1.706536,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1960-01-01T00:00:00-02:00",
+   "VALVALOR": 1.698888,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1961-01-01T00:00:00-02:00",
+   "VALVALOR": 1.657861,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1962-01-01T00:00:00-02:00",
+   "VALVALOR": 1.687243,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1963-01-01T00:00:00-02:00",
+   "VALVALOR": 1.812644,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1964-01-01T00:00:00-02:00",
+   "VALVALOR": 1.866311,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1965-01-01T00:00:00-02:00",
+   "VALVALOR": 1.91518,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1966-01-01T00:00:00-02:00",
+   "VALVALOR": 1.911213,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1967-01-01T00:00:00-02:00",
+   "VALVALOR": 1.94193,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1968-01-01T00:00:00-02:00",
+   "VALVALOR": 1.903981,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1969-01-01T00:00:00-02:00",
+   "VALVALOR": 1.880269,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1970-01-01T00:00:00-02:00",
+   "VALVALOR": 1.836374,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1971-01-01T00:00:00-02:00",
+   "VALVALOR": 1.793551,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1972-01-01T00:00:00-02:00",
+   "VALVALOR": 1.758286,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1973-01-01T00:00:00-02:00",
+   "VALVALOR": 1.718153,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1974-01-01T00:00:00-02:00",
+   "VALVALOR": 1.774828,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1975-01-01T00:00:00-02:00",
+   "VALVALOR": 1.880327,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1976-01-01T00:00:00-02:00",
+   "VALVALOR": 1.89293,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1977-01-01T00:00:00-02:00",
+   "VALVALOR": 1.970781,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1978-01-01T00:00:00-02:00",
+   "VALVALOR": 2.045579,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1979-01-01T00:00:00-02:00",
+   "VALVALOR": 2.072976,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1980-01-01T00:00:00-02:00",
+   "VALVALOR": 2.070793,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1981-01-01T00:00:00-02:00",
+   "VALVALOR": 2.297583,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1982-01-01T00:00:00-02:00",
+   "VALVALOR": 2.387555,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1983-01-01T00:00:00-02:00",
+   "VALVALOR": 2.532396,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1984-01-01T00:00:00-02:00",
+   "VALVALOR": 2.463287,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1985-01-01T00:00:00-02:00",
+   "VALVALOR": 2.355919,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1986-01-01T00:00:00-02:00",
+   "VALVALOR": 2.300456,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1987-01-01T00:00:00-02:00",
+   "VALVALOR": 2.316867,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1988-01-01T00:00:00-02:00",
+   "VALVALOR": 2.400776,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1989-01-01T00:00:00-02:00",
+   "VALVALOR": 2.408958,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1990-01-01T00:00:00-02:00",
+   "VALVALOR": 2.579536,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1991-01-01T00:00:00-02:00",
+   "VALVALOR": 2.603729,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1992-01-01T00:00:00-02:00",
+   "VALVALOR": 2.657112,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1993-01-01T00:00:00-02:00",
+   "VALVALOR": 2.577515,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1994-01-01T00:00:00-02:00",
+   "VALVALOR": 2.495773,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1995-01-01T00:00:00-02:00",
+   "VALVALOR": 2.475836,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1996-01-01T00:00:00-02:00",
+   "VALVALOR": 2.487634,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1997-01-01T00:00:00-02:00",
+   "VALVALOR": 2.476517,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1998-01-01T00:00:00-02:00",
+   "VALVALOR": 2.531917,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "1999-01-01T00:00:00-02:00",
+   "VALVALOR": 2.571755,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2000-01-01T00:00:00-02:00",
+   "VALVALOR": 2.521028,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2001-01-01T00:00:00-02:00",
+   "VALVALOR": 2.539991,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2002-01-01T00:00:00-02:00",
+   "VALVALOR": 2.508459,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2003-01-01T00:00:00-02:00",
+   "VALVALOR": 2.512727,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2004-01-01T00:00:00-02:00",
+   "VALVALOR": 2.416579,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2005-01-01T00:00:00-02:00",
+   "VALVALOR": 2.378298,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2006-01-01T00:00:00-02:00",
+   "VALVALOR": 2.329081,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2007-01-01T00:00:00-02:00",
+   "VALVALOR": 2.250197,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2008-01-01T00:00:00-02:00",
+   "VALVALOR": 2.206566,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2009-01-01T00:00:00-02:00",
+   "VALVALOR": 2.264104,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2010-01-01T00:00:00-02:00",
+   "VALVALOR": 2.179176,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2011-01-01T00:00:00-02:00",
+   "VALVALOR": 2.087384,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2012-01-01T00:00:00-02:00",
+   "VALVALOR": 2.109248,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2013-01-01T00:00:00-02:00",
+   "VALVALOR": 2.110154,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2014-01-01T00:00:00-02:00",
+   "VALVALOR": 2.148066,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2015-01-01T00:00:00-02:00",
+   "VALVALOR": 2.243766,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2016-01-01T00:00:00-02:00",
+   "VALVALOR": 2.314663,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2017-01-01T00:00:00-02:00",
+   "VALVALOR": 2.275823,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2018-01-01T00:00:00-02:00",
+   "VALVALOR": 2.229757,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2019-01-01T00:00:00-02:00",
+   "VALVALOR": 2.206414,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2020-01-01T00:00:00-03:00",
+   "VALVALOR": 2.277428,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2021-01-01T00:00:00-03:00",
+   "VALVALOR": 2.189191,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2022-01-01T00:00:00-03:00",
+   "VALVALOR": 2.142031,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2023-01-01T00:00:00-03:00",
+   "VALVALOR": 2.086347,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2024-01-01T00:00:00-03:00",
+   "VALVALOR": 2.036712,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "DIMAC_CFRCP",
+   "VALDATA": "2025-01-01T00:00:00-03:00",
+   "VALVALOR": 2.044473,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  }
+ ]
+}
