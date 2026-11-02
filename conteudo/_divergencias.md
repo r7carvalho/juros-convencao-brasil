@@ -15,7 +15,7 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 8 | Juros apropriados sobre a DPF em 2025 | R$ 857,9 bi | R$ 879,9 bi | Duas fontes secundárias; pendente de conferência no RMD/RAD 2025. | 3.3 |
 | 9 | DBGG conceito FMI em 2030 (projeção) | 104,5% (DataMapper, WEO out/2026) | 104,8% (Artigo IV) | Bases e datas diferentes; as páginas citam a base. | 3.4 |
 | 10 | Juros e amortização na LOA 2025 | R$ 480,0 bi e R$ 393,1 bi (PLOA) | valores finais da lei não obtidos | Marcado como PLOA na página. | 3.5 |
-| 11 | Custo dos juros em 12 meses | ≈R$ 1,2 tri até set/2026 (CONTEXTO.md) | R$ 1.182 bi = 8,86% do PIB até ago/2026 (frente-K, SGS 5727 − 5793 × SGS 4382) | Usar frente-K com o mês; o "R$ 1,2 tri" só como arredondamento do mesmo dado. | 2.x, 3.x |
+| 11 | Custo dos juros em 12 meses | ≈R$ 1,2 tri até set/2026 (CONTEXTO.md) | R$ 1.182 bi = 8,86% do PIB até ago/2026 (frente-K, SGS 5727 − 5793 × SGS 4382) | Fechada (revisão da área 2): set/2026 dá R$ 1.204,8 bi = 8,99% do PIB (mesmas séries, coleta de 02/11/2026); citar sempre o mês. | 2.x, 3.x |
 | 12 | DI jan/29 em 26/10/2026 | 15,25% (frente-B) | 15,03% (TMC); 15,25% é o jan/31 | Área 2 escreve "de ~12,6% para ~15%". | 2.2 |
 | 13 | Participantes do Focus | ≈165 (jul/2026, Galípolo) | ≈172 (out/2026) | Ambos com data. | 2.4.1 |
 | 14 | Primário que estabiliza a dívida (IFI) | 2,1% do PIB (frente-J, RAF 113, jun/2026) | 2,9% com neutro de 6,1% (RAF 117, 29/10/2026) | Vale o RAF mais recente (117), citando a premissa de juro neutro. Área 3 cita o RAF 113 com data; ajustar na revisão. | 2.3; 3.1 a ajustar |
