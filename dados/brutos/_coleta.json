@@ -1,5 +1,5 @@
 {
- "inicio": "2026-11-02T12:48:10Z",
+ "inicio": "2026-11-02T13:06:23Z",
  "ok": [
   {
    "grupo": "sgs",
@@ -41,7 +41,7 @@
    "grupo": "sgs",
    "nome": "433 IPCA, variação mensal (%)",
    "arquivo": "dados/brutos/sgs-433.json",
-   "registros": 501
+   "registros": 561
   },
   {
    "grupo": "sgs",
@@ -71,7 +71,7 @@
    "grupo": "sgs",
    "nome": "10844 IPCA, serviços, variação mensal (%) (conferir)",
    "arquivo": "dados/brutos/sgs-10844.json",
-   "registros": 408
+   "registros": 429
   },
   {
    "grupo": "sgs",
@@ -119,7 +119,7 @@
    "grupo": "sgs",
    "nome": "11752 Taxa de câmbio real efetiva, IPCA, índice jun/1994=100",
    "arquivo": "dados/brutos/sgs-11752.json",
-   "registros": 403
+   "registros": 463
   },
   {
    "grupo": "sgs",
@@ -207,9 +207,21 @@
   },
   {
    "grupo": "sgs",
-   "nome": "27815 Base monetária, saldo em fim de período (R$ mil) (conferir)",
+   "nome": "27815 Base monetária ampliada?, saldo em fim de período (R$ mil) (conferir)",
    "arquivo": "dados/brutos/sgs-27815.json",
    "registros": 298
+  },
+  {
+   "grupo": "sgs",
+   "nome": "1788 Base monetária restrita, saldo em fim de período (R$ milhões) (conferir)",
+   "arquivo": "dados/brutos/sgs-1788.json",
+   "registros": 561
+  },
+  {
+   "grupo": "sgs",
+   "nome": "1824 Meios de pagamento M1, saldo em fim de período (R$ milhões) (conferir)",
+   "arquivo": "dados/brutos/sgs-1824.json",
+   "registros": 461
   },
   {
    "grupo": "sgs",
@@ -245,27 +257,5 @@
   "stats.bis.org": 1,
   "www.tesourotransparente.gov.br": 0
  },
- "avisos": [
-  {
-   "serie": 433,
-   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/1980&dataFinal=31/12/1984",
-   "resposta": "<?xml version=\"1.0\" encoding=\"pt-br\"?>\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lan"
-  },
-  {
-   "serie": 10844,
-   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.10844/dados?formato=json&dataInicial=01/01/2025&dataFinal=31/12/2026",
-   "resposta": "<?xml version=\"1.0\" encoding=\"pt-br\"?>\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lan"
-  },
-  {
-   "serie": 11752,
-   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11752/dados?formato=json&dataInicial=01/01/1995&dataFinal=31/12/1999",
-   "resposta": "<?xml version=\"1.0\" encoding=\"pt-br\"?>\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lan"
-  },
-  {
-   "serie": 24369,
-   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.24369/dados?formato=json&dataInicial=01/01/1990&dataFinal=31/12/1994",
-   "resposta": "<?xml version=\"1.0\" encoding=\"pt-br\"?>\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lan"
-  }
- ],
- "fim": "2026-11-02T12:59:19Z"
+ "fim": "2026-11-02T13:21:24Z"
 }
