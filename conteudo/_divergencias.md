@@ -82,3 +82,15 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 - CDI = Selic over na prática; os 0,10 p.p. são a distância da over para a meta.
 - SGS 1178 é a Selic anualizada diária (não a TJLP); TJLP = SGS 256.
 - FBCF/PIB: dono do gráfico é a 5.2 (dados/5.2-taxa-de-investimento.json); 1.6 e 4.3 passam a usá-lo.
+
+## Decisões da revisão da área 4 (02/11/2026)
+
+- Juro real Brasil × média de México, Chile e Colômbia (BIS): 5,3 p.p. em 2023, 2,3 em 2024, 6,1 em 2025 e 6,8 em 2026 (jan–ago). Não usar "três pontos acima dos pares" para 2023–2026.
+- Serviços (SGS 10844): 8,3% a 9,4% ao ano em 2011–2014; 4,74% em 2024. Livres (SGS 11428): 6,6% a 7,3% em 2011–2014.
+- Câmbio: em 2015 "o dólar subiu 47%" (não "o real perdeu 47%"); em 2024 o dólar subiu 27,9% (SGS 1). Câmbio real efetivo de 2021 (144,6, SGS 11752) foi o mais depreciado da série.
+- IPCA 12m acima de 6,5% de abr a nov/2011; acima do teto de jan a out/2025 (SGS 13522).
+- Rendimento médio real de 2025: +9,8% sobre 2019 (SIDRA 5436).
+- "BC subestimou os choques" na pandemia: atribuir a Rogério Mori (FGV EESP, Agroanalysis), não ao FGV IBRE, salvo fonte do IBRE.
+- Teto do salário mínimo: Lei 15.077/2024 (não LC 200/2023).
+- DIEESE sobre a Lava Jato: "Implicações econômicas intersetoriais da Operação Lava Jato", 16/03/2021.
+- A tese diz que a inflação veio "sobretudo" de choques externos; o teste não deve trocar por "só".

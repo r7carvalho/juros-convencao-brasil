@@ -91,6 +91,7 @@ GRUPOS_IPCA = "7169,7170,7445,7486,7558,7625,7660,7712,7766,7786"  # geral e nov
 SIDRA = {
     "pib_trimestral_correntes": "/t/1846/n1/all/v/all/p/all/c11255/all",
     "pib_trimestral_volume": "/t/1620/n1/all/v/all/p/all/c11255/all",
+    "pib_trimestral_volume_dessaz": "/t/1621/n1/all/v/all/p/all/c11255/all",
     "pib_trimestral_taxas": "/t/5932/n1/all/v/all/p/all/c11255/all",
     "ipca_grupos_2020_hoje": f"/t/7060/n1/all/v/63,66,2265/p/all/c315/{GRUPOS_IPCA}",
     "ipca_grupos_2012_2019": f"/t/1419/n1/all/v/63,66,2265/p/all/c315/{GRUPOS_IPCA}",
