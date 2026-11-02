@@ -22,3 +22,7 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 15 | Atividades financeiras no valor adicionado | 6,0% a 7,9% em 2013–2016 (SCN anual, tabela 13.1, via busca) | 8,6% a 11,1% (Contas Trimestrais, tabela III.2, via busca); 4,8% do PIB em 2024 (Fin, recorte estreito) | Área 5 usa o SCN anual e explica os recortes; conferir a tabela 13.1 com o coletor (grupo scn). | 5.4.2 |
 | 16 | Relação capital-produto K/Y | queda: 2,04 em 2025, menor desde 1977 (Ipea) | alta (PWT 11.0, rnna/rgdpna) | Medidas de capital e deflatores diferentes; o painel usa Ipea e mostra as duas. | 5.2 |
 | 17 | Juro real do setor público em 2025 | 5,3% do PIB (CONTEXTO.md) | ≈5,5% (área 3) | Ver #5; a 5.4.3 segue a área 3. | 5.4.3 |
+| 18 | Correlação moeda × inflação, McCandless e Weber (1995) | 0,93 a 0,96 (CONTEXTO.md) | 0,92 a 0,96 (Walsh, 2010, citando o original) | Tabela original não aberta; a página 1.1.2 usa a faixa de Walsh e cita a fonte secundária. Conferir no Quarterly Review do Fed de Minneapolis. | 1.1.2 |
+| 19 | CPI dos EUA, pico de jun/2022 | 9,1% (frente-K, BLS sem ajuste sazonal) | 8,98% (cópia com ajuste sazonal) | Vale 9,1% (série sem ajuste, a divulgada pelo BLS). | 1.1.3 |
+| 20 | Balanço do Fed 2008–2014 | US$ 0,9 tri → 4,5 tri (frente-K, ativo total) | base monetária US$ 847,6 bi (ago/2008) → 4.075 bi (ago/2014) | Medidas diferentes; as páginas dizem qual usam. | 1.1, 1.1.3 |
+| 21 | Inflação de 1983 | 211% (IGP-DI, circula como "inflação") | 164,0% (IPCA) | Usar o índice nomeado. | 1.2, 9.4 |

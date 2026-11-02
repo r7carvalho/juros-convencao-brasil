@@ -54,15 +54,15 @@ fim; publicada em `docs/` sem erro de build.
 
 ## 1. Fundamentos teóricos
 
-- [ ] 1.0 Página macro: o que cada teoria diz sobre juro e inflação, em mapa
-- [ ] 1.1a Identidade M·V = P·Y e teoria quantitativa, com exemplo de brinquedo
-- [ ] 1.1b Evidência: McCandless e Weber (1995), Cagan (1956), limites (causalidade reversa, crítica de Lucas)
-- [ ] 1.1c Moeda endógena: Kaldor, pós-keynesianos, Banco da Inglaterra (2014)
-- [ ] 1.1d O QE de 2008 e de 2020: base, reservas remuneradas, velocidade, o que aconteceu com a inflação
-- [ ] 1.2a Inflação inercial: Lopes (1984), Arida e Lara Resende (1984), regra de bolso
-- [ ] 1.2b Do Cruzado ao Real: PAI, FSE, URV, troca da moeda, âncoras (com cronologia e dados)
-- [ ] 1.3a Expectativas adaptativas e racionais (Friedman, Lucas, Sargent)
-- [ ] 1.3b Neo-fisherianos (Cochrane 2016) e as críticas (García-Schmidt e Woodford)
+- [x] 1.0 Página macro: o que cada teoria diz sobre juro e inflação, em mapa
+- [x] 1.1a Identidade M·V = P·Y e teoria quantitativa, com exemplo de brinquedo
+- [x] 1.1b Evidência: McCandless e Weber (1995), Cagan (1956), limites (causalidade reversa, crítica de Lucas)
+- [x] 1.1c Moeda endógena: Kaldor, pós-keynesianos, Banco da Inglaterra (2014)
+- [x] 1.1d O QE de 2008 e de 2020: base, reservas remuneradas, velocidade, o que aconteceu com a inflação
+- [x] 1.2a Inflação inercial: Lopes (1984), Arida e Lara Resende (1984), regra de bolso
+- [x] 1.2b Do Cruzado ao Real: PAI, FSE, URV, troca da moeda, âncoras (com cronologia e dados)
+- [x] 1.3a Expectativas adaptativas e racionais (Friedman, Lucas, Sargent)
+- [x] 1.3b Neo-fisherianos (Cochrane 2016) e as críticas (García-Schmidt e Woodford)
 - [ ] 1.4a Convenção: definição (Lewis), ponto focal (Schelling), incerteza radical (Keynes 1937)
 - [ ] 1.4b O juro "altamente convencional" (Teoria Geral, cap. 15) com o exemplo da perpetuidade
 - [ ] 1.4c Concurso de beleza (cap. 12) e o experimento de Nagel (1995)
