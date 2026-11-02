@@ -129,11 +129,11 @@ fim; publicada em `docs/` sem erro de build.
 
 ## 6. Contrapontos ortodoxos
 
-- [ ] 6.0 Página macro
-- [ ] 6.1 Prêmio fiscal e dominância (Blanchard, Favero e Giavazzi, Lisboa e Pessôa)
-- [ ] 6.2 Política monetária funciona (Holland e Padovani, estudos do BC, 2025)
-- [ ] 6.3 Poupança baixa e juro neutro alto
-- [ ] 6.4 Autonomia do BC e credibilidade (lei de 2021, evidência)
+- [x] 6.0 Página macro
+- [x] 6.1 Prêmio fiscal e dominância (Blanchard, Favero e Giavazzi, Lisboa e Pessôa)
+- [x] 6.2 Política monetária funciona (Holland e Padovani, estudos do BC, 2025)
+- [x] 6.3 Poupança baixa e juro neutro alto
+- [x] 6.4 Autonomia do BC e credibilidade (lei de 2021, evidência)
 - [ ] 6.R Revisão independente da macroárea 6 (inclui conferir que tem a extensão das áreas 2 a 5)
 
 ## 7. Caminhos de política

@@ -35,3 +35,5 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 28 | Recorde de LFT na DPF | 52,74% em ago/2026, maior desde 2000 (RMD) | 51,1% em jul/2026, maior "desde ago/2003" (ADVFN) | Vale o RMD. | 2.4, 7.2 |
 | 29 | Faixa de prazo médio no PAF 2026 | 3,8–4,2 anos (Agência Brasil) | 3,7–4,1 anos (Estadão) | Citadas as duas; conferir no PAF. | 7.3 |
 | 30 | Renúncia com títulos isentos (LCI, LCA, CRI, CRA) | R$ 31,7 + 1,3 bi (DGT) | R$ 41 bi (Haddad, jun/2025); ≈R$ 33 bi (imprensa, out/2026) | Texto usa faixa de R$ 30 a 40 bi com as fontes. | 7.5 |
+| 31 | Poupança bruta do Brasil em 2024 | 14,5% do PIB (compilação do Banco Mundial) | 14,1% (outra compilação e IBGE revisado) | Usar IBGE revisado (14,1%) e citar a diferença de fonte. | 6.3 |
+| 32 | Juro neutro estimado pelo BC | 3% (antes de dez/2024, em alguns textos) | 4,5% → 4,75% → 5,0% (RPMs recentes) | Áreas 2 e 6 usam a sequência com as datas dos RPMs. | 2.3, 6.3.2 |

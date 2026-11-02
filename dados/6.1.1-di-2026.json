@@ -2,9 +2,9 @@
  "titulo": "Taxa do DI futuro para janeiro de 2029 em outubro de 2026 (% a.a.)",
  "tipo": "barras",
  "unidade": "% a.a.",
- "fonte": "B3, taxa de ajuste de 09/10/2026 (via Taxas do Tesouro); O Cafezinho (16/10/2026) para 14 e 15/10; Cadaminuto (26/10/2026) e Frente B do painel irmão (citada em insumos/frente-K.json) para 26/10",
+ "fonte": "B3, taxa de ajuste de 09/10/2026 (via Taxas do Tesouro); O Cafezinho (16/10/2026) para 14 e 15/10; Cadaminuto (26/10/2026) para 26/10",
  "url": "https://www.taxasdotesouro.com/juros-futuros",
- "nota": "Pontos isolados. Em 26/10/2026 a imprensa registra altas de até 1,82 p.p. nas taxas longas e o DI jan/29 acima de 15%; o valor de 15,25% é o citado pela Frente B e caiu a 15,13% no pregão seguinte. A conferir no boletim de ajustes da B3.",
+ "nota": "Pontos isolados. Em 26/10/2026 a imprensa registra altas de até 1,82 p.p. nas taxas longas e o DI jan/29 acima de 15,03%; o valor de 15,25% citado pela Frente B é do contrato de janeiro de 2031 (registro de divergências do painel, item 12). A conferir no boletim de ajustes da B3.",
  "series": [
   {
    "nome": "DI jan/29",
@@ -23,11 +23,7 @@
     },
     {
      "t": "26/10/2026",
-     "v": 15.25
-    },
-    {
-     "t": "27/10/2026",
-     "v": 15.13
+     "v": 15.03
     }
    ]
   }
