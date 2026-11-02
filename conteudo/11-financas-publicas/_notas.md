@@ -282,3 +282,25 @@ Lacunas e pendências:
 Divergências com outras páginas:
 - 11.2 e 11.4 dizem que, pelo GFSM 2014, a transferência do resultado do BC ao Tesouro "entraria no primário". A 11.8 precisa: só a parte do resultado que vem de renda corrente; dividendos pagos com ganhos de reavaliação (como o repasse cambial) são retirada de capital pelo SNA 2008/ESA 2010. Sugere-se ajustar a frase das duas páginas na revisão 11.R.
 - Nenhuma divergência de número: DBGG nos dois conceitos, diferença de 11,7 p.p. (ago/2026) e faixa 5,3 a 14,7 p.p. iguais a 10.2.2 e `_divergencias.md`; juros do FMI (7,29%) e do BCB (7,91%) iguais a 3.4 e 11.2.
+
+## Pendências após a revisão (02/11/2026)
+
+Aplicação do relatório `_revisao/11.md`. Buscas web (modo standard, 6): boxe do RPM de junho de 2025 e resumo do WP 637 do BCB; autoria do Estudo Técnico nº 16/2025 da Câmara; primário estabilizador no Artigo IV de 2026 do FMI; resultado de 2024 para fins de meta. bcb.gov.br, camara.leg.br, imf.org e econpapers seguiram bloqueados ao WebFetch.
+
+- 11.2: os dois recortes do *Manual* de maio/2019 (p. 33 e pp. 13-15) ficaram entre aspas com as páginas do material de base; conferir a página exata no PDF quando a rede permitir. O recorte da edição de 2018, sem página, virou paráfrase (*Manual*, pp. 33-34).
+- 11.2 e 11.4: não se conferiu como o orçamento divide o resgate de LFT e LTN entre juro e amortização. O texto restringe a "correção como amortização" à NTN-B e condiciona o exemplo da LFT da 11.4 ("se o orçamento classificar todo o rendimento como juro"). Conferir no Estudo Técnico nº 16/2025 ou no Manual Técnico de Orçamento.
+- 11.2: Estudo nº 16/2025 atribuído só a Marcia Rodrigues Moura (julho de 2025), conforme a página da Câmara; os coautores e a conclusão citada antes não foram confirmados e saíram. A 3.5 ainda cita "Moura, 2025".
+- 11.4: R$ 802 bilhões das estatais em 2019 atribuídos a "estimativa noticiada pelo Poder360"; conferir na matéria se a estimativa é do governo.
+- 11.5: o boxe do RPM de jun/2025 (regressão com Selic, TLP, expectativas, dívida, juros americanos, câmbio e VIX; R² ajustado de 0,75) e o resumo do WP 637 (predominância dos juros domésticos; choques externos com peso maior na incerteza global) foram conferidos por busca, sem os coeficientes. "O fator fiscal ganha peso a partir de 2016" saiu por não ter sido confirmado.
+- 11.5: R$ 59,3 bilhões de precatórios fora da meta em 2027 é conta do painel (R$ 97,7 bi do PLOA menos R$ 38,4 bi dentro da meta); conferir no PLDO 2027.
+- 11.6: resultado para fins de meta na base do BCB. 2025 = R$ 10,0 bi (TCU). 2024 ≈ R$ 13,4 bi é conta do painel (BCB 45,4 menos as exclusões de R$ 32,0 bi calculadas pelo Tesouro); 2023 ≈ R$ 162 bi usa o número do BCB para o governo central tirado da imprensa (cerca de R$ 254,5 bi). Conferir 2023 e 2024 no Anexo IV.1 dos PLDO 2025 e 2026.
+- 11.7: o primário estabilizador de cerca de 1,5% do PIB atribuído ao Artigo IV de 2026 não foi achado no comunicado 26/257 nem por busca; ficou só como menção ao resumo secundário (IndraStra), fora da comparação com IFI e painel. Saíram também, por virem do mesmo resumo ou de documento não aberto, a "metade flutuante e um quinto rolado por ano", o CR 26/192 e a frase sobre a margem de r − g acima dos pares.
+- 11.8: Japão a 230% (WEO out/2025) e 206,5% (abr/2026) seguem de compilações secundárias, agora ditas como tais; conferir no WEO Database.
+- 11.1: a sensibilidade de 0,8 ponto com swaps usa o estoque redondo de US$ 100 bi da 10.3.6.
+
+Achado não aplicado:
+- 11.7-8 (tirar o link para 10.4): mantido por orientação do coordenador; a página 10.4 será escrita.
+
+Gráficos: `dados/11-dbgg-dlsp.json` apagado; a macro usa o dono `dados/3-divida-conceitos.json` (perde a DLSP de 2001–2005, que a 11.1 e o gráfico de ajustes cobrem). `dados/11.6-meta-resultado-governo-central.json` passou à base do BCB (2023 −1,48; 2024 −0,11; 2025 −0,08% do PIB) e `dados/11.5-precatorios-fora-da-meta.json` teve a nota corrigida.
+
+Extensão (wc do corpo, com o "Para ler"): 11 1.714; 11.1 3.846; 11.2 3.720; 11.3 3.351; 11.4 3.644; 11.5 3.746; 11.6 3.995; 11.7 3.981; 11.8 3.985. O `tools/lint.py` conta mais (4,0 a 4,7 mil nas filhas) porque separa os tokens das URLs do "Para ler".

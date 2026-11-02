@@ -1,0 +1,51 @@
+{
+ "unidade": "% do PIB",
+ "url": "https://www.piie.com/sites/default/files/2023-01/blanchard2023-01-20ppt.pdf",
+ "consulta": "2026-11-02",
+ "titulo": "Dívida depois de 20 anos com primário zero, partindo de 100 (% do PIB)",
+ "tipo": "barras",
+ "fonte": "Exemplo de brinquedo do painel; cálculo em tools/analises/10.4_brinquedo_estocastico.py",
+ "nota": "Números inventados. Percentis do r − g sorteado (desvio de 2 pontos), aplicado por 20 anos.",
+ "ref": [
+  {
+   "v": 100,
+   "rotulo": "dívida inicial"
+  }
+ ],
+ "series": [
+  {
+   "nome": "r − g médio de −1 ponto",
+   "pontos": [
+    {
+     "t": "1 em 10 (melhor)",
+     "v": 48.4
+    },
+    {
+     "t": "mediana",
+     "v": 81.8
+    },
+    {
+     "t": "1 em 10 (pior)",
+     "v": 136.4
+    }
+   ]
+  },
+  {
+   "nome": "r − g médio de +3 pontos",
+   "pontos": [
+    {
+     "t": "1 em 10 (melhor)",
+     "v": 109.1
+    },
+    {
+     "t": "mediana",
+     "v": 180.6
+    },
+    {
+     "t": "1 em 10 (pior)",
+     "v": 295.3
+    }
+   ]
+  }
+ ]
+}

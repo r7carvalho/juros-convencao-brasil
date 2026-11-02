@@ -641,3 +641,41 @@ Bernanke (2002), pela reprodução em várias fontes secundárias (Wikipedia "Be
 - Composição da DPF de ago/2026 (LFT 52,74%, índices de preços 23,22%, câmbio 3,74%) igual à decisão de `_divergencias.md`.
 - Argentina e Turquia: números iguais a 6.4.3 (INDEC; 2020 36,1%, 2022 94,8%, 2023 211,4%; 2019 53,8%).
 - Página macro 10.3 e 9.2 podem ganhar as referências novas (Bernanke 2002 e 2016, Borio et al. 2016, Mankiw 2020, Palley 2015, Lavoie 2013, De Conti, Prates e Plihon 2014, Prates 2020) na bibliografia geral.
+
+## 10.4
+
+### Página entregue (02/11/2026)
+
+- 10.4 Blanchard por inteiro, 1ª versão: cerca de 3.550 palavras de texto corrido (com recortes e caixas, sem tabelas, fórmulas em bloco e Para ler); 5.000 pela contagem do lint, que inclui tabelas e referências.
+- Conteúdo: brinquedo estocástico (dívida de 100, r − g sorteado de normal com média −1 ou +3 e desvio 2; probabilidade de trajetória explosiva 30,9% e 93,3% com primário zero; primário para 5% de risco 2,3% e 6,3% do PIB); tabela da obra em ordem; histerese e manual (curtos, link 1.6); 2004 (essencial e recorte da conclusão, link 1.5.2); 2010 e a coluna do FT de 28/11/2022 (4% → 3%, link 10.1.2 e 7.1); Blanchard e Leigh (2013) com o coeficiente −1,095 (e.p. 0,255); 2019 (recortes do resumo, link 11.7); livro de 2023 (definição probabilística, SDSA em dois passos, equilíbrios múltiplos e banco central, link 1.5.3); Blanchard, Felman e Subramanian (2021) sobre emergentes; 2021–2026 (pacote de US$ 1,9 tri, MKBR22 em São Paulo, sequência de 30/12/2022 sobre conflito distributivo, Bernanke e Blanchard 2023 e 2024, "Secular stagnation is not over", alerta de fev/2024 sobre os EUA, França em 2026); falas sobre o Brasil (2013, 2014, 2015); tabela "onde mudou"; 2004 × 2019; Brasil de 2026 (r − g, dívida, LFT, câmbio da eleição, teste de sinal 2024–2026); quadro A favor/Contra; caixa do painel.
+- Gráficos: `dados/10.4-probabilidade-explosao.json` e `dados/10.4-divida-20-anos.json` (brinquedo; script `tools/analises/10.4_brinquedo_estocastico.py`).
+
+### Cálculos do painel
+
+- Teste de sinal com o SGS: Selic de 10,50% para 12,25% entre 18/09 e 18/12/2024 com PTAX de 5,4767 para 6,1624 (SGS 432 e 1); Selic de 15% para 13,75% entre 19/03 e 17/09/2026 (SGS 432) com PTAX de 5,5024 (31/12/2025) para 5,0377 (23/10/2026) e mínima de 4,8973 em 11/05/2026.
+- r − g real de 2006–2026 da série de 11.7 (dados/11.7-r-menos-g.json): mínimo −9,89 (2021), máximo +9,02 (2015), média 1,82, desvio-padrão 4,17. Só o mínimo e o máximo entraram no texto.
+- DBGG de 82,93% em set/2026 (SGS 13762, coleta de 02/11/2026).
+
+### Fontes principais
+
+Blanchard e Summers (1986) via 1.6; Blanchard (2004), conclusão pela versão da conferência do NBER (recorte por busca); Blanchard, Dell'Ariccia e Mauro (2010) via 10.1.2; coluna do FT de 28/11/2022 pela republicação no PIIE e por resumos (Tooze, Chartbook 185; Fraser Institute; Edward Conard); Blanchard e Leigh (2013), resumo IMF/NBER e coeficiente pela replicação do CPB; Blanchard (2019), resumo AER/NBER/PIIE (recortes "public debt may have no fiscal cost" e "My purpose in the lecture is not to argue for more public debt, especially in the current political environment"); Blanchard (2023), cap. 4 (recorte da definição por busca na versão aberta), slides do PIIE de jan/2023 e resenhas; Blanchard, Leandro e Zettelmeyer (2021); Blanchard, Felman e Subramanian (2021, PIIE PB 21-7, por resumos); Bernanke e Blanchard (2023, recorte do resumo; 2024, resumo do PIIE/NBER); sequência no Twitter de 30/12/2022 (arquivo Upcarta); "Secular stagnation is not over" (PIIE, 06/11/2023, por resumo); Bloomberg via Fortune (20/02/2024); tribuna da PSE (jan/2026); NBER WP 33802 (2025); imprensa sobre o Brasil: Exame (23/01/2013 e reportagem sobre out/2013), Jornal do Brasil (22/04/2013), C-MacroDev (15/05/2014), Cooperativa.cl (14/04/2015), Bloomberg Línea e ANBIMA (20/09/2022).
+
+### Lacunas (nada disso entrou como fato)
+
+- WebFetch não abriu piie.com, ideas.repec.org, fiscalcouncil.ie nem a versão aberta do livro (pubpub); todos os recortes vieram de reproduções em páginas de busca. Conferir no original a redação e, no livro, a página da definição de sustentabilidade (só o capítulo foi citado).
+- A seção do livro sobre equilíbrios múltiplos foi parafraseada a partir de resumos de busca (incluindo o exemplo numérico de dívida de 100% com perda de 30% no calote, que ficou fora do texto). Conferir.
+- Multiplicadores: a faixa "0,9 a 1,7" do box 1.1 do WEO de out/2012 e o multiplicador implícito de cerca de 0,5 não foram confirmados; o texto usa só o coeficiente −1,095 (e.p. 0,255) que o CPB atribui ao artigo.
+- Blanchard e a The Economist sobre dominância fiscal no Brasil (reportagem do InfoMoney, sem data visível, provavelmente 2015–2016): um resumo de busca atribuiu a Blanchard a comparação "cerca de 5% da dívida em dólar hoje contra quase metade em 2002", mas outra busca não achou Blanchard no texto da revista. Fora da página; conferir no InfoMoney e na Economist.
+- Entrevista da Exame "A economia mundial não vai parar" (Blanchard: o país "patinando um pouco nos aspectos fiscais" e dúvidas sobre bancos estatais): data não confirmada (provavelmente fim de 2013); fora. A fala de 14/04/2015 veio só da cobertura em espanhol (Cooperativa.cl) e do título do Estado de Minas (15/04/2015).
+- Nenhuma fala pública de Blanchard sobre o Brasil de 2016 a 2026 (teto de gastos, arcabouço, Selic a 15%, eleição de 2026) foi encontrada. O MKBR22 (São Paulo, 20/09/2022) tratou de EUA e Europa. Vale procurar no X (@ojblanchard1), no Valor e na Folha.
+- Lista das onze economias de Bernanke e Blanchard (2024) não confirmada; o texto diz só que o painel não achou aplicação ao Brasil.
+- Coluna de *Le Monde* de 16/07/2026 sobre a França (data via Ground News e Börsen-Zeitung): mencionada nas notas, retirada do texto para encurtar.
+- Data do texto do PIIE sobre o pacote de US$ 1,9 tri (18/02/2021) confirmada só por listagem de curso universitário e pela PolitiFact; título "In defense of concerns over the $1.9 trillion relief plan".
+
+### Divergências e ajustes sugeridos em outras páginas
+
+- Números iguais aos já decididos: PTAX 6,19 → 5,50 em 2025 e +9,19% em 26/10/2026; CDS 120 → 152; LFT 52,74% e câmbio 3,74% da DPF (ago/2026); R$ 61,7 bi por ponto de Selic (DLSP); primário estabilizador 3,4% (dívida de ago/2026) e IFI 2,9% (RAF 117); déficit consolidado de 0,52% (set/2026).
+- 11.7 já linka 10.4 e diz que "o próprio Blanchard ressalva que o custo para o bem-estar pode existir sem custo fiscal": coerente com o resumo da AER.
+- 7.1 atribui a Blanchard, Dell'Ariccia e Mauro (2010) a defesa de meta "entre 4% e 4,5%"; a nota de 2010 levanta a pergunta sobre 4%, e em 2022 Blanchard passou a preferir 3%. Sugere-se acrescentar a coluna de 2022 em 7.1 e 10.1.2.
+- 4.2 cita Bernanke e Blanchard (2023) como Hutchins WP 86; pode acrescentar a publicação em *AEJ: Macroeconomics* 17(3), 2025, e a extensão de 2024 (NBER WP 32532).
+- 9.2 (bibliografia) pode receber as referências novas: Blanchard e Leigh (2013), Blanchard (2023), Blanchard, Felman e Subramanian (2021), Blanchard, Leandro e Zettelmeyer (2021), Bernanke e Blanchard (2024), Blanchard (2025).

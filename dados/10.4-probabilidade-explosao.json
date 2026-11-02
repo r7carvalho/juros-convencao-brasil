@@ -1,0 +1,77 @@
+{
+ "unidade": "%",
+ "url": "https://www.piie.com/sites/default/files/2023-01/blanchard2023-01-20ppt.pdf",
+ "consulta": "2026-11-02",
+ "titulo": "Dívida de 100% do PIB: probabilidade de trajetória explosiva conforme o superávit primário (%)",
+ "tipo": "barras",
+ "fonte": "Exemplo de brinquedo do painel, no espírito da análise estocástica de Blanchard (2023); cálculo em tools/analises/10.4_brinquedo_estocastico.py",
+ "nota": "Números inventados. r − g sorteado uma vez de uma normal com desvio de 2 pontos e mantido; a dívida explode quando (r − g) × dívida supera o primário.",
+ "series": [
+  {
+   "nome": "r − g médio de −1 ponto",
+   "pontos": [
+    {
+     "t": "primário 0%",
+     "v": 30.9
+    },
+    {
+     "t": "primário 1%",
+     "v": 15.9
+    },
+    {
+     "t": "primário 2%",
+     "v": 6.7
+    },
+    {
+     "t": "primário 3%",
+     "v": 2.3
+    },
+    {
+     "t": "primário 4%",
+     "v": 0.6
+    },
+    {
+     "t": "primário 5%",
+     "v": 0.1
+    },
+    {
+     "t": "primário 6%",
+     "v": 0.0
+    }
+   ]
+  },
+  {
+   "nome": "r − g médio de +3 pontos",
+   "pontos": [
+    {
+     "t": "primário 0%",
+     "v": 93.3
+    },
+    {
+     "t": "primário 1%",
+     "v": 84.1
+    },
+    {
+     "t": "primário 2%",
+     "v": 69.1
+    },
+    {
+     "t": "primário 3%",
+     "v": 50.0
+    },
+    {
+     "t": "primário 4%",
+     "v": 30.9
+    },
+    {
+     "t": "primário 5%",
+     "v": 15.9
+    },
+    {
+     "t": "primário 6%",
+     "v": 6.7
+    }
+   ]
+  }
+ ]
+}

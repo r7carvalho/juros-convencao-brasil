@@ -2,10 +2,10 @@
   "titulo": "Governo central: piso da meta de primário, resultado cheio e resultado para fins de meta, 2016–2026 (% do PIB)",
   "tipo": "barras",
   "unidade": "% do PIB",
-  "fonte": "Metas: LDOs de cada ano (2016–2022 via Câmara dos Deputados, Agência Brasil e FGV IBRE; 2023 meta ajustada de R$ 213,6 bi; 2024–2025 meta zero com banda de 0,25 p.p.; 2026 meta de 0,25% com piso zero, LC 200/2023, art. 5º, § 3º). Resultados: Tesouro Nacional, RTN de dezembro de cada ano (valores divulgados em janeiro do ano seguinte); 2026: Relatório de Avaliação de Receitas e Despesas Primárias do 4º bimestre (24/09/2026), projeção. Para fins de meta: Tesouro e BCB (2024: R$ 11,0 bi; 2025: R$ 13,0 bi), STF/Tesouro (2023: sem os R$ 92,4 bi de precatórios) e 4º RARDP de 2026. PIB: BCB, SGS 4382 (dezembro, 12 meses); 2026 = PIB implícito na meta (R$ 34,3 bi = 0,25%). Cálculo do painel.",
+  "fonte": "Metas: LDOs de cada ano (2016–2022 via Câmara dos Deputados, Agência Brasil e FGV IBRE; 2023 meta ajustada de R$ 213,6 bi; 2024–2025 meta zero com banda de 0,25 p.p.; 2026 meta de 0,25% com piso zero, LC 200/2023, art. 5º, § 3º). Resultado cheio: Tesouro Nacional, RTN de dezembro de cada ano; 2026: Relatório de Avaliação de Receitas e Despesas Primárias do 4º bimestre (24/09/2026), projeção. Para fins de meta, base do BCB (governo central apurado pelo Banco Central, Estatísticas Fiscais de dezembro, menos as exclusões): 2023 ≈ 254,5 − 92,4 = R$ 162,1 bi; 2024 = 45,4 − 32,0 = R$ 13,4 bi (exclusões calculadas pelo Tesouro, 43,0 − 11,0); 2025 = 58,7 − 48,7 = R$ 10,0 bi (TCU, Contas do Presidente de 2025); 2026 = projeção do governo no 4º RARDP (R$ 13,6 bi, acima da linha). PIB: BCB, SGS 4382 (dezembro, 12 meses), coleta de 02/11/2026; 2026 = PIB implícito na meta (R$ 34,3 bi = 0,25%). Cálculo do painel.",
   "url": "https://www.tesourotransparente.gov.br/publicacoes/boletim-resultado-do-tesouro-nacional-rtn",
   "consulta": "2026-11-02",
-  "nota": "Primeira série: o resultado mínimo que a lei aceitava (meta em déficit até 2023; limite inferior da banda de tolerância de 2024 em diante). 2020: meta dispensada pelo Decreto Legislativo 6/2020 (calamidade), sem barra. 2016: o RTN revisou depois o déficit de R$ 154,3 bi para R$ 161,3 bi (FIES). 2023: a meta da LDO era de déficit de R$ 65,9 bi; a EC 126/2022 e as deduções admitiram até R$ 213,6 bi. 2026 é projeção oficial de setembro, com contingenciamento de R$ 13,6 bi para levar o resultado para fins de meta ao piso.",
+  "nota": "Primeira série: o resultado mínimo que a lei aceitava (meta em déficit até 2023; limite inferior da banda de tolerância de 2024 em diante). 2020: meta dispensada pelo Decreto Legislativo 6/2020 (calamidade), sem barra. 2016: o RTN revisou depois o déficit de R$ 154,3 bi para R$ 161,3 bi (FIES). 2023: a meta da LDO era de déficit de R$ 65,9 bi; a EC 126/2022 e as deduções admitiram até R$ 213,6 bi; o resultado do BCB para o governo central em 2023 é aproximado (imprensa). A LC 200/2023 manda verificar a meta pelo resultado apurado pelo BCB; na base do RTN, o resultado para fins de meta seria de R$ 11,0 bi em 2024 e R$ 13,0 bi em 2025. 2026 é projeção oficial de setembro, com contingenciamento de R$ 13,6 bi para levar o resultado ao piso.",
   "ref": [
     {
       "v": 0,
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "nome": "Resultado para fins de meta",
+      "nome": "Resultado para fins de meta (base BCB)",
       "pontos": [
         {
           "t": "2016",
@@ -144,15 +144,15 @@
         },
         {
           "t": "2023",
-          "v": -1.26
+          "v": -1.48
         },
         {
           "t": "2024",
-          "v": -0.09
+          "v": -0.11
         },
         {
           "t": "2025",
-          "v": -0.1
+          "v": -0.08
         },
         {
           "t": "2026 (proj.)",

@@ -219,3 +219,4 @@ Não alinhado ou pendente:
 
 - Repasse do resultado do BC ao Tesouro: pelo SNA 2008, ESA 2010 e GFSM 2014, o repasse pago com ganhos de reavaliação (quase todo o lucro do BC, cambial: R$ 242,8 de R$ 270,9 bi em 2024) é retirada de capital, não receita; não entraria no primário. Vale para 11.2 e 11.4.
 - Resultado "para fins de meta" do governo central: base do BCB (LC 200): 2025 = 58,7 − 48,7 = R$ 10,0 bi de déficit; a 11.6 deve trocar a base RTN (R$ 13,0 bi).
+- Correção do bloco 11: resultado do governo central para fins de meta (base BCB): 2025 R$ 10,0 bi; 2024 ≈ R$ 13,4 bi (cálculo do painel); média do primário consolidado 2017–2022 sem 2020: −0,42% do PIB; precatórios fora da meta em 2027 ≈ R$ 59,3 bi; Estudo nº 16/2025 da Câmara: autoria de Marcia Rodrigues Moura (jul/2025).
