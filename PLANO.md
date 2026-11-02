@@ -178,7 +178,7 @@ críticas a ela.
 - [x] 10.3b Quantitative easing: Fed (QE1–QE3, 2020), BoE, BCE (APP, PEPP); canais (portfolio balance, sinalização, liquidez); estimativas de efeito (Gagnon, Krishnamurthy e Vissing-Jorgensen); o que aconteceu com inflação e dívida
 - [x] 10.3c Japão: QQE (2013), controle da curva de juros (2016–2024), Abenomics, saída em 2024; o que ensina
 - [x] 10.3d Juros negativos: BCE, BoJ, Suíça, Suécia, Dinamarca; efeitos sobre bancos; o "reversal rate"
-- [ ] 10.3e Credit easing e linhas dirigidas: TLTRO, Funding for Lending, facilities do Fed em 2020
+- [x] 10.3e Credit easing e linhas dirigidas: TLTRO, Funding for Lending, facilities do Fed em 2020
 - [ ] 10.3f Câmbio como instrumento: swaps cambiais e reservas do BCB, intervenções, quando substituem juro
 - [ ] 10.3g Brasil 2020: EC 106 (compra de títulos no secundário), linhas do BCB; o que foi usado e o que ficou no papel
 - [ ] 10.3h Financiamento monetário, "dinheiro de helicóptero" e MMT: Bernanke (2003), Turner (2015), Galí (2020), Kelton; o debate com os críticos; o que vale para moeda não reserva
