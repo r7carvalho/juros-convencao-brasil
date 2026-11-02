@@ -345,3 +345,43 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 
 - Nenhuma com 10.2, 10.2.5, 4.2, 6.3 e 6.4.1. Orientação de 2020 e sua retirada em 20/01/2021 coincidem com 4.2. A distância Selic − regra (3 a 5 pontos em 2025–2026; até 10 pontos abaixo em 2021 com IPCA passado) é a da 10.2.5.
 - O 10.2 diz que a comunicação "mexe nos juros futuros antes de qualquer operação"; a 10.2.6 dá a evidência e as ressalvas (perda de efeito sob Tombini).
+
+## 10.3a
+
+### Páginas entregues (02/11/2026)
+
+- 10.3 Instrumentos não convencionais (ponte), 1ª versão: cerca de 1.220 palavras de prosa sem parênteses de fonte e sem "Para ler" (1.620 pela contagem do lint). Exemplo de brinquedo (piso e cano entupido), limite inferior efetivo (com o piso emergente e a Selic mínima de 2% de 06/08/2020 a 17/03/2021, SGS 432), pane de mercado (Borio e Disyatat, 2009; princípio da separação), Bernanke (2020), um parágrafo por neta 10.3.1 a 10.3.8, a pergunta para o Brasil com link para 10.5 e uma caixa "o painel lê".
+- 10.3.1 Forward guidance, 1ª versão: cerca de 3.530 palavras de prosa sem parênteses de fonte, tabela, fórmulas e citações em bloco (≈ 3.730 com os parênteses; 5.400 pela contagem do lint, que inclui tabela e referências). Exemplo de brinquedo (juro zero por dois anos: taxa de dois anos de 1,2% para 0,2%; dez anos de 3,4% para 3,2% e 3,0% com promessa pós-recuperação; hipoteca de 5,4% para 5,2% e 5,0%; terceiro desfecho délfico), fórmula da hipótese das expectativas com exemplo, recortes de Campbell et al. (2012), FOMC 09/08/2011 e 12/12/2012, BCE 04/07/2013, Del Negro et al., Copom (ata 233, em inglês) e RBA (2022); tabela da orientação do Fed 2008–2015; equação do "forward guidance puzzle" com exemplo resolvido (0,25 sem desconto; 0,25 × 0,9^20 ≈ 0,03 com desconto); seção sobre o Copom 2020–2021 com dois gráficos; armadilhas (Fed 2021, RBA 2021, Copom out/2021); caixa "o painel lê" sobre convenção declarada × âncora fiscal; quadro A favor/Contra.
+- Dois gráficos novos, do bruto (consulta 02/11/2026): `dados/10.3.1-focus-selic-orientacao.json` (Selic meta, SGS 432, e mediana Focus da Selic de fim de 2021 e de 2022; um ponto por semana, jun/2020–jun/2021) e `dados/10.3.1-focus-ipca-orientacao.json` (mediana Focus do IPCA de 2021 e de 2022 com as metas de 3,75% e 3,50% como referência). Script em scratchpad, não versionado: filtro direto de `focus-anuais_selic.json`, `focus-anuais_ipca.json` (baseCalculo 0, último dia de cada semana ISO) e `sgs-432.json`.
+
+### Números do painel (BCB, Focus, API Olinda, mediana com base de 30 dias)
+
+- Selic fim de 2022: 5,0% em 05/08/2020; 4,5% de 17/08/2020 a 08/01/2021; 4,75% em 13/01/2021; 5,0% em 22/01/2021; 6,0% em 19/03/2021.
+- Selic fim de 2021: 3,0% em 05/08/2020; 2,5% em 11/09/2020; 2,75% em 23/10; 3,0% em 20/11; 3,5% em 18/01/2021; 4,0% em 17/02; 5,0% em 19/03; 6,5% em 17/06/2021. Desvio-padrão de 0,77 (ago/2020) para 0,69 (jan/2021).
+- IPCA 2021: 3,0% de jul a out/2020; 3,45% em 18/01/2021; 3,62% em 12/02; 3,82% em 19/02 (passa a meta de 3,75%); 4,60% em 12/03; 6,0% em 29/06/2021. IPCA 2022: 3,50% (a meta) de jun/2020 a mar/2021; 3,78% no fim de jun/2021.
+- Selic meta (SGS 432): 2,25% → 2,00% em 06/08/2020; 2,75% em 18/03/2021 (decisão de 17/03).
+
+### Fontes principais (todas por WebSearch; federalreserve.gov e chicagofed.org não abriram por WebFetch)
+
+- Campbell, Evans, Fisher e Justiniano (2012, BPEA, p. 1–80): recorte da distinção odisseica × délfica pelo resumo reproduzido em busca. Campbell, Fisher, Justiniano e Melosi (2017, NBER Macro Annual 31): só a conclusão qualitativa (efeito em boa parte délfico).
+- FOMC: 09/08/2011 (texto via MNI/investingLive; três votos contrários; Kocherlakota no Fed de Minneapolis; Treasury de dois anos a 0,19% em 10/08/2011, CNN Money); 12/12/2012 (limiares, via Mortgage News Daily); datas de jan/2012, set/2012, dez/2013, mar/2014 e dez/2015 pela linha do tempo do Fed citada em busca e pelo conhecimento do calendário (não reabertas no site do Fed).
+- Swanson (2021, JME 118: 32–53), pelo resumo do autor; Del Negro, Giannoni e Patterson (NY Fed SR 574; JPE Macro 1(1): 43–79, 2023), recorte do resumo da versão de trabalho.
+- BCE 04/07/2013 (OFCE, VoxEU); Banco da Inglaterra 07/08/2013 (comunicado do BoE, LSE, OBR).
+- BCB: ata da 233ª (16/09/2020, em inglês) com a cláusula fiscal e a intenção assimétrica; ata da 235ª (09/12/2020) com as três condições; comunicado da 236ª (20/01/2021) via Poder360, Forbes e Investing.com; Estudo Especial 101/2021 (boxe do RI de dez/2020: taxa de dois anos de 3,42% para 3,30%, cerca de 60% atribuído à orientação, equivalente a surpresa de 11 pb; via busca no PDF e Forbes/Reuters); Estudo Especial 112/2021 (boxe do RI de set/2021: decisões coerentes com a orientação).
+- Debate brasileiro: Campos Neto em 25/03/2021 (Mais Retorno: BC não estava atrás da curva) e em 27/09/2023 na CFT da Câmara (CNN Brasil: a queda a 2% foi um erro). Tesouro, RAD 2020: DPF vencendo em 12 meses de 18,7% (2019) para 27,6% (2020), maior fim de ano desde 2007.
+- Armadilha: English e Sack (2024, BPEA 55(2): 3–26) e Romer e Romer (2024, BPEA 55(2): 59–87, pelos slides); RBA, *Review of the Yield Target* (jun/2022), recorte via Reuters/Investing.com.
+
+### Lacunas (nada disso entrou como fato)
+
+- Texto literal do comunicado da 232ª reunião (05/08/2020): a página parafraseia as condições pela ata da 235ª e pela imprensa. Conferir no PDF do BCB e, se possível, trocar a paráfrase por recorte.
+- A frase sobre reavaliação "mesmo que o teto de gastos nominal continue de pé" foi atribuída à ata de dezembro de 2020 (09/12/2020, versão em inglês) pelo resultado de busca, que não ligou o trecho a uma ata com certeza; pode ser da ata de outubro (234ª). Conferir.
+- Estudo Especial 101: a busca trouxe também um "−0,27 p.p." para a taxa de dois anos que não foi confirmado; a página usa 3,42% → 3,30% e "cerca de 60%". Conferir no PDF a base dos 60% (queda total do dia ou só da janela da reunião).
+- Reação dos DI longos em ago–dez/2020 em pontos-base: não coletada. A página remete a 6.1.1 (curva inclinada) e usa o dado do RAD. Sugestão: estudo de evento com a ETTJ da ANBIMA ou a taxa referencial DI × pré da B3.
+- Woodford (2012, Jackson Hole): argumento contra a data e a favor de condição citado de memória, sem recorte; páginas do volume não conferidas.
+- Data em que o desemprego americano chegou a 6,5% e a passagem do BoE para a "fase 2" em fev/2014: só qualitativo (a página não dá a data do mês em que o desemprego cruzou o limiar).
+- Andrade, Gaballo, Mengus e Mojon (2019) e Nakamura e Steinsson (2018): citados pelo resultado conhecido, sem recorte.
+
+### Divergências
+
+- Nenhuma de número com 10, 10.2.6, 4.2 e 6.1.1. A data da retirada (20/01/2021, 236ª reunião) coincide com 4.2 e 10.2.6. O glossário (9.3, verbete "Forward guidance") diz "retirada no início de 2021": pode ganhar a data exata e o link para 10.3.1.
+- A página macro 10 tem "[a conferir: comunicado de agosto de 2020]" sobre o espaço pequeno para cortes; 10.2.6 já cita o trecho do comunicado de 28/10/2020, e 10.3.1 traz a assimetria e os limites prudenciais pela ata de 16/09/2020. A marca na página 10 pode ser resolvida com link para 10.2.6 e 10.3.1.
