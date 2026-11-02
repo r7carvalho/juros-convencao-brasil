@@ -1,0 +1,109 @@
+{
+ "titulo": "Duas dívidas de 80% do PIB com primário zero: r − g de −2 e de +4 pontos (% do PIB)",
+ "tipo": "barras",
+ "unidade": "% do PIB",
+ "fonte": "Exemplo de brinquedo do painel: d_t = d_{t−1}(1 + r)/(1 + g), com primário zero (tools/analises/11.7_r_menos_g.py)",
+ "url": "https://www.imf.org/external/pubs/ft/tnm/2010/tnm1002.pdf",
+ "consulta": "2026-11-02",
+ "nota": "Números inventados. Juro real e crescimento real constantes por dez anos; nenhum superávit.",
+ "series": [
+  {
+   "nome": "r − g = −2 (r = 0%, g = 2%)",
+   "pontos": [
+    {
+     "t": "Ano 0",
+     "v": 80.0
+    },
+    {
+     "t": "Ano 1",
+     "v": 78.4
+    },
+    {
+     "t": "Ano 2",
+     "v": 76.9
+    },
+    {
+     "t": "Ano 3",
+     "v": 75.4
+    },
+    {
+     "t": "Ano 4",
+     "v": 73.9
+    },
+    {
+     "t": "Ano 5",
+     "v": 72.5
+    },
+    {
+     "t": "Ano 6",
+     "v": 71.0
+    },
+    {
+     "t": "Ano 7",
+     "v": 69.6
+    },
+    {
+     "t": "Ano 8",
+     "v": 68.3
+    },
+    {
+     "t": "Ano 9",
+     "v": 66.9
+    },
+    {
+     "t": "Ano 10",
+     "v": 65.6
+    }
+   ]
+  },
+  {
+   "nome": "r − g = +4 (r = 6%, g = 2%)",
+   "pontos": [
+    {
+     "t": "Ano 0",
+     "v": 80.0
+    },
+    {
+     "t": "Ano 1",
+     "v": 83.1
+    },
+    {
+     "t": "Ano 2",
+     "v": 86.4
+    },
+    {
+     "t": "Ano 3",
+     "v": 89.8
+    },
+    {
+     "t": "Ano 4",
+     "v": 93.3
+    },
+    {
+     "t": "Ano 5",
+     "v": 97.0
+    },
+    {
+     "t": "Ano 6",
+     "v": 100.8
+    },
+    {
+     "t": "Ano 7",
+     "v": 104.7
+    },
+    {
+     "t": "Ano 8",
+     "v": 108.8
+    },
+    {
+     "t": "Ano 9",
+     "v": 113.1
+    },
+    {
+     "t": "Ano 10",
+     "v": 117.5
+    }
+   ]
+  }
+ ]
+}

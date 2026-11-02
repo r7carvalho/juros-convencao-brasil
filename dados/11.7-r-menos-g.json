@@ -1,0 +1,196 @@
+{
+ "titulo": "Diferencial entre juro e crescimento da dívida bruta, nominal e real (p.p.)",
+ "tipo": "linha",
+ "unidade": "p.p.",
+ "fonte": "BCB, Estatísticas Fiscais, tabela \"Dívida bruta do Governo Geral: fatores condicionantes\" (edições de setembro de 2008 a 2026, consulta em 28/10/2026), juros apropriados sobre a DBGG; BCB, SGS 13762 (DBGG), 4382 (PIB de 12 meses) e 13522 (IPCA), coleta de 02/11/2026; cálculo do painel (tools/analises/11.7_r_menos_g.py)",
+ "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Tabelas_de_estatisticas_fiscais.xlsx",
+ "consulta": "2026-11-02",
+ "nota": "i = juros apropriados no ano ÷ DBGG do fim do ano anterior; g = crescimento do PIB nominal no ano. A versão real deflaciona os dois pelo IPCA de dezembro a dezembro: r − g = (i − g)/(1 + IPCA), com o mesmo sinal da nominal. Acima de zero, a dívida cresce em proporção do PIB se o primário for zero. 2026 é preliminar: juro de jan-ago anualizado, PIB e IPCA de 12 meses até setembro.",
+ "governos": true,
+ "ref": [
+  {
+   "v": 0,
+   "rotulo": "juro = crescimento"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Nominal (i − g)",
+   "pontos": [
+    {
+     "t": "2006",
+     "v": 3.18
+    },
+    {
+     "t": "2007",
+     "v": 0.51
+    },
+    {
+     "t": "2008",
+     "v": -1.3
+    },
+    {
+     "t": "2009",
+     "v": 3.81
+    },
+    {
+     "t": "2010",
+     "v": -5.62
+    },
+    {
+     "t": "2011",
+     "v": -0.01
+    },
+    {
+     "t": "2012",
+     "v": 1.08
+    },
+    {
+     "t": "2013",
+     "v": -0.17
+    },
+    {
+     "t": "2014",
+     "v": 3.01
+    },
+    {
+     "t": "2015",
+     "v": 9.98
+    },
+    {
+     "t": "2016",
+     "v": 8.46
+    },
+    {
+     "t": "2017",
+     "v": 5.0
+    },
+    {
+     "t": "2018",
+     "v": 2.01
+    },
+    {
+     "t": "2019",
+     "v": 2.27
+    },
+    {
+     "t": "2020",
+     "v": 3.32
+    },
+    {
+     "t": "2021",
+     "v": -10.88
+    },
+    {
+     "t": "2022",
+     "v": -1.3
+    },
+    {
+     "t": "2023",
+     "v": 2.73
+    },
+    {
+     "t": "2024",
+     "v": 3.25
+    },
+    {
+     "t": "2025",
+     "v": 4.4
+    },
+    {
+     "t": "2026",
+     "v": 6.15
+    }
+   ]
+  },
+  {
+   "nome": "Real, deflator IPCA (r − g)",
+   "pontos": [
+    {
+     "t": "2006",
+     "v": 3.08
+    },
+    {
+     "t": "2007",
+     "v": 0.49
+    },
+    {
+     "t": "2008",
+     "v": -1.23
+    },
+    {
+     "t": "2009",
+     "v": 3.65
+    },
+    {
+     "t": "2010",
+     "v": -5.3
+    },
+    {
+     "t": "2011",
+     "v": -0.01
+    },
+    {
+     "t": "2012",
+     "v": 1.02
+    },
+    {
+     "t": "2013",
+     "v": -0.16
+    },
+    {
+     "t": "2014",
+     "v": 2.83
+    },
+    {
+     "t": "2015",
+     "v": 9.02
+    },
+    {
+     "t": "2016",
+     "v": 7.96
+    },
+    {
+     "t": "2017",
+     "v": 4.86
+    },
+    {
+     "t": "2018",
+     "v": 1.94
+    },
+    {
+     "t": "2019",
+     "v": 2.17
+    },
+    {
+     "t": "2020",
+     "v": 3.18
+    },
+    {
+     "t": "2021",
+     "v": -9.89
+    },
+    {
+     "t": "2022",
+     "v": -1.23
+    },
+    {
+     "t": "2023",
+     "v": 2.61
+    },
+    {
+     "t": "2024",
+     "v": 3.1
+    },
+    {
+     "t": "2025",
+     "v": 4.22
+    },
+    {
+     "t": "2026",
+     "v": 5.88
+    }
+   ]
+  }
+ ]
+}

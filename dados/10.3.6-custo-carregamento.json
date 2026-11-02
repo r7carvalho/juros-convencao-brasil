@@ -1,0 +1,219 @@
+{
+ "titulo": "Custo de carregar as reservas: diferencial de juros e efeito do câmbio (% do PIB, por ano)",
+ "tipo": "empilhadas",
+ "unidade": "% do PIB",
+ "fonte": "BCB, SGS 3546 (reservas), 1 (PTAX), 4390 (Selic) e 4382 (PIB de 12 meses), coleta de 02/11/2026; BIS, taxa de política dos EUA (consulta em 02/11/2026); cálculo do painel (tools/analises/10.3.6_reservas.py)",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json",
+ "consulta": "2026-11-02",
+ "nota": "Positivo é custo para o setor público, negativo é ganho. Diferencial de juros = estoque de reservas do mês anterior, em reais, vezes (Selic do mês − taxa de política dos EUA no mês), somado no ano. Efeito do câmbio = estoque em dólares vezes a variação da PTAX no mês, com sinal trocado (a alta do dólar é ganho). A soma das duas barras é o custo líquido com câmbio. A taxa dos EUA aproxima o rendimento das reservas; o rendimento efetivo publicado pelo BCB difere (9,18% em dólares em 2025). 2026* = 12 meses até set/2026.",
+ "ref": [
+  {
+   "v": 0,
+   "rotulo": ""
+  }
+ ],
+ "series": [
+  {
+   "nome": "Diferencial de juros (Selic − juro americano)",
+   "pontos": [
+    {
+     "t": "2003",
+     "v": 1.63
+    },
+    {
+     "t": "2004",
+     "v": 1.05
+    },
+    {
+     "t": "2005",
+     "v": 0.95
+    },
+    {
+     "t": "2006",
+     "v": 0.54
+    },
+    {
+     "t": "2007",
+     "v": 0.6
+    },
+    {
+     "t": "2008",
+     "v": 1.12
+    },
+    {
+     "t": "2009",
+     "v": 1.17
+    },
+    {
+     "t": "2010",
+     "v": 1.08
+    },
+    {
+     "t": "2011",
+     "v": 1.36
+    },
+    {
+     "t": "2012",
+     "v": 1.19
+    },
+    {
+     "t": "2013",
+     "v": 1.17
+    },
+    {
+     "t": "2014",
+     "v": 1.54
+    },
+    {
+     "t": "2015",
+     "v": 2.49
+    },
+    {
+     "t": "2016",
+     "v": 2.6
+    },
+    {
+     "t": "2017",
+     "v": 1.56
+    },
+    {
+     "t": "2018",
+     "v": 0.87
+    },
+    {
+     "t": "2019",
+     "v": 0.74
+    },
+    {
+     "t": "2020",
+     "v": 0.54
+    },
+    {
+     "t": "2021",
+     "v": 0.91
+    },
+    {
+     "t": "2022",
+     "v": 1.77
+    },
+    {
+     "t": "2023",
+     "v": 1.14
+    },
+    {
+     "t": "2024",
+     "v": 0.87
+    },
+    {
+     "t": "2025",
+     "v": 1.41
+    },
+    {
+     "t": "2026*",
+     "v": 1.41
+    }
+   ]
+  },
+  {
+   "nome": "Efeito do câmbio sobre as reservas (sinal trocado)",
+   "pontos": [
+    {
+     "t": "2003",
+     "v": 1.56
+    },
+    {
+     "t": "2004",
+     "v": 0.59
+    },
+    {
+     "t": "2005",
+     "v": 0.82
+    },
+    {
+     "t": "2006",
+     "v": 0.53
+    },
+    {
+     "t": "2007",
+     "v": 1.78
+    },
+    {
+     "t": "2008",
+     "v": -3.76
+    },
+    {
+     "t": "2009",
+     "v": 3.55
+    },
+    {
+     "t": "2010",
+     "v": 0.55
+    },
+    {
+     "t": "2011",
+     "v": -1.79
+    },
+    {
+     "t": "2012",
+     "v": -1.32
+    },
+    {
+     "t": "2013",
+     "v": -2.1
+    },
+    {
+     "t": "2014",
+     "v": -2.07
+    },
+    {
+     "t": "2015",
+     "v": -7.63
+    },
+    {
+     "t": "2016",
+     "v": 3.72
+    },
+    {
+     "t": "2017",
+     "v": -0.31
+    },
+    {
+     "t": "2018",
+     "v": -3.08
+    },
+    {
+     "t": "2019",
+     "v": -0.84
+    },
+    {
+     "t": "2020",
+     "v": -5.51
+    },
+    {
+     "t": "2021",
+     "v": -1.62
+    },
+    {
+     "t": "2022",
+     "v": 1.32
+    },
+    {
+     "t": "2023",
+     "v": 1.15
+    },
+    {
+     "t": "2024",
+     "v": -4.13
+    },
+    {
+     "t": "2025",
+     "v": 1.79
+    },
+    {
+     "t": "2026*",
+     "v": 0.35
+    }
+   ]
+  }
+ ]
+}

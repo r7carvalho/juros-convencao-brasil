@@ -212,3 +212,39 @@ Divergências com outras páginas:
 - 6.1.2 diz que o arcabouço "limita o crescimento real da despesa total entre 0,6% e 2,5%": correto como faixa; a 11.6 mostra que a regra é 70% ou 50% da receita dentro dela.
 - Primário estabilizador: a 11.6 usa a faixa 2,9% (IFI, RAF 117) a 3,4% (painel, dívida de ago/2026), como `_divergencias.md`.
 - Juro real ex-ante de 2025: 10,5% pela convenção única (10,52).
+
+## 11.7
+
+Arquivo: `conteudo/11-financas-publicas/11.7-sustentabilidade.md` (id 11.7, pai 11, ordem 7). Redação de 02/11/2026.
+
+Palavras: cerca de 3.480 de prosa fora das tabelas, das fórmulas, dos parênteses de fonte e do "Para ler" (3.840 contando os parênteses); o `tools/lint.py` conta cerca de 5.400 tokens. Sem travessão, sem "não é X, é Y", sem palavra vetada ("projeção de referência" no lugar de "cenário-base"). `build.py --check` sem erro; aviso só para o link a 10.4, ainda não escrita.
+
+Estrutura: exemplo de brinquedo (duas dívidas de 80% com primário zero, r − g de −2 e +4; tabela e gráfico em dez anos: 65,6% × 117,5%; s* = 3,1% para B; A aguentaria déficit de 2% e pararia em 102%); restrição intertemporal em razão do PIB com a condição de transversalidade e o caso r < g (sem refazer a derivação da 1.5 e da 3.1); solvência × liquidez com o caixa (13,5% do PIB) e o que vence em 12 meses (16,39% da DPF ≈ R$ 1,5 tri ≈ 11% do PIB); r − g do Brasil 2006–2026 (gráfico, tabela por período, exemplo de 2025 nominal e real); r − g no mundo (Blanchard 2019, Mauro et al. 2015, Mauro e Zhou 2020, Escolano et al. 2017); teste de Bohn (fórmula, limiar ρ > (r − g)/(1 + g), tabela da literatura brasileira e teste simples do painel); DSA do FMI (mapa de calor de 2013, SRDSF de 2022, Artigos IV de 2025 e 2026); limite seguro (Reinhart e Rogoff 2010 × Herndon, Ash e Pollin; moeda, detentores, prazo, histórico; Ghosh et al. 2013 e Pereira 2020; tabela Brasil × Itália × Japão); leituras das duas teses, quadro A favor / Contra e `:::painel`. Liga para 1.5, 1.5.3, 2.1, 2.5, 3.1, 3.3, 3.4, 6.1, 10.3.3, 10.4 e 11.5.
+
+Gráficos e script:
+- `tools/analises/11.7_r_menos_g.py` (com `--resumo` imprime a tabela anual, as médias por período e as regressões).
+- `dados/11.7-r-menos-g.json` (linha, p.p., 2006–2026): i − g nominal e r − g real com o IPCA. i = juros apropriados sobre a DBGG (fatores condicionantes do BCB, edições de setembro de 2008 a 2026, mesma base de dados/3.1 e 3.2) × (Y_t/Y_{t−1}) ÷ DBGG de dez do ano anterior (SGS 13762); reproduz a série de dados/3.1 (12,55% em 2025). 2006 usa a taxa publicada (14,18%), porque o SGS 13762 começa em dez/2006. 2026 preliminar: juro de jan–ago (8,59%) anualizado = 13,16%; PIB de 12 meses set/2026 ÷ set/2025 = 7,01%; IPCA 12m set/2026 = 4,58%.
+- `dados/11.7-brinquedo-trajetorias.json` (barras, % do PIB, anos 0 a 10).
+
+Números e contas do painel:
+- i − g por ano: 2006 +3,18; 2007 +0,51; 2008 −1,30; 2009 +3,81; 2010 −5,62; 2011 −0,01; 2012 +1,08; 2013 −0,17; 2014 +3,01; 2015 +9,98; 2016 +8,46; 2017 +5,00; 2018 +2,01; 2019 +2,27; 2020 +3,32; 2021 −10,88; 2022 −1,30; 2023 +2,73; 2024 +3,25; 2025 +4,40; 2026* +6,15.
+- Médias (i, g, i − g, r com IPCA, r − g real): 2006–2013 12,1 / 11,9 / +0,2 / 6,5 / +0,2; 2014–2016 12,7 / 5,6 / +7,2 / 4,6 / +6,6; 2017–2019 8,7 / 5,6 / +3,1 / 4,9 / +3,0; 2020–2022 8,1 / 11,1 / −3,0 / 1,3 / −2,7; 2023–2025 11,6 / 8,1 / +3,5 / 6,7 / +3,3; 2026* 13,2 / 7,0 / +6,2 / 8,2 / +5,9.
+- 2025: r = 7,95% (IPCA 4,26%); r − g real = 4,22 = 4,41/1,0426. Limiar de Bohn com as taxas de 2025: 0,0441/1,0814 = 0,041.
+- Teste de Bohn do painel (MQO, Newey-West com 2 defasagens; s = −SGS 5793 de dezembro; controle: SGS 7326; dummy 2020): DLSP 2002–2013 ρ = +0,062 (ep 0,010); DLSP 2014–2025 −0,017 (0,022); DLSP 2002–2025 −0,047 (0,047); DBGG 2007–2025 −0,093 (0,025); DBGG 2007–2013 −0,033 (0,057, n = 7, não entrou no texto); DBGG 2014–2025 +0,009 (0,052, não entrou).
+
+Fontes principais: BCB (fatores condicionantes da DBGG; SGS 13762, 4513, 4382, 13522, 5793, 7326, coleta de 02/11/2026); Tesouro (RMD de agosto de 2026); IFI (RAF 117); FMI (CR 25/194 e 26/191, comunicado 26/257, guias de DSA de 2013 e 2022, DataMapper); Blanchard (2019); Bohn (1998); Mauro et al. (2015); Mauro e Zhou (2020/2021); Escolano, Shabunina e Woo (2017); Mendonça, Santos e Sachsida (2009); Luporini (2015); Campos e Cysne (2019a, 2019b); Campos, Cysne e Madureira (2022); Oliveira, Nobrega e Maia (2022); Pereira (Ipea DP 250, 2020); Reinhart e Rogoff (2010); Herndon, Ash e Pollin (2014); Ghosh et al. (2013). imf.org, ipea, scielo, usp e poder360 estavam bloqueados ao WebFetch; tudo veio de resumos e trechos de busca.
+
+Lacunas e pendências:
+- Artigo IV de 2026: a classificação "moderado", o primário estabilizador de cerca de 1,5% do PIB e a "metade flutuante, um quinto rolado por ano" vêm do resumo publicado pela IndraStra (set/2026), que cita o relatório; o PDF do FMI não abriu. A página atribui à IndraStra. Uma busca chegou a sugerir risco "elevated", sem trecho que confirme; conferir na seção de DSA do CR 26/191. Também não se obteve o mapa de calor nem os resultados de cada choque do Artigo IV (o quadro novo, SRDSF, não usa mais mapa de calor); a página descreve o método e não traz números por choque.
+- O diferencial de juro e crescimento projetado pelo FMI para 2026–2031 (2,8 p.p., num resumo de busca) não foi confirmado e ficou fora.
+- Os limiares do mapa de calor de 2013 (70% e 85% do PIB) foram confirmados por busca no guia de 2013; os de necessidade de financiamento (15% e 20%) não, e ficaram fora.
+- Coeficientes de Campos e Cysne (2019a, 2019b, 2022) e o limite numérico de Pereira (2020) não obtidos; a página usa só o sinal e a conclusão. Luporini (2015): 0,096 no resumo do artigo; uma monografia cita 0,0595 para a dívida líquida; ficou o do resumo. A amostra de Luporini aparece como 1991–2011 numa fonte e 2001–2013 noutra; a página diz "do início dos anos 1990 ao começo dos 2010".
+- Ghosh et al. (2013): lista de países com e sem espaço fiscal vem do resumo da Royal Economic Society; os limites numéricos por país não foram obtidos.
+- Bohn (1998): o coeficiente americano não foi confirmado; a página diz só que é positivo.
+- Linha da Itália na tabela comparativa (indexação "prefixada na maior parte", BCE como comprador) é descritiva, sem número; conferir com o Tesouro italiano se a revisão pedir número.
+- Páginas e número do volume de Mauro e Zhou na *IMF Economic Review* (69(1), 2021) e o número de Escolano et al. em *Fiscal Studies* (38, p. 179–217; ano 2016 ou 2017 conforme a fonte) devem ser conferidos.
+
+Divergências com outras páginas:
+- Nenhuma de número. O i − g por ano é o mesmo de dados/3.1 (reconstruído pelo script; 2007 dá 13,41 contra 13,40 por arredondamento). A 3.1 diz que o diferencial de 2006–2013 teve "média de 0,2 ponto (de −5,6 em 2010 a +3,8 em 2009)": igual.
+- A 3.1 trata 2021 e 2022 como "−10,9 e −1,3": igual. O cartão do item dizia "negativo em 2020–2022": em 2020 o diferencial foi positivo (+3,3 p.p.), porque o PIB nominal cresceu só 3%; a página diz que o triênio foi negativo só na média.
+- Primário estabilizador: a 11.7 cita a faixa da 11.6 (2,9% IFI a 3,4% painel) e acrescenta o FMI (≈1,5%, via resumo secundário); a diferença vem da hipótese de juro.

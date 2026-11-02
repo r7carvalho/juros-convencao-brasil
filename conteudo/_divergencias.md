@@ -212,3 +212,4 @@ Não alinhado ou pendente:
 - 10.2.5: a Selic ficou acima da regra de Taylor em 2003–2010 e 2025–2026 e abaixo em 2011–2021; o desvio médio não tem sinal único; o neutro implícito oscila de 0,8% a 12,7% conforme o período.
 - 10.3.1: a orientação futura do BCB em 2020 durou cerca de três meses e não segurou a ponta longa.
 - 5.4.2: o preço relativo dos serviços financeiros sobe com a Selic (correlação 0,61 com a variação da Selic, 2001–2023).
+- 11.7: i − g da DBGG por período: +0,2 p.p. (2006–2013), +7,2 (2014–2016), +3,1 (2017–2019), −3,0 (2020–2022, média; 2020 foi +3,3), +3,5 (2023–2025), +6,2 (2026 preliminar). Teste de Bohn: o primário respondeu à dívida até o início dos anos 2010 (ρ = +0,062 na DLSP, 2002–2013) e deixou de responder depois; limiar às taxas de 2025: 0,041. FMI (Artigo IV 2026, via resumo secundário): primário estabilizador ≈1,5% do PIB, abaixo dos 2,9% (IFI) a 3,4% (painel) por premissas diferentes.

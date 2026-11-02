@@ -201,7 +201,7 @@ Fiscais da LDO, IFI (RAF), FMI (GFSM 2014, Fiscal Monitor, DSA).
 - [x] 11.4 Armadilhas conceituais: receita de privatização e NFSP, ajuste patrimonial, juros nominais × reais, efeito câmbio na DLSP (inclui o padrão de erro documentado no insumo)
 - [x] 11.5 Risco fiscal: o Anexo de Riscos Fiscais da LDO, passivos contingentes, precatórios, judicialização; e o "risco fiscal" no sentido do mercado (prêmio, CDS, curva)
 - [x] 11.6 Regras fiscais: LRF, regra de ouro, teto (EC 95), arcabouço (LC 200/2023); desenho, desempenho e comparação internacional
-- [ ] 11.7 Sustentabilidade: r − g, teste de Bohn, DSA do FMI, "limite seguro" de dívida e por que ele não existe como número único
+- [x] 11.7 Sustentabilidade: r − g, teste de Bohn, DSA do FMI, "limite seguro" de dívida e por que ele não existe como número único
 - [ ] 11.8 Estatística fiscal internacional: GFSM 2014 e por que comparar dívida entre países exige cuidado
 - [ ] 11.R Revisão independente do bloco 11
 
