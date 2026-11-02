@@ -2,10 +2,10 @@
  "titulo": "Três medidas da dívida pública (% do PIB)",
  "tipo": "linha",
  "unidade": "% do PIB",
- "fonte": "BCB, SGS 13762 (DBGG conceito BCB) e 4513 (DLSP); tabela especial Divggnp.xlsx (DBGG conceito FMI)",
+ "fonte": "BCB, SGS 13762 (DBGG, conceito BCB) e SGS 4513 (DLSP), coleta automática de 02/11/2026; BCB, Estatísticas fiscais, tabela especial Divggnp.xlsx (DBGG, conceito FMI), consulta em 28/10/2026",
  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
- "consulta": "2026-10-28",
- "nota": "Posição de dezembro; último ponto agosto de 2026. Conceito FMI = conceito BCB mais os títulos do Tesouro na carteira livre do Banco Central. A DLSP desconta ativos (reservas, créditos junto ao BNDES) e inclui o Banco Central. Razões sobre o PIB mudam quando o IBGE revisa o PIB.",
+ "consulta": "2026-11-02",
+ "nota": "Posição de dezembro; último ponto agosto de 2026, para os três conceitos andarem juntos (o SGS já traz setembro: DBGG 82,93% e DLSP 69,98%). Conceito FMI = conceito BCB mais os títulos do Tesouro na carteira livre do Banco Central. A DLSP desconta ativos (reservas, créditos junto ao BNDES) e inclui o Banco Central. Razões sobre o PIB mudam quando o IBGE revisa o PIB.",
  "governos": true,
  "series": [
   {

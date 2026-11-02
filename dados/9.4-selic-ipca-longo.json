@@ -2,10 +2,10 @@
  "titulo": "Selic meta no fim do ano e IPCA anual, 1995–2026 (%)",
  "tipo": "linha",
  "unidade": "% a.a.",
- "fonte": "IBGE, IPCA (SIDRA, tabela 1737); BCB, histórico das taxas de juros fixadas pelo Copom",
- "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/201512,201612,201712,201812,201912,202012,202112,202212,202312,202412,202512,202609",
+ "fonte": "BCB, SGS 432 (Selic meta), SGS 4189 (Selic over acumulada no mês, anualizada, 1995–1998) e SGS 13522 (IPCA acumulado em 12 meses, IBGE)",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json",
  "consulta": "2026-11-02",
- "nota": "IPCA: variação de janeiro a dezembro; 2026-09 é a variação em 12 meses até setembro. Selic: meta vigente no fim de dezembro (a meta formal começa em março de 1999); 2026-09 é a meta após a reunião de 16/09/2026. IPCA de 2015 a 2026 e Selic de 2019 a 2026 conferidos nos insumos do painel; demais anos transcritos das tabelas oficiais e cotejados com compilações secundárias, porque a API do IBGE e o site do BCB estavam inacessíveis nesta sessão (ver 9.1).",
+ "nota": "Selic meta: taxa vigente no último dia do ano (a meta começa em 05/03/1999); 2026-09 = meta vigente em 30/09/2026. Selic over de 1995 a 1998: taxa de dezembro, acumulada no mês e anualizada (SGS 4189), porque a meta ainda não existia. IPCA: 12 meses até dezembro; 2026-09 = 12 meses até setembro de 2026. Coleta automática de 02/11/2026.",
  "governos": true,
  "ref": [
   {
@@ -128,6 +128,27 @@
     {
      "t": "2026-09",
      "v": 13.75
+    }
+   ]
+  },
+  {
+   "nome": "Selic over, dezembro (antes da meta)",
+   "pontos": [
+    {
+     "t": "1995",
+     "v": 41.22
+    },
+    {
+     "t": "1996",
+     "v": 23.94
+    },
+    {
+     "t": "1997",
+     "v": 39.87
+    },
+    {
+     "t": "1998",
+     "v": 31.24
     }
    ]
   },

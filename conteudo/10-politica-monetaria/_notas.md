@@ -265,3 +265,43 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 - Compulsório de 2008: ver decisão acima (116 × 99,8 × 82).
 - Taxa sobre depósitos à vista em dez/2010: um resumo de busca dizia "à vista de 8% para 12%"; o Relatório Anual 2010 diz que os 8% → 12% são da exigibilidade adicional sobre recursos à vista e a prazo. A página segue o Relatório Anual.
 - Spread: a 2.4 usa 21,2 p.p. (ago/2026); a 10.2.4 usa 21,6 p.p. (set/2026), ambos do SGS 20783.
+
+## 10.2e
+
+### Página entregue (02/11/2026)
+
+- 10.2.5 Regra de Taylor e os modelos do BC, 1ª versão: cerca de 3.460 palavras de prosa antes do "Para ler", sem contar parênteses de fonte e fórmulas (3.630 contando-os; 5.480 pela contagem do lint, que inclui tabela, fórmulas e referências). Três gráficos: `dados/10.2.5-selic-regra-taylor.json` (linha mensal, jan/2003 a ago/2026: Selic meta × regra de Taylor com IPCA 12m, r* de 4,5% e 5%), `dados/10.2.5-selic-menos-regra.json` (barras anuais: Selic − regra, r* = 5%, versões IPCA e Focus) e `dados/10.2.5-neutro-implicito.json` (linha anual: r* que faria a regra igual à Selic). Exemplos de brinquedo: regra com π = 5, meta 3, hiato +1, r* = 5 → 11,5% (11% com r* 4,5; 14,5% com 8); princípio de Taylor (resposta 1,5 × 0,8); variantes (expectativas 10,75%; suavização ρ = 0,8 → 10,3% e 10,54%; balanced approach 12%); leitura de projeção condicional. Tabela por período, quadro A favor/Contra, duas caixas "o painel lê".
+- Código reproduzível: `tools/analises/10.2.5_taylor.py` (biblioteca padrão + numpy; `--resumo` imprime as contas usadas no texto). Grava os três JSON.
+
+### Método e números do painel (cálculo próprio, coleta de 02/11/2026)
+
+- Selic: SGS 432 é a Selic **meta** (o cartão dizia "Selic efetiva (SGS 432)"); usada a meta vigente no último dia do mês. A over fica 0,10 abaixo (10.2.1), o que não muda nada relevante.
+- Inflação: IPCA 12m (SGS 13522) ou mediana Focus 12 meses à frente (série suavizada, baseCalculo 0, último registro do mês). Meta: centro do CMN ponderado pelos meses da janela (2003 = 4,0% oficial, não a "ajustada" de 8,5%; 2004 = 5,5%; 3,0% desde 2024).
+- Hiato: filtro HP (λ = 129.600) sobre 100·ln(IBC-Br dessazonalizado, SGS 24364), jan/2003–ago/2026, média móvel de 3 meses. Declarado como aproximação. Mínimo em jun/2020 (−11,1% na média móvel). Ago/2026: −1,2% contra +0,4% do BC (RPM set/2026); 2019: +1,5% contra ≈ −2% do BC (via Blog do IBRE).
+- Resultados (r* = 5%, Selic − regra, média dos meses): IPCA/Focus = 2003–05 +2,8/+7,7; 2006–10 +2,3/+2,7; 2011–12 −2,0/−1,2; 2013–16 −2,5/−0,2; 2017–19 −0,8/−1,5; 2020–21 −6,9/−4,2; 2022–24 −0,4/+1,7; 2025–ago/2026 +3,8/+4,3. Média geral −0,25/+1,39. Meses com Selic acima da regra: 48%/63% (r* 5) e 54%/68% (r* 4,5). Correlação Selic × regra: 0,56/0,46.
+- Anos: 2013 −4,7/−4,2; 2021 −10,5/−4,9; 2025 +3,3/+3,8; 2026 (jan–ago) +4,6/+5,0. Mai/2003: Selic 26,5, regra IPCA 29,1, regra Focus 15,0. Out/2012: regra ≈ 11,4 com Selic 7,25. Mar/2021: regra 12,3 (IPCA) e 9,3 (Focus) com Selic 2,75. Ago/2026: Selic 14,0, regra Focus 9,7 (≈ 10,5 com o hiato do BC).
+- Neutro implícito médio (Focus/IPCA): 2003–05 12,7/7,8; 2006–10 7,7/7,3; 2011–19 entre 2,5 e 4,8; 2020–21 0,8/−1,9; 2022–24 6,7/4,6; 2025–26 9,3/8,8.
+- MQO (Selic − πe) = a + b(πe − meta) + c·hiato: 2003–2010 a 8,83, b 1,65, c −0,14 (R² 0,31); 2011–2016 a 5,05, b 0,59, c −0,70 (0,41); 2017–2026 a 3,64, b 2,49, c 0,10 (0,44). Amostra inteira instável (b cai de 1,52 para 1,00 tirando 2003); por isso o texto só usa os subperíodos e chama a conta de ilustrativa.
+
+### Fontes principais (todas por WebSearch; bcb.gov.br, stanford.edu e crei.cat não abriram por WebFetch)
+
+- Taylor (1993): fórmula e variáveis por fontes secundárias (CRS, Yellen 19/01/2017); "hypothetical but representative" via Orphanides (2003, FEDS 2003-36). Clarida, Galí e Gertler (2000): 0,83 (1960–1979) e 2,15 (Volcker–Greenspan) via reprodução em busca. Taylor (1999) e o peso 1,0 da balanced approach via Nakamura e Riblier (Fed de Kansas City). Fed MPR: boxe de regras desde jul/2017; ed. jul/2026 (Box 4) com Taylor (1993), ajustada, balanced approach e primeira diferença.
+- Minella, Freitas, Goldfajn e Muinhos (2003): só o resumo (metas coordenaram expectativas; BC "reacted strongly" às expectativas). Holland e Gomes (2003, EconomiA 4(2)); Barbosa, Camêlo e João (2016, RBE 70(4): neutro = juro externo + risco país + risco cambial; R² 98%; princípio de Taylor vale); Barcellos Neto e Portugal (2009; ≈7% e ≈9,5% para 2000–2005 segundo Santos, 2011, Anpec); Cortes e Paiva (2017, JIMF 74); Bonomo et al. (2024, JME 145).
+- BCB: boxes do modelo agregado (jun/2017; set/2020 e dez/2020 com estimação bayesiana; dez/2021 revisão; jun/2024 atualização); cinco equações (Phillips, IS, regra, paridade, expectativas) pelo resumo do boxe de dez/2020. Regra do modelo de dez/2021 sem hiato e suavização 0,91 (amostra 2003T4–2019T4) e resposta de 1,3 ao desvio: via Blog do IBRE (portal FGV), não pelo boxe. SAMBA: WP 239 (abr/2011), BRE 35(2) 2015, Estudo Especial 39/2019, WP 578 / LAJCB 5(2) 2024 (Fasolo, Araújo, Jorge, Kornelius, Marinho). Bogdanski, Tombini e Werlang (2000, WP 1).
+- Projeções: ata 279 (jun/2026) com o recorte "a trajetória para a taxa de juros é extraída da pesquisa Focus e a taxa de câmbio parte de R$5,10/US$, evoluindo segundo a paridade do poder de compra (PPC)"; comunicado de 16/09/2026 (câmbio R$ 5,15; 5,2% 2026; 3,9% 2027; 3,2% no 1º tri de 2028) via okai.com.br e Correio Braziliense; RI dez/2011 com câmbio R$ 1,80 e Selic 11% constantes via Estado de Minas.
+- Críticos: Summa (2011, Pesquisa & Debate 22(2), p. 157–183; só introdução lida, conclusão não citada como fato); Arestis e Sawyer (2008, CJE 32(5)); Orphanides (2001, AER 91(4)); Taylor (2007, Jackson Hole) e (2009, Getting Off Track); Blog do IBRE (nove regras de Borges; FMI com 27 regras, fim de 2020).
+
+### Lacunas (nada disso entrou como fato)
+
+- Coeficientes numéricos de Minella et al. (2003) e de Holland (2005, "postura agressiva", citado em Anpec 2006): não confirmados; Holland (2005) ficou fora do texto.
+- Coeficientes do boxe de dez/2021 e do de jun/2024 não lidos na fonte; o "1,3" do BC vem de um post do Blog do IBRE que pode se referir a outro parâmetro (um segundo resumo de busca achou o rótulo ambíguo). Conferir no PDF ri202112b7p.
+- Data em que o BC trocou a projeção de referência (Selic e câmbio constantes → Selic Focus e câmbio PPC): um resumo de busca (Mais Retorno) fala em 2021; atas de 2022 já usam PPC. O texto não dá a data.
+- Hiato do BC como série: não coletado. Sugestão: extrair do RPM (gráfico do hiato, planilha de dados dos gráficos) e trocar o filtro HP; e calcular a regra em tempo real com as estimativas de cada RPM (crítica de Orphanides).
+- Autor e data dos posts do Blog do IBRE "Avaliando a postura..." e "FMI aponta..." não confirmados (só o de nove regras foi atribuído a Bráulio Borges pela página de autor). O Artigo IV/Selected Issues do FMI de 2020 com as 27 regras não foi localizado.
+- Gráfico do Fed com as prescrições das regras em 2026: não usado.
+
+### Divergências
+
+- 2.3 e 6.2 usam a regra com hiato do BC (+0,4%) e chegam a ≈ 10,5–10,6% em set–out/2026; a 10.2.5 com o hiato HP dá 9,7% em ago/2026 e diz que, com o hiato do BC, chega a ≈ 10,5%. Consistente, com método declarado.
+- Neutro do Copom: a 10.2.5 diz "3% em 2021 e 5% desde dez/2024" e "4,5% até mai/2024" (como 6.3.2 e 2.3); a data da passagem de 3% para 4,5% não foi confirmada e não é citada.
+- Nenhuma outra divergência com 10, 10.2, 10.2.1, 2.3, 6.2 e 6.3.2.
