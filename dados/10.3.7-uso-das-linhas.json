@@ -1,0 +1,25 @@
+{
+ "titulo": "Linhas de 2020: quanto do anunciado foi usado (% do valor anunciado)",
+ "tipo": "barrash",
+ "unidade": "% do anunciado",
+ "fonte": "Brasil: potencial da LTEL-Debêntures, BCB, Relatório de Estabilidade Financeira de abr/2020; uso, BCB, Our Results 2020; LTEL-LFG, BCB, nota de 23/12/2022 sobre a liquidação das últimas operações; Novo DPGE, dados do BCB citados pelo Estadão (nov/2020); EC 106, FMI (Country Report 20/311), Senado (RQS 2.584/2020) e resposta do BCB por Lei de Acesso à Informação. Chile: Banco Central de Chile, Informe de Estabilidad Financiera do 2º semestre de 2020. EUA: Federal Reserve e NY Fed, como em dados/10.3.5-facilidades-fed-2020.json. Cálculo do painel",
+ "url": "https://www.bcb.gov.br/en/publications/our_results_2020",
+ "consulta": "2026-11-02",
+ "nota": "Uso dividido pelo valor anunciado. As datas de medida diferem: LTEL-Debêntures, empréstimos do BC entre 24/03 e 30/04/2020 (R$ 1,4 bi de R$ 91 bi); LTEL-LFG, soma das 245 operações até a liquidação final em dez/2022 (R$ 121,9 bi de R$ 670 bi; o saldo devedor máximo foi menor); Novo DPGE, captação até o início de nov/2020 (R$ 22,6 bi de R$ 200 bi), sem dinheiro do BC; EC 106, nenhuma compra de título privado e nenhum registro de compra de título público com base na emenda; Chile, desembolsos da FCIC I e II (cerca de US$ 28,6 bi de US$ 40 bi) até o 2º semestre de 2020; EUA, volume final de cada linha sobre a capacidade anunciada.",
+ "governos": false,
+ "series": [
+  {
+   "nome": "Usado / anunciado",
+   "pontos": [
+    {"t": "Chile, FCIC I e II", "v": 71.5},
+    {"t": "Brasil, LTEL-LFG", "v": 18.2},
+    {"t": "Brasil, Novo DPGE", "v": 11.3},
+    {"t": "EUA, Main Street", "v": 2.9},
+    {"t": "EUA, crédito corporativo", "v": 1.9},
+    {"t": "Brasil, LTEL-Debêntures", "v": 1.5},
+    {"t": "EUA, municípios (MLF)", "v": 1.3},
+    {"t": "Brasil, compras pela EC 106", "v": 0}
+   ]
+  }
+ ]
+}

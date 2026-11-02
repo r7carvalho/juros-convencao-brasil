@@ -1,0 +1,21 @@
+{
+ "titulo": "Dois países com a mesma dívida do Tesouro, medidos por três réguas (% do PIB)",
+ "tipo": "barras",
+ "unidade": "% do PIB",
+ "fonte": "Exemplo de brinquedo do painel: réguas montadas com as definições do GFSM 2014 (FMI) e do Manual de Estatísticas Fiscais do BCB",
+ "url": "https://www.imf.org/external/pubs/ft/gfs/manual/2014/gfsm2014.pdf",
+ "consulta": "2026-11-02",
+ "nota": "Números inventados. Os dois tesouros emitiram 100. No país A o banco central tem 25 desses títulos e empresta 10 ao mercado em compromissadas; no país B o banco central não tem título, e as estatais devem 30 fora do governo geral. Régua FMI: todos os títulos do governo geral, inclusive os da carteira do banco central. Régua BCB: títulos fora da carteira do banco central mais as compromissadas. Setor público não financeiro: governo geral (régua FMI) mais as estatais.",
+ "series": [
+  {"nome": "País A (banco central com 25)", "pontos": [
+   {"t": "Governo geral, régua do FMI", "v": 100},
+   {"t": "Governo geral, régua do BCB", "v": 85},
+   {"t": "Setor público não financeiro", "v": 100}
+  ]},
+  {"nome": "País B (estatais devem 30)", "pontos": [
+   {"t": "Governo geral, régua do FMI", "v": 100},
+   {"t": "Governo geral, régua do BCB", "v": 100},
+   {"t": "Setor público não financeiro", "v": 130}
+  ]}
+ ]
+}

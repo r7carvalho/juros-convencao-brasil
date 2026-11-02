@@ -248,3 +248,37 @@ Divergências com outras páginas:
 - Nenhuma de número. O i − g por ano é o mesmo de dados/3.1 (reconstruído pelo script; 2007 dá 13,41 contra 13,40 por arredondamento). A 3.1 diz que o diferencial de 2006–2013 teve "média de 0,2 ponto (de −5,6 em 2010 a +3,8 em 2009)": igual.
 - A 3.1 trata 2021 e 2022 como "−10,9 e −1,3": igual. O cartão do item dizia "negativo em 2020–2022": em 2020 o diferencial foi positivo (+3,3 p.p.), porque o PIB nominal cresceu só 3%; a página diz que o triênio foi negativo só na média.
 - Primário estabilizador: a 11.7 cita a faixa da 11.6 (2,9% IFI a 3,4% painel) e acrescenta o FMI (≈1,5%, via resumo secundário); a diferença vem da hipótese de juro.
+
+## 11.8
+
+Arquivo: `conteudo/11-financas-publicas/11.8-estatistica-internacional.md` (id 11.8, pai 11, ordem 8). Redação de 02/11/2026.
+
+Palavras: cerca de 3.000 de prosa fora das tabelas, das citações, dos parênteses de fonte e do "Para ler" (inclui os dois exemplos de brinquedo); o `tools/lint.py` conta cerca de 4.950 tokens. Sem travessão, sem "não é X, é Y", sem palavra vetada. `build.py --check` sem erro e sem aviso para 11.8.
+
+Estrutura: exemplo de brinquedo (países A e B com 100 de títulos; A com banco central detendo 25, dos quais 10 em compromissadas; B com estatais devendo 30 fora do governo geral; réguas FMI 100/100, BCB 85/100, setor público não financeiro 100/130) e gráfico novo; GFSM 2014 (setores, contabilidade integrada, competência, net lending/borrowing e primário, instrumentos de dívida, matriz D1–D4, valor de mercado/nominal/face com exemplo de LTN); estatísticas brasileiras no padrão (Tesouro, governo geral; BCB, NT 50); ESA 2010 e dívida de Maastricht (Reg. 479/2009, MGDD 2022, decisão do EFSF de 2011); seis fontes de diferença (abrangência, carteira do BC, valor, consolidação, previdência e garantias, juros líquidos e o resíduo do FMI); quadro das bases (FMI WEO/FM, GFS, QPSD, OCDE, Eurostat, BIS, BCB/Tesouro); comparações válidas e inválidas; efeito sobre as teses; A favor / Contra sobre a régua; `:::painel`. Liga para 2.1, 3.4, 6.1, 10.2.2, 11.1, 11.2, 11.4, 11.5, 11.6 e 11.7, sem repetir a tabela de nível e custo da 3.4 nem o gráfico DBGG BCB × FMI da 10.2.2.
+
+Gráfico: `dados/11.8-brinquedo-reguas.json` (barras, números inventados). Nenhum gráfico com dado real novo: os dados reais já têm dono (dados/3-divida-conceitos.json, dados/10.2.2-dbgg-bcb-fmi.json, dados/3.4-*.json).
+
+Números e contas do painel:
+- DBGG dez/2025: 78,64% (BCB) e 93,33% (FMI), diferença 14,7 p.p.; ago/2026: 82,87% e 94,53% (11,7 p.p.); dez/2022 a ago/2026: +11,2 p.p. (BCB) e +10,6 p.p. (FMI) (SGS 13762; Divggnp.xlsx).
+- Déficit nominal do setor público consolidado em 2025: 7,91 + 0,43 = 8,34% do PIB (SGS 5727 e 5793), contra 7,4% de necessidade líquida de financiamento do governo geral no MEFP 2014 (Tesouro, divulgação de 01/04/2026; 6,3% em 2024).
+- Taxa média aparente 2025: 7,29/93,3 = 7,8% (FMI); 7,91/78,64 = 10,1% (BCB, conta aproximada porque os juros são do setor público consolidado e a dívida do governo geral).
+- Fed: US$ 4,58 tri (H.4.1, fim de out/2026) ≈ 14% da dívida em poder do público (CRFB), que é ≈ 100% do PIB ⇒ ≈ 14 p.p. do PIB.
+- BoJ: ¥ 503,0 tri em JGB (sem letras de até 1 ano; MoF a partir do Flow of Funds de dez/2025) ÷ PIB nominal 2025 de ¥ 662,79 tri (Cabinet Office, via Kyodo/WAM) = 75,9% do PIB; 204,8 − 76 ≈ 129 (conta grosseira, bases diferentes).
+- Reino Unido, 31/03/2023: £ 2.211,59 bi a mercado × £ 2.378,26 bi nominal com correção (DMO) ⇒ nominal 7,5% acima do mercado.
+
+Fontes principais: FMI (GFSM 2014; *Fiscal Monitor* de abril de 2026 e de abril de 2024, apêndices metodológicos; WEO; CR 23/289; CR 26/75 do Japão); Eurostat (Reg. 479/2009 via EUR-Lex; MGDD 2022; comunicados 13/2011 e de 22/04/2026); Banco Mundial (QPSD e matriz D1–D4; *Public Sector Debt Statistics Guide*); OCDE (Bloch e Fall, 2015, WP 1228); BIS (Dembiermont et al., 2015; documentação da base de crédito ao governo, mar/2026); BCB (SGS 13762, 5727, 5793; Divggnp.xlsx; NT 47 e NT 50; Manual); Tesouro (Estatísticas Fiscais do Governo Geral, 4º tri 2025); Poder360 (29/05/2026, fala de Fernando Rocha); IstoÉ Dinheiro (30/07/2013); Fed H.4.1; CRFB; MoF Japão; UK DMO; Athayde e Vianna (2015). imf.org, exame.com, blogdoibre.fgv.br, static.poder360.com.br e os sites .gov.br estavam bloqueados ao WebFetch; tudo veio de trechos de busca.
+
+Lacunas e pendências:
+- Os recortes do *Fiscal Monitor* (Brasil) e do Regulamento 479/2009 vieram de trechos reproduzidos na busca, traduzidos pelo painel; conferir a redação no PDF do apêndice de abril de 2026 e no EUR-Lex.
+- Japão: 230% (WEO out/2025) e 206,5% (FM abr/2026) vêm de compilações secundárias (Visual Capitalist, StatRanker) da base do FMI; a mudança de definição (não consolidada a mercado → consolidada a valor de face) está no próprio FM de abril de 2026 e no CR 26/75. Conferir os dois números no WEO Database.
+- Cobertura do FMI para o Brasil nas contas de resultado: uma busca sugeriu que o apêndice descreve o "governo geral" brasileiro como setor público não financeiro sem Petrobras e Eletrobras, consolidado com o fundo soberano; o painel não achou o trecho e não usou. Se confirmado, explica parte da distância entre o resíduo do FMI (7,29%) e os juros do BCB (7,91%), que inclui o Banco Central.
+- México e Colômbia: coberturas tiradas do apêndice do FM de abril de 2024 (México: governo central, seguridade, empresas públicas, bancos de desenvolvimento, seguradora estatal e Fonadin, sem subnacionais; Colômbia: setor público não financeiro com Ecopetrol, sem BC desde out/2019). O resíduo primário − nominal desses dois países continua sem conferência com a tabela de juros do FM, como já dizia a 3.4.
+- Tesouro: a passagem dos juros para o regime de caixa vem do comunicado do Ministério da Fazenda (01/04/2026), que remete à Nota Metodológica nº 5; a nota não foi lida.
+- Data do guia de dívida do setor público: edição em inglês de dezembro de 2011; a cópia da TFFS chama-se "psds2013". O cartão citava 2013; a página diz "2011, republicado em 2013".
+- O tratamento de dividendos extraordinários do banco central (retirada de capital pelo SNA 2008/ESA 2010) foi confirmado para o ESA 2010 (Bundesbank) e para o registro de reavaliações em outros fluxos (GFSM 2014); a aplicação ao repasse cambial do BCB é inferência do painel, escrita como tal.
+- PFLGG do BCB (NT 50): sem valor recente obtido; a página só descreve a estatística.
+
+Divergências com outras páginas:
+- 11.2 e 11.4 dizem que, pelo GFSM 2014, a transferência do resultado do BC ao Tesouro "entraria no primário". A 11.8 precisa: só a parte do resultado que vem de renda corrente; dividendos pagos com ganhos de reavaliação (como o repasse cambial) são retirada de capital pelo SNA 2008/ESA 2010. Sugere-se ajustar a frase das duas páginas na revisão 11.R.
+- Nenhuma divergência de número: DBGG nos dois conceitos, diferença de 11,7 p.p. (ago/2026) e faixa 5,3 a 14,7 p.p. iguais a 10.2.2 e `_divergencias.md`; juros do FMI (7,29%) e do BCB (7,91%) iguais a 3.4 e 11.2.
