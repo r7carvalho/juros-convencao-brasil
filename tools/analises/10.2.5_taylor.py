@@ -241,7 +241,8 @@ def escrever_json(linhas):
         "titulo": "Juro neutro implícito: o r* que faria a regra de Taylor igual à Selic, média do ano (% a.a.)",
         "tipo": "linha", "unidade": "% a.a.", "fonte": FONTE, "url": URL, "consulta": CONSULTA,
         "nota": nota_base + " Juro neutro implícito = Selic − [π + 0,5(π − meta) + 0,5·hiato]. "
-                "As linhas horizontais marcam as hipóteses do Copom (4,5% até mai/2024; 5,0% desde dez/2024). "
+                "Por construção acompanha a Selic: mostra que nenhum neutro fixo reconcilia a regra com a Selic, "
+                "mas não é estimativa independente do neutro. As linhas horizontais marcam as hipóteses do Copom (4,5% até mai/2024; 5,0% desde dez/2024). "
                 "2026 vai de janeiro a agosto.",
         "governos": True,
         "ref": [{"v": 4.5, "rotulo": "4,5%"}, {"v": 5.0, "rotulo": "5,0%"}],
