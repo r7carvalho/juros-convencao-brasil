@@ -1,0 +1,28 @@
+{
+ "titulo": "Centro da meta de inflação vigente, emergentes e duas referências ricas (% a.a.)",
+ "tipo": "barrash",
+ "unidade": "% a.a.",
+ "fonte": "Bancos centrais e governos de cada país, por busca: BCB e Res. CMN 5.141/2024; Banco Central de Chile (IPoM); Banco de la República; Banxico; BCRP; Governo da Índia, notificação de 25/03/2026; Tesouro da África do Sul e SARB, 12/11/2025; Ministério das Finanças da Indonésia, PMK 31/2024; Banco da Rússia; Banco Central da Turquia; Fed (2012, 2025); BCE (2021)",
+ "url": "https://www.bcb.gov.br/controleinflacao/historicometas",
+ "consulta": "2026-11-02",
+ "nota": "Centro da meta; intervalos e datas na tabela da página 10.1.2. Turquia: meta de médio prazo de 5%, com meta intermediária de 24% para o fim de 2026. Peru: meta de 2% com intervalo de 1% a 3%. Indonésia: 2,5% para 2025 a 2027.",
+ "series": [
+  {
+   "nome": "Centro da meta",
+   "pontos": [
+    {"t": "Turquia (médio prazo)", "v": 5.0},
+    {"t": "Índia", "v": 4.0},
+    {"t": "Rússia", "v": 4.0},
+    {"t": "Brasil", "v": 3.0},
+    {"t": "Chile", "v": 3.0},
+    {"t": "Colômbia", "v": 3.0},
+    {"t": "México", "v": 3.0},
+    {"t": "África do Sul (desde nov/2025)", "v": 3.0},
+    {"t": "Indonésia", "v": 2.5},
+    {"t": "Peru", "v": 2.0},
+    {"t": "EUA (Fed)", "v": 2.0},
+    {"t": "Área do euro (BCE)", "v": 2.0}
+   ]
+  }
+ ]
+}

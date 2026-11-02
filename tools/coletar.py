@@ -90,7 +90,7 @@ SIDRA = {
     "pib_trimestral_taxas": "/t/5932/n1/all/v/all/p/all/c11255/all",
     "ipca_grupos_2020_hoje": f"/t/7060/n1/all/v/63,66,2265/p/all/c315/{GRUPOS_IPCA}",
     "ipca_grupos_2012_2019": f"/t/1419/n1/all/v/63,66,2265/p/all/c315/{GRUPOS_IPCA}",
-    "ipca_grupos_2006_2011": f"/t/2938/n1/all/v/63,66,2265/p/all/c315/{GRUPOS_IPCA}",
+    "ipca_grupos_2006_2011": f"/t/2938/n1/all/v/all/p/all/c315/{GRUPOS_IPCA}",
     "pnad_desocupacao": "/t/4099/n1/all/v/4099/p/all",
     "pnad_rendimento_real": "/t/5436/n1/all/v/5932/p/all",
 }
@@ -98,9 +98,9 @@ SIDRA = {
 # IBGE FTP: diretórios do Sistema de Contas Nacionais (TRU, CEI, tabelas sinóticas)
 SCN_DIRS = [
     "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/",
-    "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/",
-    "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/",
+    "https://ftp.ibge.gov.br/Contas_Nacionais/Contas_Trimestrais/Tabelas_Completas/",
 ]
+SCN_PROFUNDIDADE = 3
 SCN_MAX_MB = 60
 
 TESOURO_CKAN = "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q="
@@ -115,7 +115,7 @@ BIS = {
 
 # Ipeadata OData: códigos de série (estoque de capital etc.). Preencha com SERCODIGO conferido em
 # http://www.ipeadata.gov.br. A coleta grava também a busca por palavra-chave para achar os códigos.
-IPEA_BUSCAS = ["estoque liquido de capital fixo", "taxa de investimento", "capital fixo"]
+IPEA_BUSCAS = ["capital fixo", "estoque de capital", "taxa de investimento", "formação bruta de capital"]
 IPEA_SERIES = []
 
 # ------------------------------------------------------------------ rede
@@ -239,31 +239,47 @@ def coletar_sidra():
 
 
 def coletar_scn():
+    """Percorre os diretórios do FTP do IBGE (até SCN_PROFUNDIDADE níveis) e baixa planilhas e zips."""
     import re
     destino = os.path.join(BRUTOS, "scn")
     os.makedirs(destino, exist_ok=True)
-    for d in SCN_DIRS:
+    vistos, fila, listagem_total = set(), [(d, 0) for d in SCN_DIRS], []
+    while fila:
+        d, nivel = fila.pop(0)
+        if d in vistos:
+            continue
+        vistos.add(d)
         try:
             listagem = baixar(d)
         except Exception as e:  # noqa
             falha("scn", d, d, e)
             continue
-        arqs = sorted(set(re.findall(r'href="([^"?/][^"]*\.(?:zip|xls|xlsx|ods|pdf))"', listagem, re.I)))
-        gravar(f"scn-listagem-{len(d)}.json", {"url": d, "coleta": agora(), "arquivos": arqs})
-        for a in arqs:
-            if a.lower().endswith(".pdf") and "nota" not in a.lower():
+        hrefs = re.findall(r'href="([^"?#]+)"', listagem, re.I)
+        for h in hrefs:
+            url = urllib.parse.urljoin(d, h)
+            if not url.startswith(d) or url == d:
                 continue
-            url = urllib.parse.urljoin(d, a)
+            if url.endswith("/"):
+                if nivel + 1 <= SCN_PROFUNDIDADE:
+                    fila.append((url, nivel + 1))
+                continue
+            if not re.search(r"\.(zip|xls|xlsx|ods)$", url, re.I):
+                continue
+            listagem_total.append(url)
+            rel = urllib.parse.unquote(url[len("https://ftp.ibge.gov.br/Contas_Nacionais/"):]).replace("/", "__")
+            alvo = os.path.join(destino, rel)
+            if os.path.exists(alvo):
+                continue
             try:
                 b = baixar(url, binario=True, timeout=300)
                 if len(b) > SCN_MAX_MB * 1e6:
                     raise RuntimeError(f"arquivo grande demais ({len(b) / 1e6:.0f} MB)")
-                nome = os.path.basename(urllib.parse.unquote(a))
-                with open(os.path.join(destino, nome), "wb") as f:
+                with open(alvo, "wb") as f:
                     f.write(b)
-                ok("scn", nome, os.path.relpath(os.path.join(destino, nome), ROOT), len(b))
+                ok("scn", rel, os.path.relpath(alvo, ROOT), len(b))
             except Exception as e:  # noqa
-                falha("scn", a, url, e)
+                falha("scn", rel, url, e)
+    gravar("scn-listagem.json", {"raizes": SCN_DIRS, "coleta": agora(), "arquivos": listagem_total})
 
 
 def coletar_tesouro():
@@ -294,16 +310,20 @@ def coletar_bis():
 
 
 def coletar_ipea():
-    for q in IPEA_BUSCAS:
-        url = ("http://www.ipeadata.gov.br/api/odata4/Metadados?$filter=" +
-               urllib.parse.quote(f"contains(SERNOME,'{q}')") + "&$format=json")
-        try:
-            d = json.loads(baixar(url, timeout=120))
-            arq = gravar(f"ipea-busca-{q.replace(' ', '-')}.json", {"fonte": "Ipeadata", "url_api": url, "coleta": agora(), "dados": d.get("value", d)})
-            ok("ipea", q, arq, len(d.get("value", [])))
-        except Exception as e:  # noqa
-            falha("ipea", q, url, e)
-    for cod in IPEA_SERIES:
+    # Baixa o catálogo inteiro de metadados e filtra localmente (o filtro OData dava 400).
+    url = "http://www.ipeadata.gov.br/api/odata4/Metadados"
+    try:
+        d = json.loads(baixar(url, timeout=180))
+        todos = d.get("value", [])
+        sel = [m for m in todos if any(q in (m.get("SERNOME") or "").lower() for q in IPEA_BUSCAS)]
+        arq = gravar("ipea-metadados-selecionados.json", {"fonte": "Ipeadata", "url_api": url, "coleta": agora(),
+                                                          "filtro": IPEA_BUSCAS, "dados": sel})
+        ok("ipea", "metadados", arq, len(sel))
+        for m in sel[:40]:
+            IPEA_SERIES.append(m.get("SERCODIGO"))
+    except Exception as e:  # noqa
+        falha("ipea", "metadados", url, e)
+    for cod in dict.fromkeys(c for c in IPEA_SERIES if c):
         url = f"http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='{cod}')"
         try:
             d = json.loads(baixar(url, timeout=120))
