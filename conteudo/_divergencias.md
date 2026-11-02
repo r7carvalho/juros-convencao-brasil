@@ -30,7 +30,7 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 23 | Preços administrados em 2025 | 5,28% (IBGE via InfoMoney) | 5,29% (relatório de banco) | Usar 5,28% (IBGE). | 4.4 |
 | 24 | Juro real ex-ante, out/2026 | 8,72% (frente-K, Selic over/Focus 12m) | 8,45% (ranking MoneYou/Lev, juro de 1 ano); ≈8,8% (Selic meta/Focus) | Métodos diferentes; as páginas dizem "cerca de 8,5% a 8,8%" e citam o método. | 2.1, 4.4 |
 | 25 | Desvio da meta em 2021 (carta aberta) | 6,31 p.p. (IPCA 10,06% − 3,75%) | 5,54 p.p. (resumo de busca sem origem) | Vale 6,31 p.p. contra o centro; 5,54 seria contra o teto (10,06 − 5,25 = 4,81, não bate) — descartado por falta de origem. | 4.2, 4.5 |
-| 26 | Preços administrados em 2021 | 16,90% (texto da área 4, a conferir) | 13,05% (imprensa; provavelmente o grupo Habitação) | Mantido 16,90% marcado [a conferir]; conferir com SGS 4449 do coletor. | 4.1, 4.2 |
+| 26 | Preços administrados em 2021 | 16,90% (texto da área 4, a conferir) | 13,05% (imprensa; provavelmente o grupo Habitação) | Fechada: 16,90% confirmado pela série SGS 4449 (coleta de 02/11/2026). | 4.1, 4.2 |
 | 27 | Custo de 1 p.p. de Selic por 12 meses | R$ 61,7 bi (BCB, dívida líquida) | R$ 60,6 bi (ADVFN); R$ 68,9 bi (JB); R$ 48 bi só DPF (Poder360); R$ 62 a 69 bi (frente-K) | Conceitos diferentes (DLSP × DPF); as páginas dizem qual. Referência: BCB. | 2.4, 7 |
 | 28 | Recorde de LFT na DPF | 52,74% em ago/2026, maior desde 2000 (RMD) | 51,1% em jul/2026, maior "desde ago/2003" (ADVFN) | Vale o RMD. | 2.4, 7.2 |
 | 29 | Faixa de prazo médio no PAF 2026 | 3,8–4,2 anos (Agência Brasil) | 3,7–4,1 anos (Estadão) | Citadas as duas; conferir no PAF. | 7.3 |
@@ -94,3 +94,10 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 - Teto do salário mínimo: Lei 15.077/2024 (não LC 200/2023).
 - DIEESE sobre a Lava Jato: "Implicações econômicas intersetoriais da Operação Lava Jato", 16/03/2021.
 - A tese diz que a inflação veio "sobretudo" de choques externos; o teste não deve trocar por "só".
+
+## Decisões da correção da área 4 (02/11/2026)
+
+- Juro real ex-ante (SGS 1178 sobre a mediana Focus 12 meses, sem suavização): 2020 −2,09; 2023 7,56; 2024 6,84; 2025 10,52; set/2026 8,39; 23/10/2026 8,73. Outras réguas (Selic meta; média anual) dão valores próximos: dizer o método.
+- Juro real ex-post do BIS em 2026 (jan–set): Brasil 9,64; México 2,78; Chile 0,92; Colômbia 4,94; EUA 0,29.
+- Serviços (SGS 10844): 2024 = 4,78% publicado pelo BCB (4,74% pelo produto dos mensais); 2025 = 6,0%.
+- Queda da FBCF 2013–2016: 30,8% a 32,8% conforme a série (SIDRA 1621 com ajuste, pico no 2º tri; SIDRA 1620 sem ajuste, pico no 3º tri).

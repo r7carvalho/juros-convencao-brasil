@@ -114,7 +114,7 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 4.3b 2014–2016: recessão, crise fiscal, crise política, Lava Jato e investimento
 - [x] 4.4 2023–2026: Selic a 15%, desinflação de 2025 e expectativas
 - [x] 4.5 Teste da tese "sem demanda nem oferta, só choque externo": veredito com dados
-- [ ] 4.R Revisão independente da macroárea 4
+- [x] 4.R Revisão independente da macroárea 4
 
 ## 5. Investimento refém do juro
 
