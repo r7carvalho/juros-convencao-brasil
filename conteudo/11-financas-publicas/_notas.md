@@ -86,3 +86,32 @@ Lacunas e pendências:
 Divergências com outras páginas:
 - 9.1 diz que parte da diferença entre juros pagos e apropriados vem da "rolagem (parte do juro é paga com emissão de novos títulos)". A 11.2 não repete esse item: o refinanciamento, pela LRF, paga principal e atualização monetária; a diferença que a 11.2 explica vem do tempo (juro capitalizado em LFT e LTN e pago no resgate), da classificação da correção como amortização, da abrangência (BC, estados, estatais) e de os juros do BCB serem líquidos e incluírem swaps. Sugestão para a revisão do bloco: reler o item de 9.1.
 - Juro real de 2024: a conta do painel dá 5,36% do PIB (com swaps) e 4,36% (sem swaps); BNDES/FGV IBRE dá 3,1% sem swaps. A página explica que os níveis diferem pelo método e que o salto 2024–2025 (cerca de 2 pontos) aparece nas duas contas. CONTEXTO.md cita "juro real de 3,1% para 5,3% do PIB entre 2024 e 2025": é a série do BNDES/FGV IBRE, não a do painel.
+
+## 11.3
+
+Arquivo: `conteudo/11-financas-publicas/11.3-acima-e-abaixo-da-linha.md` (id 11.3, pai 11, ordem 3). Redação de 02/11/2026.
+
+Palavras: cerca de 3.080 palavras alfabéticas fora das tabelas e do "Para ler" (inclui as referências entre parênteses no texto); o `tools/lint.py` conta cerca de 4.800 tokens. Sem travessão, sem "não é X, é Y", sem palavra vetada.
+
+Exemplo de brinquedo: padaria com dois cadernos (caixa × extrato), discrepância de 3 (2 de tempo, 1 de omissão) e um passivo com o moinho que nenhum dos dois registra (análogo das pedaladas). Não repete a tabela de sinais da 11.2; usa o sinal do RTN só na fórmula e remete à 11.2.
+
+Gráfico: `dados/11.3-primario-12m-2012-2016.json` (linha, mensal, jan/2012 a dez/2016, SGS 5793). Mostra o salto de 0,88% para 1,86% do PIB entre nov e dez/2015 (pagamento dos passivos do Acórdão 825/2015). Recorte da série que a 11.2 mostra inteira; o recorte existe para tornar visível o degrau de dezembro de 2015.
+
+Fontes principais: BCB, *Manual de Estatísticas Fiscais* (maio/2019, pp. 8, 13-15, 33, 39; p. 15 nota 4 para o registro por competência dos subsídios desde dez/2015; páginas conforme o material de base, PDF não reaberto); BCB, nota de Estatísticas Fiscais de 08/11/2023 (PIS/Pasep, recorte lido em resultado de busca), notas de 31/01/2025 e 30/01/2026; BCB, Nota Metodológica DSTAT 2020/002 (FIES); SGS 5793 e 4382 (coleta de 02/11/2026); LC 200/2023, art. 5º, § 3º (recorte conferido no texto reproduzido pela Câmara e pela CBIC em resultado de busca); Tesouro, RTN (estrutura da tabela 1, boletim de fev/2020; tratamento semestral dos subsídios, boletim de set/2025), nota metodológica de conciliação GCO, apresentação do FIES de 18/07/2017, Relatório de Avaliação do Cumprimento das Metas Fiscais do 1º quadrimestre de 2026; Prisma Fiscal, nota especial de nov/2020; TCU, Acórdãos 825/2015, 2.461/2015 e 3.297/2015 (via notícias do TCU e imprensa), Contas do Presidente de 2025 (ficha de achados, via resultado de busca); IFI, RAF 108; Gobetti e Orair (2017), Ipea TD 2288 (só o resumo).
+
+Números e de onde vêm:
+- Governo central 2025: RTN déficit R$ 61,69 bi (0,48% do PIB); BCB déficit R$ 58,69 bi; diferença +3,0 bi. Meta: zero, banda −0,25 p.p.; TCU desconta R$ 48,7 bi de despesas excluídas e considera cumprida.
+- 2024: RTN déficit R$ 43,0 bi; BCB governo central R$ 45,4 bi (CNN Brasil; consolidado R$ 47,6 bi na nota do BCB de 31/01/2025); diferença −2,4 bi.
+- 2023: RTN déficit R$ 230,5 bi; BCB governo central "cerca de R$ 254,5 bi" só na cobertura do Poder360 de 07/02/2024 (não achei o número na nota do BCB); diferença ≈ −24 bi, compatível com os R$ 26,0 bi do PIS/Pasep. Confiança média; conferir na tabela do BCB.
+- FIES 2016: discrepância de R$ 8,9 bi, dos quais ≈ R$ 7 bi do FIES; déficit de 2016 no RTN revisto de R$ 154,3 bi para R$ 161,3 bi (imprensa de 18/07/2017 citando a apresentação do Tesouro).
+- Pedaladas: TCU estimou ≈ R$ 40 bi omitidos da dívida em 2014; pagamento de R$ 72,4 bi em dez/2015 (BNDES 30,0; FGTS 22,6; BB 18,2; Caixa 1,5), dos quais R$ 55,6 bi passivos do Acórdão 825 e R$ 16,8 bi de 2015 (nota da Fazenda via imprensa; algumas matérias dizem R$ 55,8 bi). Dez/2015: déficit primário consolidado de R$ 71,7 bi no BCB (imprensa); governo central 2015 no RTN R$ 114,9 bi. SGS 5793 dá 1,86% do PIB em dez/2015; a imprensa de jan/2016 dizia 1,88% (série revista).
+
+Lacunas e pendências:
+- Sites gov.br, cdn.tesouro.gov.br, sites.tcu.gov.br e repositorio.ipea.gov.br bloqueados (WebFetch e curl); nada de RTN em `dados/brutos/` além dos metadados do CKAN. Sem série histórica da discrepância ano a ano; sugestão: incluir no coletor a planilha "Resultado do Tesouro Nacional - Série Histórica" (linhas de ajuste metodológico e discrepância) e montar o gráfico RTN × BCB de 1997 a 2026.
+- A nota metodológica do Tesouro sobre a conciliação foi lida só em resultado de busca; o texto parafraseia (sem aspas). O significado exato da linha "ajuste metodológico Itaipu" do RTN não foi confirmado e ficou fora.
+- Mecanismo exato do FIES na dívida líquida (por que o BCB captava impacto primário) não confirmado; a página só diz que o BCB captava pela evolução dos saldos.
+- Não achei RAF da IFI dedicado à discrepância; só o uso da linha de ajustes e discrepância no RAF 108.
+- Abertura do resultado de 2015 do governo central pelo BCB não encontrada.
+- A afirmação de que o BCB apura estados e municípios separadamente e estatais por esfera segue o conhecimento das tabelas das Estatísticas Fiscais, sem página do *Manual*.
+
+Divergências com outras páginas: nenhuma nova. Os números de 2025 por esfera são os mesmos da 11.2 (governo central −58,7 no BCB). A 11 e a 11.2 chamam o critério do BCB de abaixo da linha e o do Tesouro de acima da linha, como aqui.
