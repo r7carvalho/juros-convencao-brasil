@@ -1,0 +1,2297 @@
+{
+ "frente": "K",
+ "titulo": "O problema dos juros no Brasil: leitura heterodoxa e contraponto ortodoxo",
+ "resumo": "O Brasil tem juro real ex-ante de cerca de 8,5% a 8,8% ao ano em set-out/2026, 1º entre 40 países no ranking MoneYou/Lev de 16/09/2026, e juro real ex-post cerca de três pontos acima de México, Chile, Colômbia, Índia e África do Sul desde 2010. Os canais de transmissão estão enfraquecidos: 43,9% do crédito é direcionado (ago/2026) e 52,74% da DPF está em LFT (recorde), de modo que a alta da Selic eleva a renda dos credores e a dívida em cerca de R$ 62 a 69 bi por ponto. Os juros nominais apropriados do setor público somaram R$ 1.007,6 bi (7,91% do PIB) em 2025 e R$ 1.182 bi (8,86%) em 12 meses até ago/2026. A evidência sustenta potência reduzida, não nula: a Selic de 15% derrubou o IPCA de 5,53% para 4,26% em 2025 com ajuda do câmbio, mas não fechou o hiato nem ancorou as expectativas até set/2026. QE e juro negativo nos países ricos desmentiram o monetarismo de manual, mas a transposição para moeda não reserva esbarra no repasse cambial, como mostram Turquia e Argentina.",
+ "analise": [
+  {
+   "titulo": "O tamanho do juro brasileiro",
+   "texto": "Pelo cálculo da Frente K com dados do BCB, o juro real ex-post (Selic acumulada em 12 meses deflacionada pelo IPCA) ficou em média em 9,0% ao ano de 2000 a 2009, 3,9% de 2010 a 2019 e voltou a 8,0% em 2023, 9,7% em 2025 e 9,5% nos 12 meses até setembro de 2026. Os únicos anos negativos foram 2020 e 2021, quando a Selic chegou a 2% e a inflação a 10,06%. No painel do BIS, com a mesma régua para todos, o Brasil teve juro real médio de 3,9% em 2010-2019, contra 1,0% no México, 0,9% na África do Sul, 0,8% na Colômbia e na Índia, 0,4% no Chile e valores negativos nos EUA, na área do euro, no Japão e no Reino Unido. A distância de cerca de três pontos em relação aos pares emergentes é persistente, atravessa governos e regimes fiscais. No ranking ex-ante de 16/09/2026, o Brasil aparece em 1º entre 40 países, com 8,45%, contra média de 1,62%; Rússia, Colômbia e Turquia vêm depois, México tem 3,08%, Chile 2,09% e Índia 1,63%. O BCB trabalha com juro neutro de 5,0%, de modo que a política está contracionista em cerca de quatro pontos."
+  },
+  {
+   "titulo": "Canais de transmissão: onde a Selic perde força",
+   "texto": "O crédito direcionado é 43,9% do saldo do SFN em agosto de 2026, depois de ter caído de 49,9% (2016) para 40,1% (2022). Essa parte reage pouco à Selic: Bonomo e Martins (BCB, TD 419) acharam canal de crédito mais fraco e efeito menor sobre emprego nas firmas com acesso a ele. A dívida pública amplia o problema: 52,74% da DPF está em LFT, recorde, e cada ponto de Selic eleva a dívida líquida em R$ 61,7 bi a R$ 68,9 bi por ano. Isso protege o detentor de perda de capital quando o juro sobe, de modo que o canal de riqueza, que em outros países encolhe o patrimônio do credor, aqui aumenta a renda dele. O spread médio subiu para 21,2 p.p. em agosto de 2026 e a inadimplência está alta, o que desliga parte do repasse da taxa básica para o tomador final. O câmbio é o canal mais rápido e funcionou em 2025, quando o real se valorizou de R$ 6,19 para R$ 5,50 e a inflação importada caiu, mas depende de fluxo externo e do diferencial de juros. O canal de expectativas é o que o regime de metas mais valoriza e é justamente o que falhou: em setembro de 2026 o BCB descreve expectativas desancoradas para 2027 e 2028 mesmo depois de um ano de Selic a 15%. A evidência do próprio BCB (boxe de mar/2026) mostra, porém, que o crédito livre de longo prazo responde ao aperto, de modo que os canais estão enfraquecidos, não ausentes."
+  },
+  {
+   "titulo": "Leitura heterodoxa",
+   "texto": "André Lara Resende abriu o debate em 'Juros e conservadorismo intelectual' (Valor, 13/01/2017) e no livro 'Juros, moeda e ortodoxia' (2017): se o juro nominal alto se mantém por décadas, a equação de Fisher sugere que ele ancora a inflação esperada para cima, e com dívida grande e indexada o juro alto piora o fiscal e pode alimentar a inflação, o que a teoria fiscal do nível de preços (Sims 1994; Cochrane 2023) formaliza. Para ele, a Selic age sobretudo pela sinalização, porque os canais de crédito, riqueza e demanda estão parcialmente desligados pela LFT e pelo direcionado. Bresser-Pereira e o novo-desenvolvimentismo (Bresser-Pereira e Nakano 2002; Bresser, Oreiro e Marconi 2015) somam o canal externo: juro alto atrai capital, sobrevaloriza o real, desindustrializa e sustenta uma convenção de juro alto que serve aos rentistas. Kalecki (1943) dá a chave política: credores preferem desemprego e juro alto à plena ocupação. A MMT (Kelton 2020; Wray 2012) sustenta que o Estado emissor da própria moeda não quebra em sua moeda e que o limite é a inflação real, não a dívida. A crítica à Curva de Phillips (Blanchard 2016; Hazell et al. 2022) mostra uma curva achatada, de modo que derrubar a inflação pelo hiato custa muito produto. Os fatos de 2025-2026 dão munição: juro real ex-ante de 9% a 10%, o dobro do neutro, por 18 meses, sem fechar o hiato e sem ancorar as expectativas, enquanto os juros apropriados subiram para 8,86% do PIB e a dívida bruta para 82,9%. A experiência de 2008-2019 nos EUA, no Japão e na Europa, com juro zero ou negativo, balanços multiplicados e inflação abaixo da meta, desmentiu a ideia de que emissão de moeda gera inflação por si."
+  },
+  {
+   "titulo": "Contraponto ortodoxo",
+   "texto": "A leitura convencional começa por Blanchard (2004) e Favero e Giavazzi (2004): em 2002-2003, com dívida alta e parte em dólar, a alta do juro aumentou a percepção de calote, depreciou o câmbio e elevou a inflação, o que é dominância fiscal; o remédio é fiscal, e a política monetária perde eficácia justamente quando o fiscal não é crível. Nesse quadro, o juro alto é sintoma de prêmio de risco, poupança baixa e histórico de calotes (Segura-Ubiergo, FMI 2012), e a hipótese jurisdicional de Arida, Bacha e Lara Resende teve resultado fraco nos testes de Gonçalves, Holland e Spacov (2007). Sobre a tese neofisheriana, García-Schmidt e Woodford (2019) mostram que o resultado depende de previsão perfeita e some com aprendizado; Uribe (2022) encontra efeito neofisheriano só para mudanças permanentes de juro, não para apertos transitórios. A Turquia testou a ideia em 2021-2022, cortou juros com inflação alta e chegou a 85,5% em outubro de 2022; só voltou a desinflar depois de levar a taxa a 50% em 2024. O BCB mostra que o canal funciona onde não há subsídio: crédito livre de longo prazo cai com o aperto, a TLP e a queda do direcionado em 2015-2019 aumentaram a potência, e o IPCA saiu de 5,53% para 4,26% em 2025. Sobre o QE, a teoria novo-keynesiana já previa pouco efeito com juro zero, e quando a demanda superou a oferta em 2021-22 a inflação chegou a 9,1% nos EUA, o que reabilita uma Curva de Phillips não linear (Benigno e Eggertsson 2023). Para um emergente, a MMT esbarra na hierarquia de moedas: a dívida externa privada e o repasse cambial impõem restrição que EUA e Japão não têm (Mankiw 2020; Vergnhanini e De Conti 2017)."
+  },
+  {
+   "titulo": "EUA, Japão e Europa: o que o não convencional mostra",
+   "texto": "O Fed comprou títulos em três rodadas entre 2008 e 2014, levando o balanço de cerca de US$ 0,9 tri para US$ 4,5 tri, e de novo em 2020-2022, até US$ 8,97 tri. Na primeira fase a inflação ficou abaixo de 2% na maior parte do tempo e a dívida federal em poder do público subiu de cerca de 35% do PIB (2007) para perto de 80% (2019), sem crise de financiamento. O Japão lançou o QQE em abril de 2013, juro de -0,1% em 2016 e controle da curva de 2016 a março de 2024; o BoJ passou a deter cerca de metade dos títulos do governo, a dívida bruta passou de 230% do PIB e a meta de 2% só foi alcançada a partir de 2022, puxada por energia e iene fraco. O BCE manteve a taxa de depósito negativa de junho de 2014 a julho de 2022, chegando a -0,5%. Esses casos mostram que moeda de reserva com dívida em moeda própria e poupança doméstica alta suporta juro zero e compras maciças sem inflação nem fuga de capital. O que não mostram é que um emergente possa fazer o mesmo: o Brasil tem moeda que não é reserva, repasse cambial relevante, histórico inflacionário e dívida curta. Em 2020, compras limitadas de títulos por Chile, Colômbia e África do Sul não geraram descontrole (BIS, Boletim 20), mas foram temporárias e num momento de afrouxamento global; a autorização da EC 106/2020 não virou programa relevante no Brasil."
+  },
+  {
+   "titulo": "Custo fiscal e quem recebe",
+   "texto": "Os juros nominais apropriados do setor público consolidado passaram de R$ 195,5 bi (5,03% do PIB) em 2010 para R$ 501,2 bi (8,36%) em 2015, caíram a R$ 312,0 bi (4,10%) em 2020 e subiram a R$ 950,6 bi (8,07%) em 2024, R$ 1.007,6 bi (7,91%) em 2025 e R$ 1.182 bi (8,86%) nos 12 meses até agosto de 2026. Em 2025, essa conta superou a soma das dotações federais de saúde (R$ 245,1 bi), educação (R$ 226,4 bi) e Bolsa Família (R$ 158,6 bi). A comparação exige cuidado: o número do BCB é por competência, inclui estados e o resultado dos swaps cambiais, e embute reposição da inflação; os juros pagos pela União no orçamento de 2025 foram R$ 371,7 bi. Quanto aos credores, em agosto de 2026 as instituições financeiras detinham 31,22% da dívida mobiliária interna, a previdência 22,63%, os fundos 22,5%, os não residentes 9,91%, as seguradoras 3,34% e o Tesouro Direto 3,04%. A renda dos juros vai sobretudo para balanços financeiros e para a poupança previdenciária da classe média e alta, o que dá base à crítica distributiva de Kalecki e ao mesmo tempo limita o efeito sobre consumo que o argumento do efeito riqueza invertido supõe."
+  },
+  {
+   "titulo": "Balanço da evidência",
+   "texto": "A evidência dá razão à leitura heterodoxa em três pontos: a potência da Selic é reduzida por crédito direcionado e dívida indexada, o custo fiscal do juro é alto e cresce com a própria Selic, e o QE de 2008-2019 nos países ricos desmentiu o monetarismo de manual. Também dá razão à ortodoxia em três: a Selic afeta crédito, câmbio e inflação, o prêmio fiscal explica parte relevante do nível do juro, e as experiências de cortar juro com inflação alta em moeda fraca (Turquia 2021-22, Argentina) terminaram em inflação muito maior. A tese de que a Selic age sobretudo pela expectativa tem apoio parcial, porque o próprio BCB dá peso central às expectativas, mas 2025-2026 mostra que nem esse canal entrega quando a credibilidade fiscal e a percepção sobre o BC estão em dúvida. O ponto que nenhum dos lados resolve com dados é a magnitude do efeito riqueza da LFT; não há estimativa oficial publicada. Reformas que reduzem a parte insensível ao juro, como a TLP de 2017, têm apoio dos dois lados e são o caminho com menos controvérsia para que o mesmo efeito custe menos juro."
+  }
+ ],
+ "alegacoes": [
+  {
+   "id": "K1",
+   "alegacao": "Selic alta é o único jeito de segurar a inflação.",
+   "quem": "circulou no debate público; versão forte da defesa do aperto em 2025",
+   "quando": "2025-06",
+   "fonte_alegacao": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
+   "o_que_aconteceu": "Com a Selic a 15% de jun/2025 a mar/2026, o IPCA em 12 meses caiu de 5,53% (abr/2025) para 4,26% (dez/2025), mas a decomposição do próprio BCB atribui parte relevante à inflação importada (câmbio de R$ 6,19 para R$ 5,50 em 2025) e o IPCA voltou a 4,58% em set/2026. Política fiscal, compulsórios e medidas macroprudenciais também afetam a demanda.",
+   "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados?formato=json",
+   "veredito": "nao_ocorreu",
+   "veredito_leitura": "não procede como absoluto",
+   "nota": "A Selic é o instrumento principal do regime de metas e mostrou efeito sobre crédito e atividade. 'Único' é falso: o mesmo resultado pode vir com menos juro se a política fiscal contrair a demanda, e choques de oferta e câmbio pesam tanto quanto o juro em anos como 2025."
+  },
+  {
+   "id": "K2",
+   "alegacao": "O juro alto no Brasil é culpa só do fiscal.",
+   "quem": "circulou no debate público; leitura de parte do mercado e da oposição",
+   "quando": "2024-12",
+   "fonte_alegacao": "https://www.nber.org/papers/w10389",
+   "o_que_aconteceu": "O déficit primário do setor público foi de 0,40% do PIB em 2024 e 0,43% em 2025, perto do equilíbrio, e a Selic ficou em 15%. O juro real ex-post brasileiro superou o de México, Chile, Colômbia, Índia e África do Sul também em 2003-2008, anos de superávit primário acima de 3% do PIB.",
+   "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json",
+   "veredito": "ocorreu_parcialmente",
+   "veredito_leitura": "procede em parte",
+   "nota": "A literatura empírica atribui peso grande ao fiscal (Segura-Ubiergo, FMI 2012; Gonçalves, Holland e Spacov 2007), via prêmio de risco e expectativas. Mas também pesam poupança doméstica baixa, crédito direcionado, dívida indexada à Selic, inércia e expectativas desancoradas. 'Só' não se sustenta; 'principal fator isolado' tem apoio."
+  },
+  {
+   "id": "K3",
+   "alegacao": "QE no Brasil geraria hiperinflação.",
+   "quem": "circulou no debate público em 2020, durante a votação da PEC do 'Orçamento de Guerra'",
+   "quando": "2020-04",
+   "fonte_alegacao": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc106.htm",
+   "o_que_aconteceu": "A EC 106/2020 autorizou o BCB a comprar títulos no mercado secundário durante a calamidade. Em 2020, bancos centrais de Chile, Colômbia, África do Sul, Indonésia e outros compraram títulos sem descontrole inflacionário; o BIS registrou queda dos juros longos nos anúncios, sem efeito cambial adverso relevante. Casos de financiamento monetário em larga escala com moeda fraca acabaram mal: Argentina, 211,4% de inflação em 2023; Turquia, 85,5% em out/2022 depois de cortar juros com inflação alta.",
+   "fonte_fato": "https://www.bis.org/publ/bisbull20.htm",
+   "veredito": "ocorreu_parcialmente",
+   "veredito_leitura": "exagero, com risco real por trás",
+   "nota": "Hiperinflação é exagero para compras limitadas e temporárias. O risco que a ortodoxia aponta é outro: em moeda não reserva, compras percebidas como financiamento do Tesouro desvalorizam o câmbio e o repasse cambial vira inflação. O BIS (Boletim 20, 2020) fez a mesma ressalva sobre a percepção de dominância fiscal."
+  },
+  {
+   "id": "K4",
+   "alegacao": "A Selic não afeta a inflação.",
+   "quem": "versão extrema da leitura heterodoxa, recorrente em redes",
+   "quando": "2025-07",
+   "fonte_alegacao": "https://www.eco.unicamp.br/images/arquivos/artigos/3758/13Resenha.pdf",
+   "o_que_aconteceu": "Boxe do BCB (RPM mar/2026) com projeções locais e variável instrumental: aperto reduz concessões de crédito livre de longo prazo; as concessões reais a pessoas físicas nessas linhas caíram 15,7% entre a Selic de 2% (ago/20-fev/21) e a de 13,75% (ago/22-jul/23). O PIB desacelerou desde o fim de 2024 e o IPCA caiu de 5,53% para 4,26% em 2025.",
+   "fonte_fato": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202603/rpm202603b4p.pdf",
+   "veredito": "nao_ocorreu",
+   "veredito_leitura": "não procede",
+   "nota": "O que a evidência sustenta é potência reduzida, não nula: Bonomo e Martins (BCB, TD 419, 2016) mostram que firmas com acesso a crédito direcionado reagem menos ao juro. O próprio Lara Resende não afirma que a Selic é inócua; afirma que juro alto por tempo longo pode ter efeito fiscal adverso."
+  },
+  {
+   "id": "K5",
+   "alegacao": "O Brasil tem o maior juro real do mundo.",
+   "quem": "manchete recorrente (CNN Brasil, Poder360, Bloomberg Línea)",
+   "quando": "2026-09-16",
+   "fonte_alegacao": "https://static.poder360.com.br/uploads/2026/09/rankingdejurosreais160926.pdf",
+   "o_que_aconteceu": "No ranking MoneYou/Lev de 16/09/2026, o Brasil ficou em 1º entre 40 países, com juro real ex-ante de 8,45%, à frente de Rússia (6,79%), Colômbia (6,33%) e Turquia (6,25%); a média dos 40 foi 1,62%. Em jan/2026 o Brasil era 2º, atrás da Rússia, e em mar/2026 outro levantamento pôs a Turquia em 1º.",
+   "fonte_fato": "https://static.poder360.com.br/uploads/2026/09/rankingdejurosreais160926.pdf",
+   "veredito": "ocorreu",
+   "veredito_leitura": "procede (com troca de posição ao longo de 2026)",
+   "nota": "Pelo cálculo da Frente K com a Selic de 13,75% e a mediana Focus de 4,53% (23/10/2026), o ex-ante fica em 8,7%. O ranking muda com a inflação projetada de cada país, e o choque pós-eleição (DI jan/29 a 15,25% em 26/10/2026, Frente B) deve ter elevado o juro de mercado."
+  },
+  {
+   "id": "K6",
+   "alegacao": "O país gasta mais com juros do que com saúde, educação e Bolsa Família somados.",
+   "quem": "circulou no debate público; Auditoria Cidadã da Dívida, Inesc e partidos de esquerda",
+   "quando": "2025-12",
+   "fonte_alegacao": "https://inesc.org.br/brasil-gastou-cinco-vezes-mais-com-juros-da-divida-do-que-com-investimentos-publicos-em-2025/",
+   "o_que_aconteceu": "Os juros nominais apropriados do setor público consolidado somaram R$ 1.007,6 bi (7,91% do PIB) em 2025. As dotações da LOA 2025 foram R$ 245,1 bi para saúde, R$ 226,4 bi para educação e R$ 158,6 bi para o Bolsa Família, total de R$ 630,1 bi. Em 12 meses até ago/2026, os juros chegaram a R$ 1.182 bi (8,86% do PIB).",
+   "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json",
+   "veredito": "ocorreu_parcialmente",
+   "veredito_leitura": "procede na conta, com ressalva de conceito",
+   "nota": "Os juros do BCB são por competência, incluem estados, municípios e estatais e o resultado das operações de swap cambial; a conta de juros pagos pela União no orçamento em 2025 foi R$ 371,7 bi (Inesc). Juro nominal inclui a reposição da inflação sobre o estoque; o componente real é menor. Somar 'juros e amortizações' (rolagem) para chegar a 40% do orçamento é erro de conceito."
+  },
+  {
+   "id": "K7",
+   "alegacao": "Com metade da dívida em LFT, subir a Selic aumenta a renda dos credores e enfraquece o próprio aperto (efeito riqueza invertido).",
+   "quem": "André Lara Resende e economistas heterodoxos; Arida (2005) em versão próxima",
+   "quando": "2017-01-13",
+   "fonte_alegacao": "https://www.eco.unicamp.br/images/arquivos/artigos/3758/13Resenha.pdf",
+   "o_que_aconteceu": "As LFT chegaram a 52,74% da DPF em ago/2026, recorde da série iniciada em 2000, e o Tesouro revisou a faixa do PAF 2026 de 46-50% para 49-53%. O BCB estimou que 1 p.p. de Selic por 12 meses eleva a dívida líquida em R$ 61,7 bi (0,49% do PIB) em dez/2025; coluna do JB cita R$ 68,9 bi com dados de jul/2026.",
+   "fonte_fato": "https://static.poder360.com.br/uploads/2026/09/Texto_RMD_Ago_26.pdf",
+   "veredito": "em_aberto",
+   "veredito_leitura": "mecanismo real, magnitude não medida",
+   "nota": "A transferência de renda existe e cresceu. Não há estimativa publicada do BCB sobre quanto ela devolve de consumo; os detentores são sobretudo bancos, fundos e previdência, cuja propensão a consumir é baixa, o que limita o efeito. A LFT também evita o efeito riqueza negativo que títulos prefixados sofreriam na alta de juros, de modo que a potência perdida vem por esse lado."
+  },
+  {
+   "id": "K8",
+   "alegacao": "O crédito direcionado reduz a potência da política monetária.",
+   "quem": "BCB e economistas ortodoxos (Arida 2005; RI mar/2020); aceito também por parte dos heterodoxos",
+   "quando": "2020-03",
+   "fonte_alegacao": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202003/ri202003p.pdf",
+   "o_que_aconteceu": "Bonomo e Martins (BCB, TD 419, 2016), com 300 mil firmas: canal de crédito menos eficaz e efeito menor sobre emprego nas firmas com crédito direcionado. O BCB (RI mar/2020) disse que a TLP (Lei 13.483/2017) e a queda do direcionado de 49,2% para 42,1% do crédito (2015-2019) aumentaram a potência. O direcionado voltou a 43,9% em ago/2026.",
+   "fonte_fato": "https://www.bcb.gov.br/pec/wps/ingl/wps419.pdf",
+   "veredito": "ocorreu",
+   "veredito_leitura": "procede",
+   "nota": "Castro (BCB, TD 505, 2019) mostra que mais direcionado pode até elevar a potência sobre a inflação, reduzindo a potência sobre o PIB: o ajuste se concentra em quem toma crédito livre. Isso sustenta a tese heterodoxa do canal falho e a ortodoxa de que o juro precisa ser mais alto onde o canal é parcial."
+  },
+  {
+   "id": "K9",
+   "alegacao": "O QE nos EUA e no Japão provou que emitir moeda não gera inflação, e a premissa ortodoxa caiu.",
+   "quem": "economistas heterodoxos e MMT (Kelton 2020; Lara Resende 2020)",
+   "quando": "2020-06",
+   "fonte_alegacao": "https://www.eco.unicamp.br/images/arquivos/artigos/3758/13Resenha.pdf",
+   "o_que_aconteceu": "O balanço do Fed passou de cerca de US$ 0,9 tri (2008) para US$ 4,5 tri (2015) com inflação abaixo de 2% na maior parte da década; o BoJ comprou cerca de metade dos títulos japoneses e não atingiu 2% de forma estável até 2022. No segundo QE (2020-22), com o balanço do Fed em US$ 8,97 tri e estímulo fiscal grande, o CPI dos EUA chegou a 9,1% (jun/2022).",
+   "fonte_fato": "https://fred.stlouisfed.org/series/WALCL",
+   "veredito": "ocorreu_parcialmente",
+   "veredito_leitura": "procede para o monetarismo ingênuo, não para o regime de metas",
+   "nota": "O QE de 2008-2019 desmentiu a versão quantitativista (base monetária gera inflação). A teoria novo-keynesiana já previa pouco efeito no limite zero, quando reservas e títulos são quase substitutos. O episódio de 2021-22 mostra que, com demanda acima da oferta, a inflação veio e exigiu alta de juros, coerente com uma Curva de Phillips não linear (Benigno e Eggertsson 2023)."
+  },
+  {
+   "id": "K10",
+   "alegacao": "O juro alto brasileiro vem da incerteza jurisdicional e da inconversibilidade da moeda (hipótese Arida-Bacha-Lara Resende).",
+   "quem": "Persio Arida, Edmar Bacha e André Lara Resende",
+   "quando": "2005",
+   "fonte_alegacao": "https://mitpress.mit.edu/9780262072601/inflation-targeting-debt-and-the-brazilian-experience-1999-to-2003/",
+   "o_que_aconteceu": "Gonçalves, Holland e Spacov (Revista Brasileira de Economia, 2007), com dados em painel, encontraram resultados 'em geral desfavoráveis' à conjectura e às suas variantes; fatores monetários e fiscais tradicionais explicaram mais o nível do juro real de curto prazo.",
+   "fonte_fato": "https://ideas.repec.org/a/fgv/epgrbe/v61y2007i1a1015.html",
+   "veredito": "em_aberto",
+   "veredito_leitura": "hipótese testada com resultado fraco",
+   "nota": "A hipótese ABL é de origem liberal, não heterodoxa, e é das poucas que explicam por que o juro ficou alto mesmo com superávits de 2003-2008. Testes dependem de proxies frágeis de 'incerteza jurisdicional'."
+  },
+  {
+   "id": "K11",
+   "alegacao": "A desinflação de 2025 prova que a Selic a 15% funcionou.",
+   "quem": "BCB (comunicação do Copom) e parte do mercado",
+   "quando": "2025-12",
+   "fonte_alegacao": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
+   "o_que_aconteceu": "O IPCA caiu de 5,53% (abr/2025) para 4,26% (dez/2025), dentro do intervalo de tolerância. Em set/2026, com a Selic real ex-ante perto de 9%, o BCB ainda estimava hiato positivo (0,5% no 2º tri e 0,4% no 3º tri de 2026), expectativas desancoradas para 2027-2028 e inflação de 5,2% no fim de 2026, acima do teto.",
+   "fonte_fato": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf",
+   "veredito": "ocorreu_parcialmente",
+   "veredito_leitura": "funcionou com lentidão e ajuda do câmbio",
+   "nota": "A queda veio com câmbio apreciado (inflação importada) e alimentos em 2,95%, além da desaceleração da demanda. Um juro real ex-ante de 9% a 10%, o dobro do neutro de 5,0% do BCB, não fechou o hiato em 18 meses, o que é argumento heterodoxo sobre potência; a ortodoxia responde com expansão fiscal e parafiscal no período e expectativas desancoradas."
+  }
+ ],
+ "series": [
+  {
+   "nome": "Brasil: juro real ex-post (Selic acumulada em 12 meses deflacionada pelo IPCA de 12 meses; ano = dezembro, 2026 = set)",
+   "unidade": "% a.a.",
+   "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json ; https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json (cálculo da Frente K: (1+Selic12m)/(1+IPCA12m)-1)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 10.83
+    },
+    {
+     "t": "2001",
+     "v": 8.96
+    },
+    {
+     "t": "2002",
+     "v": 5.89
+    },
+    {
+     "t": "2003",
+     "v": 12.84
+    },
+    {
+     "t": "2004",
+     "v": 8.02
+    },
+    {
+     "t": "2005",
+     "v": 12.64
+    },
+    {
+     "t": "2006",
+     "v": 11.58
+    },
+    {
+     "t": "2007",
+     "v": 7.08
+    },
+    {
+     "t": "2008",
+     "v": 6.21
+    },
+    {
+     "t": "2009",
+     "v": 5.38
+    },
+    {
+     "t": "2010",
+     "v": 3.66
+    },
+    {
+     "t": "2011",
+     "v": 4.8
+    },
+    {
+     "t": "2012",
+     "v": 2.5
+    },
+    {
+     "t": "2013",
+     "v": 2.17
+    },
+    {
+     "t": "2014",
+     "v": 4.23
+    },
+    {
+     "t": "2015",
+     "v": 2.36
+    },
+    {
+     "t": "2016",
+     "v": 7.28
+    },
+    {
+     "t": "2017",
+     "v": 6.81
+    },
+    {
+     "t": "2018",
+     "v": 2.58
+    },
+    {
+     "t": "2019",
+     "v": 1.57
+    },
+    {
+     "t": "2020",
+     "v": -1.69
+    },
+    {
+     "t": "2021",
+     "v": -5.11
+    },
+    {
+     "t": "2022",
+     "v": 6.23
+    },
+    {
+     "t": "2023",
+     "v": 8.04
+    },
+    {
+     "t": "2024",
+     "v": 5.78
+    },
+    {
+     "t": "2025",
+     "v": 9.66
+    },
+    {
+     "t": "2026-09",
+     "v": 9.46
+    }
+   ]
+  },
+  {
+   "nome": "Brasil: juro real ex-ante aproximado (Selic over do mês anualizada, SGS 4189, deflacionada pela mediana Focus do IPCA 12 meses à frente, suavizada; último dia do mês)",
+   "unidade": "% a.a.",
+   "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json ; https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoInflacao12Meses?$filter=Indicador%20eq%20'IPCA'%20and%20Suavizada%20eq%20'S'%20and%20baseCalculo%20eq%200&$format=json",
+   "pontos": [
+    {
+     "t": "2001",
+     "v": 13.71
+    },
+    {
+     "t": "2002",
+     "v": 9.59
+    },
+    {
+     "t": "2003",
+     "v": 10.34
+    },
+    {
+     "t": "2004",
+     "v": 11.03
+    },
+    {
+     "t": "2005",
+     "v": 13.13
+    },
+    {
+     "t": "2006",
+     "v": 8.77
+    },
+    {
+     "t": "2007",
+     "v": 6.62
+    },
+    {
+     "t": "2008",
+     "v": 8.29
+    },
+    {
+     "t": "2009",
+     "v": 4.03
+    },
+    {
+     "t": "2010",
+     "v": 5.04
+    },
+    {
+     "t": "2011",
+     "v": 5.29
+    },
+    {
+     "t": "2012",
+     "v": 1.55
+    },
+    {
+     "t": "2013",
+     "v": 3.67
+    },
+    {
+     "t": "2014",
+     "v": 4.66
+    },
+    {
+     "t": "2015",
+     "v": 6.74
+    },
+    {
+     "t": "2016",
+     "v": 8.44
+    },
+    {
+     "t": "2017",
+     "v": 2.98
+    },
+    {
+     "t": "2018",
+     "v": 2.41
+    },
+    {
+     "t": "2019",
+     "v": 0.83
+    },
+    {
+     "t": "2020",
+     "v": -1.6
+    },
+    {
+     "t": "2021",
+     "v": 3.51
+    },
+    {
+     "t": "2022",
+     "v": 7.93
+    },
+    {
+     "t": "2023",
+     "v": 7.7
+    },
+    {
+     "t": "2024",
+     "v": 6.5
+    },
+    {
+     "t": "2025",
+     "v": 10.46
+    },
+    {
+     "t": "2026-09",
+     "v": 8.78
+    },
+    {
+     "t": "2026-10-23",
+     "v": 8.72
+    }
+   ]
+  },
+  {
+   "nome": "Brasil: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 9.7
+    },
+    {
+     "t": "2001",
+     "v": 10.1
+    },
+    {
+     "t": "2002",
+     "v": 10.19
+    },
+    {
+     "t": "2003",
+     "v": 7.23
+    },
+    {
+     "t": "2004",
+     "v": 9.23
+    },
+    {
+     "t": "2005",
+     "v": 11.47
+    },
+    {
+     "t": "2006",
+     "v": 10.47
+    },
+    {
+     "t": "2007",
+     "v": 8.05
+    },
+    {
+     "t": "2008",
+     "v": 6.5
+    },
+    {
+     "t": "2009",
+     "v": 4.78
+    },
+    {
+     "t": "2010",
+     "v": 4.73
+    },
+    {
+     "t": "2011",
+     "v": 4.84
+    },
+    {
+     "t": "2012",
+     "v": 2.9
+    },
+    {
+     "t": "2013",
+     "v": 2.1
+    },
+    {
+     "t": "2014",
+     "v": 4.42
+    },
+    {
+     "t": "2015",
+     "v": 4.19
+    },
+    {
+     "t": "2016",
+     "v": 4.96
+    },
+    {
+     "t": "2017",
+     "v": 6.24
+    },
+    {
+     "t": "2018",
+     "v": 2.8
+    },
+    {
+     "t": "2019",
+     "v": 2.14
+    },
+    {
+     "t": "2020",
+     "v": -0.39
+    },
+    {
+     "t": "2021",
+     "v": -3.21
+    },
+    {
+     "t": "2022",
+     "v": 3.0
+    },
+    {
+     "t": "2023",
+     "v": 8.27
+    },
+    {
+     "t": "2024",
+     "v": 6.32
+    },
+    {
+     "t": "2025",
+     "v": 9.09
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 9.67
+    }
+   ]
+  },
+  {
+   "nome": "México: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 6.4
+    },
+    {
+     "t": "2001",
+     "v": 4.93
+    },
+    {
+     "t": "2002",
+     "v": 2.1
+    },
+    {
+     "t": "2003",
+     "v": 1.4
+    },
+    {
+     "t": "2004",
+     "v": 2.18
+    },
+    {
+     "t": "2005",
+     "v": 5.07
+    },
+    {
+     "t": "2006",
+     "v": 3.4
+    },
+    {
+     "t": "2007",
+     "v": 3.19
+    },
+    {
+     "t": "2008",
+     "v": 2.62
+    },
+    {
+     "t": "2009",
+     "v": 0.1
+    },
+    {
+     "t": "2010",
+     "v": 0.33
+    },
+    {
+     "t": "2011",
+     "v": 1.06
+    },
+    {
+     "t": "2012",
+     "v": 0.37
+    },
+    {
+     "t": "2013",
+     "v": 0.12
+    },
+    {
+     "t": "2014",
+     "v": -0.78
+    },
+    {
+     "t": "2015",
+     "v": 0.29
+    },
+    {
+     "t": "2016",
+     "v": 1.43
+    },
+    {
+     "t": "2017",
+     "v": 0.67
+    },
+    {
+     "t": "2018",
+     "v": 2.66
+    },
+    {
+     "t": "2019",
+     "v": 4.2
+    },
+    {
+     "t": "2020",
+     "v": 1.85
+    },
+    {
+     "t": "2021",
+     "v": -1.2
+    },
+    {
+     "t": "2022",
+     "v": -0.01
+    },
+    {
+     "t": "2023",
+     "v": 5.32
+    },
+    {
+     "t": "2024",
+     "v": 5.79
+    },
+    {
+     "t": "2025",
+     "v": 4.28
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 2.75
+    }
+   ]
+  },
+  {
+   "nome": "Chile: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 1.36
+    },
+    {
+     "t": "2001",
+     "v": 1.4
+    },
+    {
+     "t": "2002",
+     "v": 1.41
+    },
+    {
+     "t": "2003",
+     "v": -0.11
+    },
+    {
+     "t": "2004",
+     "v": 0.81
+    },
+    {
+     "t": "2005",
+     "v": 0.44
+    },
+    {
+     "t": "2006",
+     "v": 1.59
+    },
+    {
+     "t": "2007",
+     "v": 0.9
+    },
+    {
+     "t": "2008",
+     "v": -1.42
+    },
+    {
+     "t": "2009",
+     "v": 0.18
+    },
+    {
+     "t": "2010",
+     "v": 0.02
+    },
+    {
+     "t": "2011",
+     "v": 1.37
+    },
+    {
+     "t": "2012",
+     "v": 1.93
+    },
+    {
+     "t": "2013",
+     "v": 3.04
+    },
+    {
+     "t": "2014",
+     "v": -0.98
+    },
+    {
+     "t": "2015",
+     "v": -1.22
+    },
+    {
+     "t": "2016",
+     "v": -0.28
+    },
+    {
+     "t": "2017",
+     "v": 0.49
+    },
+    {
+     "t": "2018",
+     "v": 0.12
+    },
+    {
+     "t": "2019",
+     "v": -0.07
+    },
+    {
+     "t": "2020",
+     "v": -2.23
+    },
+    {
+     "t": "2021",
+     "v": -3.08
+    },
+    {
+     "t": "2022",
+     "v": -2.47
+    },
+    {
+     "t": "2023",
+     "v": 2.44
+    },
+    {
+     "t": "2024",
+     "v": 1.78
+    },
+    {
+     "t": "2025",
+     "v": 0.61
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 0.98
+    }
+   ]
+  },
+  {
+   "nome": "Colômbia: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 2.54
+    },
+    {
+     "t": "2001",
+     "v": 2.42
+    },
+    {
+     "t": "2002",
+     "v": -0.33
+    },
+    {
+     "t": "2003",
+     "v": -0.13
+    },
+    {
+     "t": "2004",
+     "v": 0.84
+    },
+    {
+     "t": "2005",
+     "v": 1.22
+    },
+    {
+     "t": "2006",
+     "v": 2.17
+    },
+    {
+     "t": "2007",
+     "v": 3.12
+    },
+    {
+     "t": "2008",
+     "v": 2.64
+    },
+    {
+     "t": "2009",
+     "v": 1.29
+    },
+    {
+     "t": "2010",
+     "v": 0.88
+    },
+    {
+     "t": "2011",
+     "v": 0.62
+    },
+    {
+     "t": "2012",
+     "v": 1.71
+    },
+    {
+     "t": "2013",
+     "v": 1.31
+    },
+    {
+     "t": "2014",
+     "v": 0.99
+    },
+    {
+     "t": "2015",
+     "v": -0.24
+    },
+    {
+     "t": "2016",
+     "v": -0.35
+    },
+    {
+     "t": "2017",
+     "v": 1.61
+    },
+    {
+     "t": "2018",
+     "v": 1.04
+    },
+    {
+     "t": "2019",
+     "v": 0.71
+    },
+    {
+     "t": "2020",
+     "v": 0.27
+    },
+    {
+     "t": "2021",
+     "v": -1.51
+    },
+    {
+     "t": "2022",
+     "v": -2.44
+    },
+    {
+     "t": "2023",
+     "v": 1.19
+    },
+    {
+     "t": "2024",
+     "v": 4.41
+    },
+    {
+     "t": "2025",
+     "v": 3.99
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 5.0
+    }
+   ]
+  },
+  {
+   "nome": "Índia: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 1.44
+    },
+    {
+     "t": "2001",
+     "v": 2.93
+    },
+    {
+     "t": "2002",
+     "v": 5.4
+    },
+    {
+     "t": "2003",
+     "v": 1.67
+    },
+    {
+     "t": "2004",
+     "v": 0.35
+    },
+    {
+     "t": "2005",
+     "v": 1.51
+    },
+    {
+     "t": "2006",
+     "v": 0.92
+    },
+    {
+     "t": "2007",
+     "v": 2.54
+    },
+    {
+     "t": "2008",
+     "v": -0.59
+    },
+    {
+     "t": "2009",
+     "v": 2.68
+    },
+    {
+     "t": "2010",
+     "v": -3.7
+    },
+    {
+     "t": "2011",
+     "v": -2.03
+    },
+    {
+     "t": "2012",
+     "v": 0.54
+    },
+    {
+     "t": "2013",
+     "v": 1.18
+    },
+    {
+     "t": "2014",
+     "v": 1.23
+    },
+    {
+     "t": "2015",
+     "v": 2.25
+    },
+    {
+     "t": "2016",
+     "v": 1.44
+    },
+    {
+     "t": "2017",
+     "v": 2.73
+    },
+    {
+     "t": "2018",
+     "v": 2.22
+    },
+    {
+     "t": "2019",
+     "v": 1.92
+    },
+    {
+     "t": "2020",
+     "v": -2.22
+    },
+    {
+     "t": "2021",
+     "v": -1.09
+    },
+    {
+     "t": "2022",
+     "v": -1.61
+    },
+    {
+     "t": "2023",
+     "v": 0.78
+    },
+    {
+     "t": "2024",
+     "v": 1.45
+    },
+    {
+     "t": "2025",
+     "v": 3.48
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 1.54
+    }
+   ]
+  },
+  {
+   "nome": "África do Sul: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 6.15
+    },
+    {
+     "t": "2001",
+     "v": 4.91
+    },
+    {
+     "t": "2002",
+     "v": 2.85
+    },
+    {
+     "t": "2003",
+     "v": 5.17
+    },
+    {
+     "t": "2004",
+     "v": 6.31
+    },
+    {
+     "t": "2005",
+     "v": 3.61
+    },
+    {
+     "t": "2006",
+     "v": 2.9
+    },
+    {
+     "t": "2007",
+     "v": 2.41
+    },
+    {
+     "t": "2008",
+     "v": 0.6
+    },
+    {
+     "t": "2009",
+     "v": 0.92
+    },
+    {
+     "t": "2010",
+     "v": 2.0
+    },
+    {
+     "t": "2011",
+     "v": 0.5
+    },
+    {
+     "t": "2012",
+     "v": -0.38
+    },
+    {
+     "t": "2013",
+     "v": -0.71
+    },
+    {
+     "t": "2014",
+     "v": -0.46
+    },
+    {
+     "t": "2015",
+     "v": 1.27
+    },
+    {
+     "t": "2016",
+     "v": 0.6
+    },
+    {
+     "t": "2017",
+     "v": 1.49
+    },
+    {
+     "t": "2018",
+     "v": 1.9
+    },
+    {
+     "t": "2019",
+     "v": 2.41
+    },
+    {
+     "t": "2020",
+     "v": 0.88
+    },
+    {
+     "t": "2021",
+     "v": -0.96
+    },
+    {
+     "t": "2022",
+     "v": -1.46
+    },
+    {
+     "t": "2023",
+     "v": 1.96
+    },
+    {
+     "t": "2024",
+     "v": 3.53
+    },
+    {
+     "t": "2025",
+     "v": 3.84
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 2.89
+    }
+   ]
+  },
+  {
+   "nome": "Turquia: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2002",
+     "v": 0.61
+    },
+    {
+     "t": "2003",
+     "v": 7.74
+    },
+    {
+     "t": "2004",
+     "v": 12.03
+    },
+    {
+     "t": "2005",
+     "v": 6.04
+    },
+    {
+     "t": "2006",
+     "v": 5.64
+    },
+    {
+     "t": "2007",
+     "v": 7.71
+    },
+    {
+     "t": "2008",
+     "v": 5.0
+    },
+    {
+     "t": "2009",
+     "v": 2.38
+    },
+    {
+     "t": "2010",
+     "v": -1.65
+    },
+    {
+     "t": "2011",
+     "v": -0.39
+    },
+    {
+     "t": "2012",
+     "v": -2.94
+    },
+    {
+     "t": "2013",
+     "v": -2.51
+    },
+    {
+     "t": "2014",
+     "v": 0.12
+    },
+    {
+     "t": "2015",
+     "v": -0.14
+    },
+    {
+     "t": "2016",
+     "v": -0.19
+    },
+    {
+     "t": "2017",
+     "v": -2.82
+    },
+    {
+     "t": "2018",
+     "v": -0.39
+    },
+    {
+     "t": "2019",
+     "v": 3.93
+    },
+    {
+     "t": "2020",
+     "v": -1.57
+    },
+    {
+     "t": "2021",
+     "v": -1.54
+    },
+    {
+     "t": "2022",
+     "v": -34.51
+    },
+    {
+     "t": "2023",
+     "v": -21.36
+    },
+    {
+     "t": "2024",
+     "v": -6.92
+    },
+    {
+     "t": "2025",
+     "v": 5.66
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 4.04
+    }
+   ]
+  },
+  {
+   "nome": "EUA: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 2.8
+    },
+    {
+     "t": "2001",
+     "v": 0.87
+    },
+    {
+     "t": "2002",
+     "v": 0.08
+    },
+    {
+     "t": "2003",
+     "v": -1.14
+    },
+    {
+     "t": "2004",
+     "v": -1.25
+    },
+    {
+     "t": "2005",
+     "v": -0.14
+    },
+    {
+     "t": "2006",
+     "v": 1.73
+    },
+    {
+     "t": "2007",
+     "v": 2.09
+    },
+    {
+     "t": "2008",
+     "v": -1.91
+    },
+    {
+     "t": "2009",
+     "v": 0.46
+    },
+    {
+     "t": "2010",
+     "v": -1.49
+    },
+    {
+     "t": "2011",
+     "v": -2.94
+    },
+    {
+     "t": "2012",
+     "v": -1.91
+    },
+    {
+     "t": "2013",
+     "v": -1.32
+    },
+    {
+     "t": "2014",
+     "v": -1.47
+    },
+    {
+     "t": "2015",
+     "v": 0.03
+    },
+    {
+     "t": "2016",
+     "v": -0.86
+    },
+    {
+     "t": "2017",
+     "v": -1.11
+    },
+    {
+     "t": "2018",
+     "v": -0.59
+    },
+    {
+     "t": "2019",
+     "v": 0.31
+    },
+    {
+     "t": "2020",
+     "v": -0.85
+    },
+    {
+     "t": "2021",
+     "v": -4.36
+    },
+    {
+     "t": "2022",
+     "v": -5.66
+    },
+    {
+     "t": "2023",
+     "v": 0.93
+    },
+    {
+     "t": "2024",
+     "v": 2.13
+    },
+    {
+     "t": "2025",
+     "v": 1.48
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 0.34
+    }
+   ]
+  },
+  {
+   "nome": "Área do euro: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 1.92
+    },
+    {
+     "t": "2001",
+     "v": 1.84
+    },
+    {
+     "t": "2002",
+     "v": 0.94
+    },
+    {
+     "t": "2003",
+     "v": 0.17
+    },
+    {
+     "t": "2004",
+     "v": -0.14
+    },
+    {
+     "t": "2005",
+     "v": -0.15
+    },
+    {
+     "t": "2006",
+     "v": 0.59
+    },
+    {
+     "t": "2007",
+     "v": 1.69
+    },
+    {
+     "t": "2008",
+     "v": 0.56
+    },
+    {
+     "t": "2009",
+     "v": 0.93
+    },
+    {
+     "t": "2010",
+     "v": -0.61
+    },
+    {
+     "t": "2011",
+     "v": -1.42
+    },
+    {
+     "t": "2012",
+     "v": -1.58
+    },
+    {
+     "t": "2013",
+     "v": -0.8
+    },
+    {
+     "t": "2014",
+     "v": -0.27
+    },
+    {
+     "t": "2015",
+     "v": -0.14
+    },
+    {
+     "t": "2016",
+     "v": -0.23
+    },
+    {
+     "t": "2017",
+     "v": -1.52
+    },
+    {
+     "t": "2018",
+     "v": -1.72
+    },
+    {
+     "t": "2019",
+     "v": -1.18
+    },
+    {
+     "t": "2020",
+     "v": -0.26
+    },
+    {
+     "t": "2021",
+     "v": -2.52
+    },
+    {
+     "t": "2022",
+     "v": -7.1
+    },
+    {
+     "t": "2023",
+     "v": -1.52
+    },
+    {
+     "t": "2024",
+     "v": 1.61
+    },
+    {
+     "t": "2025",
+     "v": 0.1
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": -0.51
+    }
+   ]
+  },
+  {
+   "nome": "Japão: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 0.93
+    },
+    {
+     "t": "2001",
+     "v": 0.91
+    },
+    {
+     "t": "2006",
+     "v": -0.07
+    },
+    {
+     "t": "2007",
+     "v": 0.43
+    },
+    {
+     "t": "2008",
+     "v": -0.94
+    },
+    {
+     "t": "2009",
+     "v": 1.46
+    },
+    {
+     "t": "2010",
+     "v": 0.8
+    },
+    {
+     "t": "2011",
+     "v": 0.34
+    },
+    {
+     "t": "2012",
+     "v": 0.1
+    },
+    {
+     "t": "2013",
+     "v": -0.29
+    },
+    {
+     "t": "2016",
+     "v": 0.01
+    },
+    {
+     "t": "2017",
+     "v": -0.57
+    },
+    {
+     "t": "2018",
+     "v": -1.06
+    },
+    {
+     "t": "2019",
+     "v": -0.59
+    },
+    {
+     "t": "2020",
+     "v": -0.08
+    },
+    {
+     "t": "2021",
+     "v": 0.14
+    },
+    {
+     "t": "2022",
+     "v": -2.54
+    },
+    {
+     "t": "2023",
+     "v": -3.25
+    },
+    {
+     "t": "2024",
+     "v": -2.57
+    },
+    {
+     "t": "2025",
+     "v": -2.59
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": -0.62
+    }
+   ]
+  },
+  {
+   "nome": "Reino Unido: juro real ex-post da taxa básica (média anual da taxa de política deflacionada pela inflação média anual em 12 meses), painel BIS",
+   "unidade": "% a.a.",
+   "fonte": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv ; https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv (cálculo da Frente K)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 5.14
+    },
+    {
+     "t": "2001",
+     "v": 3.8
+    },
+    {
+     "t": "2002",
+     "v": 2.73
+    },
+    {
+     "t": "2003",
+     "v": 2.28
+    },
+    {
+     "t": "2004",
+     "v": 3.01
+    },
+    {
+     "t": "2005",
+     "v": 2.56
+    },
+    {
+     "t": "2006",
+     "v": 2.25
+    },
+    {
+     "t": "2007",
+     "v": 3.13
+    },
+    {
+     "t": "2008",
+     "v": 1.0
+    },
+    {
+     "t": "2009",
+     "v": -1.53
+    },
+    {
+     "t": "2010",
+     "v": -2.71
+    },
+    {
+     "t": "2011",
+     "v": -3.79
+    },
+    {
+     "t": "2012",
+     "v": -2.24
+    },
+    {
+     "t": "2013",
+     "v": -2.02
+    },
+    {
+     "t": "2014",
+     "v": -0.96
+    },
+    {
+     "t": "2015",
+     "v": 0.45
+    },
+    {
+     "t": "2016",
+     "v": -0.24
+    },
+    {
+     "t": "2017",
+     "v": -2.33
+    },
+    {
+     "t": "2018",
+     "v": -1.83
+    },
+    {
+     "t": "2019",
+     "v": -1.01
+    },
+    {
+     "t": "2020",
+     "v": -0.67
+    },
+    {
+     "t": "2021",
+     "v": -2.4
+    },
+    {
+     "t": "2022",
+     "v": -6.87
+    },
+    {
+     "t": "2023",
+     "v": -2.46
+    },
+    {
+     "t": "2024",
+     "v": 2.49
+    },
+    {
+     "t": "2025",
+     "v": 0.83
+    },
+    {
+     "t": "2026 (jan-ago)",
+     "v": 0.78
+    }
+   ]
+  },
+  {
+   "nome": "Ranking mundial de juro real ex-ante, 16/09/2026 (MoneYou/Lev; juro de mercado de 1 ano deflacionado pela inflação projetada para 12 meses; 40 países; recorte)",
+   "unidade": "% a.a.",
+   "fonte": "https://static.poder360.com.br/uploads/2026/09/rankingdejurosreais160926.pdf",
+   "pontos": [
+    {
+     "t": "1º Brasil",
+     "v": 8.45
+    },
+    {
+     "t": "2º Rússia",
+     "v": 6.79
+    },
+    {
+     "t": "3º Colômbia",
+     "v": 6.33
+    },
+    {
+     "t": "4º Turquia",
+     "v": 6.25
+    },
+    {
+     "t": "5º México",
+     "v": 3.08
+    },
+    {
+     "t": "6º África do Sul",
+     "v": 2.93
+    },
+    {
+     "t": "7º Argentina",
+     "v": 2.69
+    },
+    {
+     "t": "8º Hungria",
+     "v": 2.51
+    },
+    {
+     "t": "9º Indonésia",
+     "v": 2.14
+    },
+    {
+     "t": "10º Chile",
+     "v": 2.09
+    },
+    {
+     "t": "13º Índia",
+     "v": 1.63
+    },
+    {
+     "t": "24º Reino Unido",
+     "v": 0.8
+    },
+    {
+     "t": "25º Estados Unidos",
+     "v": 0.74
+    },
+    {
+     "t": "33º China",
+     "v": 0.52
+    },
+    {
+     "t": "37º Japão",
+     "v": -0.44
+    },
+    {
+     "t": "Média dos 40 países",
+     "v": 1.62
+    }
+   ]
+  },
+  {
+   "nome": "Crédito com recursos direcionados, % do saldo total de crédito do SFN (dezembro; SGS 20593 / SGS 20539)",
+   "unidade": "% do saldo",
+   "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.20593/dados?formato=json ; https://api.bcb.gov.br/dados/serie/bcdata.sgs.20539/dados?formato=json",
+   "pontos": [
+    {
+     "t": "2007",
+     "v": 33.5
+    },
+    {
+     "t": "2008",
+     "v": 32.5
+    },
+    {
+     "t": "2009",
+     "v": 36.4
+    },
+    {
+     "t": "2010",
+     "v": 38.4
+    },
+    {
+     "t": "2011",
+     "v": 39.4
+    },
+    {
+     "t": "2012",
+     "v": 41.0
+    },
+    {
+     "t": "2013",
+     "v": 44.5
+    },
+    {
+     "t": "2014",
+     "v": 47.8
+    },
+    {
+     "t": "2015",
+     "v": 49.1
+    },
+    {
+     "t": "2016",
+     "v": 49.9
+    },
+    {
+     "t": "2017",
+     "v": 48.7
+    },
+    {
+     "t": "2018",
+     "v": 45.9
+    },
+    {
+     "t": "2019",
+     "v": 42.2
+    },
+    {
+     "t": "2020",
+     "v": 42.4
+    },
+    {
+     "t": "2021",
+     "v": 40.3
+    },
+    {
+     "t": "2022",
+     "v": 40.1
+    },
+    {
+     "t": "2023",
+     "v": 41.5
+    },
+    {
+     "t": "2024",
+     "v": 41.7
+    },
+    {
+     "t": "2025",
+     "v": 42.6
+    },
+    {
+     "t": "2026-08",
+     "v": 43.9
+    }
+   ]
+  },
+  {
+   "nome": "Spread médio das operações de crédito do SFN, total (dezembro; SGS 20783)",
+   "unidade": "p.p.",
+   "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.20783/dados?formato=json",
+   "pontos": [
+    {
+     "t": "2011",
+     "v": 17.19
+    },
+    {
+     "t": "2012",
+     "v": 13.95
+    },
+    {
+     "t": "2013",
+     "v": 13.28
+    },
+    {
+     "t": "2014",
+     "v": 14.64
+    },
+    {
+     "t": "2015",
+     "v": 18.21
+    },
+    {
+     "t": "2016",
+     "v": 22.33
+    },
+    {
+     "t": "2017",
+     "v": 18.76
+    },
+    {
+     "t": "2018",
+     "v": 16.72
+    },
+    {
+     "t": "2019",
+     "v": 17.88
+    },
+    {
+     "t": "2020",
+     "v": 14.26
+    },
+    {
+     "t": "2021",
+     "v": 15.65
+    },
+    {
+     "t": "2022",
+     "v": 18.81
+    },
+    {
+     "t": "2023",
+     "v": 19.47
+    },
+    {
+     "t": "2024",
+     "v": 17.62
+    },
+    {
+     "t": "2025",
+     "v": 20.87
+    },
+    {
+     "t": "2026-08",
+     "v": 21.16
+    }
+   ]
+  },
+  {
+   "nome": "Títulos remunerados por taxa flutuante (LFT, Selic) na Dívida Pública Federal, % do estoque (dezembro). PAF 2026: faixa original 46-50%, revisada para 49-53%",
+   "unidade": "% da DPF",
+   "fonte": "https://static.poder360.com.br/2026/04/Apresentacao-RMD-Marco.pdf (gráfico de composição 2011-mar/2026) ; https://static.poder360.com.br/uploads/2026/09/Texto_RMD_Ago_26.pdf (jul e ago/2026, maior da série iniciada em dez/2000)",
+   "pontos": [
+    {
+     "t": "2011",
+     "v": 30.1
+    },
+    {
+     "t": "2012",
+     "v": 21.7
+    },
+    {
+     "t": "2013",
+     "v": 19.1
+    },
+    {
+     "t": "2014",
+     "v": 18.7
+    },
+    {
+     "t": "2015",
+     "v": 22.8
+    },
+    {
+     "t": "2016",
+     "v": 28.2
+    },
+    {
+     "t": "2017",
+     "v": 31.5
+    },
+    {
+     "t": "2018",
+     "v": 35.5
+    },
+    {
+     "t": "2019",
+     "v": 38.9
+    },
+    {
+     "t": "2020",
+     "v": 34.8
+    },
+    {
+     "t": "2021",
+     "v": 36.8
+    },
+    {
+     "t": "2022",
+     "v": 38.3
+    },
+    {
+     "t": "2023",
+     "v": 39.7
+    },
+    {
+     "t": "2024",
+     "v": 46.3
+    },
+    {
+     "t": "2025",
+     "v": 48.3
+    },
+    {
+     "t": "2026-02",
+     "v": 49.1
+    },
+    {
+     "t": "2026-03",
+     "v": 47.7
+    },
+    {
+     "t": "2026-07",
+     "v": 51.11
+    },
+    {
+     "t": "2026-08",
+     "v": 52.74
+    }
+   ]
+  },
+  {
+   "nome": "Detentores da DPMFi, agosto/2026 (% do estoque)",
+   "unidade": "% da DPMFi",
+   "fonte": "https://static.poder360.com.br/uploads/2026/09/Texto_RMD_Ago_26.pdf (fundos = R$ 2.014,62 bi sobre DPMFi implícita de R$ 8.945 bi; 'governo e outros' por diferença)",
+   "pontos": [
+    {
+     "t": "Instituições financeiras",
+     "v": 31.22
+    },
+    {
+     "t": "Previdência",
+     "v": 22.63
+    },
+    {
+     "t": "Fundos de investimento",
+     "v": 22.52
+    },
+    {
+     "t": "Não residentes",
+     "v": 9.91
+    },
+    {
+     "t": "Seguradoras",
+     "v": 3.34
+    },
+    {
+     "t": "Tesouro Direto",
+     "v": 3.04
+    },
+    {
+     "t": "Governo e outros (diferença)",
+     "v": 7.34
+    }
+   ]
+  },
+  {
+   "nome": "Detentores da DPMFi, histórico (% do estoque, dezembro): IF / Fundos / Previdência / Não residentes / Demais",
+   "unidade": "% da DPMFi",
+   "fonte": "https://static.poder360.com.br/2026/04/Apresentacao-RMD-Marco.pdf",
+   "pontos": [
+    {
+     "t": "2020",
+     "v": "30,3 / 25,4 / 22,6 / 9,2 / 12,4"
+    },
+    {
+     "t": "2022",
+     "v": "29,5 / 23,8 / 22,8 / 9,4 / 14,6"
+    },
+    {
+     "t": "2024",
+     "v": "30,1 / 21,3 / 23,9 / 10,2 / 14,5"
+    },
+    {
+     "t": "2025",
+     "v": "32,9 / 20,8 / 22,8 / 10,3 / 13,2"
+    }
+   ]
+  },
+  {
+   "nome": "Juros nominais apropriados do setor público consolidado, % do PIB, 12 meses (NFSP nominal SGS 5727 menos NFSP primária SGS 5793; dezembro, 2026 = ago)",
+   "unidade": "% PIB",
+   "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json ; https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json",
+   "pontos": [
+    {
+     "t": "2010",
+     "v": 5.03
+    },
+    {
+     "t": "2011",
+     "v": 5.41
+    },
+    {
+     "t": "2012",
+     "v": 4.44
+    },
+    {
+     "t": "2013",
+     "v": 4.67
+    },
+    {
+     "t": "2014",
+     "v": 5.39
+    },
+    {
+     "t": "2015",
+     "v": 8.36
+    },
+    {
+     "t": "2016",
+     "v": 6.5
+    },
+    {
+     "t": "2017",
+     "v": 6.09
+    },
+    {
+     "t": "2018",
+     "v": 5.41
+    },
+    {
+     "t": "2019",
+     "v": 4.97
+    },
+    {
+     "t": "2020",
+     "v": 4.1
+    },
+    {
+     "t": "2021",
+     "v": 4.98
+    },
+    {
+     "t": "2022",
+     "v": 5.82
+    },
+    {
+     "t": "2023",
+     "v": 6.56
+    },
+    {
+     "t": "2024",
+     "v": 8.07
+    },
+    {
+     "t": "2025",
+     "v": 7.91
+    },
+    {
+     "t": "2026-08",
+     "v": 8.86
+    }
+   ]
+  },
+  {
+   "nome": "Juros nominais apropriados do setor público consolidado, R$ bilhões em 12 meses (% do PIB x PIB acumulado em 12 meses, SGS 4382; competência, inclui resultado de swaps cambiais do BCB)",
+   "unidade": "R$ bi",
+   "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json ; https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json ; https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados?formato=json",
+   "pontos": [
+    {
+     "t": "2010",
+     "v": 195.5
+    },
+    {
+     "t": "2011",
+     "v": 236.8
+    },
+    {
+     "t": "2012",
+     "v": 213.8
+    },
+    {
+     "t": "2013",
+     "v": 249.0
+    },
+    {
+     "t": "2014",
+     "v": 311.5
+    },
+    {
+     "t": "2015",
+     "v": 501.2
+    },
+    {
+     "t": "2016",
+     "v": 407.5
+    },
+    {
+     "t": "2017",
+     "v": 401.1
+    },
+    {
+     "t": "2018",
+     "v": 378.9
+    },
+    {
+     "t": "2019",
+     "v": 367.2
+    },
+    {
+     "t": "2020",
+     "v": 312.0
+    },
+    {
+     "t": "2021",
+     "v": 448.8
+    },
+    {
+     "t": "2022",
+     "v": 586.6
+    },
+    {
+     "t": "2023",
+     "v": 717.9
+    },
+    {
+     "t": "2024",
+     "v": 950.6
+    },
+    {
+     "t": "2025",
+     "v": 1007.6
+    },
+    {
+     "t": "2026-08",
+     "v": 1182.0
+    }
+   ]
+  },
+  {
+   "nome": "Comparação 2025: juros nominais apropriados (consolidado, BCB) x dotações federais da LOA 2025",
+   "unidade": "R$ bi",
+   "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json ; https://www12.senado.leg.br/noticias/materias/2025/04/14/orcamento-2025-quase-r-1-trihao-para-previdencia-e-r-245-bilhoes-para-saude ; https://www.poder360.com.br/poder-governo/gasto-do-governo-com-assistencia-social-triplicou-no-pos-pandemia/",
+   "pontos": [
+    {
+     "t": "Juros nominais 2025 (7,91% do PIB)",
+     "v": 1007.6
+    },
+    {
+     "t": "Saúde, LOA 2025 (dotação)",
+     "v": 245.1
+    },
+    {
+     "t": "Educação, LOA 2025 (dotação)",
+     "v": 226.4
+    },
+    {
+     "t": "Bolsa Família, LOA 2025 (dotação)",
+     "v": 158.6
+    },
+    {
+     "t": "Juros pagos pela União no orçamento 2025 (Inesc, caixa)",
+     "v": 371.7
+    }
+   ]
+  }
+ ],
+ "comparativo_bolsonaro": [
+  {
+   "indicador": "Juro real ex-post médio (Selic 12m / IPCA 12m, cálculo Frente K)",
+   "bolsonaro": "0,25% a.a. (média 2019-2022: 1,57; -1,69; -5,11; 6,23)",
+   "lula3": "8,24% a.a. (média 2023-set/2026: 8,04; 5,78; 9,66; 9,46)",
+   "leitura": "A Selic é decidida pelo Copom com autonomia formal desde a LC 179/2021; o período Bolsonaro inclui a Selic de 2% da pandemia e a inflação de 10% de 2021, e o Lula 3 inclui o ciclo de alta iniciado sob Campos Neto (set/2024) e levado a 15% sob Galípolo."
+  },
+  {
+   "indicador": "Juros nominais apropriados do setor público (% PIB, média anual)",
+   "bolsonaro": "4,97% (2019-2022)",
+   "lula3": "7,85% (2023 a ago/2026)",
+   "leitura": "Diferença puxada pelo nível da Selic e pela fatia crescente de LFT; ciclo global de juros e prêmio fiscal doméstico contribuíram."
+  },
+  {
+   "indicador": "Títulos indexados à Selic (taxa flutuante) na DPF",
+   "bolsonaro": "35,5% (dez/2018) para 38,3% (dez/2022)",
+   "lula3": "38,3% (dez/2022) para 52,74% (ago/2026), recorde",
+   "leitura": "Com Selic alta e curva inclinada, o Tesouro emite mais LFT para não pagar prêmio em prefixados; o PAF 2026 foi revisado para 49-53%."
+  },
+  {
+   "indicador": "Crédito direcionado (% do crédito total)",
+   "bolsonaro": "45,9% (dez/2018) para 40,1% (dez/2022)",
+   "lula3": "40,1% (dez/2022) para 43,9% (ago/2026)",
+   "leitura": "A queda vinha desde 2016 (TLP, encolhimento do BNDES); a reversão parcial reduz a potência da política monetária segundo a própria literatura do BCB."
+  }
+ ],
+ "contraponto": "A leitura heterodoxa acerta ao apontar canais falhos e o custo fiscal crescente, mas tem fragilidades: a afirmação de que a Selic age só pela expectativa não explica a queda do crédito livre de longo prazo nem a desinflação de 2025, e a tese neofisheriana de que juro alto causa inflação foi testada na Turquia e falhou. A ortodoxia, por sua vez, tem dificuldade de explicar por que o Brasil manteve juro real três pontos acima dos pares mesmo com superávits primários de 3% do PIB em 2003-2008, e por que um juro real de 9% a 10% por 18 meses não ancorou as expectativas em 2025-2026. Do lado do governo Lula 3, a fragilidade real é a expansão do crédito direcionado e parafiscal e o déficit primário persistente, que reduzem a potência da Selic e elevam o prêmio; do lado do BC, o custo fiscal da estratégia não entra formalmente na função de reação.",
+ "fontes": [
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.20539/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.20593/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.20783/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json",
+  "https://data.tuik.gov.tr",
+  "https://doi.org/10.1093/qje/qjac010",
+  "https://doi.org/10.1111/j.1467-923X.1943.tb01016.x",
+  "https://economicnewsbrasil.com.br/2025/12/30/divida-do-setor-publico-brasileiro-65-pib/",
+  "https://fred.stlouisfed.org/series/WALCL",
+  "https://ideas.repec.org/a/fgv/epgrbe/v61y2007i1a1015.html",
+  "https://ideas.repec.org/p/imf/imfwpa/2012-062.html",
+  "https://inesc.org.br/brasil-gastou-cinco-vezes-mais-com-juros-da-divida-do-que-com-investimentos-publicos-em-2025/",
+  "https://mitpress.mit.edu/9780262072601/inflation-targeting-debt-and-the-brazilian-experience-1999-to-2003/",
+  "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoInflacao12Meses?$filter=Indicador%20eq%20'IPCA'%20and%20Suavizada%20eq%20'S'%20and%20baseCalculo%20eq%200&$format=json",
+  "https://press.princeton.edu/books/hardcover/9780691242248/the-fiscal-theory-of-the-price-level",
+  "https://static.poder360.com.br/2026/04/Apresentacao-RMD-Marco.pdf",
+  "https://static.poder360.com.br/uploads/2026/09/Texto_RMD_Ago_26.pdf",
+  "https://static.poder360.com.br/uploads/2026/09/rankingdejurosreais160926.pdf",
+  "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv",
+  "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB.771?startPeriod=1999-01&format=csv",
+  "https://www.aeaweb.org/articles?id=10.1257/aer.20170110",
+  "https://www.aeaweb.org/articles?id=10.1257/aer.p20161003",
+  "https://www.aeaweb.org/articles?id=10.1257/mac.20200060",
+  "https://www.aeaweb.org/articles?id=10.1257/pandp.20201102",
+  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202003/ri202003p.pdf",
+  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
+  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202603/rpm202603b4p.pdf",
+  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf",
+  "https://www.bcb.gov.br/pec/wps/ingl/wps419.pdf",
+  "https://www.bcb.gov.br/pec/wps/ingl/wps505.pdf",
+  "https://www.bis.org/publ/bisbull20.htm",
+  "https://www.bls.gov/opub/ted/2022/consumer-prices-up-9-1-percent-over-the-year-ended-june-2022-largest-increase-in-40-years.htm",
+  "https://www.boj.or.jp/en/announcements/release_2013/k130404a.pdf",
+  "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2016/k160921a.pdf",
+  "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k240319a.pdf",
+  "https://www.cbo.gov/topics/budget/federal-debt-and-statutory-limit",
+  "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+  "https://www.eco.unicamp.br/images/arquivos/artigos/3758/13Resenha.pdf",
+  "https://www.imf.org/external/datamapper/GGXWDG_NGDP@WEO/JPN",
+  "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31",
+  "https://www.jb.com.br/colunistas/o-outro-lado-da-moeda/2026/08/1060756-cada-ponto-na-selic-custa-rs-689-bilhoes.html",
+  "https://www.nber.org/papers/w10389",
+  "https://www.nber.org/papers/w10390",
+  "https://www.nber.org/papers/w31197",
+  "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc106.htm",
+  "https://www.poder360.com.br/poder-governo/gasto-do-governo-com-assistencia-social-triplicou-no-pos-pandemia/",
+  "https://www.tesourotransparente.gov.br/publicacoes/relatorio-mensal-da-divida-rmd/2026/8",
+  "https://www12.senado.leg.br/noticias/materias/2025/04/14/orcamento-2025-quase-r-1-trihao-para-previdencia-e-r-245-bilhoes-para-saude"
+ ],
+ "referencias_bibliograficas": [
+  "Arida, P.; Bacha, E.; Lara-Resende, A. (2005). Credit, interest, and jurisdictional uncertainty: conjectures on the case of Brazil. In: Giavazzi, F.; Goldfajn, I.; Herrera, S. (orgs.), Inflation Targeting, Debt, and the Brazilian Experience, 1999 to 2003. MIT Press.",
+  "Benigno, P.; Eggertsson, G. (2023). It's baaack: the surge in inflation in the 2020s and the return of the non-linear Phillips curve. NBER WP 31197.",
+  "Blanchard, O. (2004). Fiscal dominance and inflation targeting: lessons from Brazil. NBER WP 10389.",
+  "Blanchard, O. (2016). The Phillips curve: back to the '60s? American Economic Review P&P 106(5).",
+  "Bonomo, M.; Martins, B. (2016). The impact of government-driven loans in the monetary transmission mechanism: what can we learn from firm-level data? BCB, Working Paper 419.",
+  "Bresser-Pereira, L. C.; Nakano, Y. (2002). Uma estratégia de desenvolvimento com estabilidade. Revista de Economia Política 22(3).",
+  "Bresser-Pereira, L. C.; Oreiro, J. L.; Marconi, N. (2015). Developmental Macroeconomics: New Developmentalism as a Growth Strategy. Routledge.",
+  "Castro, P. H. S. (2019). Earmarked credit and monetary policy power: micro and macro considerations. BCB, Working Paper 505.",
+  "Cochrane, J. (2023). The Fiscal Theory of the Price Level. Princeton University Press.",
+  "Favero, C.; Giavazzi, F. (2004). Inflation targeting and debt: lessons from Brazil. NBER WP 10390.",
+  "García-Schmidt, M.; Woodford, M. (2019). Are low interest rates deflationary? A paradox of perfect-foresight analysis. American Economic Review 109(1).",
+  "Gonçalves, F.; Holland, M.; Spacov, A. (2007). Can jurisdictional uncertainty and capital controls explain the high level of real interest rates in Brazil? Evidence from panel data. Revista Brasileira de Economia 61(1).",
+  "Hazell, J.; Herreño, J.; Nakamura, E.; Steinsson, J. (2022). The slope of the Phillips curve: evidence from U.S. states. Quarterly Journal of Economics 137(3).",
+  "Kalecki, M. (1943). Political aspects of full employment. Political Quarterly 14(4).",
+  "Kelton, S. (2020). The Deficit Myth. PublicAffairs.",
+  "Lara Resende, A. (2017). Juros e conservadorismo intelectual. Valor Econômico, 13/01/2017; reunido em Juros, moeda e ortodoxia. Portfolio-Penguin, 2017.",
+  "Lara Resende, A. (2020). Consenso e contrassenso: por uma economia não dogmática. Portfolio-Penguin.",
+  "Mankiw, N. G. (2020). A skeptic's guide to modern monetary theory. AEA Papers and Proceedings 110.",
+  "Segura-Ubiergo, A. (2012). The puzzle of Brazil's high interest rates. IMF Working Paper 12/62.",
+  "Sims, C. (1994). A simple model for study of the determination of the price level and the interaction of monetary and fiscal policy. Economic Theory 4(3).",
+  "Uribe, M. (2022). The neo-Fisher effect: econometric evidence from empirical and optimizing models. American Economic Journal: Macroeconomics 14(3).",
+  "Vergnhanini, R.; De Conti, B. (2017). Modern Monetary Theory: a criticism from the periphery. Brazilian Keynesian Review 3(2).",
+  "Wray, L. R. (2012). Modern Money Theory: A Primer on Macroeconomics for Sovereign Monetary Systems. Palgrave Macmillan.",
+  "Arslan, Y.; Drehmann, M.; Hofmann, B. (2020). Central bank bond purchases in emerging market economies. BIS Bulletin 20."
+ ],
+ "notas_metodologicas": [
+  "Juro real ex-ante da Frente K usa a Selic corrente (SGS 4189) e a mediana Focus de 12 meses; o padrão de mercado usa o swap DI 360 dias (SGS 7806, indisponível na API em 28/10/2026) ou o DI de 1 ano, como o ranking MoneYou. As duas medidas diferem em até 0,4 p.p.",
+  "O painel BIS usa média anual da taxa de política deflacionada pela média anual da inflação em 12 meses; para o Brasil dá valores diferentes da conta Selic acumulada / IPCA dez-dez (ex.: 2025 = 9,09% no BIS e 9,66% no cálculo BCB).",
+  "Valores de QE (Fed, BoJ, BCE), dívida dos EUA e do Japão e inflação de Turquia e Argentina vêm de conhecimento consolidado com link para a fonte primária; não foram reextraídos nesta sessão.",
+  "Saúde, educação e Bolsa Família de 2025 são dotações da LOA, não execução; a execução de 2025 não foi localizada nesta sessão.",
+  "A afirmação de que a autorização da EC 106/2020 não virou programa relevante de compra de títulos pelo BCB não foi conferida em fonte primária nesta sessão."
+ ]
+}

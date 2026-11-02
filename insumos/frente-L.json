@@ -1,0 +1,4026 @@
+{
+ "frente": "L",
+ "titulo": "Economia estrutural: capital, produtividade e alavancas",
+ "resumo": "O Brasil acumulou pouco capital e quase nenhuma eficiência em três décadas: o capital por trabalhador ocupado era de R$ 233 mil em 1994 e de R$ 252 mil em 2025 (Ipea, R$ de 2025), o estoque de máquinas caiu 14% desde 2014 e a PTF foi negativa em todos os governos, exceto Lula 1-2 (PWT 11.0; Conference Board). A produtividade por hora cresceu 0,6% ao ano entre 1981 e 2021 (FGV IBRE) e ficou em 22% a 24% da americana desde 2010, enquanto Coreia e China convergiram. A FBCF de 16,8% do PIB em 2025 está 5 a 15 pontos abaixo dos pares, a indústria de transformação perdeu peso em valor, volume, emprego e exportações, e a complexidade econômica caiu ao mínimo da série em 2024. Com o bônus demográfico encerrado em 2017, crescer 2,5% ao ano exigirá produtividade de cerca de 2% ao ano, e as alavancas de maior retorno pelos dados são investimento em infraestrutura com melhor seleção de projetos, qualidade da educação e eficiência alocativa.",
+ "periodizacao": "FHC 1995-2002; Lula 1-2 2003-2010; Dilma 2011-2015 (2016 atribuído a Temer, que assumiu em maio/2016); Temer 2016-2018; Bolsonaro 2019-2022; Lula 3 2023-2025 (2026 parcial). Taxas de crescimento por período medidas do último ano do governo anterior ao último ano do período.",
+ "alegacoes": [
+  {
+   "id": "L1",
+   "alegacao": "O Brasil cresce pouco porque investe pouco",
+   "quem": "tese corrente em análise econômica e na imprensa (ex.: coluna do Canal Rural sobre o PIB de 2025; InfoMoney, 'Por que o nosso país investe tão pouco?')",
+   "quando": "2026-03",
+   "fonte_alegacao": "https://www.canalrural.com.br/opiniao-noticias/pib-de-2025-acende-alerta-amarelo-na-economia/",
+   "o_que_aconteceu": "A FBCF foi de 16,8% do PIB em 2025 (IBGE), contra 22% a 32% em México, Chile, Coreia e Índia (Banco Mundial). O capital por ocupado caiu desde 2016 e o estoque de máquinas encolheu 14% entre 2014 e 2025 (Ipea). Mas Lula 1-2 cresceu 4,0% ao ano com FBCF média de 18,2% e Dilma cresceu 1,1% com 20,0%; a PTF explica mais da diferença entre períodos do que a taxa de investimento.",
+   "fonte_fato": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all ; http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCTOT') ; https://dataverse.nl/api/access/datafile/554105",
+   "veredito": "ocorreu_parcialmente",
+   "nota": "Investir pouco limita o crescimento de longo prazo, e K/Y no menor nível desde 1977 reforça isso. Porém a causalidade corre também no sentido oposto: Avritzer, Freitas e Braga (2021) encontram o produto causando o investimento no sentido de Granger, e o episódio 2011-2014 mostra investimento alto sem crescimento quando a alocação é ruim."
+  },
+  {
+   "id": "L2",
+   "alegacao": "A produtividade brasileira está estagnada há 40 anos",
+   "quem": "circulou no debate econômico; texto para discussão do IE/UFRJ (Saboia, Schommer e Rosa) fala em estagnação desde 2013",
+   "quando": "2023",
+   "fonte_alegacao": "https://www.ie.ufrj.br/images/IE/TDS/2023/TD_IE_004_2023_v2_SABOIA_SCHOMMER_ROSA.pdf",
+   "o_que_aconteceu": "FGV IBRE: produtividade por hora +0,6% ao ano em 1981-2021 e PTF +0,3% ao ano em 1981-2019, com surto de 1,6% ao ano em 2000-2010 e -0,5% em 2014-2019; 2025 = +0,4%. PIB por hora em % dos EUA: 15,4% (1990), 24,6% (2010), 23,9% (2023) na PWT 11.0.",
+   "fonte_fato": "https://blogdoibre.fgv.br/posts/produtividade-total-dos-fatores-no-brasil-uma-visao-de-longo-prazo ; https://blogdoibre.fgv.br/posts/resultados-dos-indicadores-de-produtividade-do-trabalho-no-quarto-trimestre-de-2025 ; https://dataverse.nl/api/access/datafile/554105",
+   "veredito": "ocorreu_parcialmente",
+   "nota": "Estagnação descreve bem 1981-2000 e 2013-2025, não a década de 2000. Em 40 anos o ganho acumulado foi de cerca de 27%, crescimento baixo e não nulo; a convergência com os EUA parou em 2010."
+  },
+  {
+   "id": "L3",
+   "alegacao": "Crescimento puxado por gasto público não se sustenta (voo de galinha)",
+   "quem": "Fabio Giambiagi (FGV IBRE) e José Ronaldo de Castro Souza Jr. (Ibmec), segundo a imprensa; coluna de Alan Ghani na Gazeta do Povo",
+   "quando": "2026",
+   "fonte_alegacao": "https://www.gazetadopovo.com.br/vozes/alan-ghani/o-eterno-voo-de-galinha/",
+   "o_que_aconteceu": "O crescimento de 2023-2025 (média de 3,0% ao ano, Frente C) veio com capital por ocupado caindo 0,8% ao ano, estoque de máquinas encolhendo e PTF de -0,1% em 2025 (TED); FBCF recuou a 16,3% do PIB no 1º semestre de 2026. O multiplicador do investimento público é maior que 2 em recessões e no máximo 0,8 em expansões (Orair e Siqueira).",
+   "fonte_fato": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCTOT') ; https://www.conference-board.org/pdf_free/TED-SummaryTables-Charts-oct2026.pdf ; https://www.eco.unicamp.br/images/arquivos/artigos/3710/09OrAIR.pdf",
+   "veredito": "ocorreu_parcialmente",
+   "nota": "Depende do gasto. Consumo e transferências sustentam demanda sem ampliar capacidade, e a economia já opera com K/Y no menor nível desde 1977, o que limita a duração do impulso. Investimento público em recessão tem multiplicador alto e amplia o estoque de capital; o argumento vale menos para ele."
+  },
+  {
+   "id": "L4",
+   "alegacao": "O Brasil passa por desindustrialização precoce",
+   "quem": "IEDI, CNI e literatura acadêmica (Rodrik, 2015)",
+   "quando": "2015",
+   "fonte_alegacao": "https://www.nber.org/papers/w20935",
+   "o_que_aconteceu": "Transformação: 17,8% do VA (2004) para 13,7% (2025); produção física 14,7% abaixo de 2013 em 2025; indústria geral de 14,7% para 12,7% dos ocupados (2012-2025); manufaturados de 57,6% (2000) para 23,9% (2025) das exportações; ECI de 0,91 (2000) para 0,33 (2024).",
+   "fonte_fato": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all ; https://apisidra.ibge.gov.br/values/t/8888/n1/all/v/12606/p/all/c544/129316 ; https://atlas.hks.harvard.edu/api/graphql",
+   "veredito": "ocorreu",
+   "nota": "A participação a preços correntes oscila com preços relativos (subiu em 2021-2023 sem aumento de produção). A medida em volume e a pauta exportadora confirmam a tendência."
+  },
+  {
+   "id": "L5",
+   "alegacao": "O bônus demográfico acabou",
+   "quem": "IBGE, Projeções da População (repercussão na imprensa)",
+   "quando": "2024-08",
+   "fonte_alegacao": "https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/41056-populacao-do-pais-vai-parar-de-crescer-em-2041.html",
+   "o_que_aconteceu": "A população de 15 a 64 anos atingiu o pico de 69,75% em 2017 e caiu a 69,13% em 2025; a razão de dependência mínima foi em 2017. O IBGE projeta pico populacional em 2041.",
+   "fonte_fato": "https://api.worldbank.org/v2/country/BRA/indicator/SP.POP.1564.TO.ZS?format=json ; https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/41056-populacao-do-pais-vai-parar-de-crescer-em-2041.html",
+   "veredito": "ocorreu",
+   "nota": "A força de trabalho ainda cresce em números absolutos por alguns anos e a participação feminina pode compensar parte; a contribuição do trabalho ao crescimento cairá de cerca de 0,9 ponto ao ano (1995-2023) para perto de zero na década de 2040."
+  },
+  {
+   "id": "L6",
+   "alegacao": "O câmbio sobreapreciado destruiu a indústria, e câmbio competitivo a reconstrói (novo-desenvolvimentismo)",
+   "quem": "Luiz Carlos Bresser-Pereira, José Luis Oreiro, Nelson Marconi",
+   "quando": "2016",
+   "fonte_alegacao": "https://www.bresserpereira.org.br/",
+   "o_que_aconteceu": "Câmbio real efetivo (BCB, jun/1994 = 100) apreciou de 137,4 (2003) para 75,0 (2011) enquanto a transformação caía de 17,8% para 13,9% do VA; depois depreciou a 144,6 (2021) e a produção física da transformação ficou 16% abaixo de 2013 nesse ano.",
+   "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11752/dados?formato=json ; https://apisidra.ibge.gov.br/values/t/8888/n1/all/v/12606/p/all/c544/129316",
+   "veredito": "ocorreu_parcialmente",
+   "nota": "A primeira metade da tese tem aderência temporal forte em 2004-2011; a segunda não se verificou em 2015-2021, quando a depreciação veio com recessão, juros altos e investimento em queda."
+  },
+  {
+   "id": "L7",
+   "alegacao": "A restrição externa limita o crescimento brasileiro a cerca de 2,5% ao ano (lei de Thirlwall)",
+   "quem": "literatura pós-keynesiana brasileira (Nakabashi, 2007; Teixeira et al., 2017; Diniz e Ferreira, 2018)",
+   "quando": "2018",
+   "fonte_alegacao": "https://periodicos.ufsc.br/index.php/economia/article/download/2175-8085.2018v21n1p77/36680/193112",
+   "o_que_aconteceu": "Cálculo ilustrativo com Banco Mundial: elasticidade-renda das importações de 1,87 e exportações crescendo 4,7% ao ano em 1995-2025 dão 2,5% ao ano; o PIB cresceu 2,2%. Conta corrente média de -2,3% do PIB em 1995-2025.",
+   "fonte_fato": "https://api.worldbank.org/v2/country/BRA/indicator/NE.IMP.GNFS.KD?format=json ; https://api.worldbank.org/v2/country/BRA/indicator/BN.CAB.XOKA.GD.ZS?format=json",
+   "veredito": "em_aberto",
+   "nota": "O teto de cerca de 2,5% não é fixo: termos de troca (2003-2010) e investimento estrangeiro direto o deslocam, e a elasticidade estimada muda entre regimes. O número é cálculo próprio sem teste de cointegração."
+  },
+  {
+   "id": "L8",
+   "alegacao": "O gargalo do crescimento é a escolaridade baixa",
+   "quem": "circulou em debate público (difuso)",
+   "quando": "2020-08",
+   "fonte_alegacao": "https://blogdoibre.fgv.br/posts/produtividade-total-dos-fatores-no-brasil-uma-visao-de-longo-prazo",
+   "o_que_aconteceu": "O índice de capital humano da PWT subiu de 1,83 (1994) para 3,36 (2023), +84%, enquanto o PIB por hora ficou perto de 24% do americano desde 2010. No PISA 2022 o Brasil fez 379 em matemática (OCDE 472) e 27% dos alunos atingiram o nível 2 (OCDE 69%).",
+   "fonte_fato": "https://dataverse.nl/api/access/datafile/554105 ; https://www.poder360.com.br/educacao/brasil-esta-entre-os-17-paises-com-pior-nota-em-matematica-da-ocde/",
+   "veredito": "ocorreu_parcialmente",
+   "nota": "Quantidade de escolaridade cresceu rápido e não destravou a produtividade; o gargalo medido é a qualidade do aprendizado e a alocação do trabalho qualificado."
+  },
+  {
+   "id": "L9",
+   "alegacao": "Investimento público tem multiplicador alto e se paga",
+   "quem": "Rodrigo Orair e Fernando Siqueira (Ipea); argumento usado na defesa do PAC",
+   "quando": "2018",
+   "fonte_alegacao": "https://www.eco.unicamp.br/images/arquivos/artigos/3710/09OrAIR.pdf",
+   "o_que_aconteceu": "Multiplicador do investimento público acima de 2 em recessões e no máximo 0,8 em expansões (Orair e Siqueira, Economia e Sociedade, 2018). FMI (2018): perda de eficiência do investimento público brasileiro de 39%, contra 27% nos emergentes.",
+   "fonte_fato": "https://www.eco.unicamp.br/images/arquivos/artigos/3710/09OrAIR.pdf ; https://www.imf.org/en/Publications/CR/Issues/2018/11/29/Brazil-Technical-Assistance-Report-Public-Investment-Management-Assessment-46147",
+   "veredito": "ocorreu_parcialmente",
+   "nota": "O multiplicador é alto em recessão, não sempre. 'Se paga' exige que a receita induzida cubra o custo, o que os estudos citados não demonstram; a eficiência na seleção de projetos decide o retorno."
+  },
+  {
+   "id": "L10",
+   "alegacao": "Bolsonaro levou o investimento público ao menor patamar da história",
+   "quem": "Partido dos Trabalhadores",
+   "quando": "2022",
+   "fonte_alegacao": "https://pt.org.br/bolsonaro-fez-investimento-publico-cair-ao-menor-patamar-da-historia/",
+   "o_que_aconteceu": "Pelo Observatório de Política Fiscal (FGV IBRE), o mínimo desde 1947 é 2017 (1,94% do PIB, governo Temer); 2021 foi o segundo menor (2,02% a 2,05%). Em 2022 subiu a 2,53%, puxado por estados e municípios.",
+   "fonte_fato": "https://pt.org.br/em-2021-pais-teve-o-2o-pior-investimento-publico-desde-1947-o-1o-em-2017/ ; https://ibre.fgv.br/blog-da-conjuntura-economica/artigos/investimento-cresce-mas-nao-rompe-estagnacao-registrada-desde",
+   "veredito": "ocorreu_parcialmente",
+   "nota": "A série de Orair e Gobetti (Ipea, desde 1970, outro conceito) também marca 2017 como mínimo (1,17%). A queda vem de 2014-2015, com o ajuste fiscal de Dilma e o corte da Petrobras, e se aprofunda com o teto de 2016."
+  }
+ ],
+ "series": [
+  {
+   "nome": "Estoque líquido de capital fixo por pessoa ocupada (Ipea; emprego = PIB PPC / PIB por ocupado, Banco Mundial/OIT)",
+   "unidade": "R$ mil de 2025 por ocupado",
+   "fonte": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCTOT') ; https://api.worldbank.org/v2/country/BRA/indicator/SL.GDP.PCAP.EM.KD?format=json",
+   "nota": "Cálculo próprio. Numerador: Ipea, metodologia Souza Júnior e Cornelio (TD 2580). Denominador: emprego modelado da OIT, derivado do Banco Mundial. Pico em 2016 (275,0); 2020 é distorcido pela queda do emprego.",
+   "pontos": [
+    {
+     "t": "1991",
+     "v": 240.0
+    },
+    {
+     "t": "1992",
+     "v": 237.3
+    },
+    {
+     "t": "1993",
+     "v": 232.1
+    },
+    {
+     "t": "1994",
+     "v": 232.8
+    },
+    {
+     "t": "1995",
+     "v": 235.5
+    },
+    {
+     "t": "1996",
+     "v": 245.0
+    },
+    {
+     "t": "1997",
+     "v": 245.7
+    },
+    {
+     "t": "1998",
+     "v": 248.8
+    },
+    {
+     "t": "1999",
+     "v": 248.3
+    },
+    {
+     "t": "2000",
+     "v": 247.1
+    },
+    {
+     "t": "2001",
+     "v": 245.6
+    },
+    {
+     "t": "2002",
+     "v": 241.4
+    },
+    {
+     "t": "2003",
+     "v": 241.5
+    },
+    {
+     "t": "2004",
+     "v": 236.5
+    },
+    {
+     "t": "2005",
+     "v": 234.8
+    },
+    {
+     "t": "2006",
+     "v": 233.9
+    },
+    {
+     "t": "2007",
+     "v": 236.1
+    },
+    {
+     "t": "2008",
+     "v": 237.2
+    },
+    {
+     "t": "2009",
+     "v": 241.6
+    },
+    {
+     "t": "2010",
+     "v": 248.3
+    },
+    {
+     "t": "2011",
+     "v": 255.9
+    },
+    {
+     "t": "2012",
+     "v": 260.7
+    },
+    {
+     "t": "2013",
+     "v": 264.7
+    },
+    {
+     "t": "2014",
+     "v": 267.2
+    },
+    {
+     "t": "2015",
+     "v": 269.9
+    },
+    {
+     "t": "2016",
+     "v": 275.0
+    },
+    {
+     "t": "2017",
+     "v": 273.5
+    },
+    {
+     "t": "2018",
+     "v": 268.5
+    },
+    {
+     "t": "2019",
+     "v": 263.5
+    },
+    {
+     "t": "2020",
+     "v": 285.2
+    },
+    {
+     "t": "2021",
+     "v": 274.2
+    },
+    {
+     "t": "2022",
+     "v": 258.2
+    },
+    {
+     "t": "2023",
+     "v": 256.6
+    },
+    {
+     "t": "2024",
+     "v": 252.3
+    },
+    {
+     "t": "2025",
+     "v": 251.9
+    }
+   ]
+  },
+  {
+   "nome": "Estoque líquido de máquinas e equipamentos (Ipea)",
+   "unidade": "R$ trilhões de 2025",
+   "fonte": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCMQEQ')",
+   "nota": "Pico em 2014 (4,87); 2025 = 4,17, queda de 14%.",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 2.22
+    },
+    {
+     "t": "1991",
+     "v": 2.21
+    },
+    {
+     "t": "1992",
+     "v": 2.18
+    },
+    {
+     "t": "1993",
+     "v": 2.18
+    },
+    {
+     "t": "1994",
+     "v": 2.26
+    },
+    {
+     "t": "1995",
+     "v": 2.42
+    },
+    {
+     "t": "1996",
+     "v": 2.53
+    },
+    {
+     "t": "1997",
+     "v": 2.65
+    },
+    {
+     "t": "1998",
+     "v": 2.74
+    },
+    {
+     "t": "1999",
+     "v": 2.75
+    },
+    {
+     "t": "2000",
+     "v": 2.8
+    },
+    {
+     "t": "2001",
+     "v": 2.86
+    },
+    {
+     "t": "2002",
+     "v": 2.88
+    },
+    {
+     "t": "2003",
+     "v": 2.89
+    },
+    {
+     "t": "2004",
+     "v": 2.94
+    },
+    {
+     "t": "2005",
+     "v": 2.98
+    },
+    {
+     "t": "2006",
+     "v": 3.07
+    },
+    {
+     "t": "2007",
+     "v": 3.26
+    },
+    {
+     "t": "2008",
+     "v": 3.53
+    },
+    {
+     "t": "2009",
+     "v": 3.69
+    },
+    {
+     "t": "2010",
+     "v": 4.0
+    },
+    {
+     "t": "2011",
+     "v": 4.29
+    },
+    {
+     "t": "2012",
+     "v": 4.5
+    },
+    {
+     "t": "2013",
+     "v": 4.74
+    },
+    {
+     "t": "2014",
+     "v": 4.87
+    },
+    {
+     "t": "2015",
+     "v": 4.8
+    },
+    {
+     "t": "2016",
+     "v": 4.64
+    },
+    {
+     "t": "2017",
+     "v": 4.52
+    },
+    {
+     "t": "2018",
+     "v": 4.48
+    },
+    {
+     "t": "2019",
+     "v": 4.48
+    },
+    {
+     "t": "2020",
+     "v": 4.4
+    },
+    {
+     "t": "2021",
+     "v": 4.37
+    },
+    {
+     "t": "2022",
+     "v": 4.29
+    },
+    {
+     "t": "2023",
+     "v": 4.19
+    },
+    {
+     "t": "2024",
+     "v": 4.16
+    },
+    {
+     "t": "2025",
+     "v": 4.17
+    }
+   ]
+  },
+  {
+   "nome": "Máquinas e equipamentos por pessoa ocupada (cálculo próprio, Ipea e Banco Mundial/OIT)",
+   "unidade": "R$ mil de 2025 por ocupado",
+   "fonte": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCMQEQ') ; https://api.worldbank.org/v2/country/BRA/indicator/SL.GDP.PCAP.EM.KD?format=json",
+   "pontos": [
+    {
+     "t": "1991",
+     "v": 37.1
+    },
+    {
+     "t": "1992",
+     "v": 35.8
+    },
+    {
+     "t": "1993",
+     "v": 34.4
+    },
+    {
+     "t": "1994",
+     "v": 34.8
+    },
+    {
+     "t": "1995",
+     "v": 36.6
+    },
+    {
+     "t": "1996",
+     "v": 38.6
+    },
+    {
+     "t": "1997",
+     "v": 39.5
+    },
+    {
+     "t": "1998",
+     "v": 40.2
+    },
+    {
+     "t": "1999",
+     "v": 39.5
+    },
+    {
+     "t": "2000",
+     "v": 39.2
+    },
+    {
+     "t": "2001",
+     "v": 38.9
+    },
+    {
+     "t": "2002",
+     "v": 37.9
+    },
+    {
+     "t": "2003",
+     "v": 37.5
+    },
+    {
+     "t": "2004",
+     "v": 36.7
+    },
+    {
+     "t": "2005",
+     "v": 36.4
+    },
+    {
+     "t": "2006",
+     "v": 36.7
+    },
+    {
+     "t": "2007",
+     "v": 38.3
+    },
+    {
+     "t": "2008",
+     "v": 40.5
+    },
+    {
+     "t": "2009",
+     "v": 42.0
+    },
+    {
+     "t": "2010",
+     "v": 45.3
+    },
+    {
+     "t": "2011",
+     "v": 48.4
+    },
+    {
+     "t": "2012",
+     "v": 50.1
+    },
+    {
+     "t": "2013",
+     "v": 52.0
+    },
+    {
+     "t": "2014",
+     "v": 52.8
+    },
+    {
+     "t": "2015",
+     "v": 52.2
+    },
+    {
+     "t": "2016",
+     "v": 51.5
+    },
+    {
+     "t": "2017",
+     "v": 50.1
+    },
+    {
+     "t": "2018",
+     "v": 48.8
+    },
+    {
+     "t": "2019",
+     "v": 47.8
+    },
+    {
+     "t": "2020",
+     "v": 51.0
+    },
+    {
+     "t": "2021",
+     "v": 48.4
+    },
+    {
+     "t": "2022",
+     "v": 44.4
+    },
+    {
+     "t": "2023",
+     "v": 42.8
+    },
+    {
+     "t": "2024",
+     "v": 41.4
+    },
+    {
+     "t": "2025",
+     "v": 40.9
+    }
+   ]
+  },
+  {
+   "nome": "Relação capital-produto K/Y (Ipea, anual)",
+   "unidade": "razão (estoque líquido / PIB, preços constantes)",
+   "fonte": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFRCP')",
+   "nota": "Vintage consultado em 28/10/2026. A Carta de Conjuntura 67 (abr/2025) publicava 2,15 para 2024; o Ipeadata atual dá 2,037. Ver _alertas.md.",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 2.58
+    },
+    {
+     "t": "1991",
+     "v": 2.604
+    },
+    {
+     "t": "1992",
+     "v": 2.657
+    },
+    {
+     "t": "1993",
+     "v": 2.578
+    },
+    {
+     "t": "1994",
+     "v": 2.496
+    },
+    {
+     "t": "1995",
+     "v": 2.476
+    },
+    {
+     "t": "1996",
+     "v": 2.488
+    },
+    {
+     "t": "1997",
+     "v": 2.477
+    },
+    {
+     "t": "1998",
+     "v": 2.532
+    },
+    {
+     "t": "1999",
+     "v": 2.572
+    },
+    {
+     "t": "2000",
+     "v": 2.521
+    },
+    {
+     "t": "2001",
+     "v": 2.54
+    },
+    {
+     "t": "2002",
+     "v": 2.508
+    },
+    {
+     "t": "2003",
+     "v": 2.513
+    },
+    {
+     "t": "2004",
+     "v": 2.417
+    },
+    {
+     "t": "2005",
+     "v": 2.378
+    },
+    {
+     "t": "2006",
+     "v": 2.329
+    },
+    {
+     "t": "2007",
+     "v": 2.25
+    },
+    {
+     "t": "2008",
+     "v": 2.207
+    },
+    {
+     "t": "2009",
+     "v": 2.264
+    },
+    {
+     "t": "2010",
+     "v": 2.179
+    },
+    {
+     "t": "2011",
+     "v": 2.087
+    },
+    {
+     "t": "2012",
+     "v": 2.109
+    },
+    {
+     "t": "2013",
+     "v": 2.11
+    },
+    {
+     "t": "2014",
+     "v": 2.148
+    },
+    {
+     "t": "2015",
+     "v": 2.244
+    },
+    {
+     "t": "2016",
+     "v": 2.315
+    },
+    {
+     "t": "2017",
+     "v": 2.276
+    },
+    {
+     "t": "2018",
+     "v": 2.23
+    },
+    {
+     "t": "2019",
+     "v": 2.206
+    },
+    {
+     "t": "2020",
+     "v": 2.277
+    },
+    {
+     "t": "2021",
+     "v": 2.189
+    },
+    {
+     "t": "2022",
+     "v": 2.142
+    },
+    {
+     "t": "2023",
+     "v": 2.086
+    },
+    {
+     "t": "2024",
+     "v": 2.037
+    },
+    {
+     "t": "2025",
+     "v": 2.044
+    }
+   ]
+  },
+  {
+   "nome": "Produtividade do capital Y/K (inverso da série Ipea)",
+   "unidade": "R$ de PIB por R$ de capital",
+   "fonte": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFRCP')",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 0.388
+    },
+    {
+     "t": "1991",
+     "v": 0.384
+    },
+    {
+     "t": "1992",
+     "v": 0.376
+    },
+    {
+     "t": "1993",
+     "v": 0.388
+    },
+    {
+     "t": "1994",
+     "v": 0.401
+    },
+    {
+     "t": "1995",
+     "v": 0.404
+    },
+    {
+     "t": "1996",
+     "v": 0.402
+    },
+    {
+     "t": "1997",
+     "v": 0.404
+    },
+    {
+     "t": "1998",
+     "v": 0.395
+    },
+    {
+     "t": "1999",
+     "v": 0.389
+    },
+    {
+     "t": "2000",
+     "v": 0.397
+    },
+    {
+     "t": "2001",
+     "v": 0.394
+    },
+    {
+     "t": "2002",
+     "v": 0.399
+    },
+    {
+     "t": "2003",
+     "v": 0.398
+    },
+    {
+     "t": "2004",
+     "v": 0.414
+    },
+    {
+     "t": "2005",
+     "v": 0.42
+    },
+    {
+     "t": "2006",
+     "v": 0.429
+    },
+    {
+     "t": "2007",
+     "v": 0.444
+    },
+    {
+     "t": "2008",
+     "v": 0.453
+    },
+    {
+     "t": "2009",
+     "v": 0.442
+    },
+    {
+     "t": "2010",
+     "v": 0.459
+    },
+    {
+     "t": "2011",
+     "v": 0.479
+    },
+    {
+     "t": "2012",
+     "v": 0.474
+    },
+    {
+     "t": "2013",
+     "v": 0.474
+    },
+    {
+     "t": "2014",
+     "v": 0.466
+    },
+    {
+     "t": "2015",
+     "v": 0.446
+    },
+    {
+     "t": "2016",
+     "v": 0.432
+    },
+    {
+     "t": "2017",
+     "v": 0.439
+    },
+    {
+     "t": "2018",
+     "v": 0.448
+    },
+    {
+     "t": "2019",
+     "v": 0.453
+    },
+    {
+     "t": "2020",
+     "v": 0.439
+    },
+    {
+     "t": "2021",
+     "v": 0.457
+    },
+    {
+     "t": "2022",
+     "v": 0.467
+    },
+    {
+     "t": "2023",
+     "v": 0.479
+    },
+    {
+     "t": "2024",
+     "v": 0.491
+    },
+    {
+     "t": "2025",
+     "v": 0.489
+    }
+   ]
+  },
+  {
+   "nome": "Relação capital-produto K/Y na Penn World Table 11.0 (rnna/rgdpna)",
+   "unidade": "razão (preços nacionais constantes de 2021)",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "nota": "Trajetória oposta à do Ipea depois de 2010 (sobe de 3,72 para 4,37). Ver _alertas.md.",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 3.75
+    },
+    {
+     "t": "1991",
+     "v": 3.84
+    },
+    {
+     "t": "1992",
+     "v": 3.99
+    },
+    {
+     "t": "1993",
+     "v": 3.92
+    },
+    {
+     "t": "1994",
+     "v": 3.85
+    },
+    {
+     "t": "1995",
+     "v": 3.85
+    },
+    {
+     "t": "1996",
+     "v": 3.9
+    },
+    {
+     "t": "1997",
+     "v": 3.91
+    },
+    {
+     "t": "1998",
+     "v": 4.03
+    },
+    {
+     "t": "1999",
+     "v": 4.11
+    },
+    {
+     "t": "2000",
+     "v": 4.04
+    },
+    {
+     "t": "2001",
+     "v": 4.08
+    },
+    {
+     "t": "2002",
+     "v": 4.05
+    },
+    {
+     "t": "2003",
+     "v": 4.08
+    },
+    {
+     "t": "2004",
+     "v": 3.95
+    },
+    {
+     "t": "2005",
+     "v": 3.92
+    },
+    {
+     "t": "2006",
+     "v": 3.86
+    },
+    {
+     "t": "2007",
+     "v": 3.76
+    },
+    {
+     "t": "2008",
+     "v": 3.71
+    },
+    {
+     "t": "2009",
+     "v": 3.83
+    },
+    {
+     "t": "2010",
+     "v": 3.72
+    },
+    {
+     "t": "2011",
+     "v": 3.73
+    },
+    {
+     "t": "2012",
+     "v": 3.81
+    },
+    {
+     "t": "2013",
+     "v": 3.85
+    },
+    {
+     "t": "2014",
+     "v": 3.97
+    },
+    {
+     "t": "2015",
+     "v": 4.2
+    },
+    {
+     "t": "2016",
+     "v": 4.39
+    },
+    {
+     "t": "2017",
+     "v": 4.37
+    },
+    {
+     "t": "2018",
+     "v": 4.36
+    },
+    {
+     "t": "2019",
+     "v": 4.37
+    },
+    {
+     "t": "2020",
+     "v": 4.58
+    },
+    {
+     "t": "2021",
+     "v": 4.47
+    },
+    {
+     "t": "2022",
+     "v": 4.44
+    },
+    {
+     "t": "2023",
+     "v": 4.37
+    }
+   ]
+  },
+  {
+   "nome": "PIB por pessoa ocupada, Brasil (Banco Mundial/OIT)",
+   "unidade": "US$ PPC constantes de 2021",
+   "fonte": "https://api.worldbank.org/v2/country/BRA/indicator/SL.GDP.PCAP.EM.KD?format=json",
+   "pontos": [
+    {
+     "t": "1991",
+     "v": 32042
+    },
+    {
+     "t": "1992",
+     "v": 31036
+    },
+    {
+     "t": "1993",
+     "v": 31301
+    },
+    {
+     "t": "1994",
+     "v": 32420
+    },
+    {
+     "t": "1995",
+     "v": 33062
+    },
+    {
+     "t": "1996",
+     "v": 34227
+    },
+    {
+     "t": "1997",
+     "v": 34481
+    },
+    {
+     "t": "1998",
+     "v": 34155
+    },
+    {
+     "t": "1999",
+     "v": 33555
+    },
+    {
+     "t": "2000",
+     "v": 34062
+    },
+    {
+     "t": "2001",
+     "v": 33603
+    },
+    {
+     "t": "2002",
+     "v": 33447
+    },
+    {
+     "t": "2003",
+     "v": 33406
+    },
+    {
+     "t": "2004",
+     "v": 34012
+    },
+    {
+     "t": "2005",
+     "v": 34309
+    },
+    {
+     "t": "2006",
+     "v": 34900
+    },
+    {
+     "t": "2007",
+     "v": 36463
+    },
+    {
+     "t": "2008",
+     "v": 37362
+    },
+    {
+     "t": "2009",
+     "v": 37086
+    },
+    {
+     "t": "2010",
+     "v": 39603
+    },
+    {
+     "t": "2011",
+     "v": 41005
+    },
+    {
+     "t": "2012",
+     "v": 41344
+    },
+    {
+     "t": "2013",
+     "v": 41958
+    },
+    {
+     "t": "2014",
+     "v": 41620
+    },
+    {
+     "t": "2015",
+     "v": 40241
+    },
+    {
+     "t": "2016",
+     "v": 39749
+    },
+    {
+     "t": "2017",
+     "v": 40207
+    },
+    {
+     "t": "2018",
+     "v": 40288
+    },
+    {
+     "t": "2019",
+     "v": 39946
+    },
+    {
+     "t": "2020",
+     "v": 41893
+    },
+    {
+     "t": "2021",
+     "v": 41905
+    },
+    {
+     "t": "2022",
+     "v": 40323
+    },
+    {
+     "t": "2023",
+     "v": 41148
+    },
+    {
+     "t": "2024",
+     "v": 41441
+    },
+    {
+     "t": "2025",
+     "v": 41840
+    }
+   ]
+  },
+  {
+   "nome": "PIB por pessoa ocupada em % dos EUA, Brasil (PWT 11.0, cgdpo/emp)",
+   "unidade": "% dos EUA",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "nota": "PPC corrente; o salto de 1994 para 1995 reflete a apreciação do Real sobre os preços relativos.",
+   "pontos": [
+    {
+     "t": "1980",
+     "v": 21.2
+    },
+    {
+     "t": "1990",
+     "v": 18.2
+    },
+    {
+     "t": "1995",
+     "v": 25.8
+    },
+    {
+     "t": "2000",
+     "v": 23.0
+    },
+    {
+     "t": "2005",
+     "v": 20.3
+    },
+    {
+     "t": "2010",
+     "v": 28.4
+    },
+    {
+     "t": "2015",
+     "v": 26.8
+    },
+    {
+     "t": "2019",
+     "v": 26.8
+    },
+    {
+     "t": "2023",
+     "v": 26.6
+    }
+   ]
+  },
+  {
+   "nome": "PIB por hora trabalhada em % dos EUA, Brasil (PWT 11.0)",
+   "unidade": "% dos EUA",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 15.4
+    },
+    {
+     "t": "1995",
+     "v": 22.3
+    },
+    {
+     "t": "2000",
+     "v": 20.3
+    },
+    {
+     "t": "2005",
+     "v": 17.9
+    },
+    {
+     "t": "2010",
+     "v": 24.6
+    },
+    {
+     "t": "2015",
+     "v": 24.2
+    },
+    {
+     "t": "2019",
+     "v": 24.4
+    },
+    {
+     "t": "2023",
+     "v": 23.9
+    }
+   ]
+  },
+  {
+   "nome": "PIB por hora trabalhada em % dos EUA, Coreia do Sul (PWT 11.0)",
+   "unidade": "% dos EUA",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 28.7
+    },
+    {
+     "t": "1995",
+     "v": 40.4
+    },
+    {
+     "t": "2000",
+     "v": 42.8
+    },
+    {
+     "t": "2005",
+     "v": 49.8
+    },
+    {
+     "t": "2010",
+     "v": 53.8
+    },
+    {
+     "t": "2015",
+     "v": 55.2
+    },
+    {
+     "t": "2019",
+     "v": 63.3
+    },
+    {
+     "t": "2023",
+     "v": 64.2
+    }
+   ]
+  },
+  {
+   "nome": "PIB por hora trabalhada em % dos EUA, Chile (PWT 11.0)",
+   "unidade": "% dos EUA",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 21.9
+    },
+    {
+     "t": "1995",
+     "v": 31.1
+    },
+    {
+     "t": "2000",
+     "v": 27.1
+    },
+    {
+     "t": "2005",
+     "v": 28.5
+    },
+    {
+     "t": "2010",
+     "v": 35.5
+    },
+    {
+     "t": "2015",
+     "v": 39.5
+    },
+    {
+     "t": "2019",
+     "v": 40.6
+    },
+    {
+     "t": "2023",
+     "v": 38.2
+    }
+   ]
+  },
+  {
+   "nome": "PIB por hora trabalhada em % dos EUA, México (PWT 11.0)",
+   "unidade": "% dos EUA",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 47.9
+    },
+    {
+     "t": "1995",
+     "v": 45.9
+    },
+    {
+     "t": "2000",
+     "v": 42.6
+    },
+    {
+     "t": "2005",
+     "v": 39.4
+    },
+    {
+     "t": "2010",
+     "v": 38.5
+    },
+    {
+     "t": "2015",
+     "v": 40.7
+    },
+    {
+     "t": "2019",
+     "v": 36.9
+    },
+    {
+     "t": "2023",
+     "v": 32.1
+    }
+   ]
+  },
+  {
+   "nome": "PIB por hora trabalhada em % dos EUA, China (PWT 11.0)",
+   "unidade": "% dos EUA",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 3.2
+    },
+    {
+     "t": "1995",
+     "v": 4.8
+    },
+    {
+     "t": "2000",
+     "v": 5.9
+    },
+    {
+     "t": "2005",
+     "v": 8.1
+    },
+    {
+     "t": "2010",
+     "v": 11.1
+    },
+    {
+     "t": "2015",
+     "v": 14.5
+    },
+    {
+     "t": "2019",
+     "v": 18.2
+    },
+    {
+     "t": "2023",
+     "v": 21.2
+    }
+   ]
+  },
+  {
+   "nome": "PIB por hora trabalhada em % dos EUA, 2024 (Conference Board TED, out/2026)",
+   "unidade": "% dos EUA",
+   "fonte": "https://www.conference-board.org/pdf_free/TED-SummaryTables-Charts-oct2026.pdf",
+   "nota": "Eixo t = país, não ano.",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "v": 22
+    },
+    {
+     "t": "China",
+     "v": 22
+    },
+    {
+     "t": "México",
+     "v": 36
+    },
+    {
+     "t": "Chile",
+     "v": 37
+    },
+    {
+     "t": "Coreia do Sul",
+     "v": 62
+    },
+    {
+     "t": "América Latina",
+     "v": 24
+    }
+   ]
+  },
+  {
+   "nome": "Produtividade do trabalho por hora trabalhada, crescimento médio anual (FGV IBRE, Observatório da Produtividade)",
+   "unidade": "% a.a.",
+   "fonte": "https://blogdoibre.fgv.br/posts/produtividade-total-dos-fatores-no-brasil-uma-visao-de-longo-prazo ; https://blogdoibre.fgv.br/posts/resultados-dos-indicadores-de-produtividade-do-trabalho-no-quarto-trimestre-de-2025",
+   "nota": "Médias por período até 2019 (Veloso, Matos e Peruchetti, ago/2020); 2020-2025 anuais, horas efetivas (Matos, Barbosa Filho e Peruchetti, abr/2026).",
+   "pontos": [
+    {
+     "t": "1981-1990",
+     "v": -0.6
+    },
+    {
+     "t": "1990-2000",
+     "v": 0.2
+    },
+    {
+     "t": "2000-2010",
+     "v": 1.6
+    },
+    {
+     "t": "2010-2014",
+     "v": 1.5
+    },
+    {
+     "t": "2014-2019",
+     "v": -0.5
+    },
+    {
+     "t": "2020",
+     "v": 12.9
+    },
+    {
+     "t": "2021",
+     "v": -8.1
+    },
+    {
+     "t": "2022",
+     "v": -4.4
+    },
+    {
+     "t": "2023",
+     "v": 2.3
+    },
+    {
+     "t": "2024",
+     "v": 0.1
+    },
+    {
+     "t": "2025",
+     "v": 0.4
+    }
+   ]
+  },
+  {
+   "nome": "PTF, crescimento anual (FGV IBRE)",
+   "unidade": "% a.a.",
+   "fonte": "https://blogdoibre.fgv.br/posts/produtividade-total-dos-fatores-no-brasil-uma-visao-de-longo-prazo",
+   "pontos": [
+    {
+     "t": "1981-1990",
+     "v": -0.6
+    },
+    {
+     "t": "1990-2000",
+     "v": 0.1
+    },
+    {
+     "t": "2000-2010",
+     "v": 1.5
+    },
+    {
+     "t": "2010-2014",
+     "v": 0.5
+    },
+    {
+     "t": "2014-2019",
+     "v": -0.6
+    },
+    {
+     "t": "1981-2019",
+     "v": 0.3
+    }
+   ]
+  },
+  {
+   "nome": "PTF, crescimento anual (Conference Board TED, out/2026)",
+   "unidade": "% a.a.",
+   "fonte": "https://www.conference-board.org/pdf_free/TED-SummaryTables-Charts-oct2026.pdf",
+   "pontos": [
+    {
+     "t": "2000-2007",
+     "v": -0.1
+    },
+    {
+     "t": "2011-2019",
+     "v": -1.5
+    },
+    {
+     "t": "2020",
+     "v": 2.2
+    },
+    {
+     "t": "2021",
+     "v": -2.9
+    },
+    {
+     "t": "2022",
+     "v": -1.0
+    },
+    {
+     "t": "2023",
+     "v": 1.6
+    },
+    {
+     "t": "2024",
+     "v": 0.6
+    },
+    {
+     "t": "2025",
+     "v": -0.1
+    }
+   ]
+  },
+  {
+   "nome": "PTF em nível, preços nacionais constantes (PWT 11.0, rtfpna, 2021 = 1)",
+   "unidade": "índice",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "nota": "Inclui ajuste por capital humano (anos de estudo); por isso cai mais que a PTF da FGV.",
+   "pontos": [
+    {
+     "t": "1980",
+     "v": 1.66
+    },
+    {
+     "t": "1981",
+     "v": 1.503
+    },
+    {
+     "t": "1982",
+     "v": 1.43
+    },
+    {
+     "t": "1983",
+     "v": 1.354
+    },
+    {
+     "t": "1984",
+     "v": 1.378
+    },
+    {
+     "t": "1985",
+     "v": 1.408
+    },
+    {
+     "t": "1986",
+     "v": 1.444
+    },
+    {
+     "t": "1987",
+     "v": 1.427
+    },
+    {
+     "t": "1988",
+     "v": 1.369
+    },
+    {
+     "t": "1989",
+     "v": 1.384
+    },
+    {
+     "t": "1990",
+     "v": 1.284
+    },
+    {
+     "t": "1991",
+     "v": 1.266
+    },
+    {
+     "t": "1992",
+     "v": 1.226
+    },
+    {
+     "t": "1993",
+     "v": 1.255
+    },
+    {
+     "t": "1994",
+     "v": 1.286
+    },
+    {
+     "t": "1995",
+     "v": 1.291
+    },
+    {
+     "t": "1996",
+     "v": 1.285
+    },
+    {
+     "t": "1997",
+     "v": 1.284
+    },
+    {
+     "t": "1998",
+     "v": 1.256
+    },
+    {
+     "t": "1999",
+     "v": 1.209
+    },
+    {
+     "t": "2000",
+     "v": 1.209
+    },
+    {
+     "t": "2001",
+     "v": 1.193
+    },
+    {
+     "t": "2002",
+     "v": 1.185
+    },
+    {
+     "t": "2003",
+     "v": 1.168
+    },
+    {
+     "t": "2004",
+     "v": 1.181
+    },
+    {
+     "t": "2005",
+     "v": 1.177
+    },
+    {
+     "t": "2006",
+     "v": 1.177
+    },
+    {
+     "t": "2007",
+     "v": 1.212
+    },
+    {
+     "t": "2008",
+     "v": 1.223
+    },
+    {
+     "t": "2009",
+     "v": 1.191
+    },
+    {
+     "t": "2010",
+     "v": 1.215
+    },
+    {
+     "t": "2011",
+     "v": 1.197
+    },
+    {
+     "t": "2012",
+     "v": 1.18
+    },
+    {
+     "t": "2013",
+     "v": 1.164
+    },
+    {
+     "t": "2014",
+     "v": 1.129
+    },
+    {
+     "t": "2015",
+     "v": 1.075
+    },
+    {
+     "t": "2016",
+     "v": 1.038
+    },
+    {
+     "t": "2017",
+     "v": 1.042
+    },
+    {
+     "t": "2018",
+     "v": 1.034
+    },
+    {
+     "t": "2019",
+     "v": 1.011
+    },
+    {
+     "t": "2020",
+     "v": 1.044
+    },
+    {
+     "t": "2021",
+     "v": 1.0
+    },
+    {
+     "t": "2022",
+     "v": 0.97
+    },
+    {
+     "t": "2023",
+     "v": 0.977
+    }
+   ]
+  },
+  {
+   "nome": "Índice de capital humano (PWT 11.0, hc, anos de estudo e retornos)",
+   "unidade": "índice",
+   "fonte": "https://dataverse.nl/api/access/datafile/554105",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 1.72
+    },
+    {
+     "t": "1991",
+     "v": 1.74
+    },
+    {
+     "t": "1992",
+     "v": 1.77
+    },
+    {
+     "t": "1993",
+     "v": 1.8
+    },
+    {
+     "t": "1994",
+     "v": 1.83
+    },
+    {
+     "t": "1995",
+     "v": 1.86
+    },
+    {
+     "t": "1996",
+     "v": 1.9
+    },
+    {
+     "t": "1997",
+     "v": 1.93
+    },
+    {
+     "t": "1998",
+     "v": 1.97
+    },
+    {
+     "t": "1999",
+     "v": 2.01
+    },
+    {
+     "t": "2000",
+     "v": 2.05
+    },
+    {
+     "t": "2001",
+     "v": 2.09
+    },
+    {
+     "t": "2002",
+     "v": 2.13
+    },
+    {
+     "t": "2003",
+     "v": 2.17
+    },
+    {
+     "t": "2004",
+     "v": 2.21
+    },
+    {
+     "t": "2005",
+     "v": 2.26
+    },
+    {
+     "t": "2006",
+     "v": 2.3
+    },
+    {
+     "t": "2007",
+     "v": 2.34
+    },
+    {
+     "t": "2008",
+     "v": 2.38
+    },
+    {
+     "t": "2009",
+     "v": 2.43
+    },
+    {
+     "t": "2010",
+     "v": 2.47
+    },
+    {
+     "t": "2011",
+     "v": 2.56
+    },
+    {
+     "t": "2012",
+     "v": 2.62
+    },
+    {
+     "t": "2013",
+     "v": 2.68
+    },
+    {
+     "t": "2014",
+     "v": 2.75
+    },
+    {
+     "t": "2015",
+     "v": 2.81
+    },
+    {
+     "t": "2016",
+     "v": 2.88
+    },
+    {
+     "t": "2017",
+     "v": 2.95
+    },
+    {
+     "t": "2018",
+     "v": 3.02
+    },
+    {
+     "t": "2019",
+     "v": 3.09
+    },
+    {
+     "t": "2020",
+     "v": 3.16
+    },
+    {
+     "t": "2021",
+     "v": 3.23
+    },
+    {
+     "t": "2022",
+     "v": 3.29
+    },
+    {
+     "t": "2023",
+     "v": 3.36
+    }
+   ]
+  },
+  {
+   "nome": "Taxa de investimento FBCF/PIB (IBGE, Contas Trimestrais, preços correntes)",
+   "unidade": "% PIB",
+   "fonte": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
+   "nota": "2026-S1 = primeiro semestre. Bate com a Frente C (16,8% em 2025).",
+   "pontos": [
+    {
+     "t": "1996",
+     "v": 18.6
+    },
+    {
+     "t": "1997",
+     "v": 19.1
+    },
+    {
+     "t": "1998",
+     "v": 18.5
+    },
+    {
+     "t": "1999",
+     "v": 17.0
+    },
+    {
+     "t": "2000",
+     "v": 18.3
+    },
+    {
+     "t": "2001",
+     "v": 18.4
+    },
+    {
+     "t": "2002",
+     "v": 17.9
+    },
+    {
+     "t": "2003",
+     "v": 16.6
+    },
+    {
+     "t": "2004",
+     "v": 17.3
+    },
+    {
+     "t": "2005",
+     "v": 17.1
+    },
+    {
+     "t": "2006",
+     "v": 17.2
+    },
+    {
+     "t": "2007",
+     "v": 18.0
+    },
+    {
+     "t": "2008",
+     "v": 19.4
+    },
+    {
+     "t": "2009",
+     "v": 19.1
+    },
+    {
+     "t": "2010",
+     "v": 20.5
+    },
+    {
+     "t": "2011",
+     "v": 20.6
+    },
+    {
+     "t": "2012",
+     "v": 20.7
+    },
+    {
+     "t": "2013",
+     "v": 20.9
+    },
+    {
+     "t": "2014",
+     "v": 19.9
+    },
+    {
+     "t": "2015",
+     "v": 17.8
+    },
+    {
+     "t": "2016",
+     "v": 15.5
+    },
+    {
+     "t": "2017",
+     "v": 14.6
+    },
+    {
+     "t": "2018",
+     "v": 15.1
+    },
+    {
+     "t": "2019",
+     "v": 15.5
+    },
+    {
+     "t": "2020",
+     "v": 16.6
+    },
+    {
+     "t": "2021",
+     "v": 17.9
+    },
+    {
+     "t": "2022",
+     "v": 17.8
+    },
+    {
+     "t": "2023",
+     "v": 16.4
+    },
+    {
+     "t": "2024",
+     "v": 16.9
+    },
+    {
+     "t": "2025",
+     "v": 16.8
+    },
+    {
+     "t": "2026-S1",
+     "v": 16.3
+    }
+   ]
+  },
+  {
+   "nome": "FBCF/PIB em comparação internacional, 2025 (Banco Mundial; China e EUA = 2024)",
+   "unidade": "% PIB",
+   "fonte": "https://api.worldbank.org/v2/country/BRA;CHL;MEX;KOR;CHN;IND;USA/indicator/NE.GDI.FTOT.ZS?format=json",
+   "nota": "Eixo t = país.",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "v": 16.84
+    },
+    {
+     "t": "EUA (2024)",
+     "v": 21.35
+    },
+    {
+     "t": "México",
+     "v": 22.41
+    },
+    {
+     "t": "Chile",
+     "v": 24.09
+    },
+    {
+     "t": "Coreia do Sul",
+     "v": 28.33
+    },
+    {
+     "t": "Índia",
+     "v": 31.68
+    },
+    {
+     "t": "China (2024)",
+     "v": 39.65
+    }
+   ]
+  },
+  {
+   "nome": "Investimento público, União + estados + municípios + estatais federais (Observatório de Política Fiscal, FGV IBRE)",
+   "unidade": "% PIB",
+   "fonte": "https://observatorio-politica-fiscal.ibre.fgv.br/series-historicas/investimentos-publicos/investimentos-publicos-serie-historica-1947-2025 ; https://ibre.fgv.br/blog-da-conjuntura-economica/artigos/investimento-cresce-mas-nao-rompe-estagnacao-registrada-desde",
+   "nota": "Pontos disponíveis em publicações do Observatório; série completa 1947-2025 no site (fora do ar em 28/10/2026). 2021: 2,02 (revisão de 2023) ou 2,05 (publicação de jan/2022).",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 2.0
+    },
+    {
+     "t": "2010",
+     "v": 4.72
+    },
+    {
+     "t": "2017",
+     "v": 1.94
+    },
+    {
+     "t": "2020",
+     "v": 2.68
+    },
+    {
+     "t": "2021",
+     "v": 2.02
+    },
+    {
+     "t": "2022",
+     "v": 2.53
+    },
+    {
+     "t": "2023",
+     "v": 2.61
+    },
+    {
+     "t": "2024",
+     "v": 3.05
+    },
+    {
+     "t": "2025",
+     "v": 2.71
+    }
+   ]
+  },
+  {
+   "nome": "Desembolsos do BNDES",
+   "unidade": "% PIB",
+   "fonte": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/28928/1/PRLiiv_216874_Estudos%20especiais%20do%20BNDES%202025_.pdf",
+   "pontos": [
+    {
+     "t": "2010",
+     "v": 4.3
+    },
+    {
+     "t": "2019",
+     "v": 0.76
+    },
+    {
+     "t": "2025",
+     "v": 1.3
+    },
+    {
+     "t": "2026-06 (12m)",
+     "v": 1.4
+    }
+   ]
+  },
+  {
+   "nome": "Indústria de transformação no valor adicionado (IBGE, preços correntes)",
+   "unidade": "% do VA",
+   "fonte": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
+   "nota": "Preços correntes: a alta de 2021-2023 é efeito de preços relativos. Possível quebra metodológica entre 2002 e 2003 na série trimestral.",
+   "pontos": [
+    {
+     "t": "1996",
+     "v": 14.9
+    },
+    {
+     "t": "1997",
+     "v": 14.8
+    },
+    {
+     "t": "1998",
+     "v": 13.8
+    },
+    {
+     "t": "1999",
+     "v": 14.2
+    },
+    {
+     "t": "2000",
+     "v": 15.3
+    },
+    {
+     "t": "2001",
+     "v": 15.4
+    },
+    {
+     "t": "2002",
+     "v": 14.5
+    },
+    {
+     "t": "2003",
+     "v": 16.9
+    },
+    {
+     "t": "2004",
+     "v": 17.8
+    },
+    {
+     "t": "2005",
+     "v": 17.4
+    },
+    {
+     "t": "2006",
+     "v": 16.6
+    },
+    {
+     "t": "2007",
+     "v": 16.6
+    },
+    {
+     "t": "2008",
+     "v": 16.5
+    },
+    {
+     "t": "2009",
+     "v": 15.3
+    },
+    {
+     "t": "2010",
+     "v": 15.0
+    },
+    {
+     "t": "2011",
+     "v": 13.9
+    },
+    {
+     "t": "2012",
+     "v": 12.6
+    },
+    {
+     "t": "2013",
+     "v": 12.3
+    },
+    {
+     "t": "2014",
+     "v": 12.0
+    },
+    {
+     "t": "2015",
+     "v": 12.2
+    },
+    {
+     "t": "2016",
+     "v": 12.5
+    },
+    {
+     "t": "2017",
+     "v": 12.4
+    },
+    {
+     "t": "2018",
+     "v": 12.3
+    },
+    {
+     "t": "2019",
+     "v": 12.0
+    },
+    {
+     "t": "2020",
+     "v": 12.3
+    },
+    {
+     "t": "2021",
+     "v": 13.9
+    },
+    {
+     "t": "2022",
+     "v": 15.1
+    },
+    {
+     "t": "2023",
+     "v": 15.2
+    },
+    {
+     "t": "2024",
+     "v": 14.1
+    },
+    {
+     "t": "2025",
+     "v": 13.7
+    },
+    {
+     "t": "2026-S1",
+     "v": 13.2
+    }
+   ]
+  },
+  {
+   "nome": "Produção física da indústria de transformação (IBGE, PIM-PF, média anual)",
+   "unidade": "índice 2022 = 100",
+   "fonte": "https://apisidra.ibge.gov.br/values/t/8888/n1/all/v/12606/p/all/c544/129316",
+   "pontos": [
+    {
+     "t": "2002",
+     "v": 93.6
+    },
+    {
+     "t": "2003",
+     "v": 93.7
+    },
+    {
+     "t": "2004",
+     "v": 101.7
+    },
+    {
+     "t": "2005",
+     "v": 104.2
+    },
+    {
+     "t": "2006",
+     "v": 106.7
+    },
+    {
+     "t": "2007",
+     "v": 113.0
+    },
+    {
+     "t": "2008",
+     "v": 116.5
+    },
+    {
+     "t": "2009",
+     "v": 108.3
+    },
+    {
+     "t": "2010",
+     "v": 119.1
+    },
+    {
+     "t": "2011",
+     "v": 119.5
+    },
+    {
+     "t": "2012",
+     "v": 116.6
+    },
+    {
+     "t": "2013",
+     "v": 119.9
+    },
+    {
+     "t": "2014",
+     "v": 114.9
+    },
+    {
+     "t": "2015",
+     "v": 103.6
+    },
+    {
+     "t": "2016",
+     "v": 97.4
+    },
+    {
+     "t": "2017",
+     "v": 99.6
+    },
+    {
+     "t": "2018",
+     "v": 100.7
+    },
+    {
+     "t": "2019",
+     "v": 100.8
+    },
+    {
+     "t": "2020",
+     "v": 96.2
+    },
+    {
+     "t": "2021",
+     "v": 100.4
+    },
+    {
+     "t": "2022",
+     "v": 100.0
+    },
+    {
+     "t": "2023",
+     "v": 98.9
+    },
+    {
+     "t": "2024",
+     "v": 102.6
+    },
+    {
+     "t": "2025",
+     "v": 102.3
+    },
+    {
+     "t": "2026-jan-ago",
+     "v": 101.6
+    }
+   ]
+  },
+  {
+   "nome": "Indústria geral no total de ocupados (IBGE, PNAD Contínua, 4º trimestre)",
+   "unidade": "% dos ocupados",
+   "fonte": "https://apisidra.ibge.gov.br/values/t/5434/n1/all/v/4090/p/201204,201404,201804,202204,202504,202602/c888/all",
+   "pontos": [
+    {
+     "t": "2012",
+     "v": 14.7
+    },
+    {
+     "t": "2014",
+     "v": 14.7
+    },
+    {
+     "t": "2018",
+     "v": 12.9
+    },
+    {
+     "t": "2022",
+     "v": 12.9
+    },
+    {
+     "t": "2025",
+     "v": 12.7
+    },
+    {
+     "t": "2026-T2",
+     "v": 12.7
+    }
+   ]
+  },
+  {
+   "nome": "Indústria (inclui construção) no emprego total, estimativa modelada OIT (Banco Mundial)",
+   "unidade": "% do emprego",
+   "fonte": "https://api.worldbank.org/v2/country/BRA/indicator/SL.IND.EMPL.ZS?format=json",
+   "pontos": [
+    {
+     "t": "1991",
+     "v": 24.98
+    },
+    {
+     "t": "1992",
+     "v": 24.66
+    },
+    {
+     "t": "1993",
+     "v": 24.63
+    },
+    {
+     "t": "1994",
+     "v": 24.81
+    },
+    {
+     "t": "1995",
+     "v": 24.36
+    },
+    {
+     "t": "1996",
+     "v": 24.43
+    },
+    {
+     "t": "1997",
+     "v": 24.47
+    },
+    {
+     "t": "1998",
+     "v": 24.4
+    },
+    {
+     "t": "1999",
+     "v": 23.61
+    },
+    {
+     "t": "2000",
+     "v": 23.5
+    },
+    {
+     "t": "2001",
+     "v": 23.22
+    },
+    {
+     "t": "2002",
+     "v": 23.7
+    },
+    {
+     "t": "2003",
+     "v": 23.12
+    },
+    {
+     "t": "2004",
+     "v": 23.22
+    },
+    {
+     "t": "2005",
+     "v": 23.59
+    },
+    {
+     "t": "2006",
+     "v": 23.55
+    },
+    {
+     "t": "2007",
+     "v": 24.12
+    },
+    {
+     "t": "2008",
+     "v": 24.87
+    },
+    {
+     "t": "2009",
+     "v": 24.3
+    },
+    {
+     "t": "2010",
+     "v": 24.18
+    },
+    {
+     "t": "2011",
+     "v": 23.91
+    },
+    {
+     "t": "2012",
+     "v": 23.82
+    },
+    {
+     "t": "2013",
+     "v": 23.66
+    },
+    {
+     "t": "2014",
+     "v": 23.57
+    },
+    {
+     "t": "2015",
+     "v": 22.82
+    },
+    {
+     "t": "2016",
+     "v": 21.37
+    },
+    {
+     "t": "2017",
+     "v": 20.94
+    },
+    {
+     "t": "2018",
+     "v": 20.53
+    },
+    {
+     "t": "2019",
+     "v": 20.4
+    },
+    {
+     "t": "2020",
+     "v": 20.26
+    },
+    {
+     "t": "2021",
+     "v": 20.73
+    },
+    {
+     "t": "2022",
+     "v": 20.49
+    },
+    {
+     "t": "2023",
+     "v": 20.17
+    },
+    {
+     "t": "2024",
+     "v": 20.3
+    },
+    {
+     "t": "2025",
+     "v": 20.21
+    }
+   ]
+  },
+  {
+   "nome": "Manufaturados nas exportações de bens (Banco Mundial/UN Comtrade)",
+   "unidade": "% das exportações de mercadorias",
+   "fonte": "https://api.worldbank.org/v2/country/BRA/indicator/TX.VAL.MANF.ZS.UN?format=json",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 51.76
+    },
+    {
+     "t": "1991",
+     "v": 54.78
+    },
+    {
+     "t": "1992",
+     "v": 56.87
+    },
+    {
+     "t": "1993",
+     "v": 58.75
+    },
+    {
+     "t": "1994",
+     "v": 54.71
+    },
+    {
+     "t": "1995",
+     "v": 53.02
+    },
+    {
+     "t": "1996",
+     "v": 52.9
+    },
+    {
+     "t": "1997",
+     "v": 52.9
+    },
+    {
+     "t": "1998",
+     "v": 53.93
+    },
+    {
+     "t": "1999",
+     "v": 53.26
+    },
+    {
+     "t": "2000",
+     "v": 57.55
+    },
+    {
+     "t": "2001",
+     "v": 53.57
+    },
+    {
+     "t": "2002",
+     "v": 52.03
+    },
+    {
+     "t": "2003",
+     "v": 51.07
+    },
+    {
+     "t": "2004",
+     "v": 52.61
+    },
+    {
+     "t": "2005",
+     "v": 52.2
+    },
+    {
+     "t": "2006",
+     "v": 49.74
+    },
+    {
+     "t": "2007",
+     "v": 47.32
+    },
+    {
+     "t": "2008",
+     "v": 43.22
+    },
+    {
+     "t": "2009",
+     "v": 37.77
+    },
+    {
+     "t": "2010",
+     "v": 34.96
+    },
+    {
+     "t": "2011",
+     "v": 32.36
+    },
+    {
+     "t": "2012",
+     "v": 33.2
+    },
+    {
+     "t": "2013",
+     "v": 32.57
+    },
+    {
+     "t": "2014",
+     "v": 32.18
+    },
+    {
+     "t": "2015",
+     "v": 34.87
+    },
+    {
+     "t": "2016",
+     "v": 36.12
+    },
+    {
+     "t": "2017",
+     "v": 34.82
+    },
+    {
+     "t": "2018",
+     "v": 32.36
+    },
+    {
+     "t": "2019",
+     "v": 30.19
+    },
+    {
+     "t": "2020",
+     "v": 25.04
+    },
+    {
+     "t": "2021",
+     "v": 25.12
+    },
+    {
+     "t": "2022",
+     "v": 25.29
+    },
+    {
+     "t": "2023",
+     "v": 24.09
+    },
+    {
+     "t": "2024",
+     "v": 23.22
+    },
+    {
+     "t": "2025",
+     "v": 23.85
+    }
+   ]
+  },
+  {
+   "nome": "Alimentos nas exportações de bens (Banco Mundial/UN Comtrade)",
+   "unidade": "% das exportações de mercadorias",
+   "fonte": "https://api.worldbank.org/v2/country/BRA/indicator/TX.VAL.FOOD.ZS.UN?format=json",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 27.69
+    },
+    {
+     "t": "1991",
+     "v": 24.93
+    },
+    {
+     "t": "1992",
+     "v": 25.4
+    },
+    {
+     "t": "1993",
+     "v": 25.27
+    },
+    {
+     "t": "1994",
+     "v": 28.94
+    },
+    {
+     "t": "1995",
+     "v": 28.51
+    },
+    {
+     "t": "1996",
+     "v": 29.9
+    },
+    {
+     "t": "1997",
+     "v": 30.97
+    },
+    {
+     "t": "1998",
+     "v": 29.62
+    },
+    {
+     "t": "1999",
+     "v": 28.73
+    },
+    {
+     "t": "2000",
+     "v": 23.24
+    },
+    {
+     "t": "2001",
+     "v": 27.47
+    },
+    {
+     "t": "2002",
+     "v": 27.76
+    },
+    {
+     "t": "2003",
+     "v": 28.53
+    },
+    {
+     "t": "2004",
+     "v": 27.88
+    },
+    {
+     "t": "2005",
+     "v": 25.67
+    },
+    {
+     "t": "2006",
+     "v": 24.92
+    },
+    {
+     "t": "2007",
+     "v": 26.32
+    },
+    {
+     "t": "2008",
+     "v": 27.7
+    },
+    {
+     "t": "2009",
+     "v": 34.14
+    },
+    {
+     "t": "2010",
+     "v": 30.34
+    },
+    {
+     "t": "2011",
+     "v": 30.49
+    },
+    {
+     "t": "2012",
+     "v": 32.34
+    },
+    {
+     "t": "2013",
+     "v": 35.3
+    },
+    {
+     "t": "2014",
+     "v": 35.65
+    },
+    {
+     "t": "2015",
+     "v": 37.98
+    },
+    {
+     "t": "2016",
+     "v": 37.88
+    },
+    {
+     "t": "2017",
+     "v": 36.1
+    },
+    {
+     "t": "2018",
+     "v": 34.64
+    },
+    {
+     "t": "2019",
+     "v": 34.53
+    },
+    {
+     "t": "2020",
+     "v": 38.91
+    },
+    {
+     "t": "2021",
+     "v": 34.78
+    },
+    {
+     "t": "2022",
+     "v": 39.53
+    },
+    {
+     "t": "2023",
+     "v": 42.09
+    },
+    {
+     "t": "2024",
+     "v": 40.35
+    },
+    {
+     "t": "2025",
+     "v": 40.73
+    }
+   ]
+  },
+  {
+   "nome": "Combustíveis nas exportações de bens (Banco Mundial/UN Comtrade)",
+   "unidade": "% das exportações de mercadorias",
+   "fonte": "https://api.worldbank.org/v2/country/BRA/indicator/TX.VAL.FUEL.ZS.UN?format=json",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 2.17
+    },
+    {
+     "t": "1991",
+     "v": 1.38
+    },
+    {
+     "t": "1992",
+     "v": 1.61
+    },
+    {
+     "t": "1993",
+     "v": 1.67
+    },
+    {
+     "t": "1994",
+     "v": 1.82
+    },
+    {
+     "t": "1995",
+     "v": 0.88
+    },
+    {
+     "t": "1996",
+     "v": 0.88
+    },
+    {
+     "t": "1997",
+     "v": 0.6
+    },
+    {
+     "t": "1998",
+     "v": 0.69
+    },
+    {
+     "t": "1999",
+     "v": 0.84
+    },
+    {
+     "t": "2000",
+     "v": 1.65
+    },
+    {
+     "t": "2001",
+     "v": 3.59
+    },
+    {
+     "t": "2002",
+     "v": 4.88
+    },
+    {
+     "t": "2003",
+     "v": 5.19
+    },
+    {
+     "t": "2004",
+     "v": 4.57
+    },
+    {
+     "t": "2005",
+     "v": 5.99
+    },
+    {
+     "t": "2006",
+     "v": 7.68
+    },
+    {
+     "t": "2007",
+     "v": 8.32
+    },
+    {
+     "t": "2008",
+     "v": 9.55
+    },
+    {
+     "t": "2009",
+     "v": 9.0
+    },
+    {
+     "t": "2010",
+     "v": 9.9
+    },
+    {
+     "t": "2011",
+     "v": 10.56
+    },
+    {
+     "t": "2012",
+     "v": 11.02
+    },
+    {
+     "t": "2013",
+     "v": 7.66
+    },
+    {
+     "t": "2014",
+     "v": 9.35
+    },
+    {
+     "t": "2015",
+     "v": 7.36
+    },
+    {
+     "t": "2016",
+     "v": 6.45
+    },
+    {
+     "t": "2017",
+     "v": 8.71
+    },
+    {
+     "t": "2018",
+     "v": 12.77
+    },
+    {
+     "t": "2019",
+     "v": 13.71
+    },
+    {
+     "t": "2020",
+     "v": 11.89
+    },
+    {
+     "t": "2021",
+     "v": 13.66
+    },
+    {
+     "t": "2022",
+     "v": 17.0
+    },
+    {
+     "t": "2023",
+     "v": 16.24
+    },
+    {
+     "t": "2024",
+     "v": 16.96
+    },
+    {
+     "t": "2025",
+     "v": 16.12
+    }
+   ]
+  },
+  {
+   "nome": "Índice de Complexidade Econômica (ECI), Brasil (Atlas of Economic Complexity, Harvard Growth Lab, HS92)",
+   "unidade": "índice (desvios-padrão)",
+   "fonte": "https://atlas.hks.harvard.edu/api/graphql ; https://atlas.hks.harvard.edu/countries/76",
+   "nota": "Valores do vintage atual da API do Atlas, consultada em 28/10/2026. Posição no ranking: ver _alertas.md.",
+   "pontos": [
+    {
+     "t": "1995",
+     "v": 0.819
+    },
+    {
+     "t": "1996",
+     "v": 0.826
+    },
+    {
+     "t": "1997",
+     "v": 0.823
+    },
+    {
+     "t": "1998",
+     "v": 0.867
+    },
+    {
+     "t": "1999",
+     "v": 0.862
+    },
+    {
+     "t": "2000",
+     "v": 0.909
+    },
+    {
+     "t": "2001",
+     "v": 0.809
+    },
+    {
+     "t": "2002",
+     "v": 0.847
+    },
+    {
+     "t": "2003",
+     "v": 0.807
+    },
+    {
+     "t": "2004",
+     "v": 0.744
+    },
+    {
+     "t": "2005",
+     "v": 0.752
+    },
+    {
+     "t": "2006",
+     "v": 0.75
+    },
+    {
+     "t": "2007",
+     "v": 0.723
+    },
+    {
+     "t": "2008",
+     "v": 0.69
+    },
+    {
+     "t": "2009",
+     "v": 0.671
+    },
+    {
+     "t": "2010",
+     "v": 0.762
+    },
+    {
+     "t": "2011",
+     "v": 0.71
+    },
+    {
+     "t": "2012",
+     "v": 0.669
+    },
+    {
+     "t": "2013",
+     "v": 0.693
+    },
+    {
+     "t": "2014",
+     "v": 0.642
+    },
+    {
+     "t": "2015",
+     "v": 0.653
+    },
+    {
+     "t": "2016",
+     "v": 0.648
+    },
+    {
+     "t": "2017",
+     "v": 0.605
+    },
+    {
+     "t": "2018",
+     "v": 0.532
+    },
+    {
+     "t": "2019",
+     "v": 0.481
+    },
+    {
+     "t": "2020",
+     "v": 0.385
+    },
+    {
+     "t": "2021",
+     "v": 0.359
+    },
+    {
+     "t": "2022",
+     "v": 0.442
+    },
+    {
+     "t": "2023",
+     "v": 0.379
+    },
+    {
+     "t": "2024",
+     "v": 0.327
+    }
+   ]
+  },
+  {
+   "nome": "Taxa de câmbio real efetiva, deflator IPCA (BCB SGS 11752, média anual; alta = real mais depreciado)",
+   "unidade": "índice jun/1994 = 100",
+   "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11752/dados?formato=json",
+   "pontos": [
+    {
+     "t": "1994",
+     "v": 89.9
+    },
+    {
+     "t": "1995",
+     "v": 73.9
+    },
+    {
+     "t": "1996",
+     "v": 69.6
+    },
+    {
+     "t": "1997",
+     "v": 67.6
+    },
+    {
+     "t": "1998",
+     "v": 70.5
+    },
+    {
+     "t": "1999",
+     "v": 105.6
+    },
+    {
+     "t": "2000",
+     "v": 97.0
+    },
+    {
+     "t": "2001",
+     "v": 120.1
+    },
+    {
+     "t": "2002",
+     "v": 132.7
+    },
+    {
+     "t": "2003",
+     "v": 137.4
+    },
+    {
+     "t": "2004",
+     "v": 135.0
+    },
+    {
+     "t": "2005",
+     "v": 110.3
+    },
+    {
+     "t": "2006",
+     "v": 98.5
+    },
+    {
+     "t": "2007",
+     "v": 91.4
+    },
+    {
+     "t": "2008",
+     "v": 88.9
+    },
+    {
+     "t": "2009",
+     "v": 88.4
+    },
+    {
+     "t": "2010",
+     "v": 77.0
+    },
+    {
+     "t": "2011",
+     "v": 75.0
+    },
+    {
+     "t": "2012",
+     "v": 84.1
+    },
+    {
+     "t": "2013",
+     "v": 89.9
+    },
+    {
+     "t": "2014",
+     "v": 91.2
+    },
+    {
+     "t": "2015",
+     "v": 111.5
+    },
+    {
+     "t": "2016",
+     "v": 105.7
+    },
+    {
+     "t": "2017",
+     "v": 96.3
+    },
+    {
+     "t": "2018",
+     "v": 108.0
+    },
+    {
+     "t": "2019",
+     "v": 109.5
+    },
+    {
+     "t": "2020",
+     "v": 140.1
+    },
+    {
+     "t": "2021",
+     "v": 144.6
+    },
+    {
+     "t": "2022",
+     "v": 128.6
+    },
+    {
+     "t": "2023",
+     "v": 121.7
+    },
+    {
+     "t": "2024",
+     "v": 127.0
+    },
+    {
+     "t": "2025",
+     "v": 128.5
+    },
+    {
+     "t": "2026-jan-jul",
+     "v": 119.9
+    }
+   ]
+  },
+  {
+   "nome": "Saldo em transações correntes (Banco Mundial/BCB)",
+   "unidade": "% PIB",
+   "fonte": "https://api.worldbank.org/v2/country/BRA/indicator/BN.CAB.XOKA.GD.ZS?format=json",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": -0.99
+    },
+    {
+     "t": "1991",
+     "v": -0.42
+    },
+    {
+     "t": "1992",
+     "v": 1.86
+    },
+    {
+     "t": "1993",
+     "v": 0.01
+    },
+    {
+     "t": "1994",
+     "v": -0.22
+    },
+    {
+     "t": "1995",
+     "v": -2.36
+    },
+    {
+     "t": "1996",
+     "v": -2.73
+    },
+    {
+     "t": "1997",
+     "v": -3.64
+    },
+    {
+     "t": "1998",
+     "v": -4.05
+    },
+    {
+     "t": "1999",
+     "v": -4.47
+    },
+    {
+     "t": "2000",
+     "v": -4.05
+    },
+    {
+     "t": "2001",
+     "v": -4.44
+    },
+    {
+     "t": "2002",
+     "v": -1.85
+    },
+    {
+     "t": "2003",
+     "v": 0.39
+    },
+    {
+     "t": "2004",
+     "v": 1.34
+    },
+    {
+     "t": "2005",
+     "v": 1.31
+    },
+    {
+     "t": "2006",
+     "v": 0.97
+    },
+    {
+     "t": "2007",
+     "v": -0.2
+    },
+    {
+     "t": "2008",
+     "v": -2.1
+    },
+    {
+     "t": "2009",
+     "v": -1.76
+    },
+    {
+     "t": "2010",
+     "v": -3.93
+    },
+    {
+     "t": "2011",
+     "v": -3.19
+    },
+    {
+     "t": "2012",
+     "v": -3.76
+    },
+    {
+     "t": "2013",
+     "v": -3.57
+    },
+    {
+     "t": "2014",
+     "v": -4.5
+    },
+    {
+     "t": "2015",
+     "v": -3.52
+    },
+    {
+     "t": "2016",
+     "v": -1.7
+    },
+    {
+     "t": "2017",
+     "v": -1.22
+    },
+    {
+     "t": "2018",
+     "v": -2.81
+    },
+    {
+     "t": "2019",
+     "v": -3.41
+    },
+    {
+     "t": "2020",
+     "v": -1.64
+    },
+    {
+     "t": "2021",
+     "v": -2.36
+    },
+    {
+     "t": "2022",
+     "v": -2.15
+    },
+    {
+     "t": "2023",
+     "v": -1.23
+    },
+    {
+     "t": "2024",
+     "v": -2.99
+    },
+    {
+     "t": "2025",
+     "v": -2.93
+    }
+   ]
+  },
+  {
+   "nome": "População de 15 a 64 anos no total (Banco Mundial/ONU WPP)",
+   "unidade": "% da população",
+   "fonte": "https://api.worldbank.org/v2/country/BRA/indicator/SP.POP.1564.TO.ZS?format=json",
+   "nota": "Pico em 2017 (69,75%).",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 60.39
+    },
+    {
+     "t": "1991",
+     "v": 60.76
+    },
+    {
+     "t": "1992",
+     "v": 61.18
+    },
+    {
+     "t": "1993",
+     "v": 61.62
+    },
+    {
+     "t": "1994",
+     "v": 62.08
+    },
+    {
+     "t": "1995",
+     "v": 62.55
+    },
+    {
+     "t": "1996",
+     "v": 63.03
+    },
+    {
+     "t": "1997",
+     "v": 63.52
+    },
+    {
+     "t": "1998",
+     "v": 64.0
+    },
+    {
+     "t": "1999",
+     "v": 64.48
+    },
+    {
+     "t": "2000",
+     "v": 64.96
+    },
+    {
+     "t": "2001",
+     "v": 65.44
+    },
+    {
+     "t": "2002",
+     "v": 65.9
+    },
+    {
+     "t": "2003",
+     "v": 66.33
+    },
+    {
+     "t": "2004",
+     "v": 66.74
+    },
+    {
+     "t": "2005",
+     "v": 67.11
+    },
+    {
+     "t": "2006",
+     "v": 67.45
+    },
+    {
+     "t": "2007",
+     "v": 67.76
+    },
+    {
+     "t": "2008",
+     "v": 68.06
+    },
+    {
+     "t": "2009",
+     "v": 68.35
+    },
+    {
+     "t": "2010",
+     "v": 68.63
+    },
+    {
+     "t": "2011",
+     "v": 68.89
+    },
+    {
+     "t": "2012",
+     "v": 69.14
+    },
+    {
+     "t": "2013",
+     "v": 69.36
+    },
+    {
+     "t": "2014",
+     "v": 69.53
+    },
+    {
+     "t": "2015",
+     "v": 69.64
+    },
+    {
+     "t": "2016",
+     "v": 69.72
+    },
+    {
+     "t": "2017",
+     "v": 69.75
+    },
+    {
+     "t": "2018",
+     "v": 69.72
+    },
+    {
+     "t": "2019",
+     "v": 69.67
+    },
+    {
+     "t": "2020",
+     "v": 69.64
+    },
+    {
+     "t": "2021",
+     "v": 69.62
+    },
+    {
+     "t": "2022",
+     "v": 69.55
+    },
+    {
+     "t": "2023",
+     "v": 69.43
+    },
+    {
+     "t": "2024",
+     "v": 69.29
+    },
+    {
+     "t": "2025",
+     "v": 69.13
+    }
+   ]
+  },
+  {
+   "nome": "Razão de dependência total (Banco Mundial/ONU WPP)",
+   "unidade": "dependentes por 100 em idade ativa",
+   "fonte": "https://api.worldbank.org/v2/country/BRA/indicator/SP.POP.DPND?format=json",
+   "nota": "Mínimo em 2017 (43,37).",
+   "pontos": [
+    {
+     "t": "1990",
+     "v": 65.59
+    },
+    {
+     "t": "1991",
+     "v": 64.58
+    },
+    {
+     "t": "1992",
+     "v": 63.46
+    },
+    {
+     "t": "1993",
+     "v": 62.28
+    },
+    {
+     "t": "1994",
+     "v": 61.08
+    },
+    {
+     "t": "1995",
+     "v": 59.87
+    },
+    {
+     "t": "1996",
+     "v": 58.65
+    },
+    {
+     "t": "1997",
+     "v": 57.44
+    },
+    {
+     "t": "1998",
+     "v": 56.25
+    },
+    {
+     "t": "1999",
+     "v": 55.08
+    },
+    {
+     "t": "2000",
+     "v": 53.93
+    },
+    {
+     "t": "2001",
+     "v": 52.82
+    },
+    {
+     "t": "2002",
+     "v": 51.75
+    },
+    {
+     "t": "2003",
+     "v": 50.75
+    },
+    {
+     "t": "2004",
+     "v": 49.83
+    },
+    {
+     "t": "2005",
+     "v": 49.01
+    },
+    {
+     "t": "2006",
+     "v": 48.27
+    },
+    {
+     "t": "2007",
+     "v": 47.58
+    },
+    {
+     "t": "2008",
+     "v": 46.93
+    },
+    {
+     "t": "2009",
+     "v": 46.31
+    },
+    {
+     "t": "2010",
+     "v": 45.72
+    },
+    {
+     "t": "2011",
+     "v": 45.16
+    },
+    {
+     "t": "2012",
+     "v": 44.64
+    },
+    {
+     "t": "2013",
+     "v": 44.18
+    },
+    {
+     "t": "2014",
+     "v": 43.82
+    },
+    {
+     "t": "2015",
+     "v": 43.59
+    },
+    {
+     "t": "2016",
+     "v": 43.44
+    },
+    {
+     "t": "2017",
+     "v": 43.37
+    },
+    {
+     "t": "2018",
+     "v": 43.43
+    },
+    {
+     "t": "2019",
+     "v": 43.54
+    },
+    {
+     "t": "2020",
+     "v": 43.59
+    },
+    {
+     "t": "2021",
+     "v": 43.64
+    },
+    {
+     "t": "2022",
+     "v": 43.79
+    },
+    {
+     "t": "2023",
+     "v": 44.03
+    },
+    {
+     "t": "2024",
+     "v": 44.33
+    },
+    {
+     "t": "2025",
+     "v": 44.65
+    }
+   ]
+  }
+ ],
+ "decomposicao_crescimento": {
+  "metodo": "Cálculo próprio com a Penn World Table 11.0: g(PIB) = a.g(K) + (1-a).[g(emprego) + g(capital humano)] + PTF, a = 1 - participação média do trabalho no período (labsh). Taxas logarítmicas médias, % a.a., entre o último ano do governo anterior e o último ano do período. PWT termina em 2023, então Lula 3 cobre apenas 2023.",
+  "fonte": "https://dataverse.nl/api/access/datafile/554105",
+  "linhas": [
+   {
+    "periodo": "FHC (1995-2002)",
+    "pib": 2.35,
+    "capital": 1.36,
+    "trabalho": 0.9,
+    "capital_humano": 1.02,
+    "ptf": -0.92
+   },
+   {
+    "periodo": "Lula 1-2 (2003-2010)",
+    "pib": 3.97,
+    "capital": 1.33,
+    "trabalho": 1.3,
+    "capital_humano": 1.02,
+    "ptf": 0.32
+   },
+   {
+    "periodo": "Dilma (2011-2015)",
+    "pib": 1.13,
+    "capital": 1.54,
+    "trabalho": 0.77,
+    "capital_humano": 1.46,
+    "ptf": -2.64
+   },
+   {
+    "periodo": "Temer (2016-2018)",
+    "pib": -0.08,
+    "capital": 0.49,
+    "trabalho": -0.07,
+    "capital_humano": 1.36,
+    "ptf": -1.86
+   },
+   {
+    "periodo": "Bolsonaro (2019-2022)",
+    "pib": 1.38,
+    "capital": 0.84,
+    "trabalho": 0.83,
+    "capital_humano": 1.17,
+    "ptf": -1.46
+   },
+   {
+    "periodo": "Lula 3 (só 2023)",
+    "pib": 3.19,
+    "capital": 0.87,
+    "trabalho": 0.71,
+    "capital_humano": 1.04,
+    "ptf": 0.58
+   },
+   {
+    "periodo": "1995-2023",
+    "pib": 2.23,
+    "capital": 1.2,
+    "trabalho": 0.88,
+    "capital_humano": 1.15,
+    "ptf": -1.0
+   }
+  ],
+  "ted_brasil": "Conference Board TED (out/2026), contribuições ao crescimento do PIB, % a.a.: 2000-2007 PIB 3,5 = trabalho 1,2 + qualidade do trabalho 0,8 + capital 1,2 + PTF -0,1 (com arredondamento); 2011-2019 PIB 0,7 = 0,1 + 0,9 + 1,0 - 1,5; 2024 PIB 3,4 = 1,4 + 0,6 + 0,6 + 0,6; 2025 PIB 2,3 = 0,8 + 0,6 + 0,7 - 0,1."
+ },
+ "capital_por_periodo": {
+  "metodo": "Cálculo próprio: crescimento médio anual do estoque líquido de capital do Ipea e do emprego (OIT/Banco Mundial), do último ano do governo anterior ao último ano do período; Lula 3 = 2022-2025.",
+  "fonte": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCTOT')",
+  "linhas": [
+   {
+    "periodo": "FHC",
+    "capital_total": 2.46,
+    "construcao": 2.23,
+    "maquinas": 3.07,
+    "emprego": 2.0,
+    "capital_por_ocupado": 0.45,
+    "pib_por_ocupado": 0.39,
+    "ky_inicio_fim": "2,50 -> 2,51"
+   },
+   {
+    "periodo": "Lula 1-2",
+    "capital_total": 2.21,
+    "construcao": 1.6,
+    "maquinas": 4.08,
+    "emprego": 1.86,
+    "capital_por_ocupado": 0.35,
+    "pib_por_ocupado": 2.11,
+    "ky_inicio_fim": "2,51 -> 2,18"
+   },
+   {
+    "periodo": "Dilma (2011-2015)",
+    "capital_total": 2.48,
+    "construcao": 2.24,
+    "maquinas": 3.67,
+    "emprego": 0.81,
+    "capital_por_ocupado": 1.67,
+    "pib_por_ocupado": 0.32,
+    "ky_inicio_fim": "2,18 -> 2,24"
+   },
+   {
+    "periodo": "Temer (2016-2018)",
+    "capital_total": -0.29,
+    "construcao": 0.27,
+    "maquinas": -2.34,
+    "emprego": -0.12,
+    "capital_por_ocupado": -0.17,
+    "pib_por_ocupado": 0.04,
+    "ky_inicio_fim": "2,24 -> 2,23"
+   },
+   {
+    "periodo": "Bolsonaro",
+    "capital_total": 0.37,
+    "construcao": 0.59,
+    "maquinas": -1.04,
+    "emprego": 1.35,
+    "capital_por_ocupado": -0.98,
+    "pib_por_ocupado": 0.02,
+    "ky_inicio_fim": "2,23 -> 2,14"
+   },
+   {
+    "periodo": "Lula 3 (2023-2025)",
+    "capital_total": 0.88,
+    "construcao": 1.08,
+    "maquinas": -0.98,
+    "emprego": 1.71,
+    "capital_por_ocupado": -0.82,
+    "pib_por_ocupado": 1.23,
+    "ky_inicio_fim": "2,14 -> 2,04"
+   }
+  ]
+ },
+ "analise": [
+  {
+   "titulo": "Capital por trabalhador parou de crescer em 2016 e o de máquinas encolhe desde 2014",
+   "texto": "Pela série do Ipea (metodologia Souza Júnior e Cornelio), o estoque líquido de capital fixo por pessoa ocupada era de R$ 233 mil em 1994, R$ 248 mil em 2010, chegou a R$ 275 mil em 2016 e voltou a R$ 252 mil em 2025, sempre em reais de 2025. Em três décadas o trabalhador brasileiro ganhou cerca de 8% de capital, quase todo ele obtido no governo Dilma, quando o estoque cresceu 2,5% ao ano e o emprego só 0,8%. Desde 2016 o capital por ocupado cai: -0,2% ao ano com Temer, -1,0% com Bolsonaro e -0,8% em 2023-2025. O dado mais grave está em máquinas e equipamentos. O estoque atingiu R$ 4,87 trilhões em 2014 e estava em R$ 4,17 trilhões em 2025, queda de 14%; por ocupado, de R$ 52,8 mil para R$ 40,9 mil. O estoque de máquinas encolheu em quase todos os anos de 2015 a 2024 (a nota do Ipea de abril de 2025 registra investimento líquido em máquinas negativo de 2021 a 2023 e só levemente positivo em 2024). A construção sustenta o estoque total, e construção amadurece devagar. A Penn World Table 11.0 conta outra história, com capital crescendo 1,8% ao ano em 2018-2022; a divergência está em _alertas.md."
+  },
+  {
+   "titulo": "A relação capital-produto caiu ao menor nível desde 1977: falta capital, não sobra",
+   "texto": "No Ipea, K/Y foi de 2,58 em 1990 para 2,51 em 2002, 2,09 em 2011, subiu a 2,32 em 2016 e desceu a 2,04 em 2025; 2024 (2,037) e 2025 (2,044) são os menores valores desde 1977 (1,971) na série anual, que começa em 1947. A produtividade do capital (Y/K) passou de 0,39 para 0,49. Os dois movimentos têm leituras distintas. Em 2011-2016 K/Y subiu porque o capital continuou crescendo enquanto o PIB caía: a taxa de investimento de 20% a 21% do PIB do primeiro governo Dilma não se converteu em produto, sinal de alocação ruim e de capacidade ociosa no fim do ciclo. De 2017 em diante K/Y cai porque o PIB se recupera sobre um estoque estagnado; a nota do Ipea de abril de 2025 atribui a queda à recuperação do produto, com a recomposição do capital ainda gradual. Uma economia que produz cada vez mais com o mesmo capital opera com pouca folga, o que eleva o retorno marginal do investimento novo e torna o investimento uma restrição de oferta para crescer acima de 2% ao ano. A PWT 11.0 mostra K/Y subindo de 3,85 (1994) para 4,37 (2023), conclusão oposta; a série nacional do Ipea usa as vidas úteis e a depreciação por ativo das contas do IBGE e é a referência adotada aqui."
+  },
+  {
+   "titulo": "Produtividade do trabalho: surto nos anos 2000, estagnação desde 2013 e o Brasil parado em um quarto dos EUA",
+   "texto": "O Observatório da Produtividade (FGV IBRE) mede a produtividade por hora trabalhada: -0,6% ao ano em 1981-1990, 0,2% em 1990-2000, 1,6% em 2000-2010, 1,5% em 2010-2014 e -0,5% em 2014-2019; no acumulado de 1981 a 2021, 0,6% ao ano. Depois da pandemia vieram +2,3% (2023), +0,1% (2024) e +0,4% (2025), por horas efetivas. Na comparação internacional, a PWT 11.0 põe o PIB por hora brasileiro em 15,4% do americano em 1990, 24,6% em 2010 e 23,9% em 2023; a Conference Board (TED, out/2026) dá 22% em 2024. No mesmo período a Coreia foi de 28,7% para 64,2%, o Chile de 21,9% para 38,2% e a China de 3,2% para 21,2%, praticamente alcançando o Brasil por hora trabalhada. O México é o caso de regressão: de 47,9% para 32,1%. A frase 'estagnada há 40 anos' exagera pouco: houve crescimento de cerca de 27% em quatro décadas, concentrado entre 2003 e 2013, e convergência nula em relação aos EUA desde 2010."
+  },
+  {
+   "titulo": "Contas de crescimento: o Brasil cresceu acumulando fatores, com PTF negativa na maior parte dos governos",
+   "texto": "Pela decomposição feita aqui com a PWT 11.0, o PIB cresceu 2,23% ao ano entre 1995 e 2023: capital contribuiu 1,20 ponto, horas de trabalho (emprego) 0,88, capital humano 1,15, e a PTF tirou 1,00 ponto. O único governo com PTF positiva foi Lula 1-2 (+0,32 ponto ao ano em 2003-2010), período de termos de troca favoráveis e formalização do emprego. Dilma registra a pior PTF (-2,64 ao ano em 2011-2015), com capital crescendo e produto parado; Temer (-1,86) e Bolsonaro (-1,46) também ficam negativos. A Conference Board chega ao mesmo padrão: PTF de -0,1% ao ano em 2000-2007, -1,5% em 2011-2019, +1,6% em 2023, +0,6% em 2024 e -0,1% em 2025. A FGV IBRE, que não desconta a escolaridade da mesma forma, encontra PTF de +0,3% ao ano em 1981-2019, positiva mas mínima. A diferença entre as fontes vem quase toda do tratamento do capital humano: os anos de estudo do brasileiro sobem rápido, o produto não acompanha, e o resíduo absorve a distância entre quantidade e qualidade da educação."
+  },
+  {
+   "titulo": "Investimento: nível baixo, composição pior e investimento público abaixo da depreciação",
+   "texto": "A FBCF ficou em média em 18,5% do PIB com FHC (1995-2002), 18,2% com Lula 1-2, 20,0% com Dilma (2011-2015), 15,1% com Temer, 16,9% com Bolsonaro e 16,7% em 2023-2025, com 16,3% no primeiro semestre de 2026 (IBGE e Banco Mundial). Em 2025 o Chile investiu 24,1% do PIB, o México 22,4%, a Coreia 28,3% e a Índia 31,7%. O investimento público, somando União, estados, municípios e estatais federais, foi de 4,72% do PIB em 2010, mínimo de 1,94% em 2017, 2,02% em 2021, 3,05% em 2024 e 2,71% em 2025 (Observatório de Política Fiscal, FGV IBRE); o Observatório estima investimento público líquido negativo, em média -0,18% do PIB desde 2010, isto é, o Estado não repõe o próprio capital. O FMI (PIMA, 2018) estimou estoque de capital público de 35% do PIB em 2015, contra 87% na América Latina e 92% nos emergentes, e uma perda de eficiência de 39% em relação à fronteira. O crédito de longo prazo encolheu: desembolsos do BNDES de 4,3% do PIB (2010) para 0,76% (2019) e 1,3% (2025). A composição piorou junto: a parcela de máquinas no estoque de capital, que subiu de 15,9% (1990) para 19,8% (2014), voltou a 16,2% em 2025."
+  },
+  {
+   "titulo": "Desindustrialização precoce e perda de complexidade",
+   "texto": "A indústria de transformação respondia por 17,8% do valor adicionado em 2004 e por 12,0% em 2014 e 2019 (IBGE, preços correntes); voltou a 15,2% em 2023 por efeito de preços e caiu a 13,7% em 2025 e 13,2% no primeiro semestre de 2026. Em volume, a produção física da transformação (PIM-PF) estava em 2025 14,7% abaixo da média de 2013. No emprego, a indústria geral caiu de 14,7% dos ocupados (4º tri de 2012) para 12,7% (4º tri de 2025). Rodrik (2015, NBER w20935) chama isso de desindustrialização prematura: o emprego industrial atinge o pico em renda per capita muito inferior à dos países que se industrializaram antes, e a América Latina é o caso típico. A pauta mudou de natureza: manufaturados eram 57,6% das exportações de bens em 2000 e 23,9% em 2025, enquanto alimentos subiram de 23% para 41% e combustíveis de 1,7% para 16%. O Índice de Complexidade Econômica do Atlas de Harvard caiu de 0,91 (2000) para 0,76 (2010), 0,53 (2018), 0,44 (2022) e 0,33 (2024), o menor da série. O IEDI (Carta 1188, fev/2023), com dados do Atlas, registra o Brasil em 25º lugar no ranking de complexidade em 1995, 46º em 2010, 50º em 2018 e 60º em 2020."
+  },
+  {
+   "titulo": "Restrição externa e as leituras heterodoxas: Thirlwall, Kaldor-Verdoorn, câmbio e supermultiplicador",
+   "texto": "Pela lei de Thirlwall, o crescimento de longo prazo compatível com o balanço de pagamentos é o crescimento das exportações dividido pela elasticidade-renda das importações. Um cálculo simples feito aqui com dados do Banco Mundial (elasticidade por mínimos quadrados de 1,87 em 1995-2025 e exportações reais crescendo 4,7% ao ano) dá cerca de 2,5% ao ano, contra 2,2% observados; é ilustrativo e não substitui a econometria de Nakabashi (2007), Teixeira et al. (2017) e Diniz e Ferreira (2018), que encontram crescimento restrito pelo balanço de pagamentos e elasticidade-renda das importações alta e instável. Lula 1-2 cresceu 4% ao ano com conta corrente média de -0,5% do PIB porque os termos de troca ampliaram a restrição; com a reversão, o déficit voltou a -3,7% do PIB em 2011-2015 e ronda -2,4% desde 2019. A lei de Kaldor-Verdoorn (produtividade industrial puxada pelo crescimento da produção industrial) tem confirmação para a indústria brasileira em Marinho, Nogueira e Rosa (2002) e em Nassif, Feijó e Araújo (2017), o que liga a perda de produção industrial à estagnação da produtividade. O novo-desenvolvimentismo (Bresser-Pereira, Oreiro, Marconi) atribui a desindustrialização ao câmbio sobreapreciado: o câmbio real efetivo apreciou de 137 (2003) para 75 (2011) enquanto a indústria encolhia; porém a depreciação até 145 (2021) não trouxe a produção industrial de volta ao nível de 2013, de modo que câmbio competitivo parece necessário e insuficiente. Pelo supermultiplicador sraffiano (Serrano; Freitas e Dweck, 2013), o investimento é induzido pela demanda autônoma (exportações, gasto público, consumo financiado por crédito, construção residencial). Avritzer, Freitas e Braga (2021) encontram causalidade de Granger do produto para o investimento em 1952-2017, e Haluska (2023) acha os fatos de 2000-2019 compatíveis com o modelo. A visão de oferta (FGV IBRE) responde com a PTF negativa: demanda sem ganho de eficiência esbarra em inflação e em restrição externa. O episódio Dilma (investimento alto, PTF muito negativa) e o episódio Temer (corte de investimento público, PIB parado) dão munição às duas leituras."
+  },
+  {
+   "titulo": "Demografia e pontos de alavancagem: onde um ponto rende mais",
+   "texto": "A população de 15 a 64 anos atingiu o pico de 69,75% do total em 2017 e estava em 69,13% em 2025; a razão de dependência, mínima em 2017 (43,4), subiu a 44,7. O IBGE projeta o pico populacional em 2041 (220,4 milhões) e fecundidade de 1,57 filho por mulher em 2023. Entre 1994 e 2025 o PIB por ocupado cresceu 0,8% ao ano e o emprego cerca de 1,5%; se o emprego passar a crescer 0,5% ao ano, manter 2,5% de crescimento exigirá produtividade de 2% ao ano, mais que o dobro da média histórica (cálculo próprio). Com esses dados, as alavancas se ordenam assim. (1) Investimento público em infraestrutura: Orair e Siqueira (Economia e Sociedade, 2018) estimam multiplicador acima de 2 em recessões e no máximo 0,8 em expansões; com capital público de 35% do PIB e K/Y no menor nível desde 1977, o retorno marginal tende a ser alto, desde que a seleção de projetos feche parte da perda de eficiência de 39% medida pelo FMI. (2) Qualidade da educação: o capital humano da PWT subiu 84% entre 1994 e 2023 sem ganho de produtividade, e no PISA 2022 o Brasil fez 379 pontos em matemática contra 472 da OCDE, com 27% dos alunos no nível básico contra 69%; o gargalo é qualidade, e o retorno vem em décadas. (3) Eficiência alocativa: o estudo do Ministério da Fazenda para a PEC 45/2019 projetou PIB potencial 20,2% maior em 15 anos com a reforma tributária sobre o consumo, a maior parte via produtividade. (4) Máquinas e equipamentos: o estoque caiu 14% desde 2014, e recompor a parcela de máquinas atua sobre a produtividade do trabalho mais rápido que a construção. (5) Crédito de longo prazo e câmbio rendem menos por ponto: Lazzarini et al. (World Development, 2015) não acharam efeito consistente dos empréstimos do BNDES de 2002-2009 sobre investimento das firmas, e a depreciação real de 2015-2021 não reindustrializou."
+  }
+ ],
+ "comparativo_bolsonaro": [
+  {
+   "indicador": "Taxa de investimento (FBCF/PIB, IBGE)",
+   "bolsonaro": "média de 16,9% em 2019-2022 (15,5 -> 17,8)",
+   "lula3": "média de 16,7% em 2023-2025 (16,4; 16,9; 16,8); 16,3% no 1º sem/2026",
+   "leitura": "Praticamente empatados; o pico de 2021-2022 teve componente de importação de plataformas de petróleo (Repetro) e a taxa recua em 2026 com a Selic entre 15% e 13,75%."
+  },
+  {
+   "indicador": "Estoque líquido de capital (Ipea), crescimento",
+   "bolsonaro": "+0,37% a.a. (2018-2022)",
+   "lula3": "+0,88% a.a. (2022-2025)",
+   "leitura": "Lula 3 acumula mais capital, puxado pela construção; ambos ficam muito abaixo dos 2,2% a 2,5% ao ano de 1995-2015."
+  },
+  {
+   "indicador": "Estoque de máquinas e equipamentos (Ipea)",
+   "bolsonaro": "-1,04% a.a. (4,48 -> 4,29 tri de R$ de 2025)",
+   "lula3": "-0,98% a.a. (4,29 -> 4,17 tri)",
+   "leitura": "O encolhimento do parque de máquinas, iniciado em 2015, continua nos dois governos."
+  },
+  {
+   "indicador": "Capital por pessoa ocupada (cálculo próprio, Ipea e OIT)",
+   "bolsonaro": "-0,98% a.a. (R$ 268,5 mil -> 258,2 mil)",
+   "lula3": "-0,82% a.a. (R$ 258,2 mil -> 251,9 mil)",
+   "leitura": "Nos dois períodos o emprego cresce mais que o capital; a produção fica mais intensiva em trabalho."
+  },
+  {
+   "indicador": "Relação capital-produto (Ipea)",
+   "bolsonaro": "2,23 (2018) -> 2,14 (2022)",
+   "lula3": "2,14 (2022) -> 2,04 (2025), menor nível desde 1977",
+   "leitura": "A queda reflete recuperação do PIB sobre capital estagnado; indica pouca folga de capacidade em 2025-2026."
+  },
+  {
+   "indicador": "Produtividade por hora trabalhada (FGV IBRE, horas efetivas)",
+   "bolsonaro": "acumulado -0,8% em 2020-2022 (+12,9; -8,1; -4,4)",
+   "lula3": "acumulado +2,8% em 2023-2025 (+2,3; +0,1; +0,4)",
+   "leitura": "A pandemia distorce 2020-2021 (saída de trabalhadores de baixa produtividade e retorno); Lula 3 tem ganho modesto e concentrado em 2023."
+  },
+  {
+   "indicador": "PTF (Conference Board TED, out/2026)",
+   "bolsonaro": "média de -0,6% a.a. em 2020-2022 (2,2; -2,9; -1,0)",
+   "lula3": "média de +0,7% a.a. em 2023-2025 (1,6; 0,6; -0,1)",
+   "leitura": "Lula 3 é melhor, com safra recorde em 2023 pesando; a PTF voltou a zero em 2025."
+  },
+  {
+   "indicador": "Indústria de transformação: produção física (PIM-PF, 2022 = 100)",
+   "bolsonaro": "100,7 (2018) -> 100,0 (2022)",
+   "lula3": "100,0 (2022) -> 102,3 (2025); 101,6 em jan-ago/2026",
+   "leitura": "Ambos ficam cerca de 15% abaixo de 2013; não há reindustrialização em nenhum dos dois."
+  },
+  {
+   "indicador": "Transformação no valor adicionado (IBGE, preços correntes)",
+   "bolsonaro": "12,0% (2019) -> 15,1% (2022)",
+   "lula3": "15,2% (2023) -> 13,7% (2025); 13,2% no 1º sem/2026",
+   "leitura": "A alta de 2021-2022 foi efeito de preços (commodities e insumos), não de volume; o recuo em Lula 3 é a volta dos preços relativos."
+  },
+  {
+   "indicador": "Complexidade econômica (ECI, Atlas de Harvard)",
+   "bolsonaro": "0,53 (2018) -> 0,44 (2022)",
+   "lula3": "0,44 (2022) -> 0,33 (2024), mínimo da série",
+   "leitura": "A perda de complexidade é contínua desde 2000 e acelera com o peso crescente de petróleo, minério e soja."
+  },
+  {
+   "indicador": "Manufaturados nas exportações de bens",
+   "bolsonaro": "32,4% (2018) -> 25,3% (2022)",
+   "lula3": "25,3% (2022) -> 23,9% (2025)",
+   "leitura": "A queda mais forte ocorre em 2019-2020; em Lula 3 a participação se estabiliza em nível baixo."
+  },
+  {
+   "indicador": "Investimento público (FGV IBRE, inclui estatais federais)",
+   "bolsonaro": "2,68% (2020), 2,02% (2021), 2,53% (2022)",
+   "lula3": "2,61% (2023), 3,05% (2024), 2,71% (2025)",
+   "leitura": "Lula 3 investe cerca de 0,4 ponto do PIB a mais; parte do aumento de 2024 veio de municípios em ano eleitoral e caiu em 2025."
+  },
+  {
+   "indicador": "Desembolsos do BNDES",
+   "bolsonaro": "0,76% do PIB em 2019, mínimo da série em 2021",
+   "lula3": "1,3% do PIB em 2025; 1,4% em 12 meses até jun/2026",
+   "leitura": "Retomada parcial, muito abaixo dos 4,3% de 2010; a TLP (2018) limita o subsídio implícito."
+  },
+  {
+   "indicador": "Câmbio real efetivo (BCB, jun/1994 = 100)",
+   "bolsonaro": "média de 130,7 em 2019-2022 (pico 144,6 em 2021)",
+   "lula3": "média de 125,7 em 2023-2025; 119,9 em jan-jul/2026",
+   "leitura": "O real ficou mais depreciado com Bolsonaro, por pandemia e risco fiscal; o câmbio mais fraco não reverteu a desindustrialização."
+  },
+  {
+   "indicador": "Saldo em transações correntes",
+   "bolsonaro": "média de -2,4% do PIB (2019-2022)",
+   "lula3": "média de -2,4% do PIB (2023-2025)",
+   "leitura": "Restrição externa igual nos dois períodos, financiada por investimento direto."
+  },
+  {
+   "indicador": "População de 15 a 64 anos no total",
+   "bolsonaro": "69,72% (2018) -> 69,55% (2022)",
+   "lula3": "69,55% (2022) -> 69,13% (2025)",
+   "leitura": "Tendência demográfica, não ato de governo; o bônus já se esgotava em 2017."
+  }
+ ],
+ "contraponto": "O governo Lula 3 herda e mantém as fragilidades estruturais: o capital por ocupado caiu 0,8% ao ano em 2022-2025, o estoque de máquinas continuou encolhendo, a FBCF de 2023-2025 (16,7% do PIB) ficou abaixo da média de Bolsonaro (16,9%) e recuou a 16,3% no primeiro semestre de 2026, a PTF voltou a -0,1% em 2025, a produtividade por hora cresceu 0,1% e 0,4% em 2024 e 2025, a indústria perdeu participação de novo e a complexidade econômica marcou o pior valor da série em 2024. O crescimento de 2023-2025 veio sobretudo de emprego e de agropecuária, fontes que a demografia e o clima limitam. Do lado do alarme, a tese de que gasto corrente sem investimento não sustenta crescimento encontra respaldo na queda de K/Y ao menor nível desde 1977: a economia cresce sobre capacidade que não se amplia. Do lado oposto, a pior PTF da série é do período Dilma, a menor taxa de investimento é de Temer e o menor investimento público é de 2017; nenhum governo desde 2011 alterou a trajetória estrutural, e a pandemia (2020-2021), o ciclo global de juros e as tarifas americanas de 2025 pesam nas duas comparações. Todas as razões sobre o PIB mudarão com a troca do ano-base das Contas Nacionais (2010 para 2021), que a FGV IBRE estima elevar o PIB nominal de 2024 em cerca de 4%.",
+ "fontes": [
+  "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCMQEQ')",
+  "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCTOT')",
+  "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFRCP')",
+  "https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/41056-populacao-do-pais-vai-parar-de-crescer-em-2041.html",
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11752/dados?formato=json",
+  "https://api.worldbank.org/v2/country/BRA/indicator/BN.CAB.XOKA.GD.ZS?format=json",
+  "https://api.worldbank.org/v2/country/BRA/indicator/NE.IMP.GNFS.KD?format=json",
+  "https://api.worldbank.org/v2/country/BRA/indicator/SL.GDP.PCAP.EM.KD?format=json",
+  "https://api.worldbank.org/v2/country/BRA/indicator/SP.POP.1564.TO.ZS?format=json",
+  "https://api.worldbank.org/v2/country/BRA/indicator/SP.POP.DPND?format=json",
+  "https://api.worldbank.org/v2/country/BRA/indicator/TX.VAL.FOOD.ZS.UN?format=json",
+  "https://api.worldbank.org/v2/country/BRA/indicator/TX.VAL.FUEL.ZS.UN?format=json",
+  "https://api.worldbank.org/v2/country/BRA/indicator/TX.VAL.MANF.ZS.UN?format=json",
+  "https://api.worldbank.org/v2/country/BRA;CHL;MEX;KOR;CHN;IND;USA/indicator/NE.GDI.FTOT.ZS?format=json",
+  "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
+  "https://apisidra.ibge.gov.br/values/t/5434/n1/all/v/4090/p/201204,201404,201804,202204,202504,202602/c888/all",
+  "https://apisidra.ibge.gov.br/values/t/8888/n1/all/v/12606/p/all/c544/129316",
+  "https://atlas.hks.harvard.edu/api/graphql",
+  "https://atlas.hks.harvard.edu/countries/76",
+  "https://blogdoibre.fgv.br/posts/apos-elevacao-atipica-em-2020-ptf-apresenta-forte-queda-em-2021",
+  "https://blogdoibre.fgv.br/posts/o-que-esperar-da-revisao-metodologica-do-pib-brasileiro",
+  "https://blogdoibre.fgv.br/posts/produtividade-total-dos-fatores-no-brasil-uma-visao-de-longo-prazo",
+  "https://blogdoibre.fgv.br/posts/resultados-dos-indicadores-de-produtividade-do-trabalho-no-quarto-trimestre-de-2025",
+  "https://dash.harvard.edu/bitstream/1/15786565/1/lazzarini,musacchio,bandeira-de-mello,marcon_what-do-development-banks-do.pdf",
+  "https://dataverse.nl/api/access/datafile/554105",
+  "https://ibre.fgv.br/blog-da-conjuntura-economica/artigos/investimento-cresce-mas-nao-rompe-estagnacao-registrada-desde",
+  "https://ideas.repec.org/h/pal/palchp/978-1-137-31916-6_8.html",
+  "https://iedi.org.br/artigos/textos/english/letter_iedi_n_1054.html",
+  "https://observatorio-politica-fiscal.ibre.fgv.br/series-historicas/investimentos-publicos/investimentos-publicos-serie-historica-1947-2025",
+  "https://periodicos.fgv.br/rbe/article/download/820/157/404",
+  "https://periodicos.sbu.unicamp.br/ojs/index.php/ecos/article/view/8642833",
+  "https://periodicos.sbu.unicamp.br/ojs/index.php/ecos/article/view/8674527",
+  "https://periodicos.sbu.unicamp.br/ojs/index.php/rbi/article/view/8650856",
+  "https://periodicos.ufsc.br/index.php/economia/article/download/2175-8085.2018v21n1p77/36680/193112",
+  "https://pt.org.br/bolsonaro-fez-investimento-publico-cair-ao-menor-patamar-da-historia/",
+  "https://pt.org.br/em-2021-pais-teve-o-2o-pior-investimento-publico-desde-1947-o-1o-em-2017/",
+  "https://repositorio.ipea.gov.br/server/api/core/bitstreams/d2308c33-a412-41e8-88fd-6f9bd82c72bc/content",
+  "https://web.bndes.gov.br/bib/jspui/bitstream/1408/28928/1/PRLiiv_216874_Estudos%20especiais%20do%20BNDES%202025_.pdf",
+  "https://www.bresserpereira.org.br/",
+  "https://www.canalrural.com.br/opiniao-noticias/pib-de-2025-acende-alerta-amarelo-na-economia/",
+  "https://www.conference-board.org/pdf_free/TED-SummaryTables-Charts-oct2026.pdf",
+  "https://www.eco.unicamp.br/images/arquivos/artigos/3710/09OrAIR.pdf",
+  "https://www.gazetadopovo.com.br/vozes/alan-ghani/o-eterno-voo-de-galinha/",
+  "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria/estudos/impactos-macroeconomicos-estimados-da-proposta-de-reforma-tributaria-consubstanciada-na-pec-452019.pdf",
+  "https://www.ie.ufrj.br/images/IE/TDS/2023/TD_IE_004_2023_v2_SABOIA_SCHOMMER_ROSA.pdf",
+  "https://www.iedi.org.br/artigos/textos/english/letter_iedi_n_1188.html",
+  "https://www.imf.org/en/Publications/CR/Issues/2018/11/29/Brazil-Technical-Assistance-Report-Public-Investment-Management-Assessment-46147",
+  "https://www.infomoney.com.br/?p=3146633",
+  "https://www.ipea.gov.br/portal/images/stories/PDFs/TDs/200908_td_2580.pdf",
+  "https://www.nber.org/papers/w20935",
+  "https://www.poder360.com.br/educacao/brasil-esta-entre-os-17-paises-com-pior-nota-em-matematica-da-ocde/",
+  "https://www.rug.nl/ggdc/productivity/pwt/",
+  "https://www.scielo.br/j/neco/a/GV3YWfXgMtpdnKZ79PfdG6b/?lang=en"
+ ],
+ "data_consulta": "2026-10-28"
+}

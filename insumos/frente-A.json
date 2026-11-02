@@ -1,0 +1,555 @@
+{
+  "frente": "A",
+  "titulo": "Dívida pública e 'Brasil quebrado'",
+  "resumo": "O vídeo de José Kobori (publicado em 29/09/2026, corte do JK Cast #274, 9min57s) usa o número de julho/2026 e, pela descrição, sustenta que 82,5% de dívida/PIB isoladamente não significa país quebrado, compara com EUA e Japão, separa estoque de fluxo e aponta o peso dos juros; a transcrição não foi obtida (YouTube bloqueou a legenda automática com erro 429), então os argumentos registrados são só os da descrição. A dívida bruta do governo geral (conceito BCB) subiu de 71,7% do PIB em dez/2022 para 82,9% em ago/2026 (último dado; setembro sai no fim de outubro), alta de 11,2 p.p. no Lula 3, contra queda de 3,6 p.p. no mandato Bolsonaro (75,3% em dez/2018 para 71,7% em dez/2022, com pico de 86,9% em dez/2020). O motor da alta é a conta de juros, 8,9% do PIB em 12 meses até ago/2026 contra média de 5,0% em 2019-2022, somada a déficits primários modestos (0,4% a 0,6% do PIB desde 2024) e ao pagamento em 2023 dos precatórios represados pela EC 114/2021. 'Quebrado' é tecnicamente errado: a dívida federal é 96% em reais, as reservas somam US$ 362,8 bi (set/2026) e não há atraso de pagamento; o problema real é a trajetória, que FMI e IFI projetam em alta contínua até 2030-2036 com o primário atual.",
+  "video_gatilho": {
+    "titulo": "Brasil está quebrado? A verdade por trás dos 82,5% da dívida/PIB",
+    "canal": "José Kobori (@josekoborioficial)",
+    "publicado": "2026-09-29",
+    "duracao_s": 597,
+    "origem": "Corte do JK Cast #274 (entrevista completa: https://www.youtube.com/live/CJE5P5m5alI)",
+    "conteudo_obtido": "Somente descrição e metadados (oEmbed e página). Transcrição não obtida: timedtext devolveu 404 e yt-dlp recebeu HTTP 429.",
+    "argumentos_pela_descricao": [
+      "A proporção de 82,5% dívida/PIB, isoladamente, não significa que o Brasil esteja quebrado.",
+      "Comparação com EUA e Japão (países com dívida/PIB maior e sem crise de solvência).",
+      "Diferença entre estoque (dívida) e fluxo (déficit, juros).",
+      "Peso dos juros sobre a dívida."
+    ],
+    "checagem_do_numero": "O 82,5% corresponde a jul/2026 (SGS 13762 hoje: 82,55%; o BCB arredondou para 82,6% na nota de 30/09/2026). O vídeo saiu um dia antes da divulgação de agosto, que trouxe 82,87%.",
+    "fonte": "https://www.youtube.com/watch?v=GbF9LA65L-s"
+  },
+  "alegacoes": [
+    {
+      "id": "A1",
+      "alegacao": "'O Brasil está quebrado, chefe. Eu não consigo fazer nada.'",
+      "quem": "Jair Bolsonaro, presidente, a apoiadores no Alvorada",
+      "quando": "2021-01-05",
+      "fonte_alegacao": "https://www.infomoney.com.br/?p=1571654",
+      "o_que_aconteceu": "A DBGG caiu de 86,9% do PIB (dez/2020) para 77,3% (dez/2021) e 71,7% (dez/2022); o setor público teve superávit primário de 0,72% do PIB em 2021 e 1,25% em 2022. No dia seguinte o próprio Bolsonaro disse que o Brasil estava \"uma maravilha\".",
+      "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
+      "veredito": "nao_ocorreu",
+      "nota": "A fala servia para justificar a não correção da tabela do IR. A melhora de 2021-22 teve ajuda de inflação de 10,06% (2021), que infla o PIB nominal, de receitas de commodities e do adiamento de precatórios pela EC 114/2021."
+    },
+    {
+      "id": "A2",
+      "alegacao": "Eleger Lula faria o Brasil virar a Argentina (inflação, pobreza, estagnação).",
+      "quem": "Campanha de Jair Bolsonaro (propaganda eleitoral do 2º turno)",
+      "quando": "2022-10-26",
+      "fonte_alegacao": "https://clickorlando.com/news/world/2022/10/29/brazil-president-makes-argentina-a-campaign-boogeyman",
+      "o_que_aconteceu": "IPCA de 4,62% (2023), 4,83% (2024) e 4,26% (2025), contra 83% ao ano na Argentina citada na peça. Não houve calote, controle de capitais nem crise cambial; o dólar PTAX estava em R$ 5,34 em 28/10/2026. A dívida bruta, porém, subiu 11,2 p.p. do PIB entre dez/2022 e ago/2026.",
+      "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados?formato=json",
+      "veredito": "nao_ocorreu",
+      "nota": "A comparação com a Argentina falhou em inflação, câmbio e solvência. O alarme acerta só na direção da dívida, que piorou. Em 12/10/2026 Lula usou o mesmo espantalho ao contrário, dizendo que o Brasil pode virar Argentina com Flávio Bolsonaro (https://www.diariodepernambuco.com.br/politica/2026/10/11726412-lula-brasil-pode-virar-argentina-com-flavio-bolsonaro-na-presidencia.html)."
+    },
+    {
+      "id": "A3",
+      "alegacao": "O governo Bolsonaro 'quebrou o Estado brasileiro'; 'colapso' e 'apagão fiscal'.",
+      "quem": "Coordenação técnica do gabinete de transição de Lula (Aloizio Mercadante fez declarações semelhantes na semana anterior)",
+      "quando": "2022-12-12",
+      "fonte_alegacao": "https://www.moneytimes.com.br/transicao-de-governo-rebate-ministerio-de-guedes-e-reafirma-que-bolsonaro-quebrou-o-brasil/",
+      "o_que_aconteceu": "Em 2022 o setor público consolidado teve superávit primário de 1,25% do PIB e a DBGG fechou em 71,7% do PIB, a menor desde 2016. O Ministério da Economia rebateu em nota de 11/12/2022.",
+      "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json",
+      "veredito": "nao_ocorreu",
+      "nota": "Como solvência, a tese é falsa. Tem fundamento a parte orçamentária: despesas discricionárias comprimidas sob o teto e passivo de precatórios empurrado pela EC 114/2021, que o STF derrubou (ADIs 7.047 e 7.064) e virou pagamento de cerca de R$ 92 bi em dez/2023 (valor a conferir no RTN de dez/2023). O argumento também servia para aprovar a PEC da Transição (R$ 145 bi acima do teto)."
+    },
+    {
+      "id": "A4",
+      "alegacao": "O Brasil não está quebrado: DBGG fecha 2022 em 74% do PIB, com superávit primário de R$ 23,4 bi, o primeiro desde 2013.",
+      "quem": "Ministério da Economia (Paulo Guedes), nota oficial",
+      "quando": "2022-12-11",
+      "fonte_alegacao": "https://www.suno.com.br/noticias/economia-declaracoes-brasil-quebrado/amp/",
+      "o_que_aconteceu": "DBGG de 71,68% do PIB em dez/2022 (série atual do BCB) e superávit primário consolidado de 1,25% do PIB.",
+      "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
+      "veredito": "ocorreu",
+      "nota": "Registrada como contraprova da A3, não como alarme. O resultado veio melhor que o projetado, mas parte dele foi conta adiada (precatórios) e receita extraordinária (dividendos e royalties de petróleo)."
+    },
+    {
+      "id": "A5",
+      "alegacao": "O arcabouço fiscal não garante a estabilidade da dívida; as regras sozinhas não entregam a trajetória prometida.",
+      "quem": "Economistas do FGV Ibre (blog \"Dificuldades do arcabouço fiscal\") e economistas de mercado ouvidos pela Bloomberg Línea",
+      "quando": "2023-03-31",
+      "fonte_alegacao": "https://www.bloomberglinea.com.br/2023/03/31/arcabouco-fiscal-as-duvidas-do-mercado-sobre-as-regras-propostas-pelo-governo/",
+      "o_que_aconteceu": "A DBGG subiu de 73,8% (dez/2023) para 76,3% (dez/2024), 78,6% (dez/2025) e 82,9% (ago/2026). O governo central fechou 2025 com déficit de 0,48% do PIB, que só ficou dentro da meta após excluir R$ 48,7 bi (0,38% do PIB), dos quais R$ 41,1 bi de precatórios.",
+      "fonte_fato": "https://static.poder360.com.br/2026/01/Tesouro-apresentacao-resultado-dez-25.pdf",
+      "veredito": "ocorreu",
+      "nota": "É a crítica que o dado confirma. A versão popular \"arcabouço furado\" exagera: a regra conteve o crescimento do gasto primário, mas a meta de primário é baixa demais para estabilizar a dívida com juro real alto. A IFI estima que seria preciso superávit de 2,1% do PIB para estabilizar a DBGG (RAF 113, jun/2026). A EC 136/2025 tirou precatórios do limite de gasto a partir de 2026, o que reduz a transparência da meta."
+    },
+    {
+      "id": "A6",
+      "alegacao": "Risco de 'dominância fiscal' real ou elevadíssimo; real podendo ir a R$ 7 por dólar.",
+      "quem": "Arminio Fraga (Valor), Luis Stuhlberger (carta da Verde), Morgan Stanley (nota de Ioana Zamfir)",
+      "quando": "2024-12",
+      "fonte_alegacao": "https://investnews.com.br/economia/panico-cambial-corre-solto-no-brasil-diante-da-impotencia-de-auxiliares-de-lula/",
+      "o_que_aconteceu": "A PTAX chegou ao máximo de R$ 6,2086 em 02/01/2025 (fechamento recorde à vista: R$ 6,2679 em 18/12/2024) e recuou a R$ 5,3420 em 28/10/2026. O BC subiu a Selic de 10,50% para 15,00% (jun/2025) e a inflação caiu para 4,26% em 2025; a política monetária funcionou, o que contraria a definição de dominância fiscal. A Selic está em 13,75% desde 17/09/2026.",
+      "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json",
+      "veredito": "nao_ocorreu",
+      "nota": "Data do alerta aproximada pela cobertura (dez/2024). O custo do remédio foi a dívida: juros nominais de 8,9% do PIB em 12 meses até ago/2026, maior patamar da série desde 2015, e 52,7% da DPF atrelada à Selic em ago/2026, recorde. O risco diminuiu, não desapareceu."
+    },
+    {
+      "id": "A7",
+      "alegacao": "Dívida bruta chega a 100% do PIB em 2030; trajetória fiscal insustentável e arcabouço em risco de colapso.",
+      "quem": "Instituição Fiscal Independente (IFI/Senado), RAF de jun/2025 e RAF 107 (dez/2025)",
+      "quando": "2025-06",
+      "fonte_alegacao": "https://www.congressoemfoco.com.br/noticia/109669/ifi-preve-que-divida-bruta-vai-chegar-a-100-do-pib-em-2030",
+      "o_que_aconteceu": "DBGG de 82,9% do PIB em ago/2026. O FMI (Artigo IV, jul/2026) projeta 94,1% em 2030 no conceito das autoridades e 104,8% no conceito FMI; a IFI, no RAF 113 (jun/2026), mantém alta contínua até 2036.",
+      "fonte_fato": "https://www.imf.org/en/news/articles/2026/07/23/pr26257-brazil-imf-executive-board-concludes-2026-article-iv-consultation/index.md",
+      "veredito": "em_aberto",
+      "nota": "Projeção de órgão técnico, não alarme político. O número de 100% em 2030 depende do conceito: no conceito BCB as projeções oficiais e do FMI ficam abaixo de 100% até 2030."
+    },
+    {
+      "id": "A8",
+      "alegacao": "A 'gastança' de Lula endividou o país e as famílias; Lula gastou R$ 350 bi para tentar se reeleger.",
+      "quem": "Flávio Bolsonaro (PL), candidato a presidente, no debate da Band e em agendas de campanha",
+      "quando": "2026-10-18",
+      "fonte_alegacao": "https://timesbrasil.com.br/eleicoes-2026/economia-debate-band-flavio-lula-congelamento-dividas/",
+      "o_que_aconteceu": "O governo central acumula déficit primário de R$ 68,7 bi (0,53% do PIB) em 12 meses até ago/2026, fora da banda da meta de 2026 (superávit de 0,25% ± 0,25 p.p.) pelo resultado cheio. O déficit nominal do setor público é de 9,48% do PIB, dos quais 8,86 p.p. são juros e 0,62 p.p. é primário.",
+      "fonte_fato": "https://www.jornaldocomercio.com/economia/2026/09/1265048-governo-central-tem-deficit-primario-de-rs-13585-bi-em-agosto-mostra-tesouro.html",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "Há déficit primário persistente e medidas de ano eleitoral, mas o dado não mostra explosão do gasto primário: a dívida cresce sobretudo pela conta de juros. O valor de R$ 350 bi não foi conferido nesta frente."
+    }
+  ],
+  "series": [
+    {
+      "nome": "Dívida bruta do governo geral (% PIB, conceito BCB, SGS 13762)",
+      "unidade": "% PIB",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2015-12",
+          "v": 65.5
+        },
+        {
+          "t": "2016-12",
+          "v": 69.84
+        },
+        {
+          "t": "2017-12",
+          "v": 73.72
+        },
+        {
+          "t": "2018-12",
+          "v": 75.27
+        },
+        {
+          "t": "2019-12",
+          "v": 74.44
+        },
+        {
+          "t": "2020-12",
+          "v": 86.94
+        },
+        {
+          "t": "2021-12",
+          "v": 77.31
+        },
+        {
+          "t": "2022-12",
+          "v": 71.68
+        },
+        {
+          "t": "2023-12",
+          "v": 73.83
+        },
+        {
+          "t": "2024-12",
+          "v": 76.27
+        },
+        {
+          "t": "2025-12",
+          "v": 78.64
+        },
+        {
+          "t": "2026-06",
+          "v": 81.95
+        },
+        {
+          "t": "2026-07",
+          "v": 82.55
+        },
+        {
+          "t": "2026-08",
+          "v": 82.87
+        }
+      ]
+    },
+    {
+      "nome": "Dívida líquida do setor público (% PIB, SGS 4513)",
+      "unidade": "% PIB",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2015-12",
+          "v": 35.64
+        },
+        {
+          "t": "2016-12",
+          "v": 46.14
+        },
+        {
+          "t": "2017-12",
+          "v": 51.37
+        },
+        {
+          "t": "2018-12",
+          "v": 52.77
+        },
+        {
+          "t": "2019-12",
+          "v": 54.7
+        },
+        {
+          "t": "2020-12",
+          "v": 61.37
+        },
+        {
+          "t": "2021-12",
+          "v": 55.11
+        },
+        {
+          "t": "2022-12",
+          "v": 56.13
+        },
+        {
+          "t": "2023-12",
+          "v": 60.43
+        },
+        {
+          "t": "2024-12",
+          "v": 61.3
+        },
+        {
+          "t": "2025-12",
+          "v": 65.24
+        },
+        {
+          "t": "2026-06",
+          "v": 68.49
+        },
+        {
+          "t": "2026-07",
+          "v": 69.11
+        },
+        {
+          "t": "2026-08",
+          "v": 69.27
+        }
+      ]
+    },
+    {
+      "nome": "Resultado primário do setor público consolidado, 12 meses (+ = superávit; sinal invertido da NFSP, SGS 5793)",
+      "unidade": "% PIB",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2015-12",
+          "v": -1.86
+        },
+        {
+          "t": "2016-12",
+          "v": -2.48
+        },
+        {
+          "t": "2017-12",
+          "v": -1.68
+        },
+        {
+          "t": "2018-12",
+          "v": -1.55
+        },
+        {
+          "t": "2019-12",
+          "v": -0.84
+        },
+        {
+          "t": "2020-12",
+          "v": -9.24
+        },
+        {
+          "t": "2021-12",
+          "v": 0.72
+        },
+        {
+          "t": "2022-12",
+          "v": 1.25
+        },
+        {
+          "t": "2023-12",
+          "v": -2.28
+        },
+        {
+          "t": "2024-12",
+          "v": -0.4
+        },
+        {
+          "t": "2025-12",
+          "v": -0.43
+        },
+        {
+          "t": "2026-06",
+          "v": -1.19
+        },
+        {
+          "t": "2026-07",
+          "v": -0.67
+        },
+        {
+          "t": "2026-08",
+          "v": -0.62
+        }
+      ]
+    },
+    {
+      "nome": "Resultado nominal do setor público consolidado, 12 meses (- = déficit; sinal invertido da NFSP, SGS 5727)",
+      "unidade": "% PIB",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2015-12",
+          "v": -10.22
+        },
+        {
+          "t": "2016-12",
+          "v": -8.98
+        },
+        {
+          "t": "2017-12",
+          "v": -7.77
+        },
+        {
+          "t": "2018-12",
+          "v": -6.96
+        },
+        {
+          "t": "2019-12",
+          "v": -5.81
+        },
+        {
+          "t": "2020-12",
+          "v": -13.34
+        },
+        {
+          "t": "2021-12",
+          "v": -4.26
+        },
+        {
+          "t": "2022-12",
+          "v": -4.57
+        },
+        {
+          "t": "2023-12",
+          "v": -8.84
+        },
+        {
+          "t": "2024-12",
+          "v": -8.47
+        },
+        {
+          "t": "2025-12",
+          "v": -8.34
+        },
+        {
+          "t": "2026-06",
+          "v": -9.99
+        },
+        {
+          "t": "2026-07",
+          "v": -9.35
+        },
+        {
+          "t": "2026-08",
+          "v": -9.48
+        }
+      ]
+    },
+    {
+      "nome": "Juros nominais do setor público consolidado, 12 meses (calculado: NFSP nominal SGS 5727 menos NFSP primária SGS 5793)",
+      "unidade": "% PIB",
+      "fonte": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+      "pontos": [
+        {
+          "t": "2015-12",
+          "v": 8.36
+        },
+        {
+          "t": "2016-12",
+          "v": 6.5
+        },
+        {
+          "t": "2017-12",
+          "v": 6.09
+        },
+        {
+          "t": "2018-12",
+          "v": 5.41
+        },
+        {
+          "t": "2019-12",
+          "v": 4.97
+        },
+        {
+          "t": "2020-12",
+          "v": 4.1
+        },
+        {
+          "t": "2021-12",
+          "v": 4.98
+        },
+        {
+          "t": "2022-12",
+          "v": 5.82
+        },
+        {
+          "t": "2023-12",
+          "v": 6.56
+        },
+        {
+          "t": "2024-12",
+          "v": 8.07
+        },
+        {
+          "t": "2025-12",
+          "v": 7.91
+        },
+        {
+          "t": "2026-06",
+          "v": 8.8
+        },
+        {
+          "t": "2026-07",
+          "v": 8.68
+        },
+        {
+          "t": "2026-08",
+          "v": 8.86
+        }
+      ]
+    },
+    {
+      "nome": "Resultado primário do governo central, ano ou 12 meses (Tesouro, RTN)",
+      "unidade": "% PIB",
+      "fonte": "https://static.poder360.com.br/2026/01/Tesouro-apresentacao-resultado-dez-25.pdf",
+      "pontos": [
+        {
+          "t": "2024-12",
+          "v": -0.36
+        },
+        {
+          "t": "2025-12",
+          "v": -0.48
+        },
+        {
+          "t": "2026-08",
+          "v": -0.53
+        }
+      ]
+    },
+    {
+      "nome": "Reservas internacionais, liquidez (SGS 3546)",
+      "unidade": "US$ bilhões",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2018-12",
+          "v": 374.7
+        },
+        {
+          "t": "2020-12",
+          "v": 355.6
+        },
+        {
+          "t": "2022-12",
+          "v": 324.7
+        },
+        {
+          "t": "2024-12",
+          "v": 329.7
+        },
+        {
+          "t": "2025-12",
+          "v": 358.2
+        },
+        {
+          "t": "2026-09",
+          "v": 362.8
+        }
+      ]
+    }
+  ],
+  "comparativo_bolsonaro": [
+    {
+      "indicador": "Dívida bruta do governo geral (% PIB, BCB)",
+      "bolsonaro": "75,3 (dez/2018) para 71,7 (dez/2022): -3,6 p.p.; pico 86,9 (dez/2020)",
+      "lula3": "71,7 (dez/2022) para 82,9 (ago/2026): +11,2 p.p.",
+      "leitura": "A queda de 2021-22 veio de inflação alta (IPCA 10,06% em 2021) inflando o PIB nominal, devoluções do BNDES ao Tesouro, superávit com commodities e precatórios adiados; a alta do Lula 3 vem de Selic entre 10,50% e 15% e de déficits primários."
+    },
+    {
+      "indicador": "Dívida líquida do setor público (% PIB)",
+      "bolsonaro": "52,8 (dez/2018) para 56,1 (dez/2022): +3,4 p.p.",
+      "lula3": "56,1 (dez/2022) para 69,3 (ago/2026): +13,1 p.p.",
+      "leitura": "A DLSP subiu nos dois mandatos; a queda da bruta sob Bolsonaro foi em parte troca de ativos (BNDES) que não reduz a líquida."
+    },
+    {
+      "indicador": "Primário do setor público consolidado (% PIB, média anual)",
+      "bolsonaro": "-2,03 (2019-2022); +0,38 excluindo 2020 (pandemia, -9,24)",
+      "lula3": "-1,04 (2023-2025); -0,62 em 12 meses até ago/2026",
+      "leitura": "Sem a pandemia, Bolsonaro entregou primário melhor; 2023 carrega cerca de R$ 92 bi de precatórios represados do mandato anterior (valor a conferir no RTN de dez/2023)."
+    },
+    {
+      "indicador": "Primário do governo central acumulado no período (Tesouro, % PIB)",
+      "bolsonaro": "-2,43 (jan/2019 a dez/2022)",
+      "lula3": "-0,85 (jan/2023 a dez/2025)",
+      "leitura": "Comparação oficial do RTN de dez/2025, que inclui o choque da pandemia no período Bolsonaro."
+    },
+    {
+      "indicador": "Juros nominais do setor público (% PIB, média anual)",
+      "bolsonaro": "4,97 (2019-2022); mínimo 4,10 em 2020",
+      "lula3": "7,51 (2023-2025); 8,86 em 12 meses até ago/2026",
+      "leitura": "Selic de 2% (ago/2020 a mar/2021) contra 15% (jun/2025 a mar/2026): a diferença de juros explica a maior parte da divergência da dívida."
+    },
+    {
+      "indicador": "Resultado nominal do setor público (déficit, % PIB, média anual)",
+      "bolsonaro": "7,00 (2019-2022), com 13,34 em 2020",
+      "lula3": "8,55 (2023-2025); 9,48 em 12 meses até ago/2026",
+      "leitura": "Déficit nominal perto de 9-10% do PIB fora de pandemia é o dado que justifica preocupação."
+    },
+    {
+      "indicador": "Reservas internacionais (US$ bi)",
+      "bolsonaro": "374,7 (dez/2018) para 324,7 (dez/2022)",
+      "lula3": "324,7 (dez/2022) para 362,8 (set/2026)",
+      "leitura": "Reservas acima da dívida externa pública (DPFe de R$ 348 bi em ago/2026) deixam o setor público credor líquido em moeda estrangeira; solvência em moeda forte não está em questão."
+    }
+  ],
+  "contraponto": "A preocupação fiscal tem base. O déficit nominal de 9,5% do PIB em 12 meses até ago/2026 é de país em crise, sem estar em crise; a DBGG subiu 11,2 p.p. em 44 meses e FMI e IFI não projetam estabilização antes de 2030. O governo cumpre a meta por exclusões (R$ 48,7 bi em 2025; precatórios fora do limite pela EC 136/2025), o que torna o primário cheio pior que o oficial. A DPF tem 52,7% atrelados à Selic (recorde, ago/2026) e custo médio de 12,6% ao ano, então cada ponto de juro chega rápido ao estoque. No conceito FMI a dívida já passa de 94% do PIB, acima da média de emergentes (cerca de 72% em 2025, número do FMI citado por análise secundária, não conferido no Fiscal Monitor). Dívida em reais elimina o calote forçado, mas o ajuste ocorre por inflação, juro alto ou câmbio, e é isso que o mercado cobra no prêmio.",
+  "fontes": [
+    "https://www.youtube.com/watch?v=GbF9LA65L-s",
+    "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=GbF9LA65L-s&format=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+    "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+    "https://static.poder360.com.br/2026/01/Tesouro-apresentacao-resultado-dez-25.pdf",
+    "https://www.jornaldocomercio.com/economia/2026/09/1265048-governo-central-tem-deficit-primario-de-rs-13585-bi-em-agosto-mostra-tesouro.html",
+    "https://www.jornaldocomercio.com/economia/2026/09/1265225-divida-bruta-do-governo-geral-sobe-para-829-do-pib-em-agosto-mostra-bc.html",
+    "https://m.imirante.com/noticias/brasil/2026/09/28/divida-publica-federal-fica-estavel-e-chega-a-r-929-tri",
+    "https://www.imf.org/en/news/articles/2026/07/23/pr26257-brazil-imf-executive-board-concludes-2026-article-iv-consultation/index.md",
+    "https://www12.senado.leg.br/ifi/pdf/raf113_jun2026.pdf",
+    "https://www.infomoney.com.br/?p=1571654",
+    "https://diariodonordeste.verdesmares.com.br/negocios/brasil-esta-uma-maravilha-afirma-bolsonaro-apos-dizer-que-pais-esta-quebrado-1.3029981",
+    "https://clickorlando.com/news/world/2022/10/29/brazil-president-makes-argentina-a-campaign-boogeyman",
+    "https://www.moneytimes.com.br/transicao-de-governo-rebate-ministerio-de-guedes-e-reafirma-que-bolsonaro-quebrou-o-brasil/",
+    "https://www.suno.com.br/noticias/economia-declaracoes-brasil-quebrado/amp/",
+    "https://www.bloomberglinea.com.br/2023/03/31/arcabouco-fiscal-as-duvidas-do-mercado-sobre-as-regras-propostas-pelo-governo/",
+    "https://blogdoibre.fgv.br/posts/dificuldades-do-arcabouco-fiscal",
+    "https://investnews.com.br/economia/panico-cambial-corre-solto-no-brasil-diante-da-impotencia-de-auxiliares-de-lula/",
+    "https://www.congressoemfoco.com.br/noticia/109669/ifi-preve-que-divida-bruta-vai-chegar-a-100-do-pib-em-2030",
+    "https://timesbrasil.com.br/eleicoes-2026/economia-debate-band-flavio-lula-congelamento-dividas/",
+    "https://www.diariodepernambuco.com.br/politica/2026/10/11726412-lula-brasil-pode-virar-argentina-com-flavio-bolsonaro-na-presidencia.html",
+    "https://www.camara.leg.br/noticias/1198404-congresso-nacional-promulga",
+    "https://atlaspublico.com.br/bcb/noticias/copom-reduz-selic-para-13-75pct-ao-ano-em-decisao-unanime-87748"
+  ]
+}

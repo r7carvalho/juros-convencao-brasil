@@ -1,0 +1,1142 @@
+{
+  "frente": "I",
+  "titulo": "Mercado e eleições presidenciais no longo prazo (2002-2026)",
+  "resumo": "Nas eleições de 2002 a 2022 o Ibovespa variou entre -4,40% e +1,31% no pregão seguinte ao 2º turno; o choque de 2002 veio antes do voto, com PTAX a 3,9552 (22/10/2002) e EMBI+ a 2.443 pb (27/09/2002). Em 26/10/2026 o Ibovespa caiu 13,88% e a PTAX subiu 9,19% porque o favorito dos mercados de previsão (Flávio, 75% a 81%) perdeu uma eleição que as pesquisas davam empatada; o índice voltou ao nível de 28/08/2026, antes do rali da aposta, e em 28/10 caía mais 2,6% enquanto o câmbio devolvia cerca de um terço da alta. Por mandato, Lula 1 foi o melhor para a bolsa em qualquer moeda e Dilma 1 o pior; Lula 3 acumulava +60,1% nominal, +56,6% em dólares e +34,7% real até 27/10/2026, contra +24,9%, -7,3% e -1,6% em Bolsonaro. O FMI (WEO out/2026) põe o Brasil em 10º no PIB nominal de 2026 e em 8º de 2027 a 2031, e em 8º em PPC desde 2025: a 7ª posição não aparece na projeção.",
+  "alegacoes": [
+    {
+      "id": "I1",
+      "alegacao": "O Brasil caminha para ser a 7ª maior economia do mundo",
+      "quem": "Afirmação trazida pelo usuário; circula em redes e em matérias sobre o ranking do FMI",
+      "quando": "2026-10",
+      "fonte_alegacao": "https://www.riotimesonline.com/brazil-imf-ranking-eighth-place-2026/",
+      "o_que_aconteceu": "WEO out/2026 (FMI, atualizado em 08/10/2026): PIB nominal do Brasil de US$ 2,655 tri em 2026 (10º), US$ 2,796 tri em 2027 (8º) e US$ 3,398 tri em 2031 (8º). Em PPC, 8º de 2025 a 2031 (Indonésia à frente desde 2025). Posição nominal: 13º em 2002, 7º em 2010-2014, 12º em 2020-2021, 11º em 2025.",
+      "fonte_fato": "https://www.imf.org/external/datamapper/api/v1/NGDPD",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "A direção está certa: o Brasil sobe de 11º (2025) para 8º (2027) no nominal, passando Itália, Rússia e Canadá. O destino não: nenhum ano até 2031 tem o Brasil em 7º em qualquer medida, e a França, 7ª, fica 20% acima em 2031. O ranking em dólar depende do câmbio; a projeção é anterior à alta de 26/10/2026. Ranking calculado sobre os 190+ países da base DataMapper, excluídos agregados."
+    },
+    {
+      "id": "I2",
+      "alegacao": "Vitória de Lula derruba a bolsa e faz o dólar disparar",
+      "quem": "Difuso no mercado e em redes, em todas as eleições com Lula (2002, 2006, 2022, 2026)",
+      "quando": "2026-10",
+      "fonte_alegacao": "https://exame.com/invest/mercados/vitoria-de-lula-pode-tirar-17-do-ibovespa-e-encarecer-dolar-em-ate-15-diz-btg/",
+      "o_que_aconteceu": "Pregão seguinte ao 2º turno: 2002 Ibovespa -4,40% e PTAX -1,60%; 2006 -1,09% e +0,36%; 2022 +1,31% e -1,65%; 2026 -13,88% e +9,19%. Doze meses depois: 2002 Ibovespa +77,25% e PTAX -24,43%; 2006 +65,39% e -17,70%; 2022 -1,75% e -6,32%.",
+      "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7/dados?formato=json",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "Só em 2026 a vitória de Lula produziu queda forte no dia seguinte, e ela coincidiu com a única vez em que Lula venceu sem ser favorito nos mercados de previsão. Em 2002 o choque veio antes da eleição e se reverteu em seis meses. O horizonte de 12 meses de 2026 está em aberto."
+    },
+    {
+      "id": "I3",
+      "alegacao": "'Lulômetro': a chance de Lula ganhar levaria o dólar a R$ 3,04 em 2002 (contra R$ 2,52 com Serra)",
+      "quem": "Daniel Tenengauzer, Goldman Sachs (relatório de jun/2002)",
+      "quando": "2002-06",
+      "fonte_alegacao": "https://www.bresserpereira.org.br/terceiros/2010/10.06.Goldman%20Sachs%20e%20o%20Brasil.pdf",
+      "o_que_aconteceu": "A PTAX chegou a 3,9552 em 22/10/2002, antes do 2º turno, e o EMBI+ a 2.443 pb em 27/09/2002. Depois da posse caiu: 3,5333 em 31/12/2002, 3,0123 em 25/04/2003 e 2,8728 em 27/10/2003; EMBI+ a 653 pb em 27/10/2003.",
+      "fonte_fato": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+      "veredito": "ocorreu",
+      "nota": "A alta veio maior que a prevista e antes da eleição, somada a choques externos de 2002 (crise argentina, aversão global a risco). A reversão de 2003 seguiu a Carta ao Povo Brasileiro (22/06/2002), o compromisso com o acordo de US$ 30 bi do FMI (ago/2002) e a política fiscal e monetária dura do primeiro ano."
+    },
+    {
+      "id": "I4",
+      "alegacao": "O mercado votou em Flávio e puniu o resultado por preferência política",
+      "quem": "Circulou em redes e em comentário político após 26/10/2026",
+      "quando": "2026-10-26",
+      "fonte_alegacao": "https://www.moneytimes.com.br/a-historia-se-repete-por-que-o-mercado-nao-se-abala-mais-por-pesquisas-eleitorais-apsa-gaep/",
+      "o_que_aconteceu": "Gestores reprovavam o governo Lula em 90% (dez/2024) e 88% (mar/2025) nas sondagens Genial/Quaest; mercados de previsão davam 75% a 81% a Flávio em 23-24/10/2026 com pesquisas empatadas. O preço de outubro foi formado sobretudo por estrangeiros (63,2% do volume; R$ 19,1 bi líquidos até 14/10).",
+      "fonte_fato": "https://www.seudinheiro.com/2026/bolsa-dolar/estrangeiros-despejam-r-19-bilhoes-na-bolsa-em-outubro-mlim/",
+      "veredito": "em_aberto",
+      "nota": "A preferência política pode enviesar a probabilidade atribuída a cada candidato, mas não basta para o nível de preço; ver hipóteses (a) a (d). Não se localizou sondagem de 2026 só com o mercado sobre preferência de voto."
+    }
+  ],
+  "series": [
+    {
+      "nome": "Ibovespa: variação no pregão seguinte ao 2º turno (contra o último fechamento antes da votação)",
+      "unidade": "%",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7/dados?formato=json ; 2019 em diante: https://finance.yahoo.com/quote/%5EBVSP/history/",
+      "pontos": [
+        {
+          "t": "2002",
+          "v": -4.4
+        },
+        {
+          "t": "2006",
+          "v": -1.09
+        },
+        {
+          "t": "2010",
+          "v": 1.26
+        },
+        {
+          "t": "2014",
+          "v": -2.77
+        },
+        {
+          "t": "2018",
+          "v": -2.24
+        },
+        {
+          "t": "2022",
+          "v": 1.31
+        },
+        {
+          "t": "2026",
+          "v": -13.88
+        }
+      ]
+    },
+    {
+      "nome": "Ibovespa: variação 12 meses após o 2º turno",
+      "unidade": "%",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7/dados?formato=json ; https://finance.yahoo.com/quote/%5EBVSP/history/",
+      "pontos": [
+        {
+          "t": "2002",
+          "v": 77.25
+        },
+        {
+          "t": "2006",
+          "v": 65.39
+        },
+        {
+          "t": "2010",
+          "v": -17.45
+        },
+        {
+          "t": "2014",
+          "v": -9.11
+        },
+        {
+          "t": "2018",
+          "v": 26.21
+        },
+        {
+          "t": "2022",
+          "v": -1.75
+        }
+      ]
+    },
+    {
+      "nome": "Dólar PTAX: variação no dia seguinte ao 2º turno",
+      "unidade": "%",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2002",
+          "v": -1.6
+        },
+        {
+          "t": "2006",
+          "v": 0.36
+        },
+        {
+          "t": "2010",
+          "v": 0.18
+        },
+        {
+          "t": "2014",
+          "v": 2.16
+        },
+        {
+          "t": "2018",
+          "v": -1.05
+        },
+        {
+          "t": "2022",
+          "v": -1.65
+        },
+        {
+          "t": "2026",
+          "v": 9.19
+        }
+      ]
+    },
+    {
+      "nome": "Dólar PTAX: variação 12 meses após o 2º turno",
+      "unidade": "%",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2002",
+          "v": -24.43
+        },
+        {
+          "t": "2006",
+          "v": -17.7
+        },
+        {
+          "t": "2010",
+          "v": -0.76
+        },
+        {
+          "t": "2014",
+          "v": 55.54
+        },
+        {
+          "t": "2018",
+          "v": 8.27
+        },
+        {
+          "t": "2022",
+          "v": -6.32
+        }
+      ]
+    },
+    {
+      "nome": "EMBI+ Brasil (JP Morgan), escalada de 2002 e reversão",
+      "unidade": "pontos-base",
+      "fonte": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='JPM366_EMBI366')",
+      "pontos": [
+        {
+          "t": "2002-01-02",
+          "v": 824
+        },
+        {
+          "t": "2002-09-27",
+          "v": 2443
+        },
+        {
+          "t": "2002-10-25",
+          "v": 1785
+        },
+        {
+          "t": "2002-10-28",
+          "v": 1850
+        },
+        {
+          "t": "2003-04-25",
+          "v": 870
+        },
+        {
+          "t": "2003-10-27",
+          "v": 653
+        }
+      ]
+    },
+    {
+      "nome": "Dólar PTAX, escalada de 2002",
+      "unidade": "R$/US$",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2002-01-02",
+          "v": 2.3066
+        },
+        {
+          "t": "2002-10-22",
+          "v": 3.9552
+        },
+        {
+          "t": "2002-10-25",
+          "v": 3.8015
+        },
+        {
+          "t": "2002-12-31",
+          "v": 3.5333
+        },
+        {
+          "t": "2003-04-25",
+          "v": 3.0123
+        },
+        {
+          "t": "2003-10-27",
+          "v": 2.8728
+        }
+      ]
+    },
+    {
+      "nome": "Ibovespa, rali eleitoral e queda de 2026 (fechamento)",
+      "unidade": "pontos",
+      "fonte": "https://finance.yahoo.com/quote/%5EBVSP/history/ ; https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/ ; https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/",
+      "pontos": [
+        {
+          "t": "2025-12-30",
+          "v": 161125
+        },
+        {
+          "t": "2026-04-14",
+          "v": 198657
+        },
+        {
+          "t": "2026-08-11",
+          "v": 167875
+        },
+        {
+          "t": "2026-08-28",
+          "v": 175665
+        },
+        {
+          "t": "2026-09-10",
+          "v": 188269
+        },
+        {
+          "t": "2026-10-02",
+          "v": 192115
+        },
+        {
+          "t": "2026-10-05",
+          "v": 206912
+        },
+        {
+          "t": "2026-10-09",
+          "v": 209067
+        },
+        {
+          "t": "2026-10-23",
+          "v": 205083
+        },
+        {
+          "t": "2026-10-26",
+          "v": 176608
+        },
+        {
+          "t": "2026-10-27",
+          "v": 175710
+        },
+        {
+          "t": "2026-10-28",
+          "v": 171196
+        }
+      ]
+    },
+    {
+      "nome": "Dólar PTAX, 2026 em torno da eleição",
+      "unidade": "R$/US$",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2026-08-28",
+          "v": 5.2005
+        },
+        {
+          "t": "2026-10-02",
+          "v": 5.2238
+        },
+        {
+          "t": "2026-10-05",
+          "v": 4.9859
+        },
+        {
+          "t": "2026-10-09",
+          "v": 4.9892
+        },
+        {
+          "t": "2026-10-23",
+          "v": 5.0377
+        },
+        {
+          "t": "2026-10-26",
+          "v": 5.5007
+        },
+        {
+          "t": "2026-10-27",
+          "v": 5.3346
+        },
+        {
+          "t": "2026-10-28",
+          "v": 5.342
+        }
+      ]
+    },
+    {
+      "nome": "Ibovespa em dólares por mandato (variação acumulada)",
+      "unidade": "%",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7/dados?formato=json ; https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json ; https://finance.yahoo.com/quote/%5EBVSP/history/",
+      "pontos": [
+        {
+          "t": "FHC 1",
+          "v": 9.8
+        },
+        {
+          "t": "FHC 2",
+          "v": -43.2
+        },
+        {
+          "t": "Lula 1",
+          "v": 552.3
+        },
+        {
+          "t": "Lula 2",
+          "v": 100.0
+        },
+        {
+          "t": "Dilma 1",
+          "v": -54.7
+        },
+        {
+          "t": "Dilma 2 (até 11/05/2016)",
+          "v": -19.1
+        },
+        {
+          "t": "Temer",
+          "v": 48.9
+        },
+        {
+          "t": "Bolsonaro",
+          "v": -7.3
+        },
+        {
+          "t": "Lula 3 (até 27/10/2026)",
+          "v": 56.6
+        }
+      ]
+    },
+    {
+      "nome": "Ibovespa real (deflacionado pelo IPCA) por mandato",
+      "unidade": "%",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7/dados?formato=json ; https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json",
+      "pontos": [
+        {
+          "t": "FHC 1",
+          "v": 9.3
+        },
+        {
+          "t": "FHC 2",
+          "v": 18.7
+        },
+        {
+          "t": "Lula 1",
+          "v": 207.9
+        },
+        {
+          "t": "Lula 2",
+          "v": 27.5
+        },
+        {
+          "t": "Dilma 1",
+          "v": -43.2
+        },
+        {
+          "t": "Dilma 2 (até 11/05/2016)",
+          "v": -8.4
+        },
+        {
+          "t": "Temer",
+          "v": 52.7
+        },
+        {
+          "t": "Bolsonaro",
+          "v": -1.6
+        },
+        {
+          "t": "Lula 3 (até 27/10/2026)",
+          "v": 34.7
+        }
+      ]
+    },
+    {
+      "nome": "Ibovespa nominal em reais por mandato",
+      "unidade": "%",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7/dados?formato=json ; https://finance.yahoo.com/quote/%5EBVSP/history/",
+      "pontos": [
+        {
+          "t": "FHC 1",
+          "v": 56.9
+        },
+        {
+          "t": "FHC 2",
+          "v": 66.1
+        },
+        {
+          "t": "Lula 1",
+          "v": 294.7
+        },
+        {
+          "t": "Lula 2",
+          "v": 55.8
+        },
+        {
+          "t": "Dilma 1",
+          "v": -27.8
+        },
+        {
+          "t": "Dilma 2 (até 11/05/2016)",
+          "v": 5.5
+        },
+        {
+          "t": "Temer",
+          "v": 66.6
+        },
+        {
+          "t": "Bolsonaro",
+          "v": 24.9
+        },
+        {
+          "t": "Lula 3 (até 27/10/2026)",
+          "v": 60.1
+        }
+      ]
+    },
+    {
+      "nome": "Dólar PTAX por mandato (variação)",
+      "unidade": "%",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+      "pontos": [
+        {
+          "t": "FHC 1",
+          "v": 42.9
+        },
+        {
+          "t": "FHC 2",
+          "v": 192.3
+        },
+        {
+          "t": "Lula 1",
+          "v": -39.5
+        },
+        {
+          "t": "Lula 2",
+          "v": -22.1
+        },
+        {
+          "t": "Dilma 1",
+          "v": 59.4
+        },
+        {
+          "t": "Dilma 2 (até 11/05/2016)",
+          "v": 30.4
+        },
+        {
+          "t": "Temer",
+          "v": 11.8
+        },
+        {
+          "t": "Bolsonaro",
+          "v": 34.7
+        },
+        {
+          "t": "Lula 3 (até 27/10/2026)",
+          "v": 2.2
+        }
+      ]
+    },
+    {
+      "nome": "Posição do Brasil no ranking mundial do PIB nominal em US$ (FMI WEO out/2026; 2026 em diante, projeção)",
+      "unidade": "posição",
+      "fonte": "https://www.imf.org/external/datamapper/NGDPD@WEO/OEMDC/ADVEC/WEOWORLD",
+      "pontos": [
+        {
+          "t": "2002",
+          "v": 13
+        },
+        {
+          "t": "2003",
+          "v": 14
+        },
+        {
+          "t": "2004",
+          "v": 13
+        },
+        {
+          "t": "2005",
+          "v": 12
+        },
+        {
+          "t": "2006",
+          "v": 10
+        },
+        {
+          "t": "2007",
+          "v": 10
+        },
+        {
+          "t": "2008",
+          "v": 9
+        },
+        {
+          "t": "2009",
+          "v": 8
+        },
+        {
+          "t": "2010",
+          "v": 7
+        },
+        {
+          "t": "2011",
+          "v": 7
+        },
+        {
+          "t": "2012",
+          "v": 7
+        },
+        {
+          "t": "2013",
+          "v": 7
+        },
+        {
+          "t": "2014",
+          "v": 7
+        },
+        {
+          "t": "2015",
+          "v": 9
+        },
+        {
+          "t": "2016",
+          "v": 9
+        },
+        {
+          "t": "2017",
+          "v": 8
+        },
+        {
+          "t": "2018",
+          "v": 9
+        },
+        {
+          "t": "2019",
+          "v": 9
+        },
+        {
+          "t": "2020",
+          "v": 12
+        },
+        {
+          "t": "2021",
+          "v": 12
+        },
+        {
+          "t": "2022",
+          "v": 11
+        },
+        {
+          "t": "2023",
+          "v": 10
+        },
+        {
+          "t": "2024",
+          "v": 11
+        },
+        {
+          "t": "2025",
+          "v": 11
+        },
+        {
+          "t": "2026",
+          "v": 10
+        },
+        {
+          "t": "2027",
+          "v": 8
+        },
+        {
+          "t": "2028",
+          "v": 8
+        },
+        {
+          "t": "2029",
+          "v": 8
+        },
+        {
+          "t": "2030",
+          "v": 8
+        },
+        {
+          "t": "2031",
+          "v": 8
+        }
+      ]
+    },
+    {
+      "nome": "Posição do Brasil no ranking mundial do PIB em PPC (FMI WEO out/2026; 2026 em diante, projeção)",
+      "unidade": "posição",
+      "fonte": "https://www.imf.org/external/datamapper/PPPGDP@WEO/OEMDC/ADVEC/WEOWORLD",
+      "pontos": [
+        {
+          "t": "2002",
+          "v": 10
+        },
+        {
+          "t": "2003",
+          "v": 10
+        },
+        {
+          "t": "2004",
+          "v": 10
+        },
+        {
+          "t": "2005",
+          "v": 10
+        },
+        {
+          "t": "2006",
+          "v": 10
+        },
+        {
+          "t": "2007",
+          "v": 10
+        },
+        {
+          "t": "2008",
+          "v": 9
+        },
+        {
+          "t": "2009",
+          "v": 8
+        },
+        {
+          "t": "2010",
+          "v": 7
+        },
+        {
+          "t": "2011",
+          "v": 7
+        },
+        {
+          "t": "2012",
+          "v": 7
+        },
+        {
+          "t": "2013",
+          "v": 7
+        },
+        {
+          "t": "2014",
+          "v": 7
+        },
+        {
+          "t": "2015",
+          "v": 7
+        },
+        {
+          "t": "2016",
+          "v": 8
+        },
+        {
+          "t": "2017",
+          "v": 8
+        },
+        {
+          "t": "2018",
+          "v": 7
+        },
+        {
+          "t": "2019",
+          "v": 9
+        },
+        {
+          "t": "2020",
+          "v": 7
+        },
+        {
+          "t": "2021",
+          "v": 7
+        },
+        {
+          "t": "2022",
+          "v": 7
+        },
+        {
+          "t": "2023",
+          "v": 7
+        },
+        {
+          "t": "2024",
+          "v": 7
+        },
+        {
+          "t": "2025",
+          "v": 8
+        },
+        {
+          "t": "2026",
+          "v": 8
+        },
+        {
+          "t": "2027",
+          "v": 8
+        },
+        {
+          "t": "2028",
+          "v": 8
+        },
+        {
+          "t": "2029",
+          "v": 8
+        },
+        {
+          "t": "2030",
+          "v": 8
+        },
+        {
+          "t": "2031",
+          "v": 8
+        }
+      ]
+    },
+    {
+      "nome": "PIB nominal do Brasil (FMI WEO out/2026)",
+      "unidade": "US$ bilhões",
+      "fonte": "https://www.imf.org/external/datamapper/NGDPD@WEO/OEMDC/ADVEC/WEOWORLD",
+      "pontos": [
+        {
+          "t": "2002",
+          "v": 510
+        },
+        {
+          "t": "2010",
+          "v": 2209
+        },
+        {
+          "t": "2011",
+          "v": 2614
+        },
+        {
+          "t": "2014",
+          "v": 2456
+        },
+        {
+          "t": "2015",
+          "v": 1800
+        },
+        {
+          "t": "2020",
+          "v": 1476
+        },
+        {
+          "t": "2022",
+          "v": 1952
+        },
+        {
+          "t": "2025",
+          "v": 2280
+        },
+        {
+          "t": "2026",
+          "v": 2655
+        },
+        {
+          "t": "2027",
+          "v": 2796
+        },
+        {
+          "t": "2031",
+          "v": 3398
+        }
+      ]
+    }
+  ],
+  "comparativo_bolsonaro": [
+    {
+      "indicador": "Ibovespa por mandato (nominal / em US$ / real IPCA)",
+      "bolsonaro": "+24,9% / -7,3% / -1,6% (87.887 em 28/12/2018 a 109.735 em 29/12/2022)",
+      "lula3": "+60,1% / +56,6% / +34,7% (109.735 a 175.710 em 27/10/2026; IPCA até set/2026)",
+      "leitura": "O mandato Bolsonaro teve a pandemia (mínima de 63.570 em 23/03/2020); o de Lula 3 pegou o rali global de 2025-26 (S&P 500 +101,1%, EEM +78,6% no mesmo período, acima do Ibovespa em dólares)."
+    },
+    {
+      "indicador": "Dólar PTAX por mandato",
+      "bolsonaro": "+34,7% (3,8748 a 5,2177)",
+      "lula3": "+2,2% (5,2177 a 5,3346 em 27/10/2026); -3,4% até 23/10/2026",
+      "leitura": "Choque pandêmico com Selic de 2% em Bolsonaro; choque fiscal de dez/2024 e o eleitoral de out/2026 em Lula 3, ambos parcialmente revertidos."
+    },
+    {
+      "indicador": "Pregão seguinte à eleição do presidente",
+      "bolsonaro": "29/10/2018: Ibovespa -2,24%, PTAX -1,05%, EMBI+ +1 pb",
+      "lula3": "31/10/2022: Ibovespa +1,31%, PTAX -1,65%; 26/10/2026 (reeleição): Ibovespa -13,88%, PTAX +9,19%",
+      "leitura": "Em 2018 e 2022 o favorito das pesquisas venceu e o dia seguinte foi pequeno; em 2026 o favorito dos mercados de previsão perdeu."
+    },
+    {
+      "indicador": "Doze meses após a eleição",
+      "bolsonaro": "out/2018 a out/2019: Ibovespa +26,21%, PTAX +8,27%, EMBI+ -39 pb",
+      "lula3": "out/2022 a out/2023: Ibovespa -1,75%, PTAX -6,32%, EMBI+ -54 pb",
+      "leitura": "Bolsa melhor no primeiro ano de Bolsonaro, câmbio e risco-país melhores no primeiro ano de Lula 3; Selic de 13,75% herdada pesou sobre a bolsa em 2023."
+    },
+    {
+      "indicador": "Ranking do PIB nominal (FMI)",
+      "bolsonaro": "9º (2018 e 2019), 12º (2020 e 2021), 11º (2022)",
+      "lula3": "10º (2023), 11º (2024 e 2025), 10º (2026, projeção), 8º (2027, projeção)",
+      "leitura": "O ranking em dólares segue o câmbio: o real forte de 2010-2014 pôs o Brasil em 7º; a desvalorização de 2015 e a de 2020 o derrubaram."
+    }
+  ],
+  "contraponto": "O alarme tem base em três pontos. Primeiro, o choque de 26/10/2026 é real e grande: quinta maior queda diária do Ibovespa desde 1994, terceira maior alta da PTAX desde 1999, DI longo +2,6 p.p. e CDS +26% em um dia, sem recuperação da bolsa até 28/10. Segundo, há precedente de alarme pós-eleitoral confirmado: depois da reeleição de Dilma em 2014, o dólar subiu 55,54% e o EMBI+ 175 pb em doze meses, com recessão e perda do grau de investimento. Terceiro, o desempenho de Lula 3 em bolsa deve muito ao ciclo externo: até 27/10/2026 o Ibovespa em dólares subiu 56,6%, abaixo do ETF de emergentes (+78,6%), e a dívida bruta subiu 11,2 p.p. do PIB no mandato (Frente A). O que a série longa não sustenta é a ideia de que vitória de Lula produz colapso persistente: 2002 e 2006 tiveram as maiores altas de 12 meses da amostra, e 2022 terminou o primeiro ano com dólar mais barato.",
+  "fontes": [
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='JPM366_EMBI366')",
+    "https://acionista.com.br/wp-content/uploads/2026/08/Call-Matinal-120826.pdf",
+    "https://analisa.genialinvestimentos.com.br/macro-strategy/alocacao/eleicoes-alocacao-genial/",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7/dados?formato=json",
+    "https://braziljournal.com/flavio-sera-presidente-pelo-menos-segundo-a-kalshi-e-polymarket/",
+    "https://diariodocomercio.com.br/politica/reprovacao-lula-mercado-sobe-64-para-90/",
+    "https://exame.com/invest/mercados/vitoria-de-lula-pode-tirar-17-do-ibovespa-e-encarecer-dolar-em-ate-15-diz-btg/",
+    "https://finance.yahoo.com/quote/%5EBVSP/history/",
+    "https://finance.yahoo.com/quote/%5EGSPC/history/",
+    "https://finance.yahoo.com/quote/EEM/history/",
+    "https://timesbrasil.com.br/brasil/decisao-2026-a-quase-24-horas-da-eleicao-polymarket-e-kalshi-apontam-mais-de-80-de-chance-de-vitoria-de-flavio-bolsonaro/",
+    "https://timesbrasil.com.br/eleicoes-2026/decisao-2026-flavio-dispara-no-mercado-de-apostas-e-chega-a-reta-final-da-eleicao-com-75-de-probabilidade-de-vitoria/",
+    "https://trademap.com.br/noticias/news-8385630",
+    "https://trademap.com.br/noticias/news-8386627",
+    "https://www.band.com.br/noticias/para-60-do-mercado-lula-sera-candidato-em-2026-aponta-pesquisa-genialquaest-202503190736",
+    "https://www.brasilparalelo.com.br/noticias/quaest-veja-o-que-pensa-o-mercado-financeiro-sobre-as-eleicoes-2026",
+    "https://www.brasilwire.com/lulameter-2-0-a-nightmare-on-wall-street/",
+    "https://www.bresserpereira.org.br/terceiros/2010/10.06.Goldman%20Sachs%20e%20o%20Brasil.pdf",
+    "https://www.congressoemfoco.com.br/noticia/51364/lula-quer-fazer-nova-carta-aos-brasileiros-veja-a-integra-da-primeira",
+    "https://www.dgabc.com.br/Noticia/4351198/apos-disparada-na-vespera-ibovespa-passa-por-ajuste-e-opera-no-nivel-de-205-mil-pontos",
+    "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/240619_Valor_MGarcia_02.docx_(2).pdf",
+    "https://www.imf.org/external/datamapper/NGDPD@WEO/OEMDC/ADVEC/WEOWORLD",
+    "https://www.imf.org/external/datamapper/PPPGDP@WEO/OEMDC/ADVEC/WEOWORLD",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPD",
+    "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/",
+    "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/",
+    "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/",
+    "https://www.itatiaia.com.br/economia/ibovespa-recorde-dolar-queda-eleicao-primeiro-turno/",
+    "https://www.jornaldocomercio.com/economia/2026/10/1265561-eleicao-eleva-risco-e-ibovespa-chega-as-urnas-sem-premio-historico-de-retorno.html",
+    "https://www.jornaldocomercio.com/economia/2026/10/1265872-ibovespa-dispara-apos-eleicao-e-supera-os-200-mil-pontos-pela-primeira-vez.html",
+    "https://www.jornalopcao.com.br/ultimas-noticias/datafolha-lula-e-flavio-bolsonaro-empatam-com-50-dos-votos-validos-a-tres-dias-do-segundo-turno-881558/",
+    "https://www.moneytimes.com.br/a-historia-se-repete-por-que-o-mercado-nao-se-abala-mais-por-pesquisas-eleitorais-apsa-gaep/",
+    "https://www.moneytimes.com.br/o-lula-esta-para-perder-as-apostas-de-gestores-com-r-180-bilhoes-na-carteira-para-eleicoes/",
+    "https://www.ocafezinho.com/2025/03/19/pesquisa-aponta-rejeicao-do-mercado-financeiro-ao-governo-lula-e-queda-na-avaliacao-de-haddad/amp/",
+    "https://www.riotimesonline.com/brazil-imf-ranking-eighth-place-2026/",
+    "https://www.seudinheiro.com/2026/bolsa-dolar/estrangeiros-despejam-r-19-bilhoes-na-bolsa-em-outubro-mlim/"
+  ],
+  "tabela_eleicoes": [
+    {
+      "ano": 2002,
+      "segundo_turno": "2002-10-27",
+      "vencedor": "Lula (61,27%) sobre Serra",
+      "base": "25/10/2002: Ibovespa 10.014; PTAX 3,8015; EMBI+ 1.785",
+      "d1": "28/10: Ibovespa 9.573 (-4,40%); PTAX 3,7406 (-1,60%); EMBI+ 1.850 (+65 pb)",
+      "d30": "26/11: Ibovespa 10.131 (+1,17%); PTAX 3,5872 (-5,64%); EMBI+ 1.661 (-124 pb)",
+      "m6": "25/04/2003: Ibovespa 12.126 (+21,09%); PTAX 3,0123 (-20,76%); EMBI+ 870 (-915 pb)",
+      "m12": "27/10/2003: Ibovespa 17.750 (+77,25%); PTAX 2,8728 (-24,43%); EMBI+ 653 (-1.132 pb)",
+      "pre_eleitoral": "02/01/2002 a out/2002: PTAX de 2,3066 a 3,9552 (máxima em 22/10/2002, +71,5%); EMBI+ de 824 a 2.443 pb (máxima em 27/09/2002); Ibovespa de 13.872 a 8.370 (mínima em 16/10/2002, -39,7%)"
+    },
+    {
+      "ano": 2006,
+      "segundo_turno": "2006-10-29",
+      "vencedor": "Lula (60,83%) sobre Alckmin",
+      "base": "27/10/2006: Ibovespa 39.328; PTAX 2,1378; EMBI+ 215",
+      "d1": "30/10: Ibovespa 38.900 (-1,09%); PTAX 2,1456 (+0,36%); EMBI+ 218 (+3 pb)",
+      "d30": "28/11: Ibovespa 41.043 (+4,36%); PTAX 2,1870 (+2,30%); EMBI+ 230 (+15 pb)",
+      "m6": "27/04/2007: Ibovespa 49.229 (+25,18%); PTAX 2,0321 (-4,94%); EMBI+ 148 (-67 pb)",
+      "m12": "29/10/2007: Ibovespa 65.044 (+65,39%); PTAX 1,7595 (-17,70%); EMBI+ 176 (-39 pb)"
+    },
+    {
+      "ano": 2010,
+      "segundo_turno": "2010-10-31",
+      "vencedor": "Dilma (56,05%) sobre Serra",
+      "base": "29/10/2010: Ibovespa 70.673; PTAX 1,7014; EMBI+ 175",
+      "d1": "01/11: Ibovespa 71.560 (+1,26%); PTAX 1,7044 (+0,18%); EMBI+ 171 (-4 pb)",
+      "d30": "30/11: Ibovespa 67.705 (-4,20%); PTAX 1,7161 (+0,86%); EMBI+ 198 (+23 pb)",
+      "m6": "29/04/2011: Ibovespa 66.132 (-6,43%); PTAX 1,5733 (-7,53%); EMBI+ 169 (-6 pb)",
+      "m12": "31/10/2011: Ibovespa 58.338 (-17,45%); PTAX 1,6885 (-0,76%); EMBI+ 222 (+47 pb)"
+    },
+    {
+      "ano": 2014,
+      "segundo_turno": "2014-10-26",
+      "vencedor": "Dilma (51,64%) sobre Aécio",
+      "base": "24/10/2014: Ibovespa 51.940; PTAX 2,4805; EMBI+ 243",
+      "d1": "27/10: Ibovespa 50.503 (-2,77%); PTAX 2,5341 (+2,16%); EMBI+ 245 (+2 pb)",
+      "d30": "25/11: Ibovespa 55.560 (+6,97%); PTAX 2,5237 (+1,74%); EMBI+ 245 (+2 pb)",
+      "m6": "24/04/2015: Ibovespa 56.594 (+8,96%); PTAX 2,9745 (+19,92%); EMBI+ 280 (+37 pb)",
+      "m12": "26/10/2015: Ibovespa 47.209 (-9,11%); PTAX 3,8582 (+55,54%); EMBI+ 418 (+175 pb)"
+    },
+    {
+      "ano": 2018,
+      "segundo_turno": "2018-10-28",
+      "vencedor": "Bolsonaro (55,13%) sobre Haddad",
+      "base": "26/10/2018: Ibovespa 85.719; PTAX 3,6753; EMBI+ 266",
+      "d1": "29/10: Ibovespa 83.796 (-2,24%); PTAX 3,6368 (-1,05%); EMBI+ 267 (+1 pb)",
+      "d30": "27/11: Ibovespa 87.891 (+2,53%); PTAX 3,8925 (+5,91%); EMBI+ 280 (+14 pb)",
+      "m6": "26/04/2019: Ibovespa 96.236 (+12,27%); PTAX 3,9353 (+7,07%); EMBI+ 252 (-14 pb)",
+      "m12": "28/10/2019: Ibovespa 108.187 (+26,21%); PTAX 3,9793 (+8,27%); EMBI+ 227 (-39 pb)"
+    },
+    {
+      "ano": 2022,
+      "segundo_turno": "2022-10-30",
+      "vencedor": "Lula (50,90%) sobre Bolsonaro",
+      "base": "28/10/2022: Ibovespa 114.539; PTAX 5,3454; EMBI+ 255",
+      "d1": "31/10: Ibovespa 116.037 (+1,31%); PTAX 5,2570 (-1,65%); EMBI+ 261 em 01/11 (+6 pb)",
+      "d30": "29/11: Ibovespa 110.910 (-3,17%); PTAX 5,3076 (-0,71%); EMBI+ 251 (-4 pb)",
+      "m6": "28/04/2023: Ibovespa 104.432 (-8,82%); PTAX 5,0007 (-6,45%); EMBI+ 260 (+5 pb)",
+      "m12": "30/10/2023: Ibovespa 112.532 (-1,75%); PTAX 5,0074 (-6,32%); EMBI+ 201 (-54 pb)"
+    },
+    {
+      "ano": 2026,
+      "segundo_turno": "2026-10-25",
+      "vencedor": "Lula (51,79%) sobre Flávio Bolsonaro",
+      "base": "23/10/2026: Ibovespa 205.083; PTAX 5,0377",
+      "d1": "26/10: Ibovespa 176.608 (-13,88%); PTAX 5,5007 (+9,19%); dólar à vista R$ 5,403 (+8,21%); CDS 5 anos 151,6 pb (+26%)",
+      "d2": "27/10: Ibovespa 175.710 (-14,32% sobre 23/10); PTAX 5,3346 (+5,89%)",
+      "d3": "28/10, 16h17, pregão aberto: Ibovespa 171.196 (-16,5% sobre 23/10; -2,6% no dia); PTAX 5,3420 (+6,04%)",
+      "d30": "a apurar (25/11/2026)",
+      "m6": "a apurar (abr/2027)",
+      "m12": "a apurar (out/2027)"
+    }
+  ],
+  "tabela_mandatos": [
+    {
+      "mandato": "FHC 1 (30/12/1994 a 31/12/1998)",
+      "ibov": "4.325 a 6.784",
+      "nominal": "+56,9% (11,9% a.a.)",
+      "em_dolar": "+9,8% (2,4% a.a.)",
+      "real_ipca": "+9,3% (2,3% a.a.)",
+      "ipca_acum": "43,5%",
+      "ptax": "0,8460 a 1,2087 (+42,9%)",
+      "sp500": "+167,6%"
+    },
+    {
+      "mandato": "FHC 2 (1999 a 2002)",
+      "ibov": "6.784 a 11.268",
+      "nominal": "+66,1% (13,5% a.a.)",
+      "em_dolar": "-43,2% (-13,2% a.a.)",
+      "real_ipca": "+18,7% (4,4% a.a.)",
+      "ipca_acum": "39,9%",
+      "ptax": "1,2087 a 3,5333 (+192,3%)",
+      "sp500": "-28,4%"
+    },
+    {
+      "mandato": "Lula 1 (2003 a 2006)",
+      "ibov": "11.268 a 44.473",
+      "nominal": "+294,7% (41,0% a.a.)",
+      "em_dolar": "+552,3% (60,0% a.a.)",
+      "real_ipca": "+207,9% (32,5% a.a.)",
+      "ipca_acum": "28,2%",
+      "ptax": "3,5333 a 2,1380 (-39,5%)",
+      "sp500": "+61,2%",
+      "eem": "+253,9% de 14/04/2003 a 29/12/2006, contra Ibovespa em US$ +457,4% no mesmo intervalo"
+    },
+    {
+      "mandato": "Lula 2 (2007 a 2010)",
+      "ibov": "44.473 a 69.304",
+      "nominal": "+55,8% (11,7% a.a.)",
+      "em_dolar": "+100,0% (18,9% a.a.)",
+      "real_ipca": "+27,5% (6,3% a.a.)",
+      "ipca_acum": "22,2%",
+      "ptax": "2,1380 a 1,6662 (-22,1%)",
+      "sp500": "-11,3%",
+      "eem": "+34,2%"
+    },
+    {
+      "mandato": "Dilma 1 (2011 a 2014)",
+      "ibov": "69.304 a 50.007",
+      "nominal": "-27,8% (-7,8% a.a.)",
+      "em_dolar": "-54,7% (-18,0% a.a.)",
+      "real_ipca": "-43,2% (-13,2% a.a.)",
+      "ipca_acum": "27,0%",
+      "ptax": "1,6662 a 2,6562 (+59,4%)",
+      "sp500": "+63,7%",
+      "eem": "-10,5%"
+    },
+    {
+      "mandato": "Dilma 2 (01/2015 a 11/05/2016)",
+      "ibov": "50.007 a 52.764",
+      "nominal": "+5,5%",
+      "em_dolar": "-19,1%",
+      "real_ipca": "-8,4%",
+      "ipca_acum": "15,2%",
+      "ptax": "2,6562 a 3,4645 (+30,4%)",
+      "sp500": "+0,3%",
+      "eem": "-14,2%"
+    },
+    {
+      "mandato": "Temer (11/05/2016 a 31/12/2018)",
+      "ibov": "52.764 a 87.887",
+      "nominal": "+66,6% (21,4% a.a.)",
+      "em_dolar": "+48,9% (16,3% a.a.)",
+      "real_ipca": "+52,7% (17,4% a.a.)",
+      "ipca_acum": "9,1%",
+      "ptax": "3,4645 a 3,8748 (+11,8%)",
+      "sp500": "+21,4%",
+      "eem": "+25,9%"
+    },
+    {
+      "mandato": "Bolsonaro (2019 a 2022)",
+      "ibov": "87.887 a 109.735",
+      "nominal": "+24,9% (5,7% a.a.)",
+      "em_dolar": "-7,3% (-1,9% a.a.)",
+      "real_ipca": "-1,6% (-0,4% a.a.)",
+      "ipca_acum": "26,9%",
+      "ptax": "3,8748 a 5,2177 (+34,7%)",
+      "sp500": "+53,2%",
+      "eem": "+5,9%"
+    },
+    {
+      "mandato": "Lula 3 (01/2023 a 27/10/2026)",
+      "ibov": "109.735 a 175.710",
+      "nominal": "+60,1% (13,1% a.a.)",
+      "em_dolar": "+56,6% (12,4% a.a.)",
+      "real_ipca": "+34,7% (8,1% a.a.; IPCA até set/2026)",
+      "ipca_acum": "18,9% (jan/2023 a set/2026)",
+      "ptax": "5,2177 a 5,3346 (+2,2%)",
+      "sp500": "+101,1%",
+      "eem": "+78,6%"
+    },
+    {
+      "mandato": "Lula 3 (01/2023 a 23/10/2026, véspera do 2º turno)",
+      "ibov": "109.735 a 205.083",
+      "nominal": "+86,9% (17,8% a.a.)",
+      "em_dolar": "+93,6% (18,9% a.a.)",
+      "real_ipca": "+57,2% (12,6% a.a.)",
+      "ipca_acum": "18,9%",
+      "ptax": "5,2177 a 5,0377 (-3,4%)"
+    }
+  ],
+  "hipoteses_26_10": [
+    {
+      "id": "a",
+      "hipotese": "Posicionamento e desmonte de apostas em Flávio",
+      "a_favor": "Mercados de previsão davam 75% (Polymarket, 23/10) a 81% (Kalshi, 24/10) para Flávio, contra empate de 50% a 50% nos votos válidos do Datafolha de 22/10. Estrangeiros puseram R$ 19,1 bi líquidos na B3 de 01 a 14/10, com recorde diário de R$ 10,1 bi em 05/10 e 63,2% do volume do mês; a XP classificou o fluxo como aposta eleitoral. Com probabilidade de 75% a 81% para Flávio, a queda de 13,88% implica diferença de 20% a 22% entre os dois desfechos, coerente com a estimativa do BTG de -17% para vitória de Lula a partir de 205 mil pontos. O tombo devolveu o Ibovespa ao nível de 28/08/2026 (175.665), antes da virada de Flávio nos mercados de previsão (10/09), e a PTAX ao nível do fim de 2025 (5,50).",
+      "contra": "A saída estrangeira registrada em 26/10 foi de R$ 2,8 bi, e o saldo de outubro seguiu positivo em R$ 13,3 bi: o preço caiu muito mais do que o volume vendido sugere, o que indica remarcação de expectativa e não só liquidação forçada. Em 28/10 a bolsa caiu mais 2,6% sem notícia eleitoral nova, o que o desmonte sozinho não explica. A conta de probabilidade supõe que nada mais mudou entre agosto e outubro.",
+      "leitura": "É a hipótese com maior aderência quantitativa ao tamanho do movimento do dia 26."
+    },
+    {
+      "id": "b",
+      "hipotese": "Heurísticas e vieses (manada, ancoragem, disponibilidade, desejabilidade)",
+      "a_favor": "A distância entre os mercados de previsão (75% a 81%) e as pesquisas (50% a 50%) é o tipo de erro que a literatura descreve: ancoragem no erro de pesquisa do 1º turno (a última pesquisa divulgada antes do voto, em 03/10, dava Lula 45% x 42%; o resultado foi Flávio 47,03% x 45,16%), viés de disponibilidade ao extrapolar esse erro para o 2º turno (Tversky e Kahneman, 1974) e manada em fluxo concentrado em poucos dias (Bikhchandani, Hirshleifer e Welch, 1992). Em mercados de aposta eleitoral, quem prefere um candidato superestima a chance dele (Forsythe, Rietz e Ross, 1999), e 88% a 90% dos gestores avaliavam mal o governo Lula nas sondagens Genial/Quaest de dez/2024 e mar/2025. O S&P/B3 Ibovespa VIX bateu o recorde de 33,21 pontos em 02/10/2026.",
+      "contra": "O Datafolha deu Flávio à frente nos votos válidos em 08/10 (52%) e 15/10 (51%); apostar nele não contrariava os dados até a última semana. O erro das pesquisas a favor da direita se repetiu em 2018 e 2022, de modo que corrigir por ele é atualização bayesiana defensável. Sobrerreação (De Bondt e Thaler, 1985) prevê reversão parcial nos dias seguintes; até 28/10 o câmbio devolveu cerca de um terço da alta, mas a bolsa caiu mais. A Polymarket está bloqueada no Brasil desde abr/2026, então seus preços refletem apostadores de fora, e não a mesa de operações local.",
+      "leitura": "Explica por que a probabilidade embutida nos preços estava alta demais; não explica sozinha o tamanho da diferença entre os desfechos."
+    },
+    {
+      "id": "c",
+      "hipotese": "Prêmio de risco fiscal racional",
+      "a_favor": "Todas as classes de ativo se moveram juntas em 26/10: DI jan/2029 +2,655 p.p. (15,250%), dólar +8,21%, CDS +26% (151,6 pb), o que é a assinatura de repricing de risco soberano e não de fluxo de bolsa. A DBGG subiu de 71,7% do PIB (dez/2022) para 82,9% (ago/2026), com juros de 8,9% do PIB em 12 meses, e FMI e IFI não projetam estabilização antes de 2030 (Frente A). Analistas atribuíram a alta de 05/10 à expectativa de política fiscal menos expansionista com Flávio. Em 28/10 a queda veio com relatos de que o governo estuda IOF sobre LCI, LCA, CRI, CRA e debêntures e com preocupação com o fiscal do novo mandato. A literatura modela esse prêmio como incerteza de política (Pástor e Veronesi, 2013) e, para o Brasil, como dominância fiscal (Blanchard, 2004).",
+      "contra": "Em 26/10 não houve informação fiscal nova: a política do governo é conhecida há quatro anos. O CDS de 151,6 pb ficou abaixo dos 178 pb de 08/05/2025 e muito longe dos 2.443 pb do EMBI+ de set/2002 ou dos 418 pb de out/2015, o que não é repricing de solvência. O DI jan/2029 abriu 28/10 a 14,86%, cerca de 0,4 p.p. abaixo do fechamento de 26/10. O programa fiscal de Flávio não foi detalhado em números, então o diferencial fiscal entre os dois era expectativa, não plano.",
+      "leitura": "Sustenta a direção e a persistência do movimento (juro longo, câmbio, bolsa em 28/10); o tamanho do dia 26 depende de (a)."
+    },
+    {
+      "id": "d",
+      "hipotese": "Composição política do mercado",
+      "a_favor": "Sondagens Genial/Quaest com gestores de 105 fundos de SP e RJ: avaliação negativa do governo Lula de 90% (29/11 a 03/12/2024) e 88% (mar/2025); 93% viam Tarcísio como o nome com mais chance de vencer a esquerda (mar/2025). Quando Flávio foi escolhido no lugar de Tarcísio, o Ibovespa caiu 4,31% (05/12/2025, o 'Flávio Day'), o que mostra o mercado precificando elegibilidade contra Lula. Gestores com R$ 180 bi sob gestão diziam em 24/07/2026 que o mercado subestimava a chance de derrota de Lula.",
+      "contra": "Preço se forma com dinheiro, não com voto: estrangeiros eram 63,2% do volume de outubro e não têm filiação partidária no Brasil. Sob Lula 3 o Ibovespa fez recorde em 14/04/2026 (198.657) quando Lula liderava as pesquisas, e subiu 56,6% em dólares até 27/10/2026, contra -7,3% sob Bolsonaro. Em 2022 a vitória de Lula levou o Ibovespa a +1,31% no dia seguinte. Não se localizou sondagem de 2026 só com o mercado sobre voto ou preferência.",
+      "leitura": "Ajuda a explicar a crença (probabilidades enviesadas), não o nível de preço; é o elo entre (b) e (a)."
+    }
+  ],
+  "referencias_academicas": [
+    "Tversky, A.; Kahneman, D. (1974). Judgment under uncertainty: heuristics and biases. Science 185(4157): 1124-1131.",
+    "Bikhchandani, S.; Hirshleifer, D.; Welch, I. (1992). A theory of fads, fashion, custom, and cultural change as informational cascades. Journal of Political Economy 100(5): 992-1026.",
+    "De Bondt, W.; Thaler, R. (1985). Does the stock market overreact? Journal of Finance 40(3): 793-805.",
+    "Forsythe, R.; Rietz, T.; Ross, T. (1999). Wishes, expectations and actions: a survey on price formation in election stock markets. Journal of Economic Behavior & Organization 39(1): 83-110.",
+    "Snowberg, E.; Wolfers, J.; Zitzewitz, E. (2007). Partisan impacts on the economy: evidence from prediction markets and close elections. Quarterly Journal of Economics 122(2): 807-829.",
+    "Pástor, L.; Veronesi, P. (2013). Political uncertainty and risk premia. Journal of Financial Economics 110(3): 520-545.",
+    "Białkowski, J.; Gottschalk, K.; Wisniewski, T. (2008). Stock market volatility around national elections. Journal of Banking & Finance 32(9): 1941-1953.",
+    "Blanchard, O. (2004). Fiscal dominance and inflation targeting: lessons from Brazil. NBER Working Paper 10389.",
+    "Favero, C.; Giavazzi, F. (2004). Inflation targeting and debt: lessons from Brazil. NBER Working Paper 10390."
+  ],
+  "analise": [
+    {
+      "titulo": "No dia seguinte, o preço reage à surpresa",
+      "texto": "Nas seis eleições de 2002 a 2022 o Ibovespa variou entre -4,40% e +1,31% no pregão seguinte ao 2º turno, sempre com o favorito das pesquisas vencendo. O caso de 2002 parece exceção e confirma a regra: o choque veio antes da eleição, quando a PTAX subiu 71,5% de 02/01 a 22/10/2002 (de 2,3066 para 3,9552), o EMBI+ foi de 824 a 2.443 pb (27/09) e o Ibovespa perdeu 39,7% até 16/10; a vitória de Lula em 27/10 já estava no preço e o dólar caiu 1,60% no dia seguinte. As duas maiores quedas de dia seguinte antes de 2026 foram 2014 (-2,77%) e 2018 (-2,24%), ambas depois de ralis eleitorais, uma com derrota e outra com vitória do candidato preferido pelo mercado. Em 2026 o favorito dos mercados de previsão (Flávio, 75% a 81%) perdeu para um candidato empatado nas pesquisas, e o Ibovespa caiu 13,88%, a terceira maior queda diária desde 2019 (atrás de 12/03/2020, -14,78%, e 16/03/2020, -13,92%) e a quinta desde 1994. A PTAX subiu 9,19%, terceira maior alta diária desde 1999, atrás de 15/01/1999 (+11,10%) e 08/10/2008 (+9,33%)."
+    },
+    {
+      "titulo": "Doze meses depois, o ciclo pesa mais que o resultado",
+      "texto": "Doze meses após o 2º turno o Ibovespa subiu 77,25% (2002) e 65,39% (2006) nos dois primeiros ciclos de Lula, carregado pelo superciclo de commodities e pela queda do risco-país (EMBI+ de 1.785 para 653 pb em 2002-2003). Caiu 17,45% depois de 2010 e 9,11% depois de 2014; neste último caso o dólar subiu 55,54% e o EMBI+ 175 pb em um ano, com recessão e deterioração fiscal reais, e é o precedente em que o alarme pós-eleitoral se confirmou. Depois de 2018 o índice subiu 26,21%; depois de 2022 caiu 1,75% com o dólar 6,32% mais barato. O resultado de doze meses de 2026 só sai em out/2027."
+    },
+    {
+      "titulo": "2026: o rali da aposta e a devolução",
+      "texto": "O Ibovespa fechou 2025 em 161.125 pontos e fez recorde de 198.657 em 14/04/2026, antes de a eleição entrar no preço. Recuou a 167.875 em 11/08/2026, quando o JP Morgan rebaixou a bolsa citando risco fiscal eleitoral, e estava em 175.665 em 28/08. Flávio passou Lula na Polymarket em 10/09 (188.269 pontos). O índice chegou a 192.115 em 02/10, véspera útil do 1º turno, e subiu 7,70% em 05/10 (206.912), depois de Flávio terminar o 1º turno à frente (47,03% x 45,16%), com entrada estrangeira recorde de R$ 10,1 bi naquele dia. A máxima histórica de fechamento é 209.067 em 09/10/2026 (+19,0% sobre 28/08; +29,8% no ano). Na véspera do 2º turno, 23/10, o índice estava em 205.083 e a PTAX em 5,0377. Em 26/10 caiu a 176.608 (-13,88%), praticamente o nível de 28/08; em 27/10 fechou a 175.710 (-0,51%); em 28/10, às 16h17, operava a 171.196 (-2,6% no dia, -18,1% sobre a máxima). O câmbio recuperou parte: PTAX de 5,5007 (26/10) para 5,3346 (27/10) e 5,3420 (28/10). A bolsa não recuperou nada até 28/10."
+    },
+    {
+      "titulo": "Por mandato, a moeda de medida muda o ranking",
+      "texto": "Em reais nominais, o melhor mandato para o Ibovespa foi Lula 1 (+294,7%) e o pior Dilma 1 (-27,8%). Em dólares, Lula 1 multiplicou o índice por 6,5 (+552,3%) e Dilma 1 o reduziu a menos da metade (-54,7%). Em termos reais (IPCA), Bolsonaro fechou levemente negativo (-1,6%), com a pandemia no meio, e Lula 3 acumulava +34,7% até 27/10/2026 (ou +57,2% até a véspera do 2º turno). O dólar subiu 192,3% em FHC 2, caiu 39,5% em Lula 1 e 22,1% em Lula 2, subiu 59,4% em Dilma 1, 34,7% em Bolsonaro e 2,2% em Lula 3 até 27/10/2026. A comparação atribui ao presidente o que é ciclo global: o S&P 500 subiu 101,1% em Lula 3 e 53,2% em Bolsonaro, e o ETF de emergentes EEM rendeu +78,6% em Lula 3, acima dos +56,6% do Ibovespa em dólares até 27/10/2026. Em Lula 1 o Ibovespa em dólares (+457,4% de abr/2003 a dez/2006) bateu o EEM (+253,9%) com folga."
+    },
+    {
+      "titulo": "Hipóteses para 26/10: o que os dados sustentam",
+      "texto": "Nenhuma hipótese explica o movimento sozinha. O desmonte de posição (a) é a que melhor responde pelo tamanho: com 75% a 81% de probabilidade para Flávio nos mercados de previsão, a queda de 13,88% implica diferença de 20% a 22% entre os desfechos, e o índice voltou ao nível de agosto, antes da aposta. Os vieses (b) explicam por que a probabilidade embutida estava acima do que as pesquisas mostravam (50% a 50% no Datafolha de 22/10); a preferência política do mercado (d), com 88% a 90% de avaliação negativa de Lula entre gestores em 2024-2025, é o canal plausível desse viés, mas o preço foi formado sobretudo por estrangeiros. O prêmio fiscal (c) sustenta a direção e a persistência: juro longo, dólar e CDS subiram juntos, e em 28/10 a bolsa caiu mais 2,6% com notícias de IOF sobre títulos isentos e incerteza sobre a equipe econômica. Contra uma leitura de crise de solvência, o CDS de 151,6 pb segue abaixo do de maio de 2025."
+    },
+    {
+      "titulo": "Brasil 7ª economia: o FMI não projeta",
+      "texto": "No WEO de outubro de 2026 (atualizado em 08/10/2026), o Brasil é a 10ª economia do mundo em PIB nominal em 2026 (US$ 2,655 tri, atrás da Itália, US$ 2,702 tri, e da Rússia, US$ 2,861 tri) e sobe para 8ª em 2027 (US$ 2,796 tri), posição que mantém até 2031 (US$ 3,398 tri). Para ser 7º precisaria passar a França, projetada em US$ 4,069 tri em 2031, 20% acima. O Brasil já foi 7º em PIB nominal de 2010 a 2014, com o real forte. Em paridade de poder de compra foi 7º em 2010-2015, 2018 e 2020-2024 e caiu para 8º em 2025, ultrapassado pela Indonésia; o FMI o mantém em 8º até 2031, com a Indonésia abrindo distância. Em 2002 o Brasil era 13º no nominal e 10º em PPC. A projeção de 2026 em dólares é anterior à alta do câmbio de 26/10, que reduz o PIB medido em dólar."
+    }
+  ],
+  "metodo": "Ibovespa: BCB SGS 7 até 30/09/2019 (valores anteriores a 03/03/1997 divididos por 10 pela mudança de escala) e Yahoo Finance ^BVSP depois; fechamento de 29/12/2022 substituído pelo oficial da B3 (109.735). Diferença máxima Yahoo x SGS no período comum (2019): 0,59%. PTAX venda: SGS 1. IPCA: SGS 433, mensal; deflação do mês seguinte ao início até o mês do fim do mandato (Lula 3 até set/2026, último divulgado). EMBI+: Ipeadata JPM366_EMBI366, encerrada em 30/07/2024, por isso sem 2026 (usado CDS da Frente B). Janelas eleitorais: base no último pregão antes do 2º turno; 30 dias, 6 e 12 meses no último pregão até a data-alvo. Ranking do FMI calculado pela Frente I com os dados da API DataMapper (WEO out/2026), sobre países, excluídos agregados. S&P 500 em preço; EEM com dividendos (adjclose); Ibovespa é índice de retorno total."
+}

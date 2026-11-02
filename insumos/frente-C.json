@@ -1,0 +1,549 @@
+{
+  "frente": "C",
+  "titulo": "Economia real e indicadores sociais: alarmes de 2022 e a versão 2026",
+  "resumo": "Os alarmes econômicos de 2022 contra um governo Lula (virar Argentina/Venezuela, fim do Auxílio, fim do agro, confisco de poupança) não se confirmaram: o PIB cresceu 3,2% (2023), 3,4% (2024) e 2,3% (2025), a desocupação caiu de 9,3% (média de 2022) para 5,6% (média de 2025), mínima da série, e a pobreza caiu de 31,6% para 23,1% entre 2022 e 2024. O Brasil saiu do Mapa da Fome da FAO no triênio 2022-2024 e continuou fora em 2023-2025. A versão 2026 dos alarmes tem base parcial: o IPCA em 12 meses voltou a passar o teto da meta (4,58% em set/2026), o Focus projeta 5,19% para 2026, o crescimento desacelera (Focus 1,80%), o endividamento das famílias está no recorde e as recuperações judiciais no agro bateram recorde em 2025. A comparação com 2019-2022 exige descontar a pandemia, a guerra da Ucrânia, o pacote eleitoral de 2022 (EC 123 e corte de ICMS) e a safra recorde de 2023.",
+  "alegacoes": [
+    {
+      "id": "C1",
+      "alegacao": "Com erros de política econômica o Brasil vira Argentina em seis meses e Venezuela em um ano e meio; a frase foi usada depois como aviso contra a volta do PT",
+      "quem": "Paulo Guedes, ministro da Economia (podcast Primocast); reaproveitada em redes na campanha e após a posse de Lula",
+      "quando": "2021-03",
+      "fonte_alegacao": "https://www.infomoney.com.br/?p=1603260",
+      "o_que_aconteceu": "IPCA de 4,62% (2023), 4,83% (2024) e 4,26% (2025); 4,58% em 12 meses até set/2026. PIB cresceu 3,2%, 3,4% e 2,3% em 2023-2025. Desocupação média de 5,6% em 2025, a menor da série iniciada em 2012.",
+      "fonte_fato": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/202312,202412,202512,202609",
+      "veredito": "nao_ocorreu",
+      "nota": "A fala original é de março de 2021, condicionada a descontrole de gastos, e não a uma eleição; o próprio Guedes depois disse ter exagerado os prazos (3 e 5-6 anos). O que o alarme tinha de fundamento era fiscal (dívida e juros), tema da frente A, e não inflação ou atividade."
+    },
+    {
+      "id": "C2",
+      "alegacao": "Sob Lula o Brasil seguiria o caminho da Argentina e da Venezuela (miséria, migração, pobreza)",
+      "quem": "Jair Bolsonaro, debate da Band, 2º turno",
+      "quando": "2022-10-16",
+      "fonte_alegacao": "https://www.em.com.br/app/noticia/politica/2022/10/16/interna_politica,1408026/amp.html",
+      "o_que_aconteceu": "Pobreza (linha US$ 6,85/dia) caiu de 31,6% (2022) para 27,3% (2023) e 23,1% (2024), menor da série desde 2012; extrema pobreza (US$ 2,15/dia) caiu de 5,9% (2022) para 3,5% (2024). Gini caiu de 0,517 (2022) para 0,504 (2024) e subiu para 0,511 em 2025.",
+      "fonte_fato": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102275_informativo.pdf",
+      "veredito": "nao_ocorreu",
+      "nota": "Parte da queda da pobreza vem de transferências: sem programas sociais o Gini de 2024 seria 0,542 em vez de 0,504 (IBGE, SIS 2025). Os programas sociais passaram de 1,7% (2019) para 3,8% (2024) e 3,5% (2025) da renda domiciliar per capita. O IBGE ainda usa as linhas do Banco Mundial anteriores à revisão de junho/2025."
+    },
+    {
+      "id": "C3",
+      "alegacao": "Lula prometeu acabar com o Auxílio Brasil",
+      "quem": "Vídeo que circulou em redes na campanha (checado por Aos Fatos); variação atribuída a Janones checada pelo UOL Confere",
+      "quando": "2022-10",
+      "fonte_alegacao": "https://www.aosfatos.org/noticias/falso-lula-prometeu-acabar-com-auxilio-brasil/",
+      "o_que_aconteceu": "O programa voltou a se chamar Bolsa Família em 2023 com piso de R$ 600 por família e adicional por criança; a participação dos programas sociais na renda domiciliar per capita foi de 3,8% em 2024 e 3,5% em 2025, contra 1,7% em 2019.",
+      "fonte_fato": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102275_informativo.pdf",
+      "veredito": "nao_ocorreu",
+      "nota": "O alarme simétrico também era falso: Lula disse em ago/2022 que o Auxílio acabaria em dezembro, e Aos Fatos classificou como enganoso (a lei não tinha prazo; o que expirava era o adicional de R$ 200 da EC 123/2022). Em 2025 não houve expansão do número de famílias atendidas nem do valor médio do benefício, e o IBGE registra queda do Bolsa Família na renda (fonte: informativo IBGE, mai/2026)."
+    },
+    {
+      "id": "C4",
+      "alegacao": "Lula e o MST querem eliminar o agronegócio ('eliminado da Terra'); o agro quebraria",
+      "quem": "Site Compre Rural e perfis em redes, a partir de coluna de J. R. Guzzo; TSE mandou remover vídeos em 19/09/2022",
+      "quando": "2022-08",
+      "fonte_alegacao": "https://www.aosfatos.org/noticias/e-falso-que-lula-disse-que-agronegocio-deve-ser-eliminado-da-terra/",
+      "o_que_aconteceu": "Agropecuária cresceu 11,7% em 2025 (IBGE). Conab estima safra 2025/26 recorde de 360,8 milhões de t (11º levantamento, 13/08/2026). Exportações do agronegócio somaram US$ 169,2 bi em 2025, recorde, 48,5% das exportações do país (Mapa).",
+      "fonte_fato": "https://revistacultivar.com.br/noticias/safra-2025-26-deve-alcancar-360-8-milhoes-de-toneladas",
+      "veredito": "nao_ocorreu",
+      "nota": "Lula de fato chamou parte do setor de 'fascista e direitista' na entrevista ao JN de 2022 (Aos Fatos registrou a distorção de que teria chamado todo o agro). O setor tem estresse financeiro real: 1.990 pedidos de recuperação judicial em 2025, recorde da série Serasa iniciada em 2021, por crédito caro, custos altos e alavancagem (ver C9). Produção recorde e caixa apertado convivem."
+    },
+    {
+      "id": "C5",
+      "alegacao": "Lula vai bloquear ou confiscar a poupança (tuíte forjado; estatuto do PT preveria confisco)",
+      "quem": "Montagem de tuíte atribuído a Lula e vídeo no Kwai sobre o estatuto do PT",
+      "quando": "2022-10",
+      "fonte_alegacao": "https://www.aosfatos.org/noticias/lula-tuite-falso-bloquear-poupanca-auxilio-brasil/",
+      "o_que_aconteceu": "Não houve confisco nem bloqueio de poupança entre 2023 e out/2026; a Constituição veda a medida. O boato se repetiu depois com Haddad e com o Pix (IN RFB 2.219/2024, revogada em 15/01/2025 após onda de desinformação).",
+      "fonte_fato": "https://www.aosfatos.org/noticias/falso-haddad-confisco-poupancas/",
+      "veredito": "nao_ocorreu",
+      "nota": "No caso do Pix havia um ato real (ampliação de reporte de movimentações à Receita), sem criação de tributo; o governo recuou por efeito político, não por ter havido taxação."
+    },
+    {
+      "id": "C6",
+      "alegacao": "Vai faltar fertilizante (e comprometer a safra) por causa da guerra da Ucrânia",
+      "quem": "Anda (estoque para ~3 meses) e ministra Tereza Cristina (estoque garantido até outubro; 'a safra de verão é uma preocupação')",
+      "quando": "2022-03",
+      "fonte_alegacao": "https://www.agazeta.com.br/economia/guerra-na-ucrania-brasil-tem-fertilizantes-para-tres-meses-diz-associacao-0322",
+      "o_que_aconteceu": "Não houve desabastecimento; a agropecuária cresceu 16,3% em 2023 (dado revisado pelo IBGE em dez/2024), puxando o PIB de 3,2%.",
+      "fonte_fato": "https://vermelho.org.br/?p=706848",
+      "veredito": "nao_ocorreu",
+      "nota": "Alarme legítimo, vindo do próprio governo Bolsonaro, e não de campanha: o país importava ~85% dos fertilizantes e a Rússia respondia por ~23%. O custo dos insumos subiu e pesou na inflação de alimentos de 2022 (11,64%). Não é previsão contra Lula."
+    },
+    {
+      "id": "C7",
+      "alegacao": "Fome atinge 33,1 milhões de brasileiros (15,5%) e vai se agravar",
+      "quem": "Rede PENSSAN, II VIGISAN (alarme do campo oposto, usado na campanha de Lula)",
+      "quando": "2022-06",
+      "fonte_alegacao": "https://jornal.usp.br/wp-content/uploads/2022/06/Relatorio-II-VIGISAN-2022.pdf",
+      "o_que_aconteceu": "FAO registrava 3,5% de subalimentação no triênio 2020-2022 (Brasil no Mapa da Fome) e moderada+grave de 22,1%. No SOFI 2025 o Brasil saiu do Mapa (2022-2024, abaixo de 2,5%); no SOFI 2026 (21/07/2026) segue fora, com moderada+grave de 9,6% em 2023-2025. PNAD: insegurança alimentar grave caiu de 4,1% (2023) para 3,2% dos domicílios (2024).",
+      "fonte_fato": "https://www.folhape.com.br/noticias/brasil-continua-fora-do-mapa-da-fome-aponta-relatorio-da-onu/502102/",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "A fome de 2021-2022 era real (FAO confirma o Brasil no Mapa em 2018-2020 e 2020-2022), mas a magnitude do VIGISAN (amostra de 12.745 domicílios, nov/2021-abr/2022) é disputada: o indicador da FAO equivale a cerca de metade dos casos. VIGISAN, PNAD/EBIA e FAO/FIES não são comparáveis entre si."
+    },
+    {
+      "id": "C8",
+      "alegacao": "A taxa de desemprego é mentira do IBGE / o IBGE conta beneficiário do Bolsa Família como empregado",
+      "quem": "Jair Bolsonaro (dez/2024); posts no X e Facebook checados por Aos Fatos (03/08/2026)",
+      "quando": "2026-08-03",
+      "fonte_alegacao": "https://www.aosfatos.org/noticias/ibge-bolsa-familia-empregado/",
+      "o_que_aconteceu": "Receber benefício não é critério de classificação na PNAD Contínua; desocupado é quem procurou trabalho e não achou. Desocupação de 5,1% em out-dez/2025 (mínima da série) e 5,3% em jun-ago/2026, com 103,5 milhões de ocupados, recorde. Metodologia igual desde 2012.",
+      "fonte_fato": "https://apisidra.ibge.gov.br/values/t/6381/n1/all/v/4099/p/last%2012",
+      "veredito": "nao_ocorreu",
+      "nota": "Declaração de Bolsonaro registrada em https://www.poder360.com.br/poder-economia/taxa-de-desemprego-e-mentira-do-ibge-afirma-bolsonaro/. A crítica com fundamento é outra: informalidade de 37,5% (jun-ago/2026) e taxa de participação. Ela não altera a taxa de desocupação."
+    },
+    {
+      "id": "C9",
+      "alegacao": "Versão 2026: o agro está quebrando (recuperações judiciais recordes)",
+      "quem": "Imprensa setorial e de oposição a partir de dados da Serasa Experian (Revista Oeste, AgFeed)",
+      "quando": "2026",
+      "fonte_alegacao": "https://revistaoeste.com/agronegocio/pedidos-de-recuperacao-judicial-no-agronegocio-batem-recorde-desde-2021/",
+      "o_que_aconteceu": "1.990 pedidos de RJ no agro em 2025 (+56,4% sobre 1.272 em 2024), 853 de produtor pessoa física; MT 332, GO 296, PR 248 (Serasa). No mesmo ano a agropecuária cresceu 11,7% e as exportações bateram US$ 169,2 bi.",
+      "fonte_fato": "https://mundocoop.com.br/agronegocio/pedidos-de-recuperacao-judicial-no-agro-crescem-56-e-batem-recorde-em-2025/",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "Estresse financeiro real e crescente, concentrado em produtores alavancados de grãos com Selic a 15% e preço de soja em queda (valor exportado +1,4% com volume +9,5% em 2025). A própria Serasa diz que as RJs afetam fatia pequena do crédito rural. Quebra do setor não ocorreu."
+    },
+    {
+      "id": "C10",
+      "alegacao": "Versão 2026: a inflação está fora de controle",
+      "quem": "Circulou em redes; o dado de base é a leitura do IPCA de set/2026 e o Focus",
+      "quando": "2026-10",
+      "fonte_alegacao": "https://www.bcb.gov.br/content/focus/focus/R20261023.pdf",
+      "o_que_aconteceu": "IPCA de set/2026: 0,82% no mês, 3,95% no ano e 4,58% em 12 meses, acima do teto de 4,5% da meta contínua de 3%. Focus de 23/10/2026: IPCA 2026 em 5,19%, 2027 em 4,34%. Alimentação e bebidas: 4,66% em 12 meses.",
+      "fonte_fato": "https://static.poder360.com.br/uploads/2026/10/inpc_ipca_2026_set.pdf",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "Acima da meta, sim; descontrole, não. 2021 teve 10,06% e 2015 teve 10,67%. A alta de setembro veio do fim do bônus de Itaipu na energia (+7,98%), que respondeu por 0,32 p.p. do índice do mês. Pela regra contínua, o descumprimento se configura com seis meses seguidos fora do intervalo."
+    }
+  ],
+  "series": [
+    {
+      "nome": "PIB real, variação anual (Contas Anuais até 2023; Contas Trimestrais 2024-2025; 2026 = acumulado 4 trimestres até 2T26 e mediana Focus)",
+      "unidade": "% a.a.",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/6784/n1/all/v/9810/p/2014-2023 ; https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/all/p/202404,202504,202602/c11255/90707 ; https://www.bcb.gov.br/content/focus/focus/R20261023.pdf",
+      "pontos": [
+        {"t": "2015", "v": -3.5},
+        {"t": "2016", "v": -3.3},
+        {"t": "2017", "v": 1.3},
+        {"t": "2018", "v": 1.7},
+        {"t": "2019", "v": 1.3},
+        {"t": "2020", "v": -3.3},
+        {"t": "2021", "v": 4.8},
+        {"t": "2022", "v": 3.0},
+        {"t": "2023", "v": 3.2},
+        {"t": "2024", "v": 3.4},
+        {"t": "2025", "v": 2.3},
+        {"t": "2026-06 (acum. 4 tri)", "v": 1.9},
+        {"t": "2026 (Focus 23/10/2026)", "v": 1.8}
+      ]
+    },
+    {
+      "nome": "Taxa de desocupação PNAD Contínua, média anual (divulgação anual do IBGE)",
+      "unidade": "%",
+      "fonte": "https://www.correiobraziliense.com.br/economia/2022/02/4988062-ibge-desemprego-no-brasil-cai-para-111-no-quarto-trimestre.html ; https://agenciadenoticias.ibge.gov.br/agencia-noticias/45923-em-2025-vinte-unidades-da-federacao-registram-a-menor-taxa-de-desocupacao-da-serie.html",
+      "pontos": [
+        {"t": "2015", "v": 8.6},
+        {"t": "2016", "v": 11.7},
+        {"t": "2017", "v": 12.9},
+        {"t": "2018", "v": 12.4},
+        {"t": "2019", "v": 12.0},
+        {"t": "2020", "v": 13.8},
+        {"t": "2021", "v": 13.2},
+        {"t": "2022", "v": 9.3},
+        {"t": "2023", "v": 7.8},
+        {"t": "2024", "v": 6.6},
+        {"t": "2025", "v": 5.6}
+      ]
+    },
+    {
+      "nome": "Taxa de desocupação, trimestre móvel (mínima e leituras recentes)",
+      "unidade": "%",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/6381/n1/all/v/4099/p/last%2048",
+      "pontos": [
+        {"t": "2022-12 (out-dez)", "v": 7.9},
+        {"t": "2023-12", "v": 7.4},
+        {"t": "2024-12", "v": 6.2},
+        {"t": "2025-12 (mínima da série)", "v": 5.1},
+        {"t": "2026-03", "v": 6.1},
+        {"t": "2026-06", "v": 5.4},
+        {"t": "2026-08 (jun-ago, último divulgado em 29/09/2026)", "v": 5.3}
+      ]
+    },
+    {
+      "nome": "IPCA, variação em 12 meses (dezembro de cada ano; set/2026 = último)",
+      "unidade": "%",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/201512,201612,201712,201812,201912,202012,202112,202212,202312,202412,202512,202609",
+      "pontos": [
+        {"t": "2015", "v": 10.67},
+        {"t": "2016", "v": 6.29},
+        {"t": "2017", "v": 2.95},
+        {"t": "2018", "v": 3.75},
+        {"t": "2019", "v": 4.31},
+        {"t": "2020", "v": 4.52},
+        {"t": "2021", "v": 10.06},
+        {"t": "2022", "v": 5.79},
+        {"t": "2023", "v": 4.62},
+        {"t": "2024", "v": 4.83},
+        {"t": "2025", "v": 4.26},
+        {"t": "2026-09", "v": 4.58}
+      ]
+    },
+    {
+      "nome": "Meta de inflação (centro) e teto; desde 2025 meta contínua de 3,0% com intervalo de 1,5 p.p.",
+      "unidade": "%",
+      "fonte": "https://www.bcb.gov.br/controleinflacao/historicometas",
+      "pontos": [
+        {"t": "2019 centro", "v": 4.25},
+        {"t": "2020 centro", "v": 4.0},
+        {"t": "2021 centro", "v": 3.75},
+        {"t": "2022 centro", "v": 3.5},
+        {"t": "2023 centro", "v": 3.25},
+        {"t": "2023 teto", "v": 4.75},
+        {"t": "2024 centro", "v": 3.0},
+        {"t": "2024 teto", "v": 4.5},
+        {"t": "2025 centro (contínua)", "v": 3.0},
+        {"t": "2025 teto", "v": 4.5},
+        {"t": "2026 centro (contínua)", "v": 3.0},
+        {"t": "2026 teto", "v": 4.5}
+      ]
+    },
+    {
+      "nome": "IPCA Alimentação e bebidas, variação em 12 meses",
+      "unidade": "%",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/2265/p/202012,202112,202212,202312,202412,202512,202609/c315/7170 ; 2019: https://apisidra.ibge.gov.br/values/t/1419/n1/all/v/69/p/201912/c315/7170",
+      "pontos": [
+        {"t": "2019", "v": 6.37},
+        {"t": "2020", "v": 14.09},
+        {"t": "2021", "v": 7.94},
+        {"t": "2022", "v": 11.64},
+        {"t": "2023", "v": 1.03},
+        {"t": "2024", "v": 7.69},
+        {"t": "2025", "v": 2.95},
+        {"t": "2026-09", "v": 4.66}
+      ]
+    },
+    {
+      "nome": "Salário mínimo: aumento real a cada reajuste (deflator INPC)",
+      "unidade": "% real",
+      "fonte": "https://www.dieese.org.br/notatecnica/2025/notaTec289salarioMinimo.pdf",
+      "pontos": [
+        {"t": "2019-01 (R$ 998)", "v": 1.14},
+        {"t": "2020-01 (R$ 1.039)", "v": -0.36},
+        {"t": "2020-02 (R$ 1.045)", "v": 0.39},
+        {"t": "2021-01 (R$ 1.100)", "v": 0.01},
+        {"t": "2022-01 (R$ 1.212)", "v": 0.02},
+        {"t": "2023-01 (R$ 1.302, fixado no fim do governo Bolsonaro)", "v": 1.41},
+        {"t": "2023-05 (R$ 1.320)", "v": -1.01},
+        {"t": "2024-01 (R$ 1.412)", "v": 5.64},
+        {"t": "2025-01 (R$ 1.518)", "v": 2.61},
+        {"t": "2026-01 (R$ 1.621; limitado a 2,5% real pela LC 200/2023)", "v": 2.49}
+      ]
+    },
+    {
+      "nome": "Rendimento médio real habitual de todos os trabalhos (PNAD anual, preços de 2025); 2019 derivado de 3.560/1,111",
+      "unidade": "R$",
+      "fonte": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2012-agencia-de-noticias/noticias/46579-rendimento-medio-da-populacao-brasileira-atinge-r-3-367-em-2025.html",
+      "pontos": [
+        {"t": "2019 (derivado)", "v": 3204},
+        {"t": "2025", "v": 3560}
+      ]
+    },
+    {
+      "nome": "Rendimento médio mensal real domiciliar per capita (preços médios de 2025)",
+      "unidade": "R$",
+      "fonte": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102275_informativo.pdf",
+      "pontos": [
+        {"t": "2019", "v": 1904},
+        {"t": "2024", "v": 2118},
+        {"t": "2025", "v": 2264}
+      ]
+    },
+    {
+      "nome": "Proporção de pessoas na pobreza (US$ 6,85/dia PPC) - IBGE SIS",
+      "unidade": "% população",
+      "fonte": "https://www.tnh1.com.br/noticia/nid/mais-de-86-milhoes-deixam-pobreza-brasil-tem-melhor-nivel-desde-2012/",
+      "pontos": [
+        {"t": "2012", "v": 34.7},
+        {"t": "2019", "v": 32.6},
+        {"t": "2020", "v": 31.1},
+        {"t": "2021", "v": 36.8},
+        {"t": "2022", "v": 31.6},
+        {"t": "2023", "v": 27.3},
+        {"t": "2024", "v": 23.1}
+      ]
+    },
+    {
+      "nome": "Proporção de pessoas na extrema pobreza (US$ 2,15/dia PPC) - IBGE SIS",
+      "unidade": "% população",
+      "fonte": "https://www.diariodepernambuco.com.br/noticia/brasil/2024/12/extrema-pobreza-e-pobreza-atingem-o-menor-patamar-desde-2012-ibge.html",
+      "pontos": [
+        {"t": "2012", "v": 6.6},
+        {"t": "2021", "v": 9.0},
+        {"t": "2022", "v": 5.9},
+        {"t": "2023", "v": 4.4},
+        {"t": "2024", "v": 3.5}
+      ]
+    },
+    {
+      "nome": "Índice de Gini do rendimento domiciliar per capita (PNAD Contínua)",
+      "unidade": "índice",
+      "fonte": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102275_informativo.pdf",
+      "pontos": [
+        {"t": "2015", "v": 0.524},
+        {"t": "2018", "v": 0.545},
+        {"t": "2019", "v": 0.543},
+        {"t": "2020", "v": 0.523},
+        {"t": "2022", "v": 0.517},
+        {"t": "2023", "v": 0.517},
+        {"t": "2024", "v": 0.504},
+        {"t": "2025", "v": 0.511}
+      ]
+    },
+    {
+      "nome": "Insegurança alimentar moderada ou grave (FAO/FIES, média trienal)",
+      "unidade": "% população",
+      "fonte": "https://www.folhape.com.br/noticias/brasil-continua-fora-do-mapa-da-fome-aponta-relatorio-da-onu/502102/",
+      "pontos": [
+        {"t": "2020-2022", "v": 22.1},
+        {"t": "2021-2023", "v": 18.4},
+        {"t": "2022-2024", "v": 13.3},
+        {"t": "2023-2025", "v": 9.6}
+      ]
+    },
+    {
+      "nome": "Subalimentação (FAO PoU); Mapa da Fome = acima de 2,5%",
+      "unidade": "% população",
+      "fonte": "https://www.folhape.com.br/noticias/brasil-continua-fora-do-mapa-da-fome-aponta-relatorio-da-onu/502102/",
+      "pontos": [
+        {"t": "2020-2022", "v": 3.5}
+      ]
+    },
+    {
+      "nome": "Insegurança alimentar grave nos domicílios (IBGE, PNAD Contínua/EBIA)",
+      "unidade": "% domicílios",
+      "fonte": "https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/44728-mais-de-dois-milhoes-de-lares-saem-da-inseguranca-alimentar-em-2024.html?lang=pt-BR",
+      "pontos": [
+        {"t": "2023", "v": 4.1},
+        {"t": "2024", "v": 3.2}
+      ]
+    },
+    {
+      "nome": "Taxa de investimento (FBCF/PIB), média dos trimestres; 2025 oficial anual = 16,8",
+      "unidade": "% PIB",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/6727/n1/all/v/all/p/all",
+      "pontos": [
+        {"t": "2015", "v": 17.8},
+        {"t": "2017", "v": 14.6},
+        {"t": "2019", "v": 15.5},
+        {"t": "2020", "v": 16.5},
+        {"t": "2021", "v": 17.9},
+        {"t": "2022", "v": 17.8},
+        {"t": "2023", "v": 16.4},
+        {"t": "2024", "v": 16.9},
+        {"t": "2025", "v": 16.8},
+        {"t": "2026-06 (1º sem.)", "v": 16.3}
+      ]
+    },
+    {
+      "nome": "Consumo do governo, variação real anual (Contas Trimestrais)",
+      "unidade": "% a.a.",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/all/p/201904,202004,202104,202204,202304,202404,202504,202602/c11255/93405",
+      "pontos": [
+        {"t": "2019", "v": -0.5},
+        {"t": "2020", "v": -3.7},
+        {"t": "2021", "v": 4.2},
+        {"t": "2022", "v": 2.1},
+        {"t": "2023", "v": 3.8},
+        {"t": "2024", "v": 2.0},
+        {"t": "2025", "v": 2.1},
+        {"t": "2026-06 (1º sem.)", "v": 2.9}
+      ]
+    },
+    {
+      "nome": "Consumo das famílias, variação real anual (Contas Trimestrais)",
+      "unidade": "% a.a.",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/all/p/201904,202004,202104,202204,202304,202404,202504,202602/c11255/93404",
+      "pontos": [
+        {"t": "2019", "v": 2.6},
+        {"t": "2020", "v": -4.6},
+        {"t": "2021", "v": 3.0},
+        {"t": "2022", "v": 4.1},
+        {"t": "2023", "v": 3.2},
+        {"t": "2024", "v": 5.1},
+        {"t": "2025", "v": 1.3},
+        {"t": "2026-06 (1º sem.)", "v": 1.1}
+      ]
+    },
+    {
+      "nome": "FBCF, variação real anual (Contas Trimestrais)",
+      "unidade": "% a.a.",
+      "fonte": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/all/p/201904,202004,202104,202204,202304,202404,202504,202602/c11255/93406",
+      "pontos": [
+        {"t": "2019", "v": 4.0},
+        {"t": "2020", "v": -1.7},
+        {"t": "2021", "v": 12.9},
+        {"t": "2022", "v": 1.1},
+        {"t": "2023", "v": -3.0},
+        {"t": "2024", "v": 6.9},
+        {"t": "2025", "v": 2.9},
+        {"t": "2026-06 (1º sem.)", "v": 0.0}
+      ]
+    },
+    {
+      "nome": "Safra de grãos (Conab)",
+      "unidade": "milhões de t",
+      "fonte": "https://revistacultivar.com.br/noticias/safra-2025-26-deve-alcancar-360-8-milhoes-de-toneladas",
+      "pontos": [
+        {"t": "2025/26 (11º lev., 13/08/2026)", "v": 360.8}
+      ]
+    },
+    {
+      "nome": "Exportações do agronegócio (Mapa/Agrostat)",
+      "unidade": "US$ bilhões",
+      "fonte": "https://safras.com.br/agronegocio-do-brasil-fecha-2025-com-recorde-em-exportacoes-de-us-169-bilhoes-e-superavit-de-us-14907-bilhoes-mapa/",
+      "pontos": [
+        {"t": "2024", "v": 164.3},
+        {"t": "2025", "v": 169.2}
+      ]
+    },
+    {
+      "nome": "Endividamento das famílias com o SFN (% renda 12 meses) e comprometimento de renda (BCB, via imprensa)",
+      "unidade": "% renda",
+      "fonte": "https://sbtnews.sbt.com.br/noticia/economia/comprometimento-renda-familias-dividas-recorde-banco-central ; https://www.poder360.com.br/poder-economia/endividamento-das-familias-atinge-maxima-historica-diz-bc/",
+      "pontos": [
+        {"t": "2026-01 comprometimento", "v": 29.3},
+        {"t": "2026-06 comprometimento", "v": 28.9},
+        {"t": "2026-06 endividamento", "v": 49.8}
+      ]
+    },
+    {
+      "nome": "Selic meta, marcos do ciclo",
+      "unidade": "% a.a.",
+      "fonte": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros ; https://atlaspublico.com.br/bcb/noticias/copom-reduz-selic-para-13-75pct-ao-ano-em-decisao-unanime-87748",
+      "pontos": [
+        {"t": "2019-01", "v": 6.5},
+        {"t": "2020-08 (mínima histórica)", "v": 2.0},
+        {"t": "2022-08 (pico do ciclo)", "v": 13.75},
+        {"t": "2024-05", "v": 10.5},
+        {"t": "2025-06", "v": 15.0},
+        {"t": "2026-09-16", "v": 13.75},
+        {"t": "2026-12 (Focus 23/10/2026)", "v": 13.25}
+      ]
+    }
+  ],
+  "comparativo_bolsonaro": [
+    {
+      "indicador": "Crescimento do PIB",
+      "bolsonaro": "acumulado +5,7% em 2019-2022 (1,3; -3,3; 4,8; 3,0), média ~1,4% a.a.",
+      "lula3": "acumulado +9,2% em 2023-2025 (3,2; 3,4; 2,3), média ~3,0% a.a.; com Focus 2026 (1,8%) a média 2023-2026 fica ~2,7% a.a.",
+      "leitura": "O período Bolsonaro carrega a recessão da pandemia (-3,3% em 2020) e o rebote de 2021; sem 2020-21 a diferença encolhe. Em 2023 a safra recorde (agro +16,3%) explica parte do crescimento, e 2026 desacelera sob Selic de 15%."
+    },
+    {
+      "indicador": "Desocupação (média anual)",
+      "bolsonaro": "12,0% (2019) -> 13,8% (2020) -> 9,3% (2022); mínima trimestral 7,9% (out-dez/2022)",
+      "lula3": "7,8% (2023) -> 6,6% (2024) -> 5,6% (2025); mínima 5,1% (out-dez/2025); 5,3% em jun-ago/2026",
+      "leitura": "A queda começou em 2022 com a reabertura pós-pandemia e prosseguiu; a taxa de 2025 é a menor da série de 2012, com 103,5 milhões de ocupados em 2026."
+    },
+    {
+      "indicador": "Inflação (IPCA)",
+      "bolsonaro": "acumulado 26,9% em 2019-2022 (~6,1% a.a.); meta estourada em 2021 (10,06%) e 2022 (5,79%)",
+      "lula3": "acumulado 14,3% em 2023-2025 (~4,6% a.a.); teto estourado em 2024 (4,83%); 4,58% em 12 meses em set/2026, acima do teto; Focus 2026 5,19%",
+      "leitura": "2021-22 sofreu choque global de commodities, câmbio e guerra da Ucrânia; o IPCA de 2022 foi rebaixado pelo corte de ICMS sobre combustíveis e energia (LC 194/2022) às vésperas da eleição. O Lula 3 tem inflação menor, mas raramente no centro da meta."
+    },
+    {
+      "indicador": "Inflação de alimentos (IPCA Alimentação e bebidas)",
+      "bolsonaro": "acumulado 46,2% em 2019-2022 (6,37; 14,09; 7,94; 11,64)",
+      "lula3": "acumulado 12,0% em 2023-2025 (1,03; 7,69; 2,95); 4,66% em 12 meses até set/2026",
+      "leitura": "Choques de câmbio e commodities em 2020-22 pesaram mais; 2024 (7,69%) mostra que o Lula 3 não está imune a choque climático e cambial."
+    },
+    {
+      "indicador": "Salário mínimo real",
+      "bolsonaro": "~+1,2% acumulado jan/2019-jan/2022 (reajuste só pela inflação; fim da política de valorização)",
+      "lula3": "~+11,5% acumulado jan/2023-jan/2026 (inclui jan/2023 de R$ 1.302 fixado no fim do governo anterior); R$ 1.621 em 2026",
+      "leitura": "Ganho real voltou com a Lei 14.663/2023, mas o arcabouço (LC 200/2023) passou a limitar o ganho a 2,5% real; sem o limite o mínimo de 2026 seria R$ 1.636."
+    },
+    {
+      "indicador": "Pobreza e extrema pobreza (IBGE SIS)",
+      "bolsonaro": "pobreza 32,6% (2019) -> 31,1% (2020, auxílio emergencial) -> 36,8% (2021, pico) -> 31,6% (2022); extrema 9,0% (2021) -> 5,9% (2022)",
+      "lula3": "pobreza 27,3% (2023) -> 23,1% (2024); extrema 4,4% -> 3,5% (2024), mínimas da série desde 2012",
+      "leitura": "2020 mostra o efeito do auxílio emergencial e 2021 o efeito da sua retirada; 2022 já tem Auxílio Brasil de R$ 600 (EC 123/2022). A queda de 2023-24 combina transferências maiores e mercado de trabalho."
+    },
+    {
+      "indicador": "Desigualdade (Gini domiciliar per capita)",
+      "bolsonaro": "0,543 (2019) -> 0,523 (2020) -> 0,517 (2022)",
+      "lula3": "0,517 (2023) -> 0,504 (2024, mínima) -> 0,511 (2025, alta)",
+      "leitura": "Em 2025 a renda do décimo mais rico subiu 8,7% e a dos 10% mais pobres 3,1%; sem expansão de programas sociais naquele ano, a desigualdade voltou a subir."
+    },
+    {
+      "indicador": "Fome (FAO)",
+      "bolsonaro": "Brasil no Mapa da Fome (subalimentação 3,5% em 2020-2022); moderada+grave 22,1%",
+      "lula3": "fora do Mapa em 2022-2024 (SOFI 2025) e 2023-2025 (SOFI 2026); moderada+grave 9,6%",
+      "leitura": "Médias trienais misturam anos: o triênio 2022-2024 inclui 2022, último ano de Bolsonaro, e o retorno ao Mapa já constava no triênio 2018-2020."
+    },
+    {
+      "indicador": "Taxa de investimento (FBCF/PIB)",
+      "bolsonaro": "15,5% (2019) -> 17,9% (2021) -> 17,8% (2022)",
+      "lula3": "16,4% (2023) -> 16,9% (2024) -> 16,8% (2025); 16,3% no 1º sem/2026",
+      "leitura": "Investimento não acompanhou o crescimento do consumo; a FBCF caiu 3,0% em 2023 e ficou estável no 1º semestre de 2026 com juros reais altos."
+    },
+    {
+      "indicador": "Juros (Selic)",
+      "bolsonaro": "6,5% -> 2,0% (ago/2020) -> 13,75% (ago/2022)",
+      "lula3": "13,75% -> 10,5% (mai/2024) -> 15,0% (jun/2025) -> 13,75% (set/2026)",
+      "leitura": "Ciclo global de aperto em 2021-22 e novo aperto doméstico em 2024-25 por expectativas desancoradas e câmbio; juro alto explica a desaceleração de 2025-26 e o estresse de crédito no agro."
+    },
+    {
+      "indicador": "Agro",
+      "bolsonaro": "choque de fertilizantes em 2022; agro como motor externo",
+      "lula3": "agropecuária +16,3% (2023) e +11,7% (2025); safra 2025/26 de 360,8 Mt; exportações recorde US$ 169,2 bi (2025); 1.990 RJs em 2025",
+      "leitura": "Produção e exportação recordes dependem de clima e China (32,7% do destino em 2025); o tarifaço dos EUA de 2025 reduziu as vendas agro para lá em 5,6%."
+    }
+  ],
+  "contraponto": "O desempenho do Lula 3 tem fragilidades reais. A inflação raramente ficou no centro da meta: estourou o teto em 2024 (4,83%), voltou a passar o teto em set/2026 (4,58% em 12 meses) e o Focus de 23/10/2026 projeta 5,19% para o ano; alimentos subiram 7,69% em 2024. Para conter isso o BC levou a Selic a 15% (jun/2025), e o custo aparece no crescimento, que cai de 3,4% (2024) para 2,3% (2025) e ~1,8% (2026, Focus), com consumo das famílias recuando 0,4% no 2T26. O investimento não decolou: a taxa de FBCF/PIB ficou em 16,8% em 2025, abaixo dos 17,8% de 2022, e a FBCF caiu 3,5% no 4T25. O consumo do governo cresceu acima do PIB em 2023 (3,8%) e no 1º semestre de 2026 (2,9% contra 1,9%), e em 2025 quatro atividades pouco sensíveis a juros (agro, extrativa, informação e comunicação, outros serviços) responderam por 72% do valor adicionado, o que reforça a leitura de crescimento sustentado por agro, petróleo e transferências mais do que por investimento. As famílias estão no maior endividamento da série (49,8% da renda) e no maior comprometimento de renda (28,9%-29,3%), com inadimplência de pessoa física em recorde segundo o BC. A desigualdade voltou a subir em 2025 (Gini 0,511) e parte da queda da pobreza depende de transferências cujo valor não é indexado. No agro, os pedidos de recuperação judicial bateram recorde em 2025. A informalidade segue em 37,5%. Produtividade do trabalho não foi medida por esta frente: falta série primária coletada. Do lado de Bolsonaro, a comparação crua é injusta porque 2020-21 carregam a pandemia e 2022 carrega guerra e choque de commodities; também é injusta no sentido oposto, porque 2022 foi inflado por medidas eleitorais (EC 123/2022, corte de ICMS) cujo custo fiscal ficou para 2023.",
+  "fontes": [
+    "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/201512,201612,201712,201812,201912,202012,202112,202212,202312,202412,202512,202609",
+    "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/2265/p/202012,202112,202212,202312,202412,202512,202609/c315/7170",
+    "https://apisidra.ibge.gov.br/values/t/6784/n1/all/v/9810/p/2014-2023",
+    "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/all/p/201904,202004,202104,202204,202304,202404,202504,202602/c11255/90707,93404,93405,93406",
+    "https://apisidra.ibge.gov.br/values/t/6381/n1/all/v/4099/p/last%2048",
+    "https://apisidra.ibge.gov.br/values/t/4099/n1/all/v/4099/p/all",
+    "https://apisidra.ibge.gov.br/values/t/6727/n1/all/v/all/p/all",
+    "https://static.poder360.com.br/uploads/2026/10/inpc_ipca_2026_set.pdf",
+    "https://www.bcb.gov.br/content/focus/focus/R20261023.pdf",
+    "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45969-pib-cresce-2-3-em-2025.html",
+    "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45923-em-2025-vinte-unidades-da-federacao-registram-a-menor-taxa-de-desocupacao-da-serie.html",
+    "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2012-agencia-de-noticias/noticias/46579-rendimento-medio-da-populacao-brasileira-atinge-r-3-367-em-2025.html",
+    "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102275_informativo.pdf",
+    "https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/44728-mais-de-dois-milhoes-de-lares-saem-da-inseguranca-alimentar-em-2024.html?lang=pt-BR",
+    "https://www.tnh1.com.br/noticia/nid/mais-de-86-milhoes-deixam-pobreza-brasil-tem-melhor-nivel-desde-2012/",
+    "https://www.diariodepernambuco.com.br/noticia/brasil/2024/12/extrema-pobreza-e-pobreza-atingem-o-menor-patamar-desde-2012-ibge.html",
+    "https://www.folhape.com.br/noticias/brasil-continua-fora-do-mapa-da-fome-aponta-relatorio-da-onu/502102/",
+    "https://www.correiodamanha.com.br/mundo/2025/07/212102-brasil-deixa-o-mapa-da-fome-da-onu.html",
+    "https://www.dieese.org.br/notatecnica/2025/notaTec289salarioMinimo.pdf",
+    "https://revistacultivar.com.br/noticias/safra-2025-26-deve-alcancar-360-8-milhoes-de-toneladas",
+    "https://safras.com.br/agronegocio-do-brasil-fecha-2025-com-recorde-em-exportacoes-de-us-169-bilhoes-e-superavit-de-us-14907-bilhoes-mapa/",
+    "https://mundocoop.com.br/agronegocio/pedidos-de-recuperacao-judicial-no-agro-crescem-56-e-batem-recorde-em-2025/",
+    "https://sbtnews.sbt.com.br/noticia/economia/comprometimento-renda-familias-dividas-recorde-banco-central",
+    "https://www.poder360.com.br/poder-economia/endividamento-das-familias-atinge-maxima-historica-diz-bc/",
+    "https://atlaspublico.com.br/bcb/noticias/copom-reduz-selic-para-13-75pct-ao-ano-em-decisao-unanime-87748",
+    "https://www.infomoney.com.br/?p=1603260",
+    "https://www.em.com.br/app/noticia/politica/2022/10/16/interna_politica,1408026/amp.html",
+    "https://www.aosfatos.org/noticias/falso-lula-prometeu-acabar-com-auxilio-brasil/",
+    "https://www.aosfatos.org/noticias/lula-falseia-ao-dizer-que-auxilio-brasil-sera-pago-somente-ate-dezembro/",
+    "https://www.aosfatos.org/noticias/e-falso-que-lula-disse-que-agronegocio-deve-ser-eliminado-da-terra/",
+    "https://www.metropoles.com/projeto-comprova/nao-ha-registro-de-fala-de-lula-ou-do-mst-sobre-eliminar-agronegocio",
+    "https://www.aosfatos.org/noticias/posts-distorcem-fala-de-lula-ao-jn-sobre-setor-fascista-do-agronegocio/",
+    "https://www.aosfatos.org/noticias/lula-tuite-falso-bloquear-poupanca-auxilio-brasil/",
+    "https://www.aosfatos.org/noticias/falso-haddad-confisco-poupancas/",
+    "https://www.opovo.com.br/noticias/economia/2025/01/16/governo-recua-e-revoga-normativa-do-pix-apos-onda-de-noticias-falsas.html",
+    "https://www.agazeta.com.br/economia/guerra-na-ucrania-brasil-tem-fertilizantes-para-tres-meses-diz-associacao-0322",
+    "https://movimentoeconomico.com.br/agronegocio/2022/03/04/brasil-tem-fertilizantes-ate-outubro-garante-ministra-agricultura/",
+    "https://vermelho.org.br/?p=706848",
+    "https://jornal.usp.br/wp-content/uploads/2022/06/Relatorio-II-VIGISAN-2022.pdf",
+    "https://www.aosfatos.org/noticias/ibge-bolsa-familia-empregado/",
+    "https://www.aosfatos.org/noticias/falso-ibge-escondeu-desempregados-que-recebem-bolsa-familia/",
+    "https://www.poder360.com.br/poder-economia/taxa-de-desemprego-e-mentira-do-ibge-afirma-bolsonaro/",
+    "https://safras.com.br/taxa-de-desocupacao-no-trimestre-encerrado-em-agosto-atinge-53/",
+    "https://www.correiobraziliense.com.br/economia/2022/02/4988062-ibge-desemprego-no-brasil-cai-para-111-no-quarto-trimestre.html",
+    "https://blogdoibre.fgv.br/posts/o-que-esperar-da-revisao-metodologica-do-pib-brasileiro",
+    "https://www.bcb.gov.br/controleinflacao/historicometas"
+  ]
+}

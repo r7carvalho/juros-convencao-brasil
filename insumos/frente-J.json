@@ -1,0 +1,1834 @@
+{
+  "frente": "J",
+  "titulo": "De onde veio a alta da dívida: juros, déficit, precatório e PIB (2006-2026)",
+  "resumo": "Pela tabela de fatores condicionantes da DBGG do Banco Central (dado de ago/2026, publicado em 30/09/2026), a dívida bruta subiu 11,2 p.p. do PIB entre dez/2022 (71,7%) e ago/2026 (82,9%). Os juros nominais apropriados somaram 30,2 p.p. e o crescimento do PIB nominal retirou 20,2 p.p.; o saldo dessa bola de neve, 10,1 p.p., responde por cerca de 90% da alta. Os déficits primários do governo geral somaram 3,6 p.p., dos quais 0,84 p.p. foram o pagamento extraordinário de precatórios de dez/2023 (R$ 92,4 bi), e a redução de ativos do governo (conta única, BNDES e outros) abateu 2,7 p.p. No conceito FMI o Brasil deve 93,3% do PIB (2025), acima de todos os emergentes da amostra exceto a China e abaixo dos desenvolvidos; o que destoa é o custo, com juros líquidos de 7,3% do PIB, o maior da amostra. Com taxa implícita de 12,7% contra crescimento nominal de 8,1% em 2025, estabilizar a dívida exige superávit primário entre 2,1% (IFI) e 3,3% do PIB (taxas de 2025), contra déficit de 0,56% do PIB do governo geral nos 12 meses até ago/2026.",
+  "metodo": "Fonte primária: tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano' das Estatísticas Fiscais do BCB, lida em 12 edições de setembro (2008 a 2026), cada uma com os dois dezembros anteriores e o acumulado do ano corrente até agosto. Os fluxos em R$ foram divididos pelo PIB de 12 meses atual (SGS 4382) e os estoques são os atuais (SGS 13761), de modo que a soma dos fatores reproduz exatamente a variação da razão do SGS 13762 (resíduo zero em todos os anos). Efeito PIB = D(t-1)/Y(t) - D(t-1)/Y(t-1), a mesma fórmula do BCB. A linha 'emissões líquidas' do BCB foi separada em déficit primário do governo geral (NFSP primária do governo central menos Bacen mais governos regionais, mesmas edições) e resto, que é a variação líquida de ativos do governo. O efeito PIB foi dividido em crescimento real e inflação pela participação logarítmica do crescimento real (SGS 7326) no nominal. Os percentuais publicados pelo BCB na época diferem levemente porque o PIB foi revisado depois; aqui todos os anos usam o PIB atual. O dado de setembro/2026 ainda não estava publicado em 28/10/2026.",
+  "analise": [
+    {
+      "titulo": "Vinte anos de dívida em cinco movimentos",
+      "texto": "Entre 2006 e 2013 a DBGG caiu de 55,5% para 51,5% do PIB: os juros apropriados somaram 47,6 p.p., mas o PIB nominal tirou 46,8 p.p. (30,8 de inflação e 16,0 de crescimento real) e os superávits primários do governo geral outros 20,9 p.p.; o que empurrou para cima foi a compra de ativos, 15,5 p.p., com reservas enxugadas por compromissadas e empréstimos do Tesouro ao BNDES (o crédito ao banco foi de 0,4% para 7,8% do PIB). Entre 2014 e 2016 a dívida subiu 18,3 p.p.: a recessão inverteu o efeito do crescimento real (+3,9 p.p.), o primário virou déficit (+4,7 p.p.) e a diferença entre juro implícito e crescimento nominal chegou a 10,0 p.p. em 2015. Em 2017 e 2018 subiu mais 5,4 p.p. Em 2020 a pandemia acrescentou 12,5 p.p., 9,3 deles de déficit primário. Em 2021 e 2022 caiu 15,3 p.p., e 15,8 p.p. dessa queda vieram da inflação do PIB; a devolução de créditos do BNDES e o uso da conta única tiraram mais 4,5 p.p."
+    },
+    {
+      "titulo": "A alta de dez/2022 a ago/2026, fator por fator",
+      "texto": "A DBGG passou de 71,68% para 82,87% do PIB, alta de 11,19 p.p. Somaram para cima os juros nominais apropriados (+30,24 p.p.), o déficit primário do governo geral (+3,56 p.p.), o câmbio (+0,05 p.p.) e outros ajustes (+0,21 p.p.); somaram para baixo o crescimento do PIB nominal (-20,19 p.p., dos quais 6,25 de crescimento real e 10,39 de inflação em 2023-2025 e 3,55 em jan-ago/2026) e a redução de ativos do governo (-2,68 p.p.). Por ano: +2,15 p.p. em 2023, +2,44 em 2024, +2,37 em 2025 e +4,22 só entre janeiro e agosto de 2026. A aceleração de 2026 tem duas causas: juros de 6,45 p.p. do PIB em oito meses, com Selic de 15% até março, e o uso do colchão de caixa do Tesouro, cujas disponibilidades no BC caíram de 16,2% para 13,5% do PIB. Gastar caixa eleva a dívida no conceito BCB por meio das compromissadas (de 7,8% para 10,3% do PIB) sem mudar o conceito FMI, que subiu só 1,2 p.p. no mesmo período (93,3% para 94,5%)."
+    },
+    {
+      "titulo": "Precatórios: o que foi herdado e o que é gasto novo",
+      "texto": "As EC 113 e 114, de dez/2021, criaram um subteto para precatórios até 2026 e empurraram o excedente para 2027; a AGU projetou o passivo acumulado em R$ 244,7 bi em 2027. Nota conjunta STN/PGFN de set/2023 registra que o superávit de R$ 54,1 bi do governo central em 2022 teria sido praticamente zerado se os precatórios tivessem sido pagos em dia. O STF julgou as ADIs 7047 e 7064 em 30/11/2023 e derrubou o subteto. A MP 1.200, de 20/12/2023, abriu crédito extraordinário de R$ 93,1 bi, dos quais R$ 92,4 bi de despesa primária: R$ 15,8 bi devidos de 2022 e R$ 44,3 bi de 2023 (R$ 60,1 bi represados pelo subteto, 0,55% do PIB de 2023) e R$ 32,2 bi de antecipação dos precatórios de 2024 (0,29% do PIB). O Tesouro registrou déficit de R$ 230,5 bi em 2023 (2,1% do PIB), que seria de R$ 138,1 bi (1,3%) sem esse pagamento. O precatório explica 40% do déficit de 2023, mas só 0,84 p.p. dos 11,19 p.p. de alta da dívida (7,5%), e a parte estritamente herdada, 0,55 p.p. (4,9%). Gasto novo, no sentido de decisão do governo atual, ele não é: o que mudou foi voltar a pagar o fluxo anual inteiro, o que custou R$ 41,1 bi (0,32% do PIB) excluídos da meta em 2025 e, desde a EC 136/2025, corre fora do limite de gastos."
+    },
+    {
+      "titulo": "Conceito BCB, conceito FMI, BNDES, reservas e compensações",
+      "texto": "O conceito BCB exclui os títulos do Tesouro na carteira do BC e inclui as compromissadas, que são a dívida que o BC de fato coloca no mercado; o FMI conta toda a carteira do BC. Em dez/2025 a diferença era de 14,7 p.p. (78,6% contra 93,3%) e em ago/2026 de 11,7 p.p. (82,9% contra 94,5%). As compromissadas oscilam com a compra de reservas e com o caixa do Tesouro: foram de 3,2% do PIB em 2006 a 16,7% em 2016 e estavam em 10,3% em ago/2026. Os créditos do Tesouro no BNDES caíram de 8,6% do PIB (dez/2015) para 0,7% (dez/2022), com R$ 380 bi devolvidos até ago/2019; essas devoluções são a maior parte dos 8,6 p.p. de redução de ativos do período 2019-2022 e cessaram no Lula 3 (a linha voltou a 1,75% do PIB em ago/2026). As reservas de US$ 372,6 bi em ago/2026 valem R$ 1,93 tri, 14,5% do PIB, e entram como ativo na dívida líquida (69,3% do PIB), não na bruta. A PEC da Transição (EC 126/2022) ampliou o teto de 2023 em R$ 145 bi e está dentro dos 2,25 p.p. de déficit primário daquele ano. As compensações aos estados pelo ICMS de combustíveis (LC 194/2022, acordo da LC 201/2023) pesaram R$ 20,9 bi (0,19% do PIB) no primário federal de 2023, mas são transferência dentro do governo geral e não alteram a DBGG consolidada."
+    },
+    {
+      "titulo": "Comparação internacional: o nível é alto para emergente, o custo é o maior",
+      "texto": "Na base do FMI consultada em 28/10/2026, a dívida bruta de 2025 era de 93,3% do PIB no Brasil, contra 61,7% no México, 84,3% na Índia, 78,4% na África do Sul, 59,9% na Colômbia, 23,7% na Turquia e 98,6% na China; nos desenvolvidos, 124,4% nos EUA, 204,8% no Japão, 137,1% na Itália, 115,5% na França e 102,1% no Reino Unido. Os juros líquidos (primário menos nominal, mesma base) foram de 7,3% do PIB no Brasil, 6,1% no México, 5,4% na África do Sul, 5,1% na Índia, 3,6% na Itália, 3,2% nos EUA, 2,6% na Turquia e no Reino Unido, 2,3% na Colômbia, 2,1% na França, 1,0% na China e 0,2% no Japão. O Brasil paga o dobro dos juros da Itália devendo 44 p.p. a menos. O dado confirma que o problema específico é o custo, com a ressalva de que 93% também é nível alto para emergente. A conta interna aponta o mesmo: a taxa implícita da DBGG foi de 12,69% em 2025 (BCB) contra crescimento nominal de 8,14%; a diferença (i - g) foi positiva em todos os anos desde 2023 (2,7, 3,3 e 4,4 p.p.), depois de -10,9 p.p. em 2021."
+    },
+    {
+      "titulo": "Trajetória projetada e o primário que estabiliza",
+      "texto": "O FMI projeta a dívida no conceito FMI em 97,0% em 2026, 104,5% em 2030 e 105,3% em 2031. O Tesouro projeta 83,5% em 2026 e 87,9% em 2029 no conceito BCB, com queda a 83,1% em 2036, desde que o primário suba; a IFI (RAF 113, jun/2026) projeta 82,5% em 2026 e 86,4% em 2027 e calcula em 2,1% do PIB o superávit que estabiliza a dívida. Pela regra p* = d(r - γ)/(1 + γ), com dívida de 82,9% e crescimento real de 2% ao ano, o primário estabilizador é de 1,6% do PIB com juro real implícito de 4%, 2,4% com 5%, 3,3% com 6% e 4,1% com 7%. Com as taxas efetivas de 2025 (juro implícito de 12,69% e PIB nominal de 8,14%), o número é 3,3%. O governo geral teve déficit primário de 0,56% do PIB nos 12 meses até ago/2026, de modo que o ajuste necessário fica entre 2,7 e 3,9 p.p. do PIB, ou menor se o juro real cair."
+    }
+  ],
+  "alegacoes": [
+    {
+      "id": "J1",
+      "alegacao": "A dívida disparou por causa da gastança do governo Lula.",
+      "quem": "Flávio Bolsonaro (PL), candidato a presidente, no debate da Band",
+      "quando": "2026-10-18",
+      "fonte_alegacao": "https://timesbrasil.com.br/eleicoes-2026/economia-debate-band-flavio-lula-congelamento-dividas/",
+      "o_que_aconteceu": "Dos 11,19 p.p. de alta da DBGG entre dez/2022 e ago/2026, o déficit primário do governo geral respondeu por 3,56 p.p. (32%), dos quais 0,84 p.p. foram precatórios represados ou antecipados pagos em dez/2023; sem eles, 2,72 p.p. Juros apropriados menos efeito do PIB somaram 10,05 p.p.",
+      "fonte_fato": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Tabelas_de_estatisticas_fiscais.xlsx",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "Há déficit primário em todos os anos do mandato (0,56% do PIB no governo geral em 12 meses até ago/2026); ele soma cerca de 1 p.p. de dívida por ano e alimenta o prêmio de risco que eleva o juro. Mas a aritmética mostra que o motor da alta é a conta de juros, não a despesa primária."
+    },
+    {
+      "id": "J2",
+      "alegacao": "O problema da dívida está nos juros, não no déficit.",
+      "quem": "Fernando Haddad, ministro da Fazenda",
+      "quando": "2026-01-19",
+      "fonte_alegacao": "https://istoedinheiro.com.br/problema-divida-juro-real-deficit-haddad-19126",
+      "o_que_aconteceu": "Juros nominais apropriados de 30,24 p.p. do PIB entre dez/2022 e ago/2026, compensados em 20,19 p.p. pelo crescimento do PIB nominal; o saldo de 10,05 p.p. explica 90% da alta de 11,19 p.p. O déficit primário somou 3,56 p.p., e a redução de ativos do governo abateu 2,68 p.p.",
+      "fonte_fato": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Tabelas_de_estatisticas_fiscais.xlsx",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "A conta confirma o peso dos juros, mas com (i - g) positivo de 3 a 4 p.p. a dívida só para de subir com superávit primário de 2% a 3% do PIB, e a meta de 2026 é de 0,25%. Parte do juro alto responde ao risco fiscal e às expectativas de inflação; tratar juro e déficit como causas independentes é a falha do argumento."
+    },
+    {
+      "id": "J3",
+      "alegacao": "O calote dos precatórios do governo Bolsonaro explica o rombo e o aumento da dívida.",
+      "quem": "Circulou em redes governistas; Haddad, em out/2025, atribuiu a conta ao 'calote' da gestão anterior",
+      "quando": "2025-10",
+      "fonte_alegacao": "https://jovempan.com.br/noticias/economia/prefiro-a-pecha-de-gastador-do-que-a-de-caloteiro-afirma-haddad-em-critica-ao-governo-anterior.html",
+      "o_que_aconteceu": "O pagamento de dez/2023 somou R$ 92,4 bi de despesa primária (0,84% do PIB de 2023): R$ 60,1 bi represados de 2022 e 2023 (0,55%) e R$ 32,2 bi de antecipação de 2024 (0,29%). Isso é 40% do déficit primário do governo central em 2023 (R$ 230,5 bi), mas 7,5% da alta da DBGG até ago/2026, e 4,9% na parte estritamente herdada.",
+      "fonte_fato": "https://www12.senado.leg.br/noticias/materias/2023/12/27/medida-provisoria-possibilita-pagamento-de-r-93-1-bilhoes-em-precatorios",
+      "veredito": "nao_ocorreu",
+      "nota": "O subteto da EC 114/2021 escondeu despesa de 2022 e criou passivo que a AGU projetava em R$ 244,7 bi em 2027, e o STF derrubou o regime. A herança explica bem o déficit de 2023; não explica a trajetória da dívida, que continuou subindo cerca de 2,4 p.p. por ano em 2024 e 2025."
+    },
+    {
+      "id": "J4",
+      "alegacao": "O governo Bolsonaro entregou a dívida em queda, prova de responsabilidade fiscal.",
+      "quem": "Ministério da Economia (Paulo Guedes), nota oficial",
+      "quando": "2022-12-11",
+      "fonte_alegacao": "https://www.suno.com.br/noticias/economia-declaracoes-brasil-quebrado/amp/",
+      "o_que_aconteceu": "A DBGG caiu 3,59 p.p. entre dez/2018 e dez/2022 (75,27% para 71,68%). Na decomposição, a inflação do PIB tirou 23,46 p.p., o crescimento real 4,34 p.p. e a redução de ativos (sobretudo devoluções do BNDES) 8,64 p.p.; os juros somaram 22,93 p.p. e o déficit primário 8,38 p.p. (9,28 só em 2020).",
+      "fonte_fato": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Tabelas_de_estatisticas_fiscais.xlsx",
+      "veredito": "ocorreu",
+      "nota": "A queda é real, mas veio de inflação de dois dígitos em 2021 e de troca de ativos, que não reduz a dívida líquida (subiu de 52,8% para 56,1% do PIB). O precatório adiado melhorou o primário de 2022."
+    },
+    {
+      "id": "J5",
+      "alegacao": "Dívida de 82% do PIB não é problema, porque EUA e Japão devem muito mais.",
+      "quem": "José Kobori, vídeo 'Brasil está quebrado? A verdade por trás dos 82,5% da dívida/PIB'",
+      "quando": "2026-09-29",
+      "fonte_alegacao": "https://www.youtube.com/watch?v=GbF9LA65L-s",
+      "o_que_aconteceu": "Na base do FMI o Brasil deve 93,3% do PIB (2025), menos que EUA (124,4%) e Japão (204,8%), mas paga 7,3% do PIB em juros líquidos, contra 3,2% dos EUA e 0,2% do Japão; entre os emergentes da amostra, só a China deve mais.",
+      "fonte_fato": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP",
+      "veredito": "ocorreu_parcialmente",
+      "nota": "A comparação de nível está certa e afasta a ideia de quebra. O que ela omite é o custo: com juro implícito acima do crescimento, o mesmo nível de dívida pesa no Brasil várias vezes mais do que nos desenvolvidos. Argumentos do vídeo registrados só pela descrição (Frente A)."
+    }
+  ],
+  "series": [
+    {
+      "nome": "Variação da DBGG no período, conceito BCB (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "p.p. do PIB",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json ; https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": -0.32
+        },
+        {
+          "t": "2007-12",
+          "v": 1.24
+        },
+        {
+          "t": "2008-12",
+          "v": -0.74
+        },
+        {
+          "t": "2009-12",
+          "v": 3.23
+        },
+        {
+          "t": "2010-12",
+          "v": -7.44
+        },
+        {
+          "t": "2011-12",
+          "v": -0.5
+        },
+        {
+          "t": "2012-12",
+          "v": 2.4
+        },
+        {
+          "t": "2013-12",
+          "v": -2.13
+        },
+        {
+          "t": "2014-12",
+          "v": 4.74
+        },
+        {
+          "t": "2015-12",
+          "v": 9.22
+        },
+        {
+          "t": "2016-12",
+          "v": 4.34
+        },
+        {
+          "t": "2017-12",
+          "v": 3.88
+        },
+        {
+          "t": "2018-12",
+          "v": 1.55
+        },
+        {
+          "t": "2019-12",
+          "v": -0.83
+        },
+        {
+          "t": "2020-12",
+          "v": 12.5
+        },
+        {
+          "t": "2021-12",
+          "v": -9.63
+        },
+        {
+          "t": "2022-12",
+          "v": -5.63
+        },
+        {
+          "t": "2023-12",
+          "v": 2.15
+        },
+        {
+          "t": "2024-12",
+          "v": 2.44
+        },
+        {
+          "t": "2025-12",
+          "v": 2.37
+        },
+        {
+          "t": "2026-08",
+          "v": 4.22
+        }
+      ]
+    },
+    {
+      "nome": "Fator 1: juros nominais apropriados sobre a DBGG (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "p.p. do PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/ (arquivos AAAA09_Tabelas_de_estatisticas_fiscais.xls/.xlsx de 2008 a 2026, tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano')",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 7.13
+        },
+        {
+          "t": "2007-12",
+          "v": 6.59
+        },
+        {
+          "t": "2008-12",
+          "v": 6.46
+        },
+        {
+          "t": "2009-12",
+          "v": 5.74
+        },
+        {
+          "t": "2010-12",
+          "v": 5.57
+        },
+        {
+          "t": "2011-12",
+          "v": 5.8
+        },
+        {
+          "t": "2012-12",
+          "v": 5.17
+        },
+        {
+          "t": "2013-12",
+          "v": 5.12
+        },
+        {
+          "t": "2014-12",
+          "v": 5.42
+        },
+        {
+          "t": "2015-12",
+          "v": 7.45
+        },
+        {
+          "t": "2016-12",
+          "v": 8.16
+        },
+        {
+          "t": "2017-12",
+          "v": 6.68
+        },
+        {
+          "t": "2018-12",
+          "v": 5.8
+        },
+        {
+          "t": "2019-12",
+          "v": 5.54
+        },
+        {
+          "t": "2020-12",
+          "v": 4.56
+        },
+        {
+          "t": "2021-12",
+          "v": 5.54
+        },
+        {
+          "t": "2022-12",
+          "v": 7.29
+        },
+        {
+          "t": "2023-12",
+          "v": 7.46
+        },
+        {
+          "t": "2024-12",
+          "v": 7.47
+        },
+        {
+          "t": "2025-12",
+          "v": 8.85
+        },
+        {
+          "t": "2026-08",
+          "v": 6.45
+        }
+      ]
+    },
+    {
+      "nome": "Fator 2: efeito do crescimento do PIB nominal (negativo reduz a razão) (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "p.p. do PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/ (arquivos AAAA09_Tabelas_de_estatisticas_fiscais.xls/.xlsx de 2008 a 2026, tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano') ; PIB 12 meses SGS 4382",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": -5.53
+        },
+        {
+          "t": "2007-12",
+          "v": -6.34
+        },
+        {
+          "t": "2008-12",
+          "v": -7.1
+        },
+        {
+          "t": "2009-12",
+          "v": -3.75
+        },
+        {
+          "t": "2010-12",
+          "v": -8.42
+        },
+        {
+          "t": "2011-12",
+          "v": -5.8
+        },
+        {
+          "t": "2012-12",
+          "v": -4.67
+        },
+        {
+          "t": "2013-12",
+          "v": -5.2
+        },
+        {
+          "t": "2014-12",
+          "v": -3.99
+        },
+        {
+          "t": "2015-12",
+          "v": -2.04
+        },
+        {
+          "t": "2016-12",
+          "v": -2.86
+        },
+        {
+          "t": "2017-12",
+          "v": -3.35
+        },
+        {
+          "t": "2018-12",
+          "v": -4.41
+        },
+        {
+          "t": "2019-12",
+          "v": -3.92
+        },
+        {
+          "t": "2020-12",
+          "v": -2.16
+        },
+        {
+          "t": "2021-12",
+          "v": -13.53
+        },
+        {
+          "t": "2022-12",
+          "v": -8.19
+        },
+        {
+          "t": "2023-12",
+          "v": -5.66
+        },
+        {
+          "t": "2024-12",
+          "v": -5.24
+        },
+        {
+          "t": "2025-12",
+          "v": -5.74
+        },
+        {
+          "t": "2026-08",
+          "v": -3.55
+        }
+      ]
+    },
+    {
+      "nome": "Fator 2a: parte do efeito PIB devida ao crescimento real (2006-2025)",
+      "unidade": "p.p. do PIB",
+      "fonte": "Cálculo da Frente J: efeito PIB x ln(1+g real)/ln(1+g nominal); g real SGS 7326 (https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json)",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": -2.06
+        },
+        {
+          "t": "2007-12",
+          "v": -3.08
+        },
+        {
+          "t": "2008-12",
+          "v": -2.64
+        },
+        {
+          "t": "2009-12",
+          "v": 0.07
+        },
+        {
+          "t": "2010-12",
+          "v": -3.98
+        },
+        {
+          "t": "2011-12",
+          "v": -1.9
+        },
+        {
+          "t": "2012-12",
+          "v": -0.93
+        },
+        {
+          "t": "2013-12",
+          "v": -1.51
+        },
+        {
+          "t": "2014-12",
+          "v": -0.25
+        },
+        {
+          "t": "2015-12",
+          "v": 2.0
+        },
+        {
+          "t": "2016-12",
+          "v": 2.14
+        },
+        {
+          "t": "2017-12",
+          "v": -0.89
+        },
+        {
+          "t": "2018-12",
+          "v": -1.26
+        },
+        {
+          "t": "2019-12",
+          "v": -0.89
+        },
+        {
+          "t": "2020-12",
+          "v": 2.45
+        },
+        {
+          "t": "2021-12",
+          "v": -3.72
+        },
+        {
+          "t": "2022-12",
+          "v": -2.18
+        },
+        {
+          "t": "2023-12",
+          "v": -2.19
+        },
+        {
+          "t": "2024-12",
+          "v": -2.39
+        },
+        {
+          "t": "2025-12",
+          "v": -1.66
+        }
+      ]
+    },
+    {
+      "nome": "Fator 2b: parte do efeito PIB devida à inflação do PIB (deflator) (2006-2025)",
+      "unidade": "p.p. do PIB",
+      "fonte": "Cálculo da Frente J: efeito PIB menos a parte real",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": -3.47
+        },
+        {
+          "t": "2007-12",
+          "v": -3.26
+        },
+        {
+          "t": "2008-12",
+          "v": -4.47
+        },
+        {
+          "t": "2009-12",
+          "v": -3.82
+        },
+        {
+          "t": "2010-12",
+          "v": -4.44
+        },
+        {
+          "t": "2011-12",
+          "v": -3.9
+        },
+        {
+          "t": "2012-12",
+          "v": -3.74
+        },
+        {
+          "t": "2013-12",
+          "v": -3.69
+        },
+        {
+          "t": "2014-12",
+          "v": -3.74
+        },
+        {
+          "t": "2015-12",
+          "v": -4.03
+        },
+        {
+          "t": "2016-12",
+          "v": -4.99
+        },
+        {
+          "t": "2017-12",
+          "v": -2.46
+        },
+        {
+          "t": "2018-12",
+          "v": -3.15
+        },
+        {
+          "t": "2019-12",
+          "v": -3.03
+        },
+        {
+          "t": "2020-12",
+          "v": -4.6
+        },
+        {
+          "t": "2021-12",
+          "v": -9.81
+        },
+        {
+          "t": "2022-12",
+          "v": -6.01
+        },
+        {
+          "t": "2023-12",
+          "v": -3.46
+        },
+        {
+          "t": "2024-12",
+          "v": -2.85
+        },
+        {
+          "t": "2025-12",
+          "v": -4.08
+        }
+      ]
+    },
+    {
+      "nome": "Fator 3: déficit primário do governo geral (+ = déficit, aumenta a dívida) (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "p.p. do PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/ (arquivos AAAA09_Tabelas_de_estatisticas_fiscais.xls/.xlsx de 2008 a 2026, tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano') ; NFSP primária: governo central menos Bacen mais governos regionais",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": -2.96
+        },
+        {
+          "t": "2007-12",
+          "v": -3.31
+        },
+        {
+          "t": "2008-12",
+          "v": -3.29
+        },
+        {
+          "t": "2009-12",
+          "v": -1.93
+        },
+        {
+          "t": "2010-12",
+          "v": -2.57
+        },
+        {
+          "t": "2011-12",
+          "v": -2.89
+        },
+        {
+          "t": "2012-12",
+          "v": -2.25
+        },
+        {
+          "t": "2013-12",
+          "v": -1.74
+        },
+        {
+          "t": "2014-12",
+          "v": 0.49
+        },
+        {
+          "t": "2015-12",
+          "v": 1.77
+        },
+        {
+          "t": "2016-12",
+          "v": 2.45
+        },
+        {
+          "t": "2017-12",
+          "v": 1.67
+        },
+        {
+          "t": "2018-12",
+          "v": 1.6
+        },
+        {
+          "t": "2019-12",
+          "v": 0.99
+        },
+        {
+          "t": "2020-12",
+          "v": 9.28
+        },
+        {
+          "t": "2021-12",
+          "v": -0.69
+        },
+        {
+          "t": "2022-12",
+          "v": -1.19
+        },
+        {
+          "t": "2023-12",
+          "v": 2.25
+        },
+        {
+          "t": "2024-12",
+          "v": 0.32
+        },
+        {
+          "t": "2025-12",
+          "v": 0.38
+        },
+        {
+          "t": "2026-08",
+          "v": 0.6
+        }
+      ]
+    },
+    {
+      "nome": "Fator 4: emissões líquidas menos o primário (variação de ativos do governo: conta única, BNDES, reservas via compromissadas, juros recebidos) (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "p.p. do PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/ (arquivos AAAA09_Tabelas_de_estatisticas_fiscais.xls/.xlsx de 2008 a 2026, tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano')",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 1.5
+        },
+        {
+          "t": "2007-12",
+          "v": 4.89
+        },
+        {
+          "t": "2008-12",
+          "v": 1.94
+        },
+        {
+          "t": "2009-12",
+          "v": 4.16
+        },
+        {
+          "t": "2010-12",
+          "v": -2.08
+        },
+        {
+          "t": "2011-12",
+          "v": 1.97
+        },
+        {
+          "t": "2012-12",
+          "v": 3.86
+        },
+        {
+          "t": "2013-12",
+          "v": -0.71
+        },
+        {
+          "t": "2014-12",
+          "v": 2.43
+        },
+        {
+          "t": "2015-12",
+          "v": 0.49
+        },
+        {
+          "t": "2016-12",
+          "v": -2.75
+        },
+        {
+          "t": "2017-12",
+          "v": -1.3
+        },
+        {
+          "t": "2018-12",
+          "v": -2.05
+        },
+        {
+          "t": "2019-12",
+          "v": -3.64
+        },
+        {
+          "t": "2020-12",
+          "v": -0.45
+        },
+        {
+          "t": "2021-12",
+          "v": -1.33
+        },
+        {
+          "t": "2022-12",
+          "v": -3.21
+        },
+        {
+          "t": "2023-12",
+          "v": -1.64
+        },
+        {
+          "t": "2024-12",
+          "v": -1.28
+        },
+        {
+          "t": "2025-12",
+          "v": -0.66
+        },
+        {
+          "t": "2026-08",
+          "v": 0.9
+        }
+      ]
+    },
+    {
+      "nome": "Memo: emissões líquidas da DBGG, total do BCB (= fator 3 + fator 4) (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "p.p. do PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/ (arquivos AAAA09_Tabelas_de_estatisticas_fiscais.xls/.xlsx de 2008 a 2026, tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano')",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": -1.45
+        },
+        {
+          "t": "2007-12",
+          "v": 1.58
+        },
+        {
+          "t": "2008-12",
+          "v": -1.35
+        },
+        {
+          "t": "2009-12",
+          "v": 2.23
+        },
+        {
+          "t": "2010-12",
+          "v": -4.65
+        },
+        {
+          "t": "2011-12",
+          "v": -0.92
+        },
+        {
+          "t": "2012-12",
+          "v": 1.61
+        },
+        {
+          "t": "2013-12",
+          "v": -2.45
+        },
+        {
+          "t": "2014-12",
+          "v": 2.92
+        },
+        {
+          "t": "2015-12",
+          "v": 2.27
+        },
+        {
+          "t": "2016-12",
+          "v": -0.3
+        },
+        {
+          "t": "2017-12",
+          "v": 0.37
+        },
+        {
+          "t": "2018-12",
+          "v": -0.45
+        },
+        {
+          "t": "2019-12",
+          "v": -2.65
+        },
+        {
+          "t": "2020-12",
+          "v": 8.82
+        },
+        {
+          "t": "2021-12",
+          "v": -2.03
+        },
+        {
+          "t": "2022-12",
+          "v": -4.41
+        },
+        {
+          "t": "2023-12",
+          "v": 0.61
+        },
+        {
+          "t": "2024-12",
+          "v": -0.95
+        },
+        {
+          "t": "2025-12",
+          "v": -0.28
+        },
+        {
+          "t": "2026-08",
+          "v": 1.51
+        }
+      ]
+    },
+    {
+      "nome": "Fator 5: ajuste cambial (dívida externa e interna indexada ao câmbio) (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "p.p. do PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/ (arquivos AAAA09_Tabelas_de_estatisticas_fiscais.xls/.xlsx de 2008 a 2026, tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano')",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": -0.74
+        },
+        {
+          "t": "2007-12",
+          "v": -1.01
+        },
+        {
+          "t": "2008-12",
+          "v": 1.24
+        },
+        {
+          "t": "2009-12",
+          "v": -1.24
+        },
+        {
+          "t": "2010-12",
+          "v": -0.14
+        },
+        {
+          "t": "2011-12",
+          "v": 0.3
+        },
+        {
+          "t": "2012-12",
+          "v": 0.22
+        },
+        {
+          "t": "2013-12",
+          "v": 0.38
+        },
+        {
+          "t": "2014-12",
+          "v": 0.42
+        },
+        {
+          "t": "2015-12",
+          "v": 1.54
+        },
+        {
+          "t": "2016-12",
+          "v": -0.76
+        },
+        {
+          "t": "2017-12",
+          "v": 0.07
+        },
+        {
+          "t": "2018-12",
+          "v": 0.68
+        },
+        {
+          "t": "2019-12",
+          "v": 0.17
+        },
+        {
+          "t": "2020-12",
+          "v": 1.31
+        },
+        {
+          "t": "2021-12",
+          "v": 0.39
+        },
+        {
+          "t": "2022-12",
+          "v": -0.32
+        },
+        {
+          "t": "2023-12",
+          "v": -0.3
+        },
+        {
+          "t": "2024-12",
+          "v": 1.04
+        },
+        {
+          "t": "2025-12",
+          "v": -0.47
+        },
+        {
+          "t": "2026-08",
+          "v": -0.22
+        }
+      ]
+    },
+    {
+      "nome": "Fator 6: outros ajustes (reconhecimento de dívidas, ajustes da dívida externa, privatizações) (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "p.p. do PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/ (arquivos AAAA09_Tabelas_de_estatisticas_fiscais.xls/.xlsx de 2008 a 2026, tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano')",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 0.28
+        },
+        {
+          "t": "2007-12",
+          "v": 0.43
+        },
+        {
+          "t": "2008-12",
+          "v": 0.02
+        },
+        {
+          "t": "2009-12",
+          "v": 0.24
+        },
+        {
+          "t": "2010-12",
+          "v": 0.2
+        },
+        {
+          "t": "2011-12",
+          "v": 0.12
+        },
+        {
+          "t": "2012-12",
+          "v": 0.07
+        },
+        {
+          "t": "2013-12",
+          "v": 0.02
+        },
+        {
+          "t": "2014-12",
+          "v": -0.03
+        },
+        {
+          "t": "2015-12",
+          "v": -0.0
+        },
+        {
+          "t": "2016-12",
+          "v": 0.08
+        },
+        {
+          "t": "2017-12",
+          "v": 0.11
+        },
+        {
+          "t": "2018-12",
+          "v": -0.07
+        },
+        {
+          "t": "2019-12",
+          "v": 0.03
+        },
+        {
+          "t": "2020-12",
+          "v": -0.04
+        },
+        {
+          "t": "2021-12",
+          "v": -0.01
+        },
+        {
+          "t": "2022-12",
+          "v": -0.01
+        },
+        {
+          "t": "2023-12",
+          "v": 0.04
+        },
+        {
+          "t": "2024-12",
+          "v": 0.13
+        },
+        {
+          "t": "2025-12",
+          "v": 0.01
+        },
+        {
+          "t": "2026-08",
+          "v": 0.03
+        }
+      ]
+    },
+    {
+      "nome": "Taxa de juros implícita na DBGG (juros apropriados no ano / estoque do fim do ano anterior) (2006 a 2025: variação no ano; ponto 2026-08: acumulado jan-ago/2026 sobre o PIB de 12 meses até ago/2026)",
+      "unidade": "% no período",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/ (arquivos AAAA09_Tabelas_de_estatisticas_fiscais.xls/.xlsx de 2008 a 2026, tabela 'Dívida bruta do Governo Geral: fatores condicionantes, fluxos acumulados no ano')",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 14.18
+        },
+        {
+          "t": "2007-12",
+          "v": 13.4
+        },
+        {
+          "t": "2008-12",
+          "v": 13.02
+        },
+        {
+          "t": "2009-12",
+          "v": 11.0
+        },
+        {
+          "t": "2010-12",
+          "v": 10.97
+        },
+        {
+          "t": "2011-12",
+          "v": 12.62
+        },
+        {
+          "t": "2012-12",
+          "v": 11.09
+        },
+        {
+          "t": "2013-12",
+          "v": 10.57
+        },
+        {
+          "t": "2014-12",
+          "v": 11.4
+        },
+        {
+          "t": "2015-12",
+          "v": 13.74
+        },
+        {
+          "t": "2016-12",
+          "v": 13.03
+        },
+        {
+          "t": "2017-12",
+          "v": 10.04
+        },
+        {
+          "t": "2018-12",
+          "v": 8.37
+        },
+        {
+          "t": "2019-12",
+          "v": 7.76
+        },
+        {
+          "t": "2020-12",
+          "v": 6.31
+        },
+        {
+          "t": "2021-12",
+          "v": 7.55
+        },
+        {
+          "t": "2022-12",
+          "v": 10.55
+        },
+        {
+          "t": "2023-12",
+          "v": 11.3
+        },
+        {
+          "t": "2024-12",
+          "v": 10.89
+        },
+        {
+          "t": "2025-12",
+          "v": 12.55
+        },
+        {
+          "t": "2026-08",
+          "v": 8.59
+        }
+      ]
+    },
+    {
+      "nome": "Crescimento do PIB nominal de 12 meses (dez/dez; 2026-08: ago/26 contra dez/25)",
+      "unidade": "% no período",
+      "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados?formato=json",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 11.0
+        },
+        {
+          "t": "2007-12",
+          "v": 12.9
+        },
+        {
+          "t": "2008-12",
+          "v": 14.32
+        },
+        {
+          "t": "2009-12",
+          "v": 7.18
+        },
+        {
+          "t": "2010-12",
+          "v": 16.59
+        },
+        {
+          "t": "2011-12",
+          "v": 12.62
+        },
+        {
+          "t": "2012-12",
+          "v": 10.02
+        },
+        {
+          "t": "2013-12",
+          "v": 10.73
+        },
+        {
+          "t": "2014-12",
+          "v": 8.39
+        },
+        {
+          "t": "2015-12",
+          "v": 3.75
+        },
+        {
+          "t": "2016-12",
+          "v": 4.56
+        },
+        {
+          "t": "2017-12",
+          "v": 5.04
+        },
+        {
+          "t": "2018-12",
+          "v": 6.36
+        },
+        {
+          "t": "2019-12",
+          "v": 5.5
+        },
+        {
+          "t": "2020-12",
+          "v": 2.98
+        },
+        {
+          "t": "2021-12",
+          "v": 18.43
+        },
+        {
+          "t": "2022-12",
+          "v": 11.85
+        },
+        {
+          "t": "2023-12",
+          "v": 8.57
+        },
+        {
+          "t": "2024-12",
+          "v": 7.64
+        },
+        {
+          "t": "2025-12",
+          "v": 8.14
+        },
+        {
+          "t": "2026-08",
+          "v": 4.73
+        }
+      ]
+    },
+    {
+      "nome": "DBGG conceito FMI (conceito BCB + títulos livres na carteira do Bacen)",
+      "unidade": "% PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/Documents/Tabelas_especiais/Divggnp.xlsx",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 64.6
+        },
+        {
+          "t": "2007-12",
+          "v": 63.03
+        },
+        {
+          "t": "2008-12",
+          "v": 61.42
+        },
+        {
+          "t": "2009-12",
+          "v": 64.7
+        },
+        {
+          "t": "2010-12",
+          "v": 62.44
+        },
+        {
+          "t": "2011-12",
+          "v": 60.64
+        },
+        {
+          "t": "2012-12",
+          "v": 61.62
+        },
+        {
+          "t": "2013-12",
+          "v": 59.59
+        },
+        {
+          "t": "2014-12",
+          "v": 61.62
+        },
+        {
+          "t": "2015-12",
+          "v": 71.72
+        },
+        {
+          "t": "2016-12",
+          "v": 77.42
+        },
+        {
+          "t": "2017-12",
+          "v": 82.75
+        },
+        {
+          "t": "2018-12",
+          "v": 84.78
+        },
+        {
+          "t": "2019-12",
+          "v": 87.12
+        },
+        {
+          "t": "2020-12",
+          "v": 96.01
+        },
+        {
+          "t": "2021-12",
+          "v": 88.94
+        },
+        {
+          "t": "2022-12",
+          "v": 83.94
+        },
+        {
+          "t": "2023-12",
+          "v": 84.0
+        },
+        {
+          "t": "2024-12",
+          "v": 87.03
+        },
+        {
+          "t": "2025-12",
+          "v": 93.33
+        },
+        {
+          "t": "2026-08",
+          "v": 94.53
+        }
+      ]
+    },
+    {
+      "nome": "Operações compromissadas do Bacen (componente da DBGG conceito BCB)",
+      "unidade": "% PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/Documents/Tabelas_especiais/Divggnp.xlsx",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 3.21
+        },
+        {
+          "t": "2007-12",
+          "v": 6.89
+        },
+        {
+          "t": "2008-12",
+          "v": 10.46
+        },
+        {
+          "t": "2009-12",
+          "v": 13.64
+        },
+        {
+          "t": "2010-12",
+          "v": 7.43
+        },
+        {
+          "t": "2011-12",
+          "v": 7.81
+        },
+        {
+          "t": "2012-12",
+          "v": 10.88
+        },
+        {
+          "t": "2013-12",
+          "v": 9.92
+        },
+        {
+          "t": "2014-12",
+          "v": 14.0
+        },
+        {
+          "t": "2015-12",
+          "v": 15.23
+        },
+        {
+          "t": "2016-12",
+          "v": 16.71
+        },
+        {
+          "t": "2017-12",
+          "v": 16.17
+        },
+        {
+          "t": "2018-12",
+          "v": 16.11
+        },
+        {
+          "t": "2019-12",
+          "v": 12.88
+        },
+        {
+          "t": "2020-12",
+          "v": 16.24
+        },
+        {
+          "t": "2021-12",
+          "v": 10.89
+        },
+        {
+          "t": "2022-12",
+          "v": 9.12
+        },
+        {
+          "t": "2023-12",
+          "v": 11.01
+        },
+        {
+          "t": "2024-12",
+          "v": 10.62
+        },
+        {
+          "t": "2025-12",
+          "v": 7.77
+        },
+        {
+          "t": "2026-08",
+          "v": 10.28
+        }
+      ]
+    },
+    {
+      "nome": "Disponibilidades do governo federal no Bacen (conta única, ativo)",
+      "unidade": "% PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/Documents/Tabelas_especiais/Divggnp.xlsx",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 9.38
+        },
+        {
+          "t": "2007-12",
+          "v": 10.14
+        },
+        {
+          "t": "2008-12",
+          "v": 8.21
+        },
+        {
+          "t": "2009-12",
+          "v": 12.19
+        },
+        {
+          "t": "2010-12",
+          "v": 10.41
+        },
+        {
+          "t": "2011-12",
+          "v": 10.87
+        },
+        {
+          "t": "2012-12",
+          "v": 12.89
+        },
+        {
+          "t": "2013-12",
+          "v": 12.3
+        },
+        {
+          "t": "2014-12",
+          "v": 10.48
+        },
+        {
+          "t": "2015-12",
+          "v": 14.71
+        },
+        {
+          "t": "2016-12",
+          "v": 16.59
+        },
+        {
+          "t": "2017-12",
+          "v": 16.4
+        },
+        {
+          "t": "2018-12",
+          "v": 18.2
+        },
+        {
+          "t": "2019-12",
+          "v": 19.47
+        },
+        {
+          "t": "2020-12",
+          "v": 19.09
+        },
+        {
+          "t": "2021-12",
+          "v": 19.27
+        },
+        {
+          "t": "2022-12",
+          "v": 18.16
+        },
+        {
+          "t": "2023-12",
+          "v": 15.12
+        },
+        {
+          "t": "2024-12",
+          "v": 13.86
+        },
+        {
+          "t": "2025-12",
+          "v": 16.23
+        },
+        {
+          "t": "2026-08",
+          "v": 13.54
+        }
+      ]
+    },
+    {
+      "nome": "Créditos do Tesouro junto ao BNDES (ativo)",
+      "unidade": "% PIB",
+      "fonte": "https://www.bcb.gov.br/content/estatisticas/Documents/Tabelas_especiais/Divggnp.xlsx",
+      "pontos": [
+        {
+          "t": "2006-12",
+          "v": 0.41
+        },
+        {
+          "t": "2007-12",
+          "v": 0.24
+        },
+        {
+          "t": "2008-12",
+          "v": 1.14
+        },
+        {
+          "t": "2009-12",
+          "v": 3.88
+        },
+        {
+          "t": "2010-12",
+          "v": 6.09
+        },
+        {
+          "t": "2011-12",
+          "v": 6.91
+        },
+        {
+          "t": "2012-12",
+          "v": 7.72
+        },
+        {
+          "t": "2013-12",
+          "v": 7.75
+        },
+        {
+          "t": "2014-12",
+          "v": 8.44
+        },
+        {
+          "t": "2015-12",
+          "v": 8.58
+        },
+        {
+          "t": "2016-12",
+          "v": 6.85
+        },
+        {
+          "t": "2017-12",
+          "v": 6.18
+        },
+        {
+          "t": "2018-12",
+          "v": 4.31
+        },
+        {
+          "t": "2019-12",
+          "v": 2.62
+        },
+        {
+          "t": "2020-12",
+          "v": 2.51
+        },
+        {
+          "t": "2021-12",
+          "v": 1.49
+        },
+        {
+          "t": "2022-12",
+          "v": 0.7
+        },
+        {
+          "t": "2023-12",
+          "v": 0.62
+        },
+        {
+          "t": "2024-12",
+          "v": 0.87
+        },
+        {
+          "t": "2025-12",
+          "v": 1.23
+        },
+        {
+          "t": "2026-08",
+          "v": 1.75
+        }
+      ]
+    }
+  ],
+  "decomposicao_periodos": [
+    {
+      "periodo": "2006-2013 (último ano de Lula 1, Lula 2 e Dilma 1 até 2013)",
+      "delta": -4.26,
+      "juros": 47.59,
+      "pib": -46.82,
+      "pib_real": -16.02,
+      "pib_preco": -30.8,
+      "primario": -20.94,
+      "emis_ex_prim": 15.53,
+      "cambio": -0.98,
+      "outros": 1.37
+    },
+    {
+      "periodo": "2014-2016 (recessão; Dilma 2 e Temer)",
+      "delta": 18.3,
+      "juros": 21.04,
+      "pib": -8.88,
+      "pib_real": 3.89,
+      "pib_preco": -12.77,
+      "primario": 4.71,
+      "emis_ex_prim": 0.18,
+      "cambio": 1.2,
+      "outros": 0.06
+    },
+    {
+      "periodo": "2017-2018 (Temer)",
+      "delta": 5.43,
+      "juros": 12.48,
+      "pib": -7.76,
+      "pib_real": -2.16,
+      "pib_preco": -5.6,
+      "primario": 3.27,
+      "emis_ex_prim": -3.35,
+      "cambio": 0.75,
+      "outros": 0.04
+    },
+    {
+      "periodo": "2019-2022 (Bolsonaro)",
+      "delta": -3.59,
+      "juros": 22.93,
+      "pib": -27.8,
+      "pib_real": -4.34,
+      "pib_preco": -23.46,
+      "primario": 8.38,
+      "emis_ex_prim": -8.64,
+      "cambio": 1.56,
+      "outros": -0.02
+    },
+    {
+      "periodo": "2020 (pandemia; contido no período Bolsonaro)",
+      "delta": 12.5,
+      "juros": 4.56,
+      "pib": -2.16,
+      "pib_real": 2.45,
+      "pib_preco": -4.6,
+      "primario": 9.28,
+      "emis_ex_prim": -0.45,
+      "cambio": 1.31,
+      "outros": -0.04
+    },
+    {
+      "periodo": "2021-2022 (inflação alta; contido no período Bolsonaro)",
+      "delta": -15.26,
+      "juros": 12.83,
+      "pib": -21.72,
+      "pib_real": -5.9,
+      "pib_preco": -15.82,
+      "primario": -1.89,
+      "emis_ex_prim": -4.55,
+      "cambio": 0.07,
+      "outros": -0.02
+    },
+    {
+      "periodo": "dez/2022 a ago/2026 (Lula 3)",
+      "delta": 11.19,
+      "juros": 30.24,
+      "pib": -20.19,
+      "pib_real": -6.25,
+      "pib_preco": -10.39,
+      "primario": 3.56,
+      "emis_ex_prim": -2.68,
+      "cambio": 0.05,
+      "outros": 0.21,
+      "nota": "pib_real e pib_preco cobrem só 2023-2025; o efeito PIB de jan-ago/2026 (-3,55 p.p.) não foi dividido"
+    }
+  ],
+  "comparacao_internacional": {
+    "fonte": "FMI DataMapper (WEO/Fiscal Monitor): GGXWDG_NGDP, GGXONLB_G01_GDP_PT e GGXCNL_G01_GDP_PT, consulta em 28/10/2026; juros líquidos = primário menos nominal",
+    "url": "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
+    "paises": [
+      {
+        "pais": "Brasil",
+        "grupo": "emergente",
+        "divida_bruta_2025_pct_pib": 93.3,
+        "resultado_primario_2025_pct_pib": -0.13,
+        "resultado_nominal_2025_pct_pib": -7.43,
+        "juros_liquidos_2025_pct_pib": 7.29
+      },
+      {
+        "pais": "México",
+        "grupo": "emergente",
+        "divida_bruta_2025_pct_pib": 61.7,
+        "resultado_primario_2025_pct_pib": 1.24,
+        "resultado_nominal_2025_pct_pib": -4.86,
+        "juros_liquidos_2025_pct_pib": 6.1
+      },
+      {
+        "pais": "Índia",
+        "grupo": "emergente",
+        "divida_bruta_2025_pct_pib": 84.3,
+        "resultado_primario_2025_pct_pib": -2.24,
+        "resultado_nominal_2025_pct_pib": -7.37,
+        "juros_liquidos_2025_pct_pib": 5.13
+      },
+      {
+        "pais": "África do Sul",
+        "grupo": "emergente",
+        "divida_bruta_2025_pct_pib": 78.4,
+        "resultado_primario_2025_pct_pib": -0.16,
+        "resultado_nominal_2025_pct_pib": -5.57,
+        "juros_liquidos_2025_pct_pib": 5.41
+      },
+      {
+        "pais": "Colômbia",
+        "grupo": "emergente",
+        "divida_bruta_2025_pct_pib": 59.9,
+        "resultado_primario_2025_pct_pib": -3.46,
+        "resultado_nominal_2025_pct_pib": -5.75,
+        "juros_liquidos_2025_pct_pib": 2.3
+      },
+      {
+        "pais": "Turquia",
+        "grupo": "emergente",
+        "divida_bruta_2025_pct_pib": 23.7,
+        "resultado_primario_2025_pct_pib": -0.15,
+        "resultado_nominal_2025_pct_pib": -2.76,
+        "juros_liquidos_2025_pct_pib": 2.61
+      },
+      {
+        "pais": "China",
+        "grupo": "emergente",
+        "divida_bruta_2025_pct_pib": 98.6,
+        "resultado_primario_2025_pct_pib": -6.91,
+        "resultado_nominal_2025_pct_pib": -7.87,
+        "juros_liquidos_2025_pct_pib": 0.96
+      },
+      {
+        "pais": "Estados Unidos",
+        "grupo": "desenvolvido",
+        "divida_bruta_2025_pct_pib": 124.4,
+        "resultado_primario_2025_pct_pib": -3.88,
+        "resultado_nominal_2025_pct_pib": -7.06,
+        "juros_liquidos_2025_pct_pib": 3.18
+      },
+      {
+        "pais": "Japão",
+        "grupo": "desenvolvido",
+        "divida_bruta_2025_pct_pib": 204.8,
+        "resultado_primario_2025_pct_pib": -0.51,
+        "resultado_nominal_2025_pct_pib": -0.71,
+        "juros_liquidos_2025_pct_pib": 0.2
+      },
+      {
+        "pais": "Itália",
+        "grupo": "desenvolvido",
+        "divida_bruta_2025_pct_pib": 137.1,
+        "resultado_primario_2025_pct_pib": 0.54,
+        "resultado_nominal_2025_pct_pib": -3.07,
+        "juros_liquidos_2025_pct_pib": 3.61
+      },
+      {
+        "pais": "França",
+        "grupo": "desenvolvido",
+        "divida_bruta_2025_pct_pib": 115.5,
+        "resultado_primario_2025_pct_pib": -2.99,
+        "resultado_nominal_2025_pct_pib": -5.07,
+        "juros_liquidos_2025_pct_pib": 2.08
+      },
+      {
+        "pais": "Reino Unido",
+        "grupo": "desenvolvido",
+        "divida_bruta_2025_pct_pib": 102.1,
+        "resultado_primario_2025_pct_pib": -2.67,
+        "resultado_nominal_2025_pct_pib": -5.27,
+        "juros_liquidos_2025_pct_pib": 2.6
+      }
+    ],
+    "brasil_projecao_conceito_fmi": {
+      "2026": 97.0,
+      "2030": 104.5,
+      "2031": 105.3
+    },
+    "economias_avancadas_2025": 108.2,
+    "mundo_2025": 94.0
+  },
+  "primario_estabilizador": {
+    "hipoteses": "dívida 82,9% do PIB (ago/2026), crescimento real 2% a.a., p* = d(r - g)/(1 + g)",
+    "cenarios": [
+      {
+        "juro_real": 4,
+        "primario_pct_pib": 1.6
+      },
+      {
+        "juro_real": 5,
+        "primario_pct_pib": 2.4
+      },
+      {
+        "juro_real": 6,
+        "primario_pct_pib": 3.3
+      },
+      {
+        "juro_real": 7,
+        "primario_pct_pib": 4.1
+      }
+    ],
+    "com_taxas_de_2025": 3.3,
+    "ifi_raf113": 2.1,
+    "primario_atual_governo_geral_12m_ago2026": -0.56
+  },
+  "comparativo_bolsonaro": [
+    {
+      "indicador": "Variação da DBGG (p.p. do PIB)",
+      "bolsonaro": "-3,59 (dez/2018 a dez/2022)",
+      "lula3": "+11,19 (dez/2022 a ago/2026)",
+      "leitura": "Sinais opostos: no Lula 3 os juros pesam mais (8,2 p.p. por ano contra 5,7) e a inflação corrói menos o estoque."
+    },
+    {
+      "indicador": "Juros nominais apropriados sobre a DBGG",
+      "bolsonaro": "+22,93 p.p. em 4 anos (Selic mínima de 2% em 2020-21)",
+      "lula3": "+30,24 p.p. em 3 anos e 8 meses (Selic de 10,50% a 15%)",
+      "leitura": "O ciclo de juros pós-pandemia, global e doméstico, encarece o estoque."
+    },
+    {
+      "indicador": "Efeito do crescimento do PIB nominal",
+      "bolsonaro": "-27,80 p.p. (inflação -23,46; real -4,34)",
+      "lula3": "-20,19 p.p. (2023-25: inflação -10,39, real -6,25; jan-ago/2026: -3,55)",
+      "leitura": "Sob Bolsonaro a inflação de 2021-22 corroeu a dívida; no Lula 3 o crescimento real ajudou mais e a inflação menos."
+    },
+    {
+      "indicador": "Déficit primário do governo geral",
+      "bolsonaro": "+8,38 p.p. (2020: +9,28; demais anos com superávit)",
+      "lula3": "+3,56 p.p. (dez/2023: +0,84 de precatórios)",
+      "leitura": "Sem a pandemia, Bolsonaro teve primário melhor, em parte com precatórios adiados."
+    },
+    {
+      "indicador": "Variação de ativos do governo (emissões menos primário)",
+      "bolsonaro": "-8,64 p.p. (devoluções do BNDES e conta única)",
+      "lula3": "-2,68 p.p.",
+      "leitura": "A queda da bruta sob Bolsonaro teve troca de ativos, que não melhora a dívida líquida."
+    },
+    {
+      "indicador": "Juro implícito da DBGG menos crescimento nominal (i - g, média anual)",
+      "bolsonaro": "-1,65 p.p. (2019-2022)",
+      "lula3": "+3,47 p.p. (2023-2025)",
+      "leitura": "É o número que separa os dois períodos: com i < g a dívida cai sozinha; com i > g, só cai com superávit."
+    }
+  ],
+  "contraponto": "O alarme tem base na trajetória. A bola de neve (juros menos efeito PIB) foi positiva em todos os anos desde 2023 e acelerou: 1,8 p.p. em 2023, 2,2 em 2024, 3,1 em 2025 e 2,9 só entre janeiro e agosto de 2026. O primário do governo geral segue negativo (0,56% do PIB em 12 meses até ago/2026) quando seria preciso superávit de 2% a 3%, e a alta de 2026 foi amortecida pelo uso do colchão de caixa do Tesouro, recurso que se esgota. O precatório explica o déficit de 2023, não a trajetória, e a volta ao pagamento integral passou a correr fora do limite de gastos (EC 136/2025), o que reduz a transparência da meta. O juro alto não é só escolha do BC: responde a expectativas de inflação e a risco fiscal, de modo que o déficit também atua por dentro da conta de juros.",
+  "fontes": [
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Tabelas_de_estatisticas_fiscais.xlsx",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202409_Tabelas_de_estatisticas_fiscais.xlsx",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202209_Tabelas_de_estatisticas_fiscais.xlsx",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202009_Tabelas_de_estatisticas_fiscais.xlsx",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/201809_Tabelas_de_estatisticas_fiscais.xlsx",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/201609_Tabelas_de_estatisticas_fiscais.xls",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/201409_Tabelas_de_estatisticas_fiscais.xls",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/201209_Tabelas_de_estatisticas_fiscais.xls",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/201009_Tabelas_de_estatisticas_fiscais.xls",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/200909_Tabelas_de_estatisticas_fiscais.xls",
+    "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/200809_Tabelas_de_estatisticas_fiscais.xls",
+    "https://www.bcb.gov.br/content/estatisticas/Documents/Tabelas_especiais/Divggnp.xlsx",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
+    "https://static.poder360.com.br/2024/01/resultado-primario-governo-29jan2024.pdf",
+    "https://www12.senado.leg.br/noticias/materias/2023/12/27/medida-provisoria-possibilita-pagamento-de-r-93-1-bilhoes-em-precatorios",
+    "https://www.gov.br/agu/pt-br/comunicacao/noticias/agu-pede-que-stf-reconheca-inconstitucionalidade-do-regime-vigente-de-pagamento-de-precatorios-1/NotaConjuntaSEI1STNPGFNMF.pdf",
+    "https://wagner.adv.br/stf-decide-contra-a-imposicao-de-limite-para-o-pagamento-de-precatorios/",
+    "https://monitormercantil.com.br/bndes-antecipa-pagamento-de-rs-40-bi-a-uniao/",
+    "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP",
+    "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
+    "https://www.imf.org/external/datamapper/api/v1/GGXCNL_G01_GDP_PT",
+    "https://www.newsquawk.com/headlines/brazils-treasury-projects-gross-debt-to-reach-835-of-gdp-in-2026-and-879-by-2029-debt-trajectory-to-gradually-decline-from-2030-falling-to-831-of-gdp-by-2036",
+    "https://www.abinee.org.br/wp-content/uploads/2026/07/cc2606.pdf",
+    "https://www12.senado.leg.br/ifi/pdf/raf113_jun2026.pdf",
+    "https://istoedinheiro.com.br/problema-divida-juro-real-deficit-haddad-19126",
+    "https://jovempan.com.br/noticias/economia/prefiro-a-pecha-de-gastador-do-que-a-de-caloteiro-afirma-haddad-em-critica-ao-governo-anterior.html",
+    "https://timesbrasil.com.br/eleicoes-2026/economia-debate-band-flavio-lula-congelamento-dividas/",
+    "https://www.suno.com.br/noticias/economia-declaracoes-brasil-quebrado/amp/",
+    "https://www.youtube.com/watch?v=GbF9LA65L-s"
+  ]
+}
