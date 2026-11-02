@@ -144,3 +144,10 @@ Juro real ex-ante do painel = (1 + Selic over anualizada, SGS 1178, último dia 
 - Distância do juro real para a média de México, Chile e Colômbia em 2018–2021 (BIS): 1,5 / 0,5 / −0,4 / −1,3 p.p.
 - DLSP em set/2026: 69,98% do PIB (SGS 4513). DPF em ago/2026: R$ 9,29 tri.
 - CDS de dez/2024: 151,6 (InfoMoney) em 9.4; 6.1.1 diz 151,7: alinhar em 151,6 com a fonte.
+
+## Decisões do item 11.2 (02/11/2026)
+
+- Divergência nº 5 resolvida: o "juro real de 3,1% para 5,3% do PIB entre 2024 e 2025" do CONTEXTO é a série BNDES/FGV IBRE de juros reais sem o resultado dos swaps cambiais. Pelo método do painel (juros nominais SGS 5727 − 5793 menos IPCA 12m × DLSP de 12 meses antes) o juro real foi 5,36% do PIB em 2024 (4,36% sem swaps) e ≈5,5% em 2025; 6,23% (≈R$ 834 bi) em 12 meses até set/2026. Citar sempre qual série.
+- De 2002 a 2025, 59% dos juros nominais foram juro real (R$ 5,0 tri de R$ 8,5 tri correntes).
+- Juros pagos no orçamento × apropriados: a diferença não vem de "rolagem" (a LRF trata o refinanciamento como principal mais correção); 9.1 deve ser relida nesse ponto.
+- SGS 5839 não é a série de juros nominais; possivelmente juros reais (operacional). Não usar até conferir.

@@ -5,7 +5,7 @@
   "fonte": "BCB, NFSP nominal (SGS 5727) menos NFSP primária (SGS 5793), vezes o PIB de 12 meses (SGS 4382), setor público consolidado; consulta em 02/11/2026; cálculo do painel",
   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json",
   "consulta": "2026-11-02",
-  "nota": "Competência (juros que venceram no período, pagos ou não), setor público consolidado, inclui resultado das operações de swap cambial do BC. Valores nominais, sem descontar a inflação. Último ponto: 12 meses até agosto de 2026.",
+  "nota": "Competência (juros que venceram no período, pagos ou não), setor público consolidado, inclui resultado das operações de swap cambial do BC. Valores nominais, sem descontar a inflação. Último ponto: 12 meses até setembro de 2026 (8,99% do PIB).",
   "series": [
     {
       "nome": "Juros nominais",
@@ -75,8 +75,8 @@
           "v": 1007.6
         },
         {
-          "t": "12m até ago/2026",
-          "v": 1182.0
+          "t": "12m até set/2026",
+          "v": 1204.8
         }
       ]
     }

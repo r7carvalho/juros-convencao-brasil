@@ -5,7 +5,7 @@
  "fonte": "IBGE, IPCA (SIDRA, tabela 1737, variação acumulada em 12 meses); meta e intervalo: Resolução CMN 5.141/2024 e Decreto 12.079/2024",
  "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/last%2024",
  "consulta": "2026-11-02",
- "nota": "A meta é descumprida quando o IPCA de 12 meses fica fora do intervalo (1,5% a 4,5%) por seis meses seguidos; isso ocorreu em jun/2025 (jan a jun acima do teto) e o BC publicou carta aberta em 10/07/2025. SIDRA não abriu nesta sessão: dez/2024, abr, jun–dez/2025 e fev, mai, ago e set/2026 conferidos por busca em notas do IBGE, do BCB e do Ministério do Planejamento e no insumo da Frente C; jan, fev, mar e mai/2025 em tabela da UFMS e informe do Ministério do Planejamento que reproduzem o IBGE; jan, mar, abr, jun e jul/2026 em agregador (Investidor10). Conferir na SIDRA.",
+ "nota": "A meta é descumprida quando o IPCA de 12 meses fica fora do intervalo (1,5% a 4,5%) por seis meses seguidos; isso ocorreu em jun/2025 (jan a jun acima do teto) e o BC publicou carta aberta em 10/07/2025. Todos os pontos conferem com a série do IPCA em 12 meses do BCB, que reproduz o IBGE (SGS 13522, coleta de 02/11/2026).",
  "governos": false,
  "ref": [
   {

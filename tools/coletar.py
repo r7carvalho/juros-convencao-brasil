@@ -59,7 +59,7 @@ SGS = {
     4513: "Dívida líquida do setor público consolidado, % do PIB",
     5793: "NFSP primária do setor público consolidado, 12 meses, % do PIB",
     5727: "NFSP nominal do setor público consolidado, 12 meses, % do PIB",
-    5839: "NFSP juros nominais do setor público consolidado, 12 meses, % do PIB (conferir)",
+    5839: "NFSP, possivelmente juros reais (conceito operacional), % do PIB, até 2009 (conferir: não é juros nominais)",
     4382: "PIB acumulado dos últimos 12 meses, valores correntes (R$ milhões)",
     4380: "PIB mensal, valores correntes (R$ milhões)",
     24364: "IBC-Br com ajuste sazonal, índice",
