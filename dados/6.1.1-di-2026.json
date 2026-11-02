@@ -4,7 +4,7 @@
  "unidade": "% a.a.",
  "fonte": "B3, taxa de ajuste de 09/10/2026 (via Taxas do Tesouro); O Cafezinho (16/10/2026) para 14 e 15/10; Cadaminuto (26/10/2026) para 26/10",
  "url": "https://www.taxasdotesouro.com/juros-futuros",
- "nota": "Pontos isolados. Em 26/10/2026 a imprensa registra altas de até 1,82 p.p. nas taxas longas e o DI jan/29 acima de 15,03%; o valor de 15,25% citado pela Frente B é do contrato de janeiro de 2031 (registro de divergências do painel, item 12). A conferir no boletim de ajustes da B3.",
+ "nota": "Pontos isolados, cotações de imprensa (o ajuste de 09/10 é o da B3). Em 26/10/2026 a imprensa registra altas de até 1,82 p.p. nas taxas longas e o DI jan/29 em cerca de 15,03%; o contrato de janeiro de 2031 fechou perto de 15,25% no mesmo dia.",
  "series": [
   {
    "nome": "DI jan/29",

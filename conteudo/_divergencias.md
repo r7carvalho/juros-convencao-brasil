@@ -108,3 +108,9 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 - FBCF/PIB média de 1996–2002: 18,3% (SIDRA 1846); dono da série: dados/5.2-taxa-de-investimento.json (1.6 e 4.3 passam a usá-lo).
 - Juro real médio 2010–2019 pelo BIS: 3,9% (3,93).
 - Kalecki (1943) não fala em "detentores de capital financeiro que preferem juro alto"; o argumento dele é de oposição política ao pleno emprego. Vale para 3.3 e 5.3.
+
+## Decisões do bloco 10 (02/11/2026)
+
+- Compulsórios liberados em 2008: R$ 99,8 bi efetivamente liberados entre 24/09/2008 e 19/01/2009 (3,2% do PIB; BCB, Relatório Anual 2008, cap. 2). R$ 116 bi (Mesquita e Torós 2010, p. 13) é o que o BC deixou de recolher em ago/2009 frente às regras de antes; R$ 82 bi (apresentação do BCB de 2020) vem sem método. 10.2.3 deve trazer os R$ 99,8 bi.
+- Spread médio (SGS 20783): 21,6 p.p. em set/2026; 21,2 em ago/2026. Dizer o mês.
+- DBGG FMI − BCB: 11,7 p.p. em ago/2026; de 5,3 (2014) a 14,7 (2025).

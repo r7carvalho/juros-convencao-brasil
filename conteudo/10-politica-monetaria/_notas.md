@@ -221,3 +221,47 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 
 - Nenhuma com 10, 10.2, 10.2.1 e 10.2.2. Selic over de 13,65% (out/2026) e redesconto do Fed no teto do intervalo são os mesmos de 10.2.1.
 - Custo do PROES: 5,7% do PIB (de Mello e Garcia) contra 2,1% do PIB numa apresentação do BCB (Goldfajn, 2002) e "R$ 90 bi" num texto do PET-UFF; a página usa só a estimativa de 5,7% e os R$ 61,9 bi de títulos do BCB.
+
+## 10.2d
+
+### Página entregue (02/11/2026)
+
+- 10.2.4 Recolhimento compulsório, 1ª versão: cerca de 2.900 palavras de prosa antes do "Para ler" (3.050 contando parênteses de fonte; 4.118 pela contagem do lint, que inclui tabela, fórmulas e referências). Gráfico `dados/10.2.4-aliquotas.json` (linha: alíquotas nominais à vista, a prazo e poupança, nov/2017 a out/2026). Exemplo de brinquedo (R$ 100 à vista, 21% sem remuneração, Selic 15%: cunha de 3,99 pontos; CDB com recolhimento remunerado pela Selic: cunha zero; poupança: cunha menor), fórmula $c = \alpha i/(1-\alpha)$ com Selic de 15%, 13,75% e 2%, multiplicador $1/r$ e por que deixou de valer (link 1.1.4), tabela das modalidades, história 1994–2026, crises de 2008, 2020 e 2026, aperto de dez/2010, peso no spread, comparação internacional, quadro A favor/Contra e caixa "o painel lê".
+
+### Decisão sobre 2008 (R$ 116 bi × R$ 82 bi)
+
+- R$ 99,8 bi: liberação efetiva do saldo de recolhimentos entre 24/09/2008 e 19/01/2009 (BCB, Relatório Anual 2008, cap. 2, frase reproduzida pela busca). É o número que a página adota para "quanto saiu do BC"; 3,2% do PIB de 2008 (SGS 4382, R$ 3,11 tri; conta do painel).
+- R$ 116 bi (≈ 4% do PIB de 2009): contrafactual de Mesquita e Torós (2010, TD 202, p. 13): exigível pelas regras pré-crise no fim de ago/2009 (≈ R$ 295 bi) menos o efetivamente recolhido (R$ 179 bi). Inclui o aumento adiado (Circular 3.405) e o crescimento dos depósitos. A página o usa para "quanto o BC deixou de recolher".
+- R$ 82 bi: apresentação do BCB de 23/03/2020 ("durante a crise de 2008 a liberação de liquidez totalizou um montante de R$ 82 bilhões"), sem método. Próximo dos ≈ R$ 80 bi que o REBC 2009 atribui às medidas de outubro de 2008; o Relatório de Gestão 2008 dá ≈ R$ 90 bi até meados de novembro. Lido como a primeira rodada.
+- Torós (apresentação "Selic 30 anos") também cita R$ 99,8 bi, consistente com o Relatório Anual. A 10.2.3 dá 116 e 82 e remete para cá; o coordenador pode querer acrescentar lá os R$ 99,8 bi.
+
+### Fontes principais (todas por WebSearch; bcb.gov.br e newbagehot.yale.edu não abriram por WebFetch)
+
+- BCB: EE 72/2020 (funções; à vista R$ 45,5 bi e alíquota efetiva 19,6% em dez/2019, ≈ 0,5% do PIB); EE 92/2020 (alíquota efetiva total 26,2% → 22,0% de 2016 a 2019); Res. BCB 145/2021, 188/2022, 189/2022 (21% à vista), 512/2025 (dedução de até 5% na poupança), 551/2026 (dedução de antecipações ao FGC, até R$ 30 bi em 2026); Circulares 2.440, 2.441, 2.474/1994; 3.405/2008; 3.513, 3.514, 3.515/2010; 3.916/2018; 3.951/2019; Voto 244/2018; Relatório Anual 2008 e 2010; REBC 2009 e 2010; RI jun/2011 (boxe de medidas macroprudenciais); apresentação de 07/02/2017 (spread 2011–2016: inadimplência 53,5%, lucro 23,8%, impostos diretos 15,8%, custo administrativo 5,1%, compulsórios e encargos fiscais 1,8%); REB 2017 seção 3.4 e boxe 6 (liberar 10% dos compulsórios: ICC 22,2% → 22,1%; liberar 10% do direcionado: −1,3 p.p. na taxa do crédito livre), números via resumo do IE/Unicamp.
+- Imprensa para atos do BC: Agência Brasil (dez/2017 45→40 e 36→34; mar/2018 40→25 e poupança 24,5→20, R$ 25,7 bi; mar/2021 prorrogação dos 17%); Reuters/Correio Braziliense/Money Times (20/02/2020: 31→25, R$ 49 bi; LCR R$ 86 bi; total R$ 135 bi); gov.br (23/03/2020: 25→17, R$ 68 bi); Poder360 (volta a 20% em 22/11/2021, R$ 42 bi); Gazeta do Povo (R$ 61 bi em dez/2010); Money Times, Metrópoles, InvestNews (FGC, mar/2026); BPMoney e FAEP (exigibilidade rural à vista 30% → 31,5% em 2025/26); FGV IBRE, CNN, Prognum/Valor (plano de zerar o compulsório da poupança em ≈ 10 anos a partir de 2027).
+- Literatura: Garcia (1994, PUC-Rio); Cavalcanti e Vonbun (2013, Ipea TD 1826); Mesquita e Torós (2010); Robitaille (2011, Fed IFDP 1021); Montoro e Moreno (2011, BIS QR); Brei e Moreno (2019, JIMF / BIS WP 741); Tovar, Garcia-Escribano e Vera Martin (2012, IMF WP 12/142); Cantú, Gondo e Martínez (2024, BIS WP 1182); Barbosa (2018, Blog do IBRE); McLeay, Radia e Thomas (2014).
+- Internacional: Fed, comunicado de 15/03/2020 (zero a partir de 26/03/2020; antes 0%/3%/10%); BCE, comunicado de 27/07/2023 (remuneração 0% a partir de 20/09/2023) e Bundesbank (1% desde 18/01/2012, 2% desde 1999); China: recorde de 21,5% nos grandes bancos (Fox Business, 2012), 17% em abr/2018 (Bloomberg), 12,5% em jan/2020, média de 6,3% em jan/2026 (China Daily).
+
+### Contas do painel
+
+- Cunha $c = \alpha i/(1-\alpha)$: 3,99 p.p. (Selic 15%), 3,66 (13,75%), 0,53 (2%).
+- Imposto implícito hipotético: R$ 45,5 bi (saldo à vista de dez/2019) × 15% = R$ 6,8 bi/ano = 0,09 p.p. da carteira de R$ 7,44 tri de set/2026 (SGS 20539). Spread de set/2026: 21,61 p.p. (SGS 20783).
+- 2020: 49 + 68 = R$ 117 bi = 1,5% do PIB de 2020 (SGS 4382, R$ 7,61 tri). 1,8% de um spread de ≈ 17 p.p. ≈ 0,3 p.p.
+
+### Lacunas (nada disso entrou como fato)
+
+- Saldo atual dos recolhimentos por modalidade e total: as séries SGS 1848 (poupança em espécie, remunerado) e 1849 (à vista em espécie, não remunerado) existem, além da 1828 (depósitos compulsórios em espécie na base ampliada) e outras citadas no TD 296 do BCB, mas não estão em dados/brutos. Sugestão: acrescentar 1828, 1847, 1848, 1849 e as séries de recursos a prazo ao `tools/coletar.py` e trocar a nota da página por um gráfico do saldo em % do PIB (o pico de ≈ 7% do PIB em 2017 citado por Barbosa, 2018, e os "4,5% do PIB" atribuídos a um diretor do BC não foram confirmados e ficaram fora).
+- Histórico longo das alíquotas (1994–2016): o BCB tem `historico-aliquotas-pt.pdf`, que não abriu. O gráfico começa em nov/2017 para não interpolar. Os meses de vigência de dez/2017 e nov–dez/2018 são aproximados (mês do anúncio ou da vigência, como diz a nota do JSON).
+- Remuneração do compulsório da poupança: a página diz "remuneração da própria poupança" com base em resumo de texto da Res. BCB 188/2022 e fontes secundárias; uma fonte de imprensa dizia "Selic". Conferir no texto da resolução.
+- O plano de zerar o compulsório da poupança em dez anos a partir de 2027 vem de imprensa; norma não localizada.
+- Relatório de Estabilidade Financeira: não foi lido; nenhum número dele entrou. O REF de nov/2008 e o de 2020 devem ter a avaliação do uso do compulsório como colchão e o efeito no LCR.
+- Decomposição do spread com linha de compulsório nos REBC de 2005 a 2012 (compulsório + subsídio cruzado + encargos fiscais): números variam entre fontes secundárias (um texto fala em 28,39% em média de 2004 a 2010 para o agregado com subsídios); não usados.
+- Apresentação de fev/2017: o próprio BC revisou depois a decomposição de 2011–2016; a página avisa, mas não traz a versão revista.
+- Razão do BCE para zerar a remuneração em 2023 (reduzir o juro pago sobre reservas preservando a transmissão) foi parafraseada de memória do comunicado; conferir a frase.
+- Exigibilidade adicional: criação "nos anos 2000" e extinção em maio de 2017 (Yale YPFS, via busca); a data exata de criação (2001–2002) não foi conferida e ficou fora.
+
+### Divergências
+
+- Compulsório de 2008: ver decisão acima (116 × 99,8 × 82).
+- Taxa sobre depósitos à vista em dez/2010: um resumo de busca dizia "à vista de 8% para 12%"; o Relatório Anual 2010 diz que os 8% → 12% são da exigibilidade adicional sobre recursos à vista e a prazo. A página segue o Relatório Anual.
+- Spread: a 2.4 usa 21,2 p.p. (ago/2026); a 10.2.4 usa 21,6 p.p. (set/2026), ambos do SGS 20783.

@@ -4,7 +4,7 @@
  "unidade": "pontos-base",
  "fonte": "Dados de mercado (Broadcast, S&P Global Market Intelligence) reproduzidos pela imprensa: Estado de Minas (23/09/2015), InfoMoney (mai/2020 e out/2026), Poder360 e Revista Oeste (dez/2024 e out/2026); fim de nov/2024 calculado pelo painel (205 menos a alta de 43,5 pontos em dezembro)",
  "url": "https://www.infomoney.com.br/mercados/cds-de-5-anos-do-brasil-passa-dos-151-pontos-26-acima-do-fechamento-de-6a-feira/",
- "nota": "Série diária não disponível ao painel; pontos isolados citados pela imprensa, que não são diretamente comparáveis a médias. O valor de 26/10/2026 é a cotação de fechamento informada pela S&P Global via InfoMoney; o de 23/10/2026 é o fechamento anterior (sexta-feira).",
+ "nota": "Pontos isolados citados pela imprensa a partir de dados de mercado (Broadcast; S&P Global Market Intelligence), sem série diária; não são diretamente comparáveis a médias. O valor de 26/10/2026 é o fechamento informado pela S&P Global via InfoMoney (151,6); o de 23/10/2026 é o fechamento anterior (sexta-feira).",
  "series": [
   {
    "nome": "CDS 5 anos",
@@ -47,7 +47,7 @@
     },
     {
      "t": "26/10/2026",
-     "v": 151.7
+     "v": 151.6
     }
    ]
   }

@@ -5,7 +5,7 @@
  "fonte": "BCB: Estudo Especial 92/2020 (Mudanças nas regras dos recolhimentos compulsórios desde 2016); Circular 3.916/2018 e Voto 244/2018-BCB; Circular 3.951/2019; Resoluções BCB 145/2021, 188/2022 e 189/2022; apresentação do BCB de 20/02/2020; Agência Brasil (dez/2017, mar/2018, mar/2021); Poder360 (nov/2021). Consultas por busca.",
  "url": "https://www.bcb.gov.br/conteudo/relatorioinflacao/estudosespeciais/ee092_mudancas_nas_regras_dos_recolhimentos_compulsorios_desde_2016.pdf",
  "consulta": "2026-11-02",
- "nota": "Alíquota nominal sobre a base de cálculo, sem deduções nem faixas de isenção; o mês marcado é o do início de vigência informado pela fonte ou, na falta dele, o do anúncio. Recursos à vista não são remunerados; a prazo, remunerados pela Selic; poupança, pela remuneração da própria poupança. Em março de 2020 a alíquota a prazo caiu duas vezes (31% para 25% em 16/03 e para 17% em 30/03). Antes de maio de 2017 havia ainda a exigibilidade adicional, extinta e incorporada às alíquotas básicas, por isso a série começa depois dela.",
+ "nota": "Alíquota nominal sobre a base de cálculo, sem deduções nem faixas de isenção; o mês marcado é o do início de vigência informado pela fonte ou, na falta dele, o do anúncio. Recursos à vista não são remunerados; a prazo, remunerados pela Selic; poupança, pela remuneração da própria poupança. Em março de 2020 a alíquota a prazo caiu duas vezes (31% para 25% em 16/03 e para 17% em 30/03). Até maio de 2017 havia ainda a exigibilidade adicional, um recolhimento extra extinto naquele mês; a série começa depois dela.",
  "governos": true,
  "series": [
   {"nome": "Depósitos à vista", "pontos": [
