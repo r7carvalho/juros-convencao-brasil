@@ -73,7 +73,7 @@ def links_paginas(pids):
 
 
 RE_URL_MD = re.compile(r"\]\((https?://[^)\s]+)\)")
-RE_URL_NU = re.compile(r"(?<![(\[])(https?://[^\s)\]]+)")
+RE_URL_NU = re.compile(r"(?<!\]\()(?<!\[)(https?://[^\s)\]]+)")
 
 
 def urls(t):
@@ -463,14 +463,14 @@ CANONICO = {
 # Referências que o parser não marca como incompletas mas que o são em todas as citações
 INCOMPLETAS_MANUAIS = {
     "pessoa|conjuntura economica": "sem título do artigo, só o veículo e o mês",
-    "revista de economia politica|formacao distorcida precos": "sem autor e sem ano; só título e link",
-    "sistema financeiro contas|ufrj repositorio pantheon": "sem autor e sem ano; só título e link",
-    "yale program financial|fichas sobre linhas": "sem ano e sem títulos das fichas",
+    "revista de economia politica|formacao distorcida precos": "sem autor; só título e link",
+    "sistema financeiro contas nacionais|ufrj": "sem autor; só título e link",
+    "yale program financial|fichas sobre linhas": "sem títulos das fichas",
     "leite junior|dissertacao mestrado universidade": "sem título da dissertação",
     "tucker|artigo sobre solvencia": "sem título do artigo",
-    "de mello|artigo para valor": "sem título do artigo",
+    "de mello|artigo valor": "sem título do artigo",
     "lara resende|eu acuso proposta": "texto reproduzido; veículo original não registrado",
-    "cemec fipe|notas sobre retorno": "sem ano e sem número das notas",
+    "cemec fipe|notas sobre retorno": "sem número das notas",
 }
 
 
@@ -558,7 +558,7 @@ def tipo_artigo(t):
         return False
     if re.search(r"\bIn\b|\bEm \w|Terra é Redonda|Extra Classe|Agroanalysis|Central Banking|Boletim de Conjuntura|"
                  r"Economia em Perspectiva|Regional Economist|Encyclopaedia|Jackson Hole|Working Paper|\bWP\b|Texto para Discussão|\bTD\b|Discussion|Papers? \d|"
-                 r"Nota|Mimeo|Blog|Folha|Valor|Substack|vídeo|Estudo|Working Document|Bulletin \d|BIS Bulletin|"
+                 r"Nota\b|Mimeo|Blog|Folha|Valor|Substack|vídeo|Estudo\b|Working Document|Bulletin \d|BIS Bulletin|"
                  r"Staff|Technical|Brookings Papers|Macroeconomics Annual|Quarterly Bulletin|Economic Papers|"
                  r"Conferência|apresentad|publicado em", resto):
         return False
@@ -633,7 +633,7 @@ def montar_literatura(refs):
             if all(c["pags"] is None for _, c in cs):
                 falta.append("sem páginas")
         for kk, motivo in INCOMPLETAS_MANUAIS.items():
-            if k.startswith(kk.split("|")[0]) and kk.split("|")[1].split()[0] in k:
+            if set(kk.replace("|", " ").split()) <= set(k.replace("|", " ").split()):
                 falta.append(motivo)
         if falta:
             incompletas.append((esc.texto[:90], ", ".join(dict.fromkeys(falta)), pids))

@@ -253,5 +253,5 @@ os argumentos deles.
 - [x] 8.2 Direção de conclusão, com o grau de confiança declarado
 - [x] 9.1 Glossário
 - [x] 9.2 Linha do tempo 1980–2026 (planos, regimes, Selic, inflação, crises)
-- [ ] 9.3 Bibliografia completa e método
+- [x] 9.3 Bibliografia completa e método (9.2 gerada por tools/analises/9.2_bibliografia.py; regenerar ao fim)
 - [x] 9.R Revisão final do site inteiro e `RELATORIO.md`
