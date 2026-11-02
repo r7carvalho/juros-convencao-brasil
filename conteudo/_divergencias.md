@@ -101,3 +101,10 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 - Juro real ex-post do BIS em 2026 (jan–set): Brasil 9,64; México 2,78; Chile 0,92; Colômbia 4,94; EUA 0,29.
 - Serviços (SGS 10844): 2024 = 4,78% publicado pelo BCB (4,74% pelo produto dos mensais); 2025 = 6,0%.
 - Queda da FBCF 2013–2016: 30,8% a 32,8% conforme a série (SIDRA 1621 com ajuste, pico no 2º tri; SIDRA 1620 sem ajuste, pico no 3º tri).
+
+## Decisões da correção da área 5 (02/11/2026)
+
+- Juro real (SGS 4390/433) × irr da PWT 10.0 em 1995–1999: juro 2,5 a 13,4 p.p. acima do retorno do capital.
+- FBCF/PIB média de 1996–2002: 18,3% (SIDRA 1846); dono da série: dados/5.2-taxa-de-investimento.json (1.6 e 4.3 passam a usá-lo).
+- Juro real médio 2010–2019 pelo BIS: 3,9% (3,93).
+- Kalecki (1943) não fala em "detentores de capital financeiro que preferem juro alto"; o argumento dele é de oposição política ao pleno emprego. Vale para 3.3 e 5.3.

@@ -125,7 +125,7 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 5.3 CDI como referência: fundos, metas atuariais, TLP, custo de oportunidade
 - [x] 5.4a Tabela de Recursos e Usos simplificada do ano mais recente
 - [x] 5.4b Valor adicionado por atividade e o peso das atividades financeiras ao longo do tempo
-- [ ] 5.R Revisão independente da macroárea 5
+- [x] 5.R Revisão independente da macroárea 5
 
 ## 6. Contrapontos ortodoxos
 
