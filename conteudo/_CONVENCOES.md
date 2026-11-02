@@ -225,6 +225,20 @@ para dado numérico fino) e o GitHub. Então:
    aspas só se você tem o texto (busca, PDF aberto, citação reproduzida em fonte confiável que você
    cita junto); caso contrário, parafraseie.
 
+## Dados primários já coletados (`dados/brutos/`)
+
+Desde 02/11/2026 o workflow `.github/workflows/coletar-dados.yml` roda `tools/coletar.py` no GitHub
+Actions e grava o bruto das APIs oficiais em `dados/brutos/` (cada arquivo traz `fonte`, `url_api`,
+`coleta` e `dados`). Há 39 séries do SGS do BCB (`sgs-<código>.json`: Selic meta e over, CDI, IPCA
+cheio, 12 meses, livres, monitorados, alimentação, serviços, comercializáveis, núcleos, IGP-M,
+câmbio, reservas, DBGG, DLSP, NFSP, PIB 12 meses, crédito livre e direcionado, spread, base
+monetária, depósitos voluntários, desocupação), o Focus pela API Olinda (`focus-*.json`), o SIDRA
+(`sidra-*.json`: PIB trimestral pelas óticas, IPCA por grupo 2012–2026, PNAD), o BIS (taxas de
+política e CPI de 13 países, `bis-*.csv`) e arquivos do IBGE (`scn/`). Antes de buscar um número na
+web, procure aqui e cite a fonte primária (por exemplo "BCB, SGS 13522, consulta em 02/11/2026").
+`dados/brutos/_coleta.json` lista o que veio. Descrição marcada "(conferir)" no arquivo indica que
+o nome da série ainda deve ser confirmado pelo comportamento dos dados.
+
 ## Notas da área
 
 Cada área grava também `conteudo/<pasta>/_notas.md` (não vira página) com: lista de páginas
