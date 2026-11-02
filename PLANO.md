@@ -47,9 +47,9 @@ fim; publicada em `docs/` sem erro de build.
 
 ## Infraestrutura
 
-- [ ] 00.1 Motor do site: build Markdown + frontmatter → HTML em `docs/`, árvore lateral, breadcrumb, anterior/próxima, tema claro/escuro, celular sem rolagem horizontal
-- [ ] 00.2 Componente de gráfico SVG (linha, barra, faixa de governo, tooltip, tabela de valores) lendo `dados/*.json`
-- [ ] 00.3 Componentes de texto: recorte citado, quadro A favor/Contra, fórmula KaTeX, caixa de exemplo numérico
+- [x] 00.1 Motor do site: build Markdown + frontmatter → HTML em `docs/`, árvore lateral, breadcrumb, anterior/próxima, tema claro/escuro, celular sem rolagem horizontal
+- [x] 00.2 Componente de gráfico SVG (linha, barra, faixa de governo, tooltip, tabela de valores) lendo `dados/*.json`
+- [x] 00.3 Componentes de texto: recorte citado, quadro A favor/Contra, fórmula KaTeX, caixa de exemplo numérico
 - [ ] 00.4 Página inicial com o mapa completo da topologia e o estado de cada página
 
 ## 1. Fundamentos teóricos

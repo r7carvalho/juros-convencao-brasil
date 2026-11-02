@@ -89,6 +89,7 @@ class Pagina:
         except ValueError:
             self.ordem = 0
         self.resumo = meta.get("resumo", "").strip()
+        self.estado = meta.get("estado", "").strip()
         self.corpo = corpo
         stem = os.path.splitext(os.path.basename(path))[0]
         self.arquivo = "index.html" if self.id == "0" else stem + ".html"
@@ -119,6 +120,7 @@ def carregar_paginas():
         p = Pagina.__new__(Pagina)
         p.src, p.id, p.titulo, p.pai, p.ordem = "(gerada)", "0", SITE_TITULO, "", 0
         p.resumo = "Mapa do painel."
+        p.estado = ""
         p.corpo = "{{mapa}}\n"
         p.arquivo, p.filhos, p.palavras = "index.html", [], 0
         paginas["0"] = p
@@ -601,9 +603,10 @@ def nav_arvore(raiz, atual, caminho_ids):
 def mapa_html(raiz):
     def item(p):
         res = f'<span class="mapa-resumo">{inline(p.resumo)}</span>' if p.resumo else ""
+        est = f' <span class="estado estado-{slug(p.estado)}">{html.escape(p.estado)}</span>' if p.estado else ""
         sub = f"<ul>{''.join(item(f) for f in p.filhos)}</ul>" if p.filhos else ""
         return (f'<li><a href="{p.arquivo}"><span class="num">{p.id}</span> {html.escape(p.titulo)}</a>'
-                f"{res}{sub}</li>")
+                f"{est}{res}{sub}</li>")
 
     return '<nav class="mapa" aria-label="Mapa do painel"><ul>' + "".join(item(f) for f in raiz.filhos) + "</ul></nav>"
 
