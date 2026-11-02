@@ -147,3 +147,42 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 
 - 10.2.2 deve retomar o resultado do BC (Lei 13.820/2019), a emissão de títulos do Tesouro para a carteira do BC e o balanço real completo.
 - Se o site do BCB abrir: ler o PDA-TS e o Relatório de Administração do Selic para a explicação oficial dos 0,10 ponto e o volume das operações de nivelamento.
+
+## 10.2b
+
+### Página entregue (02/11/2026)
+
+- 10.2.2 Operações de mercado aberto e a carteira do BC, 1ª versão, 3.495 palavras pela contagem do build (inclui tabelas, fórmula e "Para ler"). Gráficos: `dados/10.2.2-dbgg-bcb-fmi.json` (DBGG conceito BCB, conceito FMI e diferença, dezembros 2006–2025 e ago/2026) e `dados/10.2.2-carteira-bc.json` (carteira estimada do BC: títulos livres = FMI menos BCB; títulos em compromissadas = saldo das compromissadas). Exemplo de brinquedo (BC com 100 de títulos, banco que precisa de 10 por uma semana; preço de recompra $10 \times 1{,}15^{5/252} = 10{,}028$; regra de 4%/5% resolvida, $x = 2{,}1$), quadro do que entra em cada medida de dívida, tabela de resultados do BC 2018–2025, quadro A favor/Contra, caixa "o painel lê".
+
+### Fontes principais
+
+- Dados: BCB, SGS 13762 (DBGG BCB), 4513 (DLSP), 4382 (PIB 12 meses) e 3546 (reservas), consulta em 02/11/2026; tabela especial Divggnp.xlsx (DBGG FMI, compromissadas, conta única), lida em 28/10/2026 e já usada nas páginas 3.x e 10; juro real ex-post de `dados/2.1-juro-real-1995-2026.json` (médias 1995–2001 = 17,4% e 2003–2025 = 5,4%, cálculo do painel).
+- Lei: LRF art. 34 (único recorte entre aspas, texto confirmado por busca em agregador jurídico) e art. 39 § 2º; CF art. 164 §§ 1º a 3º (parafraseados); Lei 11.803/2008 (origem na MP 435/2008); Lei 13.820/2019, arts. 3º a 5º e 7º (4%/5% da carteira livre; § 1º define "livres"), por busca em Planalto/Câmara/Senado/JusBrasil/Migalhas.
+- FMI: Country Report 23/289 (2023, Selected Issues, medida do FMI = medida do BCB anterior a 2008); Country Report 26/191 (Artigo IV de 2026: carteira do BC de 22,4% do PIB em abril de 2026, que confere com a estimativa do painel de 21,9% em agosto); Artigo IV de 2023 (Lei 13.820 aproxima o Brasil da prática internacional sobre ganhos não realizados). GFSM 2014 parafraseado (banco central fora do governo geral).
+- Resultado do BC: Exame/Meon (lucro de R$ 165,9 bi no 1º sem. 2018, regra de ouro de 2019); Agência Brasil (2018, 2023, 2024 e 2025); imprensa e nota do CMN de 27/08/2020 (R$ 325 bi; pedido de R$ 445 bi via Reuters; 1º sem. 2020 cambial R$ 478,5 bi e demais R$ 24,7 bi); Terra, Roncaglia, Bianchini e Leão (2020, FGV EAESP NT 1/2020: equalização positiva em 9 semestres, R$ 694 bi; negativa em 14, ≈ R$ 662 bi, 2008 a 1º sem. 2019).
+- Literatura: Pellegrini (2017, IFI EE 3: hipótese de gestão segmentada; natureza monetária das compromissadas), Barbosa e Terra (2025), Leister (2016, Tesouro TD 26), Lopreato (2018, IE/Unicamp TD 327; o TD 139 sobre moeda indexada aparece só por busca), Oreiro, Paula, Silva e Amaral (2012, REP 32(4): LFT de duração zero e efeito riqueza), Bindseil (2014). Tudo parafraseado; nenhum PDF aberto (WebFetch não resolve gov.br, camara.leg.br, fgv.br, imf.org espelhos).
+- Internacional: Fed, Monetary Policy Report de jul/2026 (ativo diferido ≈ US$ 236 bi); BCE, comunicado de 26/02/2026 (prejuízo de € 7,944 bi em 2024 e € 1,254 bi em 2025); Chile (BCCh: PDBC, BCP, BCU; LOC art. 27; Leis 21.253 e 21.265 de 2020); Coreia (MSB de 107,29 tri de wons no fim de 2025 para 95,16 tri em mar/2026, Aju Press, ago/2026).
+
+### Contas do painel (conferir se o coordenador quiser)
+
+- Carteira do BC ≈ (DBGG FMI − DBGG BCB) + compromissadas: 11,66 + 10,28 = 21,94% do PIB em ago/2026, ≈ R$ 2,9 tri sobre PIB de R$ 13,34 tri. Supõe lastro igual ao saldo das compromissadas e trata a diferença FMI − BCB como títulos livres (há pequenas diferenças de valoração).
+- Diferença FMI − BCB: mínimo 5,34 p.p. (2014), máximo 14,69 (2025), média 10,8 em 2016–ago/2026 e 9,2 em 2006–ago/2026. O cartão falava em "cerca de 12 p.p."; o texto usa 11,7 (ago/2026) e a faixa.
+- R$ 325 bi ≈ 4,3% do PIB de 2020 (SGS 4382, R$ 7,61 tri).
+
+### Lacunas e [a conferir] (nada disso entrou como fato)
+
+- "Episódio de 2019–2020" do cartão: o que se achou foi a transferência do lucro do 1º sem. 2018 (Lei 11.803, usada na regra de ouro de 2019) e a de R$ 325 bi em ago/2020 (Lei 13.820, art. 5º). Não se achou quanto dos R$ 325 bi foi efetivamente usado em resgates, nem se houve nova transferência em 2021 (uma manchete fala em "repassar R$ 71,7 bi" do lucro de 2021; outra diz que a reserva foi esgotada em 2022 com R$ 85,9 bi; números conflitantes, não usados).
+- Saldo da reserva de resultado depois de 2025: R$ 112,82 bi (Agência Brasil); um site dá R$ 122,82 bi. Usado o da Agência Brasil, que fecha com 263,08 − 150,26.
+- Destino do resultado positivo das demais operações (R$ 30,29 bi) em 2025, ano de prejuízo total: não confirmado; o texto não diz.
+- Datas exatas de vencimento dos últimos BBC, LBC e NBC-E (há NBC-E com vencimento em nov/2005 em registros de mercado). O texto diz só que o BCB informa que todos foram resgatados.
+- Texto literal do Manual de Estatísticas Fiscais ("estreita relação") e da NT 47 visto só por paráfrase em fonte secundária (Jaloretto, Corecon-DF).
+- O "relatório de gestão do BCB de 2018" como fonte da regra de 4%/5% no regime anterior veio de resumo de busca; conferir o dispositivo da Lei 11.803 ou MP que a criou.
+- Afirmação de que a dívida americana em poder do público inclui os títulos do Fed e de que o RMD mede a DPF em poder do público sem a carteira do BC: conhecimento padrão, sem fonte aberta nesta busca.
+- Blog do IBRE "Três erros sobre o repasse cambial do BC ao Tesouro": título e trecho (repasse não afeta o primário) vistos por busca; autor e data não confirmados.
+- IFI: o box do RAF de abril de 2017 sobre a relação Tesouro–Bacen e a apresentação "Relacionamento Tesouro Nacional–Banco Central" de Pellegrini foram localizados mas não lidos.
+
+### Divergências
+
+- Compromissadas e DBGG FMI vêm da Divggnp (consulta 28/10/2026); DBGG BCB do SGS 13762 (consulta 02/11/2026). Mesmo valor de ago/2026 (82,87) nas duas fontes; nenhuma divergência com 3.1, 3.2, 10 e 10.2.1.
+- O gráfico `dados/3-divida-conceitos.json` reconstruía a DBGG BCB de 2006–2014 pelos fatores condicionantes; o SGS 13762 bruto agora cobre desde dez/2006 e os valores batem com diferença de até 0,05 p.p. Sugestão: a área 3 pode trocar a reconstrução pelo SGS.
+- Página 10 diz "Desde 2002 o BCB não pode emitir título próprio (LRF, art. 34)": consistente (maio de 2002).
