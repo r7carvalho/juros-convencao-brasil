@@ -182,7 +182,7 @@ críticas a ela.
 - [x] 10.3f Câmbio como instrumento: swaps cambiais e reservas do BCB, intervenções, quando substituem juro
 - [x] 10.3g Brasil 2020: EC 106 (compra de títulos no secundário), linhas do BCB; o que foi usado e o que ficou no papel
 - [x] 10.3h Financiamento monetário, "dinheiro de helicóptero" e MMT: Bernanke (2003), Turner (2015), Galí (2020), Kelton; o debate com os críticos; o que vale para moeda não reserva
-- [ ] 10.4 Blanchard por inteiro: da dominância fiscal de 2004 ao "dívida com juro baixo" de 2019 e ao livro de 2023; onde as posições dele mudaram e o que dizem sobre o Brasil
+- [x] 10.4 Blanchard por inteiro: da dominância fiscal de 2004 ao "dívida com juro baixo" de 2019 e ao livro de 2023; onde as posições dele mudaram e o que dizem sobre o Brasil
 - [ ] 10.5 O que as não convencionais ensinam ao Brasil: moeda não reserva, repasse cambial, dívida indexada à Selic, crédito direcionado; o que é transponível e o que não é
 - [ ] 10.R Revisão independente do bloco 10
 
