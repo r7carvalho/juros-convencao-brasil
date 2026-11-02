@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       grupos:
-        description: "Grupos a coletar, separados por espaço (vazio = todos): sgs focus sidra scn tesouro bis ipea"
+        description: "Grupos a coletar, separados por espaço (vazio = todos): sgs focus sidra scn tesouro bis ipea fred"
         required: false
         default: ""
   schedule:

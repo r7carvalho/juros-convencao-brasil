@@ -362,8 +362,37 @@ def coletar_ipea():
             falha("ipea", cod, url, e)
 
 
+# FRED (Fed de St. Louis): CSV público, sem chave
+FRED = {
+    "WALCL": "Ativos totais do Fed (US$ milhões, semanal)",
+    "GDP": "PIB nominal dos EUA (US$ bilhões, trimestral, anualizado)",
+    "BOGMBASE": "Base monetária dos EUA (US$ milhões)",
+    "M2SL": "M2 dos EUA (US$ bilhões)",
+    "M2V": "Velocidade de M2 dos EUA",
+    "CPIAUCSL": "CPI dos EUA (índice)",
+    "PCEPILFE": "Núcleo do PCE dos EUA (índice)",
+    "DFII10": "Rendimento do título indexado de 10 anos dos EUA (TIPS, %)",
+    "DGS10": "Rendimento do título de 10 anos dos EUA (%)",
+    "ECBASSETSW": "Ativos totais do Eurosistema (€ milhões, semanal)",
+}
+
+
+def coletar_fred():
+    for cod, desc in FRED.items():
+        url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={cod}"
+        try:
+            txt = baixar(url, timeout=90)
+            linhas = [l.split(",") for l in txt.strip().splitlines()[1:]]
+            pontos = [{"data": a, "valor": b} for a, b in linhas if b not in (".", "")]
+            arq = gravar(f"fred-{cod}.json", {"fonte": "Federal Reserve Bank of St. Louis, FRED", "serie": cod,
+                                             "descricao": desc, "url_api": url, "coleta": agora(), "dados": pontos})
+            ok("fred", f"{cod} {desc}", arq, len(pontos))
+        except Exception as e:  # noqa
+            falha("fred", cod, url, e)
+
+
 GRUPOS = {"sgs": coletar_sgs, "focus": coletar_focus, "sidra": coletar_sidra, "scn": coletar_scn,
-          "tesouro": coletar_tesouro, "bis": coletar_bis, "ipea": coletar_ipea}
+          "tesouro": coletar_tesouro, "bis": coletar_bis, "ipea": coletar_ipea, "fred": coletar_fred}
 
 
 def main():

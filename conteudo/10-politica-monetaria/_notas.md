@@ -385,3 +385,44 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 
 - Nenhuma de número com 10, 10.2.6, 4.2 e 6.1.1. A data da retirada (20/01/2021, 236ª reunião) coincide com 4.2 e 10.2.6. O glossário (9.3, verbete "Forward guidance") diz "retirada no início de 2021": pode ganhar a data exata e o link para 10.3.1.
 - A página macro 10 tem "[a conferir: comunicado de agosto de 2020]" sobre o espaço pequeno para cortes; 10.2.6 já cita o trecho do comunicado de 28/10/2020, e 10.3.1 traz a assimetria e os limites prudenciais pela ata de 16/09/2020. A marca na página 10 pode ser resolvida com link para 10.2.6 e 10.3.1.
+
+## 10.3b
+
+### Página entregue (02/11/2026)
+
+- 10.3.2 Quantitative easing, 1ª versão: cerca de 3.570 palavras de prosa sem parênteses de fonte, títulos, tabelas, fórmulas e citações em bloco (≈ 3.820 com os parênteses; 5.490 pela contagem do lint, que inclui tabelas e referências). Fica no teto do cartão (3.500), na mesma medida da 10.3.1.
+- Conteúdo: QE × mercado aberto convencional (tabela, link para 10.2.2 e para o lançamento 2 do balanço de brinquedo da página 10); exemplo de brinquedo (BC compra 100 de 1.000 títulos de dez anos com cupom 3; lançamentos no BC, no banco e no fundo; preço 100 → 102,6 → 104,4, taxa 3% → 2,7% → 2,5%; 30 p.b. de prêmio e 20 de sinal); fórmula linear de hábitat preferido $\Delta\phi \approx -\theta\,Q/PIB$ com exemplo; programas do Fed (QE1, QE2, *Operation Twist*, QE3, 2020–2022), do BoE (APF) e do BCE (APP/PSPP, PEPP); tabela do ativo do Fed em % do PIB; canais (carteira, sinalização, liquidez, sete canais de KVJ, multiplicador fora); tabela de estimativas normalizadas por 1% do PIB; quadro A favor/Contra; inflação 2010s × 2021–2022; custo para Fed, BCE e BoE (indenização do HM Treasury); QT; transposição ao Brasil com link para 10.5, 7.3, 6.1, 7.8 e 10.3.7; caixa "o painel lê".
+- Sem gráfico. FRED, DBnomics e os sites dos bancos centrais não abriram (curl 403; WebFetch sem resolução de brookings.edu). Os pontos do ativo do Fed em % do PIB vieram de fontes diferentes (Waller 2025: 6% em ago/2007; Judson e Weiss 2026: pouco mais de 25% em 2014; Wright 2022 e CaixaBank: 34% a 37% no pico; FEDS Notes de jan/2026: 21% em dez/2025) e ficaram numa tabela no texto. Sugestão: acrescentar ao `tools/coletar.py` as séries WALCL e GDP do FRED e o total de ativos do Eurosistema (BCE, ILM) para um gráfico `dados/10.3.2-balancos-pib.json`.
+
+### Números do painel e fontes principais (todas por WebSearch, consulta em 02/11/2026)
+
+- Gagnon, Raskin, Remache e Sack (2011, IJCB 7(1)): −91 p.b. no Treasury de 10 anos em oito anúncios (nov/2008–nov/2009, via FEDS 2014-07); regressões de 38 a 82 p.b.; faixa resumida de 30 a 100 p.b. para US$ 1,725 tri.
+- Krishnamurthy e Vissing-Jorgensen (2011, BPEA): recorte do resumo confirmado em NBER/SSRN/Brookings; QE1 pouco mais de 100 p.b. (107 deduzido de slide dos autores: spread agência-Tesouro de 200 − 107 = 93 p.b.); QE2 entre 16 e 18 p.b.
+- Joyce, Lasaosa, Stevens e Tong (BoE WP 393, 2010; IJCB 7(3), 2011): recorte "about 100 basis points" do resumo.
+- Eser et al. (2019, ECB WP 2293): −95 p.b. no prêmio de 10 anos, meia-vida de cinco anos.
+- Bernanke (2020): recorte do resumo ("roughly 3 percentage points of policy space"); QE1 −34, MEP −28, QE3 −31 p.b. (slides da conferência); regra ELR de US$ 500 bi → −17/−20/−7 p.b. em 5/10/30 anos.
+- Gagnon (2016, PIIE PB16-4): mediana de cerca de 50 p.b. por 10% do PIB (via Kansas City Fed e FEDS 2020-083).
+- Engen, Laubach e Reifschneider (2015, FEDS 2015-005): desemprego −1,25 ponto (início de 2015) e inflação +0,5 ponto (início de 2016).
+- Greenlaw, Hamilton, Harris e West (2018, USMPF; NBER WP 24687, título "A Skeptical View of the Impact of the Fed's Balance Sheet"): juros sobem nos dias de notícia do Fed posteriores às grandes surpresas.
+- Normalização por 1% do PIB: cálculo do painel com PIB nominal dos EUA (BEA, de memória: US$ 14,5 tri em 2009, 15,0 em 2010, 21,5 em 2019). Faixa de 2,5 a 9 p.b., mediana perto de 5.
+- Fed: QE1 (25/11/2008 e 18/03/2009, US$ 1,75 tri anunciado; Boston Fed, BIS); QE2 US$ 600 bi; QE3 (13/09/2012, US$ 40 bi MBS + US$ 45 bi Treasuries desde dez/2012, fim em out/2014; linha do tempo do Fed); 2020–2022 (US$ 80 + 40 bi/mês desde jun/2020, fim em mar/2022; CRS IN11792); pico de US$ 8,965 tri em 13/04/2022; QT de jun/2022 a 01/12/2025 (tetos 30/17,5 → 60/35 → 25 → 5; fontes secundárias concordantes); compras de gestão de reservas desde 12/12/2025 (NY Fed, 10/12/2025).
+- Custos: ativo diferido do Fed US$ 243 bi no fim do 3º tri de 2025 (CRS R48390), pico acima de US$ 245 bi em jan/2026 e volta ao lucro em 2026 (Bipartisan Policy Center), US$ 236 bi em jul/2026 (já em 10.2.2, Fed MPR); repasses de US$ 47,4 bi (2009) e cerca de US$ 109 bi (2021). BCE: −€ 1,3 bi (2023, após € 6,6 bi de provisões), −€ 7,9 bi (2024), −€ 1,25 bi (2025). BoE: £ 123,8 bi do APF ao Tesouro de jan/2013 a set/2022 (BoE APF QR 2025 Q2; o OBR dá £ 123,9 bi); £ 110,72 bi do Tesouro ao APF desde out/2022 (resposta HL3519, set/2026); perda vitalícia de £ 126 bi (boxe do OBR posterior a jul/2023).
+- BoE: APF criado em 29/01/2009; £ 200 bi em fev/2010; £ 375 bi até 2012 (House of Lords); +£ 60 bi em 2016; £ 895 bi em nov/2020; £ 19,3 bi nas operações LDI (28/09–14/10/2022); estoque a £ 488 bi até set/2026; efeito do QT de 20 a 30 p.b. no gilt de 10 anos (Ramsden, set/2026).
+- BCE: APP anunciado em 22/01/2015 (€ 60 bi/mês desde 09/03/2015), cerca de € 2,6 tri até dez/2018 (Benigno et al., 2023), retomada em nov/2019; PEPP de € 750 bi a € 1,85 tri; Eurosistema perto de 65% do PIB em meados de 2022 (CaixaBank Research); APP € 2,32 tri e PEPP € 1,42 tri no fim de 2025 (contas anuais do BCE).
+- Inflação de pico: EUA 9,1% (BLS, jun/2022), zona do euro 10,6% (Eurostat, out/2022), Reino Unido 11,1% (ONS, out/2022); os dois últimos de memória, sem reabrir a fonte.
+
+### Lacunas (nada disso entrou como fato)
+
+- Estimativa de quase 175 p.b. de compressão do prêmio de 10 anos por APP + PEPP no relatório do BCE de 2025 (Occasional Paper 372?): apareceu num resumo de busca e não se confirmou numa segunda busca; ficou de fora.
+- Total comprado pelo Fed em 2020–2022 (US$ 4,6 tri?) e no QE3 (US$ 1,6 tri?): não confirmados; o texto dá só os ritmos mensais.
+- Data e valor exatos do boxe do OBR com £ 126 bi; perda do Fed em cada ano (2023 cerca de US$ 114 bi, 2024 cerca de US$ 75–80 bi, só em blog): não usados.
+- Ponto de partida de £ 75 bi do BoE em mar/2009 usado só como exemplo de anúncio (fonte secundária: politics.co.uk).
+- Decomposição de Bauer e Rudebusch (2014) entre sinal e prêmio: só qualitativa.
+- PIB nominal dos EUA (BEA) usado na normalização foi tomado de memória; conferir com a série GDP do FRED quando o coletor a trouxer.
+
+### Divergências
+
+- Ativo diferido do Fed: 10.2.2 usa US$ 236 bi em jul/2026 (Fed MPR); 10.3.2 acrescenta US$ 243 bi (CRS, 3º tri de 2025) e o pico acima de US$ 245 bi em jan/2026 (BPC). Coerentes.
+- Prejuízos do BCE iguais aos de 10.2.2 (€ 7,9 bi em 2024; € 1,3 bi em 2025, aqui com a casa decimal € 1,25 bi).
+- Balanço do Fed: as páginas 1.1, 10, 10.3, 7.8 e o glossário usam "US$ 0,9 tri (2008) → 4,5 tri (2014–2015) → 8,97 tri (2022)"; 10.3.2 usa US$ 870 bi em ago/2007 (Waller, 2025) e as razões sobre o PIB. Não conflitam (datas diferentes).
+- Transferências APF → Tesouro: £ 123,8 bi (BoE) contra £ 123,9 bi (OBR); a página usa o número do BoE.
