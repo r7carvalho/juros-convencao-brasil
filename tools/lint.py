@@ -47,7 +47,7 @@ def checar(path):
 def main():
     arqs = sys.argv[1:] or sorted(
         p for p in glob.glob(os.path.join(ROOT, "conteudo", "**", "*.md"), recursive=True)
-        if not os.path.basename(p).startswith("_"))
+        if not any(x.startswith("_") for x in os.path.relpath(p, os.path.join(ROOT, "conteudo")).split(os.sep)))
     print(f"{'arquivo':48} {'pal':>6} {'—':>3} {'nãoé':>4} {'conf':>4} {'cit':>3} {'gráf':>4} PL  vetadas")
     for a in arqs:
         r = checar(a)

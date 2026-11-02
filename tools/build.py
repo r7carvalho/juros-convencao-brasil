@@ -106,7 +106,7 @@ class Pagina:
 def carregar_paginas():
     paginas = {}
     for path in sorted(glob.glob(os.path.join(CONTEUDO, "**", "*.md"), recursive=True)):
-        if os.path.basename(path).startswith("_"):
+        if any(parte.startswith("_") for parte in os.path.relpath(path, CONTEUDO).split(os.sep)):
             continue
         p = Pagina(path)
         if not p.id:
