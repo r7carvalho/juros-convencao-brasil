@@ -2,7 +2,7 @@
   "titulo": "Relação capital-produto (K/Y): Ipea e Penn World Table",
   "tipo": "linha",
   "unidade": "razão",
-  "fonte": "Ipea (DIMAC_CFRCP, versão de 28/10/2026) e Penn World Table 11.0 (rnna/rgdpna, cálculo do painel), consulta em 28/10/2026",
+  "fonte": "Ipeadata, série DIMAC_CFRCP (relação capital-produto, metodologia Souza Júnior e Cornelio, Ipea TD 2580; versão atualizada em 03/08/2026), consulta em 28/10/2026; Penn World Table 11.0 (rnna/rgdpna, cálculo do painel), consulta em 28/10/2026",
   "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFRCP')",
   "consulta": "2026-10-28",
   "nota": "As duas fontes medem o estoque com vidas úteis e preços diferentes e divergem depois de 2010. O painel adota o Ipea como referência nacional.",

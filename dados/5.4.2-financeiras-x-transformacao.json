@@ -2,10 +2,10 @@
   "titulo": "Participação no valor adicionado: atividades financeiras e indústria de transformação (%)",
   "tipo": "linha",
   "unidade": "% do VA a preços básicos",
-  "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA 1846, valores a preços correntes: valor adicionado da atividade sobre o valor adicionado a preços básicos, soma dos trimestres, cálculo do painel, consulta em 02/11/2026",
-  "url": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
+  "fonte": "IBGE, Sistema de Contas Nacionais 2023, tabela sinótica 13.1 (participação no valor adicionado bruto a preços básicos), para 2000–2023; IBGE, Contas Nacionais Trimestrais, SIDRA 1846, valores correntes, soma dos trimestres, para 1996–1999 e 2024–2026; cálculo do painel (tools/analises/5.4_scn2023.py), consulta em 02/11/2026",
+  "url": "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab13_1.ods",
   "consulta": "2026-11-02",
-  "nota": "Preços correntes. 2026-06 = 1º semestre de 2026. Os anos de 2010 e 2013–2016 coincidem com o Sistema de Contas Nacionais: Brasil 2017 (IBGE).",
+  "nota": "Preços correntes. 2026-06 = 1º semestre de 2026. Em 2000–2023 os valores são os da tabela 13.1 do SCN anual; a participação calculada com o SIDRA 1846 coincide com ela na primeira casa decimal em todos esses anos (maior diferença: 0,02 ponto). Antes de 2000 e depois de 2023 só há as Contas Trimestrais.",
   "governos": true,
   "series": [
     {

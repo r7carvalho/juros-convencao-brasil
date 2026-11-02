@@ -2,7 +2,7 @@
   "titulo": "Capital fixo e máquinas por pessoa ocupada (índice 1995 = 100)",
   "tipo": "linha",
   "unidade": "índice 1995 = 100",
-  "fonte": "Ipea, estoque líquido de capital fixo (DIMAC_CFELCTOT e DIMAC_CFELCMQEQ, metodologia Souza Júnior e Cornelio, TD 2580); emprego: estimativa modelada da OIT, derivada do Banco Mundial (PIB PPC / SL.GDP.PCAP.EM.KD); cálculo e índice do painel, consulta em 28/10/2026",
+  "fonte": "Ipeadata, séries DIMAC_CFELCTOT e DIMAC_CFELCMQEQ (estoque líquido de capital fixo, total e máquinas e equipamentos, R$ de 2025, metodologia Souza Júnior e Cornelio, Ipea TD 2580; versão atualizada em 03/08/2026); emprego: estimativa modelada da OIT, derivada do Banco Mundial (PIB PPC / SL.GDP.PCAP.EM.KD); cálculo e índice do painel, consulta em 28/10/2026",
   "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCTOT')",
   "consulta": "2026-10-28",
   "nota": "Em reais de 2025: capital por ocupado de R$ 235,5 mil (1995), R$ 275,0 mil (2016, pico fora 2020) e R$ 251,9 mil (2025); máquinas por ocupado de R$ 36,6 mil (1995), R$ 52,8 mil (2014) e R$ 40,9 mil (2025). O salto de 2020 vem da queda do emprego na pandemia.",

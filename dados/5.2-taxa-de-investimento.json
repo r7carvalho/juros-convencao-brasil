@@ -5,7 +5,7 @@
   "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA 1846, valores a preços correntes (FBCF / PIB), soma dos trimestres, cálculo do painel, consulta em 02/11/2026",
   "url": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
   "consulta": "2026-11-02",
-  "nota": "2026-06 = primeiro semestre de 2026 (1º semestre de 2025: 17,0%). A série começa em 1996. Médias por governo: FHC (1996–2002) 18,3; Lula 1–2 (2003–2010) 18,2; Dilma (2011–2015) 20,0; Temer (2016–2018) 15,1; Bolsonaro (2019–2022) 16,9; Lula 3 (2023–2025) 16,7. Página dona da série FBCF/PIB: 5.2.",
+  "nota": "2026-06 = primeiro semestre de 2026 (1º semestre de 2025: 17,0%). A série começa em 1996. Médias por governo: FHC (1996–2002) 18,3; Lula 1–2 (2003–2010) 18,2; Dilma (2011–2015) 20,0; Temer (2016–2018) 15,1; Bolsonaro (2019–2022) 16,9; Lula 3 (2023–2025) 16,7. Página dona da série FBCF/PIB: 5.2. A série anual coincide, na primeira casa decimal, com a tabela sinótica 7 do Sistema de Contas Nacionais 2023 (1996–2023) e com a série PAN_FBKFPIBV do Ipeadata (1996–2025), consulta em 02/11/2026.",
   "governos": true,
   "series": [
     {

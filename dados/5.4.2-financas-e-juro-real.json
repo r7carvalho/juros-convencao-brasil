@@ -2,7 +2,7 @@
   "titulo": "Peso das finanças no valor adicionado e juro real, médias por período (%)",
   "tipo": "barras",
   "unidade": "%",
-  "fonte": "IBGE, SIDRA 1846 (atividades financeiras, de seguros e serviços relacionados, % do valor adicionado a preços básicos, preços correntes); BCB, SGS 4390 e 433 (juro real ex-post, Selic sobre IPCA, dezembro a dezembro); médias simples, cálculo do painel, consulta em 02/11/2026",
+  "fonte": "IBGE, Sistema de Contas Nacionais 2023, tabela sinótica 13.1, para 2000–2023, e Contas Nacionais Trimestrais, SIDRA 1846, para 1996–1999, 2024 e 2025 (atividades financeiras, de seguros e serviços relacionados, % do valor adicionado a preços básicos, preços correntes); BCB, SGS 4390 e 433 (juro real ex-post, Selic sobre IPCA, dezembro a dezembro); médias simples, cálculo do painel (tools/analises/5.4_scn2023.py), consulta em 02/11/2026",
   "url": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
   "consulta": "2026-11-02",
   "nota": "Unidades diferentes no mesmo eixo: a participação está em % do valor adicionado e o juro real em % ao ano. Correlação anual entre as duas séries: 0,77 em 1996–2025 e 0,52 em 2000–2025. 1º semestre de 2026: finanças em 8,8% do VA, maior nível desde 1998.",

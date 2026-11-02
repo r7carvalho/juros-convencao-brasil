@@ -198,7 +198,7 @@ Fiscais da LDO, IFI (RAF), FMI (GFSM 2014, Fiscal Monitor, DSA).
 - [x] 11.1 Dívida bruta e líquida: DBGG conceito BCB × FMI, DLSP, DPF, DPMFi, compromissadas, ativos (reservas, créditos ao BNDES)
 - [x] 11.2 Resultados fiscais: primário, nominal e operacional; NFSP; competência × caixa; com um orçamento de brinquedo
 - [x] 11.3 Acima e abaixo da linha: RTN do Tesouro × estatísticas do BCB, a "discrepância estatística" e por que os números divergem
-- [ ] 11.4 Armadilhas conceituais: receita de privatização e NFSP, ajuste patrimonial, juros nominais × reais, efeito câmbio na DLSP (inclui o padrão de erro documentado no insumo)
+- [x] 11.4 Armadilhas conceituais: receita de privatização e NFSP, ajuste patrimonial, juros nominais × reais, efeito câmbio na DLSP (inclui o padrão de erro documentado no insumo)
 - [ ] 11.5 Risco fiscal: o Anexo de Riscos Fiscais da LDO, passivos contingentes, precatórios, judicialização; e o "risco fiscal" no sentido do mercado (prêmio, CDS, curva)
 - [ ] 11.6 Regras fiscais: LRF, regra de ouro, teto (EC 95), arcabouço (LC 200/2023); desenho, desempenho e comparação internacional
 - [ ] 11.7 Sustentabilidade: r − g, teste de Bohn, DSA do FMI, "limite seguro" de dívida e por que ele não existe como número único

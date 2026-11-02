@@ -115,3 +115,31 @@ Lacunas e pendências:
 - A afirmação de que o BCB apura estados e municípios separadamente e estatais por esfera segue o conhecimento das tabelas das Estatísticas Fiscais, sem página do *Manual*.
 
 Divergências com outras páginas: nenhuma nova. Os números de 2025 por esfera são os mesmos da 11.2 (governo central −58,7 no BCB). A 11 e a 11.2 chamam o critério do BCB de abaixo da linha e o do Tesouro de acima da linha, como aqui.
+
+## 11.4
+
+Arquivo: `conteudo/11-financas-publicas/11.4-armadilhas-conceituais.md` (id 11.4, pai 11, ordem 4). Redação de 02/11/2026.
+
+Palavras: cerca de 3.180 de prosa fora das tabelas, das fórmulas e do "Para ler" (cerca de 3.360 com o quadro-resumo); o `tools/lint.py` conta 5.126 tokens (números, alvos de link e referências incluídos). Sem travessão, sem "não é X, é Y", sem palavra vetada. `build.py --check` sem erro; avisos só para links a 11.5, 11.7 e 11.8, ainda não escritas.
+
+Estrutura: oito armadilhas, cada uma com a afirmação formulada como "confusão comum", por que parece certa, a regra com fonte e página, um exemplo resolvido em caixa `:::exemplo` e o lugar no debate sobre juros, com links para as páginas que usam o conceito. Abre com o teste "muda a DLSP? é receita/despesa não financeira ou juro do período? se não, é ajuste" e a identidade do *Manual*, p. 39; fecha com quadro-resumo e `:::painel`. O padrão de erro da privatização (chamar de NFSP a variação da DLSP depois de abater a venda; inverter os sinais de NFSP = ΔDLSP + privatização − outros ajustes; "a privatização reduz a NFSP no curto prazo") entra com números próprios do painel (estado com primário −30, juros 90, venda de 50), sem os números nem qualquer menção à origem do erro. As divergências entre o glossário fiscal e o *Manual* (prometidas pela 11.2) estão numa `:::nota` da primeira armadilha e numa frase da armadilha do BC.
+
+Gráficos: nenhum JSON novo. Reusa `dados/11.1-ajustes-dlsp.json` (dono: 11.1) na armadilha do câmbio e `dados/11-primario-juros-nominal.json` (dono: 11) na do superávit.
+
+Fontes principais: BCB, *Manual de Estatísticas Fiscais* (maio/2019), pp. 12-15, 24, 32-40, 45-48, páginas conforme o PDF de 27/09/2026 do material de base (PDF não reaberto; sites do BCB bloqueados); glossário fiscal do BCB (versão de 27/09/2026, e a redação anterior do verbete "resultado nominal", ambas conforme o material de base); STN, MDF 15ª ed., PDF pp. 266-267; LRF arts. 29 (V e § 1º) e 44 (recorte do art. 44 conferido em resultado de busca que reproduz o texto); LC 200/2023, arts. 2º, § 1º, e 5º, § 2º; SGS 1788, 13522, 4513, 13762, 5727, 5793, 4382 (coleta de 02/11/2026); Garcia (2003), *Valor*, 28/10/2003 (esqueletos de 6,1 p.p. do PIB em ago/2003, DLSP 57,7% contra 51,6% sem eles; lido em resultado de busca); Agência Brasil 29/01/2020 (cessão onerosa: R$ 69,96 bi de bônus em dez/2019, déficit do governo central de R$ 95,1 bi em 2019); Poder360 2019 (estatais de R$ 802 bi); Poder360 2023 (LCA sobre classificar encargos de precatórios como despesa financeira); JB jun/2026 (PEC 65/2023 no Senado).
+
+Números e contas do painel:
+- Imposto inflacionário nos 12 meses até set/2026 ≈ R$ 20 bi (0,15% do PIB) = base monetária de R$ 434,9 bi (SGS 1788, set/2026) × IPCA 12m de 4,58% (SGS 13522); contra atualização monetária da dívida de 2,76% do PIB (≈ R$ 370 bi, 11.2). Aproximação (a fórmula exata usa π/(1+π) e a base média): dá ≈ R$ 19 bi.
+- Precatórios de dez/2023: R$ 92,4 bi ≈ 0,84 p.p. do PIB (3.2) sobre déficit primário consolidado de 2,28% do PIB em 2023 (SGS 5793) = 37%, "mais de um terço". A imprensa da época (nota do BCB de fev/2024) dava 2,29% e R$ 249,1 bi; a série foi revista. Usei o SGS.
+- Alívio de uma venda de 5 p.p. do PIB com r − g = 3 p.p.: 0,15 p.p. de primário por ano (conta de brinquedo).
+- Câmbio: ajustes +10,0 (2002) e −3,3 (2024) p.p. do PIB, e swaps +1,0 p.p. nos juros em 2024: números da 11.1 e da 11.2.
+- BC: lucro de R$ 270,9 bi em 2024 (cambial 242,8) e R$ 325 bi ao Tesouro em 2020: números da 10.2.2.
+
+Lacunas e pendências:
+- Bônus de outorga da Eletrobras (2022): valores divergentes nas fontes (R$ 23,2 bi no PPI, R$ 25,3 bi no TCU, R$ 26,6 bi na apresentação da companhia) e sem confirmação do registro no primário; ficou fora. O exemplo de concessão usado é a cessão onerosa de 2019.
+- Total de receitas de privatização dos anos 1990 (US$ 105 bi circula sem fonte localizada; o BNDES dá US$ 63,7 bi para o PND federal com outro recorte e US$ 34,7 bi para os estados em 1996–2002): não entrou. Sem série recente da linha "privatizações" dos fatores condicionantes da DLSP.
+- Que o BCB registra o pagamento de precatórios como despesa primária vem da prática (dez/2023 no SGS 5793 e cobertura de imprensa) e de declaração do então presidente do BC relatada sem data clara; a classificação final dos encargos em 2023 (financeira ou primária) não foi confirmada e a página não a afirma.
+- A afirmação de que o programa de 2019 era "defendido também como meio de reduzir a dívida" se apoia em coberturas de imprensa (Poder360 e outras) lidas só em resultado de busca.
+- O verbete explicativo que descreve o primário como "economia para pagar juros" não foi citado com fonte; a página fala em "linguagem corrente".
+
+Divergências com outras páginas: nenhuma nova. Déficit primário de 2023: a página usa 2,28% (SGS 5793, igual ao JSON da página 11); a cobertura de fev/2024 dizia 2,29%.

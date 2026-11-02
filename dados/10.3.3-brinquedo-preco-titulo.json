@@ -1,0 +1,39 @@
+{
+ "titulo": "Exemplo de brinquedo: preço de um título de dez anos sem cupom (valor de face 100) conforme a taxa exigida",
+ "tipo": "barras",
+ "unidade": "preço (face = 100)",
+ "fonte": "Cálculo do painel, P = 100/(1+y)^10",
+ "consulta": "2026-11-02",
+ "nota": "Exemplo ilustrativo. O banco central que promete comprar a 0% paga 100 por um título que, a 1,5%, o mercado avaliaria em 86,2.",
+ "series": [
+  {
+   "nome": "Preço",
+   "pontos": [
+    {
+     "t": "0,0%",
+     "v": 100.0
+    },
+    {
+     "t": "0,5%",
+     "v": 95.13
+    },
+    {
+     "t": "1,0%",
+     "v": 90.53
+    },
+    {
+     "t": "1,5%",
+     "v": 86.17
+    },
+    {
+     "t": "2,0%",
+     "v": 82.03
+    },
+    {
+     "t": "3,0%",
+     "v": 74.41
+    }
+   ]
+  }
+ ]
+}
