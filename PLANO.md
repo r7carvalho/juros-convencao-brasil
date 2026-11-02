@@ -168,7 +168,7 @@ críticas a ela.
 - [x] 10.0 Página macro: mapa de instrumentos (convencionais × não convencionais), canais e regimes; o que cada um faz no balanço do banco central, com um balanço de brinquedo
 - [x] 10.1a Regimes monetários: metas monetárias, câmbio fixo, metas de inflação; o caso brasileiro de 1999, a meta contínua de 2025, o mandato do BC na LC 179/2021
 - [x] 10.1b Por que meta de 3%: a literatura sobre o nível ótimo da meta (Blanchard et al. 2010 e a proposta de 4%, Ball, críticas), metas de países emergentes comparadas
-- [ ] 10.2a Taxa básica e corredor: Selic meta × Selic over, operações compromissadas, depósitos voluntários remunerados (Lei 14.185/2021), como o BC faz a taxa "acontecer" no mercado
+- [x] 10.2a Taxa básica e corredor: Selic meta × Selic over, operações compromissadas, depósitos voluntários remunerados (Lei 14.185/2021), como o BC faz a taxa "acontecer" no mercado
 - [ ] 10.2b Operações de mercado aberto: definitivas × compromissadas; por que o BC não emite título próprio desde a LRF (2002); a carteira do BC e a DBGG
 - [ ] 10.2c Redesconto e assistência de liquidez: emprestador de última instância (Bagehot), modalidades no Brasil, uso em crises (2008, 2020)
 - [ ] 10.2d Recolhimento compulsório: história no Brasil, uso anticíclico e macroprudencial (2008, 2020), comparação internacional

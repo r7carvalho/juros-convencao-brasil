@@ -107,3 +107,43 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 - Falta a estimativa do próprio BC de razão de sacrifício (Relatório de Inflação/RPM); se o site do BCB abrir, procurar boxes de "custo da desinflação" e "redução das metas" (2017).
 - O cartão pedia CGW "ótimo entre 1,5% e 2%"; a fonte encontrada diz "abaixo de 2%", e o texto ficou com isso.
 - A página está no teto de 3.500 palavras pela contagem do build; para crescer, mover a tabela de metas para JSON-tabela ou cortar URLs da tabela.
+
+## 10.2a
+
+### Páginas entregues (02/11/2026)
+
+- 10.2 Instrumentos convencionais (página-ponte), 1ª versão, 1.001 palavras pela contagem do build. Exemplo de brinquedo (caixa-d'água com seis registros), um parágrafo por neta 10.2.1 a 10.2.6, caixa "o painel lê". As netas 10.2.2 a 10.2.6 ainda não existem (AVISO do build).
+- 10.2.1 Taxa básica e corredor, 1ª versão, 3.493 palavras pela contagem do build (no teto; a prosa sem "Para ler" e URLs fica perto de 3.100). Gráficos: `dados/10.2.1-meta-menos-over.json` (meta menos over, média mensal das diferenças diárias, mar/1999 a out/2026), `dados/10.2.1-compromissadas-depositos.json` (compromissadas e depósitos voluntários, % do PIB, dezembros 2006–2025 e ago/2026), `dados/10.2.1-depositos-voluntarios.json` (saldo mensal em R$ bi, out/2021 a set/2026). Exemplo de brinquedo dos dois bancos, fórmula de anualização com exemplo resolvido, quadro A favor/Contra (subsídio a bancos?), caixa "o painel lê".
+
+### Fontes principais
+
+- Dados: `dados/brutos/` SGS 432, 11, 12, 4189, 3546, 4382 e 28964 (consulta em 02/11/2026); BIS, taxas de política, Brasil, fim de mês (para a meta de 2000–2009); tabela Divggnp.xlsx do BCB lida pela Frente J (compromissadas e conta única, consulta em 28/10/2026).
+- Recortes literais: definição da Selic over (BCB, Plano diretor de acompanhamento da taxa Selic, via busca); ementa da Lei 14.185/2021; declaração do FOMC de 30/01/2019 (tradução do painel; texto conferido em citações do NY Fed e do próprio Fed); título do texto de Fattorelli e da NT Ipea Dides 05/2022.
+- Fed: implementation note de 16/09/2026 (intervalo 3,75%–4,00%, IORB 3,90%, ON RRP 3,75%, redesconto e SRF 4,00%) e de 28/10/2026 (IORB mantida), por busca. BCE: comunicado de 13/03/2024 (DFR como taxa diretora, spread MRO–DFR de 15 pb desde 18/09/2024). BoE: Quarterly Bulletin 2013 (reservas remuneradas à Bank Rate desde mar/2009) e discussion paper de 2024 (repo-led).
+- Literatura: Borio (1997, BIS Economic Papers 47), Bindseil (2014, OUP), Keister, Martin e McAndrews (2008, FRBNY EPR 14(2)), Borio (2023, BIS WP 1100), Silva Jr. (2012, BCB TD 278: over abaixo da meta em 100% dos dias de 2007 a 2010), Pellegrini (2017, IFI EE 3: reservas desde 2007 e resgate líquido do Tesouro explicam as compromissadas), Barbosa e Terra (2025, *Economia e Sociedade* 34(2): juros foram o fator principal do crescimento de 2002 a 2020). Todas parafraseadas a partir de resumos e buscas; nenhum PDF aberto (WebFetch não resolve bcb.gov.br, senado.leg.br, ipea.gov.br nem scielo.br).
+- Debate: Auditoria Cidadã (Fattorelli), Schwartsman (via clipping da Abras), Goldenstein (via Nogueira da Costa, 2023), Agência Brasil (ago/2021) e Poder360 (fev/2022) para a regulamentação e o acesso ampliado; Oreiro (2026, Substack) sobre a proposta de Lara Resende.
+
+### Contas do painel (conferir se o coordenador quiser)
+
+- Compromissadas de ago/2026 em reais: 10,28% × PIB de 12 meses de R$ 13,34 tri (SGS 4382) ≈ R$ 1,37 tri.
+- Depósitos voluntários: R$ 165,7 bi em ago/2026 = 1,24% do PIB; R$ 192,2 bi em set/2026 = 1,43%.
+- Custo bruto anual das compromissadas: estoque médio ~9% do PIB (7,8% em dez/2025, 10,3% em ago/2026) × over de 14,6% (SGS 4189, 12 meses até ago/2026) ≈ 1,3% do PIB, ~R$ 170 bi; depósitos ≈ R$ 23 bi. Ordem de grandeza, sem descontar o que o BC recebe.
+- "Perto de 15% da conta de juros": 1,3 / 8,9 (juros nominais de 12 meses até ago/2026, SGS 5727 e 5793, via página 10).
+- Meta menos over: a cópia de `sgs-432.json` não traz 2000–2009 (a API limita a 10 anos por consulta); usei a meta de fim de mês do BIS só nos meses em que ela não mudou. Desde 2014 a média mensal fica entre 0,098 e 0,100 ponto (154 meses).
+
+### [a conferir]
+
+- Por que a distância over–meta se fixou em exatamente 0,10 ponto desde 2014: não achei explicação oficial; a hipótese dos fundos que emprestam abaixo da meta está marcada como hipótese.
+- Lei 13.820/2019: o parágrafo sobre resultado do BC foi cortado por espaço; ficaria bem na neta 10.2.2 com os valores dos repasses ao Tesouro de 2019 a 2025.
+- Custo de carregamento das reservas (compromissadas à Selic × rendimento das reservas): falta fonte primária (notas de política fiscal do BCB).
+- Tratamento estatístico dos depósitos voluntários: o texto diz que ficam fora da DBGG no conceito do BCB (deduzido do desenho e dito por Agência Câmara, Ipea e Insper); conferir na nota metodológica das Estatísticas Fiscais.
+- Resolução BCB 129/2021: data (19/08/2021 em duas fontes, 14/07/2021 num ofício do BCB ao Senado que parece confundir com a lei) e modalidades (a prazo, até 12 meses; Poder360 fala também em depósitos de um dia). Não li a norma.
+- Borio (2023): a leitura "defende sair do piso pelo custo de juros de um balanço grande" é do título e da memória do texto; conferir o resumo.
+- Bindseil "dirigiu a área de operações de mercado do BCE": conferir cargo e período.
+- SGS 27815 (no arquivo bruto como "base monetária", valores de R$ 16 tri em 2026) parece ser a base monetária ampliada, não a restrita; não usei. A base restrita (SGS 1788) segue faltando para o balanço real da página 10.
+- Proposta de Lara Resende (nov/2026): só imprensa e agregadores (faixa de 3% a 5,5%, trajetória até 7% ou 7,5% em 12 meses, números divergentes); o texto cita a proposta sem números.
+
+### Sugestões
+
+- 10.2.2 deve retomar o resultado do BC (Lei 13.820/2019), a emissão de títulos do Tesouro para a carteira do BC e o balanço real completo.
+- Se o site do BCB abrir: ler o PDA-TS e o Relatório de Administração do Selic para a explicação oficial dos 0,10 ponto e o volume das operações de nivelamento.
