@@ -225,7 +225,11 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.1a Influenciador: Investidor Sardinha (Raul Sena)
 - [x] 12.1b Influenciador: Primo Rico (Thiago Nigro)
 - [x] 12.1c Influenciador: Bruno Perini
-- [ ] 12.1d Outros influenciadores de finanças com alcance comparável que tratem de juros, dívida e "Brasil quebrado" (levantar e abrir uma página por pessoa, dividindo o item)
+- [x] 12.1d1 Influenciador: Economista Sincero (Charles Mendlowicz)
+- [ ] 12.1d2 Influenciador: Ricardo Amorim
+- [ ] 12.1d3 Influenciador: Nathalia Arcuri (Me Poupe!)
+- [ ] 12.1d4 Influenciador: Tiago Reis (Suno)
+- [ ] 12.1d5 Influenciador: Eduardo Moreira (ICL)
 - [ ] 12.2a Mídia e academia: Samuel Pessôa
 - [ ] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
 - [ ] 12.2c Outros nomes frequentes da imprensa econômica (por exemplo Armínio Fraga, Alexandre Schwartsman, Zeina Latif, Mansueto Almeida, Felipe Salto): levantar e abrir uma página por pessoa
