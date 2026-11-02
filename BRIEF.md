@@ -1,5 +1,9 @@
 # Briefing do coordenador: painel "Juros, convenção e dívida no Brasil"
 
+> **Atualização de 02/11/2026: a execução segue `PLANO.md`, item a item, um por vez, com commit a
+> cada item.** Isso supera a seção "Organização do trabalho" abaixo no que diz respeito a abrir
+> todas as macroáreas em paralelo. Conteúdo, fontes e estilo continuam como estão aqui.
+
 Você é o **coordenador** de uma pesquisa extensa que vira um site estático publicado no GitHub Pages
 deste repositório. Leia, nesta ordem, antes de qualquer coisa: este arquivo, `CONTEXTO.md`,
 `TOPOLOGIA.md`, `ESTILO.md` e os insumos em `insumos/`. Data de referência: novembro de 2026. Os
