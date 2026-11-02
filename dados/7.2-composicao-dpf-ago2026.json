@@ -1,0 +1,17 @@
+{
+ "titulo": "Composição da Dívida Pública Federal por indexador, agosto de 2026 (% do estoque)",
+ "tipo": "barrash",
+ "unidade": "% do estoque",
+ "fonte": "Tesouro Nacional, Relatório Mensal da Dívida de agosto de 2026 (publicado em 28/09/2026), segundo Agência Brasil e Consultoria de Orçamento da Câmara (Raio X da Dívida, ago/2026)",
+ "url": "https://www.tesourotransparente.gov.br/publicacoes/relatorio-mensal-da-divida-rmd/2026/8",
+ "consulta": "2026-11-02",
+ "nota": "Estoque da DPF de R$ 9,29 trilhões. A soma dá 100,01% por arredondamento. Faixas do PAF 2026 revisado (26/08/2026): taxa flutuante 49% a 53%, prefixados 20% a 24%, índices de preços 21% a 25%, câmbio 3% a 7%.",
+ "series": [
+  {"nome": "Ago/2026", "pontos": [
+   {"t": "Taxa flutuante (LFT)", "v": 52.74},
+   {"t": "Índices de preços (NTN-B)", "v": 23.22},
+   {"t": "Prefixados (LTN, NTN-F)", "v": 20.31},
+   {"t": "Câmbio", "v": 3.74}
+  ]}
+ ]
+}

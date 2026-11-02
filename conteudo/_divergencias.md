@@ -114,3 +114,13 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 - Compulsórios liberados em 2008: R$ 99,8 bi efetivamente liberados entre 24/09/2008 e 19/01/2009 (3,2% do PIB; BCB, Relatório Anual 2008, cap. 2). R$ 116 bi (Mesquita e Torós 2010, p. 13) é o que o BC deixou de recolher em ago/2009 frente às regras de antes; R$ 82 bi (apresentação do BCB de 2020) vem sem método. 10.2.3 deve trazer os R$ 99,8 bi.
 - Spread médio (SGS 20783): 21,6 p.p. em set/2026; 21,2 em ago/2026. Dizer o mês.
 - DBGG FMI − BCB: 11,7 p.p. em ago/2026; de 5,3 (2014) a 14,7 (2025).
+
+## Convenção única do juro real ex-ante (decisão do coordenador, 02/11/2026)
+
+Juro real ex-ante do painel = (1 + Selic over anualizada, SGS 1178, último dia útil do mês) / (1 + mediana Focus do IPCA 12 meses à frente, série não suavizada, último dado do mês) − 1. Para um dia específico (ex.: 23/10/2026), mesmo cálculo no dia. Valores de referência: set/2026 8,39%; 23/10/2026 8,73%. A versão suavizada (8,65% em set/2026) e a versão com a Selic meta (≈8,8%) só aparecem como comparação, com o método dito. Todas as páginas que citam juro real ex-ante devem usar esta régua ou declarar a diferença.
+
+## Revisão da área 9 (02/11/2026)
+
+- "O juro real alto atravessou todos os regimes" é falso como nível: ex-post de 1,6% em 2019, −1,7% em 2020 e −5,1% em 2021. O que persistiu foi a distância para os pares na maior parte do tempo (não em 2018–2021).
+- Dólar em 2002: +70,5% (não 71,5%).
+- NFSP nominal em 12 meses até set/2026: 9,51% do PIB.

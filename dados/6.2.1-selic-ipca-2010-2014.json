@@ -2,9 +2,9 @@
  "titulo": "Selic meta e IPCA em 12 meses, 2010–2014 (% a.a.)",
  "tipo": "linha",
  "unidade": "% a.a.",
- "fonte": "BCB, histórico das taxas de juros do Copom; IBGE, IPCA acumulado em 12 meses (SIDRA, tabela 1737)",
+ "fonte": "BCB, SGS 432 (Selic meta) e histórico das taxas de juros do Copom; IBGE, IPCA acumulado em 12 meses (via BCB, SGS 13522); consulta em 02/11/2026",
  "url": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros",
- "nota": "Selic: nível após cada decisão, no mês da decisão. IPCA: meses selecionados (picos, vales e dezembros).",
+ "nota": "Selic: nível após cada decisão, marcado no mês da decisão (as taxas de ago/2011 e nov/2011 vigoraram a partir de 01/09 e 01/12). IPCA: meses selecionados (picos, vales e dezembros).",
  "governos": true,
  "ref": [
   {

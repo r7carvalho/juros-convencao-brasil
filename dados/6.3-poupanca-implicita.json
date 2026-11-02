@@ -2,7 +2,7 @@
  "titulo": "Investimento, saldo externo e poupança doméstica implícita (% do PIB)",
  "tipo": "linha",
  "unidade": "% do PIB",
- "fonte": "IBGE, Contas Nacionais Trimestrais (FBCF/PIB, SIDRA 1846); Banco Mundial e BCB (saldo em transações correntes); reunidos em insumos/frente-L.json; poupança implícita = FBCF + saldo em transações correntes, cálculo do painel",
+ "fonte": "IBGE, Contas Nacionais Trimestrais (FBCF/PIB, SIDRA 1846); Banco Mundial, saldo em transações correntes em % do PIB (BN.CAB.XOKA.GD.ZS, a partir do BCB); poupança implícita = FBCF + saldo em transações correntes, cálculo do painel",
  "url": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
  "nota": "A poupança implícita ignora a variação de estoques e por isso difere da taxa de poupança oficial do IBGE (14,1% em 2024 e 14,4% em 2025, contra 13,9% e 13,9% aqui).",
  "governos": true,

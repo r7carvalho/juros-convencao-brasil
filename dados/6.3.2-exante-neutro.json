@@ -2,9 +2,9 @@
  "titulo": "Juro real ex-ante e o juro neutro de 5% do BC (% a.a.)",
  "tipo": "linha",
  "unidade": "% a.a.",
- "fonte": "BCB, Selic over (SGS 4189) e mediana Focus do IPCA 12 meses à frente; cálculo da Frente K (insumos/frente-K.json). Juro neutro: Relatório de Política Monetária do BCB (dez/2025 e jun/2026)",
+ "fonte": "BCB, Selic over (SGS 4189) e mediana suavizada do Focus para o IPCA 12 meses à frente (API Olinda), consulta em 02/11/2026; cálculo do painel. Juro neutro: Relatório de Política Monetária do BCB (dez/2025 e jun/2026)",
  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json",
- "nota": "Último dia de cada ano; 2026 em set e em 23/10. A linha de 5% é a estimativa atual do BC, não a de cada época: o BC trabalhava com 3% em 2021 e 4,5% até meados de 2024.",
+ "nota": "Último dia de cada ano; 2026 em set e em 23/10. A linha de 5% é a estimativa atual do BC, não a de cada época: o BC trabalhava com 3% em 2021 e 4,5% até meados de 2024. Método diferente do gráfico da 2.3 (que usa a Selic do último dia útil, SGS 1178): dez/2012 dá 1,55 aqui e 1,68 lá; dez/2019, 0,83 e 0,65.",
  "governos": true,
  "ref": [
   {

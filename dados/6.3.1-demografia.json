@@ -2,7 +2,7 @@
  "titulo": "Demografia: população de 15 a 64 anos e razão de dependência, 1990–2025",
  "tipo": "linha",
  "unidade": "% da população / dependentes por 100",
- "fonte": "Banco Mundial (ONU, World Population Prospects): SP.POP.1564.TO.ZS e SP.POP.DPND; reunidos em insumos/frente-L.json",
+ "fonte": "ONU, World Population Prospects, via Banco Mundial (SP.POP.1564.TO.ZS e SP.POP.DPND); 2024 e 2025 são estimativas",
  "url": "https://api.worldbank.org/v2/country/BRA/indicator/SP.POP.DPND?format=json",
  "nota": "A participação da população de 15 a 64 anos atingiu o pico em 2017 (69,75%); a razão de dependência atingiu o mínimo no mesmo ano (43,4).",
  "series": [

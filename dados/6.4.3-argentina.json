@@ -4,7 +4,7 @@
  "unidade": "%",
  "fonte": "INDEC, IPC nacional; 2023–2025 confirmados em Buenos Aires Herald (13/01/2026) e Voz (14/01/2026)",
  "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31",
- "nota": "2017–2022 segundo a série do INDEC, a conferir.",
+ "nota": "Variação de dezembro a dezembro. Valores dos comunicados do INDEC de janeiro de cada ano; 2023–2025 confirmados também em Buenos Aires Herald (13/01/2026) e Voz (14/01/2026).",
  "series": [
   {
    "nome": "IPC, dez/dez",

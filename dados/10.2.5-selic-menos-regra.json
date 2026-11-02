@@ -1,0 +1,219 @@
+{
+ "titulo": "Selic menos a regra de Taylor, média do ano, r* = 5% (p.p.)",
+ "tipo": "barras",
+ "unidade": "p.p.",
+ "fonte": "BCB, SGS 432 (Selic meta), 13522 (IPCA 12 meses) e 24364 (IBC-Br dessazonalizado); BCB, Focus, API Olinda (IPCA 12 meses à frente); metas do CMN; cálculo do painel (tools/analises/10.2.5_taylor.py)",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json",
+ "consulta": "2026-11-02",
+ "nota": "Regra de Taylor (1993): i = r* + π + 0,5(π − meta) + 0,5·hiato. Hiato: aproximação do painel (filtro HP, λ = 129.600, sobre o log do IBC-Br dessazonalizado, jan/2003 a ago/2026, média móvel de 3 meses); não é o hiato do BC, tem viés de fim de amostra e a tendência é distorcida pelo tombo de 2020. Meta: centro do CMN ponderado pelos meses da janela de 12 meses (2003 com a meta oficial de 4%, não a 'ajustada' de 8,5%). Selic: meta vigente no fim do mês. Último mês: 2026-08. Versão IPCA: inflação dos 12 meses passados. Versão Focus: mediana da inflação esperada para os 12 meses seguintes (série suavizada) e meta dos 12 meses seguintes. Com r* = 4,5% todas as barras sobem 0,5 p.p. Valor positivo: Selic acima da regra. 2026 vai de janeiro a agosto.",
+ "ref": [
+  {
+   "v": 0,
+   "rotulo": "Selic = regra"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Versão IPCA 12m",
+   "pontos": [
+    {
+     "t": "2003",
+     "v": -1.97
+    },
+    {
+     "t": "2004",
+     "v": 3.72
+    },
+    {
+     "t": "2005",
+     "v": 6.5
+    },
+    {
+     "t": "2006",
+     "v": 6.4
+    },
+    {
+     "t": "2007",
+     "v": 3.23
+    },
+    {
+     "t": "2008",
+     "v": 0.47
+    },
+    {
+     "t": "2009",
+     "v": 1.98
+    },
+    {
+     "t": "2010",
+     "v": -0.64
+    },
+    {
+     "t": "2011",
+     "v": -1.56
+    },
+    {
+     "t": "2012",
+     "v": -2.53
+    },
+    {
+     "t": "2013",
+     "v": -4.73
+    },
+    {
+     "t": "2014",
+     "v": -2.56
+    },
+    {
+     "t": "2015",
+     "v": -2.67
+    },
+    {
+     "t": "2016",
+     "v": -0.18
+    },
+    {
+     "t": "2017",
+     "v": 2.7
+    },
+    {
+     "t": "2018",
+     "v": -1.97
+    },
+    {
+     "t": "2019",
+     "v": -3.22
+    },
+    {
+     "t": "2020",
+     "v": -3.35
+    },
+    {
+     "t": "2021",
+     "v": -10.54
+    },
+    {
+     "t": "2022",
+     "v": -4.71
+    },
+    {
+     "t": "2023",
+     "v": 2.91
+    },
+    {
+     "t": "2024",
+     "v": 0.53
+    },
+    {
+     "t": "2025",
+     "v": 3.25
+    },
+    {
+     "t": "2026",
+     "v": 4.61
+    }
+   ]
+  },
+  {
+   "nome": "Versão Focus 12m",
+   "pontos": [
+    {
+     "t": "2003",
+     "v": 9.28
+    },
+    {
+     "t": "2004",
+     "v": 4.82
+    },
+    {
+     "t": "2005",
+     "v": 9.01
+    },
+    {
+     "t": "2006",
+     "v": 6.28
+    },
+    {
+     "t": "2007",
+     "v": 3.04
+    },
+    {
+     "t": "2008",
+     "v": 1.62
+    },
+    {
+     "t": "2009",
+     "v": 2.92
+    },
+    {
+     "t": "2010",
+     "v": -0.45
+    },
+    {
+     "t": "2011",
+     "v": 0.29
+    },
+    {
+     "t": "2012",
+     "v": -2.62
+    },
+    {
+     "t": "2013",
+     "v": -4.16
+    },
+    {
+     "t": "2014",
+     "v": -2.35
+    },
+    {
+     "t": "2015",
+     "v": 1.48
+    },
+    {
+     "t": "2016",
+     "v": 4.39
+    },
+    {
+     "t": "2017",
+     "v": 1.37
+    },
+    {
+     "t": "2018",
+     "v": -2.47
+    },
+    {
+     "t": "2019",
+     "v": -3.3
+    },
+    {
+     "t": "2020",
+     "v": -3.6
+    },
+    {
+     "t": "2021",
+     "v": -4.87
+    },
+    {
+     "t": "2022",
+     "v": 1.04
+    },
+    {
+     "t": "2023",
+     "v": 2.86
+    },
+    {
+     "t": "2024",
+     "v": 1.2
+    },
+    {
+     "t": "2025",
+     "v": 3.77
+    },
+    {
+     "t": "2026",
+     "v": 4.96
+    }
+   ]
+  }
+ ]
+}

@@ -2,7 +2,7 @@
  "titulo": "IPCA em 12 meses e meta depois da autonomia formal do BC (LC 179/2021) (%)",
  "tipo": "linha",
  "unidade": "%",
- "fonte": "IBGE, IPCA acumulado em 12 meses (SIDRA, tabela 1737); BCB, histórico de metas; reunidos em insumos/frente-C.json e insumos/frente-K.json",
+ "fonte": "IBGE, IPCA acumulado em 12 meses (via BCB, SGS 13522, consulta em 02/11/2026); BCB, histórico das metas para a inflação",
  "url": "https://www.bcb.gov.br/controleinflacao/historicometas",
  "nota": "Pontos selecionados. Teto da meta: 5,25% (2021), 5,0% (2022), 4,75% (2023), 4,5% (2024 em diante).",
  "governos": true,

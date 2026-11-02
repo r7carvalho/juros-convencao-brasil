@@ -4,6 +4,7 @@ titulo: Contrapontos ortodoxos
 pai: 0
 ordem: 6
 resumo: Esta área apresenta o melhor argumento ortodoxo para o juro alto brasileiro, com dados do Brasil e com o mesmo rigor da tese que o painel testa: prêmio fiscal e dominância parcial, eficácia da política monetária, poupança baixa e juro neutro alto, autonomia e credibilidade do BC, e a crítica direta à tese da convenção. Depois de cada argumento, diz onde ele é mais fraco. A conclusão da área é que a ortodoxia explica bem as variações do juro e o risco de cortá-lo sem fundamento, e explica mal por que o Brasil pagou mais que os pares também nos seus melhores anos fiscais.
+estado: revisada
 ---
 
 O painel testa a hipótese de que o juro brasileiro virou uma convenção que perdeu o vínculo com os fundamentos. Um teste honesto exige que a explicação concorrente apareça no seu melhor, com os dados que a sustentam. Cada página desta área apresenta um argumento ortodoxo como um economista ortodoxo competente o apresentaria a um leitor cético e termina com o ponto em que ele é mais fraco.

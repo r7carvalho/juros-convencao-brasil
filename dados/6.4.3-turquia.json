@@ -2,9 +2,9 @@
  "titulo": "Turquia: taxa básica e inflação ao consumidor em 12 meses (%)",
  "tipo": "linha",
  "unidade": "%",
- "fonte": "Banco Central da República da Turquia (TCMB), taxa do repo de uma semana; TurkStat, CPI; nov/2025 segundo cobertura de imprensa (Türkiye Today, Trading Economics)",
- "url": "https://data.tuik.gov.tr",
- "nota": "Meses selecionados, fim do mês. Pico da inflação em out/2022 (85,51%); taxa levada a 50% em mar/2024. Valores de 2025 a conferir na TurkStat.",
+ "fonte": "BIS, taxas de política monetária (WS_CBPOL) e inflação ao consumidor (WS_LONG_CPI), a partir de TCMB (taxa do repo de uma semana) e TurkStat (CPI); consulta em 02/11/2026",
+ "url": "https://data.bis.org/",
+ "nota": "Meses selecionados, fim do mês. Pico da inflação em out/2022 (85,51% pela TurkStat; 85,46% no cálculo do BIS). Em jun/2023 a inflação caiu a 38,2% por efeito de base, com a taxa em 8,5% até 22/06 (15% no fim do mês). Taxa levada a 50% em mar/2024.",
  "series": [
   {
    "nome": "Taxa básica",
@@ -34,6 +34,10 @@
      "v": 8.5
     },
     {
+     "t": "2023-06",
+     "v": 15.0
+    },
+    {
      "t": "2023-12",
      "v": 42.5
     },
@@ -48,6 +52,14 @@
     {
      "t": "2025-11",
      "v": 39.5
+    },
+    {
+     "t": "2025-12",
+     "v": 38.0
+    },
+    {
+     "t": "2026-09",
+     "v": 37.0
     }
    ]
   },
@@ -79,6 +91,10 @@
      "v": 39.59
     },
     {
+     "t": "2023-06",
+     "v": 38.22
+    },
+    {
      "t": "2023-12",
      "v": 64.77
     },
@@ -92,7 +108,15 @@
     },
     {
      "t": "2025-11",
-     "v": 31.1
+     "v": 31.07
+    },
+    {
+     "t": "2025-12",
+     "v": 30.9
+    },
+    {
+     "t": "2026-09",
+     "v": 29.73
     }
    ]
   }
