@@ -1,0 +1,103 @@
+---
+id: 8
+titulo: "Conclusão: a direção"
+pai: 0
+ordem: 11
+resumo: O juro real brasileiro é alto contra os pares e contra o neutro do próprio Banco Central, e o painel conclui que ele é alto por uma soma de causas. O prêmio fiscal e político move o juro e piorou desde 2023; a estrutura da dívida e do crédito (LFT, CDI, direcionado) reduz a potência da Selic e encarece cada ponto; e sobra um resíduo de 2 a 4,5 pontos que nenhuma explicação medida fecha, no qual a convenção é candidata plausível sem teste que a isole. A tese em teste acerta nos fatos (distância para os pares, juro como motor da dívida, renda dos credores, picos de inflação vindos de choques) e erra nas formas absolutas (Selic sem eficácia, inflação sem demanda, Focus inflado). Confiança alta nos fatos, moderada na composição, baixa no peso da convenção.
+estado: 1ª versão
+---
+
+:::nota
+Esta conclusão será revista quando os blocos de política monetária, finanças públicas e vozes do debate estiverem completos. Ela se apoia nas áreas 1 a 7 e nas páginas do bloco de política monetária publicadas até 02/11/2026, e cada afirmação remete à página onde está a evidência.
+:::
+
+O painel começou com uma pergunta: por que o juro real brasileiro está entre os mais altos do mundo? Em 23/10/2026, a Selic over descontada da inflação esperada pelo Focus para os doze meses seguintes dava 8,73% ao ano ([método](pagina:9.1)). No ranking de 16/09/2026, o Brasil era o primeiro de 40 países, com 8,45% contra média de 1,62% ([2.1](pagina:2.1)). Pela régua do BIS, o país pagou em média 6,6 pontos a mais que México, Chile, Colômbia, Índia e África do Sul em 2000–2009, 3,1 pontos em 2010–2019 e 5,5 pontos em 2023–2026 ([2.1](pagina:2.1), [6](pagina:6)).
+
+Duas respostas disputam o debate brasileiro. A que parece consensual diz que o problema é fiscal: o país deve muito, gasta mais do que arrecada sem os juros, e o credor cobra prêmio para carregar esse risco ([6.1](pagina:6.1)). A hipótese que o painel testa diz que o patamar virou convenção social, que essa convenção tirou eficácia da política monetária e indexou as decisões de investimento, que a dívida cresce pelo juro e alimenta o próprio juro, que quem lucra com ele o sustenta, e que o alarme com a inflação não tem base em demanda nem em oferta, porque a inflação veio sobretudo de choques externos. A [matriz](pagina:8.1) dividiu as duas leituras em 24 proposições testáveis e classificou cada uma pela direção e pela força da evidência. A direção que segue sai dessa tabela.
+
+:::exemplo Como se lê uma distância de seis pontos
+Um país paga juro real de 9%, e os vizinhos pagam 3%. A distância é de 6 pontos. Um modelo que considera dívida, déficit, poupança e inflação passada diz que esse país, com esses fundamentos, deveria pagar 7%. Os 4 pontos entre 3% e 7% estão explicados pelo modelo. Os 2 pontos entre 7% e 9% são o resíduo: tudo o que o modelo deixou de fora, seja convenção, crédito subsidiado, indexação, risco institucional ou erro do próprio modelo. Trocar o modelo muda o tamanho do resíduo. Uma parte grande do debate brasileiro gira em torno desses 2 pontos e da forma de dividir os outros 4.
+:::
+
+No Brasil, o resíduo tem tamanho estimado. No modelo do FMI que controla fundamentos fiscais, poupança e histórico, sobram cerca de 2 pontos (Segura-Ubiergo, 2012). Sem controle algum, a distância bruta para cinco emergentes foi de 4,5 pontos em média em 2006–2013, anos de superávit primário médio de 2,6% do PIB e de dívida em queda ([2.2](pagina:2.2), [2.5](pagina:2.5)).
+
+## O que o painel mostrou
+
+A teoria ([1](pagina:1)) terminou empatada. A convenção de Keynes, Dequech e Orléan dá um mecanismo plausível para um juro que se mantém alto além do que os fundamentos pedem, e a dominância fiscal de Sargent e Wallace, Blanchard e Calvo dá um mecanismo plausível para um juro que precisa ser alto porque a dívida assusta. As duas podem conviver: um prêmio fiscal real pode ter iniciado um patamar que depois se manteve por hábito ([1.4](pagina:1.4), [1.5](pagina:1.5)). A teoria também ajustou três afirmações da tese: a emissão não causa inflação quando acomoda o crédito, mas causa quando financia déficit numa economia sem folga ([1.1](pagina:1.1)); a inflação tem componentes distintos, e o Real mostrou que a demanda não pôde ser ignorada ([1.2](pagina:1.2)); e o "longo prazo que nunca chega" vale para produto e investimento, por histerese, e não para moeda e preços ([1.6](pagina:1.6)).
+
+A área de juros ([2](pagina:2)) mediu o fato e mostrou que ele tem exceção: a distância para os pares quase sumiu em 2018–2021. O prêmio fiscal move o juro de mercado em cada crise, e explica mal o patamar. A transmissão funciona com potência reduzida pelo crédito direcionado (43,9% do crédito em ago/2026) e pela LFT (52,74% da dívida federal) ([2.4](pagina:2.4)). E o Focus, acusado de inflar expectativas, subestimou a inflação em 1,0 ponto na média de 2002–2025 ([2.4.1](pagina:2.4.1)).
+
+A área da dívida ([3](pagina:3)) mostrou que, pela contabilidade do Banco Central, 90% da alta da dívida bruta de dezembro de 2022 a agosto de 2026 veio dos juros apropriados menos o efeito do crescimento, e que em vinte anos o primário acumulado foi quase neutro (−1,0 ponto do PIB) enquanto a bola de neve dos juros somou 22,8 pontos ([3.2](pagina:3.2)). O que distingue o Brasil é o custo: 7,3% do PIB em juros líquidos em 2025, o maior da amostra do FMI, com dívida menor que a de vários países ricos ([3.4](pagina:3.4)). Quem recebe são sobretudo bancos, fundos e previdência, com 76% da dívida mobiliária ([3.3](pagina:3.3)).
+
+A área da inflação ([4](pagina:4)) achou choques nos três maiores picos desde 2002 (câmbio em 2002–2003, administrados e câmbio em 2015, inflação importada em 2021) e achou demanda nos anos de desemprego baixo, 2011–2014 e 2024–2026, com serviços de 8,3% a 9,4% ao ano no primeiro período e de 6,0% em 2025 ([4.5](pagina:4.5)). A palavra "externos" precisa de ressalva: o choque de 2015 foi doméstico, e o câmbio brasileiro carrega prêmio de risco local.
+
+A área do investimento ([5](pagina:5)) testou a frase "o juro real há anos supera o retorno do capital". Ela vale para 1995–1999 e para 2003, 2005 e 2006, é falsa para 2007–2019 e quase vale em 2025–2026, numa estimativa de confiança baixa. A versão que os dados sustentam é a da margem comprimida: o capital rende um pouco menos que nos pares e o juro come de 3 a 5 pontos a mais desse retorno ([5.1](pagina:5.1)). As decisões estão indexadas ao CDI, à LFT e às NTN-B ([5.3](pagina:5.3)), e o peso das finanças no valor adicionado acompanha o juro real, com correlação de 0,77 em 1996–2025 ([5.4.2](pagina:5.4.2)).
+
+O contraponto ortodoxo ([6](pagina:6)) mostrou o seu melhor em três pontos: a curva reage a notícias fiscais de forma rápida e sistemática, a Selic afeta crédito, câmbio e inflação, e cortar o juro sem âncora tem custo documentado no Brasil e fora dele. Mostrou-se fraco onde precisa explicar o nível: em 2003–2008, com superávit acima de 3% do PIB, o juro real ficou de 5 a 8 pontos acima dos pares, e a medida central que justificaria o nível, o juro neutro, não se observa e acompanha o juro efetivo ([6.1](pagina:6.1), [6.3.2](pagina:6.3.2)).
+
+As opções de política ([7](pagina:7)) mostraram que o diagnóstico inverte várias recomendações e que algumas têm apoio dos dois lados por razões diferentes, como reduzir a LFT e tornar explícitos os subsídios do crédito. O bloco de instrumentos ([10](pagina:10)) mostrou que a taxa de um dia é escolha de comitê executada pelo balanço do BC e que cada ponto dela entra no mesmo mês na conta de juros do setor público.
+
+## O que a evidência sustenta da tese em teste
+
+Sustenta com força alta os fatos que a tese descreve. O juro real brasileiro fica acima do dos pares na maior parte dos anos desde 2000 ([P1](pagina:8.1)). Desde 2023 a dívida sobe pelo juro, e a frase "a gastança endividou o país" não tem apoio nesse período ([3.2](pagina:3.2)). As decisões financeiras e boa parte das de investimento estão escritas em réguas que seguem a Selic dia a dia ([5.3](pagina:5.3)). Os credores recebem uma renda grande, de 8,99% do PIB em juros nominais nos doze meses até setembro de 2026 e de cerca de 5,5% do PIB em termos reais em 2025, que sobe com a Selic sem defasagem ([5.4.3](pagina:5.4.3), [3.3](pagina:3.3)). E os picos de inflação vieram de choques de custo, com demanda fraca ([4.5](pagina:4.5)).
+
+Sustenta com força moderada três elos causais. O patamar não se explica pelo fiscal corrente: além do resíduo do FMI e de 2003–2008, a correlação anual entre a distância para os pares e o superávit primário foi de +0,39 em 2006–2025, sinal oposto ao da leitura fiscal pura, e Colômbia e Índia, com déficit maior em 2025, pagam menos ([2.2](pagina:2.2), [6.1](pagina:6.1)). A política monetária perdeu potência: firmas com crédito direcionado reagem menos à Selic (Bonomo e Martins, 2016), e cada ponto mantido por doze meses soma R$ 61,7 bilhões à dívida líquida ([6.2.2](pagina:6.2.2), [2.4](pagina:2.4)). E o juro alto reduz o investimento e comprime a margem dos projetos em relação aos pares ([5.1](pagina:5.1), [5.2](pagina:5.2)).
+
+A tese perde onde usa palavras absolutas. A política monetária não perdeu a eficácia: o aperto de 2022–2023 reduziu em 15,7% as concessões reais de crédito livre de longo prazo a pessoas físicas, e o IPCA caiu de 5,53% para 4,26% entre abril e dezembro de 2025 com a Selic a 15% ([6.2](pagina:6.2), [2.4](pagina:2.4)). A inflação teve componente de demanda em 2011–2014 e 2024–2026 ([4.4](pagina:4.4)). As expectativas do Focus erraram para baixo, não para cima, num resultado que resiste a tirar 2002 e a usar só as projeções de dezembro ([2.4.1](pagina:2.4.1)). O juro como freio principal do investimento não se sustenta: o pior quinquênio de investimento, 2015–2019, teve juro real moderado ([5.2](pagina:5.2)). E a ideia de que quem lucra com o juro sustenta o patamar não tem medida direta; o único canal testado, o de inflar as projeções, opera no sentido oposto ([2.4.1](pagina:2.4.1), [6.4.1](pagina:6.4.1)).
+
+O núcleo da tese, a convenção, fica sem decisão. Há sinais compatíveis com ela: a persistência através de regimes, um sistema de expectativas em que o Copom e o mercado olham um para o outro, estimativas de neutro que sobem junto com o juro observado (de 2,8% a 7,5% no FGV IBRE em sete anos), uma meta e uma taxa de um dia que funcionam como pontos focais institucionais ([2.5](pagina:2.5), [2.3](pagina:2.3), [10.1.2](pagina:10.1.2)). Há também sinais contra: a distância sumiu em 2018–2021 sem ruptura de crença e voltou depressa, e o juro reage a cada notícia fiscal ([2.5](pagina:2.5)). Nenhum teste disponível separa a convenção de um prêmio de risco que os modelos não medem.
+
+## O que a evidência sustenta da leitura de dominância fiscal
+
+Sustenta com força alta que o prêmio fiscal e político move o juro de mercado. Em 2002, 2015, novembro de 2024 e no pregão de 26/10/2026, a curva longa, o CDS e o câmbio pioraram sem mudança da Selic no dia, e em 2025 a ordem se inverteu como o argumento prevê ([6.1.1](pagina:6.1.1)). A dominância fiscal ativa de 2002–2003 está documentada na literatura revisada (Blanchard, 2004; Favero e Giavazzi, 2004; [1.5.2](pagina:1.5.2)). Sustenta com força moderada que cortar o juro sem âncora tem custo: o corte de 2011–2012 terminou com inflação acima do teto e Selic a 14,25%, e os casos da Turquia e da Argentina mostram o extremo ([6.2.1](pagina:6.2.1), [6.4.3](pagina:6.4.3)). O episódio de 2018–2019, com juro real abaixo de 3% e inflação no centro da meta, é compatível com essa leitura, porque teve teto de gastos e reformas como âncora ([6.4.2](pagina:6.4.2)).
+
+A aritmética também favorece a preocupação fiscal: com o juro atual, o primário que estabiliza a dívida vai de 2,9% (IFI, RAF 117, com neutro de 6,1%) a 3,4% do PIB, e o setor público tem déficit de 0,52% do PIB nos doze meses até setembro de 2026 ([3.1](pagina:3.1)). Essa distância é fiscal qualquer que seja a causa do juro.
+
+A leitura de dominância perde onde precisa explicar o nível. O fiscal corrente não fecha a distância de 2003–2008 nem a de 2006–2013, a reação a eventos mede variações de 1 a 3 pontos na curva contra distâncias de 3 a 7 pontos para os pares, e o CDS de 110 a 152 pontos em outubro de 2026 é pequeno perto de um juro real ex-ante de 8,7% ([6.1](pagina:6.1), [6.1.1](pagina:6.1.1)). A dominância no sentido forte, em que juro mais alto produz mais inflação, não apareceu em 2025: a Selic a 15% valorizou o real e derrubou a inflação, embora num ano de dólar fraco no mundo, o que torna o teste fraco ([1.5](pagina:1.5)). A variante da poupança baixa explica a comparação entre países e falha na história brasileira, porque os anos de mais poupança (2004–2006) foram de juro mais alto ([6.3](pagina:6.3)). E a Selic funciona a um custo maior que o dos pares: com a mesma meta de 3%, México, Chile e Colômbia pagaram de 2 a 7 pontos menos de juro real em 2023–2026 ([4](pagina:4), [7.1](pagina:7.1)).
+
+## O que nenhuma das duas explica
+
+A primeira lacuna é 2018–2021. A distância para os pares caiu a 0,3 ponto em 2019 e ficou negativa em 2020 e 2021 ([2.1](pagina:2.1)). A leitura fiscal credita isso ao teto de gastos, às reformas e aos juros globais baixos, mas não explica por que a distância voltou a 5,5 pontos em 2023–2026, bem acima da média de 2010–2019, com CDS moderado. A leitura da convenção explica a volta como retorno ao padrão, mas não explica a queda, que ocorreu sem ruptura declarada de crença ([2.5](pagina:2.5)).
+
+A segunda é a comparação com pares de fundamentos parecidos. Chile, Colômbia e México têm a mesma meta de 3%; a Colômbia poupa menos que o Brasil e a Índia teve déficit maior em 2025, e todos pagam menos juro real ([6.3](pagina:6.3), [6.1](pagina:6.1)). Nem o prêmio fiscal medido nem a convenção, que não tem medida, dão o tamanho dessa diferença.
+
+A terceira é o juro neutro. A leitura ortodoxa precisa de um neutro alto para dizer que a Selic de 13,75% é adequada, e a leitura da convenção precisa dizer que esse neutro incorpora o hábito de juro alto. As estimativas vão de 5% (BC) a 8% (ASA), sobem junto com o juro observado e não se testam fora do modelo que as produz ([2.3](pagina:2.3), [6.3.2](pagina:6.3.2)).
+
+A quarta é a desancoragem com juro muito alto. De meados de 2025 a agosto de 2026, o juro real ex-ante ficou acima de 9% e as medianas do Focus para 2027 e 2028 seguiam acima de 3% em 23/10/2026 ([6.2](pagina:6.2)). Isso é compatível com uma convenção que o aperto não desloca e com um prêmio fiscal que ele não remove ([2.2](pagina:2.2)), e nenhuma das duas leituras previu a magnitude.
+
+## O que ficou em aberto
+
+Seis testes mudariam a matriz e não foram feitos: um estudo de evento com séries diárias que compare o real com outras moedas emergentes nos dias de notícia fiscal ([6.1.1](pagina:6.1.1)); a decomposição da curva em prêmio a termo, comparada com a de pares; estimativas de juro neutro do Brasil e dos pares pelo mesmo método ([6.3.2](pagina:6.3.2)); o retorno do capital depois de 2019 ([5.1](pagina:5.1)); as Contas Econômicas Integradas completas, com juros pagos e recebidos por setor ([5.4.3](pagina:5.4.3)); e a comparação com países de risco fiscal semelhante e histórico inflacionário diferente, que é o teste capaz de separar convenção de prêmio não medido ([2.5](pagina:2.5)). Falta também medir quanto da renda de juros fica com o topo da distribuição ([3.3](pagina:3.3)) e quanto produto potencial o juro alto prolongado tirou do país ([1.6](pagina:1.6)).
+
+Os blocos ainda em construção entram em pontos definidos. O de política monetária traz a regra de Taylor, a comunicação do Copom e o que é transponível ao Brasil, que pesam sobre o quanto o juro está acima do que a própria regra do BC pede. O de finanças públicas traz os conceitos de risco fiscal e de sustentabilidade, que pesam sobre o elo dívida, prêmio e juro. O de vozes do debate traz o que se diz em público sobre inflação e juros, a única evidência possível para a palavra "alarmismo" e parte da evidência sobre quem sustenta o patamar.
+
+## A direção
+
+:::painel
+O painel lê a evidência assim. O juro real brasileiro é alto por uma soma de causas, e a soma tem três parcelas com graus de confiança diferentes.
+
+A primeira é um prêmio fiscal e político que move o juro de mercado e que piorou desde 2023, com déficit primário e dívida em alta. Essa parcela é real, rápida e documentada, e qualquer explicação do juro brasileiro precisa dar conta dela. Confiança alta.
+
+A segunda é estrutural: a LFT, o CDI como régua da poupança e o crédito direcionado reduzem a potência da Selic, de modo que o mesmo resultado exige mais juro, e cada ponto de juro entra no mesmo mês na dívida e na renda dos credores. Essa parcela fecha o círculo que a tese descreve pelo lado do custo: o juro sobe a dívida, e a dívida sustenta o prêmio. Confiança moderada no mecanismo, baixa no tamanho.
+
+A terceira é um resíduo de cerca de 2 a 4,5 pontos que o fiscal corrente, a poupança e o risco medido não explicam. A convenção é candidata plausível para parte dele, ao lado da indexação, do histórico de inflação e do risco institucional. Confiança moderada de que o resíduo existe, baixa de que a convenção responda por parte relevante dele.
+
+A tese em teste acerta nos fatos e na direção do círculo, e erra nas formas absolutas: a política monetária tem eficácia, a inflação teve demanda nos anos de desemprego baixo, e o Focus não inflou as expectativas. A leitura ortodoxa acerta no curto prazo e no risco de cortar sem âncora, e não explica por que o Brasil pagou mais que os pares também nos seus melhores anos fiscais.
+
+Para a política, a matriz aponta para o que não depende de decidir entre as duas leituras. Reduzir a LFT, tornar explícitos e menores os subsídios do crédito e preservar o colchão de liquidez do Tesouro aumentam a potência de cada ponto de Selic e têm apoio dos dois lados ([7.2](pagina:7.2), [7.9](pagina:7.9)). Uma âncora fiscal crível é condição para que uma queda do juro dure, porque o prêmio fiscal move a curva e os cortes sem âncora não duraram. Essa âncora sozinha não traria o juro ao nível dos pares, porque não o trouxe em 2003–2008. As propostas que dependem só de romper uma convenção, cortando o juro primeiro, apoiam-se na linha mais fraca da matriz; as que exigem um primário de 3% do PIB antes de qualquer corte apoiam-se numa leitura do nível que os dados de 2003–2008 contrariam. A versão que a evidência sustenta é gradual, combinada e anunciada ([7.8](pagina:7.8)). Grau de confiança no conjunto: moderado.
+:::
+
+## Para ler
+
+- Matriz completa, com a evidência a favor e contra de cada proposição: [Matriz tese × evidência × força](pagina:8.1).
+- Régua de evidência e convenções de cálculo: [Método e regras de evidência](pagina:9.1).
+- Bank for International Settlements. Central bank policy rates (WS_CBPOL) e consumer prices (WS_LONG_CPI). [https://data.bis.org](https://data.bis.org). Consulta em 02/11/2026.
+- Banco Central do Brasil. SGS 1178, 4390, 5727, 5793, 13522 e 13762; Focus, API Olinda; Estatísticas Fiscais, fatores condicionantes da dívida. Consulta em 02/11/2026.
+- Tesouro Nacional. Relatório Mensal da Dívida, agosto de 2026. [https://www.tesourotransparente.gov.br/publicacoes/relatorio-mensal-da-divida-rmd/2026/8](https://www.tesourotransparente.gov.br/publicacoes/relatorio-mensal-da-divida-rmd/2026/8)
+- Instituição Fiscal Independente (2026). Relatório de Acompanhamento Fiscal nº 117, 29/10/2026. [https://www12.senado.leg.br/ifi](https://www12.senado.leg.br/ifi)
+- Segura-Ubiergo, A. (2012). The puzzle of Brazil's high interest rates. *IMF Working Paper* 12/62. [https://ideas.repec.org/p/imf/imfwpa/2012-062.html](https://ideas.repec.org/p/imf/imfwpa/2012-062.html)
+- Blanchard, O. (2004). Fiscal dominance and inflation targeting: lessons from Brazil. NBER Working Paper 10389. [https://www.nber.org/papers/w10389](https://www.nber.org/papers/w10389)
+- Seabra, L.; Dequech, D. (2013). Convenções financeiras e a taxa básica de juros no Brasil: uma primeira aproximação. *Revista de Economia Política*, 33(4), 599–618.
+- Bresser-Pereira, L. C.; Nakano, Y. (2002). Uma estratégia de desenvolvimento com estabilidade. *Revista de Economia Política*, 22(3), 533–563.
+- Bonomo, M.; Martins, B. (2016). The impact of government-driven loans in the monetary transmission mechanism: what can we learn from firm-level data? BCB, Working Paper 419. [https://www.bcb.gov.br/pec/wps/ingl/wps419.pdf](https://www.bcb.gov.br/pec/wps/ingl/wps419.pdf)
+- Keynes, J. M. (1936). *The General Theory of Employment, Interest and Money*. Londres: Macmillan, cap. 15.
