@@ -251,7 +251,7 @@ os argumentos deles.
 
 - [ ] 8.1 Matriz tese × evidência × força, item por item
 - [ ] 8.2 Direção de conclusão, com o grau de confiança declarado
-- [ ] 9.1 Glossário
-- [ ] 9.2 Linha do tempo 1980–2026 (planos, regimes, Selic, inflação, crises)
+- [x] 9.1 Glossário
+- [x] 9.2 Linha do tempo 1980–2026 (planos, regimes, Selic, inflação, crises)
 - [ ] 9.3 Bibliografia completa e método
 - [ ] 9.R Revisão final do site inteiro e `RELATORIO.md`
