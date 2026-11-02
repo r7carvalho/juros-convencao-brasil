@@ -2,7 +2,7 @@
  "titulo": "Dólar PTAX de venda, 2002–2003 (R$/US$)",
  "tipo": "linha",
  "unidade": "R$/US$",
- "fonte": "BCB, SGS 1 (PTAX venda); pontos selecionados pela Frente I do painel irmão",
+ "fonte": "BCB, SGS 1 (PTAX venda), consulta em 02/11/2026; seis datas selecionadas pelo painel",
  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
  "consulta": "2026-11-02",
  "nota": "Seis datas, não a série diária. Máxima de fechamento de 2002 em 22/10/2002 (3,9552).",

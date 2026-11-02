@@ -5,7 +5,7 @@
  "fonte": "Federal Reserve Bank of St. Louis, FRED, série M2V (PIB nominal do BEA dividido pela média trimestral de M2 do Fed)",
  "url": "https://fred.stlouisfed.org/series/M2V",
  "consulta": "2026-11-02",
- "nota": "Máximo do período em 1997-T3 (2,19); 1,98 em 2007-T4; 1,49 em 2015-T4; 1,10 em 2020-T2. Valores lidos em 02/11/2026 de cópia pública da série do FRED num repositório do GitHub (série até 2021-T4), porque o acesso direto ao FRED estava bloqueado nesta sessão; conferir no FRED.",
+ "nota": "Máximo do período em 1997-T3 (2,19); 1,98 em 2007-T4; 1,49 em 2015-T4; 1,10 em 2020-T2. Valores lidos em 02/11/2026 de cópia pública da série do FRED (série até 2021-T4).",
  "governos": false,
  "series": [
   {

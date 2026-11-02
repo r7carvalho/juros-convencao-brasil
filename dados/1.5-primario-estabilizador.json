@@ -2,10 +2,10 @@
  "titulo": "Superávit primário que estabiliza a dívida bruta de 82,9% do PIB, conforme o juro real implícito",
  "tipo": "barras",
  "unidade": "% do PIB",
- "fonte": "Frente J do painel irmão (BCB, Estatísticas Fiscais, DBGG de ago/2026; IFI, RAF 113); regra p* = d(r − g)/(1 + g) com crescimento real de 2% a.a.",
+ "fonte": "BCB, Estatísticas Fiscais (DBGG de ago/2026, fatores condicionantes) e SGS 13762; cálculo do painel pela regra p* = d(r − g)/(1 + g), com crescimento real de 2% a.a.",
  "url": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
  "consulta": "2026-11-02",
- "nota": "Cenários da Frente J. A linha de referência mostra o resultado primário do governo geral em 12 meses até ago/2026 (déficit de 0,56% do PIB).",
+ "nota": "A barra \"taxas de 2025\" usa o juro implícito de 12,55% (juros apropriados em 2025 sobre o estoque do fim de 2024) e o crescimento nominal de 8,14%, com a dívida de 82,9% de ago/2026 (3,4%); com a dívida do fim de 2024 (78,6%) o número seria 3,2%. A IFI calcula 2,9% para estabilizar a dívida no nível de dez/2025, com juro neutro de 6,1% (RAF 117, 29/10/2026). A linha de referência mostra o resultado primário do governo geral em 12 meses até ago/2026 (déficit de 0,56% do PIB; BCB, Estatísticas Fiscais, set/2026).",
  "ref": [
   {
    "v": -0.56,
@@ -34,7 +34,7 @@
     },
     {
      "t": "taxas de 2025",
-     "v": 3.3
+     "v": 3.4
     }
    ]
   }

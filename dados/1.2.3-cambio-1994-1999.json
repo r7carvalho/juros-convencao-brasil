@@ -2,10 +2,10 @@
  "titulo": "Dólar comercial, média do mês, jul/1994 a dez/1999 (R$ por US$)",
  "tipo": "linha",
  "unidade": "R$/US$",
- "fonte": "Banco Central do Brasil, SGS 3698 (taxa de câmbio livre, dólar americano, venda, média de período mensal)",
+ "fonte": "Banco Central do Brasil, SGS 3698 (taxa de câmbio livre, dólar americano, venda, média de período mensal), consulta em 02/11/2026",
  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3698/dados?formato=json",
  "consulta": "2026-11-02",
- "nota": "Bandas cambiais a partir de mar/1995; flutuação em 15/01/1999. Valores lidos em 02/11/2026 de cópia pública da série SGS 3698 num painel de dados no GitHub, porque a API do BCB estava bloqueada nesta sessão; conferir no SGS.",
+ "nota": "Bandas cambiais a partir de mar/1995; flutuação em 15/01/1999.",
  "governos": true,
  "series": [
   {

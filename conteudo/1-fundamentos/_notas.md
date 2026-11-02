@@ -84,3 +84,49 @@ Sem recorte entre aspas, só paráfrase com referência: Sargent e Wallace 1981,
 - Acrescentar estudos brasileiros de dominância fiscal (por exemplo, Tanner e Ramos, 2003; Gadelha e Divino, 2008) e de função de reação fiscal, para dar à 1.5 evidência econométrica nacional.
 - Buscar recortes textuais de Dequech e Orléan (hoje só paráfrase) e de Sargent e Wallace (o PDF está no site do Fed de Minneapolis).
 - Para 1.6, trazer estimativas do produto potencial brasileiro (IFI, BCB) antes e depois de 2014, para testar a histerese com dado nacional.
+
+## Pendências após a revisão (02/11/2026)
+
+Aplicação da revisão independente (`conteudo/_revisao/1.md`). As marcas "[a conferir]" saíram do texto público; o que não foi confirmado ficou fora do texto ou virou afirmação qualitativa com fonte secundária, e está listado aqui.
+
+Conferido nesta aplicação com `dados/brutos/` (consulta em 02/11/2026):
+
+- IPCA anual 1980–1994 (SGS 13522): acima de 100% em doze dos quinze anos (1982–1985 e 1987–1994). Corrigido em 1.2.
+- IPCA de 2002 (12,53%) e 2003 (9,30%) e juro real ex-post de 5,89% e 12,84% (SGS 433 e 4390). Citados em 1.5.2.
+- Séries dos gráficos 1.2-ipca-mensal, 1.2.4-ipca-cruzado e 1.2.3-cambio (SGS 433 e 3698): idênticas ao bruto. 1.2.3-selic (SGS 4189): idêntica com arredondamento de uma casa (diferença máxima de 0,05 p.p.). As notas dos JSON deixaram de citar cópias no GitHub.
+- PTAX de 2002–2003 do gráfico 1.5.2 (SGS 1): idêntica.
+- Selic efetiva de out/1997 (19,93%) e nov/1997 (45,90%) (SGS 4189): a alta da TBAN foi no fim de outubro; texto de 1.2.3 ajustado.
+- PIB real 1994–1999 (SGS 7326): 5,85; 4,22; 2,21; 3,39; 0,34; 0,47. Usado em 1.6 no lugar de "sem perda permanente de produto".
+- Turquia (BIS, WS_LONG_CPI e WS_CBPOL): inflação 85,5% (out/2022), 38,2% (jun/2023), 75,4% (mai/2024), 44,4% (dez/2024), 30,9% (dez/2025); taxa de 19% (set/2021) a 8,5% (fev/2023), alta a partir de jun/2023 até 50% (mar/2024). Corrigido em 1.3 e 1.5.4.
+- Superávit primário do setor público consolidado acima de 3% do PIB em todos os anos de 2003 a 2008 (SGS 5793). Usado em 1.4 e 1.5.
+- Focus (API Olinda): mediana do IPCA de quatro anos à frente em 3,5% em out/2023, out/2024, out/2025 e out/2026; mediana para 2025 de 5,68% (mar/2025) a 4,32% (fim de dez/2025). Usado em 1.3.
+- PTAX de 6,19 (fim de 2024) e 5,50 (fim de 2025) (SGS 1); IPCA 12 meses 5,53% (abr/2025), 4,26% (dez/2025), 4,58% (set/2026) (SGS 13522).
+- Câmbio dez/dez 1995–1998 (SGS 3698): desvalorização de 7,1%, 7,4% e 8,2%.
+
+Ainda pendente (o texto público foi escrito sem o número ou sem a afirmação):
+
+- Resultado primário do setor público 1995–1998 e balanço de pagamentos 1994–1998 (BCB). 1.2.2 e 1.2.3 dizem só "superávits pequenos ou déficits" e "conta corrente em déficit crescente", com Giambiagi et al. (2011, cap. 7). A busca web não achou a série anual do consolidado em fonte primária; o SGS 5793 coletado começa em 2002.
+- Base monetária e M1 de 1994–1995 e a revisão dos limites de emissão da MP 542 pelo CMN. 1.1.2 e 1.2.2 dizem só que a moeda "voltou a crescer"; o SGS 27815 coletado começa em 2001.
+- Carvalho e Minella (2012): resultados do artigo não confirmados (busca sem resultado). 1.3 cita só o escopo.
+- Lewis (1969), trecho da p. 58: não verificado; 1.4 passou a parafrasear sem aspas (cap. 2).
+- Calvo (1988), frase do resumo sobre indexação e tetos de juros: não confirmada por busca; 1.5.3 passou a parafrasear.
+- Nagel (1995): médias da primeira rodada (cerca de 37 e 27) fora do texto de 1.4.2.
+- Selic meta 2002–2003 (gráfico 1.5.2): o SGS 432 coletado não traz 2000–2009; valores coerentes com o juro real ex-post calculado acima, mas não conferidos série a série.
+- EMBI+ de 2002–2003 (Ipeadata): seis pontos, sem bruto no repositório.
+- Séries do FRED (1.1, 1.1.1, 1.1.3): lidas de cópia pública (vintage de ago/2026); reextrair do FRED.
+- Pastore (1997): 1.2.1 agora descreve o argumento da passividade (regras de correção cambial e de juro real) em paráfrase; conferir no artigo se há estimativa econométrica a citar.
+- Simonsen (1988), capítulo em Bruno et al., *Inflation Stabilization*: referência acrescentada em 1.2.1 de memória; conferir título e páginas.
+- Estudos brasileiros de função de reação fiscal (Tanner e Ramos, 2003; Mello, 2008): não acrescentados; 1.5.4 suavizou o resumo em vez disso.
+- Compras de Treasuries pelo Fed em 2020–2022 contra o déficit do período (1.1.3): sem número; o texto diz só "parte da qual o Fed comprou".
+- Survey of Professional Forecasters (expectativas de dez anos dos EUA estáveis perto da meta), citado no quadro novo de 1.3: conferir a série no Fed da Filadélfia.
+- Referências acrescentadas de memória, a conferir volume e páginas: Malmendier e Nagel (2016), Scharfstein e Stein (1990), Mishkin (1992), Williamson (2016), Cerra e Saxena (2017), Blanchard e Leigh (2013), Rangel (1963), Simonsen (1970).
+
+Achados aplicados de forma diferente da proposta (uma linha cada):
+
+- 1.1 nº 3 e 1.1.2 nº 1 (McCandless e Weber): mantida a redação de Cooper e John, citada só a eles, com nota de que o original diz "the rate of inflation".
+- 1.1.3 nº 7: sem número disponível, tirado o "em grande parte".
+- 1.2.3 nº 5: os números propostos pelo revisor (7,2%, 6,7%, 8,2%) não batem com o SGS 3698 dez/dez (7,1%, 7,4%, 8,2%); usados os do SGS, e mantida a faixa "cerca de 7% a 8%".
+- 1.5.4 nº 4: escolhida a segunda opção (suavizar o resumo), sem acrescentar estudos não conferidos.
+- 1.3 nº 5 e 1.4 nº 3 e 1.5.3 nº 3: sem confirmação, frases reescritas sem o resultado ou sem aspas.
+
+Para outras áreas (não editadas aqui): 3.1, 3.4, 7.3 e 7.8 ainda usam o juro implícito de 12,69%; 3.1, 3.2, 6.1, 7.8 e 9.4 citam o RAF 113 da IFI; 2.5 e 6.4.2 repetem a cronologia simplificada da Turquia ("só voltou a cair depois de 50% em 2024"), e 2.5 ainda cita "insumo da Frente K"; 2.4.1 (linha 42) diz que o participante do Focus "é avaliado pelo desvio em relação ao consenso", o que 1.3 deixou de afirmar.

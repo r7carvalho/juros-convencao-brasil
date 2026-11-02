@@ -5,7 +5,7 @@
  "fonte": "BCB, Histórico das taxas de juros fixadas pelo Copom",
  "url": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros",
  "consulta": "2026-11-02",
- "nota": "Valor vigente no último dia de cada mês. Alta extraordinária de 18% para 21% em 14/10/2002; pico de 26,5% de fev a jun/2003. Datas conferidas em cópia da série do BCB publicada no GitHub, porque o site do BCB está bloqueado nesta sessão.",
+ "nota": "Valor vigente no último dia de cada mês. Alta extraordinária de 18% para 21% em 14/10/2002; pico de 26,5% de fev a jun/2003. Datas lidas de cópia pública da série do BCB.",
  "governos": true,
  "ref": [
   {

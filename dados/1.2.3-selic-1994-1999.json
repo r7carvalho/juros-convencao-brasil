@@ -2,10 +2,10 @@
  "titulo": "Selic efetiva, jul/1994 a dez/1999 (% a.a.)",
  "tipo": "linha",
  "unidade": "% a.a.",
- "fonte": "Banco Central do Brasil, SGS 4189 (Selic acumulada no mês, anualizada, base 252 dias úteis), série GM366_TJOVER366 do Ipeadata",
+ "fonte": "Banco Central do Brasil, SGS 4189 (Selic acumulada no mês, anualizada, base 252 dias úteis), consulta em 02/11/2026",
  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json",
  "consulta": "2026-11-02",
- "nota": "A anualização em base 252 infla meses com poucos dias úteis (abr/1995 aparece com 85,5%). Picos ligados à crise da Ásia (nov/1997), à moratória russa (set-out/1998) e à flutuação do real (mar/1999). Valores lidos em 02/11/2026 de cópia pública da série do Ipeadata no GitHub, porque BCB e Ipeadata estavam bloqueados nesta sessão; conferir no SGS.",
+ "nota": "Valores arredondados a uma casa decimal. A anualização em base 252 infla meses com poucos dias úteis (abr/1995 aparece com 85,5%). Picos ligados à crise da Ásia (nov/1997), à moratória russa (set-out/1998) e à flutuação do real (mar/1999).",
  "governos": true,
  "series": [
   {

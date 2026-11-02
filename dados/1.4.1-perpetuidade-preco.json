@@ -5,7 +5,7 @@
  "fonte": "Cálculo do painel: P = c / r, com cupom c = R$ 1",
  "url": "https://www.hetwebsite.net/het/texts/keynes/gt/chap15.htm",
  "consulta": "2026-11-02",
- "nota": "Exemplo didático. O preço da perpetuidade é o cupom dividido pela taxa de juro; a 5% vale R$ 20 e a 4% vale R$ 25, como no exemplo do cap. 15 da Teoria Geral.",
+ "nota": "Exemplo didático construído sobre o raciocínio do cap. 15 da Teoria Geral; os números são do painel. O preço da perpetuidade é o cupom dividido pela taxa de juro: a 5% vale R$ 20 e a 4% vale R$ 25.",
  "ref": [
   {
    "v": 20,

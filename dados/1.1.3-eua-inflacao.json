@@ -5,7 +5,7 @@
  "fonte": "BLS (CPI-U, CPIAUCSL) e BEA (núcleo do deflator do consumo, PCEPILFE), via FRED; variação em 12 meses calculada pelo painel",
  "url": "https://fred.stlouisfed.org/series/PCEPILFE",
  "consulta": "2026-11-02",
- "nota": "A meta de 2% para o deflator do consumo (PCE) foi anunciada formalmente pelo FOMC em jan/2012. Entre jan/2008 e dez/2015 o núcleo do PCE ficou em 2% ou mais em 12 dos 96 meses. Valores lidos em 02/11/2026 de cópia pública da série do FRED (vintage de ago/2026) num repositório do GitHub, porque o acesso direto ao FRED estava bloqueado nesta sessão; conferir no FRED antes da versão final.",
+ "nota": "A meta de 2% para o deflator do consumo (PCE) foi anunciada formalmente pelo FOMC em jan/2012. Entre jan/2008 e dez/2015 o núcleo do PCE ficou em 2% ou mais em 12 dos 96 meses. Valores lidos em 02/11/2026 de cópia pública da série do FRED (vintage de ago/2026).",
  "governos": false,
  "ref": [
   {

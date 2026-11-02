@@ -189,8 +189,8 @@ def coletar_sgs():
     for cod, desc in SGS.items():
         pontos, urls = [], []
         try:
-            for ini in range(1980, HOJE.year + 1, 10):
-                fim = min(ini + 9, HOJE.year)
+            for ini in range(1980, HOJE.year + 1, 5):
+                fim = min(ini + 4, HOJE.year)
                 url = (f"https://api.bcb.gov.br/dados/serie/bcdata.sgs.{cod}/dados?formato=json"
                        f"&dataInicial=01/01/{ini}&dataFinal=31/12/{fim}")
                 urls.append(url)
@@ -202,6 +202,8 @@ def coletar_sgs():
                     raise
                 if txt.strip().startswith("["):
                     pontos.extend(json.loads(txt))
+                elif txt.strip():
+                    RELATORIO.setdefault("avisos", []).append({"serie": cod, "url": url, "resposta": txt[:200]})
                 time.sleep(0.3)
             if not pontos:
                 raise RuntimeError("nenhum dado retornado")

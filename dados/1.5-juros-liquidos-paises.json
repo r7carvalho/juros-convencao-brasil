@@ -2,7 +2,7 @@
  "titulo": "Juros líquidos do governo geral em 2025, % do PIB (resultado primário menos resultado nominal)",
  "tipo": "barrash",
  "unidade": "% do PIB",
- "fonte": "FMI, DataMapper (WEO/Fiscal Monitor), séries GGXONLB_G01_GDP_PT e GGXCNL_G01_GDP_PT; cálculo e seleção de países da Frente J do painel irmão",
+ "fonte": "FMI, DataMapper (WEO de out/2026 e Fiscal Monitor), séries GGXONLB_G01_GDP_PT, GGXCNL_G01_GDP_PT e GGXWDG_NGDP; juros líquidos = resultado primário menos resultado nominal, cálculo e seleção de países do painel",
  "url": "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
  "consulta": "2026-10-28",
  "nota": "Conceito FMI, que difere do conceito BCB. A dívida bruta de cada país em 2025 (FMI) vai entre parênteses no rótulo.",

@@ -72,7 +72,7 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 1.5c Blanchard (2004) e Favero e Giavazzi (2004): o caso Brasil 2002–2003
 - [x] 1.5d Equivalência ricardiana (Barro): o que é e por que não é dominância fiscal
 - [x] 1.6 Longo prazo, neutralidade e histerese (Keynes 1923, Blanchard e Summers 1986)
-- [ ] 1.R Revisão independente da macroárea 1
+- [x] 1.R Revisão independente da macroárea 1
 
 ## 2. Juros no Brasil
 

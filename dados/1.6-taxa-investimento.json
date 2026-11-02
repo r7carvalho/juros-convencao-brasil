@@ -2,7 +2,7 @@
  "titulo": "Taxa de investimento do Brasil: FBCF em % do PIB, 1996–2026",
  "tipo": "linha",
  "unidade": "% do PIB",
- "fonte": "IBGE, Contas Nacionais Trimestrais (SIDRA, tabela 1846), preços correntes; série levantada pela Frente L do painel irmão",
+ "fonte": "IBGE, Contas Nacionais Trimestrais (SIDRA, tabela 1846), preços correntes; cálculo do painel",
  "url": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
  "consulta": "2026-11-02",
  "nota": "Média anual dos trimestres; o ponto de 2026 é o 1º semestre. Pico de 20,9% em 2013 e mínimo de 14,6% em 2017.",

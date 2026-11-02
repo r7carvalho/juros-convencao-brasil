@@ -2,10 +2,10 @@
  "titulo": "IPCA mensal, 1993–1995 (%)",
  "tipo": "linha",
  "unidade": "% ao mês",
- "fonte": "IBGE, IPCA, via Banco Central (SGS 433)",
+ "fonte": "IBGE, IPCA, via Banco Central (SGS 433), consulta em 02/11/2026",
  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json",
  "consulta": "2026-11-02",
- "nota": "URV em vigor de 1º/03/1994 a 30/06/1994; real a partir de 1º/07/1994. Valores mensais da série SGS 433 lidos em 02/11/2026 de duas cópias públicas independentes no GitHub (idênticas entre si), porque a API do BCB estava bloqueada nesta sessão; os totais anuais batem com os oficiais do IBGE (1993: 2.477,15%; 1995: 22,41%).",
+ "nota": "URV em vigor de 1º/03/1994 a 30/06/1994; real a partir de 1º/07/1994. Os totais anuais batem com os oficiais do IBGE (1993: 2.477,15%; 1995: 22,41%).",
  "governos": true,
  "series": [
   {

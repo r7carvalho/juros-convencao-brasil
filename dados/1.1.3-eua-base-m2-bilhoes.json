@@ -5,7 +5,7 @@
  "fonte": "Federal Reserve, H.6 Money Stock Measures (BOGMBASE e M2SL), via FRED",
  "url": "https://fred.stlouisfed.org/series/BOGMBASE",
  "consulta": "2026-11-02",
- "nota": "Base monetária = papel-moeda em circulação + reservas dos bancos no Fed. Base: 847,6 bi em ago/2008, 1.666,4 bi em dez/2008, 4.075,0 bi em ago/2014. M2: 7.482,7 bi em dez/2007 e 12.393,6 bi em dez/2015. Valores lidos em 02/11/2026 de cópia pública da série do FRED (vintage de ago/2026) num repositório do GitHub, porque o acesso direto ao FRED estava bloqueado nesta sessão; conferir no FRED antes da versão final.",
+ "nota": "Base monetária = papel-moeda em circulação + reservas dos bancos no Fed. Base: 847,6 bi em ago/2008, 1.666,4 bi em dez/2008, 4.075,0 bi em ago/2014. M2: 7.482,7 bi em dez/2007 e 12.393,6 bi em dez/2015. Valores lidos em 02/11/2026 de cópia pública da série do FRED (vintage de ago/2026).",
  "governos": false,
  "series": [
   {

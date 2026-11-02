@@ -2,10 +2,10 @@
  "titulo": "IPCA mensal, 1985–1987: o Cruzado (%)",
  "tipo": "linha",
  "unidade": "% ao mês",
- "fonte": "IBGE, IPCA, via Banco Central (SGS 433)",
+ "fonte": "IBGE, IPCA, via Banco Central (SGS 433), consulta em 02/11/2026",
  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json",
  "consulta": "2026-11-02",
- "nota": "Plano Cruzado em 28/02/1986; Cruzado II em 21/11/1986; Plano Bresser em jun/1987. No fim de 1986 parte das vendas se fazia com ágio sobre o preço tabelado, que a coleta do índice não captava por inteiro; a alta efetiva tende a ter sido maior que a medida. Valores mensais da série SGS 433 lidos em 02/11/2026 de cópia pública no GitHub, porque a API do BCB estava bloqueada nesta sessão; conferir no SGS.",
+ "nota": "Plano Cruzado em 28/02/1986; Cruzado II em 21/11/1986; Plano Bresser em jun/1987. No fim de 1986 parte das vendas se fazia com ágio sobre o preço tabelado, que a coleta do índice não captava por inteiro; a alta efetiva tende a ter sido maior que a medida.",
  "governos": true,
  "series": [
   {

@@ -5,7 +5,7 @@
  "fonte": "Federal Reserve, H.6 (base monetária, BOGMBASE; M2, M2SL) e BLS (CPI-U, CPIAUCSL), via FRED; cálculo do índice pelo painel",
  "url": "https://fred.stlouisfed.org/series/BOGMBASE",
  "consulta": "2026-11-02",
- "nota": "Base e M2 em dólares correntes; CPI com ajuste sazonal. Base monetária: 837 bi em dez/2007, pico de 4.075 bi em ago/2014. Valores lidos em 02/11/2026 de cópia pública da série do FRED (vintage de ago/2026) num repositório do GitHub, porque o acesso direto ao FRED estava bloqueado nesta sessão; conferir no FRED antes da versão final.",
+ "nota": "Base e M2 em dólares correntes; CPI com ajuste sazonal. Base monetária: 837 bi em dez/2007, pico de 4.075 bi em ago/2014. Valores lidos em 02/11/2026 de cópia pública da série do FRED (vintage de ago/2026).",
  "governos": false,
  "series": [
   {

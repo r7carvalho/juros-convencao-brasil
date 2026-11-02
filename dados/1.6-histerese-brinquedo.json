@@ -5,7 +5,7 @@
  "fonte": "Simulação do painel",
  "url": "https://www.nber.org/papers/w20185",
  "consulta": "2026-11-02",
- "nota": "Tendência de 2% ao ano. Na recuperação completa o hiato de 5,9% do ano 1 fecha em três anos. Na histerese, 60% desse hiato vira perda permanente de produto potencial, como no padrão que Ball (2014) mede nos países da OCDE depois de 2008.",
+ "nota": "Tendência de 2% ao ano. Na recuperação completa o hiato de 5,9% do ano 1 fecha em três anos. Na histerese, 60% desse hiato vira perda permanente de produto potencial. O parâmetro é ilustrativo; Ball (2014) acha histerese próxima de 100% na maioria dos países da OCDE depois de 2008.",
  "series": [
   {
    "nome": "Tendência pré-crise",

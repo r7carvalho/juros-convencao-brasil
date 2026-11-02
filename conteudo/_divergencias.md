@@ -40,3 +40,13 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 33 | Perda esperada na perpetuidade (Keynes, cap. 15) | "espera perder 16%" (CONTEXTO.md) | 20% de perda de capital (25 → 20) menos 4% de cupom em um ano = 16% (área 1b) | Consistentes; a 1.4.1 mostra a conta. | 1.4.1 |
 | 34 | Juro crítico de Keynes | 0,16 p.p. a 4% e 0,04 p.p. a 2% (Keynes, aproximação r²) | 0,167 e 0,041 (conta exata r²/(1 − r)) | A 1.4.1 mostra as duas. | 1.4.1 |
 | 35 | Juro neutro de 8% "de mercado" | 8% (CONTEXTO.md, sem autor) | 8% (ASA, área 2.3) | A área 2 achou a fonte (ASA); a 1.x deve citar a ASA na revisão. | 1.x, 2.3 |
+
+## Decisões da revisão da área 1 que valem para todo o painel (02/11/2026)
+
+- Taxa implícita da DBGG em 2025: 12,55% (série dos fatores condicionantes, juros do ano / estoque de dez/2024). Ainda usam 12,69%: 3.1, 3.4, 7.3, 7.8.
+- Primário estabilizador "às taxas de 2025": 3,2% com a dívida de dez/2024 (78,6%) e 3,4% com a de ago/2026 (82,9%). A área 3 usou 3,49% (vinha de 12,69%).
+- IFI: RAF 117 (29/10/2026), 2,9% do PIB com juro neutro de 6,1%; o RAF 113 (2,1%) só como histórico. Ainda citam o RAF 113: 3.1, 3.2, 6.1, 7.8, 9.4.
+- Turquia (TurkStat): 85,5% (out/2022) → 38,2% (jun/2023, efeito de base com juro baixo) → 75,4% (mai/2024) → queda sustentada depois da taxa de 50%. Versão simplificada em 2.5 e 6.4.2.
+- Metas de 1999: Resolução CMN 2.615 (30/06/1999), não o Decreto 3.088 (que cria o regime).
+- Focus: o ranking Top 5 premia acerto; não há fonte para "avaliado pela distância ao consenso" (2.4.1, linha 42).
+- IPCA acima de 100% em 12 dos 15 anos de 1980 a 1994 (SGS 13522).
