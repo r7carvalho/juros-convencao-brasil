@@ -1,0 +1,61 @@
+{
+ "titulo": "IPCA: média anual e volatilidade por período (%)",
+ "tipo": "barras",
+ "unidade": "%",
+ "fonte": "IBGE, IPCA (SIDRA, tabela 1737); cálculo do painel",
+ "url": "https://sidra.ibge.gov.br/tabela/1737",
+ "nota": "Média geométrica das variações dez/dez e desvio-padrão das variações anuais. Para 1980–1994 a média geométrica é de 451,7% ao ano, fora de escala.",
+ "series": [
+  {
+   "nome": "Média anual",
+   "pontos": [
+    {
+     "t": "1995–1998",
+     "v": 9.4
+    },
+    {
+     "t": "1999–2002",
+     "v": 8.8
+    },
+    {
+     "t": "2003–2010",
+     "v": 5.8
+    },
+    {
+     "t": "2011–2016",
+     "v": 6.9
+    },
+    {
+     "t": "2017–2025",
+     "v": 5.0
+    }
+   ]
+  },
+  {
+   "nome": "Desvio-padrão",
+   "pontos": [
+    {
+     "t": "1995–1998",
+     "v": 7.8
+    },
+    {
+     "t": "1999–2002",
+     "v": 2.4
+    },
+    {
+     "t": "2003–2010",
+     "v": 1.8
+    },
+    {
+     "t": "2011–2016",
+     "v": 1.7
+    },
+    {
+     "t": "2017–2025",
+     "v": 1.9
+    }
+   ]
+  }
+ ],
+ "consulta": "2026-11-02"
+}

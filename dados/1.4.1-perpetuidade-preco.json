@@ -1,0 +1,58 @@
+{
+ "titulo": "Preço de uma perpetuidade que paga R$ 1 por ano, conforme o juro de mercado",
+ "tipo": "barras",
+ "unidade": "R$",
+ "fonte": "Cálculo do painel: P = c / r, com cupom c = R$ 1",
+ "url": "https://www.hetwebsite.net/het/texts/keynes/gt/chap15.htm",
+ "consulta": "2026-11-02",
+ "nota": "Exemplo didático. O preço da perpetuidade é o cupom dividido pela taxa de juro; a 5% vale R$ 20 e a 4% vale R$ 25, como no exemplo do cap. 15 da Teoria Geral.",
+ "ref": [
+  {
+   "v": 20,
+   "rotulo": "preço a 5% (o 'normal' do exemplo)"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Preço da perpetuidade",
+   "pontos": [
+    {
+     "t": "2%",
+     "v": 50.0
+    },
+    {
+     "t": "3%",
+     "v": 33.33
+    },
+    {
+     "t": "4%",
+     "v": 25.0
+    },
+    {
+     "t": "5%",
+     "v": 20.0
+    },
+    {
+     "t": "6%",
+     "v": 16.67
+    },
+    {
+     "t": "7%",
+     "v": 14.29
+    },
+    {
+     "t": "8%",
+     "v": 12.5
+    },
+    {
+     "t": "9%",
+     "v": 11.11
+    },
+    {
+     "t": "10%",
+     "v": 10.0
+    }
+   ]
+  }
+ ]
+}

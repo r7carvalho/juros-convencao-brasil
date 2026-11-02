@@ -3,7 +3,6 @@
  "tipo": "barras",
  "unidade": "% ao ano",
  "fonte": "Simulação do painel com números de brinquedo (sem dado real)",
- "url": "",
  "consulta": "2026-11-02",
  "nota": "A inflação efetiva cai de 10% para 4% no ano 4 e fica lá. Adaptativa: a expectativa corrige metade do erro do ano anterior. Regra de bolso: espera-se a inflação do ano anterior. Racional com regime crível: a expectativa acompanha o novo regime no momento do anúncio.",
  "governos": false,

@@ -1,0 +1,37 @@
+{
+ "titulo": "Retorno do capital investido e custo de capital, empresas da amostra CEMEC-FIPE (% a.a.)",
+ "tipo": "barras",
+ "unidade": "% a.a.",
+ "fonte": "CEMEC-FIPE, estudo sobre 460 empresas não financeiras (2020), reproduzido por InfoMoney, \"Retorno de empresas brasileiras retrocede 11 anos com pandemia\"",
+ "url": "https://www.infomoney.com.br/mercados/retorno-de-empresas-brasileiras-retrocede-11-anos-com-pandemia/",
+ "consulta": "2026-11-02",
+ "nota": "Retorno do capital (ROIC) e custo médio ponderado de capital (WACC) estimados pelo CEMEC-FIPE; 2020 = 2º trimestre, anualizado. Números lidos na reportagem; a nota original (Nota CEMEC-FIPE 09/2020) não abriu nesta sessão.",
+ "series": [
+  {
+   "nome": "Retorno do capital (ROIC)",
+   "pontos": [
+    {
+     "t": "2009",
+     "v": 11.5
+    },
+    {
+     "t": "2º tri 2020",
+     "v": 7.4
+    }
+   ]
+  },
+  {
+   "nome": "Custo de capital (WACC)",
+   "pontos": [
+    {
+     "t": "2009",
+     "v": 11.4
+    },
+    {
+     "t": "2º tri 2020",
+     "v": 11.4
+    }
+   ]
+  }
+ ]
+}

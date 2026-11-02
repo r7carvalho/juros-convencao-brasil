@@ -165,7 +165,7 @@ e Koby ("reversal rate"); Kuroda e documentos do BoJ; BCE (APP, PEPP, TLTRO); Bo
 Turner (2015), Galí (2020) e Bernanke (2003) sobre financiamento monetário; Kelton e Wray (MMT) e as
 críticas a ela.
 
-- [ ] 10.0 Página macro: mapa de instrumentos (convencionais × não convencionais), canais e regimes; o que cada um faz no balanço do banco central, com um balanço de brinquedo
+- [x] 10.0 Página macro: mapa de instrumentos (convencionais × não convencionais), canais e regimes; o que cada um faz no balanço do banco central, com um balanço de brinquedo
 - [ ] 10.1a Regimes monetários: metas monetárias, câmbio fixo, metas de inflação; o caso brasileiro de 1999, a meta contínua de 2025, o mandato do BC na LC 179/2021
 - [ ] 10.1b Por que meta de 3%: a literatura sobre o nível ótimo da meta (Blanchard et al. 2010 e a proposta de 4%, Ball, críticas), metas de países emergentes comparadas
 - [ ] 10.2a Taxa básica e corredor: Selic meta × Selic over, operações compromissadas, depósitos voluntários remunerados (Lei 14.185/2021), como o BC faz a taxa "acontecer" no mercado

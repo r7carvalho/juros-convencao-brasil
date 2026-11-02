@@ -1,0 +1,119 @@
+{
+ "titulo": "Meta da taxa Selic definida pelo Copom, fim de cada mês, 2002–2003 (% a.a.)",
+ "tipo": "linha",
+ "unidade": "% a.a.",
+ "fonte": "BCB, Histórico das taxas de juros fixadas pelo Copom",
+ "url": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros",
+ "consulta": "2026-11-02",
+ "nota": "Valor vigente no último dia de cada mês. Alta extraordinária de 18% para 21% em 14/10/2002; pico de 26,5% de fev a jun/2003. Datas conferidas em cópia da série do BCB publicada no GitHub, porque o site do BCB está bloqueado nesta sessão.",
+ "governos": true,
+ "ref": [
+  {
+   "v": 18,
+   "rotulo": "meta antes da alta de out/2002"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Meta Selic",
+   "pontos": [
+    {
+     "t": "2002-01",
+     "v": 19.0
+    },
+    {
+     "t": "2002-02",
+     "v": 18.75
+    },
+    {
+     "t": "2002-03",
+     "v": 18.5
+    },
+    {
+     "t": "2002-04",
+     "v": 18.5
+    },
+    {
+     "t": "2002-05",
+     "v": 18.5
+    },
+    {
+     "t": "2002-06",
+     "v": 18.5
+    },
+    {
+     "t": "2002-07",
+     "v": 18.0
+    },
+    {
+     "t": "2002-08",
+     "v": 18.0
+    },
+    {
+     "t": "2002-09",
+     "v": 18.0
+    },
+    {
+     "t": "2002-10",
+     "v": 21.0
+    },
+    {
+     "t": "2002-11",
+     "v": 22.0
+    },
+    {
+     "t": "2002-12",
+     "v": 25.0
+    },
+    {
+     "t": "2003-01",
+     "v": 25.5
+    },
+    {
+     "t": "2003-02",
+     "v": 26.5
+    },
+    {
+     "t": "2003-03",
+     "v": 26.5
+    },
+    {
+     "t": "2003-04",
+     "v": 26.5
+    },
+    {
+     "t": "2003-05",
+     "v": 26.5
+    },
+    {
+     "t": "2003-06",
+     "v": 26.0
+    },
+    {
+     "t": "2003-07",
+     "v": 24.5
+    },
+    {
+     "t": "2003-08",
+     "v": 22.0
+    },
+    {
+     "t": "2003-09",
+     "v": 20.0
+    },
+    {
+     "t": "2003-10",
+     "v": 19.0
+    },
+    {
+     "t": "2003-11",
+     "v": 17.5
+    },
+    {
+     "t": "2003-12",
+     "v": 16.5
+    }
+   ]
+  }
+ ]
+}

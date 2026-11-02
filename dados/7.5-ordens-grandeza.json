@@ -1,0 +1,36 @@
+{
+ "titulo": "Tributação da renda de juros: ordens de grandeza (R$ bilhões por ano)",
+ "tipo": "barrash",
+ "unidade": "R$ bi",
+ "fonte": "Receita Federal, Análise da Arrecadação 2025 (IRRF-rendimentos de capital); Demonstrativo dos Gastos Tributários PLOA 2026 (via reportagem); Receita Federal, relatório de avaliação de mar/2026 (JCP); Ministério da Fazenda (LCI/LCA na MP 1.303)",
+ "url": "https://static.poder360.com.br/2026/01/relatorio-arrecadacao-receita-federal-22jan2026.pdf",
+ "consulta": "2026-11-02",
+ "nota": "Grandezas de natureza diferente, postas lado a lado só para dar escala: arrecadação efetiva (IRRF de capital, 2025), renúncia estimada (isenções, PLOA 2026) e ganhos estimados de mudanças propostas ou aprovadas (JCP a 17,5% em 2026; LCI/LCA a 5% sobre novas emissões em 2026, proposta que caducou).",
+ "series": [
+  {
+   "nome": "R$ bi",
+   "pontos": [
+    {
+     "t": "IRRF sobre rendimentos de capital arrecadado em 2025",
+     "v": 162.6
+    },
+    {
+     "t": "Renúncia com isenção de LCI, LCA, CRI e CRA (estimativa PLOA 2026)",
+     "v": 31.7
+    },
+    {
+     "t": "JCP de 15% para 17,5% (ganho estimado em 2026)",
+     "v": 3.1
+    },
+    {
+     "t": "LCI/LCA a 5% sobre novas emissões (estimativa para 2026, caducou)",
+     "v": 2.6
+    },
+    {
+     "t": "Renúncia com debêntures incentivadas (estimativa PLOA 2026)",
+     "v": 1.3
+    }
+   ]
+  }
+ ]
+}

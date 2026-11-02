@@ -1,0 +1,48 @@
+{
+ "titulo": "Estimativas do juro real neutro do Brasil citadas em 2024-2026 (% a.a.)",
+ "tipo": "barrash",
+ "unidade": "% a.a.",
+ "fonte": "Copom (atas de jun/2024 e dez/2024); BCB, boxe do RI de jun/2024; IFI, RAF 117 (29/10/2026); FGV IBRE, Boletim Macro de set/2026; ASA (entrevista de Fábio Kanczuk ao InfoMoney, 2026)",
+ "url": "https://www12.senado.leg.br/ifi",
+ "consulta": "2026-11-02",
+ "nota": "Cada barra é uma estimativa pontual de uma instituição ou economista, em datas diferentes; não é uma série. FGV IBRE: número de notícia do portal do IBRE de 01/10/2026 sobre o Boletim Macro. Os 4,5% eram a hipótese do Copom antes de jun/2024.",
+ "series": [
+  {
+   "nome": "Juro neutro estimado",
+   "pontos": [
+    {
+     "t": "Copom até mai/2024",
+     "v": 4.5
+    },
+    {
+     "t": "Copom jun/2024",
+     "v": 4.75
+    },
+    {
+     "t": "Mediana de modelos do BC (RI jun/2024)",
+     "v": 5.0
+    },
+    {
+     "t": "Copom desde dez/2024",
+     "v": 5.0
+    },
+    {
+     "t": "IFI até out/2026",
+     "v": 5.0
+    },
+    {
+     "t": "IFI, RAF 117 (out/2026)",
+     "v": 6.1
+    },
+    {
+     "t": "FGV IBRE (set/2026)",
+     "v": 7.5
+    },
+    {
+     "t": "ASA, F. Kanczuk (2026)",
+     "v": 8.0
+    }
+   ]
+  }
+ ]
+}

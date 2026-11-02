@@ -1,0 +1,182 @@
+{
+ "titulo": "Juro implícito da dívida bruta e crescimento do PIB nominal (% no ano)",
+ "tipo": "linha",
+ "unidade": "% no ano",
+ "fonte": "BCB, Estatísticas Fiscais (fatores condicionantes da DBGG) e PIB de 12 meses (SGS 4382); cálculo da Frente J",
+ "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Tabelas_de_estatisticas_fiscais.xlsx",
+ "consulta": "2026-10-28",
+ "nota": "Juro implícito = juros apropriados no ano / estoque do fim do ano anterior. Quando a linha do juro fica acima da do PIB, a dívida cresce como proporção do PIB mesmo sem déficit primário. 2026 omitido (acumulado de oito meses, não comparável).",
+ "governos": true,
+ "series": [
+  {
+   "nome": "Juro implícito da DBGG",
+   "pontos": [
+    {
+     "t": "2006",
+     "v": 14.18
+    },
+    {
+     "t": "2007",
+     "v": 13.4
+    },
+    {
+     "t": "2008",
+     "v": 13.02
+    },
+    {
+     "t": "2009",
+     "v": 11.0
+    },
+    {
+     "t": "2010",
+     "v": 10.97
+    },
+    {
+     "t": "2011",
+     "v": 12.62
+    },
+    {
+     "t": "2012",
+     "v": 11.09
+    },
+    {
+     "t": "2013",
+     "v": 10.57
+    },
+    {
+     "t": "2014",
+     "v": 11.4
+    },
+    {
+     "t": "2015",
+     "v": 13.74
+    },
+    {
+     "t": "2016",
+     "v": 13.03
+    },
+    {
+     "t": "2017",
+     "v": 10.04
+    },
+    {
+     "t": "2018",
+     "v": 8.37
+    },
+    {
+     "t": "2019",
+     "v": 7.76
+    },
+    {
+     "t": "2020",
+     "v": 6.31
+    },
+    {
+     "t": "2021",
+     "v": 7.55
+    },
+    {
+     "t": "2022",
+     "v": 10.55
+    },
+    {
+     "t": "2023",
+     "v": 11.3
+    },
+    {
+     "t": "2024",
+     "v": 10.89
+    },
+    {
+     "t": "2025",
+     "v": 12.55
+    }
+   ]
+  },
+  {
+   "nome": "Crescimento do PIB nominal",
+   "pontos": [
+    {
+     "t": "2006",
+     "v": 11.0
+    },
+    {
+     "t": "2007",
+     "v": 12.9
+    },
+    {
+     "t": "2008",
+     "v": 14.32
+    },
+    {
+     "t": "2009",
+     "v": 7.18
+    },
+    {
+     "t": "2010",
+     "v": 16.59
+    },
+    {
+     "t": "2011",
+     "v": 12.62
+    },
+    {
+     "t": "2012",
+     "v": 10.02
+    },
+    {
+     "t": "2013",
+     "v": 10.73
+    },
+    {
+     "t": "2014",
+     "v": 8.39
+    },
+    {
+     "t": "2015",
+     "v": 3.75
+    },
+    {
+     "t": "2016",
+     "v": 4.56
+    },
+    {
+     "t": "2017",
+     "v": 5.04
+    },
+    {
+     "t": "2018",
+     "v": 6.36
+    },
+    {
+     "t": "2019",
+     "v": 5.5
+    },
+    {
+     "t": "2020",
+     "v": 2.98
+    },
+    {
+     "t": "2021",
+     "v": 18.43
+    },
+    {
+     "t": "2022",
+     "v": 11.85
+    },
+    {
+     "t": "2023",
+     "v": 8.57
+    },
+    {
+     "t": "2024",
+     "v": 7.64
+    },
+    {
+     "t": "2025",
+     "v": 8.14
+    }
+   ]
+  }
+ ]
+}

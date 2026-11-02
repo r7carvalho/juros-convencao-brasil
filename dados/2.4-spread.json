@@ -1,0 +1,81 @@
+{
+ "titulo": "Spread médio das operações de crédito do SFN, total (p.p.)",
+ "tipo": "linha",
+ "unidade": "p.p.",
+ "fonte": "BCB, SGS 20783; dezembro de cada ano, 2026 = agosto",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.20783/dados?formato=json",
+ "consulta": "2026-10-28",
+ "nota": "Diferença entre a taxa média cobrada nos empréstimos e o custo de captação das instituições, média de crédito livre e direcionado.",
+ "governos": true,
+ "series": [
+  {
+   "nome": "Spread total",
+   "pontos": [
+    {
+     "t": "2011",
+     "v": 17.19
+    },
+    {
+     "t": "2012",
+     "v": 13.95
+    },
+    {
+     "t": "2013",
+     "v": 13.28
+    },
+    {
+     "t": "2014",
+     "v": 14.64
+    },
+    {
+     "t": "2015",
+     "v": 18.21
+    },
+    {
+     "t": "2016",
+     "v": 22.33
+    },
+    {
+     "t": "2017",
+     "v": 18.76
+    },
+    {
+     "t": "2018",
+     "v": 16.72
+    },
+    {
+     "t": "2019",
+     "v": 17.88
+    },
+    {
+     "t": "2020",
+     "v": 14.26
+    },
+    {
+     "t": "2021",
+     "v": 15.65
+    },
+    {
+     "t": "2022",
+     "v": 18.81
+    },
+    {
+     "t": "2023",
+     "v": 19.47
+    },
+    {
+     "t": "2024",
+     "v": 17.62
+    },
+    {
+     "t": "2025",
+     "v": 20.87
+    },
+    {
+     "t": "2026-08",
+     "v": 21.16
+    }
+   ]
+  }
+ ]
+}

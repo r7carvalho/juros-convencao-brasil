@@ -1,0 +1,134 @@
+{
+ "titulo": "Uma recessão de 4%, duas histórias: recuperação completa e histerese",
+ "tipo": "barras",
+ "unidade": "índice do PIB (ano 0 = 100)",
+ "fonte": "Simulação do painel",
+ "url": "https://www.nber.org/papers/w20185",
+ "consulta": "2026-11-02",
+ "nota": "Tendência de 2% ao ano. Na recuperação completa o hiato de 5,9% do ano 1 fecha em três anos. Na histerese, 60% desse hiato vira perda permanente de produto potencial, como no padrão que Ball (2014) mede nos países da OCDE depois de 2008.",
+ "series": [
+  {
+   "nome": "Tendência pré-crise",
+   "pontos": [
+    {
+     "t": "ano 0",
+     "v": 100.0
+    },
+    {
+     "t": "ano 1",
+     "v": 102.0
+    },
+    {
+     "t": "ano 2",
+     "v": 104.0
+    },
+    {
+     "t": "ano 3",
+     "v": 106.1
+    },
+    {
+     "t": "ano 4",
+     "v": 108.2
+    },
+    {
+     "t": "ano 5",
+     "v": 110.4
+    },
+    {
+     "t": "ano 6",
+     "v": 112.6
+    },
+    {
+     "t": "ano 7",
+     "v": 114.9
+    },
+    {
+     "t": "ano 8",
+     "v": 117.2
+    }
+   ]
+  },
+  {
+   "nome": "Recuperação completa",
+   "pontos": [
+    {
+     "t": "ano 0",
+     "v": 100
+    },
+    {
+     "t": "ano 1",
+     "v": 96
+    },
+    {
+     "t": "ano 2",
+     "v": 100.0
+    },
+    {
+     "t": "ano 3",
+     "v": 104.0
+    },
+    {
+     "t": "ano 4",
+     "v": 108.2
+    },
+    {
+     "t": "ano 5",
+     "v": 110.4
+    },
+    {
+     "t": "ano 6",
+     "v": 112.6
+    },
+    {
+     "t": "ano 7",
+     "v": 114.9
+    },
+    {
+     "t": "ano 8",
+     "v": 117.2
+    }
+   ]
+  },
+  {
+   "nome": "Histerese",
+   "pontos": [
+    {
+     "t": "ano 0",
+     "v": 100
+    },
+    {
+     "t": "ano 1",
+     "v": 96
+    },
+    {
+     "t": "ano 2",
+     "v": 98.7
+    },
+    {
+     "t": "ano 3",
+     "v": 101.5
+    },
+    {
+     "t": "ano 4",
+     "v": 104.4
+    },
+    {
+     "t": "ano 5",
+     "v": 106.5
+    },
+    {
+     "t": "ano 6",
+     "v": 108.6
+    },
+    {
+     "t": "ano 7",
+     "v": 110.8
+    },
+    {
+     "t": "ano 8",
+     "v": 113.0
+    }
+   ]
+  }
+ ]
+}

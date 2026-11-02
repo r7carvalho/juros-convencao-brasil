@@ -1,0 +1,56 @@
+{
+ "titulo": "Alta do juro que zera um ano de cupom (r² / (1 − r)), em pontos percentuais",
+ "tipo": "barras",
+ "unidade": "p.p. ao ano",
+ "fonte": "Cálculo do painel a partir de Keynes (1936), Teoria Geral, cap. 15, p. 202",
+ "url": "https://www.hetwebsite.net/het/texts/keynes/gt/chap15.htm",
+ "consulta": "2026-11-02",
+ "nota": "Se o juro sobe de r para r' em um ano, a perda de capital da perpetuidade iguala o cupom quando r' = r / (1 − r). Keynes usa a aproximação r²: 0,16 p.p. a 4% e 0,04 p.p. a 2%.",
+ "series": [
+  {
+   "nome": "Alta que zera o cupom de um ano",
+   "pontos": [
+    {
+     "t": "1%",
+     "v": 0.01
+    },
+    {
+     "t": "2%",
+     "v": 0.041
+    },
+    {
+     "t": "3%",
+     "v": 0.093
+    },
+    {
+     "t": "4%",
+     "v": 0.167
+    },
+    {
+     "t": "5%",
+     "v": 0.263
+    },
+    {
+     "t": "6%",
+     "v": 0.383
+    },
+    {
+     "t": "7%",
+     "v": 0.527
+    },
+    {
+     "t": "8%",
+     "v": 0.696
+    },
+    {
+     "t": "9%",
+     "v": 0.89
+    },
+    {
+     "t": "10%",
+     "v": 1.111
+    }
+   ]
+  }
+ ]
+}

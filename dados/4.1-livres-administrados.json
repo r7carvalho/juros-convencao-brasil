@@ -1,0 +1,86 @@
+{
+ "titulo": "IPCA: preços livres × administrados (monitorados) em anos-chave (% no ano)",
+ "tipo": "barras",
+ "unidade": "% no ano",
+ "fonte": "BCB, SGS 11428 (itens livres) e 4449 (monitorados); carta aberta do BCB de jan/2016 (2015); IBGE e boletins de mercado para 2024–2025",
+ "url": "https://www.bcb.gov.br/content/controleinflacao/controleinflacao_docs/carta_aberta/carta2015.pdf",
+ "consulta": "2026-11-02",
+ "nota": "2015: tabela da carta aberta do BCB (livres 8,51%; administrados 18,07%). 2024–2025: administrados 4,66% e 5,28% e livres de 2025 (3,92%) segundo os balanços do IPCA de dezembro. 2021 e 2022: valores da série do BCB registrados pelo painel e pendentes de reconferência na API do SGS, bloqueada nesta sessão. Livres de 2024 sem valor conferido.",
+ "series": [
+  {
+   "nome": "Livres",
+   "pontos": [
+    {
+     "t": "2015",
+     "v": 8.51
+    },
+    {
+     "t": "2021",
+     "v": 7.71
+    },
+    {
+     "t": "2022",
+     "v": 9.38
+    },
+    {
+     "t": "2024",
+     "v": null
+    },
+    {
+     "t": "2025",
+     "v": 3.92
+    }
+   ]
+  },
+  {
+   "nome": "Administrados",
+   "pontos": [
+    {
+     "t": "2015",
+     "v": 18.07
+    },
+    {
+     "t": "2021",
+     "v": 16.9
+    },
+    {
+     "t": "2022",
+     "v": -3.83
+    },
+    {
+     "t": "2024",
+     "v": 4.66
+    },
+    {
+     "t": "2025",
+     "v": 5.28
+    }
+   ]
+  },
+  {
+   "nome": "IPCA",
+   "pontos": [
+    {
+     "t": "2015",
+     "v": 10.67
+    },
+    {
+     "t": "2021",
+     "v": 10.06
+    },
+    {
+     "t": "2022",
+     "v": 5.79
+    },
+    {
+     "t": "2024",
+     "v": 4.83
+    },
+    {
+     "t": "2025",
+     "v": 4.26
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "titulo": "Dívida bruta e juros líquidos do governo geral, 2025 (% do PIB)",
+ "tipo": "barras",
+ "unidade": "% do PIB",
+ "fonte": "FMI, DataMapper (WEO/Fiscal Monitor): GGXWDG_NGDP, GGXONLB_G01_GDP_PT, GGXCNL_G01_GDP_PT; juros líquidos = primário menos nominal; compilação da Frente J",
+ "url": "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
+ "consulta": "2026-10-28",
+ "nota": "Conceito FMI de dívida bruta (inclui títulos do Tesouro na carteira do BC). No conceito do BCB a dívida brasileira era 78,6% do PIB em dez/2025.",
+ "series": [
+  {
+   "nome": "Dívida bruta",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "v": 93.3
+    },
+    {
+     "t": "México",
+     "v": 61.7
+    },
+    {
+     "t": "Índia",
+     "v": 84.3
+    },
+    {
+     "t": "África do Sul",
+     "v": 78.4
+    },
+    {
+     "t": "Colômbia",
+     "v": 59.9
+    },
+    {
+     "t": "Turquia",
+     "v": 23.7
+    },
+    {
+     "t": "China",
+     "v": 98.6
+    },
+    {
+     "t": "Estados Unidos",
+     "v": 124.4
+    },
+    {
+     "t": "Japão",
+     "v": 204.8
+    },
+    {
+     "t": "Itália",
+     "v": 137.1
+    },
+    {
+     "t": "França",
+     "v": 115.5
+    },
+    {
+     "t": "Reino Unido",
+     "v": 102.1
+    }
+   ]
+  },
+  {
+   "nome": "Juros líquidos",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "v": 7.29
+    },
+    {
+     "t": "México",
+     "v": 6.1
+    },
+    {
+     "t": "Índia",
+     "v": 5.13
+    },
+    {
+     "t": "África do Sul",
+     "v": 5.41
+    },
+    {
+     "t": "Colômbia",
+     "v": 2.3
+    },
+    {
+     "t": "Turquia",
+     "v": 2.61
+    },
+    {
+     "t": "China",
+     "v": 0.96
+    },
+    {
+     "t": "Estados Unidos",
+     "v": 3.18
+    },
+    {
+     "t": "Japão",
+     "v": 0.2
+    },
+    {
+     "t": "Itália",
+     "v": 3.61
+    },
+    {
+     "t": "França",
+     "v": 2.08
+    },
+    {
+     "t": "Reino Unido",
+     "v": 2.6
+    }
+   ]
+  }
+ ]
+}

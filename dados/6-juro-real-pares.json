@@ -1,0 +1,113 @@
+{
+ "titulo": "Juro real ex-post da taxa básica: Brasil e emergentes, média por período (% a.a.)",
+ "tipo": "barras",
+ "unidade": "% a.a.",
+ "fonte": "BIS, taxas de política monetária (WS_CBPOL) e inflação ao consumidor (WS_LONG_CPI); cálculo da Frente K reunido em insumos/frente-K.json; médias do painel",
+ "url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv",
+ "nota": "Média anual da taxa de política deflacionada pela inflação média em 12 meses. 2026 = jan-ago. Média simples dos anos de cada período.",
+ "series": [
+  {
+   "nome": "Brasil",
+   "pontos": [
+    {
+     "t": "2000–2009",
+     "v": 8.8
+    },
+    {
+     "t": "2010–2019",
+     "v": 3.9
+    },
+    {
+     "t": "2023–2026",
+     "v": 8.3
+    }
+   ]
+  },
+  {
+   "nome": "México",
+   "pontos": [
+    {
+     "t": "2000–2009",
+     "v": 3.1
+    },
+    {
+     "t": "2010–2019",
+     "v": 1.0
+    },
+    {
+     "t": "2023–2026",
+     "v": 4.5
+    }
+   ]
+  },
+  {
+   "nome": "Chile",
+   "pontos": [
+    {
+     "t": "2000–2009",
+     "v": 0.7
+    },
+    {
+     "t": "2010–2019",
+     "v": 0.4
+    },
+    {
+     "t": "2023–2026",
+     "v": 1.5
+    }
+   ]
+  },
+  {
+   "nome": "Colômbia",
+   "pontos": [
+    {
+     "t": "2000–2009",
+     "v": 1.6
+    },
+    {
+     "t": "2010–2019",
+     "v": 0.8
+    },
+    {
+     "t": "2023–2026",
+     "v": 3.6
+    }
+   ]
+  },
+  {
+   "nome": "Índia",
+   "pontos": [
+    {
+     "t": "2000–2009",
+     "v": 1.9
+    },
+    {
+     "t": "2010–2019",
+     "v": 0.8
+    },
+    {
+     "t": "2023–2026",
+     "v": 1.8
+    }
+   ]
+  },
+  {
+   "nome": "África do Sul",
+   "pontos": [
+    {
+     "t": "2000–2009",
+     "v": 3.6
+    },
+    {
+     "t": "2010–2019",
+     "v": 0.9
+    },
+    {
+     "t": "2023–2026",
+     "v": 3.1
+    }
+   ]
+  }
+ ],
+ "consulta": "2026-11-02"
+}

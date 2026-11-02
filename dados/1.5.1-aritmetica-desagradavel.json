@@ -1,0 +1,181 @@
+{
+ "titulo": "Aritmética desagradável, em brinquedo: inflação anual sob duas políticas monetárias com o mesmo déficit",
+ "tipo": "barras",
+ "unidade": "% ao ano",
+ "fonte": "Simulação do painel inspirada em Sargent e Wallace (1981)",
+ "url": "https://www.minneapolisfed.org/research/quarterly-review/some-unpleasant-monetarist-arithmetic",
+ "consulta": "2026-11-02",
+ "nota": "Hipóteses: dívida inicial de 40% do PIB, déficit primário de 0,5% do PIB, juro real menos crescimento de 2,5 p.p., base monetária de 10% do PIB, senhoriagem igual a inflação vezes base. 'Monetiza já' estabiliza a dívida desde o ano 1; 'aperta 10 anos' não emite moeda até o ano 10 e financia tudo com títulos.",
+ "series": [
+  {
+   "nome": "Monetiza já",
+   "pontos": [
+    {
+     "t": "ano 1",
+     "v": 15.0
+    },
+    {
+     "t": "ano 2",
+     "v": 15.0
+    },
+    {
+     "t": "ano 3",
+     "v": 15.0
+    },
+    {
+     "t": "ano 4",
+     "v": 15.0
+    },
+    {
+     "t": "ano 5",
+     "v": 15.0
+    },
+    {
+     "t": "ano 6",
+     "v": 15.0
+    },
+    {
+     "t": "ano 7",
+     "v": 15.0
+    },
+    {
+     "t": "ano 8",
+     "v": 15.0
+    },
+    {
+     "t": "ano 9",
+     "v": 15.0
+    },
+    {
+     "t": "ano 10",
+     "v": 15.0
+    },
+    {
+     "t": "ano 11",
+     "v": 15.0
+    },
+    {
+     "t": "ano 12",
+     "v": 15.0
+    },
+    {
+     "t": "ano 13",
+     "v": 15.0
+    },
+    {
+     "t": "ano 14",
+     "v": 15.0
+    },
+    {
+     "t": "ano 15",
+     "v": 15.0
+    },
+    {
+     "t": "ano 16",
+     "v": 15.0
+    },
+    {
+     "t": "ano 17",
+     "v": 15.0
+    },
+    {
+     "t": "ano 18",
+     "v": 15.0
+    },
+    {
+     "t": "ano 19",
+     "v": 15.0
+    },
+    {
+     "t": "ano 20",
+     "v": 15.0
+    }
+   ]
+  },
+  {
+   "nome": "Aperta 10 anos, depois monetiza",
+   "pontos": [
+    {
+     "t": "ano 1",
+     "v": 0.0
+    },
+    {
+     "t": "ano 2",
+     "v": 0.0
+    },
+    {
+     "t": "ano 3",
+     "v": 0.0
+    },
+    {
+     "t": "ano 4",
+     "v": 0.0
+    },
+    {
+     "t": "ano 5",
+     "v": 0.0
+    },
+    {
+     "t": "ano 6",
+     "v": 0.0
+    },
+    {
+     "t": "ano 7",
+     "v": 0.0
+    },
+    {
+     "t": "ano 8",
+     "v": 0.0
+    },
+    {
+     "t": "ano 9",
+     "v": 0.0
+    },
+    {
+     "t": "ano 10",
+     "v": 0.0
+    },
+    {
+     "t": "ano 11",
+     "v": 19.2
+    },
+    {
+     "t": "ano 12",
+     "v": 19.2
+    },
+    {
+     "t": "ano 13",
+     "v": 19.2
+    },
+    {
+     "t": "ano 14",
+     "v": 19.2
+    },
+    {
+     "t": "ano 15",
+     "v": 19.2
+    },
+    {
+     "t": "ano 16",
+     "v": 19.2
+    },
+    {
+     "t": "ano 17",
+     "v": 19.2
+    },
+    {
+     "t": "ano 18",
+     "v": 19.2
+    },
+    {
+     "t": "ano 19",
+     "v": 19.2
+    },
+    {
+     "t": "ano 20",
+     "v": 19.2
+    }
+   ]
+  }
+ ]
+}

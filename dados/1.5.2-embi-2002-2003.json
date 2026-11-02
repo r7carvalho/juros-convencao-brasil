@@ -1,0 +1,41 @@
+{
+ "titulo": "EMBI+ Brasil, 2002–2003 (pontos-base)",
+ "tipo": "linha",
+ "unidade": "pontos-base",
+ "fonte": "JP Morgan, EMBI+ Brasil, via Ipeadata (série JPM366_EMBI366); pontos selecionados pela Frente I do painel irmão",
+ "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='JPM366_EMBI366')",
+ "consulta": "2026-11-02",
+ "nota": "Seis datas, não a série diária: início de 2002, pico de 27/09/2002, véspera e dia seguinte ao 2º turno, abr/2003 e out/2003.",
+ "governos": true,
+ "series": [
+  {
+   "nome": "EMBI+ Brasil",
+   "pontos": [
+    {
+     "t": "2002-01-02",
+     "v": 824
+    },
+    {
+     "t": "2002-09-27",
+     "v": 2443
+    },
+    {
+     "t": "2002-10-25",
+     "v": 1785
+    },
+    {
+     "t": "2002-10-28",
+     "v": 1850
+    },
+    {
+     "t": "2003-04-25",
+     "v": 870
+    },
+    {
+     "t": "2003-10-27",
+     "v": 653
+    }
+   ]
+  }
+ ]
+}

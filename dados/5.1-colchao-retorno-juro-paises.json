@@ -1,0 +1,77 @@
+{
+ "titulo": "Retorno real do capital e juro real da taxa básica, média 2010-2019 (% a.a.)",
+ "tipo": "barras",
+ "unidade": "% a.a.",
+ "fonte": "Penn World Table 10.0 (irr); juro real ex-post da taxa de política, painel BIS (WS_CBPOL e WS_LONG_CPI), cálculo da Frente K do painel irmão; médias simples do painel",
+ "url": "https://stats.bis.org/",
+ "consulta": "2026-11-02",
+ "nota": "Diferença (colchão) entre as duas barras: Brasil 6,5 p.p.; México 10,8; Chile 11,0; Colômbia 11,3; Índia 10,8; África do Sul 9,4; EUA 8,6. Arquivo da PWT lido do https://raw.githubusercontent.com/cran/pwt10/master/data/pwt10.0.rda (Penn World Table 10.0, Feenstra, Inklaar e Timmer; espelho do pacote R pwt10; original em https://www.rug.nl/ggdc/productivity/pwt/)",
+ "series": [
+  {
+   "nome": "Retorno real do capital (PWT irr)",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "v": 10.4
+    },
+    {
+     "t": "México",
+     "v": 11.8
+    },
+    {
+     "t": "Chile",
+     "v": 11.4
+    },
+    {
+     "t": "Colômbia",
+     "v": 12.2
+    },
+    {
+     "t": "Índia",
+     "v": 11.6
+    },
+    {
+     "t": "África do Sul",
+     "v": 10.3
+    },
+    {
+     "t": "EUA",
+     "v": 7.4
+    }
+   ]
+  },
+  {
+   "nome": "Juro real da taxa básica (BIS)",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "v": 3.8
+    },
+    {
+     "t": "México",
+     "v": 1.0
+    },
+    {
+     "t": "Chile",
+     "v": 0.4
+    },
+    {
+     "t": "Colômbia",
+     "v": 0.8
+    },
+    {
+     "t": "Índia",
+     "v": 0.8
+    },
+    {
+     "t": "África do Sul",
+     "v": 0.9
+    },
+    {
+     "t": "EUA",
+     "v": -1.1
+    }
+   ]
+  }
+ ]
+}

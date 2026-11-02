@@ -1,0 +1,248 @@
+{
+ "titulo": "Brasil: juro real ex-ante e ex-post, 2000 a 2026 (% a.a.)",
+ "tipo": "linha",
+ "unidade": "% a.a.",
+ "fonte": "BCB, SGS 4390, 4189 e 433, e Focus (mediana suavizada do IPCA 12 meses à frente); cálculo da Frente K do painel Alarmismo × Fatos",
+ "url": "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoInflacao12Meses?$format=json",
+ "consulta": "2026-10-28",
+ "nota": "Ex-post: Selic acumulada em 12 meses deflacionada pelo IPCA de 12 meses (dezembro). Ex-ante: Selic over corrente deflacionada pela mediana Focus do IPCA 12 meses à frente, último dia útil de dezembro; o padrão de mercado usa o swap DI de 360 dias, que difere em até 0,4 p.p. Pontos de 2026: setembro e, no ex-ante, 23/10/2026. A faixa de referência mostra as estimativas de juro neutro discutidas na página: 5% (BC) e 8% (estimativa mais alta citada).",
+ "governos": true,
+ "ref": [
+  {
+   "v": 5.0,
+   "rotulo": "neutro BC 5%"
+  },
+  {
+   "v": 8.0,
+   "rotulo": "neutro 8% (ASA)"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Ex-ante (esperado)",
+   "pontos": [
+    {
+     "t": "2001",
+     "v": 13.71
+    },
+    {
+     "t": "2002",
+     "v": 9.59
+    },
+    {
+     "t": "2003",
+     "v": 10.34
+    },
+    {
+     "t": "2004",
+     "v": 11.03
+    },
+    {
+     "t": "2005",
+     "v": 13.13
+    },
+    {
+     "t": "2006",
+     "v": 8.77
+    },
+    {
+     "t": "2007",
+     "v": 6.62
+    },
+    {
+     "t": "2008",
+     "v": 8.29
+    },
+    {
+     "t": "2009",
+     "v": 4.03
+    },
+    {
+     "t": "2010",
+     "v": 5.04
+    },
+    {
+     "t": "2011",
+     "v": 5.29
+    },
+    {
+     "t": "2012",
+     "v": 1.55
+    },
+    {
+     "t": "2013",
+     "v": 3.67
+    },
+    {
+     "t": "2014",
+     "v": 4.66
+    },
+    {
+     "t": "2015",
+     "v": 6.74
+    },
+    {
+     "t": "2016",
+     "v": 8.44
+    },
+    {
+     "t": "2017",
+     "v": 2.98
+    },
+    {
+     "t": "2018",
+     "v": 2.41
+    },
+    {
+     "t": "2019",
+     "v": 0.83
+    },
+    {
+     "t": "2020",
+     "v": -1.6
+    },
+    {
+     "t": "2021",
+     "v": 3.51
+    },
+    {
+     "t": "2022",
+     "v": 7.93
+    },
+    {
+     "t": "2023",
+     "v": 7.7
+    },
+    {
+     "t": "2024",
+     "v": 6.5
+    },
+    {
+     "t": "2025",
+     "v": 10.46
+    },
+    {
+     "t": "2026-09",
+     "v": 8.78
+    },
+    {
+     "t": "2026-10-23",
+     "v": 8.72
+    }
+   ]
+  },
+  {
+   "nome": "Ex-post (realizado)",
+   "pontos": [
+    {
+     "t": "2000",
+     "v": 10.83
+    },
+    {
+     "t": "2001",
+     "v": 8.96
+    },
+    {
+     "t": "2002",
+     "v": 5.89
+    },
+    {
+     "t": "2003",
+     "v": 12.84
+    },
+    {
+     "t": "2004",
+     "v": 8.02
+    },
+    {
+     "t": "2005",
+     "v": 12.64
+    },
+    {
+     "t": "2006",
+     "v": 11.58
+    },
+    {
+     "t": "2007",
+     "v": 7.08
+    },
+    {
+     "t": "2008",
+     "v": 6.21
+    },
+    {
+     "t": "2009",
+     "v": 5.38
+    },
+    {
+     "t": "2010",
+     "v": 3.66
+    },
+    {
+     "t": "2011",
+     "v": 4.8
+    },
+    {
+     "t": "2012",
+     "v": 2.5
+    },
+    {
+     "t": "2013",
+     "v": 2.17
+    },
+    {
+     "t": "2014",
+     "v": 4.23
+    },
+    {
+     "t": "2015",
+     "v": 2.36
+    },
+    {
+     "t": "2016",
+     "v": 7.28
+    },
+    {
+     "t": "2017",
+     "v": 6.81
+    },
+    {
+     "t": "2018",
+     "v": 2.58
+    },
+    {
+     "t": "2019",
+     "v": 1.57
+    },
+    {
+     "t": "2020",
+     "v": -1.69
+    },
+    {
+     "t": "2021",
+     "v": -5.11
+    },
+    {
+     "t": "2022",
+     "v": 6.23
+    },
+    {
+     "t": "2023",
+     "v": 8.04
+    },
+    {
+     "t": "2024",
+     "v": 5.78
+    },
+    {
+     "t": "2025",
+     "v": 9.66
+    },
+    {
+     "t": "2026-09",
+     "v": 9.46
+    }
+   ]
+  }
+ ]
+}

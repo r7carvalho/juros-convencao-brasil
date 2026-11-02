@@ -1,0 +1,78 @@
+{
+ "titulo": "IPCA em 12 meses e meta depois da autonomia formal do BC (LC 179/2021) (%)",
+ "tipo": "linha",
+ "unidade": "%",
+ "fonte": "IBGE, IPCA acumulado em 12 meses (SIDRA, tabela 1737); BCB, histórico de metas; reunidos em insumos/frente-C.json e insumos/frente-K.json",
+ "url": "https://www.bcb.gov.br/controleinflacao/historicometas",
+ "nota": "Pontos selecionados. Teto da meta: 5,25% (2021), 5,0% (2022), 4,75% (2023), 4,5% (2024 em diante).",
+ "governos": true,
+ "series": [
+  {
+   "nome": "IPCA 12 meses",
+   "pontos": [
+    {
+     "t": "2021-12",
+     "v": 10.06
+    },
+    {
+     "t": "2022-12",
+     "v": 5.79
+    },
+    {
+     "t": "2023-12",
+     "v": 4.62
+    },
+    {
+     "t": "2024-12",
+     "v": 4.83
+    },
+    {
+     "t": "2025-04",
+     "v": 5.53
+    },
+    {
+     "t": "2025-12",
+     "v": 4.26
+    },
+    {
+     "t": "2026-09",
+     "v": 4.58
+    }
+   ]
+  },
+  {
+   "nome": "Centro da meta",
+   "pontos": [
+    {
+     "t": "2021-12",
+     "v": 3.75
+    },
+    {
+     "t": "2022-12",
+     "v": 3.5
+    },
+    {
+     "t": "2023-12",
+     "v": 3.25
+    },
+    {
+     "t": "2024-12",
+     "v": 3.0
+    },
+    {
+     "t": "2025-04",
+     "v": 3.0
+    },
+    {
+     "t": "2025-12",
+     "v": 3.0
+    },
+    {
+     "t": "2026-09",
+     "v": 3.0
+    }
+   ]
+  }
+ ],
+ "consulta": "2026-11-02"
+}

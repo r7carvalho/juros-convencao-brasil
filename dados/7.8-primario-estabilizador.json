@@ -1,0 +1,50 @@
+{
+ "titulo": "Superávit primário que estabiliza a dívida, por juro real (% do PIB)",
+ "tipo": "barras",
+ "unidade": "% do PIB",
+ "fonte": "Cálculo da Frente J com dívida bruta de 82,9% do PIB (BCB, ago/2026) e crescimento real de 2% a.a.; IFI, RAF 113 (jun/2026); BCB, NFSP primária do governo geral",
+ "url": "https://www12.senado.leg.br/ifi/pdf/raf113_jun2026.pdf",
+ "consulta": "2026-10-28",
+ "nota": "p* = d(r − γ)/(1 + γ). A última barra é o resultado efetivo do governo geral em 12 meses até ago/2026 (déficit).",
+ "ref": [
+  {
+   "v": 0,
+   "rotulo": "equilíbrio primário"
+  }
+ ],
+ "series": [
+  {
+   "nome": "% do PIB",
+   "pontos": [
+    {
+     "t": "Juro real 4%",
+     "v": 1.6
+    },
+    {
+     "t": "Juro real 5%",
+     "v": 2.4
+    },
+    {
+     "t": "Juro real 6%",
+     "v": 3.3
+    },
+    {
+     "t": "Juro real 7%",
+     "v": 4.1
+    },
+    {
+     "t": "Taxas efetivas de 2025",
+     "v": 3.3
+    },
+    {
+     "t": "IFI (RAF 113)",
+     "v": 2.1
+    },
+    {
+     "t": "Resultado atual (12m até ago/2026)",
+     "v": -0.56
+    }
+   ]
+  }
+ ]
+}

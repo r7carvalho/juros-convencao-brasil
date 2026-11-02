@@ -1,0 +1,155 @@
+{
+ "titulo": "Brasil: juro real ex-post, 1995 a set/2026 (% a.a.)",
+ "tipo": "linha",
+ "unidade": "% a.a.",
+ "fonte": "BCB, SGS 4390 e 4189 (Selic); IBGE, IPCA (SIDRA 1737); 2000 a 2026 cálculo da Frente K do painel Alarmismo × Fatos; 1995 a 1999 cálculo do painel",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json",
+ "consulta": "2026-11-02",
+ "nota": "(1 + Selic acumulada no ano) / (1 + IPCA do ano) - 1. Para 1995-1999, Selic acumulada no ano de 53,08%, 27,41%, 24,77%, 28,79% e 25,59% (tabelas públicas da Selic mensal da Receita Federal, cotejadas em compilações secundárias porque o SGS estava inacessível na sessão; conferir no SGS 4390). Último ponto: 12 meses até setembro de 2026. Linha de 5%: juro neutro usado pelo Copom desde dez/2024.",
+ "governos": true,
+ "ref": [
+  {
+   "v": 5.0,
+   "rotulo": "neutro do BC (5%)"
+  },
+  {
+   "v": 0,
+   "rotulo": "zero"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Juro real ex-post",
+   "pontos": [
+    {
+     "t": "1995",
+     "v": 25.06
+    },
+    {
+     "t": "1996",
+     "v": 16.29
+    },
+    {
+     "t": "1997",
+     "v": 18.58
+    },
+    {
+     "t": "1998",
+     "v": 26.7
+    },
+    {
+     "t": "1999",
+     "v": 15.28
+    },
+    {
+     "t": "2000",
+     "v": 10.83
+    },
+    {
+     "t": "2001",
+     "v": 8.96
+    },
+    {
+     "t": "2002",
+     "v": 5.89
+    },
+    {
+     "t": "2003",
+     "v": 12.84
+    },
+    {
+     "t": "2004",
+     "v": 8.02
+    },
+    {
+     "t": "2005",
+     "v": 12.64
+    },
+    {
+     "t": "2006",
+     "v": 11.58
+    },
+    {
+     "t": "2007",
+     "v": 7.08
+    },
+    {
+     "t": "2008",
+     "v": 6.21
+    },
+    {
+     "t": "2009",
+     "v": 5.38
+    },
+    {
+     "t": "2010",
+     "v": 3.66
+    },
+    {
+     "t": "2011",
+     "v": 4.8
+    },
+    {
+     "t": "2012",
+     "v": 2.5
+    },
+    {
+     "t": "2013",
+     "v": 2.17
+    },
+    {
+     "t": "2014",
+     "v": 4.23
+    },
+    {
+     "t": "2015",
+     "v": 2.36
+    },
+    {
+     "t": "2016",
+     "v": 7.28
+    },
+    {
+     "t": "2017",
+     "v": 6.81
+    },
+    {
+     "t": "2018",
+     "v": 2.58
+    },
+    {
+     "t": "2019",
+     "v": 1.57
+    },
+    {
+     "t": "2020",
+     "v": -1.69
+    },
+    {
+     "t": "2021",
+     "v": -5.11
+    },
+    {
+     "t": "2022",
+     "v": 6.23
+    },
+    {
+     "t": "2023",
+     "v": 8.04
+    },
+    {
+     "t": "2024",
+     "v": 5.78
+    },
+    {
+     "t": "2025",
+     "v": 9.66
+    },
+    {
+     "t": "2026-09",
+     "v": 9.46
+    }
+   ]
+  }
+ ]
+}

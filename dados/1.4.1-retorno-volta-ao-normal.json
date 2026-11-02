@@ -1,0 +1,58 @@
+{
+ "titulo": "Retorno em um ano de quem compra a perpetuidade hoje, se o juro voltar a 5% ao fim do ano",
+ "tipo": "barras",
+ "unidade": "% em um ano",
+ "fonte": "Cálculo do painel: (20 + 1 − P0) / P0, com P0 = 1 / r e preço final de R$ 20",
+ "url": "https://www.hetwebsite.net/het/texts/keynes/gt/chap15.htm",
+ "consulta": "2026-11-02",
+ "nota": "Exemplo didático. Supõe que o investidor tem certeza de que o juro 'normal' é 5% e que ele volta a 5% em um ano; o retorno inclui o cupom de R$ 1.",
+ "ref": [
+  {
+   "v": 0,
+   "rotulo": "zero"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Retorno esperado",
+   "pontos": [
+    {
+     "t": "2%",
+     "v": -58.0
+    },
+    {
+     "t": "3%",
+     "v": -37.0
+    },
+    {
+     "t": "4%",
+     "v": -16.0
+    },
+    {
+     "t": "5%",
+     "v": 5.0
+    },
+    {
+     "t": "6%",
+     "v": 26.0
+    },
+    {
+     "t": "7%",
+     "v": 47.0
+    },
+    {
+     "t": "8%",
+     "v": 68.0
+    },
+    {
+     "t": "9%",
+     "v": 89.0
+    },
+    {
+     "t": "10%",
+     "v": 110.0
+    }
+   ]
+  }
+ ]
+}

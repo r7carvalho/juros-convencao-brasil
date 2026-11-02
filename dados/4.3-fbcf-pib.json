@@ -1,0 +1,113 @@
+{
+ "titulo": "Taxa de investimento (FBCF/PIB), 2003–2026 (% do PIB)",
+ "tipo": "linha",
+ "unidade": "% do PIB",
+ "fonte": "IBGE, Contas Trimestrais (SIDRA 1846), preços correntes; insumos do painel (frente L)",
+ "url": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
+ "consulta": "2026-11-02",
+ "nota": "2026 = 1º semestre. A série em volume mostra pico da FBCF no 2º tri de 2013 e queda de cerca de 32% até o fim de 2016.",
+ "governos": true,
+ "series": [
+  {
+   "nome": "FBCF/PIB",
+   "pontos": [
+    {
+     "t": "2003",
+     "v": 16.6
+    },
+    {
+     "t": "2004",
+     "v": 17.3
+    },
+    {
+     "t": "2005",
+     "v": 17.1
+    },
+    {
+     "t": "2006",
+     "v": 17.2
+    },
+    {
+     "t": "2007",
+     "v": 18.0
+    },
+    {
+     "t": "2008",
+     "v": 19.4
+    },
+    {
+     "t": "2009",
+     "v": 19.1
+    },
+    {
+     "t": "2010",
+     "v": 20.5
+    },
+    {
+     "t": "2011",
+     "v": 20.6
+    },
+    {
+     "t": "2012",
+     "v": 20.7
+    },
+    {
+     "t": "2013",
+     "v": 20.9
+    },
+    {
+     "t": "2014",
+     "v": 19.9
+    },
+    {
+     "t": "2015",
+     "v": 17.8
+    },
+    {
+     "t": "2016",
+     "v": 15.5
+    },
+    {
+     "t": "2017",
+     "v": 14.6
+    },
+    {
+     "t": "2018",
+     "v": 15.1
+    },
+    {
+     "t": "2019",
+     "v": 15.5
+    },
+    {
+     "t": "2020",
+     "v": 16.6
+    },
+    {
+     "t": "2021",
+     "v": 17.9
+    },
+    {
+     "t": "2022",
+     "v": 17.8
+    },
+    {
+     "t": "2023",
+     "v": 16.4
+    },
+    {
+     "t": "2024",
+     "v": 16.9
+    },
+    {
+     "t": "2025",
+     "v": 16.8
+    },
+    {
+     "t": "2026",
+     "v": 16.3
+    }
+   ]
+  }
+ ]
+}

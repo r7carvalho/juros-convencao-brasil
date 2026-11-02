@@ -1,0 +1,42 @@
+{
+ "titulo": "Superávit primário que estabiliza a dívida bruta de 82,9% do PIB, conforme o juro real implícito",
+ "tipo": "barras",
+ "unidade": "% do PIB",
+ "fonte": "Frente J do painel irmão (BCB, Estatísticas Fiscais, DBGG de ago/2026; IFI, RAF 113); regra p* = d(r − g)/(1 + g) com crescimento real de 2% a.a.",
+ "url": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+ "consulta": "2026-11-02",
+ "nota": "Cenários da Frente J. A linha de referência mostra o resultado primário do governo geral em 12 meses até ago/2026 (déficit de 0,56% do PIB).",
+ "ref": [
+  {
+   "v": -0.56,
+   "rotulo": "primário atual (12 m até ago/2026)"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Primário estabilizador",
+   "pontos": [
+    {
+     "t": "juro real 4%",
+     "v": 1.6
+    },
+    {
+     "t": "juro real 5%",
+     "v": 2.4
+    },
+    {
+     "t": "juro real 6%",
+     "v": 3.3
+    },
+    {
+     "t": "juro real 7%",
+     "v": 4.1
+    },
+    {
+     "t": "taxas de 2025",
+     "v": 3.3
+    }
+   ]
+  }
+ ]
+}

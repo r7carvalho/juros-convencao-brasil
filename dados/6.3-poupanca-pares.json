@@ -1,0 +1,48 @@
+{
+ "titulo": "Poupança bruta em 2024: Brasil e pares (% do PIB)",
+ "tipo": "barrash",
+ "unidade": "% do PIB",
+ "fonte": "Banco Mundial, World Development Indicators, poupança bruta (NY.GNS.ICTR.ZS), na compilação 'List of countries by gross national savings' (Wikipedia, consultada via busca)",
+ "url": "https://data.worldbank.org/indicator/NY.GNS.ICTR.ZS",
+ "nota": "China e Coreia do Sul: último dado disponível, 2023. Outras compilações do mesmo indicador dão Brasil 14,1%, Chile 21,8%, México 19,3% e Colômbia 13,6% para 2024. A taxa de poupança do IBGE foi 14,1% em 2024 e 14,4% em 2025. A conferir na base do Banco Mundial.",
+ "series": [
+  {
+   "nome": "Poupança bruta 2024",
+   "pontos": [
+    {
+     "t": "China (2023)",
+     "v": 42.5
+    },
+    {
+     "t": "Indonésia",
+     "v": 34.7
+    },
+    {
+     "t": "Coreia do Sul (2023)",
+     "v": 33.8
+    },
+    {
+     "t": "Índia",
+     "v": 30.0
+    },
+    {
+     "t": "Chile",
+     "v": 21.8
+    },
+    {
+     "t": "México",
+     "v": 19.0
+    },
+    {
+     "t": "Brasil",
+     "v": 14.5
+    },
+    {
+     "t": "Colômbia",
+     "v": 13.8
+    }
+   ]
+  }
+ ],
+ "consulta": "2026-11-02"
+}

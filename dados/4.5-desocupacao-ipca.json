@@ -1,0 +1,110 @@
+{
+ "titulo": "Desocupação média anual e IPCA, 2015–2025 (%)",
+ "tipo": "linha",
+ "unidade": "%",
+ "fonte": "IBGE, PNAD Contínua (média anual) e IPCA (SIDRA 1737); insumos do painel (frente C)",
+ "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45923-em-2025-vinte-unidades-da-federacao-registram-a-menor-taxa-de-desocupacao-da-serie.html",
+ "consulta": "2026-11-02",
+ "nota": "2025: desocupação média de 5,6%, menor da série iniciada em 2012; mínima trimestral de 5,1% em out–dez/2025.",
+ "governos": true,
+ "series": [
+  {
+   "nome": "Desocupação",
+   "pontos": [
+    {
+     "t": "2015",
+     "v": 8.6
+    },
+    {
+     "t": "2016",
+     "v": 11.7
+    },
+    {
+     "t": "2017",
+     "v": 12.9
+    },
+    {
+     "t": "2018",
+     "v": 12.4
+    },
+    {
+     "t": "2019",
+     "v": 12.0
+    },
+    {
+     "t": "2020",
+     "v": 13.8
+    },
+    {
+     "t": "2021",
+     "v": 13.2
+    },
+    {
+     "t": "2022",
+     "v": 9.3
+    },
+    {
+     "t": "2023",
+     "v": 7.8
+    },
+    {
+     "t": "2024",
+     "v": 6.6
+    },
+    {
+     "t": "2025",
+     "v": 5.6
+    }
+   ]
+  },
+  {
+   "nome": "IPCA",
+   "pontos": [
+    {
+     "t": "2015",
+     "v": 10.67
+    },
+    {
+     "t": "2016",
+     "v": 6.29
+    },
+    {
+     "t": "2017",
+     "v": 2.95
+    },
+    {
+     "t": "2018",
+     "v": 3.75
+    },
+    {
+     "t": "2019",
+     "v": 4.31
+    },
+    {
+     "t": "2020",
+     "v": 4.52
+    },
+    {
+     "t": "2021",
+     "v": 10.06
+    },
+    {
+     "t": "2022",
+     "v": 5.79
+    },
+    {
+     "t": "2023",
+     "v": 4.62
+    },
+    {
+     "t": "2024",
+     "v": 4.83
+    },
+    {
+     "t": "2025",
+     "v": 4.26
+    }
+   ]
+  }
+ ]
+}

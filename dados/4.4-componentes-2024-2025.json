@@ -1,0 +1,53 @@
+{
+ "titulo": "IPCA e componentes em 2024 e 2025 (% no ano)",
+ "tipo": "barras",
+ "unidade": "% no ano",
+ "fonte": "IBGE, IPCA de dezembro de 2024 e de 2025 (releases de 10/01/2025 e jan/2026), via balanços de imprensa do IBGE",
+ "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025",
+ "consulta": "2026-11-02",
+ "nota": "Serviços e administrados são agregados especiais calculados pelo BCB a partir dos subitens do IPCA.",
+ "series": [
+  {
+   "nome": "2024",
+   "pontos": [
+    {
+     "t": "IPCA",
+     "v": 4.83
+    },
+    {
+     "t": "Alimentação no domicílio",
+     "v": 8.23
+    },
+    {
+     "t": "Serviços",
+     "v": 4.78
+    },
+    {
+     "t": "Administrados",
+     "v": 4.66
+    }
+   ]
+  },
+  {
+   "nome": "2025",
+   "pontos": [
+    {
+     "t": "IPCA",
+     "v": 4.26
+    },
+    {
+     "t": "Alimentação no domicílio",
+     "v": 1.43
+    },
+    {
+     "t": "Serviços",
+     "v": 6.01
+    },
+    {
+     "t": "Administrados",
+     "v": 5.28
+    }
+   ]
+  }
+ ]
+}

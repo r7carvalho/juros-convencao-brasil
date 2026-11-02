@@ -1,0 +1,56 @@
+{
+ "titulo": "CDS de 5 anos do Brasil em datas de evento fiscal ou político (pontos-base)",
+ "tipo": "barras",
+ "unidade": "pontos-base",
+ "fonte": "Dados de mercado (Broadcast, S&P Global Market Intelligence) reproduzidos pela imprensa: Estado de Minas (23/09/2015), InfoMoney (mai/2020 e out/2026), Poder360 e Revista Oeste (dez/2024 e out/2026); fim de nov/2024 calculado pelo painel (205 menos a alta de 43,5 pontos em dezembro)",
+ "url": "https://www.infomoney.com.br/mercados/cds-de-5-anos-do-brasil-passa-dos-151-pontos-26-acima-do-fechamento-de-6a-feira/",
+ "nota": "Série diária não disponível ao painel; pontos isolados citados pela imprensa, que não são diretamente comparáveis a médias. O valor de 26/10/2026 é a cotação de fechamento informada pela S&P Global via InfoMoney; o de 23/10/2026 é o fechamento anterior (sexta-feira).",
+ "series": [
+  {
+   "nome": "CDS 5 anos",
+   "pontos": [
+    {
+     "t": "02/01/2015",
+     "v": 202.3
+    },
+    {
+     "t": "22/09/2015",
+     "v": 462.5
+    },
+    {
+     "t": "fev/2020 (fim do mês)",
+     "v": 93
+    },
+    {
+     "t": "27/05/2020",
+     "v": 270
+    },
+    {
+     "t": "dez/2023 (fim do ano)",
+     "v": 132.5
+    },
+    {
+     "t": "nov/2024 (fim do mês)",
+     "v": 161.5
+    },
+    {
+     "t": "30/12/2024",
+     "v": 205
+    },
+    {
+     "t": "09/10/2026",
+     "v": 110
+    },
+    {
+     "t": "23/10/2026",
+     "v": 120.2
+    },
+    {
+     "t": "26/10/2026",
+     "v": 151.7
+    }
+   ]
+  }
+ ],
+ "consulta": "2026-11-02"
+}

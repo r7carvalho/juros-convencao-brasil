@@ -1,0 +1,32 @@
+{
+ "titulo": "Composição da Dívida Pública Federal por indexador, dezembro de 2025 (% do estoque)",
+ "tipo": "barrash",
+ "unidade": "% da DPF",
+ "fonte": "Tesouro Nacional, RMD de dez/2025 e PAF 2026 (via Agência Gov, 'Dívida pública encerra 2025 em R$ 8,635 trilhões', jan/2026); câmbio calculado por diferença",
+ "url": "https://agenciagov.ebc.com.br/noticias/202601/divida-publica-encerra-2025-em-r-8-635-trilhoes-dentro-dos-limites-projetados-aponta-tesouro",
+ "consulta": "2026-11-02",
+ "nota": "Taxa flutuante 48,3% (RMD, insumo K), prefixados 22,1% e índices de preços 25,9% (Tesouro, via imprensa); câmbio = 100 menos os demais (cerca de 3,7%), cálculo do painel. Em ago/2026 a taxa flutuante chegou a 52,74%.",
+ "series": [
+  {
+   "nome": "Dez/2025",
+   "pontos": [
+    {
+     "t": "Taxa flutuante (LFT, Selic)",
+     "v": 48.3
+    },
+    {
+     "t": "Índices de preços (NTN-B)",
+     "v": 25.9
+    },
+    {
+     "t": "Prefixados (LTN, NTN-F)",
+     "v": 22.1
+    },
+    {
+     "t": "Câmbio",
+     "v": 3.7
+    }
+   ]
+  }
+ ]
+}

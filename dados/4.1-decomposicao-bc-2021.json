@@ -1,0 +1,65 @@
+{
+ "titulo": "Decomposição do desvio do IPCA de 2021 em relação à meta, segundo o BCB (p.p.)",
+ "tipo": "empilhadas",
+ "unidade": "p.p.",
+ "fonte": "BCB, Relatório de Inflação de mar/2022, boxe 'Decomposição da inflação de 2021'",
+ "url": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202203/ri202203b9p.pdf",
+ "consulta": "2026-11-02",
+ "nota": "Desvio total: 10,06% − 3,75% = 6,31 p.p. 'Demais fatores' é a diferença entre o desvio e a soma dos componentes nomeados (cálculo do painel); o boxe distribui essa parcela entre itens que a busca desta sessão não recuperou (resíduo e outros choques).",
+ "series": [
+  {
+   "nome": "Inflação importada (commodities e câmbio)",
+   "pontos": [
+    {
+     "t": "2021",
+     "v": 4.38
+    }
+   ]
+  },
+  {
+   "nome": "Inércia do ano anterior",
+   "pontos": [
+    {
+     "t": "2021",
+     "v": 1.21
+    }
+   ]
+  },
+  {
+   "nome": "Bandeira de energia",
+   "pontos": [
+    {
+     "t": "2021",
+     "v": 0.67
+    }
+   ]
+  },
+  {
+   "nome": "Expectativas",
+   "pontos": [
+    {
+     "t": "2021",
+     "v": 0.25
+    }
+   ]
+  },
+  {
+   "nome": "Hiato do produto",
+   "pontos": [
+    {
+     "t": "2021",
+     "v": -1.21
+    }
+   ]
+  },
+  {
+   "nome": "Demais fatores (diferença)",
+   "pontos": [
+    {
+     "t": "2021",
+     "v": 1.01
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "titulo": "Jogo dos 2/3 da média: o palpite que cada nível de raciocínio dá",
+ "tipo": "barras",
+ "unidade": "número escolhido (0 a 100)",
+ "fonte": "Cálculo do painel; níveis de raciocínio como em Nagel (1995)",
+ "url": "https://www.jstor.org/stable/2950991",
+ "consulta": "2026-11-02",
+ "nota": "Nível 0 chuta 50 (o meio do intervalo); cada nível seguinte responde ao anterior multiplicando por 2/3. O único equilíbrio de Nash é 0. Nagel (1995) achou escolhas concentradas perto dos níveis 1 e 2.",
+ "series": [
+  {
+   "nome": "Palpite",
+   "pontos": [
+    {
+     "t": "nível 0",
+     "v": 50.0
+    },
+    {
+     "t": "nível 1",
+     "v": 33.3
+    },
+    {
+     "t": "nível 2",
+     "v": 22.2
+    },
+    {
+     "t": "nível 3",
+     "v": 14.8
+    },
+    {
+     "t": "nível 4",
+     "v": 9.9
+    },
+    {
+     "t": "nível 5",
+     "v": 6.6
+    },
+    {
+     "t": "nível 6",
+     "v": 4.4
+    },
+    {
+     "t": "nível 7",
+     "v": 2.9
+    },
+    {
+     "t": "equilíbrio",
+     "v": 0
+    }
+   ]
+  }
+ ]
+}

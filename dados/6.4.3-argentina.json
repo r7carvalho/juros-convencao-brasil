@@ -1,0 +1,52 @@
+{
+ "titulo": "Argentina: inflação ao consumidor, dezembro contra dezembro (%)",
+ "tipo": "barras",
+ "unidade": "%",
+ "fonte": "INDEC, IPC nacional; 2023–2025 confirmados em Buenos Aires Herald (13/01/2026) e Voz (14/01/2026)",
+ "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31",
+ "nota": "2017–2022 segundo a série do INDEC, a conferir.",
+ "series": [
+  {
+   "nome": "IPC, dez/dez",
+   "pontos": [
+    {
+     "t": "2017",
+     "v": 24.8
+    },
+    {
+     "t": "2018",
+     "v": 47.6
+    },
+    {
+     "t": "2019",
+     "v": 53.8
+    },
+    {
+     "t": "2020",
+     "v": 36.1
+    },
+    {
+     "t": "2021",
+     "v": 50.9
+    },
+    {
+     "t": "2022",
+     "v": 94.8
+    },
+    {
+     "t": "2023",
+     "v": 211.4
+    },
+    {
+     "t": "2024",
+     "v": 117.8
+    },
+    {
+     "t": "2025",
+     "v": 31.5
+    }
+   ]
+  }
+ ],
+ "consulta": "2026-11-02"
+}

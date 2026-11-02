@@ -1,0 +1,85 @@
+{
+ "titulo": "IPCA e grupo Alimentação e bebidas, 2019–2026 (% em 12 meses)",
+ "tipo": "barras",
+ "unidade": "% em 12 meses",
+ "fonte": "IBGE, SIDRA tabelas 1737, 1419 e 7060 (dezembro de cada ano; 2026 = setembro)",
+ "url": "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/2265/p/202012,202112,202212,202312,202412,202512,202609/c315/7170",
+ "consulta": "2026-11-02",
+ "nota": "Séries dos insumos do painel (frente C). 2026 = 12 meses até setembro.",
+ "series": [
+  {
+   "nome": "IPCA",
+   "pontos": [
+    {
+     "t": "2019",
+     "v": 4.31
+    },
+    {
+     "t": "2020",
+     "v": 4.52
+    },
+    {
+     "t": "2021",
+     "v": 10.06
+    },
+    {
+     "t": "2022",
+     "v": 5.79
+    },
+    {
+     "t": "2023",
+     "v": 4.62
+    },
+    {
+     "t": "2024",
+     "v": 4.83
+    },
+    {
+     "t": "2025",
+     "v": 4.26
+    },
+    {
+     "t": "2026 (set)",
+     "v": 4.58
+    }
+   ]
+  },
+  {
+   "nome": "Alimentação e bebidas",
+   "pontos": [
+    {
+     "t": "2019",
+     "v": 6.37
+    },
+    {
+     "t": "2020",
+     "v": 14.09
+    },
+    {
+     "t": "2021",
+     "v": 7.94
+    },
+    {
+     "t": "2022",
+     "v": 11.64
+    },
+    {
+     "t": "2023",
+     "v": 1.03
+    },
+    {
+     "t": "2024",
+     "v": 7.69
+    },
+    {
+     "t": "2025",
+     "v": 2.95
+    },
+    {
+     "t": "2026 (set)",
+     "v": 4.66
+    }
+   ]
+  }
+ ]
+}
