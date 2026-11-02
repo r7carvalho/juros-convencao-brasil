@@ -26,3 +26,8 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 19 | CPI dos EUA, pico de jun/2022 | 9,1% (frente-K, BLS sem ajuste sazonal) | 8,98% (cópia com ajuste sazonal) | Vale 9,1% (série sem ajuste, a divulgada pelo BLS). | 1.1.3 |
 | 20 | Balanço do Fed 2008–2014 | US$ 0,9 tri → 4,5 tri (frente-K, ativo total) | base monetária US$ 847,6 bi (ago/2008) → 4.075 bi (ago/2014) | Medidas diferentes; as páginas dizem qual usam. | 1.1, 1.1.3 |
 | 21 | Inflação de 1983 | 211% (IGP-DI, circula como "inflação") | 164,0% (IPCA) | Usar o índice nomeado. | 1.2, 9.4 |
+| 22 | IPCA 12 meses, pico de 2011 | 6,97% em out/2011 (CONTEXTO.md) | 7,31% em set/2011 (pico; dados/6.2.1) | Ambos corretos: o pico foi set/2011; a queda citada no CONTEXTO parte de out/2011. A 4.3 usa os dois com mês. | 4.3 |
+| 23 | Preços administrados em 2025 | 5,28% (IBGE via InfoMoney) | 5,29% (relatório de banco) | Usar 5,28% (IBGE). | 4.4 |
+| 24 | Juro real ex-ante, out/2026 | 8,72% (frente-K, Selic over/Focus 12m) | 8,45% (ranking MoneYou/Lev, juro de 1 ano); ≈8,8% (Selic meta/Focus) | Métodos diferentes; as páginas dizem "cerca de 8,5% a 8,8%" e citam o método. | 2.1, 4.4 |
+| 25 | Desvio da meta em 2021 (carta aberta) | 6,31 p.p. (IPCA 10,06% − 3,75%) | 5,54 p.p. (resumo de busca sem origem) | Vale 6,31 p.p. contra o centro; 5,54 seria contra o teto (10,06 − 5,25 = 4,81, não bate) — descartado por falta de origem. | 4.2, 4.5 |
+| 26 | Preços administrados em 2021 | 16,90% (texto da área 4, a conferir) | 13,05% (imprensa; provavelmente o grupo Habitação) | Mantido 16,90% marcado [a conferir]; conferir com SGS 4449 do coletor. | 4.1, 4.2 |

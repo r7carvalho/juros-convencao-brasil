@@ -105,15 +105,15 @@ fim; publicada em `docs/` sem erro de build.
 
 ## 4. Inflação: de onde vem
 
-- [ ] 4.0 Página macro
-- [ ] 4.1a IPCA 2003–2026: livres × administrados, com gráfico
-- [ ] 4.1b Alimentos, serviços e industriais; câmbio e commodities
-- [ ] 4.1c Decomposições do próprio BC (boxes dos relatórios: inércia, expectativas, câmbio, hiato)
-- [ ] 4.2 Pandemia 2020–2022: choques, Selic a 2% e a alta até 13,75%
-- [ ] 4.3a 2011–2013: cortes de juros, Nova Matriz, inflação (com a correção do teto em 2013)
-- [ ] 4.3b 2014–2016: recessão, crise fiscal, crise política, Lava Jato e investimento
-- [ ] 4.4 2023–2026: Selic a 15%, desinflação de 2025 e expectativas
-- [ ] 4.5 Teste da tese "sem demanda nem oferta, só choque externo": veredito com dados
+- [x] 4.0 Página macro
+- [x] 4.1a IPCA 2003–2026: livres × administrados, com gráfico
+- [x] 4.1b Alimentos, serviços e industriais; câmbio e commodities
+- [x] 4.1c Decomposições do próprio BC (boxes dos relatórios: inércia, expectativas, câmbio, hiato)
+- [x] 4.2 Pandemia 2020–2022: choques, Selic a 2% e a alta até 13,75%
+- [x] 4.3a 2011–2013: cortes de juros, Nova Matriz, inflação (com a correção do teto em 2013)
+- [x] 4.3b 2014–2016: recessão, crise fiscal, crise política, Lava Jato e investimento
+- [x] 4.4 2023–2026: Selic a 15%, desinflação de 2025 e expectativas
+- [x] 4.5 Teste da tese "sem demanda nem oferta, só choque externo": veredito com dados
 - [ ] 4.R Revisão independente da macroárea 4
 
 ## 5. Investimento refém do juro
