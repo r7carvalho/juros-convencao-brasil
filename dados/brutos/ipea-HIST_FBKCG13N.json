@@ -1,0 +1,399 @@
+{
+ "fonte": "Ipeadata",
+ "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='HIST_FBKCG13N')",
+ "coleta": "2026-11-02T13:42:39Z",
+ "dados": [
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1890-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1891-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1892-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1893-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1894-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1895-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1896-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1897-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1898-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1899-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1900-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1901-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1902-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1903-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1904-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1905-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1906-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1907-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1908-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1909-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1910-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1911-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1912-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1913-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1914-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1915-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1916-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1917-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1918-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1919-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1920-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1921-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1922-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1923-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1924-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1925-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1926-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1927-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1928-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1929-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1930-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1931-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1932-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1933-01-01T00:00:00-02:00",
+   "VALVALOR": 5.16581818181818e-12,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1934-01-01T00:00:00-02:00",
+   "VALVALOR": 1.01890909090909e-12,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1935-01-01T00:00:00-02:00",
+   "VALVALOR": 5.09454545454546e-13,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1936-01-01T00:00:00-02:00",
+   "VALVALOR": 3.63781818181818e-12,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1937-01-01T00:00:00-02:00",
+   "VALVALOR": 1.08727272727273e-13,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1938-01-01T00:00:00-02:00",
+   "VALVALOR": 9.09090909090909e-14,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1939-01-01T00:00:00-02:00",
+   "VALVALOR": 1.87272727272727e-13,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1940-01-01T00:00:00-02:00",
+   "VALVALOR": 1.72727272727273e-13,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1941-01-01T00:00:00-02:00",
+   "VALVALOR": 2.16363636363636e-13,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1942-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1943-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1944-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  },
+  {
+   "SERCODIGO": "HIST_FBKCG13N",
+   "VALDATA": "1945-01-01T00:00:00-02:00",
+   "VALVALOR": 0.0,
+   "NIVNOME": "",
+   "TERCODIGO": ""
+  }
+ ]
+}

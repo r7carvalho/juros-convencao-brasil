@@ -1,7 +1,7 @@
 {
  "fonte": "IBGE, SIDRA",
  "url_api": "https://apisidra.ibge.gov.br/values/t/1620/n1/all/v/all/p/all/c11255/all",
- "coleta": "2026-11-02T12:16:20Z",
+ "coleta": "2026-11-02T13:34:27Z",
  "dados": [
   {
    "NC": "Nível Territorial (Código)",

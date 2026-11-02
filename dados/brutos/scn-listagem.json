@@ -1,0 +1,40 @@
+{
+ "raizes": [
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/"
+ ],
+ "coleta": "2026-11-02T14:21:29Z",
+ "arquivos": [
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/PIBReal_1947_2023.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/PIBReal_1947_2023.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab01.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab02.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab05.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab06.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab07.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab09.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab10_1.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab11_1.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab12_1.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/sinoticas/tab13_1.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/tabelas_de_recursos_e_usos/12_tab1_2023.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/tabelas_de_recursos_e_usos/12_tab2_2023.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/tabelas_de_recursos_e_usos/12_tab3_2023.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/tabelas_de_recursos_e_usos/12_tab4_2023.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_ods/tabelas_de_recursos_e_usos/TRU2023resumo.ods",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab01.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab02.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab05.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab06.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab07.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab09.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab10_1.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab11_1.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab12_1.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/sinoticas/tab13_1.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/tabelas_de_recursos_e_usos/12_tab1_2023.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/tabelas_de_recursos_e_usos/12_tab2_2023.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/tabelas_de_recursos_e_usos/12_tab3_2023.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/tabelas_de_recursos_e_usos/12_tab4_2023.xls",
+  "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/tabelas_xls/tabelas_de_recursos_e_usos/TRU2023resumo.xls"
+ ]
+}
