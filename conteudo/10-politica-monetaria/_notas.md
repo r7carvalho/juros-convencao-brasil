@@ -566,3 +566,41 @@ BCB, SGS 3546, 1, 4390, 432, 4382, 13522, 5727 e 5793 (coleta de 02/11/2026); BI
 - Glossário 9.3 ("Swap cambial") pode ganhar link para 10.3.6.
 - Reservas: usados ago/2026 = US$ 372,6 bi e set/2026 = US$ 362,8 bi com o mês dito (divergência nº 1 do `_divergencias.md`).
 - Swaps nos juros nominais: +1,0% do PIB em 2024 e −0,8% em 2025 (BNDES/FGV), iguais a 11.2.
+
+## 10.3g
+
+### Página entregue (02/11/2026)
+
+- 10.3.7 Brasil 2020: EC 106 e as linhas do BCB, 1ª versão: cerca de 2.300 palavras de prosa (sem parênteses de fonte, tabelas, fórmulas, citações em bloco e listas); 3.250 contando listas e parênteses; 4.760 pela contagem do lint, que inclui tabelas e referências.
+- Conteúdo: exemplo de brinquedo (título de 10 anos sem cupom a 8%, preço 46,32; anúncio de compra a 50,83 = 7%; desfecho convencional sem compra e desfecho fiscal com taxa a 9%, preço 42,24, perda de 8,59 por título); decomposição $y_n$ = média esperada + prêmio; EC 106 (art. 7º, I e II, §§, art. 8º, revogação com a calamidade), novidade em relação ao art. 164, § 2º; tramitação e críticas; Circular 4.028; uso zero; tabela do pacote anunciado × usado com link para 10.2.3, 10.2.4, 10.3.5, 10.3.6, 10.3.1, 10.2.2 e 4.2; gráfico de % usado; as quatro razões do "QE que não houve" (Selic com espaço, aritmética do balanço com exemplo de R$ 100 bi, risco fiscal, Tesouro estabilizando a curva e encurtando a dívida); México, Chile, Colômbia e Peru (tabela); BIS Bulletin 20, GFSR out/2020 e Sever et al.; quadro A favor/Contra; caixa "o painel lê".
+- Gráfico: `dados/10.3.7-uso-das-linhas.json` (barrash: uso como % do anunciado para LTEL-Debêntures 1,5; LTEL-LFG 18,2; Novo DPGE 11,3; EC 106 zero; Chile FCIC I e II 71,5; linhas do Fed de 2020 com os números de 10.3.5).
+
+### Fontes principais
+
+- EC 106/2020: texto pela publicação da Câmara (legin) e reproduções (Legisweb, Dizer o Direito, Sopesp, Migalhas), por busca; art. 164, § 2º da Constituição. Tramitação: Correio Braziliense (15/04/2020, Senado restringe ao secundário), Agência Senado (06/04/2020), Senado Notícias (11/05/2020, ação anunciada no STF). Apresentação do BCB ao Senado de 09/04/2020 (via IstoÉ Dinheiro e Money Times: comprador de última instância; estoque elegível de R$ 972,9 bi).
+- Circular 4.028, de 23/06/2020: número e conteúdo por agregador de normas (okai.com.br) e cobertura da Agência Brasil, InfoMoney, CNN e ANBIMA.
+- Não uso: Senado, RQS 2.584/2020 (Jaques Wagner, documento de 08/10/2020; resposta do BCB por ofício de 09/08/2021, conteúdo não lido); FMI, Country Report 20/311 (o poder "has not yet been used"; o "not envisaging" veio de fragmento de busca, parafraseado); resposta do BCB por LAI reproduzida pelo Sindsep-DF (fonte sindical; a resposta original não foi lida).
+- Pacote: R$ 1.274 bi = 17,5% do PIB (mesmo número de 10.2.3); LTEL-Debêntures, potencial R$ 91 bi (REF abr/2020) e R$ 1,4 bi emprestados entre 24/03 e 30/04/2020 (BCB, *Our Results 2020*, por busca); REB 2023, boxe "Resultado da oferta de liquidez pelo BC" (resultado financeiro positivo, sem ônus ao BC; R$ 5,3 bi de receita da LFG de 2021 a jun/2023 segundo fragmento, não usado).
+- Campos Neto à Reuters, 20/05/2020 (recorte via Investing.com); FT via BusinessDay (risco de credibilidade); Reuters (coluna "whatever it takes") e Al Jazeera (27/03/2020).
+- Tesouro: recompra de R$ 35,56 bi em 15 dias em 2020, R$ 33,1 bi líquidos (Agência Brasil, mar/2026, e Warren Rena); RAD 2020 via 10.3.1.
+- Vizinhos: Banxico (comunicado de 21/04/2020; uso < 22% dos programas em pesos e < 14% em dólares até 24/08/2020, dados do Banxico citados por Manuel Sánchez González, El Financiero); BCCh (bônus bancários até US$ 8 bi, ≈ US$ 3,3 bi comprados até a ampliação; FCIC I e II US$ 40 bi, ≈ US$ 28,6 bi usados, IEF 2S2020; reforma constitucional de ago/2020 com quórum de 4 de 5); Dipres (dívida do governo central 32,9% do PIB no 3T2020); BanRep (TES COP 1,9 tri em mar e 0,837 tri em abr; dívida privada 5,3 tri em mar e 3,4 tri em abr; sem TES de jun a dez; totais de 2,8 e 8,7 tri pela Bloomberg Línea); BCRP (Reactiva Perú até S/ 60 bi; fase 1 ≈ S/ 30 bi, fase 2 S/ 25,2 bi; saldo S/ 50,7 bi no fim de 2020, Memoria 2020).
+- Literatura: Arslan, Drehmann e Hofmann (2020, BIS Bulletin 20, parafraseado); FMI GFSR out/2020 cap. 2 (recorte de uma frase pela busca); Sever, Goel, Drakopoulos e Papageorgiou (2020, IMF WP 20/292, resumo).
+
+### Lacunas (nada disso entrou como fato)
+
+- Texto integral da EC 106 não aberto (planalto/câmara bloqueados). Um "aporte de capital de pelo menos 25% do Tesouro" com autorização do Ministério da Economia para compras de ativos privados aparece em versões da PEC e numa nota técnica da Câmara; não se confirmou que ficou no texto promulgado. Fora da página. Art. 9º (sustação pelo Congresso) também não confirmado; fora.
+- Resposta do BCB ao RQS 2.584/2020 (ofício de 09/08/2021) e as prestações de contas mensais ao Congresso: não lidas. Seriam a fonte primária definitiva do não uso e dos motivos.
+- Relatório de Gestão/Integrado 2020 (rig_2020.pdf, seção "Medidas de combate", p. 107) e REF out/2020 e abr/2021 não abertos; uma monografia (IDP) cita o RIG 2020 dizendo que nenhum título privado foi adquirido e que o BCB "realizou negociações de títulos públicos", frase ambígua (pode ser a operação normal de mercado aberto). Conferir no RIG.
+- Uso das compromissadas com títulos soberanos em dólar (estoque elegível de US$ 31 bi, desconto de 10%; houve operações em abril de 2020 segundo a Agência Brasil): total não obtido. A tabela da página não mostra essa linha.
+- Tabela do BCB com "potencial" e "implementado" por medida (R$ 1.274 bi × R$ 427,1 bi, apresentação LIDE): não usada, porque a coluna e a data não ficaram claras.
+- Taxas da curva em 2020 (DI e NTN-F de 10 anos): não obtidas; a página fala em "curva muito inclinada" com link para 6.1.1 e 10.3.1 e usa 7,5% só como hipótese numerada no exemplo da aritmética.
+- Peru: compras do BCRP de Bonos del Tesoro em 2020 (art. 61 da lei orgânica) com volume não confirmado; % do PIB do Reactiva não calculado (PIB nominal peruano não conferido). México: compras definitivas de títulos públicos pelo Banxico em 2020 não verificadas; a tabela descreve só janelas de recompra e permuta.
+- Dívida pública de 2020 de México, Colômbia e Peru em conceito comparável: não confirmada; só Chile (Dipres, governo central).
+- A frase atribuída a Campos Neto em abril de 2020 sobre comprar títulos longos para reduzir a inclinação da curva apareceu num resumo de busca sem fonte clara; ficou fora.
+
+### Divergências e ajustes sugeridos em outras páginas
+
+- A página macro 10 (linha 60) diz que "em 2020 o BCB usou linhas de liquidez, redução de compulsório e a autorização da EC 106/2020 [...] para comprar títulos no mercado secundário". Pela evidência reunida aqui, o BC não usou a autorização da EC 106. Sugestão: "o BCB usou linhas de liquidez e redução de compulsório e recebeu da EC 106/2020 autorização, que não usou, para comprar títulos no mercado secundário ([10.3.7](pagina:10.3.7))".
+- 10.3.6 registrou "Colômbia em 2020 não confirmada": aqui há as compras de TES e de dívida privada do BanRep de mar a abr/2020.
+- 7.8 cita "Chile, Colômbia e África do Sul fizeram compras limitadas em 2020" (BIS Bulletin 20): coerente; o Chile comprou bônus bancários, não títulos do Tesouro.
+- Números iguais aos de 10.2.3 (R$ 1.274 bi, 17,5%; LTEL-LFG R$ 670 bi e R$ 121,9 bi; Novo DPGE R$ 200 bi e R$ 22,6 bi), 10.2.4 (R$ 117 bi e ≈ R$ 86 bi), 10.3.6 (US$ 24,8 bi à vista; dólar 4,03 → 5,43), 10.3.1 (18,7% → 27,6%), 10.2.2 (R$ 325 bi em 27/08/2020) e 6.1.1 (CDS quase triplicou). Selic 13,75% de 04/08/2022 a 02/08/2023 pelo SGS 432.
