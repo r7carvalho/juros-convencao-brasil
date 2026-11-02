@@ -226,7 +226,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.1b Influenciador: Primo Rico (Thiago Nigro)
 - [x] 12.1c Influenciador: Bruno Perini
 - [x] 12.1d1 Influenciador: Economista Sincero (Charles Mendlowicz)
-- [ ] 12.1d2 Influenciador: Ricardo Amorim
+- [x] 12.1d2 Influenciador: Ricardo Amorim
 - [ ] 12.1d3 Influenciador: Nathalia Arcuri (Me Poupe!)
 - [ ] 12.1d4 Influenciador: Tiago Reis (Suno)
 - [ ] 12.1d5 Influenciador: Eduardo Moreira (ICL)
