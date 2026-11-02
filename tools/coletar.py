@@ -88,6 +88,7 @@ FOCUS = {
     "anuais_selic": "ExpectativasMercadoAnuais?$filter=Indicador%20eq%20'Selic'&$orderby=Data%20desc&$top=40000&$format=json",
     "anuais_pib": "ExpectativasMercadoAnuais?$filter=Indicador%20eq%20'PIB%20Total'&$orderby=Data%20desc&$top=40000&$format=json",
     "inflacao_12m": "ExpectativasMercadoInflacao12Meses?$filter=Indicador%20eq%20'IPCA'&$orderby=Data%20desc&$top=40000&$format=json",
+    "anuais_cambio": "ExpectativasMercadoAnuais?$filter=Indicador%20eq%20'C%C3%A2mbio'&$orderby=Data%20desc&$top=40000&$format=json",
 }
 FOCUS_BASE = "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/"
 
@@ -248,13 +249,21 @@ def coletar_sgs():
 
 
 def coletar_focus():
+    # pagina com $skip: a API devolve no máximo o $top pedido; séries longas passam de 40 mil linhas
     for nome, q in FOCUS.items():
         url = FOCUS_BASE + q
         try:
-            d = json.loads(baixar(url, timeout=120))
+            todos, skip = [], 0
+            while True:
+                d = json.loads(baixar(url + f"&$skip={skip}", timeout=180))
+                lote = d.get("value", [])
+                todos.extend(lote)
+                if len(lote) < 40000 or skip > 2_000_000:
+                    break
+                skip += 40000
             arq = gravar(f"focus-{nome}.json", {"fonte": "Banco Central do Brasil, Sistema de Expectativas de Mercado (Focus), API Olinda",
-                                                "url_api": url, "coleta": agora(), "dados": d.get("value", d)})
-            ok("focus", nome, arq, len(d.get("value", [])))
+                                                "url_api": url, "coleta": agora(), "dados": todos})
+            ok("focus", nome, arq, len(todos))
         except Exception as e:  # noqa
             falha("focus", nome, url, e)
 

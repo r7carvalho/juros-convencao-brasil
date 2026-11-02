@@ -482,3 +482,80 @@ Lacunas:
 - Data da próxima reunião do Copom para julgar a 7c.
 
 Números que divergem de outras páginas: nenhum. Novos no bloco: carga OCDE de 2024 (Brasil 33,7%, América Latina 21,7%, OCDE 34,1%); crescimento real da despesa do governo central de 16,2% em 2023–2025 (conta do painel com os números do Tesouro já usados na 12.2.1); despesa de 17,4% do PIB após quatro anos de gasto real nulo (conta do painel). Copiados: SGS 13762 (71,68 e 82,93), bola de neve 10,1/11,2 e primário 3,6 (3.2), superávit estabilizador 4,1% com r = 7% (3.1), i − g (11.7), 2003–2008 (6.1), juro real ex-ante e PIB (4.4), EMBI+ (12.2.2), DI de 26/10/2026 (6.1.1), gastos tributários (12.2.2), déficit nominal de 2025 (11.4).
+
+## 12.3a
+
+Páginas: `12.3-mercado-e-focus.md` (12.3, ~980 palavras de prosa) e `12.3.1-projecoes-e-realizado.md` (12.3.1, ~3.500 palavras de prosa, sem contar tabelas e Para ler). Script `tools/analises/12.3.1_acerto_focus.py` (só biblioteca padrão; `--resumo` imprime as tabelas ano a ano e os recortes por período, eleição e choque). Gráficos: `dados/12.3.1-erro-selic.json`, `dados/12.3.1-erro-pib.json`, `dados/12.3.1-selic-projetada-realizada.json`, `dados/12.3.1-vies-resumo.json`.
+
+Método: mediana do Focus (baseCalculo 0) no último dia com dado do mês (regra da 2.4.1), para o ano Y, em jan/Y, jun/Y e jan/Y-1. Realizado: Selic meta em 31/12 (SGS 432), IPCA do ano (SGS 13522, dezembro), PIB (SGS 7326). Erro = realizado − projetado. Régua ingênua: Selic do dia da projeção; IPCA 12 meses do último mês divulgado; PIB do ano anterior. PIB medido contra a série revisada e contra uma aproximação da primeira divulgação (última mediana do Focus para o ano, dias antes da divulgação do IBGE; confere com 2023: 2,95 × 2,9 divulgado; 2024: 3,49 × 3,4). Anos de choque, escolha do painel: 2002, 2008, 2009, 2015, 2016, 2020, 2021, 2022.
+
+Resultados principais (2002–2025; IPCA 2008–2025):
+- Selic, jan: viés +0,49 (t 0,83), EAM 2,22, acima 10 / abaixo 13 / exato 1, U 0,79. Ano anterior: viés +1,24, acima 14 / abaixo 9, U 0,86. Em nove anos de corte projetado e realizado, a Selic terminou abaixo da projeção nos nove; alta projetada e realizada: acima em 4 de 6. Inclinação mudança realizada × projetada: 1,24. Sem choque: viés −0,22 (10 abaixo, 5 acima). 2017–2020 abaixo nos quatro anos; 2021–2025 acima no horizonte de dois anos.
+- PIB (1ª divulgação aprox.), jan: viés −0,53, acima 10 / abaixo 14, U 0,68; jun: −0,01 (12/12); ano anterior: −1,21 (t −2,08, com sobreposição). 2011–2016 superestimado nos seis anos (média −1,88); 2021–2024 subestimado (+1,00, +2,70, +2,16, +1,89); 2025 +0,21. Contra a série revisada, o viés de junho é +0,51 (19 de 24 acima): efeito de revisão.
+- IPCA anual, jan: viés +0,68 (12 acima / 6 abaixo); ano anterior: +1,21 (15 de 17 acima). 2023 e 2025: mercado acima do realizado (5,75 × 4,62; 5,51 × 4,26).
+- Correlação entre erros de Selic e IPCA (jan, 2008–2025): 0,66.
+- 2023–2025: a régua ingênua bateu o Focus no PIB de janeiro, no IPCA de janeiro e na Selic de dois anos.
+- Dispersão: 31/01/2024, Selic fim de 2025, máximo 10,50% entre 139 (confirma a fala de Perini na 12.1.3); 31/01/2023, PIB 2023, máximo 2,0% entre 101; 31/01/2024, PIB 2024, máximo 2,99% entre 112.
+
+Classificação das três frases (para a matriz da página 12, se o coordenador quiser linhas de grupo):
+| Economistas de mercado (Focus) | Mercado e Focus | BCB, Focus 2002–2025 | O mercado sempre projeta Selic mais alta do que acontece | P8b | Não procede (procede para 2017–2020 e, de leve, nos anos sem choque) | Rigidez de informação; técnica 1 de Keynes (1937) | 12.3.1 |
+| Economistas de mercado (Focus) | Mercado e Focus | BCB, Focus; IBGE | O mercado projeta crescimento menor do que acontece | P9c | Procede em parte (2021–2024 sim; 2002–2016 o contrário) | Revisões do PIB; atraso nas viradas | 12.3.1 |
+| Economistas de mercado (Focus) | Mercado e Focus | BCB, Focus; SGS 13522 | O mercado superestima a inflação | P9c | Não procede (procede em 2017, 2023 e 2025) | Viés de projeção | 2.4.1, 12.3.1 |
+
+Fontes principais: BCB, Focus pela API Olinda (acervo de 02/11/2026); SGS 432, 13522, 7326; Carvalho e Minella (2012, JIMF 31(6)); Coibion e Gorodnichenko (2015, AER); Theil (1966); Marques, Fachada e Cavalcanti (2003, NT 36); Gaglianone (2017, WP 464); Faria (Blog do IBRE, 13/03/2025); Poder360 (contagens de erro da Selic; PIB de 2024); CNN Brasil (PIB 2023 de 2,9%, 01/03/2024); InfoMoney (novos rankings Top 5, 2025); Atualidade Política (premiação Top 5 de 2025, abr/2026).
+
+Lacunas:
+- Câmbio: o acervo não tem as projeções anuais de câmbio do Focus e a API Olinda não abre na rede da sessão. Para a próxima coleta, acrescentar em `tools/coletar.py` (dicionário FOCUS) a consulta `ExpectativasMercadoAnuais?$filter=Indicador%20eq%20'Câmbio'...` e comparar com a PTAX de fim de ano (SGS 1). Citados só dois trabalhos de graduação (FAE/PAIC 2006–2015; UFJF 2015–2022) com sinais opostos, sem número.
+- IPCA anual: `focus-anuais_ipca.json` foi cortado no `$top=40000` (começa em 05/10/2007, porque a consulta inclui baseCalculo 1). Recoletar com filtro de data ou paginação para cobrir 2002–2007.
+- Primeira divulgação do PIB aproximada pelo Focus; a série de vintages do IBGE daria a medida exata.
+- Não conferido: lista completa dos 16 premiados do Top 5 de 2025 (fonte é um blog que reproduz o BC) e a data exata da nota do InfoMoney sobre os novos rankings (início de 2025, data de referência 24/01).
+- Relatórios assinados de bancos e gestoras (cenários anuais de cada casa) não foram comparados com o realizado: o Focus não divulga projeção por instituição e os relatórios não abrem na rede. Fica para a 12.3.2 ou uma 12.3.3, por amostra de casas com cenários públicos datados.
+- Nenhum estudo publicado sobre o viés da Selic e do PIB do Focus na série inteira foi achado; o BC não abre na rede (TD/WP só pela busca).
+
+Números que divergem de outras páginas: a 6.4.1 usa a primeira pesquisa de cada ano (IPCA 2015: 6,56; 2021: 3,32; 2017: 4,86; 2023: 5,30); a 12.3.1 usa a última de janeiro (7,01; 3,53; 4,69; 5,75). Mesmo sinal de erro; a diferença é de regra, dita no texto. PIB 2023–2025 pelo SGS 7326 (3,24; 3,42; 2,29) bate com a SIDRA usada na 12.2.2 (3,2; 3,4; 2,3). O Poder360 conta 16 erros em 21 anos para a Selic de janeiro (critério próprio); pela regra do painel, o erro de janeiro ficou dentro de 0,5 ponto em 5 de 24 anos.
+
+## 12.1d4
+
+Página entregue: `conteudo/12-vozes/12.1.6-tiago-reis.md` (id 12.1.6, pai 12.1, ordem 6, 1ª versão). Cerca de 3.000 palavras de prosa (contando o exemplo e a citação; sem tabela e sem "Para ler"); o `tools/lint.py` conta 4.770 tokens no corpo inteiro, sem travessão, sem "não é X, é Y" e sem palavra vetada. `build.py --check` sem erro. Na 12.1 foram atualizados o resumo do frontmatter (seis páginas e um nome levantado, Eduardo Moreira), o parágrafo da nova pessoa (depois do de Amorim), o parágrafo do levantamento ("que já tem página" e "A página de Eduardo Moreira ainda não foi escrita") e a caixa `:::painel` (seis páginas: 94 proposições, 49 procedem, 31 em parte, 5 não procedem, 9 falta evidência; Reis entre os que deixam o juro fora do ajuste, as previsões dele entre as que se confirmaram, e a recusa explícita da comparação com a Argentina).
+
+Contagem conferida: soma da 12.1d3 (79: 42, 26, 5, 6) mais a tabela da 12.1.6 (15: 7, 5, 0, 3) = 94: 49, 31, 5, 9.
+
+Identidade: confirmada. Tiago Guitián dos Reis, fundador da Suno Research (2017) e presidente do conselho do Grupo Suno (InfoMoney, jan/2025; Finsiders, 29/09/2026; Investidor10, set/2025 o chama de CEO e analista-chefe; uma página dá Gian Kojikovski como CEO da Suno Research, então o texto usa só "fundador" e "presidente do conselho"). LinkedIn e X: @tiagogreis. Alcance: 10º no ranking geral de pessoas físicas e 1º no ranking de certificados do FInfluence 10 (ANBIMA; Jornal de Brasília; Gazeta Brasil, 01/06/2026), único certificado do top 10 (CNPI, CGA, CFG, CGE). Seguidores pelo Melhor Investimento (2025): Instagram 1,6 mi, YouTube 725 mil, X 284 mil; um ranking de 2026 (usepora) dava 1,7 mi no Instagram, não conferido. Relação comercial: Suno Research (assinaturas), Suno Asset (FIIs e o Fiagro SNAG11), sites Funds Explorer e FIIs.com.br; XP com participação minoritária desde jan/2022 (Bloomberg Línea, 04/01/2022), Reis principal acionista.
+
+Contagem pelo critério do levantamento (quatro falas datadas de 2022 a 2026 sobre os temas): atingida com folga. Seis falas usadas:
+1. InfoMoney, 19/10/2022, FIIs de papel e deflação ("Foi só um momento de deflação"). Proposição 1a.
+2. Suno Notícias, 11/10/2024, "FIIs estão derretendo não pelo setor imobiliário, mas pelo macro do Brasil": NTN-B 2035 a IPCA+6–7%, risco fiscal como prêmio no câmbio, meta de 2024 cumprida com dívida subindo, "Só existem dois caminhos a se tomar: cortes de despesas ou aumento da receita", Brasil recua do abismo e não segue Argentina ou Venezuela. Data pela busca (11/10/2024). Proposições 2a a 2e.
+3. InfoMoney, Onde Investir 2025 (14 a 16/01/2025): "não dá para fugir de 2026"; "mesmo que o governo não faça nada, essa discussão vai ser levada pelo mercado". Dia exato da matéria não confirmado. Proposições 3a e 3b.
+4. Coluna no InfoMoney, jun/2025 (data pela idade da página na busca; a MP é de 11/06/2025), "Nova MP ameaça R$ 50 bilhões em crédito e 1,3 milhão de empregos no agro e construção", e Suno Notícias, set/2025 (idade da página), "Tributação de investimentos prejudica economia, avalia Tiago Reis" (live do Funds Explorer). Proposições 4a a 4c.
+5. Finsiders Brasil, 29/09/2026, "Fiscal ruim encarece dinheiro para bancos e fintechs e limita crédito": 80% das famílias endividadas; governo compete com famílias e empresas pelos mesmos recursos (paráfrase da reportagem). O nome do evento não apareceu (pode ser o Suno Invest 2026, de 12/09/2026, não confirmado). Proposições 5a e 5b.
+6. Suno Notícias, transmissão de 25/10/2026, "Eleições 2026: Bolsa pode cair e dólar subir?": Ibovespa pode abrir em queda perto de 10%; juros altos encarecem financiamento; prefere CDI. Proposições 6a e 6b.
+
+Descartadas: entrevista com Paulo Guedes na Suno (27/10/2022; ele é o entrevistador); InfoMoney "Fundos listados são opção para ganhos com renda fixa a preços menores" e "'Anomalias' de FIIs pagando IPCA+20% acabaram" (Onde Investir 2025 e início de 2025; escolha de ativos, sem proposição macro); Suno, "Veja 4 motivos para investir em fundos imobiliários" e FII Experience 2026 (26/03/2026; programação sem fala reproduzida); post no X de 11/02/2025 sobre reunião com a Frente Parlamentar da Agropecuária (FIIs e Fiagros, sem proposição testável); frase de que "a tese de juros de um dígito caiu por terra" (atribuída a 2022 por um resumo de busca, mas provavelmente da matéria de 11/10/2024; não usada por dúvida de data e texto). Não entraram, por não serem falas e pela regra de nada de vida privada ou ataque pessoal: a busca e apreensão de fevereiro de 2023 numa ação cível sobre o HCTR11 e uma notícia sobre sanção da CVM com correção posterior; nenhuma das duas é relação comercial com produto de investimento.
+
+Linhas para a matriz pessoa × argumento × classificação da página 12:
+| Tiago Reis | 1a. A deflação de 2022 era momentânea | Procede | — |
+| Tiago Reis | 2a. Os fundos caíram pelo juro longo, não pelo setor | Procede | — |
+| Tiago Reis | 2b. O risco fiscal é um prêmio que afeta o câmbio | Procede em parte | 12.4c |
+| Tiago Reis | 2c. A meta de 2024 seria cumprida e a dívida seguiria subindo | Procede | — |
+| Tiago Reis | 2d. Só há dois caminhos: cortar despesa ou aumentar receita | Procede em parte | 12.4i |
+| Tiago Reis | 2e. O Brasil recua perto do abismo e não vira Argentina | Procede | 12.4h |
+| Tiago Reis | 3a. Em 2026 as contas públicas viram fator de preço | Procede em parte | 12.4c |
+| Tiago Reis | 3b. O ajuste fiscal é inevitável a partir de 2026 | Falta evidência | 12.4i |
+| Tiago Reis | 4a. A MP 1.303 tiraria até R$ 50 bi do crédito e 1,3 milhão de empregos | Falta evidência | — |
+| Tiago Reis | 4b. Mais imposto pode reduzir a arrecadação | Falta evidência | — |
+| Tiago Reis | 4c. As isenções financiam o crédito imobiliário e rural | Procede em parte | — |
+| Tiago Reis | 5a. 80% das famílias estão endividadas | Procede | — |
+| Tiago Reis | 5b. O governo disputa recursos e encarece o capital de todos | Procede em parte | 12.4g |
+| Tiago Reis | 6a. O Ibovespa abriria em queda perto de 10% após o 2º turno | Procede | 12.4c |
+| Tiago Reis | 6b. Juros altos encarecem o crédito e reduzem o investimento | Procede | — |
+
+Fontes principais: Suno Notícias, InfoMoney, Finsiders, Jornal de Brasília e Gazeta Brasil (FInfluence), Jornal do Comércio e BP Money (Peic da CNC), Times Brasil (sondagem do Citi), FIIs.com.br (IFIX 2024); BCB, SGS 1, 433 e 13762 (consulta em 02/11/2026); páginas 1.1.4, 3.1, 3.2, 3.4, 4.2, 5.1, 6.1.1, 6.3, 7.5, 7.7, 11.5 e 11.6.
+
+Lacunas:
+- suno.com.br, infomoney.com.br e finsidersbrasil.com.br não abrem nesta rede (WebFetch: host não resolve); todo o texto das falas veio de trechos de busca. Conferir no texto integral as citações literais ("Foi só um momento de deflação", "Só existem dois caminhos...", "não dá para fugir de 2026", "mesmo que o governo não faça nada...") e o dia exato das matérias de jan/2025, jun/2025 e set/2025.
+- A "perda máxima de 3,5%" da coluna sobre a MP 1.303: a busca não trouxe a que ela se refere (taxa, preço ou captação), e a página a descreve só como premissa da conta.
+- Se o texto original da MP 1.303 tributava os rendimentos de FIIs e Fiagros (a cobertura diverge; a página diz "segundo a cobertura da época").
+- Número de recuperações judiciais citado na fala 5, não conferido.
+- Nome do evento da fala 5.
+
+Números que divergem de outras páginas: nenhum. Ibovespa −13,88%, PTAX +9,19%, CDS de 110 e 151,6 pontos e mercados de previsão (75% a 81%) como na 6.1.1; fatores condicionantes (10,1 e 3,6 dos 11,2 pontos) como na 3.2 e na 12.1.5; dívida bruta pela SGS 13762 (77,36% em ago/2024, 76,27% em dez/2024, 78,64% em dez/2025, 82,93% em set/2026); MP 1.303 (R$ 2,6 bi de LCI e LCA, 08/10/2025), renúncia de R$ 31,7 bi e estoques de LCI e LCA de 2025 como na 7.5; Prisma Fiscal de out/2026 como na 11.6; IPCA mensal de 2022 como na 4.2. Novo no bloco: Tesouro IPCA+ 2035 a 6,60% em 21/10/2024 (InfoMoney); Peic de ago e set/2026 (82% e 81,7%).

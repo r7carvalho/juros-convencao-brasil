@@ -239,7 +239,7 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.2c5 Mídia e academia: Alexandre Schwartsman
 - [ ] 12.2c6 Mídia e academia: Marcos Mendes
 - [ ] 12.2c7 Mídia e academia: Fabio Giambiagi
-- [ ] 12.3a Economistas-chefes de bancos e gestoras: o que projetam, com que histórico de acerto (comparar projeções do Focus e de relatórios com o realizado)
+- [x] 12.3a Economistas-chefes de bancos e gestoras: o que projetam, com que histórico de acerto (comparar projeções do Focus e de relatórios com o realizado)
 - [ ] 12.3b O Focus como instituição: composição, viés, acerto histórico
 - [ ] 12.4a Jargão: "o Brasil vai quebrar" / "a dívida é impagável"
 - [ ] 12.4b Jargão: "gastança", "o Estado gasta demais", "o governo é como uma família"
@@ -251,7 +251,14 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.4h Jargão: "o Brasil vai virar Argentina/Venezuela"
 - [ ] 12.4i Jargão: "não existe almoço grátis", "o arcabouço não para em pé"
 - [ ] 12.4j Jargões do outro lado: "metade do orçamento vai para juros" (Auditoria Cidadã), "o BC trabalha para os bancos", "inflação é só choque externo"; mesmo rigor
-- [ ] 12.5 Vozes heterodoxas com o mesmo tratamento (por exemplo André Lara Resende, Luiz Gonzaga Belluzzo, Paulo Nogueira Batista Jr., Laura Carvalho, André Roncaglia): uma página por pessoa
+- [ ] 12.5a Ramo e André Lara Resende
+- [ ] 12.5b Luiz Gonzaga Belluzzo
+- [ ] 12.5c Paulo Nogueira Batista Jr.
+- [ ] 12.5d Laura Carvalho
+- [ ] 12.5e André Roncaglia
+- [ ] 12.5f Eduardo Moreira (ICL)
+- [ ] 12.5g José Luis Oreiro
+- [ ] 12.5h Luiz Carlos Bresser-Pereira
 - [ ] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala
 
 ## 8–9. Conclusão e apoio
