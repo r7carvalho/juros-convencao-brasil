@@ -208,9 +208,14 @@ Não alinhado ou pendente:
 
 ## Achados para a matriz final (blocos 10 e 11)
 
-- 11.5: os riscos fiscais específicos da União caíram de 57,2% para 37,9% do PIB entre 2022 e 2025 (Anexo de Riscos Fiscais do PLDO 2027, via IFI RAF 112) enquanto o prêmio de mercado subiu: o mercado precifica a trajetória do primário, a credibilidade das regras e os juros americanos mais que o estoque de passivos contingentes. IFI (RAF 116): 3,16 p.p. do prêmio de 5 anos atribuídos à dívida; FMI: risco doméstico explica um terço da depreciação de 2024.
+- 11.5: os riscos fiscais específicos da União caíram de 57,2% para 37,9% do PIB entre 2022 e 2025 (Anexo de Riscos Fiscais do PLDO 2027, via IFI RAF 112) enquanto o prêmio de mercado subiu: o prêmio responde mais a fluxos (Selic, dívida bruta, trajetória do primário, juros americanos) que ao estoque de passivos contingentes; a revisão do bloco 11 indica que os estudos do BCB (WP 637) destacam os juros domésticos (Selic) e a dívida bruta, o que pesa a favor da tese da convenção nesse ponto. IFI (RAF 116): 3,16 p.p. do prêmio de 5 anos atribuídos à dívida; FMI: risco doméstico explica um terço da depreciação de 2024.
 - 10.2.5: a Selic ficou acima da regra de Taylor em 2003–2010 e 2025–2026 e abaixo em 2011–2021; o desvio médio não tem sinal único; o neutro implícito oscila de 0,8% a 12,7% conforme o período.
 - 10.3.1: a orientação futura do BCB em 2020 durou cerca de três meses e não segurou a ponta longa.
 - 5.4.2: o preço relativo dos serviços financeiros sobe com a Selic (correlação 0,61 com a variação da Selic, 2001–2023).
 - 11.7: i − g da DBGG por período: +0,2 p.p. (2006–2013), +7,2 (2014–2016), +3,1 (2017–2019), −3,0 (2020–2022, média; 2020 foi +3,3), +3,5 (2023–2025), +6,2 (2026 preliminar). Teste de Bohn: o primário respondeu à dívida até o início dos anos 2010 (ρ = +0,062 na DLSP, 2002–2013) e deixou de responder depois; limiar às taxas de 2025: 0,041. FMI (Artigo IV 2026, via resumo secundário): primário estabilizador ≈1,5% do PIB, abaixo dos 2,9% (IFI) a 3,4% (painel) por premissas diferentes.
 - 10.3.6: custo de carregamento das reservas (cálculo do painel: estoque × (Selic − juro americano) − estoque × variação da PTAX): diferencial médio de 1,23% do PIB ao ano em 2003–2025; custo líquido com o efeito cambial de só R$ 66 bi em 2012–2025; R$ 189,5 bi (1,41% do PIB) em 12 meses até set/2026, cerca de um sexto dos juros nominais; R$ 19 bi por ponto de Selic. Páginas 10.2.1, 11.1 e 3.2 dizem que o custo não foi medido: passam a ligar para 10.3.6. Sensibilidade da DLSP ao dólar com swaps: −0,8 p.p. do PIB por 10% (sem swaps, −1,2).
+
+## Decisões da revisão do bloco 11 (02/11/2026)
+
+- Repasse do resultado do BC ao Tesouro: pelo SNA 2008, ESA 2010 e GFSM 2014, o repasse pago com ganhos de reavaliação (quase todo o lucro do BC, cambial: R$ 242,8 de R$ 270,9 bi em 2024) é retirada de capital, não receita; não entraria no primário. Vale para 11.2 e 11.4.
+- Resultado "para fins de meta" do governo central: base do BCB (LC 200): 2025 = 58,7 − 48,7 = R$ 10,0 bi de déficit; a 11.6 deve trocar a base RTN (R$ 13,0 bi).

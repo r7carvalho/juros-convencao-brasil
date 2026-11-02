@@ -1,0 +1,13 @@
+{
+ "titulo": "Dois emergentes que financiaram o Tesouro com o banco central em 2020: inflação ao consumidor, dezembro contra dezembro (%)",
+ "tipo": "barras",
+ "unidade": "%",
+ "fonte": "Argentina: INDEC, IPC nacional (comunicados de janeiro de cada ano; mesma série de dados/6.4.3-argentina.json). Indonésia: BPS-Statistics Indonesia, inflação ano contra ano de dezembro (comunicados de 04/01/2021, 03/01/2022 e 02/01/2023)",
+ "url": "https://www.bps.go.id/en/pressrelease/2023/01/02/1949/",
+ "consulta": "2026-11-02",
+ "nota": "Argentina: o BCRA transferiu ao Tesouro, por adiantamentos transitórios e repasse de lucros, cerca de 7,4% do PIB em 2020, 4,6% em 2021 e 1,1% em 2022 (Ecolatina, via Ámbito). Indonésia: o Bank Indonesia comprou títulos do governo no mercado primário de 2020 a 2022, com base na Perppu 1/2020 e nos acordos de divisão de custos com o Ministério das Finanças. Os dois casos diferem em déficit, histórico de inflação, reservas e regime cambial; o gráfico não isola o efeito do financiamento.",
+ "series": [
+  {"nome": "Argentina", "pontos": [{"t": "2020", "v": 36.1}, {"t": "2021", "v": 50.9}, {"t": "2022", "v": 94.8}]},
+  {"nome": "Indonésia", "pontos": [{"t": "2020", "v": 1.68}, {"t": "2021", "v": 1.87}, {"t": "2022", "v": 5.51}]}
+ ]
+}

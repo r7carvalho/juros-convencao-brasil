@@ -203,7 +203,7 @@ Fiscais da LDO, IFI (RAF), FMI (GFSM 2014, Fiscal Monitor, DSA).
 - [x] 11.6 Regras fiscais: LRF, regra de ouro, teto (EC 95), arcabouço (LC 200/2023); desenho, desempenho e comparação internacional
 - [x] 11.7 Sustentabilidade: r − g, teste de Bohn, DSA do FMI, "limite seguro" de dívida e por que ele não existe como número único
 - [x] 11.8 Estatística fiscal internacional: GFSM 2014 e por que comparar dívida entre países exige cuidado
-- [ ] 11.R Revisão independente do bloco 11
+- [x] 11.R Revisão independente do bloco 11
 
 ## 12. Vozes do debate: influenciadores, mídia, mercado e jargões
 
