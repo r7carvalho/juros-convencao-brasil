@@ -54,3 +54,14 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 - DBGG conceito FMI de dez/2022 a ago/2026: 83,94% → 94,53% (+10,6 p.p.), quase igual à alta do conceito BCB.
 - LFT "recorde da série iniciada em 2000": não confirmado; escrever "o maior nível registrado no RMD desde <ano confirmado>" ou só o número com a data.
 - Gráficos repetidos entre áreas (detentores, LFT, primário estabilizador, juros por país): cada tema fica com uma página dona (3.3 detentores, 2.4 LFT, 3.1 primário estabilizador, 3.4 juros por país); as demais usam o mesmo JSON da dona ou um link.
+
+## Decisões da correção da área 2 (02/11/2026)
+
+- Juros nominais apropriados, 12 meses: R$ 1.204,8 bi = 8,99% do PIB até set/2026 (SGS 5727 − 5793; SGS 4382). Ainda com o número de ago/2026: 3.3, 5.4.3, 6.1.2, 6.4, 9.4.
+- Resultado primário do setor público consolidado: déficit de 0,52% do PIB em 12 meses até set/2026 (SGS 5793). Em 3.2 aparece 0,56% (governo geral, ago/2026): dizer o conceito e o mês.
+- Juro real ex-post médio (SGS 4390 e 433): 8,9% em 2000–2009 e 3,8% em 2010–2019; pelo BIS, 3,9% em 2010–2019 (régua diferente, dizer qual).
+- Juro real ex-ante de 2012: 1,68% (Selic over sobre Focus 12m, média anual; JSON 2.3). 6.2.1 e 6.4.2 citam 1,55% com outro método: dizer o método.
+- DI jan/29 em 26/10/2026: "de cerca de 12,6% para cerca de 15%". 4.4, 9.3 e 9.4 ainda dizem 15,25% (que é o jan/31).
+- Selic a 15%: nove meses (jun/2025 a mar/2026, SGS 432). Nunca "mais de um ano".
+- Viés do Focus (2.4.1): de 2002 a 2025 o IPCA 12 meses ficou em média 1,0 p.p. acima da mediana projetada um ano antes (acima em 62% dos meses; +0,5 só com dezembros). O Focus subestimou a inflação; isso pesa contra a leitura de alarmismo inflacionário sistemático das projeções e deve entrar na matriz final.
+- Medianas Focus de ano-calendário (início de ano): 6,56 (2015), 4,86 (2017), 3,32 (2021), 5,30 (2023), conforme focus-anuais_ipca.json.

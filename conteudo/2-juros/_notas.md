@@ -75,3 +75,29 @@ O orçamento de buscas web do turno acabou antes de duas buscas planejadas: o bo
 - Série do swap DI 360 (SGS 7806) para o ex-ante no padrão de mercado.
 - Estimar o efeito-riqueza invertido: renda adicional de LFT e compromissadas por setor institucional (CEI do IBGE, área 5.4.3) × propensão a consumir.
 - Conferir no RPM de setembro de 2026 se o BC revisou o neutro.
+
+## Pendências após a revisão (02/11/2026)
+
+Resolvidas pela revisão com dados/brutos/ ou busca: juro real 1995–1999 (confere com SGS 4390/433); teste de viés do Focus (pendência 2: feito em 2.4.1, gráfico `dados/2.4.1-vies-focus.json`); custo dos juros até set/2026 (R$ 1.204,8 bi, 8,99% do PIB, SGS 5727 − 5793 × 4382); título de Oreiro (2002), autor do artigo de 2018 (Nader), páginas de Bresser-Pereira e Nakano (REP 22(3), 533–563); Resolução CMN 5.141 (26/06/2024, meta de 3% ± 1,5 p.p.); Carneiro (2008), REP 28(4), 539–556; Gonçalves, Holland e Spacov, RBE 61(1), 49–75; Marques e Fochezatto (2007), REC 11(2), 351–375; série ex-ante do JSON 2.3 regenerada (SGS 1178 × Focus suavizado).
+
+Ainda pendentes (o texto público foi reescrito sem o número ou sem a afirmação):
+
+1. Bacha (2002), comentário à proposta Bresser-Nakano: duas buscas não confirmaram o texto nem a página indicada pelo revisor. A seção de crítica ortodoxa de 2.5 usa Lopes (2002, confirmado), Arida, Bacha e Lara Resende (2005) e Lisboa e Pessôa (2019). Incluir Bacha (2002) quando o texto for aberto.
+2. Mediana do juro neutro no Questionário Pré-Copom de 2026 (QPC 275).
+3. Confirmação, no RPM de jun/2026 ou set/2026, de que o Copom mantém o neutro de 5,0% (o texto diz que o painel não localizou revisão).
+4. Sondagem do Consumidor da FGV (expectativa de inflação dos consumidores) comparada à mediana Focus em 2025–2026: frase retirada de 2.4.1.
+5. Segmentação do Focus por tipo de instituição: o BC não publica na API Olinda; conferir se há outra fonte.
+6. Número de participantes do Focus em out/2026 (≈172): sem veículo identificado; retirado de 2.4.1. O texto usa 165 (Galípolo, jul/2026) e 129 respostas na mediana de 23/10/2026 (API Olinda).
+7. Códigos SGS do endividamento (49,8%) e do comprometimento de renda (28,9%) das famílias, jun/2026 (2.4 cita a série do BCB sem código).
+8. Amostra e período de Gonçalves, Holland e Spacov (2007) ("50 países, 1996–2002"): não confirmados; texto reescrito sem eles.
+9. Erber: data da morte e a crítica do *Journal of Economic Issues* (2017) não confirmadas; parágrafo retirado de 2.5.
+10. Texto de Persio Arida de 2005 sobre dívida indexada e aperto: não localizado; menção retirada de 2.4.
+11. Boxe do RPM de jun/2025 sobre determinantes do prêmio de risco: citado "segundo o resumo do boxe" em 2.2; abrir o PDF e citar a página.
+12. Câmbio real efetivo de 75,0 em 2011 (SGS 11752): o arquivo coletado tem lacuna em 2010–2019; recoletar para conferir.
+13. EMBI+ de 2002–2003: citado como JP Morgan via Ipeadata (série JPM366_EMBI366); conferir na fonte quando a rede permitir.
+14. Data da entrevista de Kanczuk ao InfoMoney (2026) e PDF do Boletim Macro do FGV IBRE (7,5%).
+15. Índice amplo do dólar em 2025: o texto de 2.4 usa o DXY (queda de cerca de 9%, Il Sole 24 Ore e NPR); trocar pelo índice amplo do Fed ou do BIS quando coletado.
+
+Achados não aplicados: nenhum por discordância. Aplicado com ajuste: 2.4.1 nº 10 (a tabela de composição do Focus ficou, porque a crítica de composição depende dela; a resposta do BC foi encurtada e remetida a 6.4.1).
+
+Nota para a área 6: as medianas do Focus para o ano-calendário citadas como "a conferir" em 6.4.1 conferem com `dados/brutos/focus-anuais_ipca.json` (primeiro dado de janeiro, base de cálculo 0): 6,56 (2015), 4,86 (2017), 3,32 (2021), 5,30 (2023).

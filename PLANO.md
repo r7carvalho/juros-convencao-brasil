@@ -90,7 +90,7 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 2.5a Bresser e Nakano (2002): o juro alto como convenção e armadilha
 - [x] 2.5b Erber: convenção de desenvolvimento e convenção de estabilidade
 - [x] 2.5c Lara Resende (2017): juros, moeda e ortodoxia
-- [ ] 2.R Revisão independente da macroárea 2
+- [x] 2.R Revisão independente da macroárea 2
 
 ## 3. Dívida pública
 
