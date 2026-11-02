@@ -232,7 +232,13 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.1d5 Influenciador: Eduardo Moreira (ICL)
 - [x] 12.2a Mídia e academia: Samuel Pessôa
 - [x] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
-- [ ] 12.2c Outros nomes frequentes da imprensa econômica (por exemplo Armínio Fraga, Alexandre Schwartsman, Zeina Latif, Mansueto Almeida, Felipe Salto): levantar e abrir uma página por pessoa
+- [x] 12.2c1 Mídia e academia: Mansueto Almeida
+- [ ] 12.2c2 Mídia e academia: Felipe Salto
+- [ ] 12.2c3 Mídia e academia: Armínio Fraga
+- [ ] 12.2c4 Mídia e academia: Zeina Latif
+- [ ] 12.2c5 Mídia e academia: Alexandre Schwartsman
+- [ ] 12.2c6 Mídia e academia: Marcos Mendes
+- [ ] 12.2c7 Mídia e academia: Fabio Giambiagi
 - [ ] 12.3a Economistas-chefes de bancos e gestoras: o que projetam, com que histórico de acerto (comparar projeções do Focus e de relatórios com o realizado)
 - [ ] 12.3b O Focus como instituição: composição, viés, acerto histórico
 - [ ] 12.4a Jargão: "o Brasil vai quebrar" / "a dívida é impagável"

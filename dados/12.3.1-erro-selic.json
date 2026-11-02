@@ -1,0 +1,219 @@
+{
+ "titulo": "Erro do Focus para a Selic de fim de ano, 2002-2025 (p.p.)",
+ "tipo": "barras",
+ "unidade": "p.p.",
+ "fonte": "BCB, Sistema de Expectativas de Mercado (Focus), API Olinda; BCB, SGS 432, 13522 e 7326; cálculo do painel",
+ "url": "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/aplicacao",
+ "consulta": "2026-11-02",
+ "nota": "Erro = realizado menos mediana do Focus (baseCalculo 0) no último dia com dado do mês. Positivo: o mercado projetou abaixo do que veio. Realizado: Selic meta em 31/12 (SGS 432), PIB do ano na série de 02/11/2026, já revisada (SGS 7326), IPCA do ano (SGS 13522, dezembro). Negativo: a Selic terminou o ano abaixo do projetado.",
+ "ref": [
+  {
+   "v": 0,
+   "rotulo": "acerto"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Projeção de janeiro do ano",
+   "pontos": [
+    {
+     "t": "2002",
+     "v": 8.0
+    },
+    {
+     "t": "2003",
+     "v": -4.0
+    },
+    {
+     "t": "2004",
+     "v": 4.25
+    },
+    {
+     "t": "2005",
+     "v": 1.5
+    },
+    {
+     "t": "2006",
+     "v": -1.75
+    },
+    {
+     "t": "2007",
+     "v": -0.5
+    },
+    {
+     "t": "2008",
+     "v": 2.5
+    },
+    {
+     "t": "2009",
+     "v": -2.0
+    },
+    {
+     "t": "2010",
+     "v": -0.5
+    },
+    {
+     "t": "2011",
+     "v": -1.5
+    },
+    {
+     "t": "2012",
+     "v": -2.25
+    },
+    {
+     "t": "2013",
+     "v": 2.75
+    },
+    {
+     "t": "2014",
+     "v": 0.75
+    },
+    {
+     "t": "2015",
+     "v": 1.75
+    },
+    {
+     "t": "2016",
+     "v": -0.5
+    },
+    {
+     "t": "2017",
+     "v": -2.5
+    },
+    {
+     "t": "2018",
+     "v": -0.25
+    },
+    {
+     "t": "2019",
+     "v": -2.0
+    },
+    {
+     "t": "2020",
+     "v": -2.25
+    },
+    {
+     "t": "2021",
+     "v": 5.75
+    },
+    {
+     "t": "2022",
+     "v": 2.0
+    },
+    {
+     "t": "2023",
+     "v": -0.75
+    },
+    {
+     "t": "2024",
+     "v": 3.25
+    },
+    {
+     "t": "2025",
+     "v": 0.0
+    }
+   ]
+  },
+  {
+   "nome": "Projeção de janeiro do ano anterior",
+   "pontos": [
+    {
+     "t": "2002",
+     "v": 12.56
+    },
+    {
+     "t": "2003",
+     "v": 2.5
+    },
+    {
+     "t": "2004",
+     "v": 0.75
+    },
+    {
+     "t": "2005",
+     "v": 5.5
+    },
+    {
+     "t": "2006",
+     "v": -1.75
+    },
+    {
+     "t": "2007",
+     "v": -2.25
+    },
+    {
+     "t": "2008",
+     "v": 2.75
+    },
+    {
+     "t": "2009",
+     "v": -1.5
+    },
+    {
+     "t": "2010",
+     "v": 0.25
+    },
+    {
+     "t": "2011",
+     "v": 0.0
+    },
+    {
+     "t": "2012",
+     "v": -3.88
+    },
+    {
+     "t": "2013",
+     "v": -0.5
+    },
+    {
+     "t": "2014",
+     "v": 3.5
+    },
+    {
+     "t": "2015",
+     "v": 2.37
+    },
+    {
+     "t": "2016",
+     "v": 2.25
+    },
+    {
+     "t": "2017",
+     "v": -5.75
+    },
+    {
+     "t": "2018",
+     "v": -2.5
+    },
+    {
+     "t": "2019",
+     "v": -3.5
+    },
+    {
+     "t": "2020",
+     "v": -6.0
+    },
+    {
+     "t": "2021",
+     "v": 3.25
+    },
+    {
+     "t": "2022",
+     "v": 8.75
+    },
+    {
+     "t": "2023",
+     "v": 3.75
+    },
+    {
+     "t": "2024",
+     "v": 2.75
+    },
+    {
+     "t": "2025",
+     "v": 6.5
+    }
+   ]
+  }
+ ]
+}
