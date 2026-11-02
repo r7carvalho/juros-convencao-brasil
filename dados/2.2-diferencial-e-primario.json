@@ -1,192 +1,192 @@
 {
- "titulo": "Diferencial de juro real do Brasil sobre cinco emergentes (p.p.) e resultado primário do governo geral (% do PIB)",
- "tipo": "linha",
- "unidade": "p.p. / % do PIB",
- "fonte": "BIS (WS_CBPOL e WS_LONG_CPI), cálculo da Frente K; BCB, fatores condicionantes da DBGG (Frente J); diferencial e sinal do primário calculados pelo painel",
- "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/",
- "consulta": "2026-11-02",
- "nota": "Diferencial: juro real do Brasil menos a média simples de México, Chile, Colômbia, Índia e África do Sul (painel BIS). Primário: sinal invertido do fator 'déficit primário' da tabela de fatores condicionantes da dívida bruta do governo geral, de modo que valor positivo é superávit. 2026 do diferencial cobre jan-ago. Correlação anual 2006-2025 entre as duas séries: +0,39 (cálculo do painel).",
- "governos": true,
- "ref": [
-  {
-   "v": 0,
-   "rotulo": "zero"
-  }
- ],
- "series": [
-  {
-   "nome": "Diferencial de juro real (p.p.)",
-   "pontos": [
+  "titulo": "Diferencial de juro real do Brasil sobre cinco emergentes (p.p.) e resultado primário do governo geral (% do PIB)",
+  "tipo": "linha",
+  "unidade": "p.p. / % do PIB",
+  "fonte": "BIS (WS_CBPOL e WS_LONG_CPI); BCB, Estatísticas fiscais, fatores condicionantes da DBGG; diferencial e sinal do primário calculados pelo painel",
+  "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/",
+  "consulta": "2026-11-02",
+  "nota": "Diferencial: juro real do Brasil menos a média simples de México, Chile, Colômbia, Índia e África do Sul (painel BIS). Primário: sinal invertido do fator 'déficit primário' da tabela de fatores condicionantes da dívida bruta do governo geral, de modo que valor positivo é superávit. 2026 do diferencial cobre jan-ago. Correlação anual 2006-2025 entre as duas séries: +0,39 (+0,26 sem 2020-2021); com o primário do setor público consolidado (BCB, SGS 5793), +0,39 (cálculo do painel, consulta em 02/11/2026).",
+  "governos": true,
+  "ref": [
     {
-     "t": "2006",
-     "v": 8.27
-    },
-    {
-     "t": "2007",
-     "v": 5.62
-    },
-    {
-     "t": "2008",
-     "v": 5.73
-    },
-    {
-     "t": "2009",
-     "v": 3.75
-    },
-    {
-     "t": "2010",
-     "v": 4.82
-    },
-    {
-     "t": "2011",
-     "v": 4.54
-    },
-    {
-     "t": "2012",
-     "v": 2.07
-    },
-    {
-     "t": "2013",
-     "v": 1.11
-    },
-    {
-     "t": "2014",
-     "v": 4.42
-    },
-    {
-     "t": "2015",
-     "v": 3.72
-    },
-    {
-     "t": "2016",
-     "v": 4.39
-    },
-    {
-     "t": "2017",
-     "v": 4.84
-    },
-    {
-     "t": "2018",
-     "v": 1.21
-    },
-    {
-     "t": "2019",
-     "v": 0.31
-    },
-    {
-     "t": "2020",
-     "v": -0.1
-    },
-    {
-     "t": "2021",
-     "v": -1.64
-    },
-    {
-     "t": "2022",
-     "v": 4.6
-    },
-    {
-     "t": "2023",
-     "v": 5.93
-    },
-    {
-     "t": "2024",
-     "v": 2.93
-    },
-    {
-     "t": "2025",
-     "v": 5.85
-    },
-    {
-     "t": "2026",
-     "v": 7.04
+      "v": 0,
+      "rotulo": "zero"
     }
-   ]
-  },
-  {
-   "nome": "Resultado primário (% do PIB, + = superávit)",
-   "pontos": [
+  ],
+  "series": [
     {
-     "t": "2006",
-     "v": 2.96
+      "nome": "Diferencial de juro real (p.p.)",
+      "pontos": [
+        {
+          "t": "2006",
+          "v": 8.27
+        },
+        {
+          "t": "2007",
+          "v": 5.62
+        },
+        {
+          "t": "2008",
+          "v": 5.73
+        },
+        {
+          "t": "2009",
+          "v": 3.75
+        },
+        {
+          "t": "2010",
+          "v": 4.82
+        },
+        {
+          "t": "2011",
+          "v": 4.54
+        },
+        {
+          "t": "2012",
+          "v": 2.07
+        },
+        {
+          "t": "2013",
+          "v": 1.11
+        },
+        {
+          "t": "2014",
+          "v": 4.42
+        },
+        {
+          "t": "2015",
+          "v": 3.72
+        },
+        {
+          "t": "2016",
+          "v": 4.39
+        },
+        {
+          "t": "2017",
+          "v": 4.84
+        },
+        {
+          "t": "2018",
+          "v": 1.21
+        },
+        {
+          "t": "2019",
+          "v": 0.31
+        },
+        {
+          "t": "2020",
+          "v": -0.1
+        },
+        {
+          "t": "2021",
+          "v": -1.64
+        },
+        {
+          "t": "2022",
+          "v": 4.6
+        },
+        {
+          "t": "2023",
+          "v": 5.93
+        },
+        {
+          "t": "2024",
+          "v": 2.93
+        },
+        {
+          "t": "2025",
+          "v": 5.85
+        },
+        {
+          "t": "2026",
+          "v": 7.04
+        }
+      ]
     },
     {
-     "t": "2007",
-     "v": 3.31
-    },
-    {
-     "t": "2008",
-     "v": 3.29
-    },
-    {
-     "t": "2009",
-     "v": 1.93
-    },
-    {
-     "t": "2010",
-     "v": 2.57
-    },
-    {
-     "t": "2011",
-     "v": 2.89
-    },
-    {
-     "t": "2012",
-     "v": 2.25
-    },
-    {
-     "t": "2013",
-     "v": 1.74
-    },
-    {
-     "t": "2014",
-     "v": -0.49
-    },
-    {
-     "t": "2015",
-     "v": -1.77
-    },
-    {
-     "t": "2016",
-     "v": -2.45
-    },
-    {
-     "t": "2017",
-     "v": -1.67
-    },
-    {
-     "t": "2018",
-     "v": -1.6
-    },
-    {
-     "t": "2019",
-     "v": -0.99
-    },
-    {
-     "t": "2020",
-     "v": -9.28
-    },
-    {
-     "t": "2021",
-     "v": 0.69
-    },
-    {
-     "t": "2022",
-     "v": 1.19
-    },
-    {
-     "t": "2023",
-     "v": -2.25
-    },
-    {
-     "t": "2024",
-     "v": -0.32
-    },
-    {
-     "t": "2025",
-     "v": -0.38
+      "nome": "Resultado primário (% do PIB, + = superávit)",
+      "pontos": [
+        {
+          "t": "2006",
+          "v": 2.96
+        },
+        {
+          "t": "2007",
+          "v": 3.31
+        },
+        {
+          "t": "2008",
+          "v": 3.29
+        },
+        {
+          "t": "2009",
+          "v": 1.93
+        },
+        {
+          "t": "2010",
+          "v": 2.57
+        },
+        {
+          "t": "2011",
+          "v": 2.89
+        },
+        {
+          "t": "2012",
+          "v": 2.25
+        },
+        {
+          "t": "2013",
+          "v": 1.74
+        },
+        {
+          "t": "2014",
+          "v": -0.49
+        },
+        {
+          "t": "2015",
+          "v": -1.77
+        },
+        {
+          "t": "2016",
+          "v": -2.45
+        },
+        {
+          "t": "2017",
+          "v": -1.67
+        },
+        {
+          "t": "2018",
+          "v": -1.6
+        },
+        {
+          "t": "2019",
+          "v": -0.99
+        },
+        {
+          "t": "2020",
+          "v": -9.28
+        },
+        {
+          "t": "2021",
+          "v": 0.69
+        },
+        {
+          "t": "2022",
+          "v": 1.19
+        },
+        {
+          "t": "2023",
+          "v": -2.25
+        },
+        {
+          "t": "2024",
+          "v": -0.32
+        },
+        {
+          "t": "2025",
+          "v": -0.38
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

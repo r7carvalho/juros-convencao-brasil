@@ -44,9 +44,13 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 ## Decisões da revisão da área 1 que valem para todo o painel (02/11/2026)
 
 - Taxa implícita da DBGG em 2025: 12,55% (série dos fatores condicionantes, juros do ano / estoque de dez/2024). Ainda usam 12,69%: 3.1, 3.4, 7.3, 7.8.
-- Primário estabilizador "às taxas de 2025": 3,2% com a dívida de dez/2024 (78,6%) e 3,4% com a de ago/2026 (82,9%). A área 3 usou 3,49% (vinha de 12,69%).
+- Primário estabilizador "às taxas de 2025": 3,2% com a dívida de dez/2025 (78,6%; SGS 13762 dá 78,64; dez/2024 é 76,27) e 3,4% com a de ago/2026 (82,9%). A área 3 usou 3,49% (vinha de 12,69%).
 - IFI: RAF 117 (29/10/2026), 2,9% do PIB com juro neutro de 6,1%; o RAF 113 (2,1%) só como histórico. Ainda citam o RAF 113: 3.1, 3.2, 6.1, 7.8, 9.4.
 - Turquia (TurkStat): 85,5% (out/2022) → 38,2% (jun/2023, efeito de base com juro baixo) → 75,4% (mai/2024) → queda sustentada depois da taxa de 50%. Versão simplificada em 2.5 e 6.4.2.
 - Metas de 1999: Resolução CMN 2.615 (30/06/1999), não o Decreto 3.088 (que cria o regime).
 - Focus: o ranking Top 5 premia acerto; não há fonte para "avaliado pela distância ao consenso" (2.4.1, linha 42).
 - IPCA acima de 100% em 12 dos 15 anos de 1980 a 1994 (SGS 13522).
+- Juro real Brasil × pares: 2003–2008, Brasil 8,8% a.a. contra 0,4% a 3,5% em Chile, Índia, Colômbia, México e África do Sul (5 a 8 p.p. de distância, BIS); 2010–2019, 3,9% contra 0,4% a 1,0% (≈3 p.p.). Não usar "três pontos" para 2003–2008.
+- DBGG conceito FMI de dez/2022 a ago/2026: 83,94% → 94,53% (+10,6 p.p.), quase igual à alta do conceito BCB.
+- LFT "recorde da série iniciada em 2000": não confirmado; escrever "o maior nível registrado no RMD desde <ano confirmado>" ou só o número com a data.
+- Gráficos repetidos entre áreas (detentores, LFT, primário estabilizador, juros por país): cada tema fica com uma página dona (3.3 detentores, 2.4 LFT, 3.1 primário estabilizador, 3.4 juros por país); as demais usam o mesmo JSON da dona ou um link.

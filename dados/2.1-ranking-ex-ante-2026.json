@@ -1,80 +1,80 @@
 {
- "titulo": "Juro real ex-ante, ranking de 40 países em 16/09/2026 (recorte, % a.a.)",
- "tipo": "barrash",
- "unidade": "% a.a.",
- "fonte": "MoneYou e Lev Intelligence, ranking mundial de juros reais de 16/09/2026 (divulgado pelo Poder360)",
- "url": "https://static.poder360.com.br/uploads/2026/09/rankingdejurosreais160926.pdf",
- "consulta": "2026-10-28",
- "nota": "Juro de mercado de 1 ano deflacionado pela inflação projetada para 12 meses. O número antes do nome é a posição entre os 40 países. Em jan/2026 o Brasil era o 2º, atrás da Rússia.",
- "series": [
-  {
-   "nome": "Juro real ex-ante",
-   "pontos": [
+  "titulo": "Juro real ex-ante, ranking de 40 países em 16/09/2026 (recorte, % a.a.)",
+  "tipo": "barrash",
+  "unidade": "% a.a.",
+  "fonte": "MoneYou e Lev Intelligence, ranking mundial de juros reais de 16/09/2026 (divulgado pelo Poder360)",
+  "url": "https://static.poder360.com.br/uploads/2026/09/rankingdejurosreais160926.pdf",
+  "consulta": "2026-10-28",
+  "nota": "Juro de mercado de 1 ano deflacionado pela inflação projetada para 12 meses. O número antes do nome é a posição entre os 40 países.",
+  "series": [
     {
-     "t": "1º Brasil",
-     "v": 8.45
-    },
-    {
-     "t": "2º Rússia",
-     "v": 6.79
-    },
-    {
-     "t": "3º Colômbia",
-     "v": 6.33
-    },
-    {
-     "t": "4º Turquia",
-     "v": 6.25
-    },
-    {
-     "t": "5º México",
-     "v": 3.08
-    },
-    {
-     "t": "6º África do Sul",
-     "v": 2.93
-    },
-    {
-     "t": "7º Argentina",
-     "v": 2.69
-    },
-    {
-     "t": "8º Hungria",
-     "v": 2.51
-    },
-    {
-     "t": "9º Indonésia",
-     "v": 2.14
-    },
-    {
-     "t": "10º Chile",
-     "v": 2.09
-    },
-    {
-     "t": "13º Índia",
-     "v": 1.63
-    },
-    {
-     "t": "24º Reino Unido",
-     "v": 0.8
-    },
-    {
-     "t": "25º Estados Unidos",
-     "v": 0.74
-    },
-    {
-     "t": "33º China",
-     "v": 0.52
-    },
-    {
-     "t": "37º Japão",
-     "v": -0.44
-    },
-    {
-     "t": "Média dos 40 países",
-     "v": 1.62
+      "nome": "Juro real ex-ante",
+      "pontos": [
+        {
+          "t": "1º Brasil",
+          "v": 8.45
+        },
+        {
+          "t": "2º Rússia",
+          "v": 6.79
+        },
+        {
+          "t": "3º Colômbia",
+          "v": 6.33
+        },
+        {
+          "t": "4º Turquia",
+          "v": 6.25
+        },
+        {
+          "t": "5º México",
+          "v": 3.08
+        },
+        {
+          "t": "6º África do Sul",
+          "v": 2.93
+        },
+        {
+          "t": "7º Argentina",
+          "v": 2.69
+        },
+        {
+          "t": "8º Hungria",
+          "v": 2.51
+        },
+        {
+          "t": "9º Indonésia",
+          "v": 2.14
+        },
+        {
+          "t": "10º Chile",
+          "v": 2.09
+        },
+        {
+          "t": "13º Índia",
+          "v": 1.63
+        },
+        {
+          "t": "24º Reino Unido",
+          "v": 0.8
+        },
+        {
+          "t": "25º Estados Unidos",
+          "v": 0.74
+        },
+        {
+          "t": "33º China",
+          "v": 0.52
+        },
+        {
+          "t": "37º Japão",
+          "v": -0.44
+        },
+        {
+          "t": "Média dos 40 países",
+          "v": 1.62
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

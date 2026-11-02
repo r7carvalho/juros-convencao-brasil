@@ -1,122 +1,122 @@
 {
- "titulo": "Juro real médio da taxa básica por período (% a.a.)",
- "tipo": "barras",
- "unidade": "% a.a.",
- "fonte": "BIS (WS_CBPOL e WS_LONG_CPI); médias simples calculadas pelo painel sobre a série da Frente K",
- "url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv",
- "consulta": "2026-10-28",
- "nota": "2020-2026 inclui 2026 até agosto. Média simples dos anos de cada período.",
- "series": [
-  {
-   "nome": "2000-2009",
-   "pontos": [
+  "titulo": "Juro real médio da taxa básica por período (% a.a.)",
+  "tipo": "barras",
+  "unidade": "% a.a.",
+  "fonte": "BIS (WS_CBPOL e WS_LONG_CPI); cálculo do painel: média anual da taxa de política deflacionada pela média anual da inflação em 12 meses, e médias simples dos anos de cada período",
+  "url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB?startPeriod=2000-01&format=csv",
+  "consulta": "2026-11-02",
+  "nota": "2020-2026 inclui 2026 até agosto. Média simples dos anos de cada período.",
+  "series": [
     {
-     "t": "Brasil",
-     "v": 8.77
+      "nome": "2000-2009",
+      "pontos": [
+        {
+          "t": "Brasil",
+          "v": 8.77
+        },
+        {
+          "t": "México",
+          "v": 3.14
+        },
+        {
+          "t": "África do Sul",
+          "v": 3.58
+        },
+        {
+          "t": "Colômbia",
+          "v": 1.58
+        },
+        {
+          "t": "Índia",
+          "v": 1.89
+        },
+        {
+          "t": "Chile",
+          "v": 0.66
+        },
+        {
+          "t": "EUA",
+          "v": 0.36
+        },
+        {
+          "t": "Área do euro",
+          "v": 0.83
+        }
+      ]
     },
     {
-     "t": "México",
-     "v": 3.14
+      "nome": "2010-2019",
+      "pontos": [
+        {
+          "t": "Brasil",
+          "v": 3.93
+        },
+        {
+          "t": "México",
+          "v": 1.04
+        },
+        {
+          "t": "África do Sul",
+          "v": 0.86
+        },
+        {
+          "t": "Colômbia",
+          "v": 0.83
+        },
+        {
+          "t": "Índia",
+          "v": 0.78
+        },
+        {
+          "t": "Chile",
+          "v": 0.44
+        },
+        {
+          "t": "EUA",
+          "v": -1.14
+        },
+        {
+          "t": "Área do euro",
+          "v": -0.95
+        }
+      ]
     },
     {
-     "t": "África do Sul",
-     "v": 3.58
-    },
-    {
-     "t": "Colômbia",
-     "v": 1.58
-    },
-    {
-     "t": "Índia",
-     "v": 1.89
-    },
-    {
-     "t": "Chile",
-     "v": 0.66
-    },
-    {
-     "t": "EUA",
-     "v": 0.36
-    },
-    {
-     "t": "Área do euro",
-     "v": 0.83
+      "nome": "2020-2026",
+      "pontos": [
+        {
+          "t": "Brasil",
+          "v": 4.68
+        },
+        {
+          "t": "México",
+          "v": 2.68
+        },
+        {
+          "t": "África do Sul",
+          "v": 1.53
+        },
+        {
+          "t": "Colômbia",
+          "v": 1.56
+        },
+        {
+          "t": "Índia",
+          "v": 0.33
+        },
+        {
+          "t": "Chile",
+          "v": -0.28
+        },
+        {
+          "t": "EUA",
+          "v": -0.86
+        },
+        {
+          "t": "Área do euro",
+          "v": -1.46
+        }
+      ]
     }
-   ]
-  },
-  {
-   "nome": "2010-2019",
-   "pontos": [
-    {
-     "t": "Brasil",
-     "v": 3.93
-    },
-    {
-     "t": "México",
-     "v": 1.04
-    },
-    {
-     "t": "África do Sul",
-     "v": 0.86
-    },
-    {
-     "t": "Colômbia",
-     "v": 0.83
-    },
-    {
-     "t": "Índia",
-     "v": 0.78
-    },
-    {
-     "t": "Chile",
-     "v": 0.44
-    },
-    {
-     "t": "EUA",
-     "v": -1.14
-    },
-    {
-     "t": "Área do euro",
-     "v": -0.95
-    }
-   ]
-  },
-  {
-   "nome": "2020-2026",
-   "pontos": [
-    {
-     "t": "Brasil",
-     "v": 4.68
-    },
-    {
-     "t": "México",
-     "v": 2.68
-    },
-    {
-     "t": "África do Sul",
-     "v": 1.53
-    },
-    {
-     "t": "Colômbia",
-     "v": 1.56
-    },
-    {
-     "t": "Índia",
-     "v": 0.33
-    },
-    {
-     "t": "Chile",
-     "v": -0.28
-    },
-    {
-     "t": "EUA",
-     "v": -0.86
-    },
-    {
-     "t": "Área do euro",
-     "v": -1.46
-    }
-   ]
-  }
- ]
+  ]
 }
