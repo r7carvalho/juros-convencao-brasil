@@ -98,7 +98,7 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 3.1 Aritmética aplicada ao Brasil (r, g, d, s atuais e cenários)
 - [x] 3.2 Decomposição da alta pelos fatores condicionantes do BCB (insumo `frente-J.json`)
 - [x] 3.3a Detentores da DPF (Tesouro) e evolução
-- [ ] 3.3b Contas Econômicas Integradas (IBGE): juros pagos e recebidos por setor institucional
+- [x] 3.3b Contas Econômicas Integradas (IBGE): juros pagos e recebidos por setor institucional
 - [x] 3.4 Comparação internacional de nível e de custo
 - [x] 3.5 Auditoria Cidadã da Dívida: o que afirma, a resposta do Tesouro e as críticas metodológicas
 - [ ] 3.R Revisão independente da macroárea 3
@@ -118,13 +118,13 @@ fim; publicada em `docs/` sem erro de build.
 
 ## 5. Investimento refém do juro
 
-- [ ] 5.0 Página macro
-- [ ] 5.1a Juro real × ROE/ROIC de empresas não financeiras (séries públicas)
-- [ ] 5.1b Juro real × taxa de lucro macro (IBGE)
-- [ ] 5.2 FBCF, capital por trabalhador e relação capital-produto (insumo `frente-L.json`)
-- [ ] 5.3 CDI como referência: fundos, metas atuariais, TLP, custo de oportunidade
-- [ ] 5.4a Tabela de Recursos e Usos simplificada do ano mais recente
-- [ ] 5.4b Valor adicionado por atividade e o peso das atividades financeiras ao longo do tempo
+- [x] 5.0 Página macro
+- [x] 5.1a Juro real × ROE/ROIC de empresas não financeiras (séries públicas)
+- [x] 5.1b Juro real × taxa de lucro macro (IBGE)
+- [x] 5.2 FBCF, capital por trabalhador e relação capital-produto (insumo `frente-L.json`)
+- [x] 5.3 CDI como referência: fundos, metas atuariais, TLP, custo de oportunidade
+- [x] 5.4a Tabela de Recursos e Usos simplificada do ano mais recente
+- [x] 5.4b Valor adicionado por atividade e o peso das atividades financeiras ao longo do tempo
 - [ ] 5.R Revisão independente da macroárea 5
 
 ## 6. Contrapontos ortodoxos

@@ -1,0 +1,119 @@
+{
+ "titulo": "IPCA acumulado em 12 meses sob a meta contínua, dez/2024 a set/2026 (%)",
+ "tipo": "linha",
+ "unidade": "%",
+ "fonte": "IBGE, IPCA (SIDRA, tabela 1737, variação acumulada em 12 meses); meta e intervalo: Resolução CMN 5.141/2024 e Decreto 12.079/2024",
+ "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/last%2024",
+ "consulta": "2026-11-02",
+ "nota": "A meta é descumprida quando o IPCA de 12 meses fica fora do intervalo (1,5% a 4,5%) por seis meses seguidos; isso ocorreu em jun/2025 (jan a jun acima do teto) e o BC publicou carta aberta em 10/07/2025. SIDRA não abriu nesta sessão: dez/2024, abr, jun–dez/2025 e fev, mai, ago e set/2026 conferidos por busca em notas do IBGE, do BCB e do Ministério do Planejamento e no insumo da Frente C; jan, fev, mar e mai/2025 em tabela da UFMS e informe do Ministério do Planejamento que reproduzem o IBGE; jan, mar, abr, jun e jul/2026 em agregador (Investidor10). Conferir na SIDRA.",
+ "governos": false,
+ "ref": [
+  {
+   "v": 4.5,
+   "rotulo": "teto"
+  },
+  {
+   "v": 3.0,
+   "rotulo": "centro"
+  },
+  {
+   "v": 1.5,
+   "rotulo": "piso"
+  }
+ ],
+ "series": [
+  {
+   "nome": "IPCA em 12 meses",
+   "pontos": [
+    {
+     "t": "2024-12",
+     "v": 4.83
+    },
+    {
+     "t": "2025-01",
+     "v": 4.56
+    },
+    {
+     "t": "2025-02",
+     "v": 5.06
+    },
+    {
+     "t": "2025-03",
+     "v": 5.48
+    },
+    {
+     "t": "2025-04",
+     "v": 5.53
+    },
+    {
+     "t": "2025-05",
+     "v": 5.32
+    },
+    {
+     "t": "2025-06",
+     "v": 5.35
+    },
+    {
+     "t": "2025-07",
+     "v": 5.23
+    },
+    {
+     "t": "2025-08",
+     "v": 5.13
+    },
+    {
+     "t": "2025-09",
+     "v": 5.17
+    },
+    {
+     "t": "2025-10",
+     "v": 4.68
+    },
+    {
+     "t": "2025-11",
+     "v": 4.46
+    },
+    {
+     "t": "2025-12",
+     "v": 4.26
+    },
+    {
+     "t": "2026-01",
+     "v": 4.44
+    },
+    {
+     "t": "2026-02",
+     "v": 3.81
+    },
+    {
+     "t": "2026-03",
+     "v": 4.14
+    },
+    {
+     "t": "2026-04",
+     "v": 4.39
+    },
+    {
+     "t": "2026-05",
+     "v": 4.72
+    },
+    {
+     "t": "2026-06",
+     "v": 4.64
+    },
+    {
+     "t": "2026-07",
+     "v": 4.44
+    },
+    {
+     "t": "2026-08",
+     "v": 4.22
+    },
+    {
+     "t": "2026-09",
+     "v": 4.58
+    }
+   ]
+  }
+ ]
+}

@@ -19,3 +19,6 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 12 | DI jan/29 em 26/10/2026 | 15,25% (frente-B) | 15,03% (TMC); 15,25% é o jan/31 | Área 2 escreve "de ~12,6% para ~15%". | 2.2 |
 | 13 | Participantes do Focus | ≈165 (jul/2026, Galípolo) | ≈172 (out/2026) | Ambos com data. | 2.4.1 |
 | 14 | Primário que estabiliza a dívida (IFI) | 2,1% do PIB (frente-J, RAF 113, jun/2026) | 2,9% com neutro de 6,1% (RAF 117, 29/10/2026) | Vale o RAF mais recente (117), citando a premissa de juro neutro. Área 3 cita o RAF 113 com data; ajustar na revisão. | 2.3; 3.1 a ajustar |
+| 15 | Atividades financeiras no valor adicionado | 6,0% a 7,9% em 2013–2016 (SCN anual, tabela 13.1, via busca) | 8,6% a 11,1% (Contas Trimestrais, tabela III.2, via busca); 4,8% do PIB em 2024 (Fin, recorte estreito) | Área 5 usa o SCN anual e explica os recortes; conferir a tabela 13.1 com o coletor (grupo scn). | 5.4.2 |
+| 16 | Relação capital-produto K/Y | queda: 2,04 em 2025, menor desde 1977 (Ipea) | alta (PWT 11.0, rnna/rgdpna) | Medidas de capital e deflatores diferentes; o painel usa Ipea e mostra as duas. | 5.2 |
+| 17 | Juro real do setor público em 2025 | 5,3% do PIB (CONTEXTO.md) | ≈5,5% (área 3) | Ver #5; a 5.4.3 segue a área 3. | 5.4.3 |
