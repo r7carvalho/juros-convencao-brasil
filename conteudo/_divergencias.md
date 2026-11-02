@@ -73,3 +73,12 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 - DBGG conceito BCB 2006–2014: usar SGS 13762 (2006: 55,48; 2013: 51,54; 2014: 56,28).
 - Gráficos donos: detentores = dados/3.3-detentores-ago2026.json; primário estabilizador = dados/3.1-primario-estabilizador.json; juros por país = dados/3.4-juros-liquidos-paises.json; LFT na DPF = dados/2.4-lft-na-dpf.json. As outras áreas passam a usar estes arquivos.
 - Pendentes nas outras áreas: 1.5 ("dívida do fim de 2024 (78,6%)" → dez/2025); 6.1 (12,6% → 12,55%; 3,3%/3,5% → 3,2%/3,4%; faixa 2,9–3,4%; tirar "Frente J"); 7.3 e 7.8 (12,69% → 12,55%; RAF 117); 2.4 (nota do JSON da LFT sem "maior da série").
+
+## Decisões da revisão da área 5 (02/11/2026)
+
+- Pico da FBCF: no índice com ajuste sazonal, 2º tri de 2013 (CONTEXTO.md); no índice sem ajuste (SIDRA 1620) o pico é o 3º tri de 2013 e a queda até o 4º tri de 2016 é de 32,8%. Dizer qual série.
+- Atividades financeiras no VA (SIDRA 1846, preços correntes): 8,5% em 2025 e 8,8% no 1º semestre de 2026, maior nível desde 1998; correlação de 0,77 com o juro real (1996–2025). Fecha a divergência nº 15.
+- TRU 2023 pelas Contas Trimestrais (SIDRA 1846, R$ bi): C 6.886,0; G 2.083,9; FBCF 1.795,9; X 1.966,4; M 1.717,8; VA 9.558,6; PIB 10.943,3.
+- CDI = Selic over na prática; os 0,10 p.p. são a distância da over para a meta.
+- SGS 1178 é a Selic anualizada diária (não a TJLP); TJLP = SGS 256.
+- FBCF/PIB: dono do gráfico é a 5.2 (dados/5.2-taxa-de-investimento.json); 1.6 e 4.3 passam a usá-lo.

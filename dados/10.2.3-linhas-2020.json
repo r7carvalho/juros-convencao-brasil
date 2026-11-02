@@ -1,0 +1,38 @@
+{
+ "titulo": "Duas linhas de 2020: potencial anunciado × uso efetivo (R$ bilhões)",
+ "tipo": "barras",
+ "unidade": "R$ bilhões",
+ "fonte": "Potencial: BCB, apresentações de 2020 sobre as medidas de combate aos efeitos da Covid-19 e Evolução Recente do Crédito no SFN (29/01/2021). Uso da LTEL-LFG: BCB, nota de 23/12/2022 sobre a liquidação das últimas operações (reproduzida por Legismap e pela Reuters). Uso do Novo DPGE: dados do BCB citados pelo Estadão (via Terra, dez/2020)",
+ "url": "https://legismap.com.br/conteudos/artigos-e-noticias/noticias-bcb-em-23-12-2022",
+ "consulta": "2026-11-02",
+ "nota": "As duas medidas de uso não são da mesma data nem do mesmo conceito. LTEL-LFG: soma das 245 operações contratadas por 51 instituições de abril de 2020 até a liquidação das últimas, em 7/12/2022; o saldo devedor nunca chegou a esse valor ao mesmo tempo (em dezembro de 2020 era de cerca de R$ 46 bilhões). Novo DPGE: emissões acumuladas até o início de novembro de 2020; o DPGE é captação com garantia do FGC, sem dinheiro do BC. O potencial somado de todas as medidas de liquidez de 2020 foi de R$ 1.274 bilhões (17,5% do PIB).",
+ "governos": false,
+ "series": [
+  {
+   "nome": "Potencial anunciado",
+   "pontos": [
+    {
+     "t": "LTEL-LFG",
+     "v": 670
+    },
+    {
+     "t": "Novo DPGE",
+     "v": 200
+    }
+   ]
+  },
+  {
+   "nome": "Usado",
+   "pontos": [
+    {
+     "t": "LTEL-LFG",
+     "v": 121.9
+    },
+    {
+     "t": "Novo DPGE",
+     "v": 22.6
+    }
+   ]
+  }
+ ]
+}

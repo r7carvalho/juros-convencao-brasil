@@ -71,7 +71,9 @@ SGS = {
     1788: "Base monetária restrita, saldo em fim de período (R$ milhões) (conferir)",
     1824: "Meios de pagamento M1, saldo em fim de período (R$ milhões) (conferir)",
     28964: "Base monetária ampliada, depósitos voluntários remunerados, saldo (conferir)",
-    1178: "Taxa de juros de longo prazo, TJLP (% a.a.) (conferir)",
+    1178: "Selic anualizada base 252, diária (% a.a.)",
+    256: "Taxa de juros de longo prazo, TJLP (% a.a.) (conferir)",
+    27572: "Taxa de longo prazo, TLP (% a.a.) (conferir)",
     24369: "Taxa de desocupação, PNAD Contínua (%) (conferir)",
     7326: "PIB, variação real anual (%) (conferir)",
 }
