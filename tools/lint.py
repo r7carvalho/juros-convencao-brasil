@@ -18,6 +18,9 @@ VETADAS = [
     "vale ressaltar", "vale lembrar", "cabe destacar", "em resumo", "neste texto",
     "segue abaixo", "vamos entender", "configura-se", "apresenta-se como", "mergulhar",
     "panorama", "intrincad", "multifacetad", "pilar", "em última análise",
+    "frente a", "frente c", "frente i", "frente j", "frente k", "frente l", "insumo",
+    "painel irmão", "tese do usuário", "nesta rodada", "nesta sessão", "deu origem ao painel",
+    "esta página",
 ]
 RE_NAO_E = re.compile(r"\bnão (?:é|foi|era|são)\b[^.;:]{1,60}[,;] (?:mas )?(?:é|foi|era|são)\b", re.I)
 
