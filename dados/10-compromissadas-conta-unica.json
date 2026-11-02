@@ -2,7 +2,7 @@
  "titulo": "Operações compromissadas do BC e conta única do Tesouro (% do PIB)",
  "tipo": "linha",
  "unidade": "% do PIB",
- "fonte": "BCB, Estatísticas Fiscais, tabela especial Divggnp.xlsx (DBGG: compromissadas do Bacen; disponibilidades do governo federal no Bacen), via insumo Frente J",
+ "fonte": "BCB, Estatísticas Fiscais, tabela especial Divggnp.xlsx (DBGG: compromissadas do Bacen; disponibilidades do governo federal no Bacen)",
  "url": "https://www.bcb.gov.br/content/estatisticas/Documents/Tabelas_especiais/Divggnp.xlsx",
  "consulta": "2026-10-28",
  "nota": "Posição de dezembro; último ponto agosto de 2026. Compromissadas são passivo do BC e entram na dívida bruta no conceito BCB; a conta única é passivo do BC e ativo do Tesouro. Razões sobre o PIB mudam quando o IBGE revisa o PIB.",
