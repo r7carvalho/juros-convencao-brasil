@@ -468,3 +468,34 @@ BoJ (comunicados de 04/04/2013, 31/10/2014, 29/01/2016, 21/09/2016, 19/03/2024 e
 - Nenhuma de número com 3.4 (dívida 204,8% e juros líquidos 0,2% do PIB; 93,3% e 7,3% no Brasil), 3.3 (não residentes 9,9% em ago/2026), 6.3 (FBCF 16,8%, transações correntes −2,9%, poupança média 15,5%), 2.1/9.1 (ex-ante 8,73% em 23/10/2026) e 1.1.3/7.8 ("metade dos títulos"; inflação de 2% só a partir de 2022).
 - 1.1.3 e 7.8 dizem que o BoJ "passou a deter cerca de metade dos títulos"; 10.3.3 precisa: 53,34% sem letras em mar/2023, 46,3% com letras no fim de 2024, abaixo de 50% em 2026. Coerente.
 - 10.3 (ponte) diz que o BoJ "desmontou o arranjo e os juros negativos em março de 2024": igual.
+
+## 10.3d
+
+### Página entregue (02/11/2026)
+
+- 10.3.4 Juros negativos, 1ª versão: cerca de 2.900 palavras de prosa corrida (sem parênteses de fonte, tabela, fórmulas, citações em bloco e listas dos quadros); cerca de 3.200 com citações e quadros; 4.500 pela contagem do lint, que inclui tabela e referências.
+- Conteúdo: exemplo de brinquedo (banco com 1.000 de depósitos a 0%, 100 de capital, 900 de empréstimos a 3% e 200 de reservas; lucro 12 → 6,5 com reservas a −0,5%, sendo 1 de cobrança direta e 4,5 de margem; isenção de 60 reduz o custo direto a 0,7); condição $-i < c$ do papel-moeda e o ELB (Witmer e Yang 2016: Canadá ≈ −0,5%); motivos (regra de Taylor e câmbio); tabela de entrada, mínimo e saída dos cinco; gráfico; camadas (custo médio $(R-X)/R \cdot i$); efeitos (repasse, depósitos, Dinamarca, margem $\Delta\Pi \approx -\Delta E$ acima de zero e $-\Delta A$ com depósito parado, Heider et al., Eggertsson et al., Altavilla et al. 2018 e 2022, FMI 2021, câmbio); *reversal rate* (Abadi, Brunnermeier e Koby; ganho de capital único × perda de margem anual; Darracq Pariès, Kok e Rottner ≈ −1%); quadro A favor/Contra sobre a eficácia; distância do Brasil (Selic 2% de 06/08/2020 a 17/03/2021); espelho do teto prático com links para 1.5.1, 1.5.2, 1.5.3, 3.1 e 6.1; caixa "o painel lê".
+- Gráfico: `dados/10.3.4-taxas-negativas.json`, mensal, jan/2010 a set/2026. Do bruto `dados/brutos/bis-politica_monetaria.csv` (REF_AREA = XM e JP, consulta 02/11/2026) mais a facilidade de depósito do BCE reconstruída pelas datas de vigência da tabela do BCE até ago/2024 (a série XM do BIS é a taxa de refinanciamento até 17/09/2024 e a facilidade de depósito depois). Conferido: em todos os meses de 2010 a ago/2024 a diferença entre a taxa de refinanciamento do BIS e a facilidade reconstruída é 0,75, 0,50, 0,40, 0,35 ou 0,25 ponto, como nas decisões do BCE. Script em scratchpad, não versionado.
+- Suíça, Suécia e Dinamarca não estão no bruto do BIS (a coleta tem BR, MX, CL, CO, IN, ZA, TR, US, XM, JP, GB, RU, ID); ficaram só na tabela e no texto, como pede o cartão. Para pô-las no gráfico, acrescentar CH, SE e DK a `BIS_PAISES` em `tools/coletar.py`.
+
+### Fontes principais (todas por WebSearch; bis.org, nber.org, fred.stlouisfed.org e data.snb.ch recusados pela rede)
+
+BCE (comunicados de 05/06/2014 e 12/09/2019; tabela das taxas diretoras, confirmada também pela tabela do Central Bank of Ireland); SNB (decisões de 18/12/2014, 15/01/2015, jun/2022 e 22/09/2022; isenção de 20 vezes o compulsório e 25 vezes desde 01/11/2019); Riksbank (−0,10% anunciado em 12/02/2015 com vigência em 18/02; −0,25% mar/2015; −0,35% jul/2015; −0,50% fev/2016; −0,25% em jan/2019; zero decidido em 18/12/2019 com vigência em 08/01/2020; *Account of Monetary Policy 2019*); Danmarks Nationalbank (*Monetary Review* 3T/2012; comunicado de 08/09/2022: +0,65% em 09/09/2022, vindo de −0,10% desde 22/07/2022, que vinha de −0,60%; *Analysis* n. 9/2021: ≈30% dos depósitos de famílias com taxa negativa em mai/2021); Banco do Japão (via 10.3.3 e nota do BIS); Bech e Malkhozov (2016, BIS QR mar/2016, recorte do resumo pela busca); Abadi, Brunnermeier e Koby (2023, AER; recorte da definição pelo resumo reproduzido na busca); Heider, Saidi e Schepens (2019, RFS 32(10): 3728–3761, recorte do resumo); Eggertsson, Juelsrud, Summers e Wold (2019, NBER 25416; RES 2024, recorte do resumo; calibração −0,5% → +15 pb no crédito e −7 pb no produto); Eisenschmidt e Smets (2019, Banco Central do Chile); Altavilla, Boucinha e Peydró (2018); Altavilla, Burlon, Giannetti e Holton (2022); FMI (Departmental Paper 2021/003 e blog de 03/03/2021); Andersson e Jonung (2020); Flug e Honohan (2022) e a resposta do Riksbank; Darracq Pariès, Kok e Rottner (2020, BCE WP 2487); Witmer e Yang (2016); Chen, Funke e Moessner (2017, BIS WP 660); Nordea (21/11/2019); Jyske Bank (crédito imobiliário de dez anos a −0,5%, ago/2019, por CNBC e Bloomberg).
+
+### Lacunas (nada disso entrou como fato)
+
+- Dinamarca: data exata da volta ao negativo em 2014 (o texto diz só que, entre jan e fev/2015, foram quatro cortes de −0,05% até −0,75%); sequência de 2016 a 2021 (−0,65% em jan/2016, −0,75% em set/2019, unificação das taxas em 2021) não confirmada; o arranjo de "conta corrente a zero com limite e excedente em certificados" vem do conhecimento do painel e do resumo do BIS (três de quatro com limites), sem documento do Nationalbank aberto. Conferir no Statbank do Nationalbank.
+- SNB: a vigência de 22/01/2015 está confirmada para −0,75%; a de −0,25% anunciada em 18/12/2014 não foi conferida (o texto só diz "anunciou").
+- Tamanho da valorização do franco em 15/01/2015: fontes secundárias dão de 20% a 40%; o texto diz só que chegou à paridade (BIS WP 660). Estoque de notas de 1.000 francos (48,6 bi, 59% do valor em circulação no início de 2021, The Local) não usado.
+- Riksbank: taxa de depósito negativa em 2009 (sem nível confirmado) fora do texto.
+- Eisenschmidt e Smets (2019): só resumos; o texto se limita ao amontoamento das taxas de depósito em zero.
+- FMI (2021) e Altavilla et al.: parafraseados, sem recorte.
+- Bech e Malkhozov: só a primeira página (31) confirmada.
+- Fuga para papel-moeda: o texto cita só a Dinamarca (*Analysis* 9/2021); nenhum número de demanda por cédulas.
+
+### Divergências
+
+- O cartão dá "Suécia fev/2015 −0,5%": a entrada foi −0,10% em fev/2015 e o mínimo de −0,50% veio em fev/2016. A página usa as duas datas. O cartão dá "saída da Suécia 2019": decisão em 18/12/2019, vigência em 08/01/2020.
+- Saída do BCE: decisão em 21/07/2022, vigência em 27/07/2022 (cartão: jul/2022). Saída do SNB: decisão em 22/09/2022, vigência em 23/09 (cartão: set/2022). Coerentes.
+- Japão: o BIS só registra −0,1% a partir de set/2016 (como em 10.3.3); a página dá a vigência de 16/02/2016 pela decisão do BoJ.
+- Números brasileiros iguais às decisões de `_divergencias.md`: LFT 52,74% (ago/2026), R$ 49 bi por ponto de Selic na DPF e R$ 61,7 bi na DLSP, juros nominais de R$ 1.204,8 bi = 8,99% do PIB em 12 meses até set/2026, Selic 2% de 06/08/2020 a 17/03/2021 e 15% de 19/06/2025 a 18/03/2026 (SGS 432).

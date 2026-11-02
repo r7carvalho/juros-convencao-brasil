@@ -117,7 +117,7 @@ TESOURO_CKAN = "https://www.tesourotransparente.gov.br/ckan/api/3/action/package
 TESOURO_BUSCAS = ["detentores", "divida publica federal estoque", "relatorio mensal da divida", "resultado do tesouro nacional"]
 
 # BIS SDMX (stats.bis.org): taxas de política e CPI de vários países, mensal
-BIS_PAISES = "BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB+RU+ID"
+BIS_PAISES = "BR+MX+CL+CO+IN+ZA+TR+US+XM+JP+GB+RU+ID+CH+SE+DK+KR+PE"
 BIS = {
     "politica_monetaria": f"https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.{BIS_PAISES}?format=csv",
     "cpi": f"https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.{BIS_PAISES}.771?format=csv",
