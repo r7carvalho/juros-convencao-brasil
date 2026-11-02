@@ -101,3 +101,7 @@ python3 tools/coletar.py sgs      # coleta (precisa de rede aberta; ou rode o wo
 
 Item 10.2e (regra de Taylor) e 11.0 publicados; 10.2f e 11.1 em execução; conclusão e página
 inicial em 1ª versão.
+
+## Identidades deduzidas
+
+- Item 12.2b: o pedido por voz citava "Márcio … do INPE". Nenhum economista ligado ao INPE participa do debate de juros e dívida. A página 12.2.2 trata de **Marcos Lisboa** (ex-presidente do Insper, ex-secretário de Política Econômica da Fazenda, colunista da Folha), com confiança moderada: "Marcos" ≈ "Márcio", "Insper" ≈ "INPE", presença alta no debate de 2023–2026 e parceria com Samuel Pessôa, da mesma lista. Alternativa mais forte: Marcio Pochmann (ex-presidente do Ipea, presidente do IBGE desde 2023), nome exato e "Ipea" ≈ "INPE", sem fala recente localizada sobre Selic e dívida; se for ele, a página cabe no ramo 12.5. Também considerados Márcio Holland (FGV EESP) e Márcio Garcia (PUC-Rio). Detalhes em `conteudo/12-vozes/_notas.md`, seção 12.2b.
