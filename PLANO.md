@@ -138,14 +138,14 @@ fim; publicada em `docs/` sem erro de build.
 
 ## 7. Caminhos de política
 
-- [ ] 7.0 Página macro com a matriz premissa → política
-- [ ] 7.1 Meta de inflação maior
-- [ ] 7.2 Desindexação da dívida (menos LFT) e alongamento
-- [ ] 7.3 Mudança de referência (CDI) e indexação dos contratos
-- [ ] 7.4 Tributação da renda de juros
-- [ ] 7.5 Renegociação e calote (por que a dívida em reais muda a análise; casos internacionais)
-- [ ] 7.6 Coordenação fiscal-monetária
-- [ ] 7.7 Crédito direcionado e bancos públicos
+- [x] 7.0 Página macro com a matriz premissa → política
+- [x] 7.1 Meta de inflação maior
+- [x] 7.2 Desindexação da dívida (menos LFT) e alongamento
+- [x] 7.3 Mudança de referência (CDI) e indexação dos contratos
+- [x] 7.4 Tributação da renda de juros
+- [x] 7.5 Renegociação e calote (por que a dívida em reais muda a análise; casos internacionais)
+- [x] 7.6 Coordenação fiscal-monetária
+- [x] 7.7 Crédito direcionado e bancos públicos
 - [ ] 7.R Revisão independente da macroárea 7
 
 ## 10. Política monetária: instrumentos convencionais e não convencionais
