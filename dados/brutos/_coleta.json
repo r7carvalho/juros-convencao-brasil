@@ -1,11 +1,11 @@
 {
- "inicio": "2026-11-02T12:09:02Z",
+ "inicio": "2026-11-02T12:48:10Z",
  "ok": [
   {
    "grupo": "sgs",
    "nome": "432 Selic meta definida pelo Copom (% a.a.)",
    "arquivo": "dados/brutos/sgs-432.json",
-   "registros": 6454
+   "registros": 10107
   },
   {
    "grupo": "sgs",
@@ -41,7 +41,7 @@
    "grupo": "sgs",
    "nome": "433 IPCA, variação mensal (%)",
    "arquivo": "dados/brutos/sgs-433.json",
-   "registros": 561
+   "registros": 501
   },
   {
    "grupo": "sgs",
@@ -71,7 +71,7 @@
    "grupo": "sgs",
    "nome": "10844 IPCA, serviços, variação mensal (%) (conferir)",
    "arquivo": "dados/brutos/sgs-10844.json",
-   "registros": 429
+   "registros": 408
   },
   {
    "grupo": "sgs",
@@ -119,7 +119,7 @@
    "grupo": "sgs",
    "nome": "11752 Taxa de câmbio real efetiva, IPCA, índice jun/1994=100",
    "arquivo": "dados/brutos/sgs-11752.json",
-   "registros": 343
+   "registros": 403
   },
   {
    "grupo": "sgs",
@@ -234,148 +234,9 @@
    "nome": "7326 PIB, variação real anual (%) (conferir)",
    "arquivo": "dados/brutos/sgs-7326.json",
    "registros": 46
-  },
-  {
-   "grupo": "focus",
-   "nome": "anuais_ipca",
-   "arquivo": "dados/brutos/focus-anuais_ipca.json",
-   "registros": 40000
-  },
-  {
-   "grupo": "focus",
-   "nome": "anuais_selic",
-   "arquivo": "dados/brutos/focus-anuais_selic.json",
-   "registros": 39632
-  },
-  {
-   "grupo": "focus",
-   "nome": "anuais_pib",
-   "arquivo": "dados/brutos/focus-anuais_pib.json",
-   "registros": 39780
-  },
-  {
-   "grupo": "focus",
-   "nome": "inflacao_12m",
-   "arquivo": "dados/brutos/focus-inflacao_12m.json",
-   "registros": 18938
-  },
-  {
-   "grupo": "sidra",
-   "nome": "pib_trimestral_correntes",
-   "arquivo": "dados/brutos/sidra-pib_trimestral_correntes.json",
-   "registros": 2806
-  },
-  {
-   "grupo": "sidra",
-   "nome": "pib_trimestral_volume",
-   "arquivo": "dados/brutos/sidra-pib_trimestral_volume.json",
-   "registros": 2684
-  },
-  {
-   "grupo": "sidra",
-   "nome": "pib_trimestral_taxas",
-   "arquivo": "dados/brutos/sidra-pib_trimestral_taxas.json",
-   "registros": 10736
-  },
-  {
-   "grupo": "sidra",
-   "nome": "ipca_grupos_2020_hoje",
-   "arquivo": "dados/brutos/sidra-ipca_grupos_2020_hoje.json",
-   "registros": 2430
-  },
-  {
-   "grupo": "sidra",
-   "nome": "ipca_grupos_2012_2019",
-   "arquivo": "dados/brutos/sidra-ipca_grupos_2012_2019.json",
-   "registros": 2880
-  },
-  {
-   "grupo": "sidra",
-   "nome": "pnad_desocupacao",
-   "arquivo": "dados/brutos/sidra-pnad_desocupacao.json",
-   "registros": 58
-  },
-  {
-   "grupo": "sidra",
-   "nome": "pnad_rendimento_real",
-   "arquivo": "dados/brutos/sidra-pnad_rendimento_real.json",
-   "registros": 50
-  },
-  {
-   "grupo": "scn",
-   "nome": "PIBReal_1947_2023.xls",
-   "arquivo": "dados/brutos/scn/PIBReal_1947_2023.xls",
-   "registros": 552448
-  },
-  {
-   "grupo": "scn",
-   "nome": "PIBReal_1947_2023.ods",
-   "arquivo": "dados/brutos/scn/PIBReal_1947_2023.ods",
-   "registros": 192573
-  },
-  {
-   "grupo": "tesouro",
-   "nome": "detentores",
-   "arquivo": "dados/brutos/tesouro-busca-detentores.json",
-   "registros": 0
-  },
-  {
-   "grupo": "tesouro",
-   "nome": "divida publica federal estoque",
-   "arquivo": "dados/brutos/tesouro-busca-divida-publica-federal-estoque.json",
-   "registros": 21
-  },
-  {
-   "grupo": "tesouro",
-   "nome": "relatorio mensal da divida",
-   "arquivo": "dados/brutos/tesouro-busca-relatorio-mensal-da-divida.json",
-   "registros": 18
-  },
-  {
-   "grupo": "tesouro",
-   "nome": "resultado do tesouro nacional",
-   "arquivo": "dados/brutos/tesouro-busca-resultado-do-tesouro-nacional.json",
-   "registros": 29
-  },
-  {
-   "grupo": "bis",
-   "nome": "politica_monetaria",
-   "arquivo": "dados/brutos/bis-politica_monetaria.csv",
-   "registros": 7063
-  },
-  {
-   "grupo": "bis",
-   "nome": "cpi",
-   "arquivo": "dados/brutos/bis-cpi.csv",
-   "registros": 11038
   }
  ],
- "falhas": [
-  {
-   "grupo": "sidra",
-   "nome": "ipca_grupos_2006_2011",
-   "url": "https://apisidra.ibge.gov.br/values/t/2938/n1/all/v/63,66,2265/p/all/c315/7169,7170,7445,7486,7558,7625,7660,7712,7766,7786",
-   "erro": "HTTPError: HTTP Error 400: Bad Request"
-  },
-  {
-   "grupo": "ipea",
-   "nome": "estoque liquido de capital fixo",
-   "url": "http://www.ipeadata.gov.br/api/odata4/Metadados?$filter=contains%28SERNOME%2C%27estoque%20liquido%20de%20capital%20fixo%27%29&$format=json",
-   "erro": "HTTPError: HTTP Error 400: Bad Request"
-  },
-  {
-   "grupo": "ipea",
-   "nome": "taxa de investimento",
-   "url": "http://www.ipeadata.gov.br/api/odata4/Metadados?$filter=contains%28SERNOME%2C%27taxa%20de%20investimento%27%29&$format=json",
-   "erro": "HTTPError: HTTP Error 400: Bad Request"
-  },
-  {
-   "grupo": "ipea",
-   "nome": "capital fixo",
-   "url": "http://www.ipeadata.gov.br/api/odata4/Metadados?$filter=contains%28SERNOME%2C%27capital%20fixo%27%29&$format=json",
-   "erro": "HTTPError: HTTP Error 400: Bad Request"
-  }
- ],
+ "falhas": [],
  "diagnostico": {
   "api.bcb.gov.br": 0,
   "apisidra.ibge.gov.br": 0,
@@ -384,5 +245,27 @@
   "stats.bis.org": 1,
   "www.tesourotransparente.gov.br": 0
  },
- "fim": "2026-11-02T12:25:40Z"
+ "avisos": [
+  {
+   "serie": 433,
+   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/1980&dataFinal=31/12/1984",
+   "resposta": "<?xml version=\"1.0\" encoding=\"pt-br\"?>\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lan"
+  },
+  {
+   "serie": 10844,
+   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.10844/dados?formato=json&dataInicial=01/01/2025&dataFinal=31/12/2026",
+   "resposta": "<?xml version=\"1.0\" encoding=\"pt-br\"?>\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lan"
+  },
+  {
+   "serie": 11752,
+   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11752/dados?formato=json&dataInicial=01/01/1995&dataFinal=31/12/1999",
+   "resposta": "<?xml version=\"1.0\" encoding=\"pt-br\"?>\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lan"
+  },
+  {
+   "serie": 24369,
+   "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.24369/dados?formato=json&dataInicial=01/01/1990&dataFinal=31/12/1994",
+   "resposta": "<?xml version=\"1.0\" encoding=\"pt-br\"?>\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\r\n  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lan"
+  }
+ ],
+ "fim": "2026-11-02T12:59:19Z"
 }

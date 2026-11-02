@@ -4,7 +4,7 @@
  "descricao": "Dólar comercial PTAX venda, diário (R$/US$)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=1",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json",
- "coleta": "2026-11-02T12:12:36Z",
+ "coleta": "2026-11-02T12:54:03Z",
  "dados": [
   {
    "data": "28/11/1984",

@@ -4,7 +4,7 @@
  "descricao": "Taxa de juros de longo prazo, TJLP (% a.a.) (conferir)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=1178",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1178/dados?formato=json",
- "coleta": "2026-11-02T12:15:32Z",
+ "coleta": "2026-11-02T12:58:59Z",
  "dados": [
   {
    "data": "04/06/1986",

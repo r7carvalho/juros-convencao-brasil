@@ -4,7 +4,7 @@
  "descricao": "PIB, variação real anual (%) (conferir)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=7326",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json",
- "coleta": "2026-11-02T12:16:00Z",
+ "coleta": "2026-11-02T12:59:19Z",
  "dados": [
   {
    "data": "01/01/1980",
