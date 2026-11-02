@@ -18,7 +18,7 @@ VETADAS = [
     "vale ressaltar", "vale lembrar", "cabe destacar", "em resumo", "neste texto",
     "segue abaixo", "vamos entender", "configura-se", "apresenta-se como", "mergulhar",
     "panorama", "intrincad", "multifacetad", "pilar", "em última análise",
-    "frente a", "frente c", "frente i", "frente j", "frente k", "frente l", "insumo",
+    "insumo",
     "painel irmão", "tese do usuário", "nesta rodada", "nesta sessão", "deu origem ao painel",
     "esta página",
 ]
@@ -38,6 +38,9 @@ def checar(path):
         n = len(re.findall(r"\b" + re.escape(v), low))
         if n:
             achados.append(f"{v}×{n}")
+    fr = len(re.findall(r"\b[Ff]rentes? [ACIJKL]\b", sem_cit))
+    if fr:
+        achados.append(f"Frente×{fr}")
     nao_e = len(RE_NAO_E.findall(sem_cit))
     conferir = len(re.findall(r"\[a conferir", corpo, re.I))
     citacoes = len(re.findall(r"^>\s*[\"“]", corpo, re.M))
