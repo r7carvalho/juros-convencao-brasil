@@ -127,7 +127,7 @@ Juro real ex-ante do painel = (1 + Selic over anualizada, SGS 1178, último dia 
 
 ## Decisões da correção da área 7 (02/11/2026)
 
-- DPF em ago/2026 (RMD de 28/09/2026): estoque R$ 9,29 tri; LFT 52,74%, prefixados 23,22%, índices de preços 20,31%, câmbio 3,74%; prazo médio 4,10 anos; 16,39% vencendo em 12 meses. Substitui as composições de dez/2025 (48,3 / 25,9 / 22,1) em qualquer página que fale da composição atual. Gráfico: dados/7.2-composicao-dpf-ago2026.json.
+- DPF em ago/2026 (RMD de 28/09/2026): estoque R$ 9,29 tri; LFT 52,74%, índices de preços 23,22%, prefixados 20,31%, câmbio 3,74% (ordem conferida com o JSON dono e com a composição de jun/2026: índices 25,90%, prefixados 21,04%); prazo médio 4,10 anos; 16,39% vencendo em 12 meses. Substitui as composições de dez/2025 (48,3 / 25,9 / 22,1) em qualquer página que fale da composição atual. Gráfico: dados/7.2-composicao-dpf-ago2026.json.
 - Estoque de LFT ≈ R$ 4,9 tri: 1 p.p. de Selic custa ≈ R$ 49 bi por ano só na DPF; na dívida líquida do setor público, R$ 61,7 bi (BCB). Atualiza a divergência nº 27.
 
 ## Decisões da correção da área 6 (02/11/2026)
@@ -151,3 +151,57 @@ Juro real ex-ante do painel = (1 + Selic over anualizada, SGS 1178, último dia 
 - De 2002 a 2025, 59% dos juros nominais foram juro real (R$ 5,0 tri de R$ 8,5 tri correntes).
 - Juros pagos no orçamento × apropriados: a diferença não vem de "rolagem" (a LRF trata o refinanciamento como principal mais correção); 9.1 deve ser relida nesse ponto.
 - SGS 5839 não é a série de juros nominais; possivelmente juros reais (operacional). Não usar até conferir.
+
+## Passada de consistência (02/11/2026)
+
+Alinhamento das páginas com as decisões acima. Não foram tocadas 10.2.6, 10.3 (apareceu durante a passada), 11.1, 11.2 nem `_revisao/`.
+
+Páginas alteradas:
+
+- 1.3: Turquia contada inteira no quadro (38,2% em jun/2023 por efeito de base, 75,4% em mai/2024).
+- 1.4: 2003–2008 com "5 a 8 pontos acima dos pares" no lugar de "três pontos".
+- 1.5: primário estabilizador de 3,2% "com a dívida de dez/2025 (78,6%)" (era "fim de 2024"); déficit do governo geral (0,56%, ago/2026) ao lado do consolidado (0,52%, set/2026, SGS 5793); LFT sem "recorde"; R$ 61,7 bi (DLSP, BCB) e R$ 49 bi só na DPF no lugar de "até R$ 68,9 bi"; 2003–2008 com 5 a 8 pontos e os números do BIS (texto e quadro); juro real ex-ante de 8,73% em 23/10/2026 pela convenção (era "8,5% a 8,8%"); gráficos trocados para dados/3.1-primario-estabilizador.json e dados/3.4-juros-liquidos-paises.json.
+- 1.5.2 e 1.5.4: R$ 61,7 bi (DLSP, dez/2025) e R$ 49 bi só na DPF no lugar de "até R$ 68,9 bi"; 1.5.4 também com a Turquia inteira no quadro.
+- 1.6: pico e queda da FBCF com a série (SIDRA 1621 com ajuste: 2º tri/2013, −30,8%; SIDRA 1620 sem ajuste: 3º tri/2013, −32,8%); gráfico trocado para dados/5.2-taxa-de-investimento.json.
+- 2 (macro): ressalva de 2018–2021 nos "trinta anos"; ex-ante de 8,7% em 23/10/2026 com o método (8,8% com a Selic meta); custo por ponto de Selic R$ 61,7 bi (DLSP) e R$ 49 bi (DPF) no lugar de "R$ 62 a 69 bi".
+- 2.1: resumo com 5,5 p.p. em 2023–2026 e "quase sumiu em 2018–2021"; conclusão com "quase nula em 2018–2019 e negativa em 2020–2021"; ex-ante de 23/10/2026 pela convenção (8,73%) com a Selic meta (8,8%) e o ranking (8,45%) como comparação; ex-ante de set/2026 = 8,4% (era 8,8%); Turquia até set/2026 (29,7%, taxa de 37%).
+- 2.2: LFT sem "recorde da série iniciada em 2000"; método (Selic meta sobre o Focus) no "9% a 10,7%".
+- 2.3: resumo e texto com 8,73% pela convenção e 8,8% como versão com a Selic meta (a tabela diz que usa a Selic meta); método nos quadros ("Selic meta, SGS 432, sobre o Focus"; "dezembro, Focus suavizado" no −1,6% a 3,9%).
+- 2.4: gráfico de detentores trocado para dados/3.3-detentores-ago2026.json; R$ 61,7 bi (DLSP) e R$ 49 bi (DPF) no resumo, no texto, na tabela e no quadro; efeito do ciclo "cerca de R$ 280 bi" (4,5 × 61,7) no lugar de "R$ 280 a 310 bi"; método no "acima de 9%"; referência ao Jornal do Brasil (R$ 68,9 bi) retirada do Para ler, por não estar mais no texto.
+- 2.5: LFT sem "recorde"; ressalva de 2018–2021 em três pontos (quadro, "por trinta anos" e tabela); Turquia inteira; método no "acima de 9%".
+- 3 (macro): juros de 12 meses R$ 1,20 tri, 8,99% do PIB, até set/2026 (era R$ 1,18 tri até ago); conceito e mês do déficit (0,56% governo geral, ago/2026; 0,52% consolidado, set/2026).
+- 3.1: resumo com o conceito e o mês do déficit de 0,56%; ex-ante de 8,73% em 23/10/2026 (era "8,5% a 8,8%"), 3,7 pontos acima do neutro.
+- 3.2: déficit com conceito e mês (0,56% governo geral, ago/2026; 0,52% consolidado, set/2026) e juros de 8,99% (era 8,86%).
+- 3.3: juros de 12 meses de set/2026 (R$ 1.204,8 bi, 8,99%) no resumo, no texto e no quadro (era R$ 1.182 bi, 8,86%, ago/2026).
+- 3.4: juros de 8,99% em 12 meses até set/2026 (era 8,86% até ago).
+- 4 (macro) e 4.3: queda da FBCF de 30,8% a 32,8% conforme a série (era "31% a 33%"); 4.3 com SIDRA 1620 e 1621 na tabela e a série dita no quadro.
+- 6 (macro): 2003–2008 com "5 a 8 pontos acima dos pares" (era "5 a 9 ... da média"); 2019 = 0,25% pela convenção, 0,8% a 2,7% como versão com a Selic meta.
+- 6.1: resumo com 5 a 8 pontos; quadro com 5 a 8 (média do período) e 5,6 a 9,1 (ano a ano, média dos pares); DI jan/29 "de cerca de 12,6% para cerca de 15%" (era "12,7% em meados do mês").
+- 6.2 e 6.4: método ("Selic meta sobre o Focus") nos "15 meses acima de 9%".
+- 6.2.1: método nos 1,55% de dez/2012 (resumo e quadro); 1,56% pela convenção ao lado de 1,68% (Focus suavizado); FBCF com a série.
+- 6.2.2 e 6.4.2: 2019 = 0,25% pela convenção (era "0,65% a 0,83% conforme o método"); 0,8% a 2,7% marcado como versão com a Selic meta; 6.4.2 com a ressalva de 2018–2021 no quadro.
+- 7.2: quadro com R$ 61,7 bi (DLSP) e R$ 49 bi (DPF) no lugar de "R$ 48 a 69 bi".
+- 7.8: Turquia inteira (38,2%, 75,4%, alta a 50%).
+- 8.1: ressalva de 2018–2021 na força de P1; método no "acima de 9%".
+- 9.2: o Jornal do Brasil (R$ 68,9 bi) passa a constar como citado em 7.2.
+- 10 (macro): sem "Frente J/K" e sem "[a conferir]": balanço pela Divggnp e pelo SGS (reservas, SGS 3546); base monetária restrita de R$ 432,7 bi e depósitos voluntários de R$ 165,7 bi em ago/2026 (SGS 1788 e 28964); Fed pela série WALCL (FRED); Copom de 05/08/2020 (233ª reunião) parafraseado; EC 106 sem a afirmação não conferida; Selic de outubro pelo SGS 432; juros de 8,99% do PIB até set/2026 (era 8,9% até ago).
+- 10.1.1: reservas de dez/1998 = US$ 44,6 bi (SGS 3546), sem "[a conferir]"; carta aberta de jan/2025 como fonte de 2024; "Frente K" trocado por RPM de set/2026 e SGS 13522; "um ano de Selic a 15%" → nove meses (jun/2025 a mar/2026).
+- 10.1.2: nota sem "nesta sessão" e sem "[a conferir]" (Chile: a tabela registra a referência mais antiga localizada, não o ano de adoção); "insumo Frente C" trocado por SGS 13522 e Focus; dois "[a conferir]" retirados de frases já atribuídas (Ipea; Borges).
+- 10.2.1: dois "[a conferir]" retirados; juros de 8,86% nos 12 meses até ago/2026 (mesmo período da conta), com 8,99% até set.
+
+Dados:
+
+- Apagados por ficarem sem uso: dados/1.5-primario-estabilizador.json, dados/1.5-juros-liquidos-paises.json, dados/1.6-taxa-investimento.json, dados/2.4-detentores-dpmfi.json, dados/3.4-lft-na-dpf.json.
+- dados/3.3-juros-apropriados-rs.json: último ponto passa a 12 meses até set/2026 (1.204,8).
+- dados/10.1.1-ipca-12m-meta-continua.json e dados/10.1.1-ipca-meta-1999-2025.json: notas sem "Frente C" e "nesta sessão"; todos os pontos de IPCA conferem com o SGS 13522.
+- dados/10-compromissadas-conta-unica.json: fonte sem "via insumo Frente J".
+
+Não alinhado ou pendente:
+
+- Composição da DPF em ago/2026: a decisão da área 7 lista "prefixados 23,22%, índices de preços 20,31%", mas o JSON dono (dados/7.2-composicao-dpf-ago2026.json) e todas as páginas (3.4, 7.1, 7.2, 7.3, 7.6, 7.7; 7.1 soma 76% em LFT mais índices) trazem índices de preços 23,22% e prefixados 20,31%. As páginas ficaram como estão; conferir a ordem no RMD.
+- Ex-ante de 2012: a decisão da área 2 chama 1,68% de "média anual", mas a nota de dados/2.3-juro-real-ex-ante-ex-post.json diz que é dezembro, Selic do último dia útil e Focus suavizado. Pela convenção única, dez/2012 = 1,56% (dados/9.1 e 4.4). As páginas dizem o método de cada número.
+- O gráfico da 2.3 (e a tabela de distâncias para o neutro) segue com a mediana suavizada e a Selic meta, com o método declarado; trocar pelo dados/9.1-juro-real-ex-ante-ex-post.json exigiria refazer a tabela.
+- "Juro real ex-ante acima de 9%": a decisão da área 6 diz jun/2025 a ago/2026, mas a conta com a Selic meta de fim de mês já dá 9,4% a 9,5% em maio/2025 (14,75% sobre Focus de 4,8% a 4,9%). Ficaram as duas datas, cada uma com o método (2.x usa maio; 6.x usa junho).
+- CDS: 151,6 é o fechamento de 26/10/2026 (InfoMoney), não de dez/2024; não há mais 151,7 em página. O fim de 2024 aparece como "perto de 200" (2.2, 2.5) e 205 (6.1.1).
+- dados/4.1-decomposicao-bc-2021.json mantém "Valores a conferir com a tabela do PDF" (o PDF do boxe não foi aberto).
+- O lint ainda conta "insumo" em 4.1, 4.3, 4.4, 5.4.1, 5.4.2 e 6.1, todos no sentido econômico (insumo importado, matriz insumo-produto); ficaram.

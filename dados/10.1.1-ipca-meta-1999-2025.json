@@ -5,7 +5,7 @@
  "fonte": "IBGE, IPCA (SIDRA, tabela 1737, variação dez/dez); BCB, Histórico de metas para a inflação no Brasil (metas fixadas pelo CMN)",
  "url": "https://www.bcb.gov.br/controleinflacao/historicometas",
  "consulta": "2026-11-02",
- "nota": "2003 e 2004: metas revistas pelo CMN (2003: de 3,25% ±2 para 4,0% ±2,5, Res. 2.972/2002; 2004: de 3,75% para 5,5% ±2,5, Res. 3.108/2003); em jan/2003 o BC passou a trabalhar com 'meta ajustada' de 8,5% para 2003. Desde 2025 a meta é contínua (3,0% ±1,5), aferida todo mês no IPCA de 12 meses; o ponto de 2025 é o IPCA de dezembro. Valores conferidos por busca na tabela do BCB (tabelametaseresultados.pdf) e nos dados já publicados do painel (6.2, 7.1, 4.1); o site do BCB não abriu por fetch nesta sessão.",
+ "nota": "2003 e 2004: metas revistas pelo CMN (2003: de 3,25% ±2 para 4,0% ±2,5, Res. 2.972/2002; 2004: de 3,75% para 5,5% ±2,5, Res. 3.108/2003); em jan/2003 o BC passou a trabalhar com 'meta ajustada' de 8,5% para 2003. Desde 2025 a meta é contínua (3,0% ±1,5), aferida todo mês no IPCA de 12 meses; o ponto de 2025 é o IPCA de dezembro. IPCA de dezembro conforme a série do BCB (SGS 13522, coleta de 02/11/2026); metas e intervalos pela tabela de metas e resultados do BCB (tabelametaseresultados.pdf).",
  "governos": true,
  "series": [
   {
