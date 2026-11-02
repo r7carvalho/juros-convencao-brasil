@@ -1,0 +1,48 @@
+name: Coletar dados primários
+
+# Roda o coletor (tools/coletar.py) num runner do GitHub, que tem acesso aberto às APIs do
+# BCB, IBGE, Tesouro, BIS e Ipeadata, e faz commit do bruto em dados/brutos/.
+on:
+  workflow_dispatch:
+    inputs:
+      grupos:
+        description: "Grupos a coletar, separados por espaço (vazio = todos): sgs focus sidra scn tesouro bis ipea"
+        required: false
+        default: ""
+  schedule:
+    - cron: "17 9 * * 1"   # segunda-feira, 06h17 em Brasília
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Coletar
+        run: python3 tools/coletar.py ${{ github.event.inputs.grupos }}
+      - name: Commit dos dados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # arquivos acima de 25 MB ficam de fora do repositório
+          find dados/brutos -type f -size -25M -print0 | xargs -0 git add
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+          else
+            git commit -m "Coleta automática de dados primários ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Guardar o relatório e os arquivos grandes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dados-brutos
+          path: dados/brutos/
+          retention-days: 30
