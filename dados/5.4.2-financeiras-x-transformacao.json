@@ -1,162 +1,270 @@
 {
- "titulo": "Participação no valor adicionado: atividades financeiras e indústria de transformação (%)",
- "tipo": "linha",
- "unidade": "% do VA a preços básicos",
- "fonte": "IBGE: transformação, Contas Nacionais Trimestrais (SIDRA 1846), compilado na Frente L; atividades financeiras, de seguros e serviços relacionados, Sistema de Contas Nacionais: Brasil 2017 (informativo), tabela por grupos de atividades",
- "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101680_informativo.pdf",
- "consulta": "2026-11-02",
- "nota": "Preços correntes. A série de atividades financeiras tem só os anos confirmados nesta sessão (2010, 2013-2016); os demais anos de 2000-2023 estão a conferir na tabela 13.1 do SCN. A IBGE/Contas Regionais sugere 6,9% (2020) e 5,8% (2021), a conferir.",
- "governos": true,
- "series": [
-  {
-   "nome": "Indústria de transformação",
-   "pontos": [
+  "titulo": "Participação no valor adicionado: atividades financeiras e indústria de transformação (%)",
+  "tipo": "linha",
+  "unidade": "% do VA a preços básicos",
+  "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA 1846, valores a preços correntes: valor adicionado da atividade sobre o valor adicionado a preços básicos, soma dos trimestres, cálculo do painel, consulta em 02/11/2026",
+  "url": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/all/p/all/c11255/all",
+  "consulta": "2026-11-02",
+  "nota": "Preços correntes. 2026-06 = 1º semestre de 2026. Os anos de 2010 e 2013–2016 coincidem com o Sistema de Contas Nacionais: Brasil 2017 (IBGE).",
+  "governos": true,
+  "series": [
     {
-     "t": "1996",
-     "v": 14.9
+      "nome": "Indústria de transformação",
+      "pontos": [
+        {
+          "t": "1996",
+          "v": 14.9
+        },
+        {
+          "t": "1997",
+          "v": 14.8
+        },
+        {
+          "t": "1998",
+          "v": 13.8
+        },
+        {
+          "t": "1999",
+          "v": 14.2
+        },
+        {
+          "t": "2000",
+          "v": 15.3
+        },
+        {
+          "t": "2001",
+          "v": 15.4
+        },
+        {
+          "t": "2002",
+          "v": 14.5
+        },
+        {
+          "t": "2003",
+          "v": 16.9
+        },
+        {
+          "t": "2004",
+          "v": 17.8
+        },
+        {
+          "t": "2005",
+          "v": 17.4
+        },
+        {
+          "t": "2006",
+          "v": 16.6
+        },
+        {
+          "t": "2007",
+          "v": 16.6
+        },
+        {
+          "t": "2008",
+          "v": 16.5
+        },
+        {
+          "t": "2009",
+          "v": 15.3
+        },
+        {
+          "t": "2010",
+          "v": 15.0
+        },
+        {
+          "t": "2011",
+          "v": 13.9
+        },
+        {
+          "t": "2012",
+          "v": 12.6
+        },
+        {
+          "t": "2013",
+          "v": 12.3
+        },
+        {
+          "t": "2014",
+          "v": 12.0
+        },
+        {
+          "t": "2015",
+          "v": 12.2
+        },
+        {
+          "t": "2016",
+          "v": 12.5
+        },
+        {
+          "t": "2017",
+          "v": 12.4
+        },
+        {
+          "t": "2018",
+          "v": 12.3
+        },
+        {
+          "t": "2019",
+          "v": 12.0
+        },
+        {
+          "t": "2020",
+          "v": 12.3
+        },
+        {
+          "t": "2021",
+          "v": 13.9
+        },
+        {
+          "t": "2022",
+          "v": 15.1
+        },
+        {
+          "t": "2023",
+          "v": 15.2
+        },
+        {
+          "t": "2024",
+          "v": 14.1
+        },
+        {
+          "t": "2025",
+          "v": 13.7
+        },
+        {
+          "t": "2026-06",
+          "v": 13.2
+        }
+      ]
     },
     {
-     "t": "1997",
-     "v": 14.8
-    },
-    {
-     "t": "1998",
-     "v": 13.8
-    },
-    {
-     "t": "1999",
-     "v": 14.2
-    },
-    {
-     "t": "2000",
-     "v": 15.3
-    },
-    {
-     "t": "2001",
-     "v": 15.4
-    },
-    {
-     "t": "2002",
-     "v": 14.5
-    },
-    {
-     "t": "2003",
-     "v": 16.9
-    },
-    {
-     "t": "2004",
-     "v": 17.8
-    },
-    {
-     "t": "2005",
-     "v": 17.4
-    },
-    {
-     "t": "2006",
-     "v": 16.6
-    },
-    {
-     "t": "2007",
-     "v": 16.6
-    },
-    {
-     "t": "2008",
-     "v": 16.5
-    },
-    {
-     "t": "2009",
-     "v": 15.3
-    },
-    {
-     "t": "2010",
-     "v": 15.0
-    },
-    {
-     "t": "2011",
-     "v": 13.9
-    },
-    {
-     "t": "2012",
-     "v": 12.6
-    },
-    {
-     "t": "2013",
-     "v": 12.3
-    },
-    {
-     "t": "2014",
-     "v": 12.0
-    },
-    {
-     "t": "2015",
-     "v": 12.2
-    },
-    {
-     "t": "2016",
-     "v": 12.5
-    },
-    {
-     "t": "2017",
-     "v": 12.4
-    },
-    {
-     "t": "2018",
-     "v": 12.3
-    },
-    {
-     "t": "2019",
-     "v": 12.0
-    },
-    {
-     "t": "2020",
-     "v": 12.3
-    },
-    {
-     "t": "2021",
-     "v": 13.9
-    },
-    {
-     "t": "2022",
-     "v": 15.1
-    },
-    {
-     "t": "2023",
-     "v": 15.2
-    },
-    {
-     "t": "2024",
-     "v": 14.1
-    },
-    {
-     "t": "2025",
-     "v": 13.7
+      "nome": "Atividades financeiras, seguros e relacionados",
+      "pontos": [
+        {
+          "t": "1996",
+          "v": 9.3
+        },
+        {
+          "t": "1997",
+          "v": 8.8
+        },
+        {
+          "t": "1998",
+          "v": 9.0
+        },
+        {
+          "t": "1999",
+          "v": 8.3
+        },
+        {
+          "t": "2000",
+          "v": 6.8
+        },
+        {
+          "t": "2001",
+          "v": 7.1
+        },
+        {
+          "t": "2002",
+          "v": 7.9
+        },
+        {
+          "t": "2003",
+          "v": 7.4
+        },
+        {
+          "t": "2004",
+          "v": 6.5
+        },
+        {
+          "t": "2005",
+          "v": 7.1
+        },
+        {
+          "t": "2006",
+          "v": 7.2
+        },
+        {
+          "t": "2007",
+          "v": 7.3
+        },
+        {
+          "t": "2008",
+          "v": 6.5
+        },
+        {
+          "t": "2009",
+          "v": 6.6
+        },
+        {
+          "t": "2010",
+          "v": 6.8
+        },
+        {
+          "t": "2011",
+          "v": 6.4
+        },
+        {
+          "t": "2012",
+          "v": 6.4
+        },
+        {
+          "t": "2013",
+          "v": 6.0
+        },
+        {
+          "t": "2014",
+          "v": 6.4
+        },
+        {
+          "t": "2015",
+          "v": 7.1
+        },
+        {
+          "t": "2016",
+          "v": 7.9
+        },
+        {
+          "t": "2017",
+          "v": 7.6
+        },
+        {
+          "t": "2018",
+          "v": 7.0
+        },
+        {
+          "t": "2019",
+          "v": 7.2
+        },
+        {
+          "t": "2020",
+          "v": 6.9
+        },
+        {
+          "t": "2021",
+          "v": 5.8
+        },
+        {
+          "t": "2022",
+          "v": 7.0
+        },
+        {
+          "t": "2023",
+          "v": 7.5
+        },
+        {
+          "t": "2024",
+          "v": 7.4
+        },
+        {
+          "t": "2025",
+          "v": 8.5
+        },
+        {
+          "t": "2026-06",
+          "v": 8.8
+        }
+      ]
     }
-   ]
-  },
-  {
-   "nome": "Atividades financeiras, seguros e relacionados",
-   "pontos": [
-    {
-     "t": "2010",
-     "v": 6.8
-    },
-    {
-     "t": "2013",
-     "v": 6.0
-    },
-    {
-     "t": "2014",
-     "v": 6.4
-    },
-    {
-     "t": "2015",
-     "v": 7.1
-    },
-    {
-     "t": "2016",
-     "v": 7.9
-    }
-   ]
-  }
- ]
+  ]
 }

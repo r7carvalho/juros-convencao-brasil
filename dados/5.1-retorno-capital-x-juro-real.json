@@ -1,230 +1,250 @@
 {
- "titulo": "Retorno real do capital (PWT) e juro real da Selic, Brasil (% a.a.)",
- "tipo": "linha",
- "unidade": "% a.a.",
- "fonte": "Penn World Table 10.0, variável irr (taxa interna de retorno real do capital); juro real ex-post: Selic acumulada em 12 meses deflacionada pelo IPCA de 12 meses, BCB SGS 4390 e 433, cálculo da Frente K do painel irmão",
- "url": "https://www.rug.nl/ggdc/productivity/pwt/",
- "consulta": "2026-11-02",
- "nota": "irr da PWT é média de toda a economia (inclui moradias e capital público), antes do imposto sobre o lucro, e termina em 2019 nesta versão. Juro real: ano = dezembro; 2026 = setembro. Arquivo da PWT lido do https://raw.githubusercontent.com/cran/pwt10/master/data/pwt10.0.rda (Penn World Table 10.0, Feenstra, Inklaar e Timmer; espelho do pacote R pwt10; original em https://www.rug.nl/ggdc/productivity/pwt/)",
- "governos": true,
- "series": [
-  {
-   "nome": "Retorno real do capital (PWT irr)",
-   "pontos": [
+  "titulo": "Retorno real do capital (PWT) e juro real da Selic, Brasil (% a.a.)",
+  "tipo": "linha",
+  "unidade": "% a.a.",
+  "fonte": "Penn World Table 10.0, variável irr (taxa interna de retorno real do capital); juro real ex-post: Selic acumulada no ano (BCB, SGS 4390) deflacionada pelo IPCA do ano (BCB, SGS 433), dezembro a dezembro, cálculo do painel, consulta em 02/11/2026",
+  "url": "https://www.rug.nl/ggdc/productivity/pwt/",
+  "consulta": "2026-11-02",
+  "nota": "A irr da PWT é média de toda a economia (inclui moradias e capital público), antes do imposto sobre o lucro, e termina em 2019 nesta versão. Juro real: ano = dezembro a dezembro; 2026 = 12 meses até setembro. Em 1995–1999 o juro real ficou de 2,5 a 13,4 pontos acima da irr. Penn World Table 10.0 (Feenstra, Inklaar e Timmer, 2015), variável irr, lida do espelho do pacote R pwt10 (https://raw.githubusercontent.com/cran/pwt10/master/data/pwt10.0.rda), consulta em 02/11/2026",
+  "governos": true,
+  "series": [
     {
-     "t": "1995",
-     "v": 11.7
+      "nome": "Retorno real do capital (PWT irr)",
+      "pontos": [
+        {
+          "t": "1995",
+          "v": 11.7
+        },
+        {
+          "t": "1996",
+          "v": 13.0
+        },
+        {
+          "t": "1997",
+          "v": 14.0
+        },
+        {
+          "t": "1998",
+          "v": 13.4
+        },
+        {
+          "t": "1999",
+          "v": 12.8
+        },
+        {
+          "t": "2000",
+          "v": 12.2
+        },
+        {
+          "t": "2001",
+          "v": 11.2
+        },
+        {
+          "t": "2002",
+          "v": 11.0
+        },
+        {
+          "t": "2003",
+          "v": 11.1
+        },
+        {
+          "t": "2004",
+          "v": 11.4
+        },
+        {
+          "t": "2005",
+          "v": 11.1
+        },
+        {
+          "t": "2006",
+          "v": 11.3
+        },
+        {
+          "t": "2007",
+          "v": 11.7
+        },
+        {
+          "t": "2008",
+          "v": 11.4
+        },
+        {
+          "t": "2009",
+          "v": 10.3
+        },
+        {
+          "t": "2010",
+          "v": 11.5
+        },
+        {
+          "t": "2011",
+          "v": 11.6
+        },
+        {
+          "t": "2012",
+          "v": 10.8
+        },
+        {
+          "t": "2013",
+          "v": 10.8
+        },
+        {
+          "t": "2014",
+          "v": 10.6
+        },
+        {
+          "t": "2015",
+          "v": 9.3
+        },
+        {
+          "t": "2016",
+          "v": 9.5
+        },
+        {
+          "t": "2017",
+          "v": 10.1
+        },
+        {
+          "t": "2018",
+          "v": 9.9
+        },
+        {
+          "t": "2019",
+          "v": 10.0
+        }
+      ]
     },
     {
-     "t": "1996",
-     "v": 13.0
-    },
-    {
-     "t": "1997",
-     "v": 14.0
-    },
-    {
-     "t": "1998",
-     "v": 13.4
-    },
-    {
-     "t": "1999",
-     "v": 12.8
-    },
-    {
-     "t": "2000",
-     "v": 12.2
-    },
-    {
-     "t": "2001",
-     "v": 11.2
-    },
-    {
-     "t": "2002",
-     "v": 11.0
-    },
-    {
-     "t": "2003",
-     "v": 11.1
-    },
-    {
-     "t": "2004",
-     "v": 11.4
-    },
-    {
-     "t": "2005",
-     "v": 11.1
-    },
-    {
-     "t": "2006",
-     "v": 11.3
-    },
-    {
-     "t": "2007",
-     "v": 11.7
-    },
-    {
-     "t": "2008",
-     "v": 11.4
-    },
-    {
-     "t": "2009",
-     "v": 10.3
-    },
-    {
-     "t": "2010",
-     "v": 11.5
-    },
-    {
-     "t": "2011",
-     "v": 11.6
-    },
-    {
-     "t": "2012",
-     "v": 10.8
-    },
-    {
-     "t": "2013",
-     "v": 10.8
-    },
-    {
-     "t": "2014",
-     "v": 10.6
-    },
-    {
-     "t": "2015",
-     "v": 9.3
-    },
-    {
-     "t": "2016",
-     "v": 9.5
-    },
-    {
-     "t": "2017",
-     "v": 10.1
-    },
-    {
-     "t": "2018",
-     "v": 9.9
-    },
-    {
-     "t": "2019",
-     "v": 10.0
+      "nome": "Juro real ex-post da Selic",
+      "pontos": [
+        {
+          "t": "1995",
+          "v": 25.06
+        },
+        {
+          "t": "1996",
+          "v": 16.28
+        },
+        {
+          "t": "1997",
+          "v": 18.57
+        },
+        {
+          "t": "1998",
+          "v": 26.69
+        },
+        {
+          "t": "1999",
+          "v": 15.28
+        },
+        {
+          "t": "2000",
+          "v": 10.83
+        },
+        {
+          "t": "2001",
+          "v": 8.96
+        },
+        {
+          "t": "2002",
+          "v": 5.89
+        },
+        {
+          "t": "2003",
+          "v": 12.84
+        },
+        {
+          "t": "2004",
+          "v": 8.02
+        },
+        {
+          "t": "2005",
+          "v": 12.64
+        },
+        {
+          "t": "2006",
+          "v": 11.58
+        },
+        {
+          "t": "2007",
+          "v": 7.08
+        },
+        {
+          "t": "2008",
+          "v": 6.21
+        },
+        {
+          "t": "2009",
+          "v": 5.38
+        },
+        {
+          "t": "2010",
+          "v": 3.66
+        },
+        {
+          "t": "2011",
+          "v": 4.8
+        },
+        {
+          "t": "2012",
+          "v": 2.5
+        },
+        {
+          "t": "2013",
+          "v": 2.17
+        },
+        {
+          "t": "2014",
+          "v": 4.23
+        },
+        {
+          "t": "2015",
+          "v": 2.36
+        },
+        {
+          "t": "2016",
+          "v": 7.28
+        },
+        {
+          "t": "2017",
+          "v": 6.81
+        },
+        {
+          "t": "2018",
+          "v": 2.58
+        },
+        {
+          "t": "2019",
+          "v": 1.57
+        },
+        {
+          "t": "2020",
+          "v": -1.69
+        },
+        {
+          "t": "2021",
+          "v": -5.11
+        },
+        {
+          "t": "2022",
+          "v": 6.23
+        },
+        {
+          "t": "2023",
+          "v": 8.04
+        },
+        {
+          "t": "2024",
+          "v": 5.78
+        },
+        {
+          "t": "2025",
+          "v": 9.66
+        },
+        {
+          "t": "2026-09",
+          "v": 9.46
+        }
+      ]
     }
-   ]
-  },
-  {
-   "nome": "Juro real ex-post da Selic",
-   "pontos": [
-    {
-     "t": "2000",
-     "v": 10.83
-    },
-    {
-     "t": "2001",
-     "v": 8.96
-    },
-    {
-     "t": "2002",
-     "v": 5.89
-    },
-    {
-     "t": "2003",
-     "v": 12.84
-    },
-    {
-     "t": "2004",
-     "v": 8.02
-    },
-    {
-     "t": "2005",
-     "v": 12.64
-    },
-    {
-     "t": "2006",
-     "v": 11.58
-    },
-    {
-     "t": "2007",
-     "v": 7.08
-    },
-    {
-     "t": "2008",
-     "v": 6.21
-    },
-    {
-     "t": "2009",
-     "v": 5.38
-    },
-    {
-     "t": "2010",
-     "v": 3.66
-    },
-    {
-     "t": "2011",
-     "v": 4.8
-    },
-    {
-     "t": "2012",
-     "v": 2.5
-    },
-    {
-     "t": "2013",
-     "v": 2.17
-    },
-    {
-     "t": "2014",
-     "v": 4.23
-    },
-    {
-     "t": "2015",
-     "v": 2.36
-    },
-    {
-     "t": "2016",
-     "v": 7.28
-    },
-    {
-     "t": "2017",
-     "v": 6.81
-    },
-    {
-     "t": "2018",
-     "v": 2.58
-    },
-    {
-     "t": "2019",
-     "v": 1.57
-    },
-    {
-     "t": "2020",
-     "v": -1.69
-    },
-    {
-     "t": "2021",
-     "v": -5.11
-    },
-    {
-     "t": "2022",
-     "v": 6.23
-    },
-    {
-     "t": "2023",
-     "v": 8.04
-    },
-    {
-     "t": "2024",
-     "v": 5.78
-    },
-    {
-     "t": "2025",
-     "v": 9.66
-    },
-    {
-     "t": "2026-09",
-     "v": 9.46
-    }
-   ]
-  }
- ]
+  ]
 }

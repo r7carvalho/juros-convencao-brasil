@@ -1,43 +1,43 @@
 {
- "titulo": "FBCF em % do PIB, 2025 (China e EUA, 2024)",
- "tipo": "barrash",
- "unidade": "% do PIB",
- "fonte": "Banco Mundial, World Development Indicators, NE.GDI.FTOT.ZS, compilado na Frente L do painel irmão",
- "url": "https://api.worldbank.org/v2/country/BRA;CHL;MEX;KOR;CHN;IND;USA/indicator/NE.GDI.FTOT.ZS?format=json",
- "consulta": "2026-10-28",
- "series": [
-  {
-   "nome": "FBCF/PIB",
-   "pontos": [
+  "titulo": "FBCF em % do PIB, 2025 (China e EUA, 2024)",
+  "tipo": "barrash",
+  "unidade": "% do PIB",
+  "fonte": "Banco Mundial, World Development Indicators, NE.GDI.FTOT.ZS (formação bruta de capital fixo, % do PIB), consulta em 28/10/2026",
+  "url": "https://api.worldbank.org/v2/country/BRA;CHL;MEX;KOR;CHN;IND;USA/indicator/NE.GDI.FTOT.ZS?format=json",
+  "consulta": "2026-10-28",
+  "series": [
     {
-     "t": "Brasil",
-     "v": 16.84
-    },
-    {
-     "t": "EUA (2024)",
-     "v": 21.35
-    },
-    {
-     "t": "México",
-     "v": 22.41
-    },
-    {
-     "t": "Chile",
-     "v": 24.09
-    },
-    {
-     "t": "Coreia do Sul",
-     "v": 28.33
-    },
-    {
-     "t": "Índia",
-     "v": 31.68
-    },
-    {
-     "t": "China (2024)",
-     "v": 39.65
+      "nome": "FBCF/PIB",
+      "pontos": [
+        {
+          "t": "Brasil",
+          "v": 16.84
+        },
+        {
+          "t": "EUA (2024)",
+          "v": 21.35
+        },
+        {
+          "t": "México",
+          "v": 22.41
+        },
+        {
+          "t": "Chile",
+          "v": 24.09
+        },
+        {
+          "t": "Coreia do Sul",
+          "v": 28.33
+        },
+        {
+          "t": "Índia",
+          "v": 31.68
+        },
+        {
+          "t": "China (2024)",
+          "v": 39.65
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }
