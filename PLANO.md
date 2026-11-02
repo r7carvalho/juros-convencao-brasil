@@ -63,15 +63,15 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 1.2b Do Cruzado ao Real: PAI, FSE, URV, troca da moeda, âncoras (com cronologia e dados)
 - [x] 1.3a Expectativas adaptativas e racionais (Friedman, Lucas, Sargent)
 - [x] 1.3b Neo-fisherianos (Cochrane 2016) e as críticas (García-Schmidt e Woodford)
-- [ ] 1.4a Convenção: definição (Lewis), ponto focal (Schelling), incerteza radical (Keynes 1937)
-- [ ] 1.4b O juro "altamente convencional" (Teoria Geral, cap. 15) com o exemplo da perpetuidade
-- [ ] 1.4c Concurso de beleza (cap. 12) e o experimento de Nagel (1995)
-- [ ] 1.4d Dequech (1999, 2003, 2011) e Orléan (2011): convenção, racionalidade, autoridade
-- [ ] 1.5a Aritmética da dívida e primário estabilizador, com exemplos
-- [ ] 1.5b Sargent e Wallace (1981), Calvo (1988), FTPL
-- [ ] 1.5c Blanchard (2004) e Favero e Giavazzi (2004): o caso Brasil 2002–2003
-- [ ] 1.5d Equivalência ricardiana (Barro): o que é e por que não é dominância fiscal
-- [ ] 1.6 Longo prazo, neutralidade e histerese (Keynes 1923, Blanchard e Summers 1986)
+- [x] 1.4a Convenção: definição (Lewis), ponto focal (Schelling), incerteza radical (Keynes 1937)
+- [x] 1.4b O juro "altamente convencional" (Teoria Geral, cap. 15) com o exemplo da perpetuidade
+- [x] 1.4c Concurso de beleza (cap. 12) e o experimento de Nagel (1995)
+- [x] 1.4d Dequech (1999, 2003, 2011) e Orléan (2011): convenção, racionalidade, autoridade
+- [x] 1.5a Aritmética da dívida e primário estabilizador, com exemplos
+- [x] 1.5b Sargent e Wallace (1981), Calvo (1988), FTPL
+- [x] 1.5c Blanchard (2004) e Favero e Giavazzi (2004): o caso Brasil 2002–2003
+- [x] 1.5d Equivalência ricardiana (Barro): o que é e por que não é dominância fiscal
+- [x] 1.6 Longo prazo, neutralidade e histerese (Keynes 1923, Blanchard e Summers 1986)
 - [ ] 1.R Revisão independente da macroárea 1
 
 ## 2. Juros no Brasil

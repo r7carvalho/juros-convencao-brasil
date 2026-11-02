@@ -22,7 +22,7 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 15 | Atividades financeiras no valor adicionado | 6,0% a 7,9% em 2013–2016 (SCN anual, tabela 13.1, via busca) | 8,6% a 11,1% (Contas Trimestrais, tabela III.2, via busca); 4,8% do PIB em 2024 (Fin, recorte estreito) | Área 5 usa o SCN anual e explica os recortes; conferir a tabela 13.1 com o coletor (grupo scn). | 5.4.2 |
 | 16 | Relação capital-produto K/Y | queda: 2,04 em 2025, menor desde 1977 (Ipea) | alta (PWT 11.0, rnna/rgdpna) | Medidas de capital e deflatores diferentes; o painel usa Ipea e mostra as duas. | 5.2 |
 | 17 | Juro real do setor público em 2025 | 5,3% do PIB (CONTEXTO.md) | ≈5,5% (área 3) | Ver #5; a 5.4.3 segue a área 3. | 5.4.3 |
-| 18 | Correlação moeda × inflação, McCandless e Weber (1995) | 0,93 a 0,96 (CONTEXTO.md) | 0,92 a 0,96 (Walsh, 2010, citando o original) | Tabela original não aberta; a página 1.1.2 usa a faixa de Walsh e cita a fonte secundária. Conferir no Quarterly Review do Fed de Minneapolis. | 1.1.2 |
+| 18 | Correlação moeda × inflação, McCandless e Weber (1995) | 0,93 a 0,96 (CONTEXTO.md) | 0,92 a 0,96 (Walsh, 2010, citando o original) | Fixado 0,92 a 0,96 (Walsh) em todo o painel até a conferência do original; 1.1.2 e 1.6 já alinhadas. Tabela original não aberta; a página 1.1.2 usa a faixa de Walsh e cita a fonte secundária. Conferir no Quarterly Review do Fed de Minneapolis. | 1.1.2 |
 | 19 | CPI dos EUA, pico de jun/2022 | 9,1% (frente-K, BLS sem ajuste sazonal) | 8,98% (cópia com ajuste sazonal) | Vale 9,1% (série sem ajuste, a divulgada pelo BLS). | 1.1.3 |
 | 20 | Balanço do Fed 2008–2014 | US$ 0,9 tri → 4,5 tri (frente-K, ativo total) | base monetária US$ 847,6 bi (ago/2008) → 4.075 bi (ago/2014) | Medidas diferentes; as páginas dizem qual usam. | 1.1, 1.1.3 |
 | 21 | Inflação de 1983 | 211% (IGP-DI, circula como "inflação") | 164,0% (IPCA) | Usar o índice nomeado. | 1.2, 9.4 |
@@ -37,3 +37,6 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 | 30 | Renúncia com títulos isentos (LCI, LCA, CRI, CRA) | R$ 31,7 + 1,3 bi (DGT) | R$ 41 bi (Haddad, jun/2025); ≈R$ 33 bi (imprensa, out/2026) | Texto usa faixa de R$ 30 a 40 bi com as fontes. | 7.5 |
 | 31 | Poupança bruta do Brasil em 2024 | 14,5% do PIB (compilação do Banco Mundial) | 14,1% (outra compilação e IBGE revisado) | Usar IBGE revisado (14,1%) e citar a diferença de fonte. | 6.3 |
 | 32 | Juro neutro estimado pelo BC | 3% (antes de dez/2024, em alguns textos) | 4,5% → 4,75% → 5,0% (RPMs recentes) | Áreas 2 e 6 usam a sequência com as datas dos RPMs. | 2.3, 6.3.2 |
+| 33 | Perda esperada na perpetuidade (Keynes, cap. 15) | "espera perder 16%" (CONTEXTO.md) | 20% de perda de capital (25 → 20) menos 4% de cupom em um ano = 16% (área 1b) | Consistentes; a 1.4.1 mostra a conta. | 1.4.1 |
+| 34 | Juro crítico de Keynes | 0,16 p.p. a 4% e 0,04 p.p. a 2% (Keynes, aproximação r²) | 0,167 e 0,041 (conta exata r²/(1 − r)) | A 1.4.1 mostra as duas. | 1.4.1 |
+| 35 | Juro neutro de 8% "de mercado" | 8% (CONTEXTO.md, sem autor) | 8% (ASA, área 2.3) | A área 2 achou a fonte (ASA); a 1.x deve citar a ASA na revisão. | 1.x, 2.3 |
