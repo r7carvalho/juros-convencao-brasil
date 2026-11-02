@@ -153,7 +153,7 @@ def ler_coleta():
         if x.get("grupo") == "sgs":
             cod, desc = x["nome"].split(" ", 1)
             sgs[cod] = desc
-    n = len([f for f in os.listdir(BRUTOS) if not f.startswith("_")])
+    n = sum(1 for _, _, fs in os.walk(BRUTOS) for f in fs if not f.startswith("_"))
     return sgs, n, d.get("inicio", "")[:10]
 
 
@@ -209,6 +209,8 @@ def classificar(r):
             return k
     if re.search(IMPRENSA, t):
         return "imprensa"
+    if "](pagina:" in t and "http" not in t and not re.search(r"\(\d{4}\)", t):
+        return "ignorar"          # remissão interna, sem obra
     return "lit"
 
 
@@ -289,8 +291,8 @@ def tabelas_sidra(t):
 
 BCB_SGSPUB = "https://www3.bcb.gov.br/sgspub"
 CATALOGO = [
-    ("bcb", "Sistema de Expectativas de Mercado (boletim Focus): medianas das projeções de instituições "
-            "financeiras para IPCA, Selic e PIB, anuais e para 12 meses à frente. Séries completas pela API "
+    ("bcb", "Sistema de Expectativas de Mercado (boletim Focus): medianas das projeções de participantes "
+            "do mercado para IPCA, Selic e PIB, anuais e para 12 meses à frente. Séries completas pela API "
             "Olinda, que o coletor grava em `dados/brutos/focus-*.json`. "
             "[Focus](https://www.bcb.gov.br/publicacoes/focus); "
             "[API Olinda](https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/aplicacao#!/recursos).",
@@ -414,7 +416,7 @@ CATALOGO = [
 ]
 
 DESC_INST = {
-    "bcb": "O BCB produz a maior parte dos dados do painel. As séries do Sistema Gerenciador de Séries "
+    "bcb": "O BCB é a fonte de dados mais citada no painel. As séries do Sistema Gerenciador de Séries "
            "Temporais (SGS) e do Focus vêm das APIs públicas (`api.bcb.gov.br` e `olinda.bcb.gov.br`) e "
            "estão em `dados/brutos/sgs-<código>.json` e `dados/brutos/focus-*.json`. Os códigos usados nas "
            "páginas e nos gráficos são estes ([portal do SGS]({sgspub})):",
@@ -436,6 +438,9 @@ STOP = set("the a an of and on in to for o os as um uma de do da dos das e em no
 ALIAS = {
     "Keynes, J. M. (1936)": "keynes|1936",
     "Keynes, J. M. (1937)": "keynes|1937",
+    "Giambiagi, F.; Villela, A.": "giambiagi|2011",
+    "Mishkin, F. (2019)": "mishkin|2019",
+    "Almeida, M.; Lisboa, M.; Pessôa, S. (2015)": "almeida|2015",
 }
 
 # Texto canônico escrito à mão quando as citações divergem só no capítulo citado
@@ -445,6 +450,14 @@ CANONICO = {
                    "15 em [hetwebsite.net](https://www.hetwebsite.net/het/texts/keynes/gt/chap12.htm) e "
                    "[hetwebsite.net](https://www.hetwebsite.net/het/texts/keynes/gt/chap15.htm). Edição brasileira: "
                    "*A teoria geral do emprego, do juro e da moeda*, várias edições (Abril Cultural, Os Economistas; Saraiva).",
+    "giambiagi|2011": "Giambiagi, F.; Villela, A.; Castro, L. B.; Hermann, J. (orgs.) (2011). *Economia Brasileira "
+                      "Contemporânea: 1945–2010*. 2. ed. Rio de Janeiro: Elsevier. Capítulos usados no painel: 5, 6 e 7.",
+    "almeida|2015": "Almeida, M.; Lisboa, M.; Pessôa, S. (2015). O ajuste inevitável ou o país que ficou velho antes "
+                    "de se tornar desenvolvido. Texto de julho de 2015. [Acervo José Roberto Afonso]"
+                    "(http://joserobertoafonso.com.br/ajuste-inevitavel-mansueto-et-al/); "
+                    "[PDF](http://infogbucket.s3.amazonaws.com/arquivos/2015/07/28/o-ajuste.pdf).",
+    "mishkin|2019": "Mishkin, F. (2019). *The Economics of Money, Banking and Financial Markets*. 12ª ed. Pearson. "
+                    "Partes usadas no painel: cap. 15, \"Tools of Monetary Policy\", parte IV e capítulos sobre regulação bancária.",
 }
 
 # Referências que o parser não marca como incompletas mas que o são em todas as citações
@@ -481,12 +494,13 @@ def extrair_titulo(resto):
         return ""
     if resto[0] in "\"“":
         f = re.search(r"[\"”]", resto[1:])
-        return resto[1:f.start() + 1] if f else resto[1:]
+        if f and not re.match(r"\s+[a-z]", resto[f.end() + 1:]):
+            return resto[1:f.start() + 1]
     if resto[0] == "*":
         f = resto.find("*", 1)
         return resto[1:f] if f > 0 else resto[1:]
     m = re.search(r"[.?](\s|$)", resto)
-    return resto[:m.start()] if m else resto
+    return (resto[:m.start()] if m else resto).strip("\"“”")
 
 
 def chave_lit(t):
@@ -529,7 +543,7 @@ def campos(t):
 
 def formatar_lit(t):
     t = re.sub(r"(\*[^*]+\*)\s+(\d{1,4}\s?\()", r"\1, \2", t)
-    t = re.sub(r"(\*[^*]+\*)\s+(\d{1,4})(?=[:,.]\s)", r"\1, \2", t)
+    t = re.sub(r"(\*[^*]+\*)\s+(\d{1,4})(?=[:,.](\s|$))", r"\1, \2", t)
     t = re.sub(r"(\d{1,4}\([^)]{1,8}\))\s*:\s*", r"\1, ", t)
     t = re.sub(r"(\*, \d{1,4}):\s*(\d+[–-]\d+)", r"\1, \2", t)
     t = re.sub(r"(Q[1-4]):\s*", r"\1, ", t)
@@ -600,6 +614,13 @@ def montar_literatura(refs):
             if len(vals) > 1:
                 div.append(f"{nome}: " + "; ".join(f"{v} ({', '.join(sorted(p, key=lambda x: id_key(x.rstrip('*'))))})"
                                                    for v, p in vals.items()) + f"; adotado {cf[campo] or 'nenhum'}")
+        if k not in CANONICO:
+            tits = {norm(extrair_titulo(separar_autor(r.texto)[2])) for r in rs}
+            if len(tits) > 1:
+                div.append("título com e sem subtítulo ou com grafias diferentes")
+            auts = {re.sub(r"\s+", " ", separar_autor(r.texto)[0]) for r in rs}
+            if len(auts) > 1:
+                div.append("autores grafados de formas diferentes: " + " | ".join(sorted(auts)))
         if div:
             divergencias.append((esc.texto[:90], div))
         # incompletude
@@ -617,7 +638,7 @@ def montar_literatura(refs):
         if falta:
             incompletas.append((esc.texto[:90], ", ".join(dict.fromkeys(falta)), pids))
         aut, ano, _ = separar_autor(texto)
-        ordem = norm(aut) + " " + (ano or "9999")
+        ordem = norm(aut.split(",")[0]) + " " + (ano or "9999") + " " + norm(aut)
         obras.append((ordem, formatar_lit(texto), pids, len(rs)))
     obras.sort(key=lambda x: x[0])
     return obras, divergencias, incompletas
@@ -798,8 +819,9 @@ def gerar():
                 linhas.append(f"  - {t} Em {links_paginas(ps)}.")
                 n_itens_prim += 1
         if inst in tds:
-            linhas.append(f"- Textos para discussão e estudos da instituição com autor identificado estão na "
-                          f"Literatura, pelo nome do autor: {lista_nomes(tds[inst])}.")
+            linhas.append(f"- Trabalhos com autor identificado publicados pela instituição (textos para discussão, "
+                          f"working papers, notas, blogs e revistas) estão na Literatura, pelo nome do autor: "
+                          f"{lista_nomes(tds[inst])}.")
         if linhas:
             corpo_prim.append("\n".join(linhas) + "\n")
         if s["outros"]:
@@ -831,9 +853,9 @@ def gerar():
 
     intro = f"""O painel cita {n_itens_prim} fontes primárias de dados, {n_obras} obras de literatura e {n_imp} matérias de imprensa ou outras fontes secundárias. Elas vêm das seções "Para ler" de {n_pag} páginas e das fontes declaradas em {n_graf} arquivos de dados de gráficos, e estão reunidas aqui sem repetição, cada uma com links para as páginas que a usam. Quando a mesma obra aparece citada de formas diferentes em páginas distintas, ficou uma entrada só, com a versão conferida na revisão daquelas páginas.
 
-A ordem dos três blocos segue a hierarquia de fontes de [Método e regras de evidência](pagina:9.1). Primeiro vêm as fontes primárias: séries e documentos de órgãos oficiais e de organismos internacionais, além da legislação, agrupados pela instituição que os produz. O Banco Central e o IBGE ganham um quadro com os códigos do Sistema Gerenciador de Séries Temporais (SGS) e as tabelas do SIDRA, porque é por esses números que o leitor encontra a série na fonte e refaz a conta. Depois vem a literatura: livros, artigos, capítulos e textos para discussão com autor identificado, e estudos assinados por organizações (centrais sindicais, institutos de pesquisa privados, a Auditoria Cidadã da Dívida). Por último vêm a imprensa e as demais fontes secundárias.
+A ordem dos três blocos segue a hierarquia de fontes de [Método e regras de evidência](pagina:9.1). Primeiro vêm as fontes primárias: séries e documentos de órgãos oficiais e de organismos internacionais, além da legislação, agrupados pela instituição que os produz. O Banco Central e o IBGE ganham um quadro com os códigos do Sistema Gerenciador de Séries Temporais (SGS) e as tabelas do SIDRA, porque é por esses números que o leitor encontra a série na fonte e refaz a conta. Depois vem a literatura: livros, artigos, capítulos e textos para discussão com autor identificado, e estudos assinados por organizações (DIEESE, Inesc, IEDI, CEMEC-FIPE, a Auditoria Cidadã da Dívida). Por último vêm a imprensa e as demais fontes secundárias.
 
-Boa parte das séries primárias não foi transcrita à mão. Um coletor automático (`tools/coletar.py`), executado no GitHub Actions toda segunda-feira de manhã e também sob demanda, baixa das APIs oficiais do BCB (SGS e Olinda), do IBGE (SIDRA e servidor de arquivos das Contas Nacionais), do Tesouro Transparente e do BIS os dados brutos e os grava em [`dados/brutos/`]({REPO}/tree/main/dados/brutos), um arquivo por série, com a URL da API e a hora da coleta; o arquivo `_coleta.json` lista o que veio. A coleta usada nesta versão é a de {data_coleta[8:10]}/{data_coleta[5:7]}/{data_coleta[0:4]}, com {n_brutos} arquivos. Quando o coletor roda de novo, os gráficos calculados a partir do acervo podem ser refeitos pelos scripts de `tools/analises/`, e a data de consulta muda junto. Planilhas que a rede da produção não alcançava pela API (fatores condicionantes da dívida, tabela Divggnp do BCB, DataMapper do FMI, Ipeadata, Banco Mundial, relatórios do Tesouro) foram baixadas à mão, a maior parte em 28/10/2026, e cada gráfico informa a própria data.
+Boa parte das séries primárias não foi transcrita à mão. Um coletor automático (`tools/coletar.py`), executado no GitHub Actions toda segunda-feira de manhã e também sob demanda, baixa das APIs oficiais do BCB (SGS e Olinda), do IBGE (SIDRA e servidor de arquivos das Contas Nacionais), do Tesouro Transparente e do BIS os dados brutos e os grava em [`dados/brutos/`]({REPO}/tree/main/dados/brutos), um arquivo por série, com a URL da API e a hora da coleta; o arquivo `_coleta.json` lista o que veio. A coleta usada nesta versão é a de {data_coleta[8:10]}/{data_coleta[5:7]}/{data_coleta[0:4]}, com {n_brutos} arquivos. Quando o coletor roda de novo, os gráficos calculados a partir do acervo podem ser refeitos pelos scripts de `tools/analises/`, e a data de consulta muda junto. Dados que o acervo bruto ainda não tem (fatores condicionantes da dívida e tabela Divggnp do BCB, DataMapper do FMI, Ipeadata, Banco Mundial, relatórios do Tesouro) foram consultados antes, a maior parte em 28/10/2026, e cada gráfico informa a própria data de consulta.
 
 A literatura está em ordem alfabética do sobrenome do primeiro autor, ou do nome da organização autora, no formato sobrenome, iniciais (ano), título, veículo, volume(número), páginas e link quando há. Os nomes seguem a forma abreviada usada nas páginas. Uma referência que chegou incompleta em todas as páginas que a citam ficou incompleta aqui: o painel não completa ano, volume ou página de memória.
 
