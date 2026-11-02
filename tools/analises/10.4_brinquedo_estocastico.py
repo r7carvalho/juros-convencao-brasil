@@ -5,11 +5,15 @@ Hipóteses (números inventados): dívida inicial de 100% do PIB; o diferencial 
 dos próximos 20 anos é sorteado uma vez de uma normal com média mu e desvio sigma e fica
 fixo; a dívida evolui por d_t = d_{t-1} * (1 + x) - s (aproximação de (1+r)/(1+g)).
 A dívida está em trajetória explosiva quando x * d > s, isto é, x > s/d.
-Probabilidade = 1 - Phi((s/d - mu)/sigma). Grava dois JSON em dados/.
+Probabilidade = 1 - Phi((s/d - mu)/sigma).
+
+Uso: python3 tools/analises/10.4_brinquedo_estocastico.py [--resumo]
+(sem argumento grava os dois JSON em dados/; com --resumo só imprime, sem gravar nada)
 """
 import json
 import math
 import os
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 D0, SIGMA, ANOS = 100.0, 2.0, 20
@@ -71,8 +75,9 @@ for nome, mu in CASOS:
     fan["series"].append({"nome": nome, "pontos": pts})
 
 for nome_arq, obj in (("10.4-probabilidade-explosao.json", prob), ("10.4-divida-20-anos.json", fan)):
-    with open(os.path.join(ROOT, "dados", nome_arq), "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=1)
+    if "--resumo" not in sys.argv:
+        with open(os.path.join(ROOT, "dados", nome_arq), "w", encoding="utf-8") as f:
+            json.dump(obj, f, ensure_ascii=False, indent=1)
     print(nome_arq, json.dumps(obj["series"], ensure_ascii=False))
 
 for nome, mu in CASOS:

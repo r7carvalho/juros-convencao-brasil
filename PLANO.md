@@ -230,7 +230,7 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.1d3 Influenciador: Nathalia Arcuri (Me Poupe!)
 - [ ] 12.1d4 Influenciador: Tiago Reis (Suno)
 - [ ] 12.1d5 Influenciador: Eduardo Moreira (ICL)
-- [ ] 12.2a Mídia e academia: Samuel Pessôa
+- [x] 12.2a Mídia e academia: Samuel Pessôa
 - [ ] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
 - [ ] 12.2c Outros nomes frequentes da imprensa econômica (por exemplo Armínio Fraga, Alexandre Schwartsman, Zeina Latif, Mansueto Almeida, Felipe Salto): levantar e abrir uma página por pessoa
 - [ ] 12.3a Economistas-chefes de bancos e gestoras: o que projetam, com que histórico de acerto (comparar projeções do Focus e de relatórios com o realizado)

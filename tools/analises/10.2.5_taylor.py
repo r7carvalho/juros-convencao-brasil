@@ -5,6 +5,7 @@ Reproduz as contas da página "Regra de Taylor e os modelos do BC" e grava os JS
 em dados/10.2.5-*.json. Só usa a biblioteca padrão e numpy.
 
 Uso: python3 tools/analises/10.2.5_taylor.py [--resumo]
+(sem argumento grava os JSON; com --resumo só imprime as contas, sem gravar nada)
 
 Entradas (dados/brutos/, coleta de 02/11/2026):
   sgs-432.json            Selic meta definida pelo Copom (% a.a.), diária
@@ -182,6 +183,8 @@ def r2(x):
 
 
 def gravar(nome, obj):
+    if "--resumo" in sys.argv:  # --resumo só imprime; não regrava os JSON
+        return
     with open(os.path.join(SAIDA, nome), "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=1)
         f.write("\n")
