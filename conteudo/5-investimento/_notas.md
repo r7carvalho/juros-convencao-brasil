@@ -11,12 +11,12 @@ Poder360 e o site do IEDI seguem bloqueados para fetch.
 |---|---|---|
 | 5 | 5-investimento-refem-do-juro.md | ~1.440 |
 | 5.1 | 5.1-juro-real-x-retorno-do-capital.md | ~3.660 |
-| 5.2 | 5.2-fbcf-capital-por-trabalhador.md | ~3.150 |
+| 5.2 | 5.2-fbcf-capital-por-trabalhador.md | ~3.400 |
 | 5.3 | 5.3-indexacao-das-decisoes.md | ~3.210 |
-| 5.4 | 5.4-contas-nacionais.md | ~970 |
-| 5.4.1 | 5.4.1-tabela-de-recursos-e-usos.md | ~1.830 |
-| 5.4.2 | 5.4.2-valor-adicionado-e-financas.md | ~2.160 |
-| 5.4.3 | 5.4.3-contas-economicas-integradas.md | ~2.400 |
+| 5.4 | 5.4-contas-nacionais.md | ~1.120 |
+| 5.4.1 | 5.4.1-tabela-de-recursos-e-usos.md | ~2.740 (com duas tabelas novas) |
+| 5.4.2 | 5.4.2-valor-adicionado-e-financas.md | ~2.740 (com tabela nova) |
+| 5.4.3 | 5.4.3-contas-economicas-integradas.md | ~2.680 |
 
 Gráficos próprios (11): 5.1-retorno-capital-x-juro-real (juro real agora de 1995 a 2026),
 5.1-colchao-retorno-juro-paises, 5.2-taxa-de-investimento (dona da série FBCF/PIB),
@@ -74,10 +74,10 @@ Gráficos de outras áreas usados por JSON dono: 2.4-lft-na-dpf e 2.4-credito-di
   TJLP); participação das debêntures indexadas ao DI (ANBIMA); distribuição das metas atuariais dos fundos
   (Previc). A faixa "IPCA mais 4% a 6%" saiu do texto; ficou o corredor das Portarias Previc 343/2025 e
   324/2026 (vértice de 1 ano), confirmado por busca.
-- 5.4.1: produção e consumo intermediário da TRU 2023 (planilhas anuais do SCN).
-- 5.4.3: D.41 pago e recebido por setor institucional na CEI 2000–2023, D.44 e saldo de renda primária; até
-  lá, a página só usa o dado por setor do SCN 2020 (capacidade de financiamento das financeiras em 2019 e
-  2020) e diz que ele vale só para esses anos.
+- 5.4.1: produção e consumo intermediário da TRU 2023: resolvido no refino com o SCN 2023 (seção abaixo).
+- 5.4.3: D.41 pago e recebido por setor institucional na CEI, D.44 e saldo de renda primária; a edição de 2023
+  do SCN no FTP não traz a CEI (ver "Refino com SCN 2023"); a página segue com o dado por setor do SCN 2020
+  (capacidade de financiamento das financeiras em 2019 e 2020) e diz que ele vale só para esses anos.
 
 ## Achados da revisão não aplicados ou aplicados de outro modo
 
@@ -87,3 +87,73 @@ Gráficos de outras áreas usados por JSON dono: 2.4-lft-na-dpf e 2.4-credito-di
   empresas tem seis pontos, e o texto diz "três dos seis".
 - 5.1 nº 19: spread de PJ não está nos brutos; mantido o total com a ressalva de que superestima.
 - 5.4.3 nº 9: o gráfico de juros em % do PIB foi mantido (a 3.3 tem só a série em reais), já com set/2026.
+
+## Refino com SCN 2023 (02/11/2026)
+
+Fontes novas em dados/brutos/: Sistema de Contas Nacionais 2023 do IBGE (FTP, pasta
+Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/, arquivos .ods; os .xls são cópias) e séries do Ipeadata
+(ipea-*.json). Leitura e contas em tools/analises/5.4_scn2023.py (biblioteca padrão; zipfile + content.xml;
+`--gravar` refaz dados/5.4.2-financeiras-x-transformacao.json).
+
+O que cada tabela sinótica coletada contém (título da primeira linha):
+
+| arquivo | conteúdo |
+|---|---|
+| tab01 | Visão sintética da economia mundial e nacional, 2000–2023 (PIB, óticas em volume, poupança, FBCF/PIB, capacidade/necessidade de financiamento da economia/PIB, setor externo, Selic, IPCA, carga tributária) |
+| tab02 | Economia nacional, conta de bens e serviços, 2000–2023 (produção, importação, impostos, CI, demanda final) |
+| tab05 | Componentes do PIB sob as três óticas, valores correntes e constantes, 2000–2023 (ótica da renda vazia em 2022–2023) |
+| tab06 | PIB, PIB per capita, população residente e deflator, 1996–2023 |
+| tab07 | FBCF, valores correntes e constantes, e taxa de investimento, 1995–2023 |
+| tab09 | Variação em volume do VA e contribuição por grupo de atividades, 2011–2023 |
+| tab10_1 | VA constante e corrente por grupo de atividades, 2000–2023 |
+| tab11_1 | Variação em volume do VA por grupo de atividades, 2001–2023 |
+| tab12_1 | Variação de preços do VA por grupo de atividades, 2001–2023 |
+| tab13_1 | Participação no VA a preços básicos por grupo de atividades, 2000–2023 |
+
+As TRU (12_tab1_2023 a 12_tab4_2023, TRU2023resumo) têm 12 atividades × 12 produtos; 12_tab1/2 em valores
+correntes, 12_tab3/4 a preços do ano anterior. Remunerações e excedente vêm zerados (edição reduzida).
+12_tab2_2023 e 12_tab4_2023 carregam abas antigas (2m02, 2n02, 2o02) com a TRU de 2001 em 55 atividades; não
+foram usadas.
+
+Por página:
+
+- 5.4.1: TRU de 2023 completa pelas óticas da produção e da despesa com fonte "IBGE, Sistema de Contas
+  Nacionais 2023, TRU de 2023, tabelas 1 e 2". Produção 19.821,1; CI 10.262,5 (51,8% da produção); VA 9.558,6;
+  importações 1.717,8; impostos 1.384,8 (ICMS 696,2; IPI 58,1; imposto de importação 54,1; outros 576,4);
+  recursos = usos = 22.923,7 (R$ bi). Tabela nova por atividade (produção, CI, VA, VA/produção). Serviços
+  financeiros na TRU: oferta 1.223,9; CI das atividades 633,8 (6,2% do CI total); consumo das famílias 575,1.
+  Anual × trimestral: a soma dos quatro trimestres de 2023 no SIDRA 1846 difere da TRU em no máximo R$ 1,3
+  milhão por componente (arredondamento). Número corrigido: consumo de famílias e governo = R$ 82,00 de cada
+  R$ 100 de PIB (era 81,90, soma de parcelas arredondadas; o exato é 81,97).
+- 5.4.2: série das financeiras e da transformação conferida contra a tabela 13.1: coincide na primeira casa
+  em 2000–2023 (maior diferença 0,02 ponto, financeiras em 2022: 7,00 na 13.1, 6,98 nos trimestres; a própria
+  13.1 soma 99,97 em 2022). Gráfico refeito com a 13.1 em 2000–2023 e SIDRA 1846 em 1996–1999 e 2024–2026 (os
+  valores não mudaram). Correlações refeitas com a série combinada: 0,771 (1996–2025) e 0,519 (2000–2025), sem
+  mudança. Novo: volume e preço do VA financeiro (tabelas 11.1 e 12.1): em 2015, 2016 e 2022 o volume caiu
+  (−1,2; −3,4; −0,2) e o preço relativo subiu 8,4; 11,4 e 24,4%; correlação do preço relativo com a variação da
+  Selic acumulada no ano (SGS 4390) de 0,61 em 2001–2023; com o volume, −0,29.
+- 5.4.3: nenhuma tabela sinótica coletada traz contas por setor institucional, renda de propriedade ou D.41.
+  A tabela 1 só traz a capacidade/necessidade de financiamento da economia inteira (−0,8% do PIB em 2023,
+  −2,3% em 2022). A página diz que a CEI não está na pasta de 2023 e mantém o SCN 2020 com a ressalva.
+  Caminhos do FTP a coletar: (a) https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/indice_tabelas_sinoticas.pdf
+  (listado em dados/brutos/scn-listagem-74.json e não baixado; diz se as sinóticas 3, 4, 8 e 14 em diante
+  existem para 2023); (b) a pasta da última edição completa, https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2022/
+  e, se ela também vier reduzida, .../2021/, subpastas tabelas_ods/ (ou tabelas_xls/) com as Contas Econômicas
+  Integradas e as sinóticas por setor institucional (listar a pasta antes, porque os nomes dos arquivos não
+  foram conferidos).
+- 5.2: as séries de estoque e K/Y (DIMAC_CFELCTOT, DIMAC_CFELCMQEQ, DIMAC_CFRCP, DIMAC_CFINVLQMQEQ) estão só nos
+  metadados (R$ de 2025, atualizadas em 03/08/2026): o coletor baixa só as 40 primeiras séries da busca
+  (`sel[:40]` em tools/coletar.py) e elas ficaram de fora. Conferido com o que veio: taxa de investimento
+  (PAN_FBKFPIBV = SIDRA 1846 = SCN tabela 7 na primeira casa, 1996–2025); 1º semestre de 2026 (PAN4_FBKFPIBV4,
+  SCN104_FBKFG104: −1,4% e +1,4% nos dois trimestres, média zero); depreciação de máquinas (DIMAC_CFDPRMQEQ):
+  R$ 657,8 bi em 2025, cerca de 16% do estoque do fim de 2024 (11,7% em 1995). Estoque, capital por ocupado e
+  K/Y seguem com os valores do Ipeadata consultados em 28/10/2026, agora citados pelo código da série.
+  Número corrigido: "investimento líquido em máquinas negativo de 2021 a 2023 e levemente positivo em 2024"
+  (vintage antiga da Carta de Conjuntura) virou, pela série DIMAC_CFELCMQEQ, estoque em queda em todos os anos
+  de 2015 a 2024, exceto 2019 (parado), e alta pequena em 2025. Para conferir sem depender da consulta de
+  28/10, acrescentar a IPEA_SERIES do coletor: DIMAC_CFELCTOT, DIMAC_CFELCMQEQ, DIMAC_CFRCP, DIMAC_CFINVLQMQEQ,
+  DIMAC_CFINVBRMQEQ, DIMAC_CFDPRTOT.
+- 5.4: parágrafos da TRU e do VA com as fontes anuais; nota "O que falta medir" reescrita.
+- Lint: a palavra vetada que resta em 5.1 está no título de uma nota da CEMEC-FIPE no "Para ler" e ficou. Os
+  usos econômicos da palavra que o lint confunde com fonte interna, em 5.4, 5.4.1, 5.4.2 e 5.4.3, foram
+  trocados por "consumo intermediário" ou "bens intermediários".

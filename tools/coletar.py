@@ -108,6 +108,7 @@ SIDRA = {
 # IBGE FTP: diretórios do Sistema de Contas Nacionais (TRU, CEI, tabelas sinóticas)
 SCN_DIRS = [
     "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2023/",
+    "https://ftp.ibge.gov.br/Contas_Nacionais/Sistema_de_Contas_Nacionais/2022/",  # última edição completa (CEI)
 ]
 SCN_PROFUNDIDADE = 3
 SCN_MAX_MB = 60
@@ -125,7 +126,9 @@ BIS = {
 # Ipeadata OData: códigos de série (estoque de capital etc.). Preencha com SERCODIGO conferido em
 # http://www.ipeadata.gov.br. A coleta grava também a busca por palavra-chave para achar os códigos.
 IPEA_BUSCAS = ["capital fixo", "estoque de capital", "taxa de investimento", "formação bruta de capital"]
-IPEA_SERIES = ["JPM366_EMBI366"]  # EMBI+ Brasil (JP Morgan), via Ipeadata
+IPEA_SERIES = ["JPM366_EMBI366",  # EMBI+ Brasil (JP Morgan), via Ipeadata
+               "DIMAC_CFELCTOT", "DIMAC_CFELCMQEQ", "DIMAC_CFRCP", "DIMAC_CFINVLQMQEQ",
+               "DIMAC_CFINVBRMQEQ", "DIMAC_CFDPRTOT"]  # estoque de capital (Ipea/DIMAC)
 
 # ------------------------------------------------------------------ rede
 
@@ -292,7 +295,7 @@ def coletar_scn():
                 if nivel + 1 <= SCN_PROFUNDIDADE:
                     fila.append((url, nivel + 1))
                 continue
-            if not re.search(r"\.(zip|xls|xlsx|ods)$", url, re.I):
+            if not re.search(r"\.(zip|xls|xlsx|ods|pdf)$", url, re.I) or (url.lower().endswith(".pdf") and "indice" not in url.lower()):
                 continue
             listagem_total.append(url)
             rel = urllib.parse.unquote(url[len("https://ftp.ibge.gov.br/Contas_Nacionais/"):]).replace("/", "__")
@@ -348,7 +351,7 @@ def coletar_ipea():
         arq = gravar("ipea-metadados-selecionados.json", {"fonte": "Ipeadata", "url_api": url, "coleta": agora(),
                                                           "filtro": IPEA_BUSCAS, "dados": sel})
         ok("ipea", "metadados", arq, len(sel))
-        for m in sel[:40]:
+        for m in sel[:80]:
             IPEA_SERIES.append(m.get("SERCODIGO"))
     except Exception as e:  # noqa
         falha("ipea", "metadados", url, e)
