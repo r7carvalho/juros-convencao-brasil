@@ -679,3 +679,29 @@ Blanchard e Summers (1986) via 1.6; Blanchard (2004), conclusão pela versão da
 - 7.1 atribui a Blanchard, Dell'Ariccia e Mauro (2010) a defesa de meta "entre 4% e 4,5%"; a nota de 2010 levanta a pergunta sobre 4%, e em 2022 Blanchard passou a preferir 3%. Sugere-se acrescentar a coluna de 2022 em 7.1 e 10.1.2.
 - 4.2 cita Bernanke e Blanchard (2023) como Hutchins WP 86; pode acrescentar a publicação em *AEJ: Macroeconomics* 17(3), 2025, e a extensão de 2024 (NBER WP 32532).
 - 9.2 (bibliografia) pode receber as referências novas: Blanchard e Leigh (2013), Blanchard (2023), Blanchard, Felman e Subramanian (2021), Blanchard, Leandro e Zettelmeyer (2021), Bernanke e Blanchard (2024), Blanchard (2025).
+
+## 10.5
+
+### Página entregue (02/11/2026)
+
+- 10.5 O que é transponível ao Brasil, 1ª versão: cerca de 3.300 palavras sem a tabela e o Para ler (2.900 sem as listas do quadro A favor/Contra); 4.400 pela contagem do lint, que inclui tabela e referências. Sem gráfico novo.
+- Conteúdo: exemplo de brinquedo (mesma compra de 100 em títulos de dez anos no país A, moeda reserva e taxa 0,25%, e no país B, moeda não reserva, taxa 14% e metade da dívida à Selic; $R = A(y - i)$: +2,75 e −1 por ano; repasses de brinquedo de 5% e 10%); as três condições das receitas de fora; as quatro peculiaridades com número e fonte; tabela instrumento × condição × Brasil × transponível × link (6 sim, 4 em parte, 4 não); quadro A favor (convenção) / Contra (ortodoxa); recorte da ata da 233ª reunião do Copom (cláusula fiscal); caixa do painel; cinco experimentos com o que cada resultado diria.
+- Página macro 10: reescritos só os cinco parágrafos de "O que o bloco cobre" (10.1 a 10.5) com as conclusões de cada filha.
+
+### Fontes principais
+
+Todas já usadas e conferidas nas páginas do bloco, salvo o boxe do repasse cambial: BCB, SGS 1, 432, 433, 4382, 5727, 5793, 20539, 20593 e 28964 (coleta de 02/11/2026; direcionado recalculado: 49,86% em dez/2016, 40,12% em dez/2022, 43,95% em ago/2026); Divggnp (compromissadas 10,3% do PIB, reservas US$ 372,6 bi, ago/2026); Tesouro, RMD de ago/2026 (LFT 52,74%, câmbio 3,74%); R$ 61,7 bi e R$ 49 bi por ponto de Selic (2.4); R$ 19 bi por ponto no diferencial das reservas e 1,23% do PIB de média em 2003–2025 (cálculo do painel em 10.3.6); neutro implícito 12,7 / 0,8 / 9,3 (10.2.5); juro real dos pares 2 a 7 pontos menor em 2023–2026 (BIS, 2.1); Bonomo e Martins (2016), Castro (2019) e a conta de cerca de 1 ponto (6.2.2); Oreiro et al. (2012) e Lopreato (2018) via 10.2.2; Vergnhanini e De Conti (2017, recorte já usado em 10.3.8); ata da 233ª reunião do Copom (recorte já usado em 10.3.1). Boxe "Repasse cambial: estimativas por projeções locais" (RPM de mar/2026), por WebSearch em 02/11/2026: repasse bem abaixo de um para um, intenso e rápido em alimentação no domicílio, relevante em industriais, perto de zero em serviços. FMI, COFER, citado só para dizer que o real não é moeda identificada nas reservas mundiais.
+
+### Lacunas (nada disso entrou como fato)
+
+- Coeficiente numérico do repasse cambial ao IPCA: a busca devolveu "0,10 para o IPCA cheio" atribuído ao boxe do RPM de mar/2026, sem o horizonte (meses) nem a tabela; não entrou. Conferir no PDF (rpm202603b8p.pdf) e, se confirmado, pôr o número e o horizonte na seção "Moeda não reserva e repasse cambial" e na 2.4, que hoje usa 10% como ilustrativo.
+- O texto diz que o diferencial de carregamento das reservas "entra" nos R$ 61,7 bi por ponto da DLSP "pelo lado das compromissadas" (inferência do painel: a DLSP é líquida das reservas e o passivo que as financia paga Selic). Conferir com a nota metodológica do BCB sobre a sensibilidade da DLSP à Selic; se o número do BCB excluir as compromissadas, ajustar a frase.
+- Os cinco experimentos são propostas do painel; nenhum tem estimativa de custo própria nesta página (o custo está nas páginas 7.x).
+- O quinto experimento (estudo de evento com cesta de emergentes) repete o primeiro teste da lista de "O que pode mudar a matriz" em 8.1.
+
+### Divergências e ajustes sugeridos em outras páginas
+
+- Nenhum número novo diverge do `_divergencias.md`. A participação de índices de preços na DPF (23,22% × 20,31%, ordem pendente) foi evitada de propósito.
+- 8.1 pode citar 10.5 em P4b (mecanismo: LFT, compromissadas, reservas e direcionado) e em P3 (empate do bloco 10 no nível); também pode acrescentar à lista de testes os quatro experimentos de política (LFT, trajetória com âncora fiscal, regra de compra em pane, direcionado com taxa de mercado).
+- A página macro 10 agora cita Morris e Shin (2002) no parágrafo da 10.2 sem a referência no Para ler da macro; acrescentar na revisão se o coordenador quiser.
+- 10.3.3 promete em 10.5 "o que isso sugere para a LFT, o alongamento e a comunicação do BCB": coberto pela linha QQE/YCC da tabela, pela seção da dívida indexada e pelos experimentos 1 e 2.

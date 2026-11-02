@@ -224,7 +224,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.0 Página macro: método, matriz pessoa × argumento × classificação, mapa dos jargões
 - [x] 12.1a Influenciador: Investidor Sardinha (Raul Sena)
 - [x] 12.1b Influenciador: Primo Rico (Thiago Nigro)
-- [ ] 12.1c Influenciador: Bruno Perini
+- [x] 12.1c Influenciador: Bruno Perini
 - [ ] 12.1d Outros influenciadores de finanças com alcance comparável que tratem de juros, dívida e "Brasil quebrado" (levantar e abrir uma página por pessoa, dividindo o item)
 - [ ] 12.2a Mídia e academia: Samuel Pessôa
 - [ ] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
