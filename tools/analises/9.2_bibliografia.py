@@ -645,7 +645,7 @@ def sem_instituicao(inst, t):
     """Tira da referência o nome da instituição (e o ano) que abre o texto."""
     if inst not in ("bcb", "ibge", "tesouro", "ifi", "ipea", "bis", "fmi"):
         return t
-    rx = INSTITUICOES[inst][1].rstrip(")").rstrip("\\.").rstrip("|") + ")" if False else INSTITUICOES[inst][1]
+    rx = INSTITUICOES[inst][1]
     m = re.match(rx + r"(?:\s*\(\d{4}\))?(?:[;,][^.]*)?\.\s+", t)
     return t[m.end():] if m else t
 
