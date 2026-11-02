@@ -1,0 +1,45 @@
+---
+id: 1
+titulo: Fundamentos teóricos
+pai: 0
+ordem: 1
+resumo: O ramo reúne a teoria que as demais áreas usam para ler os dados brasileiros. Moeda (a emissão acomoda em tempos normais e causa inflação quando financia déficit sem folga), inércia e o Real (inflação com componentes distintos e um instrumento para cada um), expectativas (adaptativas, racionais, de regra de bolso, neo-fisherianas), convenção (Keynes, Dequech, Orléan), dominância fiscal e longo prazo. Conclui que a teoria dá mecanismos plausíveis tanto para a leitura convencionalista quanto para a fiscal, e que a escolha entre elas depende da evidência das áreas 2 a 6.
+---
+
+Antes de discutir se o juro brasileiro é alto por causa da dívida, do prêmio de risco ou de uma convenção, é preciso saber o que cada uma dessas palavras quer dizer na literatura e que mecanismo cada teoria propõe. Este ramo faz isso. Ele não traz a evidência brasileira recente, que fica nas áreas [2](pagina:2) a [6](pagina:6); traz os conceitos, os exemplos internacionais e a história do Real, que é o laboratório mais usado no debate brasileiro.
+
+A tese do usuário, apresentada na [página inicial](pagina:0), faz afirmações teóricas em vários pontos: que emitir moeda não causa inflação, que a inflação tem componentes inercial, de demanda e de oferta, que as expectativas são convenção social e não cálculo, que o juro alto alimenta a dívida e a dívida alimenta o juro, e que o "longo prazo" da teoria neoclássica nunca chega. Cada página filha examina uma dessas afirmações contra a literatura, com o melhor argumento a favor e o melhor contra.
+
+## As seis páginas
+
+[Moeda: teoria quantitativa, moeda endógena e o QE de 2008](pagina:1.1) separa a equação $M \cdot V = P \cdot Y$, que é identidade contábil, da teoria quantitativa, que aposta em velocidade estável e moeda controlada pelo banco central. Nos Estados Unidos, a base monetária foi de US$ 847,6 bilhões em agosto de 2008 para US$ 4.075 bilhões em agosto de 2014, a velocidade de M2 caiu de 1,98 para 1,49 entre 2007 e 2015 e a inflação ficou abaixo de 2% quase todo o tempo (Federal Reserve, via FRED). A moeda endógena de Kaldor e dos pós-keynesianos, que o Banco da Inglaterra endossou em 2014, explica por quê: a moeda nasce do crédito, ao juro fixado pelo banco central. Mas a correlação de 0,92 a 0,96 entre moeda e inflação em 110 países (McCandless e Weber, 1995) e as hiperinflações de Cagan (1956) mostram que, quando o governo financia déficits com emissão numa economia sem folga, a emissão causa inflação. A conclusão da página: a tese "emissão não causa inflação" vale para a base monetária com juros sobre reservas e juro zero, e para a moeda que acompanha o crédito em tempos normais; não vale como regra geral.
+
+[Inflação inercial, URV e o Real](pagina:1.2) explica por que a inflação brasileira de 1980–1994 se repetia sozinha (a indexação), como Lopes, Arida e Lara Resende e Bresser-Pereira e Nakano formalizaram isso em 1984, por que o Cruzado de 1986 fracassou (congelou preços desalinhados e não tratou a demanda) e como o Real fez diferente: ajuste fiscal primeiro (PAI em 1993, FSE em março de 1994), URV para alinhar preços sem congelamento (março a junho de 1994), troca da moeda em julho de 1994, e câmbio e juros altos como âncoras até 1999. O IPCA mensal caiu de 47,43% em junho para 1,86% em agosto de 1994 (IBGE). A emissão de moeda acomodava a inflação; não era causa suficiente dela. O Real também mostra que a demanda não pôde ser ignorada, e que o juro real muito alto nasceu ali com função definida, que deixou de existir em 1999.
+
+[Expectativas](pagina:1.3) apresenta quatro maneiras de modelar o que as pessoas esperam: adaptativas (Cagan, Friedman), racionais (Muth, Lucas, Sargent), regra de bolso e expectativas de nível (Galí e Gertler, Mankiw e Reis, Carroll) e neo-fisherianas (Cochrane, 2016). Os dados de pesquisas rejeitam a hipótese racional pura e mostram ancoragem em patamares tidos como normais, o que aproxima a expectativa da convenção. O argumento neo-fisheriano, de que juro alto prolongado eleva a inflação, depende de previsão perfeita no curto prazo (García-Schmidt e Woodford, 2019) e foi contrariado pela Turquia em 2021–2022. A página também explica como o Focus é formado: a mediana das projeções de cerca de 165 instituições, a maioria bancos e gestoras.
+
+[Convenção: Keynes, Dequech, Orléan, Lewis e Schelling](pagina:1.4) apresenta a teoria que sustenta a tese do usuário. Sob incerteza radical, quando não há base para calcular probabilidades, as pessoas coordenam expectativas em torno de convenções, e Keynes chamou o juro de longo prazo de fenômeno altamente convencional. As netas tratam do juro "normal" e do exemplo da perpetuidade do capítulo 15 da *Teoria Geral*, do concurso de beleza e da compatibilidade entre convenção e racionalidade (Dequech). A página conclui que a teoria dá um mecanismo plausível para um juro persistentemente alto, mas não prova sozinha que o juro brasileiro seja convencional, e registra que o mecanismo da perpetuidade é quase ausente em títulos pós-fixados como a LFT.
+
+[Dominância fiscal e aritmética da dívida](pagina:1.5) apresenta a explicação concorrente mais forte. Quando o fiscal não ajusta os superávits ao tamanho da dívida, o juro alto piora a dívida, a dívida eleva o prêmio de risco e o prêmio pressiona câmbio e preços, de modo que a política monetária perde força. As netas tratam de Sargent e Wallace (1981), de Blanchard (2004) e Favero e Giavazzi (2004) sobre o Brasil de 2002, de Calvo (1988), da teoria fiscal do nível de preços e da equivalência ricardiana (que trata da neutralidade da dívida, não do circuito dívida, prêmio e juro). A página conclui que 2002 é o caso mais documentado de dominância fiscal no Brasil e que, em 2025, a resposta do câmbio e da inflação à Selic de 15% não mostrou o efeito perverso típico da dominância.
+
+[Longo prazo, neutralidade e histerese](pagina:1.6) trata da afirmação do usuário de que o longo prazo neoclássico, com moeda neutra e produto no potencial, nunca chega. A página apresenta a neutralidade da moeda, a frase de Keynes no *Tract on Monetary Reform* (1923) sobre o longo prazo e a literatura de histerese, que começa com Blanchard e Summers (1986): recessões podem reduzir o produto potencial de forma duradoura, de modo que a política monetária teria efeitos reais persistentes.
+
+## O que o ramo conclui
+
+:::painel
+O painel lê o ramo teórico como um empate de mecanismos; a evidência que desempata está nas áreas seguintes. As duas leituras principais, a convencionalista do usuário e a fiscal que parece consensual no Brasil, têm fundamentos teóricos sólidos e autores respeitados. A convenção dá um mecanismo plausível para um juro que se mantém alto além do que os fundamentos pedem; a dominância fiscal dá um mecanismo plausível para um juro que precisa ser alto porque a dívida assusta. As duas podem conviver: um prêmio fiscal real pode ter sido o ponto de partida de um patamar que depois se perpetuou por hábito.
+
+Três pontos da tese do usuário saem deste ramo com ajuste. A afirmação de que emissão não causa inflação vale para a base monetária em juro zero e para a moeda que acompanha o crédito, e não para emissão que financia déficit numa economia sem folga. A afirmação de que a inflação tem componentes distintos, cada um com seu remédio, encontra no Real o melhor exemplo histórico, que também mostra que a demanda não pôde ser ignorada. E a afirmação de que expectativas são convenção encontra apoio nos dados de pesquisas, com a ressalva de que convenção não é arbitrariedade e não muda por decreto. A escolha entre as leituras depende da evidência brasileira, que começa na área [2](pagina:2).
+:::
+
+## Para ler
+
+- Arida, P.; Lara Resende, A. (1985). Inertial inflation and monetary reform in Brazil. In: Williamson, J. (org.), *Inflation and Indexation: Argentina, Brazil and Israel*. Washington: Institute for International Economics / MIT Press.
+- Blanchard, O. (2004). Fiscal dominance and inflation targeting: lessons from Brazil. NBER Working Paper 10389.
+- Cagan, P. (1956). The monetary dynamics of hyperinflation. In: Friedman, M. (org.), *Studies in the Quantity Theory of Money*. University of Chicago Press.
+- García-Schmidt, M.; Woodford, M. (2019). Are low interest rates deflationary? A paradox of perfect-foresight analysis. *American Economic Review* 109(1): 86–120.
+- Keynes, J. M. (1936). *The General Theory of Employment, Interest and Money*. Londres: Macmillan, cap. 12, 15 e 17.
+- Lopes, F. (1985). Inflação inercial, hiperinflação e desinflação: notas e conjecturas. *Revista de Economia Política* 5(2): 135–151.
+- McCandless, G.; Weber, W. (1995). Some monetary facts. *Federal Reserve Bank of Minneapolis Quarterly Review* 19(3): 2–11.
+- McLeay, M.; Radia, A.; Thomas, R. (2014). Money creation in the modern economy. *Bank of England Quarterly Bulletin* 2014 Q1: 14–27.
+- Sargent, T.; Wallace, N. (1981). Some unpleasant monetarist arithmetic. *Federal Reserve Bank of Minneapolis Quarterly Review* 5(3): 1–17.

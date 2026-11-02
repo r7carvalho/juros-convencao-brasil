@@ -76,20 +76,20 @@ fim; publicada em `docs/` sem erro de build.
 
 ## 2. Juros no Brasil
 
-- [ ] 2.0 Página macro
-- [ ] 2.1a Série do juro real ex-post e ex-ante, 1995–2026 (BCB), com gráfico
-- [ ] 2.1b Comparação internacional (BIS, ranking de juro real), com gráfico
-- [ ] 2.2a Incerteza jurisdicional: Arida, Bacha e Lara Resende (2005) e as críticas
-- [ ] 2.2b Crédito direcionado e poupança baixa como explicações
-- [ ] 2.2c Prêmio de risco fiscal como explicação
-- [ ] 2.2d Rentismo: Bresser-Pereira e o novo-desenvolvimentismo
-- [ ] 2.3 Juro neutro e meta: estimativas (BC, mercado, academia), o que se observa e o que se convenciona
-- [ ] 2.4a Canais de transmissão no Brasil (crédito, câmbio, riqueza, expectativas) com estudos do BC
-- [ ] 2.4b LFT e o efeito riqueza invertido
-- [ ] 2.4c Focus: composição, viés, comparação com expectativas de empresas e consumidores
-- [ ] 2.5a Bresser e Nakano (2002): o juro alto como convenção e armadilha
-- [ ] 2.5b Erber: convenção de desenvolvimento e convenção de estabilidade
-- [ ] 2.5c Lara Resende (2017): juros, moeda e ortodoxia
+- [x] 2.0 Página macro
+- [x] 2.1a Série do juro real ex-post e ex-ante, 1995–2026 (BCB), com gráfico
+- [x] 2.1b Comparação internacional (BIS, ranking de juro real), com gráfico
+- [x] 2.2a Incerteza jurisdicional: Arida, Bacha e Lara Resende (2005) e as críticas
+- [x] 2.2b Crédito direcionado e poupança baixa como explicações
+- [x] 2.2c Prêmio de risco fiscal como explicação
+- [x] 2.2d Rentismo: Bresser-Pereira e o novo-desenvolvimentismo
+- [x] 2.3 Juro neutro e meta: estimativas (BC, mercado, academia), o que se observa e o que se convenciona
+- [x] 2.4a Canais de transmissão no Brasil (crédito, câmbio, riqueza, expectativas) com estudos do BC
+- [x] 2.4b LFT e o efeito riqueza invertido
+- [x] 2.4c Focus: composição, viés, comparação com expectativas de empresas e consumidores
+- [x] 2.5a Bresser e Nakano (2002): o juro alto como convenção e armadilha
+- [x] 2.5b Erber: convenção de desenvolvimento e convenção de estabilidade
+- [x] 2.5c Lara Resende (2017): juros, moeda e ortodoxia
 - [ ] 2.R Revisão independente da macroárea 2
 
 ## 3. Dívida pública
