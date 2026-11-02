@@ -65,3 +65,11 @@ fonte), a decisão e onde foi corrigido. Data de referência: novembro de 2026.
 - Selic a 15%: nove meses (jun/2025 a mar/2026, SGS 432). Nunca "mais de um ano".
 - Viés do Focus (2.4.1): de 2002 a 2025 o IPCA 12 meses ficou em média 1,0 p.p. acima da mediana projetada um ano antes (acima em 62% dos meses; +0,5 só com dezembros). O Focus subestimou a inflação; isso pesa contra a leitura de alarmismo inflacionário sistemático das projeções e deve entrar na matriz final.
 - Medianas Focus de ano-calendário (início de ano): 6,56 (2015), 4,86 (2017), 3,32 (2021), 5,30 (2023), conforme focus-anuais_ipca.json.
+
+## Decisões da correção da área 3 (02/11/2026)
+
+- Juro real ex-post 2023–2025 (Selic acumulada SGS 4189 deflacionada pelo IPCA 12m SGS 13522, dezembro): 8,2%, 5,7% e 9,6%.
+- Efeito da alta da Selic de 10,50% para 15% sobre os juros da dívida: cerca de R$ 280 bi em 12 meses (4,5 × R$ 61,7 bi por ponto, BCB, dez/2025).
+- DBGG conceito BCB 2006–2014: usar SGS 13762 (2006: 55,48; 2013: 51,54; 2014: 56,28).
+- Gráficos donos: detentores = dados/3.3-detentores-ago2026.json; primário estabilizador = dados/3.1-primario-estabilizador.json; juros por país = dados/3.4-juros-liquidos-paises.json; LFT na DPF = dados/2.4-lft-na-dpf.json. As outras áreas passam a usar estes arquivos.
+- Pendentes nas outras áreas: 1.5 ("dívida do fim de 2024 (78,6%)" → dez/2025); 6.1 (12,6% → 12,55%; 3,3%/3,5% → 3,2%/3,4%; faixa 2,9–3,4%; tirar "Frente J"); 7.3 e 7.8 (12,69% → 12,55%; RAF 117); 2.4 (nota do JSON da LFT sem "maior da série").

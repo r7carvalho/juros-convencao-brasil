@@ -4,6 +4,7 @@ titulo: Dívida pública
 pai: 0
 ordem: 3
 resumo: A dívida bruta do governo geral passou de 71,7% do PIB em dezembro de 2022 para 82,9% em agosto de 2026 (conceito BCB; 94,5% no conceito FMI). Pela decomposição do Banco Central, 90% dessa alta veio da diferença entre os juros apropriados e o crescimento do PIB, e um terço do déficit primário, com a redução de ativos abatendo o resto; em vinte anos, o primário acumulado foi quase neutro e a bola de neve dos juros somou 22,8 pontos. O ramo mostra a aritmética, a decomposição por período, quem recebe os juros, a comparação com outros países e a controvérsia sobre o gráfico da Auditoria Cidadã, e conclui que o que mais distingue o Brasil é o custo da dívida; o nível é alto para emergente e baixo para avançado.
+estado: revisada
 ---
 
 A dívida pública entra no debate sobre juros por dois caminhos opostos. Para a leitura que o painel chama de ortodoxa, a dívida alta e o déficit explicam o juro alto: o credor cobra mais de quem deve muito e não mostra como vai pagar ([6.1](pagina:6.1)). Para a tese em teste, o caminho é o inverso: o juro alto, sustentado por convenção, faz a dívida crescer, e a dívida que cresce serve de justificativa para manter o juro alto. As duas leituras usam os mesmos números de dívida, e este ramo organiza esses números para que o leitor possa julgar.

@@ -30,8 +30,8 @@ Fatores condicionantes da DBGG, p.p. do PIB (BCB; Frente J; agregação do paine
 
 ## Números divergentes (registrar em conteudo/_divergencias.md)
 
-1. Juro implícito da DBGG em 2025: 12,69% (Frente J, texto, "BCB") × 12,55% (Frente J, série: juros apropriados ÷ estoque do fim do ano anterior). A página 3.1 usa 12,55% no exemplo que reproduz os fatores de 2025 (fecha com a tabela do BCB) e 12,69% no cálculo do primário estabilizador, como a Frente J.
-2. Primário estabilizador "com taxas de 2025" = 3,3% (Frente J) sai com dívida de 78,6% (dez/2025); com a dívida de ago/2026 (82,9%) dá 3,49%. As duas aparecem na 3.1, identificadas.
+1. Juro implícito da DBGG em 2025: resolvido pela decisão do painel (_divergencias nº 2): 12,55% (juros apropriados no ano ÷ estoque de dez/2024) em toda a área desde a revisão de 02/11/2026.
+2. Primário estabilizador "com taxas de 2025": resolvido (_divergencias nº 4): 3,2% com a dívida de dez/2025 (78,6%) e 3,4% com a de ago/2026 (82,9%). IFI: RAF 117, 2,9% com neutro de 6,1%.
 3. Juro real do setor público: CONTEXTO.md diz "de 3,1% para 5,3% do PIB entre 2024 e 2025". O cálculo do painel (juros nominais menos IPCA × DLSP do fim do ano anterior) dá cerca de 5,4% em 2024 e 5,5% em 2025 (R$ ~700 bi). Fonte do número do CONTEXTO não identificada; o painel usa o próprio cálculo, declarado como aproximação.
 4. Detentores da DPMFi: CONTEXTO (bancos 31,8%, previdência 22,5%, fundos 22%, não residentes 10%) corresponde a junho de 2026 (Agência Brasil: 31,76 / 22,52 / 22 / 9,95). A área usa agosto de 2026 (RMD, Frente K: 31,22 / 22,63 / 22,52 / 9,91). Explicado no texto da 3.3.
 5. Juros pagos pela União em 2025 (caixa): R$ 371,7 bi (Inesc, citado pela Frente K) × R$ 363,6 bi (BGU 2025, segundo análises secundárias; a ACD cita R$ 363 bi). A 3.5 usa R$ 363,6 bi na conta e cita o do Inesc.
@@ -45,7 +45,28 @@ Fatores condicionantes da DBGG, p.p. do PIB (BCB; Frente J; agregação do paine
 13. DBGG de 2006 a 2014 no conceito BCB foi reconstruída somando as variações da Frente J ao nível de 2013; difere do SGS em até 0,05 p.p. (nota no JSON).
 14. Reservas: US$ 372,6 bi (ago/2026, Frente J) e US$ 362,8 bi (set/2026, Frente A). Meses diferentes, não é erro; cada página diz o mês.
 
-## Pendências [a conferir]
+## Revisão independente aplicada em 02/11/2026
+
+Achados aplicados, não aplicados e pendentes estão em `conteudo/_revisao/3.md`, seção "Aplicação". Abaixo, só o que fica para a próxima rodada.
+
+### Achados não aplicados ou aplicados de outro modo (uma linha cada)
+
+- 3.2 nº 9: o juro real ex-post foi recalculado com os brutos (Selic acumulada no ano pelo SGS 4189, deflacionada pelo IPCA do SGS 13522): 8,2%, 5,7% e 9,6% em 2023–2025, em vez de 8,0/5,8/9,7 propostos (diferença de método de capitalização).
+- 3.2 nº 14: Segura-Ubiergo (2012) saiu do Para ler em vez de entrar no texto, porque o painel não abriu o texto para atribuir-lhe conclusões.
+- 3.2 nº 16: em vez de citar o Relatório de Gestão das Reservas (não aberto), a frase ficou sem atribuição ("o custo de carregamento é o prêmio desse seguro").
+- 3.4 nº 14: o gráfico de LFT saiu da 3.4 e virou link para a 2.4, que é a página dona do tema pela decisão do painel; `dados/3.4-lft-na-dpf.json` ficou sem uso (nota corrigida, sem "recorde"), à disposição da 2.4 ou para remoção pelo coordenador.
+- 3.5 nº 4 e nº 17: os recortes de Fattorelli (*Extra Classe*), da ACD (2024), do Tesouro ("A dívida em vídeos") e do Aos Fatos viraram paráfrase com a fonte, porque não foi possível conferir a redação exata (domínios auditoriacidada.org.br, extraclasse.org.br, aosfatos.org e tesourotransparente.gov.br bloqueados na sessão; busca não achou o trecho de Fattorelli). A resposta da ACD à crítica da rolagem entrou como paráfrase, a partir da descrição do texto de jan/2024 em resultados de busca.
+- 3.1 nº 4: a distância entre o juro ex-ante (8,5% a 8,8%) e o neutro de 5% ficou "3,5 a 3,8 pontos", conta exata, em vez de "3,5 a 4".
+
+### Pendências após a revisão
+
+- 3.5: relator atual da ADPF 59 (Barroso deixou o STF em out/2025; a busca não confirmou o sucessor nem a redistribuição); reabrir os quatro recortes acima e voltar às aspas se a redação conferir; abrir o Estudo nº 16/2025 da Câmara e trazer a conciliação LOA × BCB; percentuais de saúde (4,27%) e educação (3,18%) no PDF do gráfico da ACD de 2025 (retirados do texto); recomendações do relatório final da CPI da Dívida (2010) e destino do voto em separado; pareceres do TCU sobre a tese da regra de ouro; valores finais de juros e amortização na LOA 2025.
+- 3.3: juros apropriados sobre a DPF em 2025 (R$ 857,9 × 879,9 bi, BGU/RAD 2025); participação de não residentes em títulos locais de outros emergentes; distribuição de aplicações financeiras por faixa de renda (Grandes Números do IRPF); LFT: a afirmação de recorde saiu (a busca só trouxe 49,32% em jun/2026 e fonte que chama 51,1% de "maior desde ago/2003"); conferir no anexo do RMD desde quando 52,74% é o maior nível.
+- 3.2: custo de carregamento das reservas (diferencial Selic × rendimento das reservas) ano a ano.
+- 3.4: juros do governo geral por país na tabela do Fiscal Monitor (México e Colômbia); grupo e número de "3,8% do PIB" do Fiscal Monitor de abr/2026 (retirado); data do prazo médio de 71 meses (PGPF); prazo médio dos JGB (MOF); participação das FRN na dívida americana; taxa vigente do BoJ em nov/2026; documento do Tesouro com as projeções 83,5/87,9/83,1 (citado via Newsquawk); projeções da IFI no RAF 117 para 2026–2027 (só 2036 foi obtido, via Poder360).
+- 3.1 e 3.2: números do BIS para 2003–2008 e 2010–2019 vêm da decisão registrada em _divergencias (brutos do BIS, cálculo do revisor); não recalculados nesta aplicação.
+
+## Pendências [a conferir] da redação original (superadas pela lista acima)
 
 - 3.2: custo de carregamento das reservas (diferencial Selic × rendimento das reservas) nas notas do BCB.
 - 3.3: participação de não residentes em títulos locais de outros emergentes (FMI/BIS); juros apropriados sobre a DPF em 2025 no BGU; distribuição de aplicações financeiras por faixa de renda (Grandes Números do IRPF); ano mais recente das CEI (coordenar com a página 5.4.3).

@@ -101,7 +101,7 @@ fim; publicada em `docs/` sem erro de build.
 - [x] 3.3b Contas Econômicas Integradas (IBGE): juros pagos e recebidos por setor institucional
 - [x] 3.4 Comparação internacional de nível e de custo
 - [x] 3.5 Auditoria Cidadã da Dívida: o que afirma, a resposta do Tesouro e as críticas metodológicas
-- [ ] 3.R Revisão independente da macroárea 3
+- [x] 3.R Revisão independente da macroárea 3
 
 ## 4. Inflação: de onde vem
 
