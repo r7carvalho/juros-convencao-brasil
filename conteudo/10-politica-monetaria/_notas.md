@@ -426,3 +426,45 @@ A cota de WebSearch da sessão estava esgotada quando o item começou, e WebFetc
 - Prejuízos do BCE iguais aos de 10.2.2 (€ 7,9 bi em 2024; € 1,3 bi em 2025, aqui com a casa decimal € 1,25 bi).
 - Balanço do Fed: as páginas 1.1, 10, 10.3, 7.8 e o glossário usam "US$ 0,9 tri (2008) → 4,5 tri (2014–2015) → 8,97 tri (2022)"; 10.3.2 usa US$ 870 bi em ago/2007 (Waller, 2025) e as razões sobre o PIB. Não conflitam (datas diferentes).
 - Transferências APF → Tesouro: £ 123,8 bi (BoE) contra £ 123,9 bi (OBR); a página usa o número do BoE.
+
+## 10.3c
+
+### Página entregue (02/11/2026)
+
+- 10.3.3 Japão: QQE e controle da curva de juros, 1ª versão: cerca de 3.570 palavras de prosa sem parênteses de fonte, tabelas, fórmulas e citações em bloco (≈ 3.910 com os parênteses; 5.000 pela contagem do lint, que inclui tabelas e referências). Fica no teto do cartão, na mesma medida de 10.3.1 e 10.3.2.
+- Conteúdo: exemplo de brinquedo (banco central que compra qualquer quantidade de título de dez anos sem cupom a 0%; $P = 100/(1+y)^{10}$: 100 / 95,1 / 90,5 / 86,2 / 82,0 / 74,4 para 0 / 0,5 / 1 / 1,5 / 2 / 3%; dois desfechos, crível e não crível; regra da duração $\Delta P/P \approx -D\,\Delta y$); deflação 1995–2012, juro zero de 1999–2000, QE de 2001–2006; Krugman (1998), Ito e Mishkin (2006), Shirakawa (2021) e o quadro do BIS sobre crescimento por pessoa em idade ativa; Abenomics e QQE de 04/04/2013, ampliação de 31/10/2014, imposto sobre consumo; juro negativo de 29/01/2016 (link para 10.3.4); YCC de 21/09/2016 com tabela das bandas até 19/03/2024; tabela das decisões de 19/03/2024 a 30/10/2026; resultados (inflação, estimativas do próprio BoJ, revisão de dez/2024, *shunto*, salário real, iene, fatia do BoJ na dívida, perda não realizada); quadro A favor/Contra sobre a eficácia; seção sobre a norma de inflação zero (Watanabe e Watanabe 2018, Ueda 2023 e 2024, Watanabe 2026); comparação Japão × Brasil (poupança, credor, memória de inflação, contrato; o que a comparação permite e o que não permite; FTPL e Sims 2016); quadro A favor/Contra sobre o "espelho" das convenções; caixa "o painel lê".
+- Dois gráficos novos: `dados/10.3.3-taxa-e-inflacao-japao.json` (taxa de política do BoJ e CPI cheio em 12 meses, mensal, jan/1995–set/2026, do bruto `dados/brutos/bis-politica_monetaria.csv` e `bis-cpi.csv`, REF_AREA = JP, consulta 02/11/2026; lacunas onde o BIS não registra taxa: fev/1999–jul/2000, mar/2001–fev/2006, abr/2013–ago/2016; o −0,1% de fev–ago/2016 não aparece no BIS) e `dados/10.3.3-brinquedo-preco-titulo.json` (preço do título de brinquedo). Script em scratchpad, não versionado.
+
+### Números do painel
+
+- BIS (consulta 02/11/2026): CPI negativo em 131 de 216 meses de 1995–2012; de abr/2013 a mar/2022, CPI ≥ 2% em 12 de 108 meses, todos entre abr/2014 e mar/2015 (imposto); CPI ≥ 2% em todos os meses de abr/2022 a dez/2025, pico de 4,35% em jan/2023; 1,3% a 1,9% de fev a ago/2026; 2,10% em set/2026; −0,94% em mar/2013, 1,55% em dez/2013, 3,67% em mai/2014, 0,69% em abr/2015; 20,9% em dez/1974. Taxa de política: 6% (1991) → 0,5% (set/1995); 1,25% desde 24/09/2026.
+- Datas e taxas da saída pela nota de compilação do BIS (que cita os PDFs do BoJ k240319a, mpr240731c, mpr250124a, k251219a, k260616a, k260918a): 0–0,1% (21/03/2024), 0,25% (01/08/2024), 0,5% (27/01/2025), 0,75% (22/12/2025), 1,0% (17/06/2026), 1,25% (24/09/2026). Votos: 7–2 em mar/2024 (GAM, Nomura); 7–1 em jun/2026 com Ueda ausente por tratamento médico (CGTN, FXStreet); 7–2 em set/2026 (UPI, TradingView/MNI, dissidentes Asada e Sato); manutenção 8–1 em 30/10/2026 (Dukascopy; dissidente Takata pediu 1,5% segundo fattail.ai, não usado no texto).
+- QQE: base de 138 tri (fim de 2012) → 200 tri (2013) → 270 tri (2014), ritmo de 60–70 tri/ano (BoJ, via busca); 80 tri/ano em 31/10/2014, voto 5–4. Juro negativo 29/01/2016, voto 5–4, vigência 16/02/2016, três faixas. Compras recordes de 23,69 tri em jan/2023 (Reuters). Ativo do BoJ 164 tri (mar/2013) → 714,56 tri (ano fiscal 2020).
+- Fatia do BoJ: 53,34% dos JGB sem letras em mar/2023 (Nippon.com, Flow of Funds); 46,3% / 41,8% / 11,9% (BoJ / domésticos / estrangeiros, com letras, fim de 2024, MoF *JGB Newsletter* abr/2025); abaixo de 50% em 2026 (Nikkei Asia, mar/2026).
+- Perda não realizada do BoJ: 45,441 tri (ano fiscal até mar/2026) contra 28,625 tri (Dow Jones via MarketScreener).
+- *Shunto* (Rengo, final): 5,10% (2024), 5,25% (2025), 5,01% (2026). Salário real 2025: −1,3%, quarto ano (Jiji/Adnkronos, 09/02/2026).
+- Efeito do QQE estimado pelo BoJ (Q-JEM): PIB +0,9% a 1,3%; núcleo +0,6 a 0,7 p.p. (WP 21-E-4 e *Economic Analysis and Policy* 78, 2023).
+- Posição externa líquida do Japão: ≈ 561,75 tri de ienes no fim de 2025, terceira do mundo (MoF via Bloomberg/Yahoo, 25/05/2026).
+- Título de dez anos: 3,12% intradia no início de out/2026, maior desde ago/1996 (Trading Economics; Admiral Markets cita fechamento oficial de 3,111% em 07/10/2026); acima de 3% pela primeira vez desde 1996 em 01/09/2026 (Jiji via Adnkronos).
+
+### Fontes principais (todas por WebSearch; boj.or.jp, cigs.canon, gc.cuny.edu e asia.nikkei.com não abriram por WebFetch)
+
+BoJ (comunicados de 04/04/2013, 31/10/2014, 29/01/2016, 21/09/2016, 19/03/2024 e seguintes, pela busca e pela nota do BIS; página "Price Stability Target of 2 Percent"; revisão ampla de 19/12/2024; WP 21-E-4); Ueda (discursos de 25/12/2023 e 25/12/2024, recorte do de 2023 pela busca no texto do BoJ); Krugman (1998), expressão "to be irresponsible" pela reprodução do argumento em resumos de busca; Ito e Mishkin (2006), pelo resumo do NBER; Watanabe e Watanabe (2018, AEPR 13(1): 23–41), pelo working paper e pelos slides; Watanabe (2026, CIGS WP 26-014E); Shirakawa (2021) pela resenha do FMI (F&D, dez/2021) e discurso de 30/05/2012; Borio, Erdem, Filardo e Hofmann (2015, BIS QR, quadro sobre o Japão); FMI, Artigo IV de 2026 (declaração de 13/02/2026, comunicado do Conselho de 02/04/2026, relatório 26/075); Sims (2016) pelo relato de Davies (Equitable Growth) e da Reuters.
+
+### Lacunas (nada disso entrou como fato)
+
+- Texto literal dos comunicados do BoJ (exceto o trecho do horizonte de dois anos) e do compromisso de ultrapassagem de 2016: parafraseados.
+- Faixas do YCC de jul/2023 (0,5 como referência e compra a preço fixo a 1,0%): a busca não confirmou a data; o texto segue o calendário conhecido dos comunicados. Conferir no PDF do BoJ de 28/07/2023.
+- Total comprado pelo BoJ por ano sob o YCC (a "redução furtiva"): sem número confirmado; o texto fica no qualitativo.
+- Lucro do BoJ no ano fiscal de 2025 (1,93 tri) e juros pagos sobre reservas maiores que os recebidos dos títulos (2,71 × 2,52 tri): só em blog, não usados.
+- Câmbio: mínima de 161,9 por dólar em jul/2024 não confirmada; o texto diz "mais de 160". Montante das intervenções de 2026 com fontes divergentes (US$ 40 bi em abril; 11,7 tri de ienes num mês): não usados.
+- Fatia do BoJ em 2026 (41% a 44% conforme a medida): só o "abaixo de 50%" da Nikkei entrou.
+- Juro de 10 anos negativo em 2016 e queixas do setor financeiro: retirado por falta de fonte conferida.
+- Krugman (2015, "Rethinking Japan"): só citado na bibliografia, sem conteúdo.
+- O FMI passou a medir a dívida bruta japonesa em valor de face consolidado no Artigo IV de 2026 (série com 227,8% → 193,1% numa tabela sem anos legíveis); a página usa os 204,8% de 2025 da 3.4 (WEO out/2026).
+
+### Divergências
+
+- Nenhuma de número com 3.4 (dívida 204,8% e juros líquidos 0,2% do PIB; 93,3% e 7,3% no Brasil), 3.3 (não residentes 9,9% em ago/2026), 6.3 (FBCF 16,8%, transações correntes −2,9%, poupança média 15,5%), 2.1/9.1 (ex-ante 8,73% em 23/10/2026) e 1.1.3/7.8 ("metade dos títulos"; inflação de 2% só a partir de 2022).
+- 1.1.3 e 7.8 dizem que o BoJ "passou a deter cerca de metade dos títulos"; 10.3.3 precisa: 53,34% sem letras em mar/2023, 46,3% com letras no fim de 2024, abaixo de 50% em 2026. Coerente.
+- 10.3 (ponte) diz que o BoJ "desmontou o arranjo e os juros negativos em março de 2024": igual.
