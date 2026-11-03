@@ -234,7 +234,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
 - [x] 12.2c1 Mídia e academia: Mansueto Almeida
 - [x] 12.2c2 Mídia e academia: Felipe Salto
-- [ ] 12.2c3 Mídia e academia: Armínio Fraga
+- [x] 12.2c3 Mídia e academia: Armínio Fraga
 - [ ] 12.2c4 Mídia e academia: Zeina Latif
 - [ ] 12.2c5 Mídia e academia: Alexandre Schwartsman
 - [ ] 12.2c6 Mídia e academia: Marcos Mendes
