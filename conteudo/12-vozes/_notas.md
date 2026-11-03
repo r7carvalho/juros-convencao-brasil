@@ -1690,3 +1690,17 @@ Linhas para a matriz (jargão × sentido × classificação):
 | 12.4.10 | Os choques vieram de fora | Procede em parte | Belluzzo (20/03/2022) |
 | 12.4.10 | A inflação não teve componente de demanda | Não procede como regra (procede em 2002–2003, 2015 e 2020–2021) | Lula (12/10/2026), para 2026 |
 | 12.4.10 | O juro não serve contra essa inflação | Procede em parte | Belluzzo (12/05/2022); Oreiro (26/04/2022), não procede na página dele |
+
+## Pendências após a revisão (12a, 03/11/2026)
+
+Correção da parte A (páginas 12, 12.1, 12.1.1 a 12.1.7, 12.3, 12.3.1 e 12.3.2), conforme `conteudo/_revisao/12a.md`. Contagem nova do ramo 12.1: 112 proposições, 54 procedem, 39 procedem em parte, 4 não procedem e 15 falta evidência (12.1.1: 10 = 6/2/0/2; 12.1.2: 10 = 7/2/0/1; 12.1.3: 18 = 9/7/1/1; 12.1.4: 20 = 8/10/0/2; 12.1.5: 19 = 8/8/1/2; 12.1.6: 15 = 7/5/0/3; 12.1.7: 21 = 9/5/2/5). As linhas de matriz das seções 12.1a a 12.1d5 acima ficaram com a classificação antiga nos itens mudados; a tabela-resumo de cada página é a versão válida.
+
+Pendências:
+- 12.1.1: data exata e texto integral da matéria do Monitor do Mercado (fim de ago/2025), inclusive se o vídeo avisa da perda com alta do juro (a antiga 2c saiu da tabela até isso ser conferido); data exata da reportagem do Jornal Opção (início de nov/2026). monitordomercado.com.br não resolve nesta rede.
+- 12.1.2: link do post de 12/06/2025 sobre o superávit de R$ 34 bi e os juros de R$ 1 tri (duas buscas sem achar); se for achado e o texto conferir, a fala volta à tabela (as duas proposições procedem pela conta da página). Estoque da DPF em dez/2000 no RMD (Tesouro Transparente bloqueado nesta rede), para medir a alta de 2000 a 2015 em proporção do PIB. Data exata do vídeo "90 dias" (dez/2025).
+- 12.1.4: vídeo "BRASIL À BEIRA DO COLAPSO?" (mar/2025) a assistir; se a resposta à pergunta for lida, a 2b pode ser reclassificada. Texto literal da análise de jun/2026 (Jornal Tribuna, Jornal do Brás) e da frase "nenhum país resiste…" (19/08/2026), hoje em paráfrase.
+- 12.1.5: texto literal da entrevista à Algomais (set/2025), hoje em paráfrase. O título "economista mais influente do Brasil" da Forbes saiu por falta de link e ano.
+- 12.1.7: dias exatos das falas de 02/07/2024, 29/11/2024 e 20/12/2024 (marcadas como data aproximada). Sensibilidade da dívida a 1 ponto de Selic na estimativa do BC vigente em nov/2024 (a página usa a de dez/2025, R$ 61,7 bi, e diz que a de 2024 era menor).
+- 12.3: lista oficial dos premiados do Top 5 de 2025 no site do BCB (a página cita blog e diz isso). A comparação da dispersão do mercado com a das empresas (Firmus) saiu do texto da 12.3 e fica como pendência da 12.3.2.
+
+Achado do relatório não aplicado: o item 1 da página 12 pedia preencher a matriz com as contagens por grupo; por decisão do coordenador (`_divergencias.md`, parte A), a recontagem e a conclusão do bloco ficam para o item próprio depois das partes B e C. A página 12 diz que o balanço entra na seção da matriz.
