@@ -242,7 +242,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.3a Economistas-chefes de bancos e gestoras: o que projetam, com que histórico de acerto (comparar projeções do Focus e de relatórios com o realizado)
 - [x] 12.3b O Focus como instituição: composição, viés, acerto histórico
 - [x] 12.4a Jargão: "o Brasil vai quebrar" / "a dívida é impagável"
-- [ ] 12.4b Jargão: "gastança", "o Estado gasta demais", "o governo é como uma família"
+- [x] 12.4b Jargão: "gastança", "o Estado gasta demais", "o governo é como uma família"
 - [ ] 12.4c Jargão: "o mercado está nervoso", "o mercado está precificando", "risco fiscal"
 - [ ] 12.4d Jargão: "dominância fiscal" usado como explicação de tudo
 - [ ] 12.4e Jargão: "desancoragem das expectativas", "juro neutro subiu"
