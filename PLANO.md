@@ -244,7 +244,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.4a Jargão: "o Brasil vai quebrar" / "a dívida é impagável"
 - [x] 12.4b Jargão: "gastança", "o Estado gasta demais", "o governo é como uma família"
 - [x] 12.4c Jargão: "o mercado está nervoso", "o mercado está precificando", "risco fiscal"
-- [ ] 12.4d Jargão: "dominância fiscal" usado como explicação de tudo
+- [x] 12.4d Jargão: "dominância fiscal" usado como explicação de tudo
 - [ ] 12.4e Jargão: "desancoragem das expectativas", "juro neutro subiu"
 - [ ] 12.4f Jargão: "imprimir dinheiro gera inflação"
 - [ ] 12.4g Jargão: "o juro é alto por culpa do governo" / "o BC é técnico e independente"
@@ -254,7 +254,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.5a Ramo e André Lara Resende
 - [ ] 12.5b Luiz Gonzaga Belluzzo
 - [ ] 12.5c Paulo Nogueira Batista Jr.
-- [ ] 12.5d Laura Carvalho
+- [x] 12.5d Laura Carvalho
 - [ ] 12.5e André Roncaglia
 - [x] 12.5f Eduardo Moreira: página no ramo 12.1 (12.1.7)
 - [x] 12.5g José Luis Oreiro
