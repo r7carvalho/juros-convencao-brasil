@@ -237,7 +237,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.2c3 Mídia e academia: Armínio Fraga
 - [x] 12.2c4 Mídia e academia: Zeina Latif
 - [x] 12.2c5 Mídia e academia: Alexandre Schwartsman
-- [ ] 12.2c6 Mídia e academia: Marcos Mendes
+- [x] 12.2c6 Mídia e academia: Marcos Mendes
 - [ ] 12.2c7 Mídia e academia: Fabio Giambiagi
 - [x] 12.3a Economistas-chefes de bancos e gestoras: o que projetam, com que histórico de acerto (comparar projeções do Focus e de relatórios com o realizado)
 - [x] 12.3b O Focus como instituição: composição, viés, acerto histórico
