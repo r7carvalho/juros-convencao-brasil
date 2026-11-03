@@ -585,3 +585,96 @@ Lacunas:
 - Comparação Focus × Firmus × consumidores segue pendente (já anotada na 2.4.1).
 
 Números que divergem de outras páginas: início do Focus. A 1.3 diz "criado em 1999"; a 12.3 diz que o sistema "recebe projeções desde novembro de 2001". A 12.3.2 concilia: coleta desde maio de 1999 (Marques, 2013) e sistema na internet desde novembro de 2001 (Marques, Fachada e Cavalcanti, 2003). Sugestão: a 12.3 pode trocar "recebe projeções desde novembro de 2001" por "coleta projeções desde maio de 1999, pelo sistema atual desde novembro de 2001". Número de respondentes: a 2.4.1 cita 129 respostas na mediana do IPCA 12 meses de 23/10/2026 (base 0) e a 6.4.1, 142 na do IPCA 2026; ambos conferem com o acervo.
+
+## 12.5a
+
+Páginas entregues: `conteudo/12-vozes/12.5-vozes-heterodoxas.md` (id 12.5, pai 12, ordem 5, 1ª versão; cerca de 1.000 palavras de prosa fora do "Para ler", contando números) e `conteudo/12-vozes/12.5.1-andre-lara-resende.md` (id 12.5.1, pai 12.5, ordem 1, 1ª versão; cerca de 3.400 palavras de prosa sem tabela-resumo, citações em bloco, fórmula e "Para ler"; o lint conta 5.176 tokens no corpo inteiro). Sem travessão, sem "não é X, é Y", sem palavra vetada. `build.py --check` sem erro; avisos só para 12.5.2 a 12.5.7, que ainda não existem.
+
+PLANO.md: a linha 12.5 foi dividida em 12.5a a 12.5h; 12.5a marcado [x]; 12.5f (Eduardo Moreira) diz que a página fica no ramo 12.1, como 12.1.7 (item 12.1d5), e o ramo 12.5 só remete a ela. Ids reservados no ramo: 12.5.2 Belluzzo, 12.5.3 Paulo Nogueira Batista Jr., 12.5.4 Laura Carvalho, 12.5.5 Roncaglia, 12.5.6 Oreiro, 12.5.7 Bresser-Pereira (os links da 12.5 e da 12.5.1 já usam esses ids).
+
+Identidade: confirmada. André Lara Resende, nascido no Rio em 1951, economia na PUC-Rio, pós na EPGE/FGV, doutorado no MIT (CEBRI); diretor do BC em 1985–1986, negociador da dívida externa em 1993, presidente do BNDES de abril a novembro de 1998 (InfoEscola, Suno). Vínculo com o mercado: sócio do Garantia nos anos 1980 e cofundador do Banco Matrix em 1993 (Suno). Um perfil de busca o dava como sócio da Lanx Capital; os registros da gestora (CVM/Receita, via busca) não o listam, e a página não usa a informação. Nenhuma relação atual com produto de investimento localizada. A renúncia ao BNDES em 1998 sob acusação depois arquivada pelo TCU não entrou (fora do tema e sem relação com as falas).
+
+Rede: WebFetch não resolve os sites de reprodução (bresserpereira.org.br, aesbe.org.br, andrelararesende.substack.com); tudo veio de WebSearch. Recortes entre aspas só os dois que a busca reproduziu como texto do autor (Valor, 13/01/2017, já usado na 2.5; Valor, 07/02/2023, via Consultor Jurídico); o resto é paráfrase.
+
+Falas usadas (seis, dezessete proposições):
+1. Valor, 13/01/2017, "Juros e conservadorismo intelectual", e 27/01/2017, "Teoria, prática e bom senso"; livro *Juros, moeda e ortodoxia* (2017). 1a procede em parte; 1b falta evidência; 1c procede em parte.
+2. Valor, 08/03/2019, "A crise da macroeconomia" (via Money Times e reproduções), versão longa no TD do Iepe/Casa das Garças; livro *Consenso e contrassenso* (2020, não 2019: Martins Fontes e CEBRI dão 1ª edição em 2020). 2a procede; 2b procede em parte; 2c procede em parte.
+3. Folha, 08/05/2020, "Crise exige superar equívocos sobre emissão de moeda e dívida pública" (data pela referência e pela URL citadas na busca; texto via Jornal GGN e Hora do Povo); resposta de Schwartsman, "A cloroquina monetária" (InfoMoney). 3a procede; 3b não procede.
+4. CNN Brasil, 26/11/2021 (metadados da página), "Lara Resende: política econômica coerente, não alta de juro, pode conter inflação". 4a procede; 4b não procede.
+5. Valor, 07/02/2023, "O precipício fiscal e a realidade" (Consultor Jurídico, 20/02/2023), e Canal Livre, Band, 12/02/2023 (Band; Money Times; a frase "abaixo de 3% também estava errada" veio reproduzida). 5a procede; 5b procede em parte; 5c não procede; 5d não procede.
+6. "Eu acuso: uma proposta para eliminar os juros absurdos", 25/09/2026 (A Terra é Redonda, Grabois, DCM; resumo no Poder360). Só paráfrase e link, como pedido. 6a procede em parte; 6b procede (conta do painel: 6,25 × R$ 61,7 bi ≈ R$ 386 bi, 2,9% do PIB de R$ 13,4 tri); 6c falta evidência.
+
+Falas descartadas:
+- Valor, abr/2020, sobre emissão da União para socorrer estados (Comsefaz, 27/04/2020): título e data não confirmados.
+- Poder360/IHU, 12/02/2021, "Governo tem espaço para estender auxílio e investir": coerente com a fala 3; cortada por extensão.
+- Artigo no Valor (fim de 2022, provavelmente) com a conta de que a alta de juros custou 1,75% do PIB em 2021 e 3,65% em 2022 (InfoMoney, Istoé Dinheiro): data não confirmada; candidata para a 12.R.
+- Valor, 19/11/2025, resposta a Pessôa (crédito e poupança): título não localizado; entrou só como frase na seção de teoria, remetendo à fala 4 de 12.2.1.
+- Entrevista ao NeoFeed (juro abaixo do crescimento economizaria de 4% a 6% do PIB ao ano): sem data.
+- Cifra de "economia de quatro pontos do PIB" atribuída ao texto de 2026 por resumos de baixa qualidade: não confirmada, fora da página.
+- Poder360, "Autonomia do BC é 'avanço institucional'" (2023): útil para a caridade, sem data exata; a 12.R pode acrescentar.
+- Manchetes de 2026 (Brasil 247, post de Gleisi Hoffmann) que ligam o texto a "rentistas": a palavra não aparece nos trechos do autor localizados; a página registra isso numa caixa :::nota.
+
+Linhas para a matriz da página 12 (não acrescentadas lá):
+| André Lara Resende | Heterodoxos | Valor, 13/01/2017 | A profissão resistiu a rever a doutrina após 2008; juro alto persistente ancora inflação alta; com dívida indexada o aperto tem custo fiscal que o enfraquece | P4a, P4b | Procede em parte; falta evidência; procede em parte | Neo-fisherianos, FTPL | 1.1.3, 6.2, 1.3, 1.5.4, 2.4 |
+| André Lara Resende | Heterodoxos | Valor, 08/03/2019 | O BC controla o juro; quem deve na própria moeda não tem restrição financeira; com r < g a dívida cai | P7a | Procede; procede em parte; procede em parte | Moeda endógena, cartalismo, aritmética da dívida | 1.1.4, 10.2.1, 7.7, 10.3.8, 3.1, 11.7 |
+| André Lara Resende | Heterodoxos | Folha, 08/05/2020 | Moeda e dívida curta se equivalem; financiar o Tesouro com moeda daria espaço que a dívida não dá | | Procede; não procede | Financiamento monetário | 10.3.8, 10.3.7 |
+| André Lara Resende | Heterodoxos | CNN Brasil, 26/11/2021 | A inflação de 2021 não vinha de demanda; alta de juro não a contém | P9a, P4a | Procede; não procede | Choque de oferta, transmissão | 4.2, 4.5, 6.2.2 |
+| André Lara Resende | Heterodoxos | Valor, 07/02/2023; Band, 12/02/2023 | Maior juro real do mundo; risco fiscal decretado; Focus exagera a inflação; Selic de 13,75% traria recessão séria | P1, O1a, P10, P4a | Procede; procede em parte; não procede; não procede | Prêmio fiscal, Focus | 2.1, 2.5, 3.2, 6.1.1, 2.4.1, 12.3.1 |
+| André Lara Resende | Heterodoxos | 25/09/2026 | O juro é a principal causa do desequilíbrio fiscal; com LFT o corte alivia de imediato; corte anunciado com faixa não desancora | P7a, O4 | Procede em parte; procede; falta evidência | FTPL, coordenação | 3.2, 7.2, 7.6, 6.2.1, 6.4.2, 7.8, 10.5 |
+
+Lacunas:
+- Nenhum texto integral aberto (Valor, Folha e o boletim do autor). A 12.R deve conferir o recorte de 07/02/2023 no original e a data de 08/05/2020.
+- Alcance sem medida de audiência (assinantes do boletim, tiragem); a página usa a reação de outros economistas como indicador.
+- A versão de longo prazo da tese neo-fisheriana segue sem teste brasileiro (já registrado em 1.5.4).
+
+Números que divergem de outras páginas: a resenha de Aggio sobre *Juros, moeda e ortodoxia* aparece na 2.5 como 2018; a referência publicada é *Economia e Sociedade* 28(2): 615–619, 2019 (a página nova usa 2019; a 2.5 deve ser acertada na revisão). O resto vem copiado de 2.1, 2.4, 2.4.1, 3.2, 3.4, 4.2, 6.2, 7.6, 10.3.8, 11.7 e 12.3.1 (juro real ex-ante de 2023 de 7,56% pela convenção única; R$ 61,7 bi por ponto; 52,7% de LFT; 43,5% de prefixados mais títulos de inflação; superávit de 1,25% do PIB em 2022 e déficit de 2,28% em 2023, SGS 5793; PIB de 2023 de 2,9% na primeira divulgação e 3,2% revisado; Focus de jan/2023 com PIB de 0,79% e IPCA de 5,75%). O ranking de juro real de fevereiro de 2023 (cerca de 7,4%) vem de O Povo, 02/02/2023.
+
+## 12.1d5
+
+Página entregue: `conteudo/12-vozes/12.1.7-eduardo-moreira.md` (id 12.1.7, pai 12.1, ordem 7, 1ª versão). Cerca de 3.150 palavras de prosa (sem tabela e sem "Para ler"); o `tools/lint.py` conta 4.802 tokens no corpo inteiro, sem travessão, sem "não é X, é Y" e sem palavra vetada. `build.py --check` sem erro. Na 12.1 foram atualizados o resumo do frontmatter (sete páginas: seis de leitura fiscal e Moreira), o parágrafo da nova pessoa (depois do de Reis), a última frase do parágrafo do levantamento ("Eduardo Moreira já tem página") e a caixa `:::painel` (sete páginas: 113 proposições, 57 procedem, 36 em parte, 7 não procedem, 13 falta evidência; Moreira do lado que põe o juro no centro, as previsões dele para 2025 entre as que se confirmaram, a "metade do orçamento" entre as contas que vão além das séries, e o fecho de que os números resistem melhor que as explicações dos dois lados). No PLANO.md, 12.1d5 marcado [x] e a linha 12.5f trocada por "- [x] 12.5f Eduardo Moreira: página no ramo 12.1 (12.1.7)" (a linha tinha recebido de outro item uma nota de remissão, substituída pelo texto pedido; a 12.5 já remete à 12.1.7).
+
+Contagem conferida nas tabelas-resumo: 12.1.1 a 12.1.6 somam 94 (49, 31, 5, 9), como na 12.1d4; a 12.1.7 tem 19 (8, 5, 2, 4); total 113: 57, 36, 7, 13.
+
+Identidade: confirmada. Eduardo Moreira, engenheiro pela PUC-Rio, sócio do Pactual (entrou em 1997), cofundador do Brasil Plural em 2009 e criador da marca Genial Investimentos (TMC, 2026; Suno, perfil); vínculo atual com o grupo não encontrado. Fundou o ICL em 2020 com Rafael Donatiello e Jessé Souza e apresenta o ICL Notícias desde maio de 2022 (Wikipédia, via busca). Alcance: 1,83 a 1,87 milhão de inscritos no YouTube e cerca de 1 milhão no Instagram (@eduardomoreirareal), metadados das páginas via busca, nov/2026; fora do top 10 do FInfluence. Relação comercial: assinaturas do ICL (mais de 330 cursos, a partir de R$ 47/mês, inclusive curso de finanças e investimentos; páginas de venda do ICL, que mostram também R$ 57/mês e plano vitalício). A aula Mapa da Mina é transmitida pelo ICL; as matérias que dão as previsões por confirmadas são do próprio ICL.
+
+Falas usadas (seis):
+1. ICL Notícias, 24/05/2024 (data pela matéria do ICL sobre o pedido de LAI), denúncia de manipulação do Focus: "Alguns bancos pegaram e meteram 8% de inflação só para puxar a média para cima e fazer confusão no mercado." E ICL Notícias, jun/2024 (idade da página ~864 dias; menciona o pedido do MP-TCU, então depois de 18/06), sobre a pausa unânime de 19/06/2024: economia saudável, pânico fabricado. Proposições 1a a 1d. Dados: Focus pela API Olinda (acervo de 02/11/2026): máximo de 8,0% para IPCA 2026, 2027 e 2028 de 10/05/2024 a 12/09/2024; média de 2026 de 3,595 para 3,647 em 10/05, mediana 3,50; mediana de 2026 em 3,575 em 24/05; mediana de 2025 de 3,66 (13/05) para 3,80 (14/06).
+2. ICL Notícias, 02/07/2024 (dia da entrevista de Lula à rádio em Salvador; data inferida da matéria e do Poder360), "dólar vive ataque especulativo, sim!", previsão de cortes com BPC. Proposições 2a e 2b. PTAX 5,363 (14/06), 5,668 (02/07), 5,484 (04/07); Haddad, R$ 25,9 bi em 03/07/2024 (Congresso em Foco).
+3. ICL Notícias, 29/11/2024 (sexta-feira 29; idade da página ~703 dias), "mercado detém quase 90% da dívida pública", R$ 7 tri, quase 50% na Selic, 1% = R$ 70 bi = pacote. Proposições 3a a 3d. Pacote: R$ 71,9 bi em 2025–2026 (R$ 30,6 bi em 2025), Acionista e Mercado&Consumo, 28/11/2024.
+4. ICL Notícias, Em Detalhes, 20/12/2024 (sexta-feira 20; idade ~681 dias): dólar a R$ 7–8 faria a Selic subir muito; juro de 40% sem hiperinflação. E Mapa da Mina 2025, 30/01/2025 (post do ICL Notícias no X; relatório no SlideShare, texto pela busca): dólar abaixo de 6,00, piso de 5,30; juros se acomodando abaixo dos níveis de então. Proposições 4a a 4d. PTAX de 30/01 a 31/12/2025: 231 de 232 dias abaixo de 6,00 (exceção 09/04/2025, 6,06), mínima 5,2729 em 11/11/2025, cinco dias abaixo de 5,30. Focus Selic 2025 em 20/12/2024: mediana 14,75, máximo 16,0. SGS 432: 45% em 05/03/1999; IPCA 1999 8,94%.
+5. ICL Notícias, vídeo de 23/06/2025 (segunda-feira 23; idade ~496 dias), "a verdade incômoda por trás dos 15% de juros": dobra em cinco anos, metade do orçamento (paráfrase da matéria), "Pode botar quem quiser no Banco Central...", estatização (R$ 7,3 tri com bancos privados, não conferido). Proposições 5a a 5d.
+6. Vídeo de 26/10/2026 coberto pelo Timbó Net: queda pós-segundo turno atribuída a apostas eleitorais; estudo de banco com 27 simulações (a reportagem diz BTG; não localizado, e o texto público não nomeia o banco). Proposição 6a.
+
+Descartadas: ICL Notícias, ~out/2024, "déficit das estatais não é prejuízo" e comparação com R$ 700 bi de juros (procede no conceito, mas trata de contabilidade de estatais; os R$ 700 bi são o juro de 2023, R$ 718 bi, e os 12 meses até ago/2024 davam R$ 855 bi, SGS 5727 − 5793 × SGS 4382); vídeo do UOL de mar/2023 "Campos Neto tem obrigação de explicar taxa de juros" (só o título do canal); "Eduardo Moreira cravou e mercado já aposta em alta da Selic" (meados de 2024, data incerta); "Independência de Banco Central é papo para boi dormir" (sem data). Não entraram, pela regra de nada de vida privada e por não serem relação comercial com produto de investimento: as demissões no ICL e a antecipação de dividendos de jul/2026 (TMC, O Cafezinho, BNLData).
+
+Linhas para a matriz pessoa × argumento × classificação da página 12:
+| Eduardo Moreira | 1a. Uma projeção de 8% de inflação apareceu no Focus | Procede | — |
+| Eduardo Moreira | 1b. A projeção puxou para cima o número que o BC usa | Não procede | 12.4j |
+| Eduardo Moreira | 1c. Bancos puseram a projeção de propósito para pressionar o BC | Falta evidência | 12.4j |
+| Eduardo Moreira | 1d. A economia não justificava a pausa de 2024; o pânico foi fabricado | Não procede | 12.4g |
+| Eduardo Moreira | 2a. A alta do dólar de jun–jul/2024 foi especulação autorrealizável | Procede em parte | 12.4c |
+| Eduardo Moreira | 2b. O governo anunciaria cortes com revisão do BPC | Procede | — |
+| Eduardo Moreira | 3a. O mercado detém quase 90% da dívida | Procede | — |
+| Eduardo Moreira | 3b. Quase metade da dívida é indexada à Selic | Procede | — |
+| Eduardo Moreira | 3c. Um ponto de Selic custa o que o pacote economiza | Procede em parte | — |
+| Eduardo Moreira | 3d. O mercado pressiona pelo ajuste para defender a renda de credor | Falta evidência | 12.4j |
+| Eduardo Moreira | 4a. O Brasil já teve juro de 40% sem hiperinflação | Procede | — |
+| Eduardo Moreira | 4b. A Selic subiria muito em 2025 | Procede | — |
+| Eduardo Moreira | 4c. Dólar abaixo de R$ 6 em 2025, com piso perto de R$ 5,30 | Procede | — |
+| Eduardo Moreira | 4d. Os juros se acomodariam abaixo dos níveis de jan/2025 | Falta evidência | — |
+| Eduardo Moreira | 5a. Metade do orçamento vai para juros e amortizações | Procede em parte | 12.4j |
+| Eduardo Moreira | 5b. A 15% o capital dobra em cinco anos sem risco | Procede em parte | — |
+| Eduardo Moreira | 5c. Trocar o presidente do BC não muda o juro sem mudar a lógica | Procede | 12.4g |
+| Eduardo Moreira | 5d. Um sistema financeiro estatal baixaria o juro | Falta evidência | — |
+| Eduardo Moreira | 6a. A queda pós-eleição de 2026 veio do desmonte de apostas | Procede em parte | 12.4c |
+
+Fontes principais: ICL Notícias (seis matérias), Timbó Net, Exame, Poder360, Congresso em Foco, Acionista, O Cafezinho, TMC, Suno; BCB, Focus pela API Olinda (IPCA e Selic anuais, mediana, média e máximo; acervo de 02/11/2026) e SGS 1, 432, 13522 e 24369; páginas 1.4.2, 2.4.1, 2.5, 3.3, 3.4, 3.5, 4.4, 5.4.2, 6.1.1, 6.2.2, 6.4.1, 7.9, 8.1, 10.2.1 e 10.2.5.
+
+Lacunas:
+- iclnoticias.com.br, slideshare.net e pt.wikipedia.org não abrem nesta rede (host não resolve); todo o texto das falas veio de trechos de busca. Conferir no texto integral as citações literais (8%; "Pode botar quem quiser..."; Mapa da Mina) e os dias exatos das falas de jun/2024, 02/07/2024, 29/11/2024, 20/12/2024 e 23/06/2025, inferidos do dia da semana citado na matéria e da idade da página.
+- A "metade do orçamento" da fala 5 é paráfrase da matéria do ICL; conferir no vídeo se é dele com essas palavras.
+- Comparação diária do real com outras moedas emergentes em jun–jul/2024 (proposição 2a) e série diária do DI em 2025 (proposição 4d): o acervo não tem nenhuma das duas.
+- O estudo de banco com 27 simulações eleitorais (fala 6) e o número de R$ 7,3 trilhões sob controle de bancos privados (fala 5) não foram conferidos.
+- Data exata da entrada de Moreira no Pactual e da saída do Brasil Plural; vínculo atual com a Genial.
+
+Números que divergem de outras páginas: nenhum. Detentores (89,5% somando instituições financeiras, fundos, previdência, não residentes e seguradoras) e sensibilidade de R$ 61,7 bi por ponto como na 3.3; LFT de 45,33% (set/2024) e 46,3% (dez/2024) como na 12.1.3 e na 3.4; conta do orçamento (42,24%, 44,2%, 21,5%, 13,1%, 11,1%) e juros de R$ 1.007,6 bi como na 3.5; IPCA de 2024 (4,83%) e o boxe do RPM como na 4.4; Ibovespa −13,88%, dólar +9,19%, CDS 110 e 151,6, DI longo +1,82 e mercados de previsão (75% a 81%) como na 6.1.1; erro médio do Focus de +1,0 ponto como na 2.4.1 e 6.4.1; PTAX de fim de 2024 e 2025 (6,19 e 5,50) como na 6.1.1. Novo no bloco: o episódio do máximo de 8% no Focus (10/05 a 12/09/2024), pela API Olinda.

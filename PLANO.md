@@ -229,7 +229,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.1d2 Influenciador: Ricardo Amorim
 - [x] 12.1d3 Nathalia Arcuri: verificada; poucas falas sobre os temas do painel, sem página
 - [x] 12.1d4 Influenciador: Tiago Reis (Suno)
-- [ ] 12.1d5 Influenciador: Eduardo Moreira (ICL)
+- [x] 12.1d5 Influenciador: Eduardo Moreira (ICL)
 - [x] 12.2a Mídia e academia: Samuel Pessôa
 - [x] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
 - [x] 12.2c1 Mídia e academia: Mansueto Almeida
@@ -256,7 +256,7 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.5c Paulo Nogueira Batista Jr.
 - [ ] 12.5d Laura Carvalho
 - [ ] 12.5e André Roncaglia
-- [ ] 12.5f Eduardo Moreira (ICL): a página fica no ramo 12.1, como 12.1.7 (item 12.1d5); o ramo 12.5 só remete a ela
+- [x] 12.5f Eduardo Moreira: página no ramo 12.1 (12.1.7)
 - [ ] 12.5g José Luis Oreiro
 - [ ] 12.5h Luiz Carlos Bresser-Pereira
 - [ ] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala
