@@ -21,3 +21,7 @@ Lacunas e pendências:
 - `tools/lint.py` conta 1.883 e 2.836 "palavras" porque inclui endereços de links e números partidos por vírgula; a contagem de texto corrido fica dentro das faixas do cartão (900–1.500 e 1.500–2.500).
 
 Divergências: nenhuma nova. O texto arredonda os valores do BIS de 2025 a uma casa (9,1; 4,3; 4,0; 3,8; 3,5; 0,6).
+
+## 2ª versão (03/11/2026)
+
+Atualizadas junto com a 2ª versão de 8 e 8.1 (detalhes em `conteudo/8-conclusao/_notas.md`). Na 0: resumo, caixa da direção, régua das quatro classificações em "Como o painel trabalha", entradas dos blocos 10 a 12 em "Por onde começar" e a seção de lacunas de conteúdo "O que o painel ainda não mediu" no lugar de "O que ainda está em construção". Na 0.1: linhas novas P7c, O5 e O6, notas novas de P7b e P9c, P3 com a forma fraca da convenção nas expectativas, seção "Como ler uma página do debate público" e o estado "2ª versão". As âncoras para a 8.1 foram conferidas pelo `build.py --check`. Estado das duas páginas: 2ª versão.

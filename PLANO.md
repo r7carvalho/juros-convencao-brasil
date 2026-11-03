@@ -266,7 +266,7 @@ Regras próprias do bloco, além do briefing:
 A conclusão (8.1 e 8.2) só se escreve depois dos blocos 10, 11 e 12, porque a matriz final incorpora
 os argumentos deles.
 
-- [ ] 8.1 Matriz tese × evidência × força, item por item (1ª versão em 02/11/2026; refazer depois dos blocos 10 a 12)
+- [x] 8.1 Matriz tese × evidência × força, item por item (1ª versão em 02/11/2026; 2ª versão em 03/11/2026, depois dos blocos 10 a 12)
 - [x] 12.C Conclusão do bloco 12 na página 12: balanço das classificações e matriz pessoa × argumento (03/11/2026)
 - [x] 8.2 Direção de conclusão, com o grau de confiança declarado
 - [x] 9.1 Glossário
