@@ -250,7 +250,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.4g Jargão: "o juro é alto por culpa do governo" / "o BC é técnico e independente"
 - [x] 12.4h Jargão: "o Brasil vai virar Argentina/Venezuela"
 - [x] 12.4i Jargão: "não existe almoço grátis", "o arcabouço não para em pé"
-- [ ] 12.4j Jargões do outro lado: "metade do orçamento vai para juros" (Auditoria Cidadã), "o BC trabalha para os bancos", "inflação é só choque externo"; mesmo rigor
+- [x] 12.4j Jargões do outro lado: "metade do orçamento vai para juros" (Auditoria Cidadã), "o BC trabalha para os bancos", "inflação é só choque externo"; mesmo rigor
 - [x] 12.5a Ramo e André Lara Resende
 - [x] 12.5b Luiz Gonzaga Belluzzo
 - [x] 12.5c Paulo Nogueira Batista Jr.
