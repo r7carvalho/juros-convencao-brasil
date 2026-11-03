@@ -252,7 +252,7 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.4i Jargão: "não existe almoço grátis", "o arcabouço não para em pé"
 - [ ] 12.4j Jargões do outro lado: "metade do orçamento vai para juros" (Auditoria Cidadã), "o BC trabalha para os bancos", "inflação é só choque externo"; mesmo rigor
 - [x] 12.5a Ramo e André Lara Resende
-- [ ] 12.5b Luiz Gonzaga Belluzzo
+- [x] 12.5b Luiz Gonzaga Belluzzo
 - [ ] 12.5c Paulo Nogueira Batista Jr.
 - [x] 12.5d Laura Carvalho
 - [x] 12.5e André Roncaglia
