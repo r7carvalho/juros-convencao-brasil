@@ -1329,3 +1329,55 @@ Lacunas:
 - Data de início da coluna na *Folha* (o levantamento registrou jun/2019) não conferida nesta rodada de busca; a página não a cita.
 
 Números que divergem de outras páginas: nenhum. Novos no bloco: EMBI+ Brasil de fim de ano 2015–2019 (Ipeadata); juro real ex-ante pela convenção do painel em dez/2016, dez/2017 e dez/2018 (8,55, 3,02, 2,65; o valor de dez/2019, 0,25, coincide com a referência da convenção); dívida bruta de nov/2024 (77,50); dólar PTAX de 28/11/2024 (5,9871), 31/12/2024 (6,1923) e 30/10/2026 (5,4212); pico do IPCA em 12 meses em 2025 (5,53 em abr/2025). Copiados: SGS 432, 1178, 5727, 5793, 7326, 13522, 13762, 24369; 3.2; 6.1.2; 11.6; 12.4.2; 12.5.1.
+
+## 12.4f
+
+Página: 12.4.6 "Imprimir dinheiro gera inflação" (id 12.4.6, pai 12.4, ordem 6; cerca de 2.950 palavras de texto corrido até a classificação contando o quadro de exemplo, 2.650 sem ele; 5.030 pelo lint com links, tabela, quadros e Para ler). Estado: 1ª versão. Um gráfico novo (`dados/12.4.6-base-m1-ipca.json`: variação anual dez/dez da base monetária restrita e do M1 contra o IPCA, 1995–2025) e um script novo, `tools/analises/12.4.6_moeda_ipca.py` (`--resumo` imprime a tabela, as correlações, as taxas médias e as proporções do PIB), que só lê `dados/brutos/` (sgs-1788, 1824, 4382, 13522). Na página 12, o rótulo "12.4f" do mapa virou [12.4.6](pagina:12.4.6). As páginas de pessoa citam "12.4f" só como texto nas tabelas-resumo (12.1.3, 12.1.4, 12.1.5, 12.2.7, 12.5.1), sem link para pagina:12, e ficaram como estavam (mesmo critério de 12.4a a 12.4e). Na 12.4, "o que o ramo mostra até aqui" passou a seis páginas, com um período novo no fim. PLANO.md: 12.4f marcado [x].
+
+Estrutura: exemplo de brinquedo (três maneiras de pôr R$ 100: BC compra título e paga com reserva remunerada; Tesouro gasta caixa da conta única e o BC recolhe a sobra com compromissada; BC entrega moeda ao Tesouro sem recolher); identidade em taxas, Δm + Δv ≈ π + Δy, com 10 − 2 = 8 e 10 − 8 − 2 = 0 e o dado brasileiro (base 10,6% a.a. e PIB nominal 10,1% a.a., 1995–2025). Cinco sentidos: (a) base; (b) longo prazo e extremos; (c) "o governo imprime para pagar gastos"; (d) 2020–2022; (e) o outro lado, "emitir não gera inflação" e a tese em teste ("o empirismo é fraco").
+
+Unidade do SGS 1788: o arquivo bruto diz "R$ milhões (conferir)", mas o valor está em R$ mil. Conferido: jul/2020 = 423.674.702 mil, igual aos R$ 423,7 bilhões da nota de estatísticas monetárias e de crédito do BCB de ago/2020 (pela busca); ago/2026 = R$ 432,7 bi, como na página 10. A coleta deveria corrigir a descrição. O SGS 1824 (M1 antigo) termina em jun/2018, com a reformulação dos meios de pagamento anunciada em ago/2018 (nota metodológica do BCB, pela busca); o M1 e o M2 novos (SGS 27791 e 27810) não estão em `dados/brutos/`, e por isso a página não traz o M2 brasileiro de 2020.
+
+Números principais (cálculo do painel, consulta 02/11/2026):
+- Base, variação dez/dez: 1995 +22,6; 1996 −8,7; 1997 +60,8; 2002 +37,6; 2015 −3,1; 2019 +4,8; 2020 +36,3; 2021 −5,2; 2022 +2,6; 2023 +0,7; 2024 +6,7; 2025 −0,9; set/2026 sobre set/2025 +1,2. Saldos: dez/2019 R$ 316,6 bi; fev/2020 303,2; jul/2020 423,7; dez/2020 431,5; dez/2021 409,2; set/2026 434,9.
+- Correlação base × IPCA do mesmo ano, 1995–2025: 0,04; com o IPCA do ano seguinte: 0,07. M1 × IPCA, 1995–2017: 0,16 e −0,15. (Com 1996–2025, sem o ano de 1995: −0,11 e 0,03.)
+- Taxas médias: base 10,6% a.a. 1995–2025; PIB nominal 10,1% (SGS 4382); IPCA 6,1% (1996–2025). M1 12,5% a.a. 1995–2017; IPCA 6,4%.
+- Base/PIB: 3,07% (1995), 3,98% (2000), 4,66% (2005), 5,32% (2010), 4,26% (2015), 4,28% (2019), 5,67% (2020), 4,54% (2021), 3,51% (2025), 3,25% (set/2026).
+- Nota do BCB de ago/2020 (pela busca): base de R$ 423,7 bi em julho, +11% no mês e +56,1% em 12 meses; reservas +67,2% no mês, papel-moeda +3,2%; operações do Tesouro como principal fator expansionista. A Gazeta (jul/2020, pela busca; site bloqueado para leitura): papel-moeda em poder do público +29% de fev a jun/2020 (R$ 210,2 bi para R$ 270,9 bi), atribuído por Fernando Rocha (BC) ao auxílio. A página usa só o +29% e a atribuição.
+- EUA: M2 −4,6% em 12 meses em abr/2023, maior queda desde 1959 (S&P Global, mai/2023, pela busca). Os demais números (M2 +26,8%, CPI 9,1%, base ×4,6) vêm de 1.1 e 1.1.3.
+
+Falas e usos (todos pela busca em 03/11/2026; WebFetch não abre moneytimes, agazeta, pt.org.br nem oantagonista nesta rede):
+- Meirelles, BBC News Brasil, início de abr/2020, via Gazeta do Povo (paráfrase; a matéria da BBC não apareceu na busca); "figura de retórica" pela mesma Gazeta do Povo e pela Jovem Pan.
+- Campos Neto, UOL, 09/04/2020: recorte "O argumento de que eu vou imprimir dinheiro porque a inflação está relativamente baixa é um argumento perigoso" pela Reuters reproduzida no Mixvale (a redação varia entre veículos); juro neutro pelo Boletim da Liberdade, 12/04/2020.
+- Mansueto, Diário do Comércio, abr/2020 (data provável 06 ou 07/04, pela legenda; texto diz "ontem").
+- Guedes, comissão mista, 30/04/2020 (Jornal de Brasília); 30/06/2020, "não precisa emitir mais moeda" (A Gazeta, pela busca).
+- Lula, 29/04/2020 (Metrópoles; Bahia Notícias): "moeda nova", "não existe demanda", preferência por "expandir a base monetária". Não usada a fala de 19/03/2020 (Jornal de Brasília), que não usa a expressão.
+- Oreiro, Jornal de Brasília, 08/05/2020: a avaliação de que emitir não afetaria a inflação aparece na republicação do Jornal Contábil; a busca não mostrou o trecho no Jornal de Brasília. Conferir na 12.R.
+- Bolsonaro, live de 10/09/2020 (Poder360): auxílio fez a população consumir mais, alta do arroz.
+- Das páginas de pessoa: Perini (nov/2024, 12.1.3), Mendlowicz (03/03/2025, 12.1.4), Amorim (jul/2024, 12.1.5), Schwartsman (20/05/2020, 12.2.7), Lara Resende (08/03/2019 e 08/05/2020, 12.5.1).
+
+Descartados: Bresser-Pereira, entrevista ao UOL de abr/2020 ("emitir moeda na crise", PDF no site do autor; data 19 ou 20/04 não confirmada, e a 12.5.7 não trata do tema); Bolsonaro "muito papel na praça" (frase não localizada) e a fala de jan/2021 "vem inflação" (data não confirmada); Mourão ligando o auxílio aos alimentos (Bem Paraná, sem data clara); Monica de Bolle (vídeo citado pela Gazeta do Povo sem trecho legível); Juliana Inhasz (Insper) sobre a cédula de R$ 200 (matéria sem data confirmada); Revista Oeste, "Escreva cem vezes: imprimir dinheiro, não" (coluna de 2020, autor não confirmado); O Antagonista e Revista Oeste sobre Lula (versões críticas da mesma fala); InvestNews "o Brasil vai ter hiperinflação de novo?" (sem data). Nenhum dos influenciadores com página tem fala confirmável com a expressão literal "imprimir dinheiro"; Primo Rico não tem fala localizada sobre o tema.
+
+Lacunas:
+- M2 brasileiro de 2020–2022 (SGS 27810) não coletado; a coleta poderia acrescentá-lo e o M1 novo (27791), o que permitiria o teste do M2 no Brasil como na 1.1.3 para os EUA.
+- Decomposição dos fatores condicionantes da base em 2020 (Tesouro, compromissadas, compulsório) só pela nota de julho; a série completa está nas notas de estatísticas monetárias do BCB, que a rede não abre.
+- A causa do salto da base em 1997 (+60,8%) não foi investigada; a página não a explica.
+
+Números que divergem: nenhum. Base de R$ 432,7 bi em ago/2026 como na página 10; M2 +26,8%, CPI 9,1%, base ×4,6 e CPI ~1,5% a.a. como em 1.1 e 1.1.3; compromissadas R$ 1,37 tri e depósitos R$ 192,2 bi como na 10.2.1; 4,38 de 6,31, hiato negativo, alimentos 14,09% e desocupação 13,2% → 9,3% como na 4.2; Argentina 7,4% do PIB, 36,1/94,8/211,4% e Indonésia 1,68/1,87% como na 10.3.8 e na 6.4.3.
+
+Linhas para a matriz (jargão × sentido × classificação):
+
+| Jargão | Sentido | Classificação | Quem usou (exemplo) |
+|---|---|---|---|
+| 12.4.6 | O aumento da base monetária pelo BC gera inflação | Não procede | Uso corrente; leitura da cédula de R$ 200 (2020) |
+| 12.4.6 | No longo prazo, moeda e preços crescem juntos | Procede | McCandless e Weber (1995) |
+| 12.4.6 | Nas hiperinflações, a emissão para cobrir déficit foi a causa | Procede | Cagan (1956) |
+| 12.4.6 | A inflação brasileira recente vem principalmente da quantidade de moeda | Procede em parte | Perini (nov/2024) |
+| 12.4.6 | O governo brasileiro paga as despesas imprimindo dinheiro | Não procede | Uso corrente; Perini (nov/2024) nos sentidos (b) e (c) |
+| 12.4.6 | O déficit gera inflação | Procede em parte | Mendlowicz (03/03/2025); Amorim (jul/2024) |
+| 12.4.6 | Nos EUA, o estímulo com expansão do M2 causou a inflação de 2021–2022 | Procede em parte | Leitura monetarista do episódio |
+| 12.4.6 | No Brasil, a emissão de 2020 causou a inflação de 2021 | Não procede | Uso corrente |
+| 12.4.6 | O auxílio contribuiu para a alta dos alimentos em 2020 | Procede em parte | Bolsonaro (10/09/2020) |
+| 12.4.6 | O vínculo empírico entre emissão e inflação é fraco | Procede em parte | Tese em teste; Lara Resende (08/03/2019) |
+| 12.4.6 | Emitir moeda não gera inflação | Não procede | Meirelles (abr/2020); Lula (29/04/2020) |
+| 12.4.6 | Em 2020, emitir para financiar o gasto não geraria inflação no Brasil | Falta evidência | Lula (29/04/2020); Oreiro (08/05/2020); contra: Campos Neto (09/04/2020) |

@@ -1,7 +1,7 @@
 {
  "fonte": "Banco Central do Brasil, Sistema Gerenciador de Séries Temporais (SGS)",
  "serie": 1788,
- "descricao": "Base monetária restrita, saldo em fim de período (R$ milhões) (conferir)",
+ "descricao": "Base monetária restrita, saldo em fim de período (R$ mil)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=1788",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1788/dados?formato=json",
  "coleta": "2026-11-02T15:03:18Z",

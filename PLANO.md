@@ -246,7 +246,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.4c Jargão: "o mercado está nervoso", "o mercado está precificando", "risco fiscal"
 - [x] 12.4d Jargão: "dominância fiscal" usado como explicação de tudo
 - [x] 12.4e Jargão: "desancoragem das expectativas", "juro neutro subiu"
-- [ ] 12.4f Jargão: "imprimir dinheiro gera inflação"
+- [x] 12.4f Jargão: "imprimir dinheiro gera inflação"
 - [ ] 12.4g Jargão: "o juro é alto por culpa do governo" / "o BC é técnico e independente"
 - [ ] 12.4h Jargão: "o Brasil vai virar Argentina/Venezuela"
 - [ ] 12.4i Jargão: "não existe almoço grátis", "o arcabouço não para em pé"
