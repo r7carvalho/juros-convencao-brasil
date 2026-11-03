@@ -1231,3 +1231,49 @@ Linhas para a matriz (jargão × sentido × classificação):
 | 12.4.5 | O neutro é ficção de modelo para justificar juro alto | Procede em parte | Oreiro (2026); Bresser-Pereira (jun/2026, neutro de 3%: falta evidência) |
 | 12.4.5 | O mercado fabrica a desancoragem projetando inflação alta | Não procede | Lara Resende (07/02/2023); Eduardo Moreira (24/05/2024) |
 | 12.4.5 | Focus e Copom formam um consenso autorreferente | Falta evidência | Crítica da 6.4.1 |
+
+## 12.5e
+
+Página entregue: `conteudo/12-vozes/12.5.5-andre-roncaglia.md` (id 12.5.5, pai 12.5, ordem 5, 1ª versão). Cerca de 3.375 palavras de prosa (sem tabela-resumo, citações em bloco, fórmulas em bloco e "Para ler"); o `tools/lint.py` conta 5,1 mil tokens no corpo inteiro, sem travessão, sem "não é X, é Y" e sem palavra vetada. `build.py --check` sem erro. Na 12.5 foi atualizado só o parágrafo de Roncaglia. PLANO.md: 12.5e marcado [x].
+
+Identidade: confirmada. André Roncaglia de Carvalho, professor da Unifesp, doutor em Economia do Desenvolvimento pela FEA-USP, pesquisador associado do FGV IBRE (Portal IBRE e CNN Brasil, ago/2024; perfil Fapesp). Colunista da Folha (coluna de 30/03/2023, via site do PT) e da CartaCapital (página de autor; coluna de 25/06/2024), comentarista do ICL Notícias. Indicado pela Fazenda em 14/08/2024 diretor-executivo do Brasil no FMI, no lugar de Afonso Bevilaqua, com posse prevista para o fim de agosto (CNN Brasil, ICL, Brazil Journal); aparece no cargo em mai/2025 e out/2025 (Cofecon, Correio Braziliense) e em set/2026 (Cofecon, SINCE). Data exata da posse não confirmada. Um resumo de busca do perfil Prodmais da Unifesp mencionou "afastamento" e UnB; não confirmado, não entrou. O blog Sobre Economia (15/02/2021) o chama de professor da UFABC; não entrou. Relação com mercado: nenhuma localizada.
+
+Bastidores não usados (fala de terceiros, sem declaração dele): coluna de Matheus Leitão no Metrópoles (início de nov/2026), "Mercadante gosta da tese de Lara e Roncaglia no BC, mas Durigan resiste", que diz, por fontes não identificadas, que Mercadante gostaria de vê-lo no BC e que ele seria interlocutor da proposta de Lara Resende. O painel não localizou fala de Roncaglia sobre a proposta. A 12.R ou a 12.5.1 podem acompanhar.
+
+Rede: WebFetch não resolve unifesp.br, cofecon.org.br, pt.org.br, cartacapital.com.br, diplomatique.org.br. Tudo veio de trechos da busca. Recortes entre aspas: Unicamp blog 15/02/2021 ("Esta mudança tornará a política monetária mais transparente."); CartaCapital 28/10/2021 (duas frases sobre inflação de oferta); Folha 30/03/2023 via PT ("essa postura intransigentemente restritiva está comprometendo a credibilidade do BC"); X 24/05/2024 (fio do Focus); Correio Braziliense out/2025 ("Temos uma taxa de juros muito elevada que é necessária para conseguir manter a inflação na meta."). A 12.R deve conferi-los no original.
+
+Falas usadas (seis, dezoito proposições):
+1. FGV EAESP NT 1/2020 (com Terra, Bianchini e Leão; data exata em 2020 não confirmada, dados de fev/2020); blog Sobre Economia, Unicamp, 15/02/2021. 1a procede em parte (CMN, R$ 325 bi em 27/08/2020; prejuízos de 2023 e 2025; DLSP não muda; 10.2.2); 1b procede em parte (Lei 14.185/2021; custo igual; compromissadas 10,3% do PIB em ago/2026; 10.2.2).
+2. CartaCapital, 28/10/2021. 2a procede (R$ 32,9 bi por ponto na conta dele; 1,5 × 32,9 = 49,4; R$ 61,7 bi em dez/2025, 2.4; juros nominais 4,98 / 5,82 / 6,56% do PIB em 2021–2023); 2b procede (4,38 de 6,31 p.p., 4.2); 2c não procede (Selic 13,75% em ago/2022; IPCA 12,13 abr/2022 → 3,16 jun/2023); 2d não procede pelo resultado (desocupação 12,1 out/2021 → 7,9 dez/2022 → 7,4 dez/2023, SGS 24369).
+3. Folha, 30/03/2023 (via PT, 31/03/2023); Brasil de Fato, 04/05/2023. 3a procede em parte (Focus 12m 5,55 em 31/03/2023; ex-ante 7,8%; neutro BC 4,5%; Focus 2023 5,96 e 2024 4,13); 3b falta evidência (cortes desde ago/2023; ex-ante 6,6% em jun/2024; PIB 3,24 e 3,42; Focus PIB 2023 = 0,9 em 31/03/2023); 3c não procede (Copom de maioria indicada pelo governo a 15% em 2025, 6.4; viés do Focus, 6.4.1).
+4. X, 24/05/2024; Brasil de Fato, 20/06/2024; CartaCapital, 25/06/2024. 4a falta evidência (8% no máximo do Focus desde 10/05/2024, mediana parada, 12.1.7; viés −1,0, 6.4.1); 4b não procede (IPCA 4,23 jun/2024 → 4,83 dez/2024 → 5,53 abr/2025; Focus 12m 3,62 em 21/06/2024; descumprimento em jun/2025, 2.3); 4c não procede (Selic 12,25 em dez/2024; Focus para o fim de 2024 = 10,5 em 21/06/2024, erro compartilhado); 4d procede em parte (10.2.6; jargão 12.4c).
+5. Cofecon, debate de 29/05/2025 na UnB; Correio Braziliense, out/2025 (dia exato não confirmado; a edição impressa de 26/10/2025 apareceu na busca, sem conferência). 5a procede (juros 7,91% do PIB em 2025 e 8,99% em 12m até set/2026; primário −0,52%; 3.1); 5b procede em parte (Focus 12m 3,94 em 31/10/2025, ex-ante 10,6%; IPCA nunca em 3%; 4,72 mai/2026; Taylor, 12.5.6 6b); 5c procede em parte (Artigo IV 2025 risco moderado; 2026 âncora e 104,8% em 2030, 11.7).
+6. Cofecon, 11/09/2026 (XXIX SINCE; data da notícia pela busca). 6a procede em parte (12.4.1); 6b procede em parte (6.1.1, 2.2).
+
+Falas descartadas:
+- Post nas redes sobre o Roda Viva de Campos Neto (O Cafezinho e Brasil 247, 14/02/2023): trata de relações pessoais e investimentos do presidente do BC; fora da régua (sem ataque pessoal).
+- Entrevista à CartaCapital "Selic vai levando as empresas a uma morte lenta por asfixia" (2023, Selic em 13,75%): sem data confirmada; o argumento (sem inflação de demanda) está coberto pela fala 3.
+- CartaCapital, "As projeções de André Roncaglia para a economia brasileira em 2024" (fim de 2023 ou início de 2024): sem data e sem número confirmado (um resumo atribui IPCA de cerca de 4,5% em 2024; o realizado foi 4,83%). Candidata se a data for achada.
+- CartaCapital, "Roncaglia: Decisão sobre a Selic não surpreende após Campos Neto instigar o mercado contra Lula" (jun/2024): redundante com a fala 4.
+- Frase "o preço cobrado pelo 'resgate da credibilidade' aumentou e já ganha ares de chantagem" (CartaCapital, tag do autor): coluna e data não identificadas.
+- Xinhua, 18/07/2025 ("impacto limitado" do tarifaço) e OPEU, 18/08/2025: tema comercial; fora do foco de juros.
+- Livro *Poder e desigualdade* (com Cesar Calejon): ano e conteúdo não confirmados.
+- Nenhuma fala datada dele sobre o número da meta (3%) foi localizada; a página diz isso na seção de teoria.
+
+Linhas para a matriz pessoa × argumento × classificação da página 12:
+| André Roncaglia | Heterodoxos | FGV EAESP NT 1/2020; blog Sobre Economia, 15/02/2021 | Conta única e resultado cambial financiam o gasto da crise; depósitos remunerados tornam a política mais transparente | | Procede em parte; procede em parte | Relação BC–Tesouro, compromissadas | 10.2.2 |
+| André Roncaglia | Heterodoxos | CartaCapital, 28/10/2021 | Alta de 1,5 ponto custa R$ 47 bi; inflação de oferta; Selic não a seguraria; aperto agravaria o emprego | P7a, P9a, P4a | Procede; procede; não procede; não procede | Inflação de custos | 2.4, 4.2; SGS 432, 13522, 24369 |
+| André Roncaglia | Heterodoxos | Folha, 30/03/2023; Brasil de Fato, 04/05/2023 | Aperto excessivo; recessão se mantido até 2024; juro alto por postura política do Copom | P4a | Procede em parte; falta evidência; não procede | Autonomia, captura | 2.3, 6.4, 6.4.1; SGS 7326 |
+| André Roncaglia | Heterodoxos | X, 24/05/2024; Brasil de Fato, 20/06/2024; CartaCapital, 25/06/2024 | Focus manipulado; havia espaço para cortar; Selic de 10,5% no fim de 2024; mercado cobrou o Copom | | Falta evidência; não procede; não procede; procede em parte | Focus, mercado nervoso | 12.1.7, 6.4.1, 2.3, 10.2.6 |
+| André Roncaglia | Heterodoxos | Cofecon, 29/05/2025; Correio Braziliense, out/2025 | Juro alto dificulta o ajuste; Selic alta é necessária para a meta; arcabouço suficiente na visão do FMI | P7a, P2 | Procede; procede em parte; procede em parte | Aritmética da dívida, potência da Selic | 2.4, 3.1, 4.4, 11.7, 12.5.6 |
+| André Roncaglia | Heterodoxos | Cofecon, 11/09/2026 | Brasil longe do penhasco fiscal; credibilidade fiscal como condição | O1b | Procede em parte; procede em parte | Brasil vai quebrar, prêmio fiscal | 12.4.1, 6.1.1, 2.2 |
+
+Contagem: 18 proposições, 3 procedem, 8 procedem em parte, 5 não procedem, 2 falta evidência.
+
+Lacunas:
+- Nenhum texto integral aberto; título da coluna da Folha de 30/03/2023 não localizado (só a reprodução do PT).
+- Data exata da NT 1/2020 e da entrevista ao Correio Braziliense; data da posse no FMI.
+- A cifra de R$ 32,9 bi por ponto vem do resumo da reportagem de 2021; o painel não conferiu a sensibilidade publicada pelo BC naquele ano.
+- Uma reportagem do Poder360 (out/2026) dá sensibilidade de R$ 70,8 bi por ponto na DLSP com dados mais recentes, contra os R$ 61,7 bi (dez/2025) da 2.4; a página usa o número da 2.4. A 2.4 pode atualizar.
+
+Números que divergem de outras páginas: nenhum. Novos (cálculo do painel com dados/brutos, coleta de 02/11/2026): Focus IPCA 12m (mediana, não suavizada, base 0) de 29/10/2021 = 5,54, 31/03/2023 = 5,55, 21/06/2024 = 3,62, 31/10/2025 = 3,94; Focus anual de 31/03/2023 (IPCA 2023 = 5,96, 2024 = 4,13; PIB 2023 = 0,9); Focus Selic para o fim de 2024 em 21/06/2024 = 10,5; juros reais ex-ante de 7,8% (mar/2023), 6,6% (jun/2024) e 10,6% (out/2025). Copiados de 2.2, 2.3, 2.4, 3.1, 3.2, 4.2, 4.4, 6.4, 6.4.1, 10.2.2, 10.2.6, 11.7, 12.1.7, 12.4.1 e 12.5.6.
