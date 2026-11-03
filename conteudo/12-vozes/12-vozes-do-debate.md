@@ -3,8 +3,8 @@ id: 12
 titulo: Vozes do debate
 pai: 0
 ordem: 10
-resumo: Quem fala em público sobre juros ajuda a formar as expectativas que o juro reflete, e por isso o painel examina as falas com o mesmo rigor que aplica aos dados. O bloco só usa fala pública com link e data, apresenta cada argumento na sua forma mais forte, divide-o em proposições testáveis e classifica cada uma como procede, procede em parte, não procede ou falta evidência, com a base teórica e a evidência ao lado. Um exemplo de brinquedo mostra o método; a matriz pessoa × argumento × classificação começa vazia e o mapa lista os dez jargões que serão testados.
-estado: 1ª versão
+resumo: Quem fala em público sobre juros ajuda a formar as expectativas que o juro reflete, e por isso o painel examina as falas com o mesmo rigor que aplica aos dados. O bloco só usa fala pública com link e data, apresenta cada argumento na sua forma mais forte, divide-o em proposições testáveis e classifica cada uma como procede, procede em parte, não procede ou falta evidência, com a base teórica e a evidência ao lado. Um exemplo de brinquedo mostra o método, e regras próprias tratam de perguntas, títulos, falas de risco e datas incertas. O bloco tem páginas de 23 pessoas em três ramos, um ramo sobre o Focus e dez páginas de jargão, ligadas pelo mapa ao fim desta página.
+estado: revisada
 ---
 
 O juro que o Banco Central fixa vale por um dia. O juro que decide uma hipoteca, um projeto de fábrica ou a rolagem da dívida pública depende do que as pessoas esperam que aconteça nos anos seguintes, e essas expectativas se formam, em parte, no que se ouve e se lê. Um vídeo com milhões de visualizações dizendo que o país vai quebrar, uma coluna de jornal que trata o déficit como causa de todo juro alto, um relatório de banco que projeta a Selic do ano que vem: tudo isso entra na conversa de onde sai a opinião média. O painel testa a tese de que o patamar do juro brasileiro se sustenta, em parte, como convenção, e uma convenção vive justamente dessa conversa.
@@ -20,7 +20,7 @@ A [matriz](pagina:8.1) deixou duas linhas à espera deste bloco. A P9c diz que o
 
 ## As regras do bloco
 
-O bloco só usa fala pública: vídeo com a minutagem do trecho, coluna, post, entrevista, relatório ou aula aberta, sempre com link e data. A vida privada de ninguém entra, e a avaliação recai sobre o argumento, nunca sobre a pessoa. Quando alguém tem relação comercial pública com o que recomenda, como um banco que vende fundos ou um canal que vende cursos, a página registra o fato com fonte, da mesma forma que a [página de método](pagina:9.1) faz com relatórios de parte interessada, e não tira dele nenhuma conclusão sobre a sinceridade da fala.
+O bloco só usa fala pública: vídeo com a minutagem do trecho, coluna, post, entrevista, relatório ou aula aberta, sempre com link e data. A vida privada de ninguém entra, e a avaliação recai sobre o argumento, nunca sobre a pessoa. Quando alguém tem relação comercial pública com o que recomenda, como um banco que vende fundos ou um canal que vende cursos, a página registra o fato com fonte, só na seção "Quem é no debate", da mesma forma que a [página de método](pagina:9.1) faz com relatórios de parte interessada. O fato não volta nas proposições, nos resumos nem na caixa de leitura do painel: ligar a fala ao negócio de quem fala, mesmo para dizer que não se achou ligação, já sugere um motivo. A data de cada fala vem da fonte; quando ela só pôde ser estimada, a página escreve "data aproximada". Aspas ficam para o texto que o painel conferiu, e o resto vai em paráfrase.
 
 Antes de avaliar, a página reescreve o argumento na forma mais forte que ele admite. É o princípio da caridade, nome que vem do filósofo Neil Wilson (1959): se uma frase tem uma leitura absurda e outra razoável, testa-se a razoável, e a absurda aparece só se for a que a pessoa de fato defendeu. Daniel Dennett resumiu uma versão prática da regra, que atribui ao teórico dos jogos Anatol Rapoport: reformular a posição do outro tão bem que ele mesmo a assinaria, listar os pontos de acordo e só depois criticar (Dennett, 2013). O painel segue essa ordem. Concordar quando o argumento procede faz parte do método, e uma página que só discorda deve ser revista.
 
@@ -67,9 +67,13 @@ As quatro classificações traduzem para o debate público a régua de direção
 
 Duas distinções evitam erros comuns. "Falta evidência" é diferente de "não procede": a ausência de prova a favor não prova o contrário, e uma previsão sem base pode acertar por acaso. E "procede em parte" não serve de nota diplomática para não desagradar ninguém; ela exige que a página diga qual parte procede e qual não. Quando a página do painel que traz a evidência mudar de leitura, a classificação muda com ela, e a página da pessoa registra a data da mudança.
 
+Algumas falas pedem regra própria. Uma pergunta retórica ("será que o IPCA vai ficar em apenas 5%?") ou o título de um vídeo cujo conteúdo o painel não leu ("Brasil à beira do colapso?") não vira afirmação da pessoa classificada como "não procede". Ou a página testa o que o conteúdo afirma, lido e com link, ou a proposição fica em "falta evidência", com o motivo dito; o alarme de um título pode ser descrito como embalagem, sem nota. Uma fala de risco ("pode retardar", "há risco de") também não é previsão: ela se julga pela plausibilidade do mecanismo com o que se sabia na data, ou fica em "falta evidência". Previsões de recessão, de "nunca" ou de "nenhum país" recebem a mesma classe dos dois lados do debate, conforme o resultado e o contraexemplo, e a projeção de um terceiro citada por alguém não conta como previsão de quem a cita.
+
+A mesma régua vale dentro de uma fala. Um qualificativo aplicado a duas variáveis ("fora de controle", "explodiu") é julgado com o mesmo critério para as duas, e a proposição testa a medida que a fala usa: se a fala diz dívida pública federal, testa-se a dívida pública federal; se diz média, testa-se a média, e não uma medida vizinha que dê resultado mais fácil de julgar. Quando a própria página reconhece que a evidência não isola o efeito afirmado, a classificação vai no máximo a "procede em parte".
+
 ## A estrutura do bloco
 
-O bloco tem cinco ramos, todos com as mesmas regras. As páginas de pessoa saem uma por item, depois da confirmação de identidade.
+O bloco tem cinco ramos, todos com as mesmas regras, e cada página de pessoa só foi escrita depois da confirmação de identidade.
 
 [Influenciadores digitais](pagina:12.1) reúne os canais de finanças pessoais em vídeo e nas redes, com audiência de milhões de pessoas, que tratam de juros, dívida pública e da ideia de um Brasil à beira da quebra. É onde a maior parte dos poupadores ouve falar de Selic, Tesouro Direto e CDI. Para cada pessoa, o painel examina as falas mais vistas sobre o tema, separa a educação financeira, que costuma estar certa, das teses macroeconômicas, que pedem teste, e registra as relações comerciais públicas com produtos de investimento.
 
@@ -83,18 +87,21 @@ O bloco tem cinco ramos, todos com as mesmas regras. As páginas de pessoa saem 
 
 ## Matriz pessoa × argumento × classificação
 
-A matriz é preenchida à medida que as páginas de pessoa forem publicadas. Cada linha é uma proposição tirada de uma fala, com a pessoa, o grupo, o link e a data da fala, a proposição na leitura caridosa, a linha da [matriz do painel](pagina:8.1) a que ela se liga quando houver, a classificação, a base teórica e a página onde está a evidência. Uma pessoa terá tantas linhas quantas forem as proposições examinadas. Até 02/11/2026 nenhuma página de pessoa foi publicada, e a tabela está vazia.
+Cada linha da matriz é uma proposição tirada de uma fala, com a pessoa, o grupo, o link e a data da fala, a proposição na leitura caridosa, a classificação, a base teórica, a página onde está a evidência e, quando houver, o jargão e a linha da [matriz do painel](pagina:8.1) a que ela se liga. As linhas estão na tabela-resumo de cada página de pessoa, que traz também a contagem das classificações daquela pessoa.
 
-| Pessoa | Grupo | Fala (link e data) | Proposição | Linha da matriz | Classificação | Base teórica | Evidência |
-|---|---|---|---|---|---|---|---|
+| Ramo | Páginas de pessoa | Onde estão as linhas |
+|---|---|---|
+| [Influenciadores digitais](pagina:12.1) | 7 | Tabelas-resumo de [12.1.1](pagina:12.1.1) a [12.1.7](pagina:12.1.7) |
+| [Mídia e academia](pagina:12.2) | 9 | Tabelas-resumo de [12.2.1](pagina:12.2.1) a [12.2.9](pagina:12.2.9) |
+| [Vozes heterodoxas](pagina:12.5) | 7 | Tabelas-resumo de [12.5.1](pagina:12.5.1) a [12.5.7](pagina:12.5.7) |
 
-Quando a matriz tiver linhas suficientes, ela servirá para duas contas que a conclusão do painel usa: a proporção de proposições de cada classificação por grupo, que dá uma medida do alarme para a linha P9c, e a frequência com que cada jargão aparece, que diz quais ideias dominam o debate.
+O balanço do bloco entra nesta seção depois da revisão das três partes, com duas contas que a conclusão do painel usa: a proporção de proposições de cada classificação por grupo, que dá uma medida do alarme para a linha P9c, e a frequência com que cada jargão aparece, que diz quais ideias dominam o debate.
 
 ## Mapa dos jargões
 
-Os dez grupos de jargão do plano do bloco, com o que cada página vai testar e onde o painel já tem a evidência. Nenhum recebe classificação aqui; ela sai na página de cada jargão.
+Os dez grupos de jargão, com o que a página de cada um testa e onde está a evidência. A classificação de cada sentido do jargão está na página dele, e as páginas de pessoa remetem a ela.
 
-| Item | Jargão | O que será testado | Evidência no painel |
+| Item | Jargão | O que a página testa | Evidência no painel |
 |---|---|---|---|
 | [12.4.1](pagina:12.4.1) | "O Brasil vai quebrar", "a dívida é impagável" | O que "quebrar" quer dizer em cada uso (calote nominal, falha de rolagem, inflação alta, crise cambial) e se a trajetória da dívida aponta para algum deles | [3.1](pagina:3.1), [11.7](pagina:11.7), [7.7](pagina:7.7), [3.4](pagina:3.4) |
 | [12.4.2](pagina:12.4.2) | "Gastança", "o Estado gasta demais", "o governo é como uma família" | Quanto da alta da dívida veio do primário e quanto do juro, o tamanho do gasto contra o de pares, e o que muda na analogia doméstica quando o devedor emite a moeda em que deve | [3.2](pagina:3.2), [6.1.2](pagina:6.1.2), [11.2](pagina:11.2), [7.7](pagina:7.7) |
