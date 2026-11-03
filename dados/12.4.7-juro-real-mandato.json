@@ -1,0 +1,93 @@
+{
+  "titulo": "Juro real ex-post por mandato presidencial (% a.a.)",
+  "tipo": "barras",
+  "unidade": "% a.a.",
+  "fonte": "BCB, SGS 4390 (Selic acumulada no mês) e 433 (IPCA mensal); BIS, WS_CBPOL e WS_LONG_CPI; cálculo do painel (tools/analises/12.4.7_juro_mandato.py)",
+  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json",
+  "consulta": "2026-11-02",
+  "nota": "Brasil: Selic acumulada no mandato (SGS 4390) sobre o IPCA acumulado (SGS 433), anualizado. Dilma 2 vai de jan/2015 a abr/2016; Temer, de mai/2016 a dez/2018; Lula 3, de jan/2023 a set/2026. Emergentes: média simples de México, Chile, Colômbia, Índia e África do Sul na régua do BIS (taxa de política de fim de mês deflacionada pela inflação em 12 meses, média dos meses do mandato), a partir de jan/2000: FHC 2 cobre só 2000–2002 e FHC 1 fica sem dado. A régua do BIS dá ao Brasil valores próximos aos da série do BCB (10,0% em FHC 2; 8,2% em Lula 3).",
+  "series": [
+    {
+      "nome": "Brasil",
+      "pontos": [
+        {
+          "t": "FHC 1",
+          "v": 21.57
+        },
+        {
+          "t": "FHC 2",
+          "v": 10.19
+        },
+        {
+          "t": "Lula 1",
+          "v": 11.25
+        },
+        {
+          "t": "Lula 2",
+          "v": 5.57
+        },
+        {
+          "t": "Dilma 1",
+          "v": 3.42
+        },
+        {
+          "t": "Dilma 2",
+          "v": 2.58
+        },
+        {
+          "t": "Temer",
+          "v": 5.83
+        },
+        {
+          "t": "Bolsonaro",
+          "v": 0.17
+        },
+        {
+          "t": "Lula 3",
+          "v": 7.95
+        }
+      ]
+    },
+    {
+      "nome": "Média de cinco emergentes (BIS)",
+      "pontos": [
+        {
+          "t": "FHC 1",
+          "v": null
+        },
+        {
+          "t": "FHC 2",
+          "v": 3.07
+        },
+        {
+          "t": "Lula 1",
+          "v": 2.07
+        },
+        {
+          "t": "Lula 2",
+          "v": 1.05
+        },
+        {
+          "t": "Dilma 1",
+          "v": 0.54
+        },
+        {
+          "t": "Dilma 2",
+          "v": 0.37
+        },
+        {
+          "t": "Temer",
+          "v": 1.33
+        },
+        {
+          "t": "Bolsonaro",
+          "v": -0.4
+        },
+        {
+          "t": "Lula 3",
+          "v": 2.9
+        }
+      ]
+    }
+  ]
+}
