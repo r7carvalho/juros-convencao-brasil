@@ -1704,3 +1704,20 @@ Pendências:
 - 12.3: lista oficial dos premiados do Top 5 de 2025 no site do BCB (a página cita blog e diz isso). A comparação da dispersão do mercado com a das empresas (Firmus) saiu do texto da 12.3 e fica como pendência da 12.3.2.
 
 Achado do relatório não aplicado: o item 1 da página 12 pedia preencher a matriz com as contagens por grupo; por decisão do coordenador (`_divergencias.md`, parte A), a recontagem e a conclusão do bloco ficam para o item próprio depois das partes B e C. A página 12 diz que o balanço entra na seção da matriz.
+
+## 12.2: pendências após a revisão (03/11/2026)
+
+Correção do relatório `_revisao/12b.md`. Contagem nova do ramo, refeita por script nas tabelas-resumo: 146 proposições = 56 procedem / 70 procedem em parte / 5 não procedem / 15 falta evidência (antes 144 = 57 / 66 / 7 / 14). Por página: 12.2.1 17 = 7/8/0/2; 12.2.2 14 = 4/9/0/1; 12.2.3 17 = 8/6/1/2; 12.2.4 18 = 6/9/1/2; 12.2.5 17 = 7/9/0/1; 12.2.6 14 = 6/7/0/1; 12.2.7 18 = 6/6/3/3; 12.2.8 15 = 5/9/0/1; 12.2.9 16 = 7/7/0/2.
+
+Linhas da matriz pessoa × argumento × classificação que mudaram: Lisboa 4a (procede) e 4b nova (risco de crise severa, fala de risco, procede em parte); Mansueto 5a ("nenhum país", não procede) e 5b nova (superávit estabilizador grande e raro, procede), antigas 5b e 5c viram 5c e 5d; Salto 1c (74,5% da IFI) sai da contagem; Fraga 2a (procede em parte), 4c dividida em 4c (arcabouço, procede) e 4d ("UTI", procede em parte); Latif 1b e 5b (procede em parte); Schwartsman 4c (procede em parte), 4d (falta evidência, contrafactual), 5c (recessão, não procede); Mendes 4b (fala de risco, procede em parte).
+
+Pendências:
+- Recortes não conferidos passaram a paráfrase com link: os quatro de Pessôa, "Os investidores estão indo embora" (Lisboa), a fala da CNN de 03/02/2022 (Schwartsman; uma busca em 03/11/2026 não achou), o *Nexo* de 14/12/2021 e "Juros altos não caem do céu" (Mendes; uma busca não achou o *Nexo*), o *La Nación* (Giambiagi). Conferir no texto integral quando possível.
+- Coautor do texto de 16/10/2016 com Pessôa: a página diz "com um coautor"; confirmar se a assinatura é pública.
+- Datas aproximadas: Lisboa ao *Estadão* (reproduzida em 02/01/2023), InfoMoney (jan/2025) e Money Times (abr/2025); Latif InvestNews e Tribuna Online (jan–jul/2023), Market Makers (2023), TradeMap (2022); Pessôa no Money Times (ago/2026, dia não confirmado).
+- Eichengreen e Panizza (2016), "três episódios sem sobreposição com superávit de 5% por dez anos" (12.2.3, proposição 5b): não conferido no NBER WP 20316.
+- R$ 790 bi da *Exame* (Salto): matéria não localizada; segue como paráfrase coerente com os R$ 794,9 bi de Borges.
+- Extensão das filhas (T6): as nove seguem acima de 3.500 palavras de prosa; a correção cortou insinuações, metadiscurso e repetições pontuais, sem a poda de parágrafos repetidos entre páginas ($s^*$, 2003–2008), que fica para a passada de extensão do bloco.
+- "nesta rede" na lista do lint (T1): não aplicado, porque tools/ está fora da área.
+
+Achados de que o corretor discordou em parte: 12.2.2-5 e 12.2.8-2 sugeriam "não procede" para as falas de risco de Lisboa e de Mendes; pela régua da parte B (fala de risco se julga pela plausibilidade do mecanismo na data), as duas ficaram "procede em parte", com mecanismo plausível e magnitude não materializada. 12.2.6-1 sugeria fundir a 5b à 5a; ficou separada, em "procede em parte", para manter a granularidade dos dois lados.
