@@ -1721,3 +1721,10 @@ Pendências:
 - "nesta rede" na lista do lint (T1): não aplicado, porque tools/ está fora da área.
 
 Achados de que o corretor discordou em parte: 12.2.2-5 e 12.2.8-2 sugeriam "não procede" para as falas de risco de Lisboa e de Mendes; pela régua da parte B (fala de risco se julga pela plausibilidade do mecanismo na data), as duas ficaram "procede em parte", com mecanismo plausível e magnitude não materializada. 12.2.6-1 sugeria fundir a 5b à 5a; ficou separada, em "procede em parte", para manter a granularidade dos dois lados.
+
+## 12.4: pendências após a revisão (03/11/2026)
+
+- Rogério Marinho (12.4.3, Agora RN, dez/2024; 12.4.7, Poder360, fev/2023): fala e sentido confirmados por busca, texto e dia exato não conferidos (sites fora de alcance); ficam em paráfrase com o mês.
+- 12.4.8: juro real argentino de 2023 refeito com a Leliq acumulada (cerca de −16%); o degrau de 118% (14/08/2023) não apareceu na busca. Guedes no Primo Rico (02/03/2021) segue não verificado; "Jornal PP (2026)" sem dia.
+- Aspas não conferidas das 12.4.x viraram paráfrase; detalhes em conteudo/_revisao/12c-aplicacao-jargoes.md.
+- Extensão: só 12.4 e 12.4.1 perto do limite; as demais seguem entre 3.200 e 4.400 palavras sem o Para ler, depois do corte das repetições.
