@@ -1613,3 +1613,37 @@ Linhas para a matriz (jargão × sentido × classificação):
 | 12.4.8 | O Brasil não é e não vai virar a Argentina | Procede | Latif (2023); Reis (11/10/2024); Giambiagi (29/12/2024); Haddad (25/08/2026) |
 | 12.4.8 | Como o Brasil não é a Argentina, o juro pode cair | Procede em parte | Carvalho, Guzmán e Stiglitz (14/10/2026); Lula (mar/2023, sem citar a Argentina) |
 | 12.4.8 | Cortar gastos levaria o Brasil à pobreza da Argentina de Milei | Falta evidência | Lula (18/10/2026); Haddad (29/09/2026) |
+
+## 12.4i
+
+Página: 12.4.9 "Não existe almoço grátis e o arcabouço que não para em pé" (id 12.4.9, pai 12.4, ordem 9; cerca de 3.000 palavras de texto corrido até a classificação, com o quadro de exemplo; 4.840 pelo lint com links, tabelas, quadros e Para ler). Estado: 1ª versão. Sem gráfico novo: reusa `dados/11.6-meta-resultado-governo-central.json` (página dona 11.6). Uma tabela nova: meta de primário × juro real implícito que estabiliza a dívida, $r = \gamma + s(1+\gamma)/d$ com $d = 82{,}9\%$ (SGS 13762, set/2026) e $\gamma = 2\%$: 0,25% → 2,31%; 0,5% → 2,62%; 1,0% → 3,23%; 1,5% → 3,85%; 2,0% → 4,46%; 2,5% → 5,08%. Inverso: com $r$ de 6,7% (média 2023–2025) o $s^*$ é 3,82% do PIB; com 8,2% (prévia de 2026), 5,04%. Exemplo de brinquedo: Serra Alta (d = 80, r = 6%, γ = 2%; s* = 3,14; meta 0,5 → dívida +2,64 ao ano; com r = 3%, s* = 0,78 e +0,28 ao ano). Na página 12, o rótulo "12.4i" do mapa virou [12.4.9](pagina:12.4.9). As páginas de pessoa citam "12.4i" só como texto (12.1.1 a 12.1.6, 12.2.1 a 12.2.9), sem link para pagina:12, e ficaram como estavam (mesmo critério de 12.4a a 12.4h). Na 12.4, "o que o ramo mostra até aqui" passou a nove páginas (a 12.4h foi concluída em paralelo e já tinha posto "oito"), com um período novo no fim. PLANO.md: 12.4i marcado [x].
+
+Sentidos e estrutura: (a1) restrição orçamentária intertemporal; (a2) argumento contra o gasto ou contra cortar o juro, com os almoços que alguém paga (R$ 61,7 bi por ponto de Selic na DLSP; diferencial das reservas R$ 189,5 bi em 12 meses até set/2026 e R$ 19 bi por ponto, 10.3.6; isenções de LCI/LCA/CRI/CRA R$ 30 a 40 bi, 7.5; gastos tributários 4,43% do PIB em 2026, via 12.2.2; direcionado 43,9% e créditos do Tesouro ao BNDES de 8,58% do PIB em 2015, 7.9); (b1) previsão de que a regra cai; (b2) o que "parar em pé" quer dizer: critério formal (meta cumprida com exclusões em 2024 e 2025) × critério da dívida (71,7% → 82,9%); (c) "não para em pé por causa dos juros" (aritmética procede; causalidade em falta evidência); (d) almoço invertido, remetido a 12.4.10 e 12.5.7.
+
+Falas e usos (WebSearch em 03/11/2026; WebFetch não abre terra.com.br nem ft.com nesta rede):
+- Das páginas de pessoa: Giambiagi (Brazil Journal, 09/02/2023, recorte literal na 12.2.9; Abrapp, 20/08/2025; plano de fev/2026 e a Selic perto de 7%); Amorim (Diário do Comércio, nov/2022; link no texto retirado porque a URL contém palavra vetada pelo lint, fica na 12.1.5); Tiago Reis (Suno, 11/10/2024); Mendes (Money Times, mar/2023; CNN Brasil, 17/08/2026; BPMoney, nov/2026, o "abridor de latas"); Fraga (Exame, 27/04/2023); Latif (Seu Dinheiro, 2023, citada só pela 12.2.6); Schwartsman (Estadão via Tribuna do Norte, nov/2023); Salto (Brazil Economy, mai/2025); Lisboa (Correio Braziliense, nov/2025); Oreiro (Brasil de Fato, 30/09/2025); Lara Resende (25/09/2026); Mansueto e Pessôa pelas contas das propostas.
+- Novas: Joaquim Levy, perguntas no Facebook, 09/01/2015, "não existe almoço grátis" (Terra; só paráfrase, a página não foi aberta); Haddad à BandNews, 06/04/2023, o arcabouço "exige" a queda do juro, recorte "Se as contas estiverem em ordem não tem porque existir juros tão altos" (Seu Dinheiro, pelo trecho da busca); Gabriel Leal de Barros (ARX, ex-diretor da IFI), Money Times, julho de 2026 pela busca (a matéria aparecia com "cerca de 101 dias" em 03/11/2026), "a regra menos bem-sucedida da história" e recorte "a todo momento contornando a regra"; Bruno Funchal na mesma matéria; Agência Brasil, cerca de 12/05/2026, economistas da UFF, UFRJ e UnB: juros pressionam a dívida mais que o gasto; Dilma Rousseff ao Financial Times, 02/10/2012, Brasil como "último almoço grátis" dos bancos (paráfrase do relato do FT pelo trecho da busca; Selic então em 7,5%).
+
+Descartados: artigo de blog do Brasil 247 "Almoço grátis de bilhões para banqueiros e financistas" (autor e data não confirmados); Pastore (InfoMoney, 2023, "alta brutal da carga tributária") e IFI (2023, descumprimento em 4 de 6 simulações), por extensão; Selene Nunes (Brasil Agro, 2026), texto de opinião com dados não conferidos; Luccas Saqueto (GO Associados, CNN Brasil), sem data confirmada; Bloomberg Línea (05/11/2024), uso sobre os EUA; usos de "almoço grátis" no debate da escala 6x1 (fora do tema). Nenhuma busca achou a frase literal "o arcabouço não para em pé" com autor e data: a página diz isso no texto e usa as variantes (Mendes "bonitinho", Fraga "grande fiasco", Schwartsman "desfeito antes de começar", Lisboa "já nasceu morto", Barros "menos bem-sucedida").
+
+Lacunas:
+- A tabela meta × juro compara meta do governo central com dívida do governo geral (mesma aproximação da 11.6).
+- O efeito de um ajuste sobre o juro (a pergunta causal da variante c) não tem estimativa no painel além do prêmio da IFI (11.5) e das janelas de evento (6.1.1).
+- O custo fiscal atual do direcionado e da equalização do Plano Safra não foi medido (7.9 só dá o estoque do Tesouro no BNDES).
+
+Números que divergem: nenhum. R$ 61,7 bi por ponto (DLSP, BCB) como em _divergencias nº 27; primário estabilizador 2,9% a 3,4%; déficit consolidado 0,52% (set/2026); r − g real +3,3 (2023–2025) e +5,9 (prévia 2026), nominal +3,5 e +6,2, como na 11.7.
+
+Linhas para a matriz (jargão × sentido × classificação):
+
+| Jargão | Sentido | Classificação | Quem usou (exemplo) |
+|---|---|---|---|
+| 12.4.9 | Com juro acima do crescimento, o gasto pago com dívida exige superávit depois | Procede | Levy (09/01/2015); Amorim (nov/2022) |
+| 12.4.9 | Só o gasto primário tem custo; o juro alto é a opção sem preço | Não procede | Reis (11/10/2024), na forma dos "dois caminhos" |
+| 12.4.9 | Cortar o juro sem ajuste custaria mais do que pouparia | Falta evidência | Giambiagi (09/02/2023); Mendes (nov/2026) |
+| 12.4.9 | O arcabouço seria refeito ou contornado | Procede em parte | Schwartsman (nov/2023); Giambiagi (20/08/2025); Barros (jul/2026) |
+| 12.4.9 | O arcabouço não consegue ser cumprido (meta formal) | Não procede para 2024 e 2025 | Lisboa (nov/2025), na leitura literal |
+| 12.4.9 | O arcabouço não estabiliza a dívida | Procede | Mendes (mar/2023 e 17/08/2026); Fraga (27/04/2023); Salto (mai/2025) |
+| 12.4.9 | Com o juro real atual, nenhuma meta plausível estabiliza a dívida | Procede | Oreiro (30/09/2025); Lara Resende (25/09/2026); contas de Pessôa, Mansueto, Salto, Giambiagi |
+| 12.4.9 | O juro, e não o primário, é a causa do fracasso da regra | Falta evidência | Haddad (06/04/2023), na forma "o arcabouço exige a queda do juro"; Agência Brasil (mai/2026) |
+| 12.4.9 | O juro alto transfere renda pública aos credores | Procede | Bresser-Pereira (13/06/2023) |
+| 12.4.9 | O juro alto é almoço grátis dos credores, mantido em favor deles | Falta evidência | Dilma Rousseff (02/10/2012, sobre o spread bancário); Bresser-Pereira (13/06/2023) |

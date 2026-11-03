@@ -33,6 +33,8 @@ def checar(path):
     palavras = len(re.findall(r"\w+", corpo))
     trav = len(re.findall(r"\s—\s", sem_cit))
     achados = []
+    sem_cit = re.sub(r"\]\([^)]*\)", "]", sem_cit)  # URLs e títulos de links não contam
+    sem_cit = re.sub(r"https?://\S+", "", sem_cit)
     low = sem_cit.lower()
     for v in VETADAS:
         n = len(re.findall(r"\b" + re.escape(v), low))
