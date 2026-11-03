@@ -233,7 +233,7 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.2a Mídia e academia: Samuel Pessôa
 - [x] 12.2b Mídia e academia: Marcos Lisboa (confirmar identidade)
 - [x] 12.2c1 Mídia e academia: Mansueto Almeida
-- [ ] 12.2c2 Mídia e academia: Felipe Salto
+- [x] 12.2c2 Mídia e academia: Felipe Salto
 - [ ] 12.2c3 Mídia e academia: Armínio Fraga
 - [ ] 12.2c4 Mídia e academia: Zeina Latif
 - [ ] 12.2c5 Mídia e academia: Alexandre Schwartsman
@@ -258,7 +258,7 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.5e André Roncaglia
 - [x] 12.5f Eduardo Moreira: página no ramo 12.1 (12.1.7)
 - [ ] 12.5g José Luis Oreiro
-- [ ] 12.5h Luiz Carlos Bresser-Pereira
+- [x] 12.5h Luiz Carlos Bresser-Pereira
 - [ ] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala
 
 ## 8–9. Conclusão e apoio
