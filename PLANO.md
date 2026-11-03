@@ -259,14 +259,15 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.5f Eduardo Moreira: página no ramo 12.1 (12.1.7)
 - [x] 12.5g José Luis Oreiro
 - [x] 12.5h Luiz Carlos Bresser-Pereira
-- [ ] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala
+- [x] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala (03/11/2026: relatórios 12a, 12b, 12c; correções aplicadas; conclusão do bloco na página 12 a seguir)
 
 ## 8–9. Conclusão e apoio
 
 A conclusão (8.1 e 8.2) só se escreve depois dos blocos 10, 11 e 12, porque a matriz final incorpora
 os argumentos deles.
 
-- [x] 8.1 Matriz tese × evidência × força, item por item (1ª versão em 02/11/2026; refazer depois dos blocos 10 a 12)
+- [ ] 8.1 Matriz tese × evidência × força, item por item (1ª versão em 02/11/2026; refazer depois dos blocos 10 a 12)
+- [ ] 12.C Conclusão do bloco 12 na página 12: balanço das classificações e matriz pessoa × argumento
 - [x] 8.2 Direção de conclusão, com o grau de confiança declarado
 - [x] 9.1 Glossário
 - [x] 9.2 Linha do tempo 1980–2026 (planos, regimes, Selic, inflação, crises)
