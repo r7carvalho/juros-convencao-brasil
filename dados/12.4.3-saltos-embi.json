@@ -1,0 +1,117 @@
+{
+ "titulo": "Os 12 maiores saltos do risco-país em 20 dias úteis e a variação no ano seguinte (pontos-base)",
+ "tipo": "barras",
+ "unidade": "pontos-base",
+ "fonte": "JP Morgan, EMBI+ Brasil, série diária via Ipeadata (JPM366_EMBI366); cálculo do painel",
+ "url": "http://www.ipeadata.gov.br/ExibeSerie.aspx?serid=40940&module=M",
+ "consulta": "2026-11-02",
+ "nota": "Saltos de 20 dias úteis desde 01/03/1999, separados por pelo menos 60 dias úteis; o rótulo é o mês em que o salto terminou. A segunda barra é a variação nos 250 dias úteis seguintes: abaixo de menos o salto, o risco-país ficou abaixo do nível de antes do salto. A série do Ipeadata termina em 30/07/2024. Script: tools/analises/12.4.3_reversao.py.",
+ "series": [
+  {
+   "nome": "Salto em 20 dias úteis",
+   "pontos": [
+    {
+     "t": "05/1999",
+     "v": 241
+    },
+    {
+     "t": "04/2000",
+     "v": 154
+    },
+    {
+     "t": "07/2001",
+     "v": 186
+    },
+    {
+     "t": "10/2001",
+     "v": 288
+    },
+    {
+     "t": "01/2002",
+     "v": 160
+    },
+    {
+     "t": "06/2002",
+     "v": 730
+    },
+    {
+     "t": "09/2002",
+     "v": 810
+    },
+    {
+     "t": "05/2004",
+     "v": 265
+    },
+    {
+     "t": "10/2008",
+     "v": 392
+    },
+    {
+     "t": "09/2015",
+     "v": 149
+    },
+    {
+     "t": "12/2015",
+     "v": 148
+    },
+    {
+     "t": "03/2020",
+     "v": 272
+    }
+   ]
+  },
+  {
+   "nome": "Variação nos 250 dias úteis seguintes",
+   "pontos": [
+    {
+     "t": "05/1999",
+     "v": -303
+    },
+    {
+     "t": "04/2000",
+     "v": -23
+    },
+    {
+     "t": "07/2001",
+     "v": 499
+    },
+    {
+     "t": "10/2001",
+     "v": 957
+    },
+    {
+     "t": "01/2002",
+     "v": 322
+    },
+    {
+     "t": "06/2002",
+     "v": -1013
+    },
+    {
+     "t": "09/2002",
+     "v": -1783
+    },
+    {
+     "t": "05/2004",
+     "v": -362
+    },
+    {
+     "t": "10/2008",
+     "v": -482
+    },
+    {
+     "t": "09/2015",
+     "v": -158
+    },
+    {
+     "t": "12/2015",
+     "v": -211
+    },
+    {
+     "t": "03/2020",
+     "v": -161
+    }
+   ]
+  }
+ ]
+}

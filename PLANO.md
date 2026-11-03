@@ -257,7 +257,7 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.5d Laura Carvalho
 - [ ] 12.5e André Roncaglia
 - [x] 12.5f Eduardo Moreira: página no ramo 12.1 (12.1.7)
-- [ ] 12.5g José Luis Oreiro
+- [x] 12.5g José Luis Oreiro
 - [x] 12.5h Luiz Carlos Bresser-Pereira
 - [ ] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala
 

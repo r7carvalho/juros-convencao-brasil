@@ -895,3 +895,48 @@ Lacunas:
 - O artigo de 2019 (Novos Estudos) foi resumido pelo resumo e por comentários; o texto integral no SciELO não abriu.
 
 Números que divergem de outras páginas: nenhum. Novos no bloco: Focus IPCA 2025 em 30/12/2022, 10/02/2023, 31/03/2023 e 04/08/2023 (3,25; 3,6; 4,0; 3,5); Focus de 06/12/2024 (4,59; 4,0; 3,575); Focus PIB 2027 em 24/07/2026 (1,6) e 23/10/2026 (1,3145); PTAX de 09, 10 e 17/11/2022; IBC-Br de mai a ago/2026; PIB do 2T2026 (SIDRA 5932). Copiados: SGS 13762, 5793, 432, 13522; série de juro real de 2.1; 6.1.2; 6.4; 3.2; 11.6; 11.7; 12.2.2 (gastos tributários).
+
+## 12.5g
+
+Página entregue: `conteudo/12-vozes/12.5.6-jose-luis-oreiro.md` (id 12.5.6, pai 12.5, ordem 6, 1ª versão). Cerca de 3.450 palavras de prosa sem tabela-resumo, citação em bloco, fórmula e "Para ler"; o `tools/lint.py` conta 5,6 mil tokens no corpo inteiro, sem travessão, sem "não é X, é Y" e sem palavra vetada. `build.py --check` sem erro. Na 12.5 foi atualizado só o parágrafo de Oreiro. PLANO.md: 12.5g marcado [x].
+
+Identidade: confirmada. Professor do Departamento de Economia e do PPGECO da UnB (página do PPGECO), pesquisador do CNPq, doutor pelo IE-UFRJ em 2000 com orientação de Fernando Cardim de Carvalho (RePEc Genealogy). Coautor de *Developmental Macroeconomics* (2015) e autor de *Macroeconomia do desenvolvimento: uma perspectiva keynesiana* (LTC, 2016, prefácio de Bresser-Pereira). Uma bio de 2006 o dá na UFPR (chefe do CEPEC); não entrou por falta de link firme. Presidência da Associação Keynesiana Brasileira não confirmada; não entrou. Relação com o mercado: nenhuma localizada (servidor federal).
+
+Rede: jlcoreiro.wordpress.com, joseluisoreiro.substack.com, red.org.br, fundacaoastrojildo.org.br, horadopovo.com.br, brasil247.com, brasildefato.com.br, timesbrasil.com.br e tjsauditores.com.br não resolvem (WebFetch sem DNS). Tudo veio de trechos da busca. Recortes entre aspas só dois: Hora do Povo 19/06/2020 ("o que implicaria nas condições atuais de uma Selic de 1% ao ano e não de 2,25 ao ano") e Hora do Povo 23/03/2023 ("Os sinais de recessão na economia brasileira se acumulam a cada dia."), ambos reproduzidos no blog do autor; mais "fanatismo monetário" e "voluntarismo ingênuo" (duas palavras cada) e "a anomalia da Selic" (título). A 12.R deve conferi-los.
+
+Falas usadas (sete, dezoito proposições):
+1. Hora do Povo, 19/06/2020 (reproduzida no blog, categoria política monetária): Selic deveria ser 1%, juro real zero; juro real não estaria negativo. 1a não procede (Focus 12m de 19/06/2020 = 3,22%, ex-ante ≈ −0,9%; Focus para o ano de 2020 na mesma data = 1,61%; IPCA 12m até jun/2021 = 8,35%; ex-post −1,69% em 2020 e −5,11% em 2021); 1b falta evidência (dólar +29% em 2020, PTAX 4,0307 → 5,1967; IPCA 10,06% em 2021).
+2. RPD, 17/04/2021, "O retorno do dilema juros-câmbio?"; entrevista ao Hora do Povo republicada em GEN Negócios & Gestão, 24/05/2021; coluna de Pedro Cafardo, Valor, 26/04/2022 (blog, 27/04/2022). 2a procede; 2b não procede; 2c procede em parte (câmbio real efetivo 144,6 → 128,6 → 121,7 em 2021–2023, SGS 11752; transformação 12,0% em 2019 e 13,7% em 2025, volume parado).
+3. Hora do Povo, 23/03/2023 (blog, tag "Erros do Banco Central do Brasil"): decisão "absurda", recessão, CMN para meta de 2023 de pelo menos 4%. 3a procede em parte (Focus 12m de 17/03/2023 = 5,55%); 3b não procede (PIB 2,9%/3,2%).
+4. Portal Vermelho, 25/09/2024; carta aberta no blog, 19/10/2024. 4a não procede (IPCA 12m acima de 4,5% de dez/2024 a out/2025, onze meses; Focus 12m de 20/09/2024 = 4,14%); 4b procede em parte (IPCA de dezembro, média de 6,36% em 1999–2023; mediana 5,91%; geométrica 6,34%).
+5. Brasil de Fato, 30/09/2025 (R$ 56 bi por ponto); Portal Vermelho, 11/11/2025; Substack, 28/10/2026, "O mito do desequilíbrio fiscal e a taxa de juros" (Mundell-Fleming). 5a procede; 5b procede em parte; 5c procede em parte (IPCA 4,68% out/2025 → 3,81% fev/2026 → 4,72% mai/2026).
+6. RED, jun/2026, "Dissecando os detalhes técnicos da última decisão do Copom" (Selic de 14,25% no texto; data exata não confirmada); Substack, "A capitulação do Banco Central" (escrito com Selic em 14%, entre 06/08 e 17/09/2026; mediana IBRE ~11,5%, distância 3 a 3,5 pontos); Substack, "A ilusão do estado da arte" (2026, data exata não confirmada). 6a falta evidência; 6b procede; 6c procede em parte.
+7. Substack, 01/11/2026 (data pelo Brasil 247: "publicado neste domingo (1º)"), "A proposta de Lara Resende para 'tabelar' a Selic"; Substack, 02/11/2026, "A amnésia citacional da Ilha da Fantasia"; Substack, "André Lara Resende, o BCE e a 'descoberta da pólvora'" (sem data confirmada; republicado no Brasil 247). 7a procede; 7b procede em parte; 7c falta evidência.
+
+Falas descartadas:
+- "Oreiro diz que é idiotice de Campos Neto botar a culpa dos juros altos no BB, CEF e BNDES" (Hora do Povo): sem data e com termo pejorativo.
+- "São juros altos que geram um profundo desequilíbrio fiscal" (Hora do Povo, com Selic de 10,5%, provavelmente 2024): sem data; coberta pela fala 5. Idem "Por quem os juros dobram no Brasil?" (REDEPP, 2024).
+- Entrevista à TV 247 (set/2024): sem trecho.
+- "O enigma brasileiro e a captura rentista" (Substack, 28/08/2026): trata de PEC do BC e choque comercial; fora do foco. Mostra que Oreiro também usa a linguagem da captura rentista (ligação com Bresser-Pereira, 2b).
+- "O comportamento anômalo dos juros futuros" (RED), "A armadilha monetária, a taxa de câmbio..." (Substack): sem data.
+- Post de 14/05/2025 no blog ("Análise das críticas de José Luis Oreiro..."): relatório gerado por ferramenta de IA a pedido do autor; não é fala dele. Daí vinham a crítica ao IPCA cheio (núcleo) e a banda de 3,75% a 5,25%, que não entraram.
+- Times Brasil ("'Muito ruim', 'ridícula' e 'voluntarismo ingênuo'"): sem data; a fala 7 usa o próprio Substack.
+- Substack de terceiro ("A fé dos mercados e o Banco Central de Galípolo") diz que Oreiro tende a superestimar a inflação: não verificado, fora.
+
+Linhas para a matriz pessoa × argumento × classificação da página 12:
+| José Luis Oreiro | Heterodoxos | Hora do Povo, 19/06/2020 | O juro real não estava negativo; cabia Selic de 1% | | Não procede; falta evidência | Paridade, dilema juros-câmbio | 2.1, 4.2, 6.2.1 |
+| José Luis Oreiro | Heterodoxos | RPD, 17/04/2021; 24/05/2021; Valor, 26/04/2022 | Inflação de 2021 era choque de oferta; alta de juro é equívoco; o aperto age pelo câmbio à custa da indústria | P9a, P4a | Procede; não procede; procede em parte | Novo-desenvolvimentismo | 4.2, 6.2.2, 5.4.2 |
+| José Luis Oreiro | Heterodoxos | Hora do Povo, 23/03/2023 | Selic de 13,75% acima do que a inflação pedia; recessão à vista | P4a | Procede em parte; não procede | Regra de Taylor | 10.2.5, 12.3.1 |
+| José Luis Oreiro | Heterodoxos | Vermelho, 25/09/2024; carta, 19/10/2024 | Alta de 2024 injustificada; meta de 3% irrealista | | Não procede; procede em parte | Meta de inflação | 4.4, 6.1.1, 7.1, 10.1.2 |
+| José Luis Oreiro | Heterodoxos | Brasil de Fato, 30/09/2025; Vermelho, 11/11/2025; Substack, 28/10/2026 | O juro move a dívida (R$ 56 bi por ponto); déficit não eleva o juro de equilíbrio em economia aberta; Selic de 15% era excesso de conservadorismo | P7a, P7b, O1b | Procede; procede em parte; procede em parte | Mundell-Fleming, aritmética da dívida | 3.2, 2.4, 6.3.2, 6.1.1, 10.2.5 |
+| José Luis Oreiro | Heterodoxos | RED, jun/2026; Substack, ago–set/2026 | Hiato do BC é artefato; Selic 3 a 3,5 pontos acima das regras de Taylor; neutro é ficção de modelo | P2 | Falta evidência; procede; procede em parte | Regra de Taylor, neutro | 10.2.5, 2.3, 6.3.2, 4.4 |
+| José Luis Oreiro | Heterodoxos | Substack, 01 e 02/11/2026 | Hidráulica não baixa o juro; LFT tira potência; corte a 7,5% sem controles leva a crise cambial | P4b, O4 | Procede; procede em parte; falta evidência | Paridade, LFT | 7.4, 2.4, 10.5, 6.2.1, 7.8, 10.3.6 |
+
+Contagem: 18 proposições, 4 procedem, 7 procedem em parte, 4 não procedem, 3 falta evidência.
+
+Lacunas:
+- Nenhum texto integral aberto; datas exatas de "Dissecando" (RED), "A capitulação", "A ilusão do estado da arte" e "Descoberta da pólvora" a confirmar. As notas do bloco 7 dizem que os dois textos de 2026 sobre Lara Resende ficaram "sem data registrada"; esta página dá 01/11/2026 ao primeiro, pelo Brasil 247. A 7.8 e a 7.4 podem acrescentar a data na revisão.
+- Hora do Povo e Valor só por reprodução no blog do autor.
+- Alcance sem medida de audiência.
+
+Números que divergem de outras páginas: nenhum. Copiados de 2.1, 2.3, 2.4, 3.2, 4.2, 4.4, 5.4.2, 6.1.1, 6.3.2, 7.1, 7.7, 10.1.2, 10.2.5 e 12.3.1. Novos (cálculo do painel, dados/brutos, coleta de 02/11/2026): Focus IPCA 12m (mediana, não suavizada, base 0) de 19/06/2020 = 3,22, 17/03/2023 = 5,55, 20/09/2024 = 4,14; PTAX 4,0307 (31/12/2019) e 5,1967 (31/12/2020); IPCA de dezembro, média de 6,36% em 1999–2023. O número de Oreiro (R$ 56 bi por ponto) fica entre os R$ 49 bi (DPF) e R$ 61,7 bi (DLSP) da 2.4.
