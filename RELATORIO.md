@@ -25,7 +25,7 @@ monetária, 11 finanças públicas, 12 vozes do debate). Todos os itens do `PLAN
 | 11 Finanças públicas | 9 | 33.900 | revisadas |
 | 12 Vozes do debate | 41 | 164.700 | revisadas (23 pessoas, 10 jargões, 2 páginas do mercado, ramos e conclusão do bloco) |
 
-O contraponto ortodoxo (área 6, mais as linhas O1 a O6 da matriz e os ramos ortodoxos do bloco 12)
+O contraponto ortodoxo (área 6, mais as linhas O1 a O8 da matriz e os ramos ortodoxos do bloco 12)
 tem extensão comparável à da tese em teste, como o briefing pede.
 
 **Revisão independente.** Cada área de 1 a 7, a 9, a 10, a 11, o bloco 12 (em três partes) e a conclusão com a página inicial (8, 8.1, 0, 0.1) foi lida
