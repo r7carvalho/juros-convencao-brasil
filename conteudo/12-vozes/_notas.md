@@ -1728,3 +1728,60 @@ Achados de que o corretor discordou em parte: 12.2.2-5 e 12.2.8-2 sugeriam "não
 - 12.4.8: juro real argentino de 2023 refeito com a Leliq acumulada (cerca de −16%); o degrau de 118% (14/08/2023) não apareceu na busca. Guedes no Primo Rico (02/03/2021) segue não verificado; "Jornal PP (2026)" sem dia.
 - Aspas não conferidas das 12.4.x viraram paráfrase; detalhes em conteudo/_revisao/12c-aplicacao-jargoes.md.
 - Extensão: só 12.4 e 12.4.1 perto do limite; as demais seguem entre 3.200 e 4.400 palavras sem o Para ler, depois do corte das repetições.
+
+## 12.C
+
+Conclusão do bloco na página 12 (`conteudo/12-vozes/12-vozes-do-debate.md`, id 12, estado revisada). O lint conta cerca de 8.760 palavras, das quais boa parte nas quatro tabelas da matriz; sem travessão, sem "não é X, é Y", sem palavra vetada. `build.py --check` sem erro nem aviso.
+
+O que mudou na página:
+- Resumo novo, com o balanço e a conclusão em uma frase cada.
+- Parágrafo sobre a 8.1 reescrito sem a classificação antiga da P9c e da P8b e sem "ainda não tinha medido"; liga à conclusão por âncora.
+- Régua: novo parágrafo com as regras da parte C (intenção e contrafactual não medido em "falta evidência"; mesmo recorte nos dois lados; equilíbrio político nos jargões). As regras de perguntas, títulos, falas de risco, previsões, mesma palavra e evidência que não isola ficaram.
+- Estrutura: a frase de que o ramo 12.3 testaria "relatórios assinados" saiu (o ramo compara a mediana do Focus com o realizado e mede a dispersão; não há teste de relatório assinado).
+- Mapa dos jargões passou para antes do balanço e ganhou a coluna com as classificações por página de jargão.
+- Seções novas: "Balanço das classificações" (tabela por ramo, com porcentagens, e a conta por escola com Moreira entre os críticos), caixa `:::nota` com a ressalva de método, "Matriz pessoa × argumento × classificação" (quatro tabelas, 21 linhas, 271 das 387 proposições de pessoa), "O que o bloco conclui" (o que os dois lados acertam; onde cada lado vai além da evidência, com cerca de 215 palavras cada; tabela tese × fato × vozes × leitura do painel para P7a, O1a/O1b, P3, P10, P9c e P8b) e `:::painel` refeito.
+- Saíram a frase "O balanço do bloco entra nesta seção depois da revisão das três partes" e a caixa `:::painel` antiga, que anunciava a procura dos rastros.
+
+Contagem conferida por script nas tabelas-resumo (coluna Classificação; a "procede em parte (…)" conta como em parte):
+- 12.1: 113 = 54/39/4/16 (o balanço em `_divergencias` dizia 112 = 54/39/4/15; erro de soma, porque as contagens por página das pendências da 12a já somavam 113 e 16). Registrado em `_divergencias.md`, seção do item 12.C.
+- 12.2: 146 = 56/70/5/15; 12.5: 128 = 43/53/13/19; 12.4: 113 = 28/33/35/17 (12.4.1 6 = 1/2/2/1; 12.4.2 10 = 5/2/2/1; 12.4.3 10 = 2/4/3/1; 12.4.4 12 = 2/5/4/1; 12.4.5 14 = 3/5/3/3; 12.4.6 12 = 2/4/5/1; 12.4.7 14 = 4/2/5/3; 12.4.8 11 = 1/3/5/2; 12.4.9 10 = 4/1/2/3; 12.4.10 14 = 4/5/4/1). Todos conferem com o balanço.
+
+Matriz: montada a partir das tabelas-resumo das 23 páginas (a versão válida, depois da revisão), e não das linhas preparadas nas seções 12.1a a 12.5h acima, que ficaram com classificações antigas em vários itens. A coluna "Jargão" das tabelas-resumo está preenchida de modo desigual (225 das 387 proposições sem link de jargão), por isso o agrupamento por argumento foi feito à mão, proposição por proposição, e as classificações vieram do script. Cada proposição entra em uma só linha. Ficaram fora 116 proposições próprias de uma pessoa (números citados, educação financeira, previsões sobre um ativo, medidas específicas como a MP 1.303).
+
+Linhas da matriz (procede / em parte / não procede / falta evidência):
+| Linha | Total | Contagem |
+|---|---|---|
+| A dívida não se estabiliza com o juro e o primário de hoje | 15 | 13/2/0/0 |
+| Quebra ou crise fiscal (quem afirma e quem recusa) | 14 | 4/6/2/2 |
+| O gasto cresce acima da economia e é rígido | 16 | 9/7/0/0 |
+| A alta recente da dívida é obra do gasto | 6 | 2/4/0/0 |
+| O juro é o motor da dívida; custo da Selic | 20 | 16/4/0/0 |
+| O arcabouço ou o teto não estabiliza a dívida | 15 | 11/4/0/0 |
+| O ajuste tem de vir do gasto | 16 | 1/14/0/1 |
+| O juro é alto por causa do fiscal | 22 | 1/21/0/0 |
+| O mercado reage ao fiscal | 27 | 6/16/1/4 |
+| Neutro e desancoragem | 13 | 1/8/0/4 |
+| A dívida tira força da política monetária | 6 | 0/6/0/0 |
+| Moeda e inflação | 10 | 4/5/1/0 |
+| Troca no comando do BC | 3 | 2/0/1/0 |
+| Picos de inflação de oferta | 6 | 5/1/0/0 |
+| Espaço para juro menor / juro não contém a inflação | 17 | 0/7/9/1 |
+| Previsões da Selic | 18 | 11/3/3/1 |
+| Recessão | 12 | 0/2/3/7 |
+| Focus exagera ou foi manipulado | 7 | 2/2/2/1 |
+| Juro real acima do normal e dos pares | 11 | 9/2/0/0 |
+| Dívida como ativo e renda dos credores | 7 | 4/3/0/0 |
+| BC a serviço dos credores (intenção) | 10 | 1/0/0/9 |
+| Total | 271 | 102/117/22/30 |
+
+Conclusões do bloco (para a 8.1 e a 0.x):
+1. Os números resistem melhor que as explicações nos dois lados: aritmética da dívida, juro real acima dos pares, custo da Selic na dívida e reação dos preços ao fiscal procedem na grande maioria das falas.
+2. O lado do ajuste fiscal vai além da evidência ao atribuir ao gasto a alta recente da dívida e o nível do juro (21 de 22 em parte) e ao propor ajustes que só fecham com juro real menor (14 de 16 em parte).
+3. O lado crítico vai além nas leituras de conjuntura com a inflação subindo (10 dos 13 "não procede" heterodoxos) e ao passar da renda dos credores à intenção (9 de 10 em falta evidência); as acusações ao Focus não procedem.
+4. Teses: reforça P7a e O1a; não dá base a O1b nem a P8b; confirma a P10 contra na forma forte e devolve a forma fraca (consenso ancorado no presente) à P3; P3 ganha só rastros indiretos. P9c: o alarme de quebra mora em títulos e jargões; nenhuma previsão de recessão procedeu, nos dois lados.
+
+Pendências:
+- Caixa `:::painel` da 12.1: trocar "112 … 15 ficam em falta evidência" por 113 e 16 (fora do escopo do 12.C).
+- Linhas de matriz das seções 12.1a a 12.5h e da tabela da 12.4j nestas notas seguem com classificações antigas; a matriz válida é a da página 12.
+- A coluna "Jargão" das tabelas-resumo das páginas de pessoa poderia ser completada com o agrupamento da matriz (por exemplo, as proposições do juro como motor da dívida e as de conjuntura sem link de jargão).
+- A 8.1 e a 0.x devem usar a contagem desta seção e de `_divergencias.md` (item 12.C), não a de antes da revisão.

@@ -2,9 +2,9 @@
   "titulo": "Apoio da evidência a cada proposição (direção × força)",
   "tipo": "barrash",
   "unidade": "escala de −3 a +3",
-  "fonte": "Matriz do painel, a partir das páginas 1 a 7 e 10; critérios da página de método (9.1)",
-  "consulta": "2026-11-02",
-  "nota": "Valor = direção × força: +1 a favor, −1 contra, 0 mista; força 3 forte, 2 moderada, 1 fraca. Barra positiva indica apoio à proposição da linha; nas linhas O, apoio à leitura ortodoxa. Proposição mista fica em zero qualquer que seja a força (a tabela da página mostra a força). Classificação de 1ª versão, sujeita a revisão.",
+  "fonte": "Matriz do painel, a partir das áreas 1 a 7 e dos blocos 10 a 12; critérios da página de método (9.1)",
+  "consulta": "2026-11-03",
+  "nota": "Valor = direção × força: +1 a favor, −1 contra, 0 mista; força 3 forte, 2 moderada, 1 fraca. Barra positiva indica apoio à proposição da linha; nas linhas O, apoio à leitura ortodoxa. Proposição mista fica em zero qualquer que seja a força (a tabela da página mostra a força). Classificação de 03/11/2026.",
   "series": [
     {
       "nome": "Apoio",
@@ -54,8 +54,12 @@
           "v": 3
         },
         {
-          "t": "P7b Dívida, prêmio e juro (mista)",
-          "v": 0
+          "t": "P7b Dívida realimenta o prêmio",
+          "v": 2
+        },
+        {
+          "t": "P7c Dominância fiscal ativa",
+          "v": -2
         },
         {
           "t": "P8a Credores recebem renda grande",
@@ -82,6 +86,10 @@
           "v": -3
         },
         {
+          "t": "P11 Projeções erram juntas",
+          "v": 2
+        },
+        {
           "t": "O1a Fiscal move as oscilações",
           "v": 3
         },
@@ -103,6 +111,14 @@
         },
         {
           "t": "O4 Não cortar sem âncora fiscal",
+          "v": 2
+        },
+        {
+          "t": "O5 Dívida sem estabilizar",
+          "v": 3
+        },
+        {
+          "t": "O6 Primário deixou de reagir",
           "v": 2
         }
       ]
