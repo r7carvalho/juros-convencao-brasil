@@ -759,3 +759,51 @@ Lacunas:
 - O mês de entrada na Warren e se a coluna do Estadão continua.
 
 Números que divergem de outras páginas: nenhum. Novos no bloco: déficit do governo central de 2024 e 2025 em proporção do PIB (0,39% e 0,46%, conta do painel com os R$ 45,4 bi e R$ 58,7 bi da 11.6 sobre a SGS 4382); Focus de 15/03/2023 (Selic 2023 12,75, Selic 2024 10,0, PIB 2023 0,88, IPCA 2024 4,04); caixa do Tesouro em reais (13,5% × R$ 13,40 tri ≈ R$ 1,8 tri). Copiados: SGS 13762, 5727, 5793, 432 e 13522; teto e arcabouço (11.6); s* (3.1); r − g (11.7); prêmio da IFI (11.5); 3.2; 3.4; 6.1.1; 7.7.
+
+## 12.5h
+
+Página entregue: `conteudo/12-vozes/12.5.7-bresser-pereira.md` (id 12.5.7, pai 12.5, ordem 7, 1ª versão). Cerca de 3.490 palavras de prosa sem tabela-resumo, citações em bloco, fórmula e "Para ler"; o `tools/lint.py` conta 5.3 mil tokens no corpo inteiro, sem travessão, sem "não é X, é Y" e sem palavra vetada. `build.py --check` sem erro. Na 12.5 foi atualizado só o parágrafo de Bresser-Pereira. PLANO.md: 12.5h marcado [x].
+
+Identidade: confirmada. Nascido em São Paulo em 1934, professor da FGV desde 1959 e emérito (biografia de uma página no site do autor; Pesquisa Fapesp, edição 360, fev/2026); ministro da Fazenda de abril a dezembro de 1987, da Administração Federal e Reforma do Estado de 1995 a 1998 e da Ciência e Tecnologia em 1999; fundador (1981) e editor da *Revista de Economia Política*/*Brazilian Journal of Political Economy* (SciELO). Relação com o mercado: o *Valor* de 20/10/2009 noticiou a entrada dele na Bresser Asset Management (gestora de ações fundada em 2001, PL de cerca de R$ 250 milhões na época), para organizar a casa; o cadastro CVM atual aponta outra pessoa como diretor de gestão; vínculo atual não localizado. A página não nomeia parentes (pessoas privadas). A idade (91 anos na Fapesp de fev/2026) não entrou para não errar o aniversário.
+
+Rede: bresserpereira.org.br, centrodeeconomiapolitica.org, ihu.unisinos.br, phenomenalworld.org, revistapesquisa.fapesp.br, brasil247.com e insightinteligencia.com.br não abrem (curl 403, WebFetch sem DNS). Tudo veio de trechos da busca. Recortes entre aspas só os reproduzidos pela busca: Folha 18/12/2024 ("Há 20 anos, afirmo..."), Phenomenal World 25/07/2025 ("No Brasil, juros reais de 4% ou 6% são absolutamente costumeiros."), Insight jun/2026 ("Com esses três fatores econômicos fica, assim, explicada...") e o resumo em inglês da *Revue de la régulation* 2020. A 12.R deve conferi-los no original.
+
+Falas usadas (seis, dezesseis proposições):
+1. *Folha*, 25/05/2018, "Por que os juros e o câmbio?" (IHU, 26/05/2018; título alternativo no site do autor: "Rentistas e financistas não querem ouvir falar disso"), resposta à coluna de Lisboa de 13/05/2018; tréplica de Lisboa no início de jun/2018 (Insper). 1a procede em parte; 1b procede; 1c falta evidência.
+2. TD IE-UFRJ 22/2019 e *Revue de la régulation* 27 (2020), com Paula e Bruno: três sub-hipóteses (coalizão; contágio de mão dupla reservas × títulos; juro para financiar a conta corrente; a terceira só na versão de 2020, segundo a busca). 2a procede; 2b falta evidência; 2c procede; 2d procede em parte.
+3. Nota de 13/06/2023, "O privilégio exorbitante dos rentistas" (PDF no site; publicada originalmente nas redes). 3a procede (juro real ex-post de 2024 de 5,78%, série de 2.1); 3b falta evidência.
+4. *Folha*, Ilustríssima, 18/12/2024, "Economia brasileira está presa em círculo vicioso da quase estagnação", republicada em A Terra é Redonda (19/12/2024) e IHU (20/12/2024) como "A cultura dos juros altos" (a 2.2 e a 2.5 já citam essa versão). 4a procede; 4b procede em parte.
+5. *Valor*, fev/2025, "Um piso para os juros no Brasil" (o PDF do site tem 25.02.08 no nome; a busca dá 10/02/2025; a página diz só "fevereiro de 2025"), e Phenomenal World, 25/07/2025 (entrevista feita em 26/06/2025). 5a procede em parte; 5b procede em parte.
+6. *Insight Inteligência*, "Por que a taxa de juros é tão alta? Como baixá-la?" (jun/2026 pela idade da página e pelo nome do PDF 26.06; Selic de 14,5% no texto, que vigorou de 30/04 a 17/06/2026, SGS 432). 6a falta evidência; 6b procede em parte; 6c procede em parte.
+
+Falas descartadas:
+- *Valor*, fev/2026, "Causas não convencionais para juros altos" (PDF 26.02 no site; resumo na coluna de Pedro Cafardo, *Valor*, 24/02/2026, que diz que ele só vê saída numa crise maior): texto e data não confirmados pela busca; candidata para a 12.R.
+- *Folha*, 18/06/2024, "Juros altos são herança maldita do Plano Real": data e título confirmados, corpo não localizado; coerente com as falas 4 e 5.
+- Entrevista à Inteligência Financeira (mai/2024, "BC precisa defender os interesses da nação brasileira e não... dos rentistas"; juro real de 3% a 4%): data não confirmada.
+- Podcast Aonde Vamos (por volta de mai/2026), em que chamou Galípolo de "traidor" (Brasil 247): sem data exata e com conteúdo de ataque pessoal; não entra pela regra do bloco.
+- Brasil 247, "A população brasileira se acostumou com juros absurdos" (sem data); Cofecon, podcast sobre novo desenvolvimentismo (sem data); Rede Brasil Atual, "Déficit zero definitivamente não faz sentido" (fora do tema central).
+- Nota "08.03.21 BC resista, não suba os juros" no site: é de 2008 (formato AA.MM.DD), fora do período.
+
+Cálculos novos do painel (para a 12.R conferir):
+- Juro real ex-post médio (série anual de `dados/2.1-juro-real-1995-2026.json`): 8,08% (média) e 6,52% (mediana) em 1995–2024; 6,00% em 1999–2024; 4,29% em 2006–2024.
+- Câmbio real efetivo (SGS 11752, médias anuais): 2010 77,0; 2011 75,0; 2023 121,7; 2024 127,0; 2025 128,5. Correlação anual com o juro real ex-post: −0,05 (1999–2025) e −0,04 (2003–2025).
+- EMBI+ Brasil 216 a 238 pontos em jun–jul/2024, último dado do arquivo do Ipeadata (JPM366_EMBI366, coleta de 02/11/2026).
+- Decomposição: 9,33 − 3 = 6,33 (Bresser-Pereira); 9,33 − 5 = 4,33 (aperto pela régua do BC); 5 − 3 = 2 e 7,5 − 3 = 4,5 (diferença de neutro), a mesma ordem do resíduo de 2 a 4,5 pontos da 2.5.
+
+Linhas para a matriz pessoa × argumento × classificação da página 12:
+| Luiz Carlos Bresser-Pereira | Heterodoxos | Folha, 25/05/2018 | Juro e câmbio são causa central da quase estagnação; ajuste fiscal é necessário e não basta; rentistas bloqueiam o debate | P6b, P2 | Procede em parte; procede; falta evidência | Novo-desenvolvimentismo | 5.1, 5.2, 5.4.2, 2.2 |
+| Luiz Carlos Bresser-Pereira | Heterodoxos | TD 2019; Revue de la régulation, 2020 | Formou-se um grupo que ganha com o juro; a coalizão sustenta o juro; reservas e títulos são um só mercado; juro alto financia a conta corrente | P8a, P8b | Procede; falta evidência; procede; procede em parte | Kalecki, coalizão rentista-financista | 3.3, 5.4.2, 5.4.3, 6.4.1, 12.3.1, 12.3.2, 2.4, 10.3.6 |
+| Luiz Carlos Bresser-Pereira | Heterodoxos | Nota, 13/06/2023 | Juro real perto de 6% em 2024; o BC representa os rentistas | P8b | Procede; falta evidência | | 2.1, 6.3.2, 6.4.1 |
+| Luiz Carlos Bresser-Pereira | Heterodoxos | Folha, 18/12/2024 | Juro real médio de 6% a 7% desde a abertura; juro alto aprecia o câmbio | P1 | Procede; procede em parte | Doença holandesa | 2.1, 2.5 |
+| Luiz Carlos Bresser-Pereira | Heterodoxos | Valor, fev/2025; Phenomenal World, 25/07/2025 | Piso de juro real de 5% a 6% em queda; o piso tem causas econômicas e não econômicas (hábito) | P3 | Procede em parte; procede em parte | Convenção | 2.1, 6.2.1, 6.4.2, 6.3, 12.3.2 |
+| Luiz Carlos Bresser-Pereira | Heterodoxos | Insight Inteligência, jun/2026 | Juro de equilíbrio de 3%; 6,33 pontos sem explicação econômica; o juro causa o déficit | P2, P7a, P7b | Falta evidência; procede em parte; procede em parte | Paridade de juros, aritmética da dívida | 6.3.2, 2.3, 2.5, 3.2, 6.1.1 |
+
+Contagem: 16 proposições, 5 procedem, 7 procedem em parte, 0 não procedem, 4 falta evidência.
+
+Lacunas:
+- Nenhum texto integral aberto; conferir os quatro recortes e as datas exatas de fev/2025 e jun/2026.
+- A afirmação de que a lei da usura (Decreto 22.626/1933) limitava juros "reais" a 12% é dele; a página só registra "segundo ele" e não testa.
+- O teste juro × câmbio usa nível anual do juro real, sem o diferencial contra o juro externo nem controle de commodities; um teste melhor usaria o diferencial e os termos de troca.
+- Alcance sem medida de audiência; o livro de 2024 e a revista são os indicadores.
+
+Números que divergem de outras páginas: nenhum. Copiados de 2.1, 2.2, 2.3, 2.4, 2.5, 3.2, 3.3, 5.1, 5.4.2, 5.4.3, 6.1.1, 6.3, 6.3.2, 6.4.1, 10.3.6, 12.3.1 e 12.3.2 (juros de 7,91% e 8,99% do PIB; detentores 31,2%, 22,5%, 22,6%; correlação 0,77; LFT 52,7%; R$ 61,7 bi por ponto; déficit externo de 2,93% do PIB em 2025; R$ 190 bi de carregamento; reservas de US$ 358,2 bi em dez/2025, SGS 3546; 10,1 de 11,2 pontos e 3,6 de primário; CDS 110 a 152; neutro de 5% a 8%; Focus +1,0 ponto; 16 de 24 anos). IPCA de 12 meses de 4,72% em mai/2026 (SGS 13522).
