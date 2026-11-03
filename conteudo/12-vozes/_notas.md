@@ -1175,3 +1175,59 @@ Lacunas:
 - O painel não tem medida própria da fatia externa da alta do juro real longo (proposição 7a).
 
 Números que divergem de outras páginas: nenhum. Novos no bloco: Focus IPCA de 19/06/2020 (2020: 1,61; 2021: 3,0), 24/12/2021 (2022: 5,03; 2023: 3,38), 03/11/2023 (2024: 3,91; 2025: 3,5), 13/03/2026 (2026: 4,10; 2027: 3,8); Focus Selic de 24/12/2021 (2022: 11,5) e 03/11/2023 (2024: 9,25; 2025: 8,75); Focus PIB de 03/11/2023 (2024: 1,5; 2025: 1,9); PIB trimestral sobre o trimestre anterior de 2025–2026 (SIDRA). Copiados: SGS 432, 5793, 7326, 11752, 13522, 13762, 24369; 4.2; 6.1.1; 6.3.2; 10.2.5; 11.6; 12.4.2.
+
+## 12.4e
+
+Página: 12.4.5 "Desancoragem e o neutro que subiu" (id 12.4.5, pai 12.4, ordem 5; cerca de 3.050 palavras de texto corrido até a classificação, com o quadro de exemplo e sem as tabelas; 5.420 pelo lint com links, tabelas, quadros e Para ler). Estado: 1ª versão. Um gráfico novo (`dados/12.4.5-distancia-meta.json`, distância mensal da mediana à meta nos horizontes de 1, 2 e 4 anos, out/2007 a out/2026), duas tabelas novas (episódios de desancoragem; revisões do neutro do BC contra o juro real ex-ante) e um script novo, `tools/analises/12.4.5_desancoragem.py`, que refaz todas as contas a partir de `dados/brutos/` (focus-anuais_ipca, focus-inflacao_12m, sgs-13522). Na página 12, o rótulo "12.4e" do mapa virou [12.4.5](pagina:12.4.5). As páginas de pessoa citam "12.4e" só como texto nas tabelas-resumo (12.1.5, 12.2.1, 12.2.5, 12.2.6, 12.2.7, 12.5.1, 12.5.6, 12.5.7), sem link para pagina:12, e ficaram como estavam (mesmo critério de 12.4a a 12.4d). Na 12.4, "o que o ramo mostra até aqui" passou a cinco páginas, com um período novo. PLANO.md: 12.4e marcado [x].
+
+Estrutura: exemplo de brinquedo (meta de 3%, pesquisa com 4,5/4,0/3,5; peso 0,6 da curva de brinquedo da 4.1; neutro suposto de 5% com juro real de 9% e duas leituras); fórmula D_h = E_t[π_{Y+h}] − π*_{Y+h} com o Focus de 23/10/2026 (+1,34; +0,75; +0,5; +0,5). Cinco sentidos: (a) medida; (b) causa; (c) origem fiscal, de comunicação ou da meta; (d) "o neutro subiu"; (e) o uso do outro lado, desancoragem fabricada.
+
+Método do script (consulta 02/11/2026): mediana do último registro de cada mês, baseCalculo 0; horizonte h = ano de referência menos ano da projeção; meta conhecida na data, com a última meta fixada para anos ainda sem meta (datas das resoluções do CMN aproximadas ao fim de junho, salvo 29/06/2017, 26/06/2018, 27/06/2019, 25/06/2020, 24/06/2021, 23/06/2022, 29/06/2023 e 26/06/2024); limiar de 0,5 ponto (do painel; o BC não fixa limiar); episódio fecha abaixo de 0,25. Sensibilidade: com a meta final do ano em vez da conhecida na data, os horizontes de 3 e 4 anos em 2016–2020 aparecem 0,1 a 0,5 ponto mais acima da meta (porque a redução da meta para 2019–2021 ainda não era conhecida); a escolha da meta conhecida é a que corresponde à pergunta.
+
+Números principais:
+- 229 meses (out/2007–out/2026). Horizonte de 4 anos: exatamente na meta em 117 meses, ≥ 0,5 em 75 (27 em 2012–2015, 3 em jan–mar/2016, 45 desde jan/2023). Horizonte de 3 anos: ≥ 0,5 em 90; de 2 anos, 99; de 1 ano, 134.
+- Episódios (≥ 0,5 entra, < 0,25 fecha): 2 anos nov/2011–jun/2015 (pico +1,20 nov/2014), out/2015–jul/2016 (+0,95 mar/2016), set/2022–aberto (+1,02 dez/2024); 3 anos mar/2012–mai/2015 (+1,00 out/2013), nov/2015–mai/2016 (+0,50), jan/2023–aberto (+1,00 mar/2023); 4 anos out/2012–abr/2015 (+1,00 jul/2013), jan/2016–mai/2016 (+0,50), jan/2023–aberto (+1,00 fev/2023). Meses seguidos ≥ 0,5 no horizonte de 3 anos: 38 (mar/2012–abr/2015) e 46 (jan/2023–out/2026).
+- Um ano: máx. +2,37 (dez/2015, 6,87 para 2016) e +2,08 (jul/2022, 5,33 para 2023 contra meta de 3,25).
+- Série de 12 meses (não suavizada) contra a meta média dos 12 meses seguintes: 2005 +0,60; 2006 −0,29; 2007 −0,71 (média anual).
+- 2023 dia a dia: 30/12/2022 2025 = 3,25, 2026 = 3,15; 2025 a 3,47 em 20/01 e 3,5 em 23/01; 2026 a 3,5 em 27/01; 2027 a 4,0 em 17/02; 2025 e 2026 a 4,0 em março; queda a partir de 07/06 (3,9); 29/06: 3,79/3,7/3,6; 30/06: 3,6/3,5/3,5.
+- Nov–dez/2024: 18/11 → 30/12: 2025 4,12 → 4,99; 2026 3,70 → 4,02; 2027 3,50 → 3,875; 2028 3,50 → 3,50.
+- Projeção média feita h anos antes contra o IPCA do ano, 2010–2025: realizado acima em 14/16 (h=1, erro médio +1,10), 14/16 (h=2, +1,43), 13/16 (h=3, +1,53), 11/15 (h=4, +1,48). Projeções de 3 anos antes: 2023 3,38; 2024 3,14; 2025 3,02 (IPCA 4,62; 4,83; 4,26). Projeções feitas em 2014: 2017 5,46 (3 anos), 2018 5,25 (4 anos); IPCA 2,95 e 3,75.
+- Juro real ex-ante pela convenção (SGS 1178 do último dia útil do mês sobre Focus 12m não suavizado): 30/04/2021 −1,37; 31/03/2022 5,12; 30/06/2022 6,87; 30/06/2023 9,34; 28/06/2024 6,49; 31/12/2024 6,84; 31/12/2025 10,52; 23/10/2026 8,73 (os três últimos conferem com a _divergencias).
+
+Neutro do BC, com fonte: 3% em 2021 (Forbes, abr/2021, Kanczuk então diretor); 3,5% no RI de mar/2022 e 4,0% no RI de jun/2022 (Canal Rural, 30/06/2022, pela busca); 4,5% em jun/2023 (IstoÉ Dinheiro, 11/07/2023, Guillen; pela busca, "na última reunião", comunicado no RI de junho); 4,75% (ata de jun/2024) e 5,0% (dez/2024) como na 2.3. Uma matéria de dez/2023 cita "média de 4,8%" no RI (mediana das metodologias, coerente com o boxe de jun/2024 citado na 2.3); não usada.
+
+Falas e usos (todos por busca em 03/11/2026, texto integral não aberto):
+- Copom: 267ª reunião, 11/12/2024, "desancoragem adicional" em todos os prazos (PDF do BCB pela busca; não ficou claro se é o comunicado ou a ata, e o texto diz só "registrar em 11 de dezembro"); ata de 04/02/2025, "fator de desconforto comum a todos os membros do Comitê" (IstoÉ Dinheiro, recorte reproduzido pela busca); ata de 24/06/2025 (Times Brasil), paráfrase; ata de 23/09/2025 (IstoÉ Dinheiro), paráfrase. Outras atas com a mesma linguagem (ago/2025, dez/2025, abr/2026) não entraram.
+- Campos Neto: Bloomberg Línea, 14/02/2023 (subir a meta agora teria efeito oposto), paráfrase; O Hoje, 22/05/2023 (ruído sobre a meta deslocou expectativas; o recorte "Houve um grande ruído..." aparece em O Antagonista, sem data confiável na página, e não entrou entre aspas).
+- Críticas do presidente à meta e ao BC em jan–fev/2023: só pela Forbes de mar/2023 ("recentes críticas"); reunião do CMN de 16/02/2023 pela busca (Metrópoles/Folha). Não se localizou fala de Lula com data exata; o texto fala de críticas sem recorte.
+- CMN, 29/06/2023 (O Povo): meta de 3% mantida, contínua a partir de 2025.
+- Das páginas de pessoa: Fraga (O Globo, 11/12/2024; 12.2.5), Latif (Portal Tela, 22/01/2025; 12.2.6), Pessôa (Folha, 31/03/2019 e 29/08/2026; 12.2.1), Schwartsman (Seu Dinheiro, 12/11/2025, recorte já na 12.2.7), Lara Resende (Valor, 07/02/2023; 12.5.1), Eduardo Moreira (ICL, 24/05/2024; 12.1.7), Oreiro (2026; 12.5.6), Bresser-Pereira (jun/2026; 12.5.7); de outras páginas: Ramos (Bloomberg Línea, 20/01/2025; 12.4.4), Holland (Acessa/Estadão, ago/2026; 6.4), Kanczuk (InfoMoney, 2026; 2.3).
+
+Descartados: Amorim (12.1.5, fala 6a, "juros altos porque a inflação estava alta") e o recorte do RPM mar/2025 ("ampliando assim a sua desancoragem", já na 4.4), cortados por extensão; Poder360 "Especulação sobre meta de inflação subiu expectativas, diz Campos Neto" (sem data confirmada, provavelmente 2024); Atlas Público sobre a ata da 278ª reunião (abr/2026), com data ambígua; Nord Research sobre o pedido de Lula de meta 1 ponto mais alta para 2023 (rumor de reportagem).
+
+Lacunas:
+- O arquivo de projeções anuais começa em 05/10/2007 (corte de 40.000 linhas da consulta); 2005–2007 só pela série de 12 meses. Uma nova coleta com filtro de data fecharia o buraco.
+- O teste de calendário de (c) não separa causas quando juro, fiscal e direção do BC mudam juntos (2015, 2016); um estudo de evento com janelas diárias e controles (câmbio, DXY) seria o passo seguinte.
+- A 12.R deve conferir no original as datas das revisões do neutro de 2022 e 2023 (Canal Rural e IstoÉ Dinheiro pela busca) e o tipo de documento da 267ª reunião.
+- A comparação de estimativas do neutro de Brasil, México, Chile e Colômbia pelo mesmo método, pendência da 6.3.2, segue sendo o teste que separaria circularidade de mudança real.
+
+Números que divergem: nenhum. Focus de 23/10/2026 (5,19; 4,34; 3,75) como na _divergencias e na 4.4; 3,5 nos outubros de 2023 a 2026 como na 1.3; contribuições das expectativas (0,25; 1,02; 0,58 de 2,35) como na 4.1 e na 4.4; erro médio de +1,0 de 2.4.1; Selic acima da regra de 3,3 a 5,0 pontos (neutro de 5%) e de 0,3 a 2 (8%), e neutro implícito de 0,8% e 9,3%, como na 10.2.5; neutros de IFI, FGV IBRE e ASA como na 2.3. Novo no painel: a sequência 3,5% (mar/2022), 4,0% (jun/2022) e 4,5% (jun/2023) do neutro do BC, que a 2.3 e a 6.3.2 resumem como "3% em 2021, depois 4,5%".
+
+Linhas para a matriz (jargão × sentido × classificação):
+
+| Jargão | Sentido | Classificação | Quem usou (exemplo) |
+|---|---|---|---|
+| 12.4.5 | As projeções de 3 e 4 anos estão acima da meta desde 2023 | Procede | Copom (atas de 04/02/2025 e 24/06/2025); Fraga (11/12/2024) |
+| 12.4.5 | É o episódio de desancoragem mais longo desde 2007 | Procede | Cálculo do painel |
+| 12.4.5 | Expectativas acima da meta empurram a inflação | Procede em parte | Copom; BC, boxes de decomposição e carta de jul/2025 |
+| 12.4.5 | A desancoragem é a causa principal da inflação de 2024–2026 | Não procede | Uso corrente |
+| 12.4.5 | Notícias sobre a meta, o BC e o fiscal desancoram os prazos longos | Procede em parte | Campos Neto (14/02/2023; 22/05/2023); Holland (ago/2026) |
+| 12.4.5 | A desancoragem de 2023–2026 vem do fiscal | Falta evidência | Ramos (20/01/2025) |
+| 12.4.5 | A fala do BC sobre desancoragem ajuda a mantê-la | Falta evidência | Leitura convencionalista (10.2.6) |
+| 12.4.5 | As estimativas do neutro subiram | Procede | Copom (jun e dez/2024); IFI (RAF 117); FGV IBRE (set/2026) |
+| 12.4.5 | O neutro de fato subiu | Procede em parte | Kanczuk (2026) |
+| 12.4.5 | O neutro subiu por causa do fiscal | Procede em parte | Schwartsman (12/11/2025); Pessôa (31/03/2019) |
+| 12.4.5 | O neutro mais alto explica a Selic de 2025–2026 | Não procede | Kanczuk (2026) |
+| 12.4.5 | O neutro é ficção de modelo para justificar juro alto | Procede em parte | Oreiro (2026); Bresser-Pereira (jun/2026, neutro de 3%: falta evidência) |
+| 12.4.5 | O mercado fabrica a desancoragem projetando inflação alta | Não procede | Lara Resende (07/02/2023); Eduardo Moreira (24/05/2024) |
+| 12.4.5 | Focus e Copom formam um consenso autorreferente | Falta evidência | Crítica da 6.4.1 |
