@@ -251,12 +251,12 @@ Regras próprias do bloco, além do briefing:
 - [ ] 12.4h Jargão: "o Brasil vai virar Argentina/Venezuela"
 - [ ] 12.4i Jargão: "não existe almoço grátis", "o arcabouço não para em pé"
 - [ ] 12.4j Jargões do outro lado: "metade do orçamento vai para juros" (Auditoria Cidadã), "o BC trabalha para os bancos", "inflação é só choque externo"; mesmo rigor
-- [ ] 12.5a Ramo e André Lara Resende
+- [x] 12.5a Ramo e André Lara Resende
 - [ ] 12.5b Luiz Gonzaga Belluzzo
 - [ ] 12.5c Paulo Nogueira Batista Jr.
 - [ ] 12.5d Laura Carvalho
 - [ ] 12.5e André Roncaglia
-- [ ] 12.5f Eduardo Moreira (ICL)
+- [ ] 12.5f Eduardo Moreira (ICL): a página fica no ramo 12.1, como 12.1.7 (item 12.1d5); o ramo 12.5 só remete a ela
 - [ ] 12.5g José Luis Oreiro
 - [ ] 12.5h Luiz Carlos Bresser-Pereira
 - [ ] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala
