@@ -4,13 +4,13 @@
   "unidade": "escala de −3 a +3",
   "fonte": "Matriz do painel, a partir das áreas 1 a 7 e dos blocos 10 a 12; critérios da página de método (9.1)",
   "consulta": "2026-11-03",
-  "nota": "Valor = direção × força: +1 a favor, −1 contra, 0 mista; força 3 forte, 2 moderada, 1 fraca. Barra positiva indica apoio à proposição da linha; nas linhas O, apoio à leitura ortodoxa. Proposição mista fica em zero qualquer que seja a força (a tabela da página mostra a força). Classificação de 03/11/2026.",
+  "nota": "Valor = direção × força: +1 a favor, −1 contra, 0 mista; força 3 forte, 2 moderada, 1 fraca. Barra positiva indica apoio à proposição da linha; nas linhas O, apoio à leitura ortodoxa. Proposição mista fica em zero qualquer que seja a força (o quadro da página mostra a força). As linhas marcadas como fato comum (P1, P5a, P8a, O5) descrevem fatos que as duas leituras aceitam e não contam como ponto para um lado. Classificação revisada em 03/11/2026.",
   "series": [
     {
       "nome": "Apoio",
       "pontos": [
         {
-          "t": "P1 Juro real acima dos pares",
+          "t": "P1 Juro real acima dos pares (fato comum)",
           "v": 3
         },
         {
@@ -30,7 +30,7 @@
           "v": 2
         },
         {
-          "t": "P5a Decisões indexadas ao juro de 1 dia",
+          "t": "P5a Decisões indexadas ao juro (fato comum)",
           "v": 3
         },
         {
@@ -62,7 +62,7 @@
           "v": -2
         },
         {
-          "t": "P8a Credores recebem renda grande",
+          "t": "P8a Credores recebem renda grande (fato comum)",
           "v": 3
         },
         {
@@ -78,7 +78,11 @@
           "v": -3
         },
         {
-          "t": "P9c Alarme desproporcional (mista)",
+          "t": "P9c Alarme inflacionário desproporcional",
+          "v": -2
+        },
+        {
+          "t": "P9d Alarme fiscal desproporcional (mista)",
           "v": 0
         },
         {
@@ -110,12 +114,20 @@
           "v": 2
         },
         {
-          "t": "O5 Dívida sem estabilizar",
+          "t": "O5 Dívida sem estabilizar (fato comum)",
           "v": 3
         },
         {
           "t": "O6 Primário deixou de reagir",
           "v": 2
+        },
+        {
+          "t": "O7 Focus como âncora técnica (mista)",
+          "v": 0
+        },
+        {
+          "t": "O8 Causas estruturais do nível (mista)",
+          "v": 0
         }
       ]
     }

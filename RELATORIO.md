@@ -11,7 +11,7 @@ monetária, 11 finanças públicas, 12 vozes do debate). Todos os itens do `PLAN
 
 | Área | Páginas | Palavras (aprox.) | Estado |
 |---|---|---|---|
-| 0 Início e "como ler" | 2 | 5.400 | 2ª versão (revisão independente em curso) |
+| 0 Início e "como ler" | 2 | 4.900 | revisadas (2ª versão) |
 | 1 Fundamentos teóricos | 23 | 55.600 | revisadas |
 | 2 Juros no Brasil | 7 | 25.000 | revisadas |
 | 3 Dívida pública | 6 | 19.800 | revisadas |
@@ -19,7 +19,7 @@ monetária, 11 finanças públicas, 12 vozes do debate). Todos os itens do `PLAN
 | 5 Investimento | 8 | 20.700 | revisadas |
 | 6 Contrapontos ortodoxos | 14 | 33.000 | revisadas |
 | 7 Caminhos de política | 10 | 28.900 | revisadas |
-| 8 Conclusão e matriz | 2 | 14.800 | 2ª versão, refeita com os blocos 10 a 12 (revisão independente em curso) |
+| 8 Conclusão e matriz | 2 | 13.000 | revisadas; refeitas com os blocos 10 a 12 |
 | 9 Método, fontes, glossário, linha do tempo | 5 | 48.700 | revisadas; 9.2 gerada por script |
 | 10 Política monetária | 22 | 82.900 | revisadas |
 | 11 Finanças públicas | 9 | 33.900 | revisadas |
@@ -28,9 +28,9 @@ monetária, 11 finanças públicas, 12 vozes do debate). Todos os itens do `PLAN
 O contraponto ortodoxo (área 6, mais as linhas O1 a O6 da matriz e os ramos ortodoxos do bloco 12)
 tem extensão comparável à da tese em teste, como o briefing pede.
 
-**Revisão independente.** Cada área de 1 a 7, a 9, a 10, a 11 e o bloco 12 (em três partes) foi lida
+**Revisão independente.** Cada área de 1 a 7, a 9, a 10, a 11, o bloco 12 (em três partes) e a conclusão com a página inicial (8, 8.1, 0, 0.1) foi lida
 por um revisor que não escreveu nada. Os relatórios estão em `conteudo/_revisao/`: cerca de 1.130
-achados nas áreas 1 a 9 e 256 no bloco 12. Corretores aplicaram os achados, e o topo de cada relatório
+achados nas áreas 1 a 9, 256 no bloco 12 e 62 na conclusão. Corretores aplicaram os achados, e o topo de cada relatório
 registra o que não foi aplicado e por quê. Uma passada de consistência entre áreas alinhou os números
 às decisões de `conteudo/_divergencias.md`. Nenhuma pessoa privada é citada; as alusões à conversa de
 origem, as fontes internas e as marcas de produção ("Frente X", "insumo", "[a conferir]", "nesta
@@ -52,16 +52,18 @@ BCB, o Focus pela API Olinda, tabelas do SIDRA, o BIS, o Tesouro (CKAN), o Ipead
 FTP do IBGE. As análises reprodutíveis estão em `tools/analises/`.
 
 **Direção de conclusão (página 8, confiança moderada no conjunto).** O juro real brasileiro é alto por
-uma soma de causas: um prêmio fiscal e político que move a curva e responde à dívida e à própria Selic,
-sobre uma dívida que o primário de hoje não estabiliza (confiança alta); uma estrutura de LFT, crédito
-direcionado e reservas que encarece cada ponto de Selic (confiança moderada no mecanismo, baixa no
-tamanho); e um resíduo de 2 a 4,5 pontos que nenhuma explicação medida fecha e que o painel não chama
-de convenção (confiança baixa de que a convenção responda por parte relevante). A tese em teste acerta
-nos fatos e no círculo entre juro e dívida e erra nas formas absolutas (Selic sem eficácia, inflação
-sem demanda, Focus inflado, dominância ativa); a leitura ortodoxa acerta no curto prazo e na trajetória
-da dívida e não explica o nível.
+uma soma de três causas: um prêmio fiscal e político (confiança alta de que move as oscilações,
+moderada no peso que tem no nível); uma estrutura de dívida, crédito e reservas que reduz a potência
+e encarece cada ponto de Selic (confiança moderada no mecanismo, baixa no tamanho); e um resíduo que o
+fiscal corrente não explica, de cerca de 2 pontos (modelo do FMI, dados até cerca de 2011) a 4,5
+(distância bruta para os pares em 2006–2013), com confiança moderada de que exista e baixa de que a
+convenção responda por parte relevante dele. A tese em teste acerta nos fatos e no círculo contábil
+entre juro e dívida e erra nas formas absolutas (Selic sem eficácia, inflação sem demanda, Focus
+inflado, alarme inflacionário sem base, dominância ativa); a leitura ortodoxa acerta no curto prazo e
+na trajetória da dívida e não explica o nível. Projeções que erram juntas e se prendem ao patamar do
+dia são compatíveis com convenção e também com choques comuns, e não contam como acerto da tese.
 
-**Achados que a evidência impôs ao painel** (detalhe na matriz 8.1, 27 linhas):
+**Achados que a evidência impôs ao painel** (detalhe na matriz 8.1, 30 linhas; P1, P5a, P8a e O5 marcadas como fatos aceitos pelos dois lados):
 - Diferencial de juro real para os pares de 6,6 p.p. em 2000–2009, 3,1 em 2010–2019 e 5,5 em
   2023–2026 (BIS); quase sumiu em 2018–2021.
 - O Focus subestimou a inflação (1,0 p.p., 2002–2025) e não tem viés fixo de Selic; o realizado ficou
@@ -72,7 +74,7 @@ da dívida e não explica o nível.
   própria Selic no prêmio.
 - Custo de carregamento das reservas de 1,41% do PIB em 12 meses (set/2026), líquido de R$ 66 bi em
   2012–2025 com o ganho cambial.
-- Resíduo de 2 a 4,5 p.p. no juro que nenhuma explicação medida fecha.
+- Resíduo que o fiscal corrente não explica: cerca de 2 p.p. no modelo do FMI (dados até cerca de 2011) a 4,5 p.p. de distância bruta para os pares (2006–2013); a distância para a regra de Taylor em 2025–2026 é outra medida (0,3 a 2 pontos com o neutro da ASA, 3,3 a 5,0 com o do BC).
 
 ## O que ficou raso ou sem fonte
 
@@ -106,8 +108,8 @@ da dívida e não explica o nível.
 
 ## O que fazer na próxima rodada
 
-1. Aplicar a revisão independente da conclusão e da página inicial (`conteudo/_revisao/8.md`) e
-   passar 0, 0.1, 8 e 8.1 a "revisada".
+1. Encurtar a conclusão (8: cerca de 3.600 palavras; 8.1: cerca de 9.400, com 30 linhas) e a página
+   inicial até as faixas de `_CONVENCOES.md`.
 2. Confirmar a identidade do item 12.2b (Lisboa ou Pochmann).
 3. Fechar as pendências de texto integral quando a rede permitir: liberar no ambiente os domínios
    oficiais e de imprensa (bcb.gov.br, ibge.gov.br, tesourotransparente.gov.br, IFI, BIS, FMI, SciELO,
@@ -131,6 +133,6 @@ python3 tools/coletar.py sgs      # coleta (precisa de rede aberta; ou rode o wo
 
 ## Último item feito
 
-Bloco 12 revisado e corrigido (12.R) e concluído na página 12 (12.C); conclusão 8 e 8.1 e página
-inicial refeitas em 2ª versão com os blocos 10 a 12; 9.2 regenerada. Em curso: revisão independente
-de 8, 8.1, 0 e 0.1.
+Bloco 12 revisado, corrigido e concluído na página 12; conclusão 8 e 8.1 e página inicial refeitas com
+os blocos 10 a 12, revisadas por revisor independente e corrigidas (matriz de 30 linhas, com P9d, O7 e
+O8 novas); 9.2 regenerada. Todos os itens do `PLANO.md` estão feitos. Próximo passo: a lista acima.

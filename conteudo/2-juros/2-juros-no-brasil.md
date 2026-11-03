@@ -3,7 +3,7 @@ id: 2
 titulo: Juros no Brasil
 pai: 0
 ordem: 2
-resumo: Mede quão alto é o juro real brasileiro, compara as explicações para o patamar, discute o juro neutro e a meta, examina por onde a Selic chega (ou não chega) à economia e testa a tese de que o patamar virou convenção. Conclusão do ramo: desde 2000 o Brasil pagou em média de 3 a 7 pontos por década acima de emergentes comparáveis, com exceção de 2018–2021; o prêmio fiscal explica bem as oscilações e mal o patamar; a transmissão é parcial; e sobra um resíduo de 2 a 4,5 pontos que o fiscal corrente não explica, no qual a convenção é uma das explicações candidatas, ao lado de crédito direcionado, indexação e histórico de inflação (confiança moderada no resíduo, moderada a baixa na parte convencional).
+resumo: Mede quão alto é o juro real brasileiro, compara as explicações para o patamar, discute o juro neutro e a meta, examina por onde a Selic chega (ou não chega) à economia e testa a tese de que o patamar virou convenção. Conclusão do ramo: desde 2000 o Brasil pagou em média de 3 a 7 pontos por década acima de emergentes comparáveis, com exceção de 2018–2021; o prêmio fiscal explica bem as oscilações e mal o patamar; a transmissão é parcial; e sobra um resíduo que o fiscal corrente não explica, de cerca de 2 pontos (modelo do FMI, dados até cerca de 2011) a 4,5 (distância bruta para os pares em 2006–2013, sem controles), no qual a convenção é uma das explicações candidatas, ao lado de crédito direcionado, indexação e histórico de inflação (confiança moderada no resíduo, moderada a baixa na parte convencional).
 estado: revisada
 ---
 

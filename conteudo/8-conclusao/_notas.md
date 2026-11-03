@@ -139,3 +139,38 @@ Reescrita: o que cada área e cada bloco (10, 11, 12) mostrou; o que a evidênci
 - A 9.1 ainda descreve quatro graus de força; a correspondência com os dois eixos e com as quatro classificações do bloco 12 está na 8.1 e na 0.1.
 - O link de O5 termina em hífen porque o `slug` corta o título em 60 caracteres; funciona, mas um título mais curto deixaria a âncora mais limpa (exigiria trocar o link na 0.1).
 - A 8.1 tem cerca de 8.600 palavras no corpo, por causa das 27 tabelas; a 8 tem cerca de 5.000 de prosa.
+
+## Revisão aplicada (03/11/2026)
+
+Correção feita a partir de `conteudo/_revisao/8.md` (62 achados) e da seção "Decisões da revisão da conclusão" de `conteudo/_divergencias.md`. As quatro páginas (8, 8.1, 0, 0.1) passam a `estado: revisada`. O resumo da aplicação está no topo de `conteudo/_revisao/8.md`.
+
+### O que mudou desde a 1ª versão (texto que saiu da página 8)
+
+A 1ª versão da conclusão, de 02/11/2026, foi escrita antes dos blocos 11 e 12 e com parte do bloco 10. A direção geral não mudou: soma de causas, com confiança moderada no conjunto. Mudaram estas coisas, da 1ª para a versão revisada:
+
+- P7b: de mista, moderada para a favor, moderada. As estimativas da IFI (RAF 116) e do BC (RPM de jun/2025) deram tamanho ao elo dívida → prêmio; a dominância como regime saiu para a linha nova P7c (contra, moderada).
+- O5 (trajetória da dívida, a favor, forte) e O6 (primário que deixou de reagir, a favor, moderada) entraram com o bloco 11.
+- P9c: na 1ª versão, mista e fraca; na 2ª versão, mista e moderada (com evidência tirada sobretudo das contagens do bloco 12); na versão revisada, dividida em P9c (alarme sobre a inflação: contra, moderada) e P9d (alarme fiscal, quebra e recessão: mista, fraca), cada uma com evidência primária (IPCA, Focus, PIB realizado, composição e trajetória da dívida).
+- O7 (as expectativas do Focus como âncora técnica: mista, moderada) e O8 (causas estruturais do nível: meia-entrada, indexação e histórico de inflação, incerteza jurisdicional: mista, fraca) entraram na revisão para dar ao lado ortodoxo as linhas que faltavam.
+- P3 ficou mista e fraca em todas as versões. Na 2ª versão a leitura dizia que "a forma fraca procede"; na revisada, o padrão das expectativas é "compatível com" uma convenção no sentido fraco e com rigidez de informação e choques comuns, e não conta como acerto da tese.
+- P4b mudou de título ("perdeu potência e ficou cara" → "tem menos potência e custa mais que nos pares"); P5a passou a incluir "e às taxas do Tesouro".
+- O custo das reservas, a regra de Taylor e a reação do Focus à fala do Copom entraram em P2, P3, P4b e O2b sem mudar a nota dessas linhas.
+
+### Decisões da revisão
+
+- Resíduo: forma da 2.5 em todas as páginas ("um resíduo que o fiscal corrente não explica, de cerca de 2 pontos (modelo do FMI, dados até cerca de 2011) a 4,5 (distância bruta para os pares em 2006–2013, sem controles)"). A distância para a regra de Taylor (0,3 a 2 com a ASA; 3,3 a 5,0 com o BC; corpo da 10.2.5) e os 3,16 pontos da IFI aparecem como medidas separadas, sem soma.
+- Contagens do bloco 12: saíram das colunas de evidência de P3, P7a, P9a, P9b, P9c, O1a, O1b e O2a. Ficam na seção própria "O balanço das vozes do debate", como descrição do debate ("as vozes dos dois lados concordam"), sem "reforça".
+- Fato comum: P1, P5a, P8a e O5 marcados no quadro, no texto da linha e na nota do gráfico.
+- Régua: definição de forte, moderada e fraca copiada da 9.1; saiu a frase sobre o grau "contrária". Tradução para o bloco 12 com a condição "nenhuma evidência forte contra".
+- O6 ficou moderada (achado 16 sugeria fraca se os estudos não fossem nomeados): os quatro estudos da 11.7 com métodos diferentes (Luporini, 2015; Campos e Cysne, 2019; Campos, Cysne e Madureira, 2022; Oliveira, Nobrega e Maia, 2022) passaram a constar na linha e no Para ler, com Mendonça, Santos e Sachsida (2009) como exceção.
+- O8 é uma linha só, como decidido em `_divergencias.md`, e não as três (O8 a O10) que o revisor propôs; a leitura da linha separa a força de cada mecanismo.
+- Não entrou coluna "No bloco 12" no quadro-resumo (achado 4 da 8.1): as diferenças de classificação estão explicadas nas linhas P3, P7b e O6.
+- Tabelas de duas colunas da 8.1 trocadas por `:::afavor` / `:::contra` com listas curtas, seguidas de um parágrafo "Classificação: ..." com a direção, a força e a leitura. A coluna "Na 1ª versão" saiu.
+- Gráfico `dados/8.1-matriz.json` refeito com 30 barras (P9c −2, P9d 0, O7 0, O8 0) e nota de fato comum.
+
+### Pendências após a revisão
+
+- A página 12 (tabela "Tese × o que o bloco mediu", linha "Alarme (P9c)", e a leitura "fica de pé a forma fraca ... que pertence à P3") deve passar a citar P9c (inflação, contra, moderada) e P9d (alarme fiscal, mista, fraca) e a dizer "compatível com" no lugar de "fica de pé". Fora do escopo desta correção.
+- 12.2.2 (linha 124) e a caixa da 6.2.2 tratam o "cerca de 1 ponto" do direcionado como explicação; pela decisão, é conta de brinquedo. Ajustar a 12.2.2 para "numa conta ilustrativa".
+- Extensão: a 8 tem cerca de 3.600 palavras de prosa (era 5.200), a 8.1 cerca de 9.400 no corpo (30 linhas), a 0 cerca de 1.800 e a 0.1 cerca de 3.100, todas acima das faixas de `_CONVENCOES.md`. A 8.1 encurtaria mais se as leituras de cada linha fossem reduzidas a uma frase.
+- As pendências da 2ª versão sobre a 9.1 ("ainda descreve quatro graus") e sobre a caixa da 12.1 (112 e 15) estão obsoletas: a 9.1 já usa dois eixos e a 12.1 já diz 113 e 16.
