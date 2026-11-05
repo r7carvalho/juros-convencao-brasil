@@ -274,10 +274,10 @@ Fontes: o artigo e as republicações; transcrições dos vídeos (coletadas pel
 `transcricoes.yml` em `dados/brutos/transcricoes/`, a partir de três vídeos indicados e de uma busca
 no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do painel.
 
-- [ ] 13.0 Dossiê de fontes (`conteudo/13-lara-resende/_notas.md`): cada afirmação da proposta com
+- [x] 13.0 Dossiê de fontes (`conteudo/13-lara-resende/_notas.md`): cada afirmação da proposta com
   link, data e minutagem; críticas e respostas
 - [ ] 13 Página macro: a proposta em uma página, o mapa do bloco, a régua, o veredito resumido
-- [ ] 13.1 O que ele propõe, peça por peça (transição a 7,5%, faixa permanente, conselho, metas
+- [x] 13.1 O que ele propõe, peça por peça (transição a 7,5%, faixa permanente, conselho, metas
   plurianuais, papel do BC), com as falas em vídeo
 - [x] 13.2 A teoria por trás (juro como convenção, teoria fiscal do nível de preços, leitura
   neo-fisheriana, moeda e dívida) e o que cada uma prevê

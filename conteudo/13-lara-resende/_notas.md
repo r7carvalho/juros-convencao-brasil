@@ -342,3 +342,30 @@ Linhas para a matriz da 13.7:
 - C7. O corte tira renda de quem: fato da conta, sem classificação (LFT ≈ R$ 306 bi e compromissadas ≈ R$ 86 bi por ano; bancos, fundos, previdência e, por trás, aplicadores).
 
 Lacunas: perfil de vencimento por indexador (RMD, tabela "DPF a vencer em 12 meses, por indexador"); carteira de cada detentor por tipo de título; estimativa oficial da sensibilidade da DBGG (não só da DLSP) à Selic; resultado dos swaps sob uma desvalorização de 20%.
+
+## 13.1 O que ele propõe (05/11/2026)
+
+Página: conteudo/13-lara-resende/13.1-a-proposta.md, cerca de 4.450 palavras de prosa (lint: 6.588 com links, citações, tabela e Para ler). Estado: 1ª versão.
+
+Fontes principais: o texto nas três republicações (Grabois para a data e o corpo, RED/DCM para as notas); Canal Livre de 12/02/2023 (tuPETK1-9kU), Roda Viva (8PbY6xIsfpw), MyNews (L3XqaiiXFfE), todos legenda automática; NeoFeed de 13/10/2022 (entrevista escrita); reportagens de 01 a 03/11/2026; SGS 432, 3546, 5727, 5793, 13762 (consulta em 05/11/2026). O vídeo da Rádio Bandeirantes (Zst0xTi156M) entra só como imprensa: quem fala é o comentarista.
+
+Descartadas ou com ressalva: a frase atribuída ao texto pela Mercado&Consumo ("O equilíbrio das contas públicas não é uma condição necessária...") não está no texto e foi registrada como divergência; as respostas no CEBRI (Brasil 247 via Brazil Stock Guide) entram só como relato de segunda mão; as legendas de gráfico da Grabois (0,4%, 0,7%, 9,3%) não foram atribuídas ao autor; a frase do Canal Livre "muito parecido com o regime de metas" ficou de fora porque pode ser do entrevistador.
+
+Lacunas: nenhum vídeo do autor sobre a proposta de 2026 foi transcrito (prioridade: v5igijNfi1g, CEBRI; koSyieYkwYM); original do Substack não lido; posts de Cochrane de 04/09/2026 não lidos.
+
+Números que divergem ou pedem cuidado: o texto usa custo médio "quase 13%" e Selic 7,5% na mesma conta (13.3); déficit nominal "aproxima-se de 10%" e "mais de 10%" no mesmo texto, contra 9,35% (jul) e 9,51% (set/2026) no SGS 5727; 5,7% de alta da razão é aproximação (exato 5,3%); reservas "mais de US$ 350 bi" contra US$ 362,8 bi (set/2026, SGS 3546). A data de 02/11/2026 é da republicação da RED; a do texto é 25/09/2026.
+
+Para a revisão 13.R: a nota da 12.5.1 diz que, nos trechos encontrados, o alvo é a teoria e não os rentistas; o texto usa "rentistas" na terceira acusação (como interesse que os analistas confundem com racionalidade). A 7.8 diz que o painel não abriu o texto integral; agora abriu.
+
+Linhas para a matriz da 13.7 (proposição da proposta × onde se testa):
+| Peça | Afirmação do texto | Fonte | Teste |
+|---|---|---|---|
+| Diagnóstico | O juro é o "único motor" da alta da dívida/PIB | texto, 25/09/2026; CL 20:18 | 13.3 |
+| Diagnóstico | Sem juro perto do crescimento nominal, nenhum ajuste primário estabiliza a dívida | texto | 13.3, 13.4 |
+| Faixa | Juro entre meta (3%) e crescimento nominal potencial (5,5%) faz a dívida convergir sem primário | texto; CL 41:33 a 42:11 | 13.3, 13.4 |
+| Transição | 7,5% em cerca de 12 meses, spread de 2 p.p. retirado aos poucos | texto | 13.4, 13.5 |
+| Conselho | CFMN com metas fiscais e monetárias de 4 a 5 anos e exceções à faixa | texto; CL 24:17 | 13.4 (LC 179/2021) |
+| Teoria | LFT impede o repique fiscal da inflação no corte | texto | 13.2, 13.4 |
+| Câmbio | Reservas acima de US$ 350 bi neutralizam o canal cambial | texto | 13.4, 13.6, 10.3.6 |
+| Expectativas | Inflação de longo prazo converge para juro menos crescimento real | texto; MN 06:07 | 13.2 |
+| Fiscal | Corte economiza cerca de 4% do PIB e leva o déficit nominal de mais de 10% para perto de 6% | texto | 13.3 |
