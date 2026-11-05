@@ -311,7 +311,7 @@ lados; lembrar a cada passo que correlação não é causalidade, que as variáv
 - [x] 13.10 Juro real, risco e convenção: o que a comparação com países de risco igual ou maior permite
   concluir e o que não permite (correlação, colinearidade, causalidade reversa, poucas observações);
   a tese de que o juro virou consenso, testada e não presumida
-- [ ] 13.R2 Revisão independente de 13.8 a 13.10
+- [x] 13.R2 Revisão independente de 13.8 a 13.10 (05/11/2026: relatório 13b.md, 41 achados, aplicados em 13b-aplicacao.md e 13b-integracao.md)
 
 ## 8–9. Conclusão e apoio
 

@@ -26,6 +26,9 @@ Método
   Resíduo do Brasil "fora da amostra": o modelo é estimado sem o Brasil e o resíduo é o juro
   observado menos o previsto. O mesmo exercício é feito para cada país (validação deixando um
   de fora), para ver se o erro do Brasil é grande perto do erro típico.
+  Testes extras (res["testes_extras"]): intervalo da previsão do juro brasileiro no M1; M3 sem o Brasil
+  e sem o Peru, com erro-padrão do histórico e intervalo do resíduo; ratings vigentes em 2025; Suíça,
+  Suécia e Dinamarca no M1 como AAA; posição do Brasil na validação do M1 e do M2.
 """
 import csv
 import json

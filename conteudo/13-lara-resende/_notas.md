@@ -633,3 +633,21 @@ Organização por família (onze seções), quadro família × juro × implicaç
 | BNDES (TD 154) | O juro alto de hoje não vem da meia-entrada do BNDES | Macro perto de zero; micro positivo (Bonomo e Martins) | Procede em parte | Moderada; tira explicação ortodoxa; contra reabrir taxa subsidiada |
 | Summa e Serrano | A proposta herda a taxa natural do Novo Consenso | Leitura textual de 2019 | Procede em parte | Teórica; contra a coerência interna da regra |
 | Ortodoxos (Muinhos, Pessôa, Lisboa, Mendes) | O BC não tem liberdade para fixar a Selic | Granger, Taylor estimada, 2011–2013, 2020 | Procede em parte | Moderada; limites de identificação |
+
+## Correção de 13.8, 13.9 e 13.10 (05/11/2026)
+
+Registro completo em conteudo/_revisao/13b-aplicacao.md. Decisões seguidas: _divergencias, "Decisões da revisão de 13.8 a 13.10" e "Decisões da revisão do bloco 13" (bola de neve).
+
+### Pendências após a revisão
+
+- Romer (2000): a MP inclinada (regra que responde ao produto) entrou pela decisão de _divergencias; o texto integral do JEP segue fora do acervo (o PDF w7461 veio escaneado). Conferir a forma da regra no JEP.
+- Dívida de 2025 de Peru, Indonésia e Coreia: segue da cópia de mar/2026 da Wikipédia (wiki.krisyotam.com), que compila as estimativas do FMI. O DataMapper (GGXWDG_NGDP) cobre os três e também Suíça, Suécia e Dinamarca, mas a rede bloqueou a API do FMI em 05/11/2026. Baixar e trocar na próxima coleta.
+- CDS de ago/2026 (Revista Mercado): página não aberta, números de resumo de busca, dia exato não conferido. A 13.10 diz isso no texto, no gráfico e no Para ler; trocar por fonte aberta quando houver.
+- Rating da Colômbia no começo de 2025 (BB+ na S&P até o rebaixamento para BB em jun/2025): conferir na agência. O teste com as duas variantes está em dados/13.10-resultados.json (testes_extras).
+- Extensão: a correção acrescentou prosa às três páginas; a 13.10 e a 13.9 ficam acima das 4.500 palavras de prosa do cartão. O corte fica para a passada de estilo.
+- Fora do escopo desta correção (páginas de outro corretor ou de outra área): 13.7 (linhas 11 a 18 da matriz, classe "procede em parte" para o câmbio "sobretudo", ressalvas de A5 e da linha 6), macro 13, 8.1 (citar a 13.10 em P2, O1b, O8, P3 e nos testes pendentes), 2.5 (link para a 13.10) e 13.2 (tabela de previsões, "0,25% em dez/2019 sem inflação acima da meta").
+
+### Achados de que o corretor discordou
+
+- Nenhum achado foi recusado no mérito. Dois foram aplicados de forma diferente da proposta: no gráfico do resíduo (13.10, achado 2), as barras do M3 sem o Peru saíram, em vez de ganhar intervalo, porque o intervalo (−23 a +27) achataria as outras barras; e no achado 6 da 13.8 a linha "IS pouco sensível" ficou como construção do painel, com a meia-entrada da 6.2.2 e Bonomo e Martins como apoio, porque o painel não tem um autor que sustente a tese inteira.
+- Hazell et al.: a citação "roughly a factor of two" foi conferida no texto (seção 5.2) e a página cita a seção, porque a numeração "p. 32" do relatório é a do PDF e a página usa a do artigo em outras citações.
