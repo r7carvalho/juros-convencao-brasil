@@ -261,6 +261,38 @@ Regras próprias do bloco, além do briefing:
 - [x] 12.5h Luiz Carlos Bresser-Pereira
 - [x] 12.R Revisão independente do bloco 12, com atenção a citação fiel, data e link de cada fala (03/11/2026: relatórios 12a, 12b, 12c; correções aplicadas; conclusão do bloco na página 12 a seguir)
 
+## 13. A proposta de Lara Resende para os juros: estudo
+
+Pedido de 05/11/2026: estudar a fundo a proposta de André Lara Resende para o juro brasileiro
+("Eu acuso: uma proposta para eliminar os juros absurdos", 25/09/2026, e as falas em vídeo e artigos
+que a explicam), avaliar a qualidade e a coerência dela e preparar os argumentos a favor e contra.
+A cobertura de imprensa é majoritariamente crítica; o estudo testa a proposta pelo que ela diz, na
+forma mais forte, e não pela recepção. Regras do bloco 12 valem aqui (fala pública com link e data,
+minutagem nos vídeos, caridade, mesma régua para defensores e críticos).
+
+Fontes: o artigo e as republicações; transcrições dos vídeos (coletadas pelo workflow
+`transcricoes.yml` em `dados/brutos/transcricoes/`, a partir de três vídeos indicados e de uma busca
+no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do painel.
+
+- [ ] 13.0 Dossiê de fontes (`conteudo/13-lara-resende/_notas.md`): cada afirmação da proposta com
+  link, data e minutagem; críticas e respostas
+- [ ] 13 Página macro: a proposta em uma página, o mapa do bloco, a régua, o veredito resumido
+- [ ] 13.1 O que ele propõe, peça por peça (transição a 7,5%, faixa permanente, conselho, metas
+  plurianuais, papel do BC), com as falas em vídeo
+- [ ] 13.2 A teoria por trás (juro como convenção, teoria fiscal do nível de preços, leitura
+  neo-fisheriana, moeda e dívida) e o que cada uma prevê
+- [ ] 13.3 As contas: o que o corte faz com juros, déficit nominal e dívida (com os dados do painel e
+  exemplo de brinquedo); a afirmação do déficit "de mais de 10% para perto de 6% do PIB"
+- [ ] 13.4 Coerência interna: cada elo da proposta testado (corte → dívida → inflação → câmbio →
+  expectativas), as condições de que ela depende e a base legal (autonomia do BC, LC 179/2021)
+- [ ] 13.5 Os precedentes: juro fixado ou coordenado em outros países e no Brasil (EUA 1942–1951,
+  Japão e controle da curva, Brasil 2011–2013, Turquia 2021–2023 e outros), o que cada um ensina
+- [ ] 13.6 As críticas e as respostas: cada objeção publicada na forma mais forte e a melhor resposta
+  da proposta, com classificação
+- [ ] 13.7 Como argumentar: guia de objeção × resposta × réplica, matriz tese × evidência × força e
+  direção de conclusão
+- [ ] 13.R Revisão independente do bloco 13
+
 ## 8–9. Conclusão e apoio
 
 A conclusão (8.1 e 8.2) só se escreve depois dos blocos 10, 11 e 12, porque a matriz final incorpora

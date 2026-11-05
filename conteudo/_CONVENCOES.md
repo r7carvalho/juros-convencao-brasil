@@ -113,6 +113,14 @@ próprio ramo (por exemplo `2.4.1`), nunca fora dele.
 12.3   Economistas de mercado e o Focus (12.3.1, 12.3.2)
 12.4   Jargões (12.4.x, uma página por jargão ou grupo)
 12.5   Vozes heterodoxas (12.5.x, uma página por pessoa)
+13     A proposta de Lara Resende: estudo                conteudo/13-lara-resende/
+13.1   O que ele propõe, peça por peça
+13.2   A teoria por trás
+13.3   As contas: juros, déficit e dívida
+13.4   Coerência interna e base legal
+13.5   Precedentes no Brasil e no mundo
+13.6   As críticas e as respostas
+13.7   Como argumentar: objeções, respostas e matriz
 8      Conclusão (escrita no fim)                       conteudo/8-conclusao/
 8.1    Matriz tese × evidência × força (no fim)
 9      Método, fontes, glossário e linha do tempo       conteudo/9-metodo/
