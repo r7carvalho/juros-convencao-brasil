@@ -164,7 +164,7 @@ def ancestrais(paginas, p):
 
 # ---------------------------------------------------------------- gráficos
 
-TIPOS = {"linha", "barras", "empilhadas", "barrash"}
+TIPOS = {"linha", "barras", "empilhadas", "barrash", "dispersao"}
 
 
 def carregar_grafico(rel, pagina):
@@ -192,6 +192,9 @@ def carregar_grafico(rel, pagina):
             if v is not None and not isinstance(v, (int, float)):
                 erro(f"{rel}: valor não numérico em '{s.get('nome')}' {pt}")
                 return None
+            if spec.get("tipo") == "dispersao" and not isinstance(pt.get("x"), (int, float)):
+                erro(f"{rel}: gráfico de dispersão sem 'x' numérico em '{s.get('nome')}' {pt}")
+                return None
             if spec.get("tipo", "linha") == "linha" and not re.match(r"^\d{4}(-(\d{1,2}|T[1-4]|Q[1-4]))?(-\d{1,2})?", str(pt.get("t", ""))):
                 aviso(f"{rel}: data '{pt.get('t')}' não reconhecida em gráfico de linha")
     return spec
@@ -210,6 +213,16 @@ def fmt_num(v):
 
 def tabela_grafico(spec):
     series = spec["series"]
+    if spec.get("tipo") == "dispersao":
+        ex = html.escape(str(spec.get("eixo_x", "x")))
+        ey = html.escape(str(spec.get("eixo_y", spec.get("unidade", "y"))))
+        linhas = [f"<table><thead><tr><th></th><th>{ex}</th><th>{ey}</th></tr></thead><tbody>"]
+        for s in series:
+            for pt in s.get("pontos", []):
+                linhas.append("<tr><th>" + html.escape(str(pt.get("t"))) + "</th><td>" + fmt_num(pt.get("x"))
+                              + "</td><td>" + fmt_num(pt.get("v")) + "</td></tr>")
+        linhas.append("</tbody></table>")
+        return "".join(linhas)
     ts = []
     for s in series:
         for pt in s.get("pontos", []):

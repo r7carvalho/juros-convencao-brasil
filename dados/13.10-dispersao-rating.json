@@ -1,0 +1,91 @@
+{
+ "consulta": "2026-11-05",
+ "url": "https://data.bis.org",
+ "titulo": "Juro real ex-post de 2025 e rating soberano, 13 países",
+ "tipo": "dispersao",
+ "unidade": "% a.a.",
+ "eixo_x": "degraus abaixo de AAA (S&P): 0 = AAA, 8 = BBB, 11 = BB, 12 = BB-",
+ "eixo_y": "juro real ex-post de 2025 (% a.a.)",
+ "fonte": "BIS (WS_CBPOL e WS_LONG_CPI, coleta de 02/11/2026); S&P via imprensa e listas de ratings (datas por país em dados/13.10-resultados.json); FMI; cálculo do painel (tools/analises/13.10_risco.py)",
+ "destaque": [
+  "Brasil"
+ ],
+ "reta": {
+  "a": -0.684,
+  "b": 0.445,
+  "rotulo": "reta estimada sem o Brasil"
+ },
+ "nota": "Juro real: média anual da taxa de política deflacionada pela média anual da inflação em 12 meses (régua da 2.1). Rating de longo prazo em moeda estrangeira da S&P; datas e fontes por país no arquivo de resultados. Rússia (sem rating desde 2022), área do euro, Suíça, Suécia e Dinamarca ficam fora por falta de rating ou de dívida comparável.",
+ "series": [
+  {
+   "nome": "Países",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "x": 11,
+     "v": 9.09
+    },
+    {
+     "t": "México",
+     "x": 8,
+     "v": 4.28
+    },
+    {
+     "t": "Colômbia",
+     "x": 12,
+     "v": 3.99
+    },
+    {
+     "t": "Chile",
+     "x": 5,
+     "v": 0.61
+    },
+    {
+     "t": "Peru",
+     "x": 9,
+     "v": 2.95
+    },
+    {
+     "t": "África do Sul",
+     "x": 11,
+     "v": 3.84
+    },
+    {
+     "t": "Turquia",
+     "x": 12,
+     "v": 5.66
+    },
+    {
+     "t": "Indonésia",
+     "x": 8,
+     "v": 3.3
+    },
+    {
+     "t": "Índia",
+     "x": 8,
+     "v": 3.48
+    },
+    {
+     "t": "Coreia do Sul",
+     "x": 2,
+     "v": 0.47
+    },
+    {
+     "t": "Estados Unidos",
+     "x": 1,
+     "v": 1.48
+    },
+    {
+     "t": "Reino Unido",
+     "x": 2,
+     "v": 0.83
+    },
+    {
+     "t": "Japão",
+     "x": 4,
+     "v": -2.59
+    }
+   ]
+  }
+ ]
+}

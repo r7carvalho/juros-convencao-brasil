@@ -1,0 +1,146 @@
+{
+ "titulo": "Brinquedo: a curva IS e o que a desloca (renda no eixo horizontal, juro no vertical)",
+ "tipo": "linha",
+ "unidade": "% ao ano",
+ "fonte": "Economia de brinquedo do painel (curvas ilustrativas, sem dado real)",
+ "consulta": "2026-11-05",
+ "nota": "Eixo horizontal: renda da economia de brinquedo (de 1.000 a 1.130); eixo vertical: juro, em % ao ano. Curvas ilustrativas, calculadas em tools/analises/13.8_islm.py. IS: renda = 1.100 − 10 × juro. Gasto público +15 desloca a curva 30 para a direita; queda de 15 no investimento autônomo (confiança) desloca 30 para a esquerda.",
+ "governos": false,
+ "series": [
+  {
+   "nome": "IS (gasto 150)",
+   "pontos": [
+    {
+     "t": "1000",
+     "v": 10.0
+    },
+    {
+     "t": "1010",
+     "v": 9.0
+    },
+    {
+     "t": "1020",
+     "v": 8.0
+    },
+    {
+     "t": "1030",
+     "v": 7.0
+    },
+    {
+     "t": "1040",
+     "v": 6.0
+    },
+    {
+     "t": "1050",
+     "v": 5.0
+    },
+    {
+     "t": "1060",
+     "v": 4.0
+    },
+    {
+     "t": "1070",
+     "v": 3.0
+    },
+    {
+     "t": "1080",
+     "v": 2.0
+    },
+    {
+     "t": "1090",
+     "v": 1.0
+    },
+    {
+     "t": "1100",
+     "v": 0.0
+    }
+   ]
+  },
+  {
+   "nome": "IS com gasto público +15",
+   "pontos": [
+    {
+     "t": "1030",
+     "v": 10.0
+    },
+    {
+     "t": "1040",
+     "v": 9.0
+    },
+    {
+     "t": "1050",
+     "v": 8.0
+    },
+    {
+     "t": "1060",
+     "v": 7.0
+    },
+    {
+     "t": "1070",
+     "v": 6.0
+    },
+    {
+     "t": "1080",
+     "v": 5.0
+    },
+    {
+     "t": "1090",
+     "v": 4.0
+    },
+    {
+     "t": "1100",
+     "v": 3.0
+    },
+    {
+     "t": "1110",
+     "v": 2.0
+    },
+    {
+     "t": "1120",
+     "v": 1.0
+    },
+    {
+     "t": "1130",
+     "v": 0.0
+    }
+   ]
+  },
+  {
+   "nome": "IS com confiança menor",
+   "pontos": [
+    {
+     "t": "1000",
+     "v": 7.0
+    },
+    {
+     "t": "1010",
+     "v": 6.0
+    },
+    {
+     "t": "1020",
+     "v": 5.0
+    },
+    {
+     "t": "1030",
+     "v": 4.0
+    },
+    {
+     "t": "1040",
+     "v": 3.0
+    },
+    {
+     "t": "1050",
+     "v": 2.0
+    },
+    {
+     "t": "1060",
+     "v": 1.0
+    },
+    {
+     "t": "1070",
+     "v": 0.0
+    }
+   ]
+  }
+ ]
+}

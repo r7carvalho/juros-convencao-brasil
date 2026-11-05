@@ -1,0 +1,60 @@
+{
+ "titulo": "Brinquedo: inflação acima da meta para cada hiato, com curva de Phillips inclinada e achatada",
+ "tipo": "barras",
+ "unidade": "pontos acima da meta",
+ "fonte": "Economia de brinquedo do painel (curvas ilustrativas, sem dado real)",
+ "consulta": "2026-11-05",
+ "nota": "Inflação − meta = inclinação × hiato, sem choques e com expectativa na meta. Inclinada: 0,5; achatada: 0,1. Hiato: quanto a renda está acima (+) ou abaixo (−) da renda que não acelera a inflação, em %.",
+ "series": [
+  {
+   "nome": "Inclinada (0,5)",
+   "pontos": [
+    {
+     "t": "hiato -2%",
+     "v": -1.0
+    },
+    {
+     "t": "hiato -1%",
+     "v": -0.5
+    },
+    {
+     "t": "hiato 0%",
+     "v": 0.0
+    },
+    {
+     "t": "hiato +1%",
+     "v": 0.5
+    },
+    {
+     "t": "hiato +2%",
+     "v": 1.0
+    }
+   ]
+  },
+  {
+   "nome": "Achatada (0,1)",
+   "pontos": [
+    {
+     "t": "hiato -2%",
+     "v": -0.2
+    },
+    {
+     "t": "hiato -1%",
+     "v": -0.1
+    },
+    {
+     "t": "hiato 0%",
+     "v": 0.0
+    },
+    {
+     "t": "hiato +1%",
+     "v": 0.1
+    },
+    {
+     "t": "hiato +2%",
+     "v": 0.2
+    }
+   ]
+  }
+ ]
+}

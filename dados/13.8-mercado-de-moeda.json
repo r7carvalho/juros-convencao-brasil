@@ -1,0 +1,76 @@
+{
+ "titulo": "Brinquedo: quanto o público quer de moeda além dos 260 que o BC oferece, para cada juro",
+ "tipo": "barras",
+ "unidade": "unidades de moeda",
+ "fonte": "Economia de brinquedo do painel (curvas ilustrativas, sem dado real)",
+ "consulta": "2026-11-05",
+ "nota": "Demanda por moeda = 0,2 × renda (transações) + 100 − 10 × juro (preferência pela liquidez); oferta fixa de 260. A barra mostra demanda menos oferta: acima de zero falta moeda e o juro sobe; abaixo, sobra e o juro cai. O juro de equilíbrio é onde a barra zera: 4% com renda de 1.000 e 5% com renda de 1.050.",
+ "series": [
+  {
+   "nome": "Renda de 1.000",
+   "pontos": [
+    {
+     "t": "juro 2%",
+     "v": 20.0
+    },
+    {
+     "t": "juro 3%",
+     "v": 10.0
+    },
+    {
+     "t": "juro 4%",
+     "v": 0.0
+    },
+    {
+     "t": "juro 5%",
+     "v": -10.0
+    },
+    {
+     "t": "juro 6%",
+     "v": -20.0
+    },
+    {
+     "t": "juro 7%",
+     "v": -30.0
+    },
+    {
+     "t": "juro 8%",
+     "v": -40.0
+    }
+   ]
+  },
+  {
+   "nome": "Renda de 1.050",
+   "pontos": [
+    {
+     "t": "juro 2%",
+     "v": 30.0
+    },
+    {
+     "t": "juro 3%",
+     "v": 20.0
+    },
+    {
+     "t": "juro 4%",
+     "v": 10.0
+    },
+    {
+     "t": "juro 5%",
+     "v": 0.0
+    },
+    {
+     "t": "juro 6%",
+     "v": -10.0
+    },
+    {
+     "t": "juro 7%",
+     "v": -20.0
+    },
+    {
+     "t": "juro 8%",
+     "v": -30.0
+    }
+   ]
+  }
+ ]
+}

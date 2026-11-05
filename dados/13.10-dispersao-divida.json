@@ -1,0 +1,86 @@
+{
+ "consulta": "2026-11-05",
+ "url": "https://data.bis.org",
+ "titulo": "Juro real ex-post de 2025 e dívida bruta do governo geral, 13 países",
+ "tipo": "dispersao",
+ "unidade": "% a.a.",
+ "eixo_x": "dívida bruta do governo geral, 2025 (% do PIB)",
+ "eixo_y": "juro real ex-post de 2025 (% a.a.)",
+ "fonte": "BIS (coleta de 02/11/2026); FMI, DataMapper (consulta 28/10/2026) e compilações das estimativas do FMI para Peru, Indonésia e Coreia; Ministério da Fazenda do Chile; cálculo do painel (tools/analises/13.10_risco.py)",
+ "destaque": [
+  "Brasil"
+ ],
+ "nota": "Chile no conceito nacional (41,5%); demais países no conceito do FMI, com o Brasil a 93,3% (78,6% no conceito do BCB).",
+ "series": [
+  {
+   "nome": "Países",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "x": 93.3,
+     "v": 9.09
+    },
+    {
+     "t": "México",
+     "x": 61.7,
+     "v": 4.28
+    },
+    {
+     "t": "Colômbia",
+     "x": 59.9,
+     "v": 3.99
+    },
+    {
+     "t": "Chile",
+     "x": 41.5,
+     "v": 0.61
+    },
+    {
+     "t": "Peru",
+     "x": 33.7,
+     "v": 2.95
+    },
+    {
+     "t": "África do Sul",
+     "x": 78.4,
+     "v": 3.84
+    },
+    {
+     "t": "Turquia",
+     "x": 23.7,
+     "v": 5.66
+    },
+    {
+     "t": "Indonésia",
+     "x": 41.0,
+     "v": 3.3
+    },
+    {
+     "t": "Índia",
+     "x": 84.3,
+     "v": 3.48
+    },
+    {
+     "t": "Coreia do Sul",
+     "x": 54.5,
+     "v": 0.47
+    },
+    {
+     "t": "Estados Unidos",
+     "x": 124.4,
+     "v": 1.48
+    },
+    {
+     "t": "Reino Unido",
+     "x": 102.1,
+     "v": 0.83
+    },
+    {
+     "t": "Japão",
+     "x": 204.8,
+     "v": -2.59
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "titulo": "Base monetária: variação no mês em dezembro e janeiro, em três viradas de ano com a Selic parada (%)",
+ "tipo": "barras",
+ "unidade": "% no mês",
+ "fonte": "BCB, SGS 1788 (base monetária restrita, saldo de fim de mês) e SGS 432 (Selic meta); cálculo do painel",
+ "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=1788",
+ "consulta": "2026-11-02",
+ "nota": "Selic meta parada nos três pares de meses: 6,5% (nov/2018 a jan/2019), 13,75% (nov/2022 a jan/2023) e 15% (nov/2025 a jan/2026). A base restrita soma o papel-moeda emitido e as reservas bancárias; o acervo do painel não separa as duas partes.",
+ "series": [
+  {
+   "nome": "Variação da base monetária no mês",
+   "pontos": [
+    {
+     "t": "dez/2018",
+     "v": 8.16
+    },
+    {
+     "t": "jan/2019",
+     "v": -7.6
+    },
+    {
+     "t": "dez/2022",
+     "v": 7.18
+    },
+    {
+     "t": "jan/2023",
+     "v": -1.47
+    },
+    {
+     "t": "dez/2025",
+     "v": 3.84
+    },
+    {
+     "t": "jan/2026",
+     "v": 0.73
+    }
+   ]
+  }
+ ]
+}

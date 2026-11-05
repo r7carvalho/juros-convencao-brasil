@@ -1,0 +1,2078 @@
+{
+ "consulta": "2026-11-05",
+ "paises": {
+  "BR": {
+   "nome": "Brasil",
+   "r2024": 6.316,
+   "r2025": 9.087,
+   "r2026": 9.645,
+   "r2019": 2.139,
+   "ex_ante": 8.45,
+   "rating": "BB",
+   "degrau": 11,
+   "divida": 93.3,
+   "infl_15_24": 5.845,
+   "hist_85_04": 223.162,
+   "hist_anos": 20,
+   "ln_hist": 1.173,
+   "r2023_25": 7.891,
+   "rating_fonte": "S&P, elevação de BB- para BB em 19/12/2023, reafirmada em 05/06/2025 (Movimento Econômico; IstoÉ Dinheiro)",
+   "divida_fonte": "FMI, DataMapper GGXWDG_NGDP, consulta 28/10/2026 (dados/3.4)"
+  },
+  "MX": {
+   "nome": "México",
+   "r2024": 5.794,
+   "r2025": 4.276,
+   "r2026": 2.785,
+   "r2019": 4.204,
+   "ex_ante": 3.08,
+   "rating": "BBB",
+   "degrau": 8,
+   "divida": 61.7,
+   "infl_15_24": 4.737,
+   "hist_85_04": 28.554,
+   "hist_anos": 20,
+   "ln_hist": 0.251,
+   "r2023_25": 5.129,
+   "rating_fonte": "S&P, BBB com perspectiva negativa desde mai/2026 (Mexico Daily Post, 14/05/2026)",
+   "divida_fonte": "FMI, DataMapper, consulta 28/10/2026 (dados/3.4)"
+  },
+  "CO": {
+   "nome": "Colômbia",
+   "r2024": 4.411,
+   "r2025": 3.987,
+   "r2026": 4.942,
+   "r2019": 0.706,
+   "ex_ante": 6.33,
+   "rating": "BB-",
+   "degrau": 12,
+   "divida": 59.9,
+   "infl_15_24": 5.817,
+   "hist_85_04": 18.627,
+   "hist_anos": 20,
+   "ln_hist": 0.171,
+   "r2023_25": 3.196,
+   "rating_fonte": "S&P, rebaixamento de BB para BB- em 08/04/2026 (La República; Scotiabank Colpatria)",
+   "divida_fonte": "FMI, DataMapper, consulta 28/10/2026 (dados/3.4)"
+  },
+  "CL": {
+   "nome": "Chile",
+   "r2024": 1.785,
+   "r2025": 0.61,
+   "r2026": 0.918,
+   "r2019": -0.075,
+   "ex_ante": 2.09,
+   "rating": "A",
+   "degrau": 5,
+   "divida": 41.5,
+   "infl_15_24": 4.645,
+   "hist_85_04": 11.373,
+   "hist_anos": 20,
+   "ln_hist": 0.108,
+   "r2023_25": 1.611,
+   "rating_fonte": "S&P, A estável (FX Empire e Trading Economics, listas de ratings, consulta 05/11/2026)",
+   "divida_fonte": "Ministério da Fazenda do Chile, 2025, via Trading Economics (conceito nacional; o FMI projeta 43,7% para 2026, FRED CHLGGXWDGGDP)"
+  },
+  "PE": {
+   "nome": "Peru",
+   "r2024": 3.256,
+   "r2025": 2.954,
+   "r2026": 0.595,
+   "r2019": 0.457,
+   "ex_ante": null,
+   "rating": "BBB-",
+   "degrau": 9,
+   "divida": 33.7,
+   "infl_15_24": 3.574,
+   "hist_85_04": 130.451,
+   "hist_anos": 20,
+   "ln_hist": 0.835,
+   "r2023_25": 2.455,
+   "rating_fonte": "S&P, BBB- estável (listas de ratings, consulta 05/11/2026)",
+   "divida_fonte": "FMI, estimativa de 2025 compilada na Wikipédia, List of countries by government debt, versão de mar/2026"
+  },
+  "ZA": {
+   "nome": "África do Sul",
+   "r2024": 3.526,
+   "r2025": 3.842,
+   "r2026": 2.774,
+   "r2019": 2.408,
+   "ex_ante": 2.93,
+   "rating": "BB",
+   "degrau": 11,
+   "divida": 78.4,
+   "infl_15_24": 4.998,
+   "hist_85_04": 10.169,
+   "hist_anos": 20,
+   "ln_hist": 0.097,
+   "r2023_25": 3.111,
+   "rating_fonte": "S&P, BB com perspectiva positiva desde 14/11/2025 (Wikipédia, List of countries by credit rating, versão de mar/2026)",
+   "divida_fonte": "FMI, DataMapper, consulta 28/10/2026 (dados/3.4)"
+  },
+  "TR": {
+   "nome": "Turquia",
+   "r2024": -6.922,
+   "r2025": 5.659,
+   "r2026": 4.214,
+   "r2019": 3.931,
+   "ex_ante": 6.25,
+   "rating": "BB-",
+   "degrau": 12,
+   "divida": 23.7,
+   "infl_15_24": 27.541,
+   "hist_85_04": 59.976,
+   "hist_anos": 20,
+   "ln_hist": 0.47,
+   "r2023_25": -7.54,
+   "rating_fonte": "S&P, elevação de B+ para BB- em 2024, mantida em abr/2026 (Property Turkey, 2026; conferir na S&P)",
+   "divida_fonte": "FMI, DataMapper, consulta 28/10/2026 (dados/3.4)"
+  },
+  "ID": {
+   "nome": "Indonésia",
+   "r2024": 3.716,
+   "r2025": 3.297,
+   "r2026": 1.857,
+   "r2019": 2.519,
+   "ex_ante": 2.14,
+   "rating": "BBB",
+   "degrau": 8,
+   "divida": 41.0,
+   "infl_15_24": 3.379,
+   "hist_85_04": 10.755,
+   "hist_anos": 20,
+   "ln_hist": 0.102,
+   "r2023_25": 3.007,
+   "rating_fonte": "S&P, BBB (listas de ratings, consulta 05/11/2026)",
+   "divida_fonte": "FMI, estimativa de 2025 compilada na Wikipédia, versão de mar/2026"
+  },
+  "IN": {
+   "nome": "Índia",
+   "r2024": 1.45,
+   "r2025": 3.483,
+   "r2026": 1.206,
+   "r2019": 1.918,
+   "ex_ante": 1.63,
+   "rating": "BBB",
+   "degrau": 8,
+   "divida": 84.3,
+   "infl_15_24": 4.995,
+   "hist_85_04": 6.88,
+   "hist_anos": 20,
+   "ln_hist": 0.067,
+   "r2023_25": 1.904,
+   "rating_fonte": "S&P, elevação para BBB em 14/08/2025 (Wikipédia, versão de mar/2026)",
+   "divida_fonte": "FMI, DataMapper, consulta 28/10/2026 (dados/3.4)"
+  },
+  "KR": {
+   "nome": "Coreia do Sul",
+   "r2024": 1.044,
+   "r2025": 0.471,
+   "r2026": -0.005,
+   "r2019": 1.173,
+   "ex_ante": null,
+   "rating": "AA",
+   "degrau": 2,
+   "divida": 54.5,
+   "infl_15_24": 1.954,
+   "hist_85_04": 4.713,
+   "hist_anos": 20,
+   "ln_hist": 0.046,
+   "r2023_25": 0.471,
+   "rating_fonte": "S&P, AA (FX Empire, consulta 05/11/2026)",
+   "divida_fonte": "FMI, estimativa de 2025 compilada na Wikipédia, versão de mar/2026"
+  },
+  "US": {
+   "nome": "Estados Unidos",
+   "r2024": 2.131,
+   "r2025": 1.478,
+   "r2026": 0.293,
+   "r2019": 0.308,
+   "ex_ante": 0.74,
+   "rating": "AA+",
+   "degrau": 1,
+   "divida": 124.4,
+   "infl_15_24": 2.879,
+   "hist_85_04": 3.036,
+   "hist_anos": 20,
+   "ln_hist": 0.03,
+   "r2023_25": 1.513,
+   "rating_fonte": "S&P, AA+ desde 2011 (listas de ratings, consulta 05/11/2026)",
+   "divida_fonte": "FMI, DataMapper, consulta 28/10/2026 (dados/3.4)"
+  },
+  "GB": {
+   "nome": "Reino Unido",
+   "r2024": 2.492,
+   "r2025": 0.835,
+   "r2026": 0.73,
+   "r2019": -1.011,
+   "ex_ante": 0.8,
+   "rating": "AA",
+   "degrau": 2,
+   "divida": 102.1,
+   "infl_15_24": 3.005,
+   "hist_85_04": 2.959,
+   "hist_anos": 20,
+   "ln_hist": 0.029,
+   "r2023_25": 0.288,
+   "rating_fonte": "S&P, AA (listas de ratings, consulta 05/11/2026)",
+   "divida_fonte": "FMI, DataMapper, consulta 28/10/2026 (dados/3.4)"
+  },
+  "JP": {
+   "nome": "Japão",
+   "r2024": -2.568,
+   "r2025": -2.592,
+   "r2026": -0.725,
+   "r2019": -0.594,
+   "ex_ante": -0.44,
+   "rating": "A+",
+   "degrau": 4,
+   "divida": 204.8,
+   "infl_15_24": 1.087,
+   "hist_85_04": 0.755,
+   "hist_anos": 20,
+   "ln_hist": 0.008,
+   "r2023_25": -2.804,
+   "rating_fonte": "S&P, A+ (listas de ratings, consulta 05/11/2026)",
+   "divida_fonte": "FMI, DataMapper, consulta 28/10/2026 (dados/3.4)"
+  }
+ },
+ "regressoes": {
+  "M1 rating": {
+   "regressores": [
+    "degrau"
+   ],
+   "n": 13,
+   "r2": 0.569,
+   "coef": [
+    -1.024,
+    0.545
+   ],
+   "ep": [
+    1.158,
+    0.143
+   ],
+   "t": [
+    -0.88,
+    3.81
+   ],
+   "sem_brasil": {
+    "coef": [
+     -0.684,
+     0.445
+    ],
+    "ep": [
+     0.886,
+     0.113
+    ],
+    "r2": 0.606,
+    "n": 12,
+    "previsto_brasil": 4.21,
+    "residuo_brasil": 4.87
+   }
+  },
+  "M2 rating, inflação 2015-24, dívida": {
+   "regressores": [
+    "degrau",
+    "infl_15_24",
+    "divida"
+   ],
+   "n": 13,
+   "r2": 0.594,
+   "coef": [
+    0.084,
+    0.477,
+    0.019,
+    -0.009
+   ],
+   "ep": [
+    2.087,
+    0.187,
+    0.109,
+    0.015
+   ],
+   "t": [
+    0.04,
+    2.55,
+    0.17,
+    -0.65
+   ],
+   "sem_brasil": {
+    "coef": [
+     1.519,
+     0.282,
+     0.051,
+     -0.018
+    ],
+    "ep": [
+     1.325,
+     0.124,
+     0.067,
+     0.009
+    ],
+    "r2": 0.765,
+    "n": 12,
+    "previsto_brasil": 3.22,
+    "residuo_brasil": 5.87
+   }
+  },
+  "M3 M2 + histórico 1985-2004": {
+   "regressores": [
+    "degrau",
+    "infl_15_24",
+    "divida",
+    "ln_hist"
+   ],
+   "n": 13,
+   "r2": 0.735,
+   "coef": [
+    0.274,
+    0.307,
+    0.025,
+    -0.008,
+    3.533
+   ],
+   "ep": [
+    1.792,
+    0.181,
+    0.094,
+    0.012,
+    1.714
+   ],
+   "t": [
+    0.15,
+    1.7,
+    0.26,
+    -0.68,
+    2.06
+   ],
+   "sem_brasil": {
+    "coef": [
+     1.688,
+     0.298,
+     0.054,
+     -0.02,
+     -0.948
+    ],
+    "ep": [
+     1.447,
+     0.136,
+     0.071,
+     0.01,
+     2.113
+    ],
+    "r2": 0.771,
+    "n": 12,
+    "previsto_brasil": 2.32,
+    "residuo_brasil": 6.76
+   }
+  },
+  "M4 inflação 2015-24 e dívida": {
+   "regressores": [
+    "infl_15_24",
+    "divida"
+   ],
+   "n": 13,
+   "r2": 0.302,
+   "coef": [
+    3.696,
+    0.131,
+    -0.02
+   ],
+   "ep": [
+    1.905,
+    0.124,
+    0.017
+   ],
+   "t": [
+    1.94,
+    1.05,
+    -1.17
+   ],
+   "sem_brasil": {
+    "coef": [
+     3.644,
+     0.114,
+     -0.026
+    ],
+    "ep": [
+     1.13,
+     0.074,
+     0.01
+    ],
+    "r2": 0.614,
+    "n": 12,
+    "previsto_brasil": 1.93,
+    "residuo_brasil": 7.16
+   }
+  }
+ },
+ "sensibilidade": [
+  {
+   "dep": "ex-post 2025",
+   "amostra": "13 países",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 12,
+   "observado": 9.09,
+   "previsto": 4.21,
+   "residuo": 4.87,
+   "r2_sem_brasil": 0.606
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "13 países",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 12,
+   "observado": 9.09,
+   "previsto": 3.22,
+   "residuo": 5.87,
+   "r2_sem_brasil": 0.765
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "13 países",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 12,
+   "observado": 9.09,
+   "previsto": 2.32,
+   "residuo": 6.76,
+   "r2_sem_brasil": 0.771
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "13 países",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 12,
+   "observado": 9.09,
+   "previsto": 1.93,
+   "residuo": 7.16,
+   "r2_sem_brasil": 0.614
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "10 emergentes",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 9,
+   "observado": 9.09,
+   "previsto": 4.38,
+   "residuo": 4.71,
+   "r2_sem_brasil": 0.78
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "10 emergentes",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 9,
+   "observado": 9.09,
+   "previsto": 4.62,
+   "residuo": 4.47,
+   "r2_sem_brasil": 0.837
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "10 emergentes",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 9,
+   "observado": 9.09,
+   "previsto": 5.49,
+   "residuo": 3.6,
+   "r2_sem_brasil": 0.843
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "10 emergentes",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 9,
+   "observado": 9.09,
+   "previsto": 4.28,
+   "residuo": 4.81,
+   "r2_sem_brasil": 0.5
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "12 sem Turquia",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 11,
+   "observado": 9.09,
+   "previsto": 3.94,
+   "residuo": 5.15,
+   "r2_sem_brasil": 0.53
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "12 sem Turquia",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 11,
+   "observado": 9.09,
+   "previsto": 3.94,
+   "residuo": 5.15,
+   "r2_sem_brasil": 0.764
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "12 sem Turquia",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 11,
+   "observado": 9.09,
+   "previsto": 4.22,
+   "residuo": 4.87,
+   "r2_sem_brasil": 0.764
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "12 sem Turquia",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 11,
+   "observado": 9.09,
+   "previsto": 3.87,
+   "residuo": 5.22,
+   "r2_sem_brasil": 0.733
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "12 sem Peru",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 11,
+   "observado": 9.09,
+   "previsto": 4.27,
+   "residuo": 4.82,
+   "r2_sem_brasil": 0.606
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "12 sem Peru",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 11,
+   "observado": 9.09,
+   "previsto": 3.32,
+   "residuo": 5.77,
+   "r2_sem_brasil": 0.773
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "12 sem Peru",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 11,
+   "observado": 9.09,
+   "previsto": 7.36,
+   "residuo": 1.73,
+   "r2_sem_brasil": 0.779
+  },
+  {
+   "dep": "ex-post 2025",
+   "amostra": "12 sem Peru",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 11,
+   "observado": 9.09,
+   "previsto": 1.94,
+   "residuo": 7.15,
+   "r2_sem_brasil": 0.613
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "13 países",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 12,
+   "observado": 9.64,
+   "previsto": 3.14,
+   "residuo": 6.5,
+   "r2_sem_brasil": 0.683
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "13 países",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 12,
+   "observado": 9.64,
+   "previsto": 2.78,
+   "residuo": 6.86,
+   "r2_sem_brasil": 0.728
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "13 países",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 12,
+   "observado": 9.64,
+   "previsto": 0.27,
+   "residuo": 9.37,
+   "r2_sem_brasil": 0.816
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "13 países",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 12,
+   "observado": 9.64,
+   "previsto": 1.45,
+   "residuo": 8.2,
+   "r2_sem_brasil": 0.455
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "10 emergentes",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 9,
+   "observado": 9.64,
+   "previsto": 3.27,
+   "residuo": 6.37,
+   "r2_sem_brasil": 0.687
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "10 emergentes",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 9,
+   "observado": 9.64,
+   "previsto": 3.42,
+   "residuo": 6.22,
+   "r2_sem_brasil": 0.719
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "10 emergentes",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 9,
+   "observado": 9.64,
+   "previsto": -0.35,
+   "residuo": 9.99,
+   "r2_sem_brasil": 0.837
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "10 emergentes",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 9,
+   "observado": 9.64,
+   "previsto": 3.08,
+   "residuo": 6.56,
+   "r2_sem_brasil": 0.393
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "12 sem Turquia",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 11,
+   "observado": 9.64,
+   "previsto": 2.94,
+   "residuo": 6.7,
+   "r2_sem_brasil": 0.619
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "12 sem Turquia",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 11,
+   "observado": 9.64,
+   "previsto": 3.5,
+   "residuo": 6.14,
+   "r2_sem_brasil": 0.758
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "12 sem Turquia",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 11,
+   "observado": 9.64,
+   "previsto": 1.5,
+   "residuo": 8.14,
+   "r2_sem_brasil": 0.803
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "12 sem Turquia",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 11,
+   "observado": 9.64,
+   "previsto": 3.42,
+   "residuo": 6.22,
+   "r2_sem_brasil": 0.698
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "12 sem Peru",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 11,
+   "observado": 9.64,
+   "previsto": 3.42,
+   "residuo": 6.23,
+   "r2_sem_brasil": 0.789
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "12 sem Peru",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 11,
+   "observado": 9.64,
+   "previsto": 3.03,
+   "residuo": 6.62,
+   "r2_sem_brasil": 0.837
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "12 sem Peru",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 11,
+   "observado": 9.64,
+   "previsto": 9.0,
+   "residuo": 0.64,
+   "r2_sem_brasil": 0.86
+  },
+  {
+   "dep": "ex-post 2026 (jan-set)",
+   "amostra": "12 sem Peru",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 11,
+   "observado": 9.64,
+   "previsto": 1.52,
+   "residuo": 8.13,
+   "r2_sem_brasil": 0.498
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "13 países",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 12,
+   "observado": 6.32,
+   "previsto": 1.58,
+   "residuo": 4.74,
+   "r2_sem_brasil": 0.001
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "13 países",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 12,
+   "observado": 6.32,
+   "previsto": 2.23,
+   "residuo": 4.08,
+   "r2_sem_brasil": 0.789
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "13 países",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 12,
+   "observado": 6.32,
+   "previsto": 0.78,
+   "residuo": 5.53,
+   "r2_sem_brasil": 0.797
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "13 países",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 12,
+   "observado": 6.32,
+   "previsto": 0.97,
+   "residuo": 5.35,
+   "r2_sem_brasil": 0.726
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "10 emergentes",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 9,
+   "observado": 6.32,
+   "previsto": 1.58,
+   "residuo": 4.74,
+   "r2_sem_brasil": 0.021
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "10 emergentes",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 9,
+   "observado": 6.32,
+   "previsto": 3.46,
+   "residuo": 2.86,
+   "r2_sem_brasil": 0.897
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "10 emergentes",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 9,
+   "observado": 6.32,
+   "previsto": 2.36,
+   "residuo": 3.95,
+   "r2_sem_brasil": 0.899
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "10 emergentes",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 9,
+   "observado": 6.32,
+   "previsto": 3.0,
+   "residuo": 3.32,
+   "r2_sem_brasil": 0.772
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "12 sem Turquia",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 11,
+   "observado": 6.32,
+   "previsto": 3.91,
+   "residuo": 2.41,
+   "r2_sem_brasil": 0.295
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "12 sem Turquia",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 11,
+   "observado": 6.32,
+   "previsto": 3.63,
+   "residuo": 2.68,
+   "r2_sem_brasil": 0.65
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "12 sem Turquia",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 11,
+   "observado": 6.32,
+   "previsto": 4.59,
+   "residuo": 1.72,
+   "r2_sem_brasil": 0.656
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "12 sem Turquia",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 11,
+   "observado": 6.32,
+   "previsto": 3.63,
+   "residuo": 2.69,
+   "r2_sem_brasil": 0.65
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "12 sem Peru",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 11,
+   "observado": 6.32,
+   "previsto": 1.33,
+   "residuo": 4.99,
+   "r2_sem_brasil": 0.003
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "12 sem Peru",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 11,
+   "observado": 6.32,
+   "previsto": 2.43,
+   "residuo": 3.89,
+   "r2_sem_brasil": 0.804
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "12 sem Peru",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 11,
+   "observado": 6.32,
+   "previsto": 19.1,
+   "residuo": -12.79,
+   "r2_sem_brasil": 0.85
+  },
+  {
+   "dep": "ex-post 2024",
+   "amostra": "12 sem Peru",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 11,
+   "observado": 6.32,
+   "previsto": 1.02,
+   "residuo": 5.3,
+   "r2_sem_brasil": 0.729
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "13 países",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 12,
+   "observado": 7.89,
+   "previsto": 1.03,
+   "residuo": 6.86,
+   "r2_sem_brasil": 0.0
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "13 países",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 12,
+   "observado": 7.89,
+   "previsto": 1.79,
+   "residuo": 6.1,
+   "r2_sem_brasil": 0.822
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "13 países",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 12,
+   "observado": 7.89,
+   "previsto": -0.0,
+   "residuo": 7.89,
+   "r2_sem_brasil": 0.834
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "13 países",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 12,
+   "observado": 7.89,
+   "previsto": 0.34,
+   "residuo": 7.55,
+   "r2_sem_brasil": 0.735
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "10 emergentes",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 9,
+   "observado": 7.89,
+   "previsto": 0.93,
+   "residuo": 6.96,
+   "r2_sem_brasil": 0.035
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "10 emergentes",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 9,
+   "observado": 7.89,
+   "previsto": 3.34,
+   "residuo": 4.55,
+   "r2_sem_brasil": 0.909
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "10 emergentes",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 9,
+   "observado": 7.89,
+   "previsto": 2.71,
+   "residuo": 5.18,
+   "r2_sem_brasil": 0.91
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "10 emergentes",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 9,
+   "observado": 7.89,
+   "previsto": 2.96,
+   "residuo": 4.93,
+   "r2_sem_brasil": 0.823
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "12 sem Turquia",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 11,
+   "observado": 7.89,
+   "previsto": 3.38,
+   "residuo": 4.51,
+   "r2_sem_brasil": 0.39
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "12 sem Turquia",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 11,
+   "observado": 7.89,
+   "previsto": 3.22,
+   "residuo": 4.67,
+   "r2_sem_brasil": 0.74
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "12 sem Turquia",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 11,
+   "observado": 7.89,
+   "previsto": 3.76,
+   "residuo": 4.13,
+   "r2_sem_brasil": 0.742
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "12 sem Turquia",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 11,
+   "observado": 7.89,
+   "previsto": 3.19,
+   "residuo": 4.7,
+   "r2_sem_brasil": 0.737
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "12 sem Peru",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 11,
+   "observado": 7.89,
+   "previsto": 0.81,
+   "residuo": 7.08,
+   "r2_sem_brasil": 0.001
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "12 sem Peru",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 11,
+   "observado": 7.89,
+   "previsto": 2.01,
+   "residuo": 5.88,
+   "r2_sem_brasil": 0.844
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "12 sem Peru",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 11,
+   "observado": 7.89,
+   "previsto": 16.71,
+   "residuo": -8.82,
+   "r2_sem_brasil": 0.88
+  },
+  {
+   "dep": "ex-post 2023-2025",
+   "amostra": "12 sem Peru",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 11,
+   "observado": 7.89,
+   "previsto": 0.4,
+   "residuo": 7.49,
+   "r2_sem_brasil": 0.742
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "13 países",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 10,
+   "observado": 8.45,
+   "previsto": 4.4,
+   "residuo": 4.05,
+   "r2_sem_brasil": 0.712
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "13 países",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 10,
+   "observado": 8.45,
+   "previsto": 3.6,
+   "residuo": 4.85,
+   "r2_sem_brasil": 0.829
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "13 países",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 10,
+   "observado": 8.45,
+   "previsto": 9.5,
+   "residuo": -1.05,
+   "r2_sem_brasil": 0.845
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "13 países",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 10,
+   "observado": 8.45,
+   "previsto": 2.26,
+   "residuo": 6.19,
+   "r2_sem_brasil": 0.657
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "10 emergentes",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 7,
+   "observado": 8.45,
+   "previsto": 4.62,
+   "residuo": 3.83,
+   "r2_sem_brasil": 0.648
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "10 emergentes",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 7,
+   "observado": 8.45,
+   "previsto": 3.21,
+   "residuo": 5.24,
+   "r2_sem_brasil": 0.813
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "10 emergentes",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 7,
+   "observado": 8.45,
+   "previsto": 9.98,
+   "residuo": -1.53,
+   "r2_sem_brasil": 0.847
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "10 emergentes",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 7,
+   "observado": 8.45,
+   "previsto": 3.15,
+   "residuo": 5.3,
+   "r2_sem_brasil": 0.432
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "12 sem Turquia",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 9,
+   "observado": 8.45,
+   "previsto": 3.96,
+   "residuo": 4.49,
+   "r2_sem_brasil": 0.653
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "12 sem Turquia",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 9,
+   "observado": 8.45,
+   "previsto": 4.27,
+   "residuo": 4.18,
+   "r2_sem_brasil": 0.78
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "12 sem Turquia",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 9,
+   "observado": 8.45,
+   "previsto": 10.67,
+   "residuo": -2.22,
+   "r2_sem_brasil": 0.807
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "12 sem Turquia",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 9,
+   "observado": 8.45,
+   "previsto": 4.27,
+   "residuo": 4.18,
+   "r2_sem_brasil": 0.698
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "12 sem Peru",
+   "modelo": "M1 rating",
+   "n_sem_brasil": 10,
+   "observado": 8.45,
+   "previsto": 4.4,
+   "residuo": 4.05,
+   "r2_sem_brasil": 0.712
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "12 sem Peru",
+   "modelo": "M2 rating, inflação 2015-24, dívida",
+   "n_sem_brasil": 10,
+   "observado": 8.45,
+   "previsto": 3.6,
+   "residuo": 4.85,
+   "r2_sem_brasil": 0.829
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "12 sem Peru",
+   "modelo": "M3 M2 + histórico 1985-2004",
+   "n_sem_brasil": 10,
+   "observado": 8.45,
+   "previsto": 9.5,
+   "residuo": -1.05,
+   "r2_sem_brasil": 0.845
+  },
+  {
+   "dep": "ex-ante 16/09/2026",
+   "amostra": "12 sem Peru",
+   "modelo": "M4 inflação 2015-24 e dívida",
+   "n_sem_brasil": 10,
+   "observado": 8.45,
+   "previsto": 2.26,
+   "residuo": 6.19,
+   "r2_sem_brasil": 0.657
+  }
+ ],
+ "correlacoes": {
+  "r2025": {
+   "r2025": 1.0,
+   "degrau": 0.75,
+   "infl_15_24": 0.45,
+   "divida": -0.47,
+   "ln_hist": 0.72
+  },
+  "degrau": {
+   "r2025": 0.75,
+   "degrau": 1.0,
+   "infl_15_24": 0.52,
+   "divida": -0.45,
+   "ln_hist": 0.53
+  },
+  "infl_15_24": {
+   "r2025": 0.45,
+   "degrau": 0.52,
+   "infl_15_24": 1.0,
+   "divida": -0.43,
+   "ln_hist": 0.26
+  },
+  "divida": {
+   "r2025": -0.47,
+   "degrau": -0.45,
+   "infl_15_24": -0.43,
+   "divida": 1.0,
+   "ln_hist": -0.26
+  },
+  "ln_hist": {
+   "r2025": 0.72,
+   "degrau": 0.53,
+   "infl_15_24": 0.26,
+   "divida": -0.26,
+   "ln_hist": 1.0
+  }
+ },
+ "vif": {
+  "M2 rating, inflação 2015-24, dívida": {
+   "degrau": 1.49,
+   "infl_15_24": 1.46,
+   "divida": 1.34
+  },
+  "M3 M2 + histórico 1985-2004": {
+   "degrau": 1.89,
+   "infl_15_24": 1.46,
+   "divida": 1.34,
+   "ln_hist": 1.4
+  },
+  "M3, 10 emergentes": {
+   "degrau": 1.81,
+   "infl_15_24": 1.93,
+   "divida": 1.51,
+   "ln_hist": 1.22
+  }
+ },
+ "loo": {
+  "M2, ex-post 2025": {
+   "TR": -25.45,
+   "JP": -8.53,
+   "BR": 5.87,
+   "US": 2.96,
+   "CL": -1.95,
+   "CO": -1.81,
+   "PE": -1.48,
+   "ZA": -1.06,
+   "MX": 0.96,
+   "GB": 0.91,
+   "ID": -0.34,
+   "IN": 0.31,
+   "KR": -0.13
+  },
+  "M1, ex-post 2025": {
+   "BR": 4.87,
+   "JP": -4.31,
+   "US": 2.71,
+   "CO": -1.92,
+   "ZA": -1.34,
+   "CL": -1.22,
+   "PE": -1.03,
+   "MX": 1.02,
+   "GB": 0.98,
+   "KR": 0.52,
+   "TR": 0.18,
+   "IN": 0.16,
+   "ID": -0.04
+  }
+ },
+ "cds": {
+  "ago/2026": {
+   "fonte": "Revista Mercado (República Dominicana), ranking latino-americano de CDS de 5 anos, ago/2026",
+   "url": "https://revistamercado.do/money-invest/daily-news/republica-dominicana-supera-a-brasil-y-colombia-en-riesgo-pais-asi-queda-el-ranking-latinoamericano/",
+   "valores": {
+    "BR": 122.21,
+    "CO": 136.18,
+    "MX": 79.44,
+    "PE": 59.02,
+    "CL": 41.24
+   },
+   "corr_cds_degrau": 0.92,
+   "corr_cds_r2025": 0.72,
+   "corr_cds_r2026": 0.82,
+   "sem_brasil_r2026": {
+    "coef": [
+     -1.372,
+     0.0466
+    ],
+    "r2": 0.92,
+    "previsto_brasil": 4.33,
+    "residuo_brasil": 5.32
+   }
+  },
+  "mai/2026": {
+   "fonte": "La República (Colômbia), com dados da Bloomberg, semana anterior ao 1º turno colombiano, mai/2026",
+   "url": "https://www.larepublica.co/economia/el-riesgo-pais-se-disparo-a-menos-de-una-semana-de-las-elecciones-presidenciales-4400255",
+   "valores": {
+    "BR": 128.28,
+    "CO": 220.9,
+    "MX": 96.06,
+    "PE": 74.2,
+    "CL": 50.9
+   },
+   "corr_cds_degrau": 0.85,
+   "corr_cds_r2025": 0.39,
+   "corr_cds_r2026": 0.54,
+   "sem_brasil_r2026": {
+    "coef": [
+     -0.4355,
+     0.0248
+    ],
+    "r2": 0.886,
+    "previsto_brasil": 2.75,
+    "residuo_brasil": 6.89
+   }
+  }
+ },
+ "brinquedo": {
+  "x1": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "x2": [
+   1.1,
+   1.9,
+   3.0,
+   4.1,
+   4.9,
+   6.0
+  ],
+  "amostras": {
+   "A": {
+    "y": [
+     2.3,
+     3.7,
+     6.0,
+     8.2,
+     9.8,
+     12.0
+    ],
+    "b1": -0.5000000000006111,
+    "b2": 2.499999999999865,
+    "ep1": 0.29422042173452617,
+    "ep2": 0.2972941950052573,
+    "soma": 1.999999999999254,
+    "b_soma": 0.9922010398613512,
+    "ep_soma": 0.01859723163728422,
+    "r2": 0.9998535013184882
+   },
+   "B": {
+    "y": [
+     1.9,
+     4.1,
+     6.0,
+     8.0,
+     10.0,
+     12.0
+    ],
+    "b1": 2.4999999999984794,
+    "b2": -0.4999999999992255,
+    "ep1": 0.2942204217345252,
+    "ep2": 0.2972941950052563,
+    "soma": 1.999999999999254,
+    "b_soma": 1.007798960138647,
+    "ep_soma": 0.01859723163728418,
+    "r2": 0.999857994887816
+   }
+  },
+  "correlacao_x1_x2": 0.998899210767639,
+  "vif": 454.46969696968847
+ },
+ "correlacoes_emergentes": {
+  "r2025": {
+   "r2025": 1.0,
+   "degrau": 0.75,
+   "infl_15_24": 0.37,
+   "divida": 0.42,
+   "ln_hist": 0.72
+  },
+  "degrau": {
+   "r2025": 0.75,
+   "degrau": 1.0,
+   "infl_15_24": 0.48,
+   "divida": 0.13,
+   "ln_hist": 0.42
+  },
+  "infl_15_24": {
+   "r2025": 0.37,
+   "degrau": 0.48,
+   "infl_15_24": 1.0,
+   "divida": -0.43,
+   "ln_hist": 0.17
+  },
+  "divida": {
+   "r2025": 0.42,
+   "degrau": 0.13,
+   "infl_15_24": -0.43,
+   "divida": 1.0,
+   "ln_hist": 0.11
+  },
+  "ln_hist": {
+   "r2025": 0.72,
+   "degrau": 0.42,
+   "infl_15_24": 0.17,
+   "divida": 0.11,
+   "ln_hist": 1.0
+  }
+ },
+ "corr_divida_juro_emergentes": {
+  "com_brasil": 0.42,
+  "sem_brasil": -0.01
+ },
+ "robustez_rating": {
+  "casos": [
+   {
+    "pais": "MX",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.87,
+    "coef_rating": 0.438
+   },
+   {
+    "pais": "MX",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.91,
+    "coef_rating": 0.269
+   },
+   {
+    "pais": "MX",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.9,
+    "coef_rating": 0.448
+   },
+   {
+    "pais": "MX",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.85,
+    "coef_rating": 0.289
+   },
+   {
+    "pais": "CO",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.77,
+    "coef_rating": 0.461
+   },
+   {
+    "pais": "CO",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.79,
+    "coef_rating": 0.294
+   },
+   {
+    "pais": "CO",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.99,
+    "coef_rating": 0.427
+   },
+   {
+    "pais": "CO",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.95,
+    "coef_rating": 0.267
+   },
+   {
+    "pais": "CL",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.84,
+    "coef_rating": 0.444
+   },
+   {
+    "pais": "CL",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.81,
+    "coef_rating": 0.289
+   },
+   {
+    "pais": "CL",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.92,
+    "coef_rating": 0.442
+   },
+   {
+    "pais": "CL",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.94,
+    "coef_rating": 0.269
+   },
+   {
+    "pais": "PE",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.81,
+    "coef_rating": 0.451
+   },
+   {
+    "pais": "PE",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.81,
+    "coef_rating": 0.29
+   },
+   {
+    "pais": "PE",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.95,
+    "coef_rating": 0.435
+   },
+   {
+    "pais": "PE",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.93,
+    "coef_rating": 0.27
+   },
+   {
+    "pais": "ZA",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.79,
+    "coef_rating": 0.456
+   },
+   {
+    "pais": "ZA",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.81,
+    "coef_rating": 0.288
+   },
+   {
+    "pais": "ZA",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.97,
+    "coef_rating": 0.431
+   },
+   {
+    "pais": "ZA",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.93,
+    "coef_rating": 0.272
+   },
+   {
+    "pais": "TR",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.81,
+    "coef_rating": 0.451
+   },
+   {
+    "pais": "TR",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.84,
+    "coef_rating": 0.281
+   },
+   {
+    "pais": "TR",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.95,
+    "coef_rating": 0.436
+   },
+   {
+    "pais": "TR",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.89,
+    "coef_rating": 0.283
+   },
+   {
+    "pais": "ID",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.84,
+    "coef_rating": 0.443
+   },
+   {
+    "pais": "ID",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.86,
+    "coef_rating": 0.281
+   },
+   {
+    "pais": "ID",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.92,
+    "coef_rating": 0.442
+   },
+   {
+    "pais": "ID",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.89,
+    "coef_rating": 0.279
+   },
+   {
+    "pais": "IN",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.85,
+    "coef_rating": 0.442
+   },
+   {
+    "pais": "IN",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.88,
+    "coef_rating": 0.274
+   },
+   {
+    "pais": "IN",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.92,
+    "coef_rating": 0.443
+   },
+   {
+    "pais": "IN",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.88,
+    "coef_rating": 0.284
+   },
+   {
+    "pais": "KR",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.9,
+    "coef_rating": 0.43
+   },
+   {
+    "pais": "KR",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.88,
+    "coef_rating": 0.275
+   },
+   {
+    "pais": "KR",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.86,
+    "coef_rating": 0.458
+   },
+   {
+    "pais": "KR",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.87,
+    "coef_rating": 0.285
+   },
+   {
+    "pais": "US",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.95,
+    "coef_rating": 0.42
+   },
+   {
+    "pais": "US",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.96,
+    "coef_rating": 0.255
+   },
+   {
+    "pais": "US",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.81,
+    "coef_rating": 0.47
+   },
+   {
+    "pais": "US",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.78,
+    "coef_rating": 0.309
+   },
+   {
+    "pais": "GB",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.91,
+    "coef_rating": 0.428
+   },
+   {
+    "pais": "GB",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.91,
+    "coef_rating": 0.267
+   },
+   {
+    "pais": "GB",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.85,
+    "coef_rating": 0.46
+   },
+   {
+    "pais": "GB",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.84,
+    "coef_rating": 0.294
+   },
+   {
+    "pais": "JP",
+    "delta": -1,
+    "modelo": "M1 rating",
+    "residuo": 4.79,
+    "coef_rating": 0.457
+   },
+   {
+    "pais": "JP",
+    "delta": -1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 5.73,
+    "coef_rating": 0.3
+   },
+   {
+    "pais": "JP",
+    "delta": 1,
+    "modelo": "M1 rating",
+    "residuo": 4.98,
+    "coef_rating": 0.428
+   },
+   {
+    "pais": "JP",
+    "delta": 1,
+    "modelo": "M2 rating, inflação 2015-24, dívida",
+    "residuo": 6.0,
+    "coef_rating": 0.263
+   }
+  ],
+  "residuo_min": 4.77,
+  "residuo_max": 6.0,
+  "coef_min": 0.255,
+  "coef_max": 0.47
+ },
+ "risco_igual_ou_maior": {
+  "paises": [
+   "CO",
+   "ZA",
+   "TR"
+  ],
+  "r2025": {
+   "media_pares": 4.5,
+   "brasil": 9.09,
+   "distancia": 4.59
+  },
+  "r2026": {
+   "media_pares": 3.98,
+   "brasil": 9.64,
+   "distancia": 5.67
+  },
+  "ex_ante": {
+   "media_pares": 5.17,
+   "brasil": 8.45,
+   "distancia": 3.28
+  },
+  "r2019": {
+   "media_pares": 2.35,
+   "brasil": 2.14,
+   "distancia": -0.21
+  }
+ },
+ "faixas_residuo": {
+  "ex-post 2025": {
+   "sem histórico (M1, M2, M4)": [
+    4.47,
+    7.16
+   ],
+   "com histórico (M3)": [
+    1.73,
+    6.76
+   ]
+  },
+  "ex-post 2026 (jan-set)": {
+   "sem histórico (M1, M2, M4)": [
+    6.14,
+    8.2
+   ],
+   "com histórico (M3)": [
+    0.64,
+    9.99
+   ]
+  },
+  "ex-post 2024": {
+   "sem histórico (M1, M2, M4)": [
+    2.41,
+    5.35
+   ],
+   "com histórico (M3)": [
+    -12.79,
+    5.53
+   ]
+  },
+  "ex-post 2023-2025": {
+   "sem histórico (M1, M2, M4)": [
+    4.51,
+    7.55
+   ],
+   "com histórico (M3)": [
+    -8.82,
+    7.89
+   ]
+  },
+  "ex-ante 16/09/2026": {
+   "sem histórico (M1, M2, M4)": [
+    3.83,
+    6.19
+   ],
+   "com histórico (M3)": [
+    -2.22,
+    -1.05
+   ]
+  }
+ },
+ "serie_brasil": {
+  "anos": [
+   2007,
+   2023
+  ],
+  "tabela": [
+   {
+    "ano": 2007,
+    "r": 8.048,
+    "embi": 180.628,
+    "dbgg": 57.479,
+    "ipca_ant": 3.14
+   },
+   {
+    "ano": 2008,
+    "r": 6.501,
+    "embi": 299.95,
+    "dbgg": 55.88,
+    "ipca_ant": 4.46
+   },
+   {
+    "ano": 2009,
+    "r": 4.783,
+    "embi": 305.795,
+    "dbgg": 58.784,
+    "ipca_ant": 5.9
+   },
+   {
+    "ano": 2010,
+    "r": 4.725,
+    "embi": 203.434,
+    "dbgg": 55.809,
+    "ipca_ant": 4.31
+   },
+   {
+    "ano": 2011,
+    "r": 4.837,
+    "embi": 193.799,
+    "dbgg": 52.184,
+    "ipca_ant": 5.91
+   },
+   {
+    "ano": 2012,
+    "r": 2.897,
+    "embi": 183.996,
+    "dbgg": 53.375,
+    "ipca_ant": 6.5
+   },
+   {
+    "ano": 2013,
+    "r": 2.1,
+    "embi": 204.709,
+    "dbgg": 53.403,
+    "ipca_ant": 5.84
+   },
+   {
+    "ano": 2014,
+    "r": 4.416,
+    "embi": 230.702,
+    "dbgg": 53.583,
+    "ipca_ant": 5.91
+   },
+   {
+    "ano": 2015,
+    "r": 4.192,
+    "embi": 345.958,
+    "dbgg": 61.46,
+    "ipca_ant": 6.41
+   },
+   {
+    "ano": 2016,
+    "r": 4.962,
+    "embi": 381.683,
+    "dbgg": 68.307,
+    "ipca_ant": 10.67
+   },
+   {
+    "ano": 2017,
+    "r": 6.241,
+    "embi": 268.125,
+    "dbgg": 72.521,
+    "ipca_ant": 6.29
+   },
+   {
+    "ano": 2018,
+    "r": 2.798,
+    "embi": 272.253,
+    "dbgg": 75.38,
+    "ipca_ant": 2.95
+   },
+   {
+    "ano": 2019,
+    "r": 2.139,
+    "embi": 241.498,
+    "dbgg": 76.285,
+    "ipca_ant": 3.75
+   },
+   {
+    "ano": 2020,
+    "r": -0.386,
+    "embi": 320.749,
+    "dbgg": 82.153,
+    "ipca_ant": 4.31
+   },
+   {
+    "ano": 2021,
+    "r": -3.206,
+    "embi": 301.116,
+    "dbgg": 81.508,
+    "ipca_ant": 4.52
+   },
+   {
+    "ano": 2022,
+    "r": 3.003,
+    "embi": 303.221,
+    "dbgg": 75.019,
+    "ipca_ant": 10.06
+   },
+   {
+    "ano": 2023,
+    "r": 8.268,
+    "embi": 228.429,
+    "dbgg": 72.432,
+    "ipca_ant": 5.79
+   }
+  ],
+  "correlacoes": {
+   "r": {
+    "r": 1.0,
+    "embi": -0.243,
+    "dbgg": -0.47,
+    "ipca_ant": 0.09
+   },
+   "embi": {
+    "r": -0.243,
+    "embi": 1.0,
+    "dbgg": 0.497,
+    "ipca_ant": 0.435
+   },
+   "dbgg": {
+    "r": -0.47,
+    "embi": 0.497,
+    "dbgg": 1.0,
+    "ipca_ant": -0.014
+   },
+   "ipca_ant": {
+    "r": 0.09,
+    "embi": 0.435,
+    "dbgg": -0.014,
+    "ipca_ant": 1.0
+   }
+  },
+  "vif": {
+   "embi": 1.793,
+   "dbgg": 1.454,
+   "ipca_ant": 1.351
+  },
+  "mqo_2007-2023": {
+   "n": 17,
+   "r2": 0.232,
+   "coef": [
+    11.353,
+    -0.395,
+    -0.113,
+    0.164
+   ],
+   "ep": [
+    4.665,
+    1.543,
+    0.078,
+    0.386
+   ],
+   "nota": "coeficientes: constante, EMBI+ (por 100 pontos-base), DBGG (por ponto do PIB), IPCA do ano anterior"
+  },
+  "mqo_2007-2015": {
+   "n": 9,
+   "r2": 0.733,
+   "coef": [
+    10.269,
+    0.857,
+    -0.003,
+    -1.376
+   ],
+   "ep": [
+    11.945,
+    1.161,
+    0.23,
+    0.428
+   ],
+   "nota": "coeficientes: constante, EMBI+ (por 100 pontos-base), DBGG (por ponto do PIB), IPCA do ano anterior"
+  },
+  "mqo_2016-2023": {
+   "n": 8,
+   "r2": 0.862,
+   "coef": [
+    60.294,
+    -3.282,
+    -0.646,
+    0.149
+   ],
+   "ep": [
+    15.242,
+    1.888,
+    0.201,
+    0.402
+   ],
+   "nota": "coeficientes: constante, EMBI+ (por 100 pontos-base), DBGG (por ponto do PIB), IPCA do ano anterior"
+  }
+ }
+}

@@ -340,6 +340,63 @@
     area.appendChild(s);
   }
 
+  /* dispersão (x, y) com rótulos e destaque -------------------------------- */
+  function dispersao(area, spec, W) {
+    var pts = [];
+    spec.series.forEach(function (se, si) {
+      (se.pontos || []).forEach(function (p) { if (p.v != null && p.x != null) pts.push({ x: p.x, v: p.v, t: String(p.t), si: si }); });
+    });
+    if (!pts.length) return;
+    var destaque = spec.destaque || [];
+    var xs = pts.map(function (p) { return p.x; }), vs = pts.map(function (p) { return p.v; });
+    (spec.ref || []).forEach(function (r) { vs.push(r.v); });
+    var nx = nice(Math.min.apply(null, xs), Math.max.apply(null, xs), W < 480 ? 4 : 6);
+    var ny = nice(Math.min.apply(null, vs.concat([0])), Math.max.apply(null, vs), W < 480 ? 4 : 6);
+    var H = W < 480 ? 280 : 340, mL = 44, mR = 14, mT = 12, mB = 40;
+    var pw = W - mL - mR, ph = H - mT - mB;
+    function X(x) { return mL + (x - nx.lo) / (nx.hi - nx.lo) * pw; }
+    function Y(v) { return mT + (1 - (v - ny.lo) / (ny.hi - ny.lo)) * ph; }
+    var s = svg("svg", { viewBox: "0 0 " + W + " " + H, width: W, height: H });
+    ny.ticks.forEach(function (t) {
+      s.appendChild(svg("line", { x1: mL, x2: W - mR, y1: Y(t), y2: Y(t), "class": t === 0 ? "zero" : "gl" }));
+      s.appendChild(svg("text", { x: mL - 6, y: Y(t) + 4, "text-anchor": "end", "class": "ax" }, fmt(t)));
+    });
+    nx.ticks.forEach(function (t) {
+      s.appendChild(svg("line", { x1: X(t), x2: X(t), y1: mT + ph, y2: mT + ph + 4, "class": "gl" }));
+      s.appendChild(svg("text", { x: X(t), y: mT + ph + 16, "text-anchor": "middle", "class": "ax" }, fmt(t)));
+    });
+    if (spec.eixo_x) s.appendChild(svg("text", { x: mL + pw / 2, y: H - 4, "text-anchor": "middle", "class": "ax" }, spec.eixo_x.length > 90 ? spec.eixo_x.slice(0, 89) + "…" : spec.eixo_x));
+    (spec.ref || []).forEach(function (r) {
+      s.appendChild(svg("line", { x1: mL, x2: W - mR, y1: Y(r.v), y2: Y(r.v), "class": "refl" }));
+      if (r.rotulo) s.appendChild(svg("text", { x: W - mR - 2, y: Y(r.v) - 4, "text-anchor": "end", "class": "refl-t" }, r.rotulo));
+    });
+    if (spec.reta && spec.reta.b != null) {
+      var a = spec.reta.a, b = spec.reta.b, xa = nx.lo, xb = nx.hi;
+      s.appendChild(svg("line", { x1: X(xa), x2: X(xb), y1: Y(a + b * xa), y2: Y(a + b * xb), "class": "refl" }));
+      if (spec.reta.rotulo) s.appendChild(svg("text", { x: W - mR - 2, y: Math.max(mT + 10, Math.min(mT + ph - 4, Y(a + b * xb) - 6)), "text-anchor": "end", "class": "refl-t" }, spec.reta.rotulo));
+    }
+    var tip = tooltip(area);
+    var cinza = getComputedStyle(root).getPropertyValue("--text-3").trim() || "#888";
+    pts.forEach(function (p) {
+      var hi = destaque.indexOf(p.t) >= 0;
+      var c = svg("circle", { cx: X(p.x), cy: Y(p.v), r: hi ? 6 : 4.5, fill: hi ? cor(1) : cor(0), stroke: "var(--surface)", "stroke-width": 1.5 });
+      function dica(ev) {
+        var rr = s.getBoundingClientRect();
+        var cx = (ev.touches ? ev.touches[0].clientX : ev.clientX) - rr.left, cy = (ev.touches ? ev.touches[0].clientY : ev.clientY) - rr.top;
+        tip.show("<b>" + esc(p.t) + "</b><br>" + esc(spec.eixo_x || "x") + ": " + fmt(p.x) + "<br>" + esc(spec.eixo_y || "y") + ": " + fmt(p.v), cx, cy);
+      }
+      c.addEventListener("mousemove", dica);
+      c.addEventListener("touchstart", dica, { passive: true });
+      c.addEventListener("mouseleave", tip.hide);
+      s.appendChild(c);
+      if (W >= 420 || hi) {
+        var dir = X(p.x) > mL + pw * 0.8;
+        s.appendChild(svg("text", { x: X(p.x) + (dir ? -8 : 8), y: Y(p.v) + 4, "text-anchor": dir ? "end" : "start", "class": "ax", fill: hi ? "var(--text)" : cinza, "font-weight": hi ? 700 : 400 }, p.t));
+      }
+    });
+    area.appendChild(s);
+  }
+
   /* desenho -------------------------------------------------------------- */
   function desenhar(area) {
     var id = area.getAttribute("data-grafico");
@@ -360,6 +417,7 @@
       else if (tipo === "barras") barras(area, spec, W, false);
       else if (tipo === "empilhadas") barras(area, spec, W, true);
       else if (tipo === "barrash") barrash(area, spec, W);
+      else if (tipo === "dispersao") dispersao(area, spec, W);
     } catch (e) { area.textContent = "Não foi possível desenhar o gráfico; veja os dados na tabela abaixo."; }
   }
   function redesenhar() { document.querySelectorAll(".g-area").forEach(desenhar); }

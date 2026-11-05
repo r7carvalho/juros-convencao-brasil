@@ -504,3 +504,46 @@ Registro completo em conteudo/_revisao/13-aplicacao-b.md.
 - Pendência: extensão de prosa da 13.5 (cerca de 5.200 palavras) e da 13.6 (cerca de 5.400) segue acima das 4.500 do cartão; as correções acrescentaram evidência e o corte fica para a passada de estilo.
 - Matriz da 13.7: nenhuma direção ou força mudou; mudaram as classes da linha 4 (procede em parte) e da LFT na linha 6 (procede em parte), e a condição das linhas 2 e 10 (precedente em condições que 2026 não cumpre).
 - Contagem da regra de reação conferida com o SGS 13522: IPCA de 12 meses acima de 3% em 98 de 117 meses de jan/2017 a set/2026 (84%); 239 de 261 desde 2005 (92%) sai das páginas do bloco.
+
+## 13.8 O IS-LM, a moeda fiduciária e as curvas horizontais (05/11/2026)
+
+Página `conteudo/13-lara-resende/13.8-is-lm.md` (id 13.8, pai 13, ordem 8, 1ª versão): cerca de 4.200 palavras de prosa (sem caixas, tabelas, citações em bloco, listas e "Para ler"; o lint conta 7.750 tokens no corpo inteiro). Oito gráficos, todos gerados por `tools/analises/13.8_islm.py --json` (o script imprime todas as contas do texto): seis de brinquedo (`13.8-is-brinquedo`, `13.8-mercado-de-moeda`, `13.8-is-lm-encontro`, `13.8-lm-horizontal`, `13.8-phillips-brinquedo`, `13.8-identificacao-brinquedo`) e dois com dado real (`13.8-base-monetaria-dezembro`, SGS 1788 e 432; `13.8-hazell-inclinacao`, Tabela 2 de NBER w28005). Os gráficos de linha de brinquedo usam a renda (1.000 a 1.130) como eixo horizontal, com `t` de quatro dígitos para passar no formato `linha`; a nota de cada um e a caixa de abertura avisam que o eixo é renda e que as curvas são ilustrativas.
+
+Economia de brinquedo: C = 100 + 0,5Y − 2i; I = 300 − 3i; G = 150; IS Y = 1.100 − 10i; demanda por moeda 0,2Y + 100 − 10i; M = 260; LM i = 0,02Y − 16; equilíbrio Y = 1.050, i = 5%. Gasto +15: 1.075 e 5,5% (1.080 com juro fixo). Moeda 272: 1.060 e 4%. Choque de liquidez +12: com M fixo, 1.040 e 6%; com juro fixo, 1.050 e moeda 272 (Poole). Phillips de brinquedo 0,5 × 0,1; identificação: BC passivo mostra 0,5, BC que zera a inflação mostra reta horizontal, BC que cancela metade mostra −0,5; conserto de 1 ponto de expectativa exige hiato de −2% (0,5) ou −10% (0,1).
+
+### Fontes usadas
+
+- Lara Resende: "Eu acuso" (Grabois, 25/09/2026; RED para as notas), recortes conferidos no JSON: "Desde os anos 1990, a Curva de Phillips tornou-se praticamente horizontal: ..."; "Recessão e capacidade ociosa não reduzem a inflação, assim como crescimento e baixo desemprego não pressionam a inflação"; "a moeda é endógena. O instrumento de política dos bancos centrais é a taxa básica que remunera as reservas bancárias" (cortado antes do trecho entre travessões); "inviabiliza o crédito para a produção e o consumo, ..."; "principal sinalizador da inflação no curto prazo" (via dossiê D12). NeoFeed, 13/10/2022: "Como a moeda é fiduciária, não tem lastro, o Banco Central pode expandir, sem restrição, o que for demandado de crédito"; "este é o limite da expansão creditícia e monetária, aquela que provoca uma desvalorização"; "A política de juros afeta os preços via taxa cambial"; "está muito mais fraco no mundo todo". Canal Livre (tuPETK1-9kU) 04:45–04:57 (agregados × taxa sobre reservas) e 07:05–07:17 (Phillips "desapareceu no mundo inteiro"); Roda Viva (8PbY6xIsfpw) 02:27–02:58 ("reduz a demanda agregada"; "simplória"; "sempre uma inflação de demanda"); MyNews (L3XqaiiXFfE) 03:23. **Nos textos e transcrições coletados, o autor não usa "IS-LM" nem "LM"** (busca por regex em textos/ e transcricoes/).
+- Literatura com texto na mão (dados/brutos/textos/): Banco da Inglaterra 2014 (McLeay, Radia e Thomas; recortes p. 14 e p. 25 do Bulletin, p. 1 e 12 do PDF); Hazell et al., NBER w28005 rev. maio/2021 (resumo; p. 4 do texto para a frase sobre McLeay e Tenreyro; Tabela 2: κ 0,0278 → 0,0002 sem efeitos fixos de tempo e 0,0107 → 0,0050 com eles; correlação de Phillips 0,67 em 1960–1983 e 0,03 em 2000–2019q1; expectativas −4 pontos de 1981 a 1986, cerca de 2/3 da queda do núcleo; κ de 0,0062 na amostra inteira, significativo); Palley, PERI WP 179 (resumo; p. 7: spread com estruturalistas e canal de Minsky); Romer, só o resumo da página do NBER (o PDF w7461 veio sem texto, escaneado).
+- McLeay e Tenreyro: o PDF do Banco da Inglaterra deu 404; citados só por referência e paráfrase (NBER Macroeconomics Annual 2019, vol. 34, 2020, p. 199–255, confirmados por WebSearch; a paráfrase do mecanismo segue o resumo da busca e a descrição de Hazell et al.).
+- WebSearch (standard, três buscas): páginas de McLeay e Tenreyro; estimativas brasileiras da curva de Phillips (Machado e Portugal, 2014, *Estudos Econômicos*, citado pelo resumo; Schwartzman, 2006, não usado). Nenhuma busca trouxe coeficiente do hiato do modelo do BC.
+- Datas históricas (sem busca, conhecimento consolidado): Hicks, *Econometrica* 5(2), abr/1937, a partir da reunião da Econometric Society em Oxford, set/1936; Hansen 1949 e 1953; Hicks 1980 (JPKE 3(2)); Reino Unido fora do ouro em 21/09/1931; EUA em 1933 (abril) e Gold Reserve Act de jan/1934 (US$ 35); Bretton Woods jul/1944; conversibilidade corrente europeia dez/1958; fim da conversão em 15/08/1971; flutuação generalizada em mar/1973.
+- Dados do acervo: SGS 1788 (base restrita, R$ mil) e 432 (Selic meta), coleta de 02/11/2026: dez/2018 +8,2% e jan/2019 −7,6% (Selic 6,5%); dez/2022 +7,2% e jan/2023 −1,5% (13,75%); dez/2025 +3,8% e jan/2026 +0,7% (15%). Os outros anos (2016, 2017, 2019, 2023, 2024) tiveram mudança de Selic na virada e ficaram de fora.
+- Páginas do painel usadas: 1.1.4, 1.4.1, 4.1, 4.4, 4.5, 6.2, 6.2.2, 10.1, 10.1.1, 10.2.1, 10.2.2, 10.2.5, 12.4.5, 13.3, 13.4 (elo 4: folga do carry 9,5% → 3,5%, repasse ilustrativo de 10%), 13.5, 13.6 (classe de "recessão não reduz a inflação": não procede, moderada).
+
+### Descartadas e por quê
+
+- Franke (Bielefeld WP 28) e as resenhas de Unicamp/PUC-SP: não acrescentavam ao argumento da página.
+- A frase de Keynes sobre a quantidade de moeda "determinada pela ação do banco central" (cap. 18) ficou em paráfrase, porque o painel não tinha o texto na frente.
+- Brazil Journal (Mauro Miranda: Wicksell e a curva de Phillips "dada por morta"): já tratado na 13.6; não repetido.
+- Estimativa numérica brasileira da inclinação: não achada com fonte conferida; a página diz que o painel não tem e que a confiança na magnitude é baixa.
+
+### Números que divergem ou pedem cuidado
+
+- Nenhum número do painel foi alterado. A base monetária restrita soma papel-moeda e reservas; o acervo não separa as duas, e a ligação do pico de dezembro com o 13º e as compras de fim de ano é descrita como coincidência de calendário.
+- Hazell et al.: os números vêm da versão NBER revista em maio de 2021; a versão publicada no QJE (2022) pode ter tabelas com valores um pouco diferentes (não conferida).
+
+### Lacunas
+
+- Texto integral de Romer (2000) e de McLeay e Tenreyro (2020) não lidos; coeficiente do hiato na curva de Phillips do modelo do BC não conferido nos relatórios; nenhuma estimativa regional brasileira da inclinação (seria o teste que mudaria a leitura).
+
+### Linhas para a matriz da 13.7 (afirmação × evidência × classificação × força e direção)
+
+| Afirmação | Evidência | Classificação | Força e direção | Páginas |
+|---|---|---|---|---|
+| O BC fixa a taxa básica; moeda endógena (LM horizontal) | Over 0,10 abaixo da meta desde 2014; base +3,8% a +8,2% em dezembro com Selic parada; BoE 2014; Romer 2000 | Procede | Forte, a favor da premissa; não decide o nível | 13.8, 10.2.1, 1.1.4 |
+| Moeda fiduciária permite expandir "sem restrição" o crédito demandado | Sem limite operacional; limite de preço, que o autor nomeia (câmbio) | Procede em parte | Moderada, neutra | 13.8, 13.4 |
+| Phillips "praticamente horizontal" desde os anos 1990 | Correlação 0,67 → 0,03 (EUA); regional pequena e não nula, achatamento de cerca de 2 vezes; Brasil sem estimativa conferida | Procede em parte | Moderada; a favor no canal da demanda, contra se a planura vier da ancoragem | 13.8, 4.4 |
+| Recessão não reduz a inflação | Inclinação pequena e presente; 2016–2017 | Não procede na forma absoluta | Moderada, contra | 13.6, 13.8 |
+| O juro alto inviabiliza crédito e investimento (IS inclinada) | Canais do BC; direcionado reduz potência | Procede em parte (sentido sim; intensidade sem medida) | Moderada, a favor do diagnóstico | 13.8, 6.2, 6.2.2 |
+| Corte com custo inflacionário pequeno | Vale com expectativas paradas; canal cambial independe da planura | Falta evidência | Fraca, contra pela partida de 2026 | 13.8, 13.4, 12.4.5 |

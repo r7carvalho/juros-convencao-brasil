@@ -1,0 +1,95 @@
+{
+ "titulo": "Brinquedo: a mesma curva de Phillips (inclinação 0,5) vista com um BC passivo e com um BC que reage bem",
+ "tipo": "barras",
+ "unidade": "pontos",
+ "fonte": "Economia de brinquedo do painel (curvas ilustrativas, sem dado real); mecanismo de McLeay e Tenreyro (2020)",
+ "url": "https://www.nber.org/papers/w25892",
+ "consulta": "2026-11-05",
+ "nota": "Curva verdadeira: inflação − meta = 0,5 × hiato + choque de custo. BC passivo: só choques de demanda (+2, −1, +1, −2), e a inflação acompanha o hiato com inclinação 0,5. BC ativo: choques de custo (+1, −0,5, +0,5, −1), e o BC move o hiato (−2, +1, −1, +2) até a inflação ficar na meta; nos dados, o hiato varia e a inflação não, como se a curva fosse horizontal.",
+ "series": [
+  {
+   "nome": "Hiato, BC passivo",
+   "pontos": [
+    {
+     "t": "Ano 1",
+     "v": 2
+    },
+    {
+     "t": "Ano 2",
+     "v": -1
+    },
+    {
+     "t": "Ano 3",
+     "v": 1
+    },
+    {
+     "t": "Ano 4",
+     "v": -2
+    }
+   ]
+  },
+  {
+   "nome": "Inflação − meta, BC passivo",
+   "pontos": [
+    {
+     "t": "Ano 1",
+     "v": 1.0
+    },
+    {
+     "t": "Ano 2",
+     "v": -0.5
+    },
+    {
+     "t": "Ano 3",
+     "v": 0.5
+    },
+    {
+     "t": "Ano 4",
+     "v": -1.0
+    }
+   ]
+  },
+  {
+   "nome": "Hiato, BC ativo",
+   "pontos": [
+    {
+     "t": "Ano 1",
+     "v": -2.0
+    },
+    {
+     "t": "Ano 2",
+     "v": 1.0
+    },
+    {
+     "t": "Ano 3",
+     "v": -1.0
+    },
+    {
+     "t": "Ano 4",
+     "v": 2.0
+    }
+   ]
+  },
+  {
+   "nome": "Inflação − meta, BC ativo",
+   "pontos": [
+    {
+     "t": "Ano 1",
+     "v": 0.0
+    },
+    {
+     "t": "Ano 2",
+     "v": 0.0
+    },
+    {
+     "t": "Ano 3",
+     "v": 0.0
+    },
+    {
+     "t": "Ano 4",
+     "v": 0.0
+    }
+   ]
+  }
+ ]
+}

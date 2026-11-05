@@ -1,0 +1,37 @@
+{
+ "titulo": "Inclinação da curva de Phillips nos estados americanos, antes e depois de 1990, com e sem efeitos fixos de tempo",
+ "tipo": "barras",
+ "unidade": "κ (coeficiente)",
+ "fonte": "Hazell, Herreño, Nakamura e Steinsson, NBER Working Paper 28005 (rev. maio de 2021), Tabela 2, colunas 1 a 4",
+ "url": "https://www.nber.org/papers/w28005",
+ "consulta": "2026-11-05",
+ "nota": "κ é a resposta da inflação de bens não comercializáveis do estado ao desemprego do estado, em pontos por ponto, na equação (17) do artigo. Sem efeitos fixos de tempo, a curva parece cem vezes mais plana depois de 1990; com eles, que absorvem a mudança das expectativas de longo prazo, a queda é de cerca de metade.",
+ "series": [
+  {
+   "nome": "Sem efeitos fixos de tempo",
+   "pontos": [
+    {
+     "t": "1978–1990",
+     "v": 0.0278
+    },
+    {
+     "t": "1991–2018",
+     "v": 0.0002
+    }
+   ]
+  },
+  {
+   "nome": "Com efeitos fixos de tempo",
+   "pontos": [
+    {
+     "t": "1978–1990",
+     "v": 0.0107
+    },
+    {
+     "t": "1991–2018",
+     "v": 0.005
+    }
+   ]
+  }
+ ]
+}

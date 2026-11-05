@@ -299,7 +299,7 @@ autor, do BNDES e de quem trabalha na mesma linha) e as que a contestam; tirar o
 lados; lembrar a cada passo que correlação não é causalidade, que as variáveis macro andam juntas
 (colinearidade) e que economia é ciência social, onde a evidência raramente decide sozinha.
 
-- [ ] 13.8 O IS-LM, a moeda fiduciária e as curvas horizontais: de onde vem o modelo (Hicks, 1937,
+- [x] 13.8 O IS-LM, a moeda fiduciária e as curvas horizontais: de onde vem o modelo (Hicks, 1937,
   mundo de padrão-ouro e câmbio fixo), o que é a LM (oferta e demanda de moeda), o que muda quando o
   banco central fixa o juro e a moeda é fiduciária e eletrônica (LM horizontal, Romer 2000, moeda
   endógena), a curva de Phillips "praticamente horizontal" de que o autor fala em 2026, o problema de

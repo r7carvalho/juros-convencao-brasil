@@ -1,0 +1,50 @@
+{
+ "consulta": "2026-11-05",
+ "titulo": "Exemplo de brinquedo: o mesmo dado, duas amostras de ruído, coeficientes trocados",
+ "tipo": "barras",
+ "unidade": "coeficiente",
+ "fonte": "Exemplo de brinquedo do painel (tools/analises/13.10_risco.py)",
+ "nota": "Verdade do exemplo: y = 1·x1 + 1·x2. x1 e x2 têm correlação de 0,998. A soma dos dois coeficientes sai perto de 2 nas duas amostras; a divisão entre eles muda de lado.",
+ "ref": [
+  {
+   "v": 1,
+   "rotulo": "valor verdadeiro de cada um"
+  }
+ ],
+ "series": [
+  {
+   "nome": "Amostra A",
+   "pontos": [
+    {
+     "t": "peso de x1",
+     "v": -0.5
+    },
+    {
+     "t": "peso de x2",
+     "v": 2.5
+    },
+    {
+     "t": "soma",
+     "v": 2.0
+    }
+   ]
+  },
+  {
+   "nome": "Amostra B",
+   "pontos": [
+    {
+     "t": "peso de x1",
+     "v": 2.5
+    },
+    {
+     "t": "peso de x2",
+     "v": -0.5
+    },
+    {
+     "t": "soma",
+     "v": 2.0
+    }
+   ]
+  }
+ ]
+}

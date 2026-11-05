@@ -1,0 +1,46 @@
+{
+ "consulta": "2026-11-05",
+ "url": "https://revistamercado.do/money-invest/daily-news/republica-dominicana-supera-a-brasil-y-colombia-en-riesgo-pais-asi-queda-el-ranking-latinoamericano/",
+ "titulo": "América Latina: juro real ex-post de 2026 (jan-set) e CDS de 5 anos de ago/2026",
+ "tipo": "dispersao",
+ "unidade": "% a.a.",
+ "eixo_x": "CDS de 5 anos, ago/2026 (pontos-base)",
+ "eixo_y": "juro real ex-post, jan-set 2026 (% a.a.)",
+ "fonte": "BIS (coleta de 02/11/2026); Revista Mercado, ranking latino-americano de CDS, ago/2026; cálculo do painel",
+ "destaque": [
+  "Brasil"
+ ],
+ "nota": "Cinco países, uma data de CDS. Em mai/2026, às vésperas da eleição colombiana, o CDS da Colômbia estava em 220,9 e o do Brasil em 128,3 (La República, com dados da Bloomberg).",
+ "series": [
+  {
+   "nome": "Países",
+   "pontos": [
+    {
+     "t": "Brasil",
+     "x": 122.21,
+     "v": 9.64
+    },
+    {
+     "t": "Colômbia",
+     "x": 136.18,
+     "v": 4.94
+    },
+    {
+     "t": "México",
+     "x": 79.44,
+     "v": 2.78
+    },
+    {
+     "t": "Peru",
+     "x": 59.02,
+     "v": 0.6
+    },
+    {
+     "t": "Chile",
+     "x": 41.24,
+     "v": 0.92
+    }
+   ]
+  }
+ ]
+}
