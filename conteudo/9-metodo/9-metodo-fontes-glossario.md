@@ -2,7 +2,7 @@
 id: 9
 titulo: Método, fontes, glossário e linha do tempo
 pai: 0
-ordem: 12
+ordem: 13
 resumo: As regras que o painel segue para escolher fontes, calcular juros reais e dívida e graduar a força da evidência; a bibliografia completa; um glossário dos termos técnicos; e a cronologia de 1964 a 2026. É a área de consulta: quem quer conferir um número, entender uma sigla ou situar um episódio no tempo começa aqui.
 estado: revisada
 ---

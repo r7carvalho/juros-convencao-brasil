@@ -2,7 +2,7 @@
 id: 8
 titulo: "Conclusão: a direção"
 pai: 0
-ordem: 11
+ordem: 12
 resumo: O juro real brasileiro é alto por uma soma de causas. Um prêmio fiscal e político move o juro de mercado (confiança alta nas oscilações, moderada como parte do nível); a estrutura da dívida, do crédito e das reservas reduz a potência de cada ponto de Selic e encarece a dívida; e sobra um resíduo que o fiscal corrente não explica, de cerca de 2 pontos (FMI) a 4,5 (distância bruta de 2006–2013), sem teste que diga quanto dele é convenção. A tese em teste acerta nos fatos e no círculo contábil entre juro e dívida, e erra nas formas absolutas. A leitura ortodoxa acerta no curto prazo e na trajetória da dívida, e não explica o nível. Confiança no conjunto: moderada.
 estado: revisada
 ---

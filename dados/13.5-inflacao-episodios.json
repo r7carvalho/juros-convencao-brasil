@@ -1,0 +1,110 @@
+{
+ "titulo": "Inflação em 12 meses no início, no máximo durante e no máximo nos 24 meses depois de cada episódio, sem a Turquia (%)",
+ "tipo": "barras",
+ "unidade": "%",
+ "fonte": "BIS, WS_LONG_CPI (EUA, Reino Unido, Japão, Turquia); IBGE, IPCA 12 meses via BCB, SGS 13522 (Brasil); ABS, Consumer Price Index (Austrália); cálculo do painel em tools/analises/13.5_precedentes.py",
+ "url": "https://data.bis.org/",
+ "consulta": "2026-11-05",
+ "nota": "Início e fim: EUA abr/1942 a mar/1951; Reino Unido jan/1946 a out/1951; Japão set/2016 a mar/2024 (depois, até set/2026); Austrália mar/2020 a nov/2021 (trimestral); Brasil ago/2011 a abr/2013, mar/2018 a fev/2020 (sem a barra dos 24 meses seguintes, que coincidem com o episódio de 2020–2021) e ago/2020 a mar/2021; A Turquia (set/2021 a jun/2023: 19,6% no início, 85,5% no máximo durante e 75,4% nos 24 meses seguintes, BIS) fica fora para não achatar a escala; ver o gráfico da página 6.4.3.",
+ "series": [
+  {
+   "nome": "No início",
+   "pontos": [
+    {
+     "t": "EUA 1942–1951",
+     "v": 12.6
+    },
+    {
+     "t": "Reino Unido 1946–1951",
+     "v": 2.3
+    },
+    {
+     "t": "Japão 2016–2024",
+     "v": -0.5
+    },
+    {
+     "t": "Austrália 2020–2021",
+     "v": 2.2
+    },
+    {
+     "t": "Brasil 2011–2013",
+     "v": 7.2
+    },
+    {
+     "t": "Brasil 2020–2021",
+     "v": 2.4
+    },
+    {
+     "t": "Brasil 2017–2019",
+     "v": 2.7
+    }
+   ]
+  },
+  {
+   "nome": "Máximo durante",
+   "pontos": [
+    {
+     "t": "EUA 1942–1951",
+     "v": 19.7
+    },
+    {
+     "t": "Reino Unido 1946–1951",
+     "v": 12.7
+    },
+    {
+     "t": "Japão 2016–2024",
+     "v": 4.4
+    },
+    {
+     "t": "Austrália 2020–2021",
+     "v": 3.8
+    },
+    {
+     "t": "Brasil 2011–2013",
+     "v": 7.3
+    },
+    {
+     "t": "Brasil 2020–2021",
+     "v": 6.1
+    },
+    {
+     "t": "Brasil 2017–2019",
+     "v": 4.9
+    }
+   ]
+  },
+  {
+   "nome": "Máximo nos 24 meses seguintes",
+   "pontos": [
+    {
+     "t": "EUA 1942–1951",
+     "v": 9.3
+    },
+    {
+     "t": "Reino Unido 1946–1951",
+     "v": 14.0
+    },
+    {
+     "t": "Japão 2016–2024",
+     "v": 4.0
+    },
+    {
+     "t": "Austrália 2020–2021",
+     "v": 7.8
+    },
+    {
+     "t": "Brasil 2011–2013",
+     "v": 8.2
+    },
+    {
+     "t": "Brasil 2020–2021",
+     "v": 12.1
+    },
+    {
+     "t": "Brasil 2017–2019",
+     "v": null
+    }
+   ]
+  }
+ ]
+}

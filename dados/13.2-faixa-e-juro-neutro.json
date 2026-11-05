@@ -1,0 +1,26 @@
+{
+ "titulo": "Juro real: a faixa da proposta, as estimativas de juro neutro e o juro de hoje (% a.a.)",
+ "tipo": "barrash",
+ "unidade": "% a.a.",
+ "fonte": "Faixa: Lara Resende, 'Eu acuso', 25/09/2026 (meta de 3% e crescimento real potencial de 2,5%; republicação da RED, 02/11/2026). Neutro: BCB, atas do Copom e Relatório de Política Monetária (5,0% desde dez/2024; 3% em 2021); IFI, RAF 117 (29/10/2026); FGV IBRE, Boletim Macro de set/2026 (7,5%; 2,8% para 2018-2019); ASA, via InfoMoney (2026). Juro real ex-ante: Selic over (BCB, SGS 1178) sobre a mediana Focus do IPCA 12 meses, convenção do painel, 23/10/2026",
+ "url": "https://red.org.br/noticias/eu-acuso-uma-proposta-para-eliminar-os-juros-absurdos-por-andre-lara-resende/",
+ "consulta": "2026-11-05",
+ "nota": "Faixa real = faixa nominal (3% a 5,5%) menos a meta de 3%. As estimativas de neutro e o juro ex-ante estão em 2.3, 10.2.5 e conteudo/_divergencias.md; o neutro de 3% do Copom em 2021 e os 2,8% do FGV IBRE para 2018-2019 aparecem como referência histórica.",
+ "ref": [{"v": 2.5, "rotulo": "teto real da faixa"}],
+ "series": [
+  {
+   "nome": "Juro real",
+   "pontos": [
+    {"t": "Ex-ante, 23/10/2026 (convenção do painel)", "v": 8.73},
+    {"t": "Neutro, ASA (2026)", "v": 8.0},
+    {"t": "Neutro, FGV IBRE (set/2026)", "v": 7.5},
+    {"t": "Neutro, IFI (RAF 117, out/2026)", "v": 6.1},
+    {"t": "Neutro, Copom (desde dez/2024)", "v": 5.0},
+    {"t": "Neutro, Copom (2021)", "v": 3.0},
+    {"t": "Neutro, FGV IBRE (2018-2019)", "v": 2.8},
+    {"t": "Teto da faixa proposta", "v": 2.5},
+    {"t": "Piso da faixa proposta", "v": 0.0}
+   ]
+  }
+ ]
+}

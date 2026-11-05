@@ -1,0 +1,98 @@
+{
+ "titulo": "Déficit nominal do setor público nos três casos (NFSP, % do PIB)",
+ "tipo": "linha",
+ "unidade": "% do PIB",
+ "fonte": "BCB, SGS 13762 (DBGG), 4513 (DLSP), 4382 (PIB), 5727 e 5793 (NFSP), 4390 (Selic) e 13522 (IPCA), coleta de 02/11/2026; Focus de 23/10/2026 (API Olinda); Tesouro, RMD de ago/2026 (composição da DPF); simulação do painel (tools/analises/13.3_contas.py)",
+ "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
+ "consulta": "2026-11-02",
+ "nota": "Déficit nominal = juros líquidos simulados + déficit primário de 0,52% do PIB. O ponto de 2026 é o dado de set/2026 (12 meses ou fim de mês); os demais são fins de ano simulados. Simulação, não previsão. Ponto de partida: set/2026. (a) Selic, IPCA e PIB das medianas do Focus de 23/10/2026. (b) Selic de 13,75% a 7,5% em 2027 (média de 10,6%), 7,5% em 2028, 6,5% em 2029 e 5,5% (teto da faixa, sem o spread de segurança) de 2030 em diante; IPCA do Focus em 2027 e 3% depois. (c) Selic da proposta até 7,5%, mantida em 7,5%; IPCA de 6% a 7,5%; dólar 20% mais caro em 2027 e 10% em 2028; prêmio maior nos títulos novos. Crescimento real do Focus e déficit primário de 0,52% do PIB nos três casos. Prefixados vencem em três anos e títulos de inflação em seis (hipótese do painel).",
+ "series": [
+  {
+   "nome": "(a) Selic do Focus",
+   "pontos": [
+    {
+     "t": "2026",
+     "v": 9.51
+    },
+    {
+     "t": "2027",
+     "v": 9.37
+    },
+    {
+     "t": "2028",
+     "v": 9.09
+    },
+    {
+     "t": "2029",
+     "v": 9.09
+    },
+    {
+     "t": "2030",
+     "v": 9.56
+    },
+    {
+     "t": "2031",
+     "v": 10.05
+    }
+   ]
+  },
+  {
+   "nome": "(b) Proposta, inflação na meta",
+   "pontos": [
+    {
+     "t": "2026",
+     "v": 9.51
+    },
+    {
+     "t": "2027",
+     "v": 8.26
+    },
+    {
+     "t": "2028",
+     "v": 6.75
+    },
+    {
+     "t": "2029",
+     "v": 6.27
+    },
+    {
+     "t": "2030",
+     "v": 5.74
+    },
+    {
+     "t": "2031",
+     "v": 5.73
+    }
+   ]
+  },
+  {
+   "nome": "(c) Proposta com desancoragem",
+   "pontos": [
+    {
+     "t": "2026",
+     "v": 9.51
+    },
+    {
+     "t": "2027",
+     "v": 8.41
+    },
+    {
+     "t": "2028",
+     "v": 7.25
+    },
+    {
+     "t": "2029",
+     "v": 7.26
+    },
+    {
+     "t": "2030",
+     "v": 7.2
+    },
+    {
+     "t": "2031",
+     "v": 7.23
+    }
+   ]
+  }
+ ]
+}
