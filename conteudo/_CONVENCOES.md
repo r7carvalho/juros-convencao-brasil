@@ -214,7 +214,8 @@ Nome `dados/<id-da-página>-<nome>.json`. Formato:
 Tipos: `linha` (eixo de tempo; `t` em `AAAA`, `AAAA-MM`, `AAAA-MM-DD` ou `AAAA-T1..T4`),
 `barras` (categorias no eixo x; várias séries ficam lado a lado), `empilhadas` (categorias no eixo
 x, séries empilhadas com sinal, útil para decomposições e contribuições) e `barrash` (barras
-horizontais de uma série, útil para rankings). `governos: true` desenha as faixas de mandato
+horizontais de uma série, útil para rankings) e `dispersao` (pontos com `t` como rótulo, `x` e `v`
+numéricos; `destaque` realça pontos, e há reta ajustada e rótulos de eixo opcionais). `governos: true` desenha as faixas de mandato
 presidencial (só em `linha`). `ref` desenha linhas horizontais de referência. Valores só numéricos
 (use `null` para ausente). Todo gráfico tem `fonte` e `consulta`; sem isso o build recusa.
 

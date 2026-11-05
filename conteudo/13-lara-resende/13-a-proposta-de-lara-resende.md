@@ -33,6 +33,8 @@ A recepção na imprensa e no mercado foi, na maior parte, contrária; a do gove
 
 [Como argumentar](pagina:13.7) fecha o bloco com os argumentos de cada lado, as armadilhas de debate e a matriz tese × evidência × força.
 
+Três páginas aprofundam a base teórica e o teste mais citado a favor da proposta. [O IS-LM, a moeda fiduciária e as curvas horizontais](pagina:13.8) explica de onde vem o modelo, o que muda quando o banco central fixa o juro e a moeda é fiduciária, e por que uma curva de Phillips plana nos dados pode ser fruto da própria política. [A linha teórica](pagina:13.9) reúne, por família de ideias, os textos que sustentam a proposta e os que a contestam, do próprio autor aos estudos do BNDES. [Juro real, risco e convenção](pagina:13.10) pergunta o que a comparação com países de risco igual ou maior permite concluir, com as cautelas de correlação, colinearidade e amostra pequena.
+
 ## De onde vêm as fontes
 
 O texto da proposta foi lido nas republicações integrais da Fundação Maurício Grabois, da RED e do Diário do Centro do Mundo. As falas do autor em vídeo vêm de legendas automáticas do YouTube, com minutagem, e por isso são citadas em paráfrase ou em trechos curtos: o Canal Livre (Band, exibido em 12/02/2023), o Roda Viva (2021) e uma entrevista ao MyNews (gravada em 2020, publicada em 2022). Vários vídeos de 2026 sobre a proposta não puderam ser transcritos e estão listados nas páginas como pendência. As críticas e os apoios vêm de reportagens e colunas de 1º a 3 de novembro de 2026, com link e data, separando reportagem de opinião.
