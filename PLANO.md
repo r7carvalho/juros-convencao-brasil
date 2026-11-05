@@ -276,7 +276,7 @@ no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do 
 
 - [x] 13.0 Dossiê de fontes (`conteudo/13-lara-resende/_notas.md`): cada afirmação da proposta com
   link, data e minutagem; críticas e respostas
-- [ ] 13 Página macro: a proposta em uma página, o mapa do bloco, a régua, o veredito resumido
+- [x] 13 Página macro: a proposta em uma página, o mapa do bloco, a régua, o veredito resumido
 - [x] 13.1 O que ele propõe, peça por peça (transição a 7,5%, faixa permanente, conselho, metas
   plurianuais, papel do BC), com as falas em vídeo
 - [x] 13.2 A teoria por trás (juro como convenção, teoria fiscal do nível de preços, leitura
@@ -289,7 +289,7 @@ no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do 
   Japão e controle da curva, Brasil 2011–2013, Turquia 2021–2023 e outros), o que cada um ensina
 - [x] 13.6 As críticas e as respostas: cada objeção publicada na forma mais forte e a melhor resposta
   da proposta, com classificação
-- [ ] 13.7 Como argumentar: guia de objeção × resposta × réplica, matriz tese × evidência × força e
+- [x] 13.7 Como argumentar: guia de objeção × resposta × réplica, matriz tese × evidência × força e
   direção de conclusão
 - [ ] 13.R Revisão independente do bloco 13
 

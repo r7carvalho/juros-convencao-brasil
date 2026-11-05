@@ -453,3 +453,36 @@ Base legal (leitura do painel): sem mudar lei, o Copom pode fazer a transição 
 | Conselho e governança | Composição e voto não definidos; viés inflacionário (Kydland-Prescott, Barro-Gordon); precedentes de juro coordenado terminaram em inflação | Falta evidência | Depende do desenho; contra se repetir o CMN | 6.4, 1.5.1, 13.5 |
 | O fiscal | Primário estabilizador 4,8 → 1,1% do PIB; meta sem número; histórico de metas alteradas | Procede em parte | Moderada, a favor no diagnóstico e contra na âncora | 13.3, 7.8, 11.6 |
 | Base legal | Faixa obrigatória e exceções do conselho exigem LC que altere a LC 179; transição e câmbio cabem ao Copom; sem emenda | Procede como fato legal | Forte; não decide o mérito | 13.4, 10.1.1, 6.4 |
+
+## 13.7 Como argumentar (05/11/2026)
+
+Página `conteudo/13-lara-resende/13.7-como-argumentar.md` (id 13.7, pai 13, ordem 7, 1ª versão): cerca de 4.200 palavras de prosa (só palavras com letras, sem tabelas, listas, quadro A favor / Contra e "Para ler"; o lint conta 7.570 tokens no corpo inteiro). Um gráfico, `dados/13.7-matriz.json` (barrash, direção × força de cada linha, como o 8.1-matriz.json). Lint limpo; `build.py --check` sem ERRO e sem aviso de link pendente.
+
+Estrutura: a proposta em cinco frases (forma mais forte da 13.1); exemplo de brinquedo ("um argumento e o seu limite", com a conta dos 4% do PIB); dez argumentos a favor (A1 a A10, 1.165 palavras) e dez contra (C1 a C10, 1.197 palavras), cada um com evidência e link, objeção provável, melhor resposta e limite honesto; armadilhas de debate, três de cada lado (a favor: "o juro é a única causa", "a LFT impede o repique", "quem critica defende os rentistas"; contra: "é tabelamento", "é a Turquia", "é uso eleitoral"; 249 e 235 palavras); matriz de onze linhas; direção de conclusão em três partes, com confiança declarada e tabela dos nove indicadores da 13.4; A favor / Contra; `:::painel`; Para ler. Respostas sem autor nomeado são do painel, e a página diz isso na abertura.
+
+Fontes: só as páginas 13.1 a 13.6 e os números que elas trazem (com as fontes primárias delas); nenhum número novo. Os da 13.4 (Taylor, contagem de meses, carry, prêmio do DI) foram conferidos rodando `tools/analises/13.4_coerencia.py`.
+
+Matriz (direção, força; classificação no bloco):
+- 1 Diagnóstico (o juro é o motor da dívida e do déficit): a favor, forte; procede no peso, "único motor" vai além.
+- 2 Transição a 7,5%: mista, moderada; procede em parte (amparada se a inflação convergir e o fiscal for crível).
+- 3 Faixa de 3% a 5,5%: contra, moderada; não procede com as estimativas atuais do neutro. A 13.2 deu "falta evidência" por olhar o número não observável; a 13.7 aplica a régua da 8.1 às estimativas (5% a 8%) e ao r − g observado (+3,3 real em 2023–2025) e registra a diferença na tabela.
+- 4 Conselho: mista, fraca; falta evidência (não procede se repetir o CMN).
+- 5 Câmbio "neutralizado": contra, moderada ("suavizar" procede em parte).
+- 6 Expectativas, repique e LFT: contra, fraca; falta evidência com indícios contra.
+- 7 Regra de reação: contra, forte; não procede.
+- 8a Fiscal, a conta (4% do PIB, déficit para perto de 6%): a favor, moderada; procede em parte (prazo maior, conceito de partida trocado).
+- 8b Fiscal, a âncora (credibilidade sem número): contra, moderada.
+- 9 Base legal: contra, forte; fato legal, não decide o mérito.
+- 10 Precedentes: contra, moderada (transição com amparo; faixa permanente sem precedente).
+Gráfico: +3, 0, −2, 0, −2, −1, −3, +2, −2, −3, −2.
+
+Divergências resolvidas na página (nota antes da matriz):
+- Prêmio do DI jan/29: usa 3,2 pontos sobre a Selic média esperada até o vencimento (≈ 11,75%, 13.4 e script), e não os cerca de 5 pontos sobre a Selic de 10% do fim de 2028 (13.3), porque o DI acumula a taxa diária até o vencimento.
+- Juro externo: usa 3,875% (fed funds, ponto médio de set/2026, BIS; 13.3 e 13.4); o 4% da 13.6 é número redondo do exemplo de brinquedo. Folga do carry 9,5% → 3,5% (e não 9,4% → 3,4%); nada muda na conclusão.
+- R$ 386 bi (efeito pleno, R$ 61,7 bi por ponto, DLSP) × R$ 306 + 86 = 392 bi (blocos da DBGG, conta bruta): a página usa 386 para o total e cita 306 e 86 só como repartição.
+
+Direção de conclusão (confiança): acerta no diagnóstico e na aritmética (alta) e no princípio de coordenação (moderada); depende de neutro perto de 2,5% e de expectativas que sigam o anúncio (indícios contra, fraca a moderada; confiança baixa em qualquer previsão de reação do mercado); não fecha, como escrito, na regra de reação, no câmbio "neutralizado" e na âncora fiscal sem número (alta). Conjunto: moderada.
+
+Edições fora da página: macro 13 (caixa `:::painel` com o veredito resumido, 186 palavras, no lugar do parágrafo provisório; resumo com uma frase de leitura); uma frase com link para o bloco 13 na fala 6 da 12.5.1, na subseção "Primeiro o juro" da 7.8 e na lista "Por onde começar" da página inicial.
+
+Lacunas e pendências: a matriz herda as lacunas das páginas (vídeo do CEBRI de outubro de 2026 e koSyieYkwYM não transcritos; original no Substack, Oreiro e posts de Cochrane não lidos; nenhuma réplica pública do autor às críticas até 05/11/2026). Se o CEBRI trouxer critério para a exceção ou composição do conselho, rever as linhas 4 e 7; se houver réplica sobre reservas e juro real × nominal, as linhas 5 e 6. Para a 13.R: a 7.8 ainda diz que o painel não abriu o texto integral, e a nota da 12.5.1 sobre "rentistas" segue pendente (registradas nas seções 13.0 e 13.1); a 13.2 e a 13.7 classificam a faixa de modo diferente (falta evidência × contra, moderada), o que a revisão deve conferir; o item "13 Página macro" continua sem marca no PLANO.md.

@@ -41,6 +41,7 @@ Cada frase pertence a uma de três categorias: o fato, com fonte e data; a leitu
 - Para a teoria: [Fundamentos teóricos](pagina:1), com [Convenção](pagina:1.4) e [Dominância fiscal](pagina:1.5); os instrumentos do Banco Central em [Política monetária](pagina:10), e os conceitos de dívida e sustentabilidade em [Finanças públicas](pagina:11).
 - Para os dados: [quão alto é o juro](pagina:2.1), [de onde veio a alta da dívida](pagina:3.2), [o teste da inflação](pagina:4.5) e [juro real contra retorno do capital](pagina:5.1); para conferir uma conta, [Método](pagina:9.1); para uma sigla, o [Glossário](pagina:9.3).
 - Para o debate público: [Vozes do debate](pagina:12), com o balanço das classificações, e os [jargões](pagina:12.4).
+- Para uma proposta concreta: [A proposta de Lara Resende em estudo](pagina:13), com as contas, os precedentes, as críticas e um guia para argumentar a favor e contra.
 
 ## O que o painel ainda não mediu
 

@@ -1,0 +1,59 @@
+{
+  "titulo": "Apoio da evidência a cada proposição da proposta (direção × força)",
+  "tipo": "barrash",
+  "unidade": "escala de −3 a +3",
+  "fonte": "Matriz da página 13.7, a partir das páginas 13.1 a 13.6; régua das páginas 9.1 e 8.1",
+  "consulta": "2026-11-05",
+  "nota": "Valor = direção × força: +1 a favor, −1 contra, 0 mista; força 3 forte, 2 moderada, 1 fraca. Barra positiva indica apoio à proposição da linha, na forma em que o texto de 25/09/2026 a escreve. Linhas mistas ficam em zero qualquer que seja a força (a tabela mostra a força). A linha 9 é fato legal e não mede o mérito.",
+  "series": [
+    {
+      "nome": "Apoio",
+      "pontos": [
+        {
+          "t": "1 Diagnóstico: juro como motor",
+          "v": 3
+        },
+        {
+          "t": "2 Transição a 7,5% (mista)",
+          "v": 0
+        },
+        {
+          "t": "3 Faixa de 3% a 5,5%",
+          "v": -2
+        },
+        {
+          "t": "4 Conselho (mista)",
+          "v": 0
+        },
+        {
+          "t": "5 Câmbio neutralizado",
+          "v": -2
+        },
+        {
+          "t": "6 Expectativas e repique",
+          "v": -1
+        },
+        {
+          "t": "7 Regra de reação",
+          "v": -3
+        },
+        {
+          "t": "8a Fiscal: a conta",
+          "v": 2
+        },
+        {
+          "t": "8b Fiscal: a âncora",
+          "v": -2
+        },
+        {
+          "t": "9 Base legal (fato legal)",
+          "v": -3
+        },
+        {
+          "t": "10 Precedentes",
+          "v": -2
+        }
+      ]
+    }
+  ]
+}
