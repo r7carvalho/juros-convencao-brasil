@@ -304,7 +304,7 @@ lados; lembrar a cada passo que correlação não é causalidade, que as variáv
   banco central fixa o juro e a moeda é fiduciária e eletrônica (LM horizontal, Romer 2000, moeda
   endógena), a curva de Phillips "praticamente horizontal" de que o autor fala em 2026, o problema de
   identificação (McLeay e Tenreyro) e o que tudo isso implica para a proposta
-- [ ] 13.9 A linha teórica: leituras a favor e contra (Lara Resende 2017 a 2026; BNDES, seminário de
+- [x] 13.9 A linha teórica: leituras a favor e contra (Lara Resende 2017 a 2026; BNDES, seminário de
   mar/2023 e comissão de estudos; Keynes, Minsky, moeda endógena, MMT, teoria fiscal do nível de
   preços, novo-desenvolvimentismo; críticas acadêmicas), com o que cada texto sustenta e o que não
   sustenta

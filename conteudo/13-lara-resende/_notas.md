@@ -579,3 +579,57 @@ Linhas para a matriz da 13.7:
 - "Nenhuma variável medida explica a distância": mista, moderada; procede em parte (rating, CDS, dívida e inflação recente não fecham, em todos os anos e amostras; o histórico de inflação de 1985–2004 fecha quando o Peru sai).
 - "Logo o juro brasileiro é convenção (consenso)": mista, fraca; falta evidência (o resíduo é compatível com convenção e com indexação, direcionado, poupança, ciclo e prêmio pela dívida futura; 2018–2021 favorece que o nível muda sem o risco medido mudar, com explicação concorrente forte).
 - "Logo o juro pode cair por decisão sem custo": contra, moderada; não procede como inferência da comparação (crítica de Lucas; a regressão descreve a regra atual).
+
+## 13.9 A linha teórica: leituras a favor e contra (05/11/2026)
+
+Página: `conteudo/13-lara-resende/13.9-linha-teorica.md` (id 13.9, pai 13, ordem 9, 1ª versão). Cerca de 4.400 palavras de prosa (sem tabelas, citações em bloco, listas, caixas de exemplo e nota e "Para ler"); o lint conta 8,5 mil tokens no corpo inteiro, sem travessão, sem "não é X, é Y" e sem palavra vetada. Sem gráfico (página de literatura, sem série nova) e sem conta nova além dos exemplos de brinquedo, que se conferem à mão (100/90; equação 5 do TD 154 com θ = 0,2 e 0,014).
+
+Organização por família (onze seções), quadro família × juro × implicação × força, roteiro em três níveis, A favor / Contra com sete itens de cada lado, caixa `:::painel` em dois andares (primeiro elo com apoio amplo; faixa permanente dependente de teoria fiscal crível e neo-Fisher de longo prazo, evidência fraca nos dois sentidos; crítica ortodoxa com os mesmos limites de identificação).
+
+### Fontes usadas (texto em dados/brutos/textos/, coleta de 05/11/2026; citações conferidas)
+- Artigo de 2026, versão RED (citações) e Grabois (data).
+- NeoFeed, 13/10/2022: bancos como criadores de crédito, "A política de juros afeta os preços via taxa cambial", Keynes/Schumpeter/Minsky (paráfrase; a fonte grafa "Shumpeter"), "viés ideológico", "Não estou propondo taxa de juros negativa...", crédito dirigido "faz todo sentido", "são perfeitamente líquidas hoje em dia".
+- Poder360, 07/02/2023 (Valor de 07/02/2023): "Independentemente dos dados e da realidade, decide-se que o risco fiscal é alto".
+- Canal Livre (tuPETK1-9kU): 04:00 "economia é uma ciência social" (legenda automática; a frase começa em 03:53); 18:21 "ditadura do rentismo" (do dossiê 13.2).
+- Aggio (2019), resenha em *Economia e Sociedade* 28(2): 615–619, PDF com [p. N] do arquivo (1 a 5); a página citada é a da revista (p. 618 = p. 4 do PDF; 617 = p. 3; 619 = p. 5). Trecho de Lara Resende (2017c, p. 116) reproduzido na p. 618.
+- **Correção do cartão do pedido:** IHU 564596 não é entrevista nem o artigo "Juros e conservadorismo intelectual": é o comentário de Felipe Calabrez ("A miséria intelectual dos economistas de mercado", Outras Palavras, 02/02/2017; IHU, 10/02/2017), que reproduz um trecho de "Teoria, prática e bom senso" (Valor, 27/01/2017). IHU 587894 também é de Calabrez ("O economista-deus está morto", Outras Palavras, 27/03/2019; IHU, 29/03/2019), com dois trechos de "A crise da macroeconomia". IHU 626265 é de Antonio Martins (Outras Palavras, 14/02/2023; IHU, 16/02/2023). A página cita os trechos de Lara Resende como "reproduzidos por" e não atribui a ele o enquadramento dos comentaristas ("aristocracia financeira", "0,1% mais rico", que são de Calabrez e Martins).
+- Summa e Serrano (2019): **o "Dissenso do contrassenso" da Excedente é o mesmo texto do TD IE-UFRJ 008/2019** (Excedente datado de 07/04/2019; TD de abril de 2019), crítica heterodoxa, e não ortodoxa como sugeria a lista do pedido. Páginas do TD: p. 7 (mérito/não se desvencilha), p. 8 (ecletismo; regra r < g com primário equilibrado), p. 9 (contradições), p. 10 (taxa natural; compensação fiscal), p. 13 nota 9 (piso externo), p. 19 (propostas "opostas" à MMT; Pessôa 2019).
+- Muinhos (2023), Broadcast/AE News de 16/02/2023, PDF do Macrolab FGV EESP, p. 2.
+- BoE 2014 (p. 1 e 2 do PDF; a coluna dupla vem intercalada no texto extraído, frases conferidas uma a uma; travessão do original trocado por vírgula, com aviso na referência).
+- Palley, PERI WP 179 (ago/2008), p. 2. Franke, Bielefeld WP 28 (jan/2002): o texto extraído vem em fonte codificada (CMap TeX); decodificado no scratchpad para ler o resumo e a introdução; usado só em paráfrase. Romer (2000) pelo resumo do NBER (w7461).
+- Hazell, Herreño, Nakamura e Steinsson, NBER w28005 (rev. maio/2021), resumo p. 2, tradução do painel; publicado no QJE 137(3), 2022 (referência pela memória do painel, não conferida na coleta).
+- TD BNDES 154 (Barboza e Furtado, ago/2023), 63 p.: p. 4 (resumo), p. 8 (equação 5), p. 17 (Bonomo e Martins: 1,15% × 0,64%), p. 18 (agregação), p. 50–51 (considerações finais, 1,4% das concessões, "o que não existe desde 2018").
+- **Correção do resumo do pedido sobre o TD 154:** o TD **não** conclui que a TJLP afetava o juro neutro e a potência até 2017. Conclui que o efeito poderia existir em teoria com a TJLP, mas que "não há evidências macroeconômicas confiáveis" de efeito relevante "em qualquer período, mesmo antes da TLP" (p. 4), que as evidências são "duvidosas mesmo no período em que o BNDES operava com a TJLP" (p. 50) e que depois de 2018 o canal não existe. A página usa a conclusão correta; o "corta para os dois lados" ficou assim: tira uma explicação ortodoxa do juro alto de hoje e pesa contra a agenda de devolver ao BNDES taxa abaixo do mercado (Nassif).
+- Nassif, "O BNDES no século XXI", CEBRI, 2023, p. 5 (TLP 5,93% em jan/2023 × 2,70% em jan/2018; CEMEC-FIPE 9,74% em 2012–2020; "não faz sentido...").
+- BNDES, Estudo Especial n. 12 (Blog do Desenvolvimento; sem data no texto coletado, posterior a ago/2023): Selic terminal 8,75% a 10% com neutro de 4,5%.
+- Comissão e seminário: Economic News Brasil (20/01/2023), IstoÉ (06/02/2023), CUT (06/02/2023, lida, não citada: Lula sobre a TJLP e Mercadante anunciando a comissão), IstoÉ Dinheiro (21/03/2023: seminário de 20 e 21/03 com CEBRI e Fiesp; comissão coordenada por Lara Resende e José Roberto Afonso; Malan organizará o seguinte), Valor via vLex (20/03/2023, texto truncado: Alckmin, Stiglitz). Nada do que Lara Resende disse no seminário está nos textos.
+- Análises de 2026: InvestNews (exemplo i = r + π; Cochrane 2026 e 2017 em paráfrase), Amado Mundo (Pessôa no Insper em 2017, citação reproduzida; Lisboa em paráfrase), Money Times (paráfrase: "liberal clássico"; o Money Times dá a data do artigo como 28 de setembro, errada). Brazil Journal (Mauro Miranda, 02/11/2026): "que sempre pode dizer não", "Para a MMT, esse lastro é dispensável...", "a própria teoria que o inspira indica como a conta será paga".
+
+### Descartadas e por quê
+- TD BNDES 133 (dez/2018) e McLeay e Tenreyro (2019): não baixaram (403/404). McLeay e Tenreyro entram só por referência, sem aspas; o TD 133 ficou fora da página porque o painel não confirmou título nem conteúdo.
+- "Lara Resende negou ser MMT": não confirmado. Nenhum texto baixado traz a negação, e duas buscas (WebSearch standard) só acharam descrições dele como adepto (InfoMoney e IstoÉ Dinheiro, 06/11/2022; Brazil Journal, 2026). A página diz isso e mostra as diferenças pelas teses (piso na meta, teoria fiscal). Pendência: procurar a fala no debate do CEBRI com Wray (28/11/2019) ou na entrevista à DW Brasil citada pela busca.
+- Posts de Cochrane de 04/09/2026: não abertos; só pelas notas do artigo e pela paráfrase do InvestNews.
+- Diário do Poder (MMT como "maluquice"), Congresso em Foco e PUC-SP (ementa de curso): sem argumento teórico próprio para a página.
+- Citações de Keynes (cap. 15, p. 203) reaproveitadas da tradução da 1.4; cap. 17 e a advertência sobre política "experimental" (p. 203) só em paráfrase, porque o texto não está em dados/brutos.
+
+### Lacunas
+- O vídeo do CEBRI de outubro de 2026 (v5igijNfi1g) continua sem transcrição; a explicação teórica da proposta na voz do autor depois de 25/09 não existe na coleta.
+- Nenhum teste brasileiro separa regime ricardiano de regime de teoria fiscal; a página registra o problema de equivalência observacional (Canzoneri, Cumby e Diba, 2001) sem teste próprio.
+- O efeito do direcionado não BNDES (rural, habitacional, 43,9% do crédito com o BNDES) sobre a Selic neutra só tem a conta de brinquedo da 6.2.2.
+
+### Números que divergem ou pedem cuidado
+- Nenhum número do painel foi alterado. LFT 52,7% (2.4), direcionado 43,9% (ago/2026, 6.2.2), Selic real 9,7% em 2025 (6.2.2), ex-ante 0,25% em dez/2019 (convenção), neutro 3% (Copom 2021) e 5% (hoje), IPCA 10,67% → 2,95% (12.2.1).
+- O 1,4% do TD 154 é a fatia do BNDES nas **concessões** do SFN nos cinco anos antes de 2023; o 43,9% da 6.2.2 é o **saldo** do direcionado inteiro. Não são comparáveis e a página não os compara.
+
+### Linhas para a matriz da 13.7 (família × tese × evidência × força e direção)
+
+| Família | Tese que dá à proposta | Evidência | Classificação | Força e direção |
+|---|---|---|---|---|
+| Moeda endógena (BoE 2014, Romer, Palley) | O BC fixa o juro de curto prazo | Descrição oficial de bancos centrais | Procede | Forte, a favor do primeiro elo; neutra sobre o nível |
+| Curva de Phillips achatada (Hazell et al.) | Capacidade ociosa pesa pouco na inflação | Painel de estados dos EUA desde 1978 | Procede em parte | Moderada; contra a conclusão de que o juro não importa (expectativas de longo prazo) |
+| Teoria fiscal (Cochrane, Leeper, Sims) | Com dívida curta o corte não gera repique | Coerente no modelo; Cochrane acredita "só em parte"; regimes não identificáveis nos dados | Falta evidência | Fraca nos dois sentidos |
+| Neo-Fisher (Uribe; García-Schmidt e Woodford) | Faixa baixa permanente baixa a inflação | Fisher de longo prazo firme; versão de política depende de credibilidade; Turquia | Falta evidência | Fraca; contra no curto prazo |
+| Convenção (Keynes, Bresser-Pereira e Nakano) | O nível do juro se sustenta por hábito | Neutro estimado acompanha o histórico; 2019 | Procede em parte | Moderada, a favor do diagnóstico; contra o corte "experimental" |
+| BNDES (TD 154) | O juro alto de hoje não vem da meia-entrada do BNDES | Macro perto de zero; micro positivo (Bonomo e Martins) | Procede em parte | Moderada; tira explicação ortodoxa; contra reabrir taxa subsidiada |
+| Summa e Serrano | A proposta herda a taxa natural do Novo Consenso | Leitura textual de 2019 | Procede em parte | Teórica; contra a coerência interna da regra |
+| Ortodoxos (Muinhos, Pessôa, Lisboa, Mendes) | O BC não tem liberdade para fixar a Selic | Granger, Taylor estimada, 2011–2013, 2020 | Procede em parte | Moderada; limites de identificação |
