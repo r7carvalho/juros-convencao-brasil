@@ -81,6 +81,25 @@ def baixar(url):
             reg["status"] = r.status
             reg["url_final"] = r.geturl()
             bruto = r.read()
+            tipo = r.headers.get("Content-Type", "")
+        if bruto[:5] == b"%PDF-" or "pdf" in tipo.lower():
+            with open(os.path.join(SAIDA, nome + ".pdf"), "wb") as f:
+                f.write(bruto)
+            reg["tipo"] = "pdf"
+            try:
+                import io
+                from pypdf import PdfReader
+                leitor = PdfReader(io.BytesIO(bruto))
+                paginas = [pg.extract_text() or "" for pg in leitor.pages]
+                reg["paginas"] = len(paginas)
+                reg["texto"] = "\n\n".join(f"[p. {i + 1}]\n{t}" for i, t in enumerate(paginas))
+                reg["palavras"] = len(reg["texto"].split())
+            except Exception as e:  # noqa: BLE001
+                reg["erro_pdf"] = repr(e)[:300]
+            with open(os.path.join(SAIDA, nome + ".json"), "w", encoding="utf-8") as f:
+                json.dump(reg, f, ensure_ascii=False, indent=1)
+            print(reg.get("status"), reg.get("palavras", 0), url, "pdf", flush=True)
+            return
         cod = "utf-8"
         m = re.search(rb'charset=["\']?([\w-]+)', bruto[:3000])
         if m:
