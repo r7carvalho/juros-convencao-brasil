@@ -1,0 +1,40 @@
+name: Textos públicos
+
+# Baixa artigos, colunas e reportagens públicas para dados/brutos/textos/ (a rede da sessão de
+# nuvem bloqueia a maior parte dos sites). A lista de URLs fica em tools/listas/<nome>.txt.
+on:
+  workflow_dispatch:
+    inputs:
+      lista:
+        description: "Nome do arquivo em tools/listas/ (sem .txt)"
+        required: true
+        default: "lara-resende"
+
+permissions:
+  contents: write
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Baixar
+        timeout-minutes: 25
+        run: python3 -u tools/textos.py --lista "tools/listas/${{ github.event.inputs.lista }}.txt"
+      - name: Commit dos textos
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          find dados/brutos/textos -type f -size -10M -print0 | xargs -0 -r git add
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+          else
+            git commit -m "Textos públicos: ${{ github.event.inputs.lista }} ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
