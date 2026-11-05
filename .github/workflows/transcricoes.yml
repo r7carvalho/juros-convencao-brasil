@@ -1,0 +1,58 @@
+name: Transcrições do YouTube
+
+# Baixa metadados e transcrições (legendas) de vídeos do YouTube para dados/brutos/transcricoes/.
+# A rede da sessão de nuvem bloqueia o YouTube; o runner do GitHub não.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "IDs ou links dos vídeos, separados por espaço"
+        required: false
+        default: ""
+      busca:
+        description: "Termo de busca no YouTube (opcional)"
+        required: false
+        default: ""
+      baixar:
+        description: "Quantos resultados da busca transcrever"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  transcrever:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Instalar yt-dlp e youtube-transcript-api
+        run: pip install -U yt-dlp youtube-transcript-api
+      - name: Transcrever
+        timeout-minutes: 30
+        env:
+          IDS: ${{ github.event.inputs.ids }}
+          BUSCA: ${{ github.event.inputs.busca }}
+          BAIXAR: ${{ github.event.inputs.baixar }}
+        run: |
+          args=""
+          if [ -n "$IDS" ]; then args="--ids $IDS"; fi
+          if [ -n "$BUSCA" ]; then python3 -u tools/transcricoes.py $args --busca "$BUSCA" --max 30 --baixar "${BAIXAR:-0}";
+          else python3 -u tools/transcricoes.py $args; fi
+      - name: Commit das transcrições
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados/brutos/transcricoes || true
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+          else
+            git commit -m "Transcrições do YouTube ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
