@@ -287,7 +287,7 @@ no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do 
   expectativas), as condições de que ela depende e a base legal (autonomia do BC, LC 179/2021)
 - [x] 13.5 Os precedentes: juro fixado ou coordenado em outros países e no Brasil (EUA 1942–1951,
   Japão e controle da curva, Brasil 2011–2013, Turquia 2021–2023 e outros), o que cada um ensina
-- [ ] 13.6 As críticas e as respostas: cada objeção publicada na forma mais forte e a melhor resposta
+- [x] 13.6 As críticas e as respostas: cada objeção publicada na forma mais forte e a melhor resposta
   da proposta, com classificação
 - [ ] 13.7 Como argumentar: guia de objeção × resposta × réplica, matriz tese × evidência × força e
   direção de conclusão

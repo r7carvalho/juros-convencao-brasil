@@ -369,3 +369,32 @@ Linhas para a matriz da 13.7 (proposição da proposta × onde se testa):
 | Câmbio | Reservas acima de US$ 350 bi neutralizam o canal cambial | texto | 13.4, 13.6, 10.3.6 |
 | Expectativas | Inflação de longo prazo converge para juro menos crescimento real | texto; MN 06:07 | 13.2 |
 | Fiscal | Corte economiza cerca de 4% do PIB e leva o déficit nominal de mais de 10% para perto de 6% | texto | 13.3 |
+
+## 13.6 As críticas e as respostas
+
+Página: `conteudo/13-lara-resende/13.6-criticas.md` (id 13.6, pai 13, ordem 6, 1ª versão). Cerca de 4.250 palavras de prosa corrida (sem tabelas, caixas, citações e "Para ler"); o lint conta 7,7 mil tokens no corpo inteiro, sem travessão, sem "não é X, é Y" e sem palavra vetada. Contas em `tools/analises/13.6_contas.py` (brinquedo do carry trade, reservas/DPF em dólar, juro real com Selic de 7,5% sobre o Focus de 23/10/2026, divisão real × nominal da economia, conferência da conta de Gabrielli).
+
+Fontes usadas (texto em dados/brutos/textos/, datas pelo HTML): Brazil Journal, Mauro Miranda, CFA, sócio-gestor da Stellaris, opinião, 02/11/2026; BPMoney (Redação, a partir da Folha: Mendes, Sérgio Vale, dois gestores anônimos, Edinho Silva, Gleisi), 02/11/2026; Seu Dinheiro (Sara Magalhães: Felipe Miranda, vídeo de 01/11; Ana Paula Vescovi, LinkedIn), 02/11/2026; SBT News (Iander Porcella), 02/11/2026, duas peças; Brasil 247 (Durigan, Edinho), 01/11/2026; Times Brasil (Gabrielli, documento "Política fiscal para o fim de 2026 e para 2027"), 02/11/2026; IstoÉ Dinheiro, explicação da proposta, 03/11/2026; Termômetro da Política, 02/11/2026; InfoMoney, 16/02/2017 (Mauro Schneider, MCM; Leonardo Palhuca); Congresso em Foco, Felipe Calabrez, 05/02/2017 pela busca (republica Outras Palavras); IstoÉ Dinheiro, Edson Rossi, 29/12/2022 (citada só como datada, trata do artigo de dezembro de 2022 sobre a PEC); Gazeta do Povo, 12/02/2023; Fundação Perseu Abramo, 17/02/2023; Outras Palavras, Antonio Martins, 14/02/2023; CartaCapital, 08/02/2023 (lida, não citada: reportagem do artigo de fevereiro de 2023, já na 12.5.1); Diário do Poder, Cláudio Humberto, 24/03/2023; NeoFeed, 13/10/2022. Transcrições: Canal Livre (tuPETK1-9kU; minutagens 02:08, 05:09, 05:23, 06:30–09:00, 14:30–15:30, 15:48, 20:18–21:30, 24:24, 41:00–42:07, 49:02, 54:02), MyNews (L3XqaiiXFfE, 06:00–06:50), Rádio Bandeirantes (Zst0xTi156M, comentarista; 03:21–05:05). Oreiro (2026) pela 12.5.6; Mendes pela 12.2.8; Pessôa e Lisboa (2017) pela 12.2.1. WebSearch (standard, duas buscas): nenhuma réplica pública de Lara Resende às críticas de novembro; data do texto de Calabrez.
+
+Descartadas ou com ressalva: o número do Diário do Poder (dólar acima de R$ 9 "pelas melhores estimativas") não tem fonte e não entrou; os adjetivos pessoais da coluna também não. A frase de Haddad na mesma coluna ("inflação a 100%...") não tem contexto que a ligue a Lara Resende. A coletânea do Times Brasil "Muito ruim, ridícula e voluntarismo ingênuo" (citada na 12.2.7) não foi baixada; só se usou o que a 12.2.7 diz. A Gazeta do Povo de 2023 é reportagem sobre críticas ao BC, e não a Lara Resende: entrou só pela correção factual ("há dois anos nesse nível"). Os títulos da busca do YouTube vieram traduzidos para o inglês em parte; a página só nomeia canais e um título em português, sem atribuir conteúdo. A Rádio Bandeirantes não traz a voz do autor (aviso do coordenador): entrou como opinião de imprensa.
+
+Lacunas: Lara Resende não respondeu às críticas até 05/11/2026 (a Folha registrou que ele não respondeu); se houver réplica (Substack, entrevista, CEBRI), as objeções 3, 4 e 8 são as que mais mudariam. Os textos de Oreiro e o post de Vescovi no LinkedIn não foram lidos no original. Nenhum dos vídeos críticos foi transcrito. A objeção da autonomia veio só de reportagem e de fontes anônimas; não se achou crítica assinada sobre a LC 179.
+
+Números: juro real com Selic de 7,5% sobre o Focus de 12 meses de 23/10/2026 (4,53%) = 2,84% (Selic meta, não a over da convenção; com a over daria cerca de 2,75%); reservas de US$ 362,8 bi (set/2026, SGS 3546) = 21% da DPF de R$ 9,29 tri à PTAX de 30/10/2026 (5,4212); economia de 2,9% do PIB em doze meses (12.5.1, 13.3) contra os 4% do texto; IPCA 12 meses de set/2026 = 4,58% (SGS 13522). Nenhum diverge das outras páginas.
+
+Linhas para a matriz da 13.7 (objeção × resposta × classificação):
+| Objeção | Quem, data | Melhor resposta | Evidência | Classe |
+|---|---|---|---|---|
+| Tabelar juros, interferência | M. Miranda (opinião), BJ, 02/11/2026; gestores, Folha | Regra com escape (texto; CL 41:00) | 10.2.1, 6.1.1, 10.3.3, 6.4 | Em parte |
+| Desancoragem e inflação | F. Miranda, vídeo, 01/11/2026; M. Miranda (Wicksell) | Phillips horizontal, LFT e reservas (texto; CL 06:30) | 4.2, 4.4, 12.4.5, 6.4.2 | Em parte |
+| Fuga de capitais e câmbio | Oreiro, 01/11/2026; Vescovi, nov/2026 | Reservas (texto; NeoFeed 2022; CL 49:02) | 10.3.6, 7.7, 10.1.1 | Em parte; crise certa, falta evidência |
+| Precedente 2011–2013 | S. Vale, Folha, 02/11/2026; Oreiro | Do painel: corte isolado, sem regra | 6.2.1, 4.3, 13.5 | Em parte |
+| Ajuste fiscal antes | Mendes, Folha, 02/11/2026; M. Miranda | Primário de 4% só com recessão (texto; CL 20:18) | 7.8, 3.2, 11.6, 1.2.2 | Em parte |
+| Autonomia (LC 179) | Reportagem e anônimos, 02/11/2026 | Autonomia operacional, CMN pode mudar (CL 02:08, 24:24) | 6.4, 10.1.1, 13.4 | Procede (fato legal); efeito, falta evidência |
+| Dominância fiscal | M. Miranda (pela FTPL); gestores | Coordenação anunciada (texto) | 12.4.4, 1.5.4, 1.5.2 | Em parte |
+| Neo-fisheriana sem evidência | Schneider, 2017; M. Miranda | Fisher no longo prazo, Cochrane (texto; MN 06:00) | 1.3, 1.5.4, 6.4.3, 12.5.1 | Procede |
+| Atalho | Schneider e Palhuca, 2017; BJ; Band | A alternativa também custa | 12.4.9 | Não procede (autônoma) |
+| Uso eleitoral | BJ, 02/11/2026; Diário do Poder, 2023 | Do painel: autoria não testa mecanismo | 6.4 | Não procede (mérito) |
+| Defesa: alarme fiscal sem base | Gleisi, X, citada em 02/11/2026 | | 7.8, SGS 13762 | Não procede |
+| Defesa: primário de 3,41%; conflito de objetivos | Gabrielli, 02/11/2026 | | 7.8 | Procede; em parte como defesa da faixa |
+| Defesa: aperto monetário vira expansão fiscal | Calabrez, fev/2017 | | 3.2, 2.4 | Em parte |
