@@ -398,3 +398,58 @@ Linhas para a matriz da 13.7 (objeção × resposta × classificação):
 | Defesa: alarme fiscal sem base | Gleisi, X, citada em 02/11/2026 | | 7.8, SGS 13762 | Não procede |
 | Defesa: primário de 3,41%; conflito de objetivos | Gabrielli, 02/11/2026 | | 7.8 | Procede; em parte como defesa da faixa |
 | Defesa: aperto monetário vira expansão fiscal | Calabrez, fev/2017 | | 3.2, 2.4 | Em parte |
+
+## 13.4 Coerência interna e base legal (05/11/2026)
+
+Página `conteudo/13-lara-resende/13.4-coerencia.md` (id 13.4, pai 13, ordem 4, 1ª versão): cerca de 3.700 palavras de prosa sem números, tabelas, listas e "Para ler" (o lint conta 7.100 tokens no corpo inteiro). Um gráfico, `dados/13.4-selic-ipca-faixa.json` (linha, Selic meta SGS 432 e IPCA 12m SGS 13522, 2010–2026, com piso e teto da faixa e teto da meta), gerado por `tools/analises/13.4_coerencia.py --json`; o script imprime todos os números próprios da página. Lint limpo; `build.py --check` sem ERRO.
+
+Estrutura: oito elos, cada um com "o que a proposta supõe / o que a teoria dela prevê / o que a evidência mostra / classificação"; base legal em quatro subseções (LC 179, Lei 4.595 e CMN, meta e decretos, art. 164) e tabela peça × quem pode fazer × instrumento; tabela elo × classificação; nove condições escritas como hipóteses testáveis; A favor / Contra; `:::painel`.
+
+Achado central (caixa do painel): os elos mecânicos (corte → juros; juros → velocidade da dívida) seguram; os de comportamento (prêmio, câmbio, expectativas) ficam sem prova e os episódios de 2011–2012 e 2020 vão contra. O defeito de coerência mais nítido é a regra de reação: com o neutro da própria proposta (2,5%) e Taylor com coeficiente 0,5, o juro recomendado é 5,5% exatamente com inflação de 3% e passa do teto para qualquer inflação acima da meta. O IPCA 12m ficou acima de 3% em 239 de 261 meses de 2005 a set/2026 (92%) e em todos os 21 meses da meta contínua; acima de 4,5% em 175 (67%) e 13. A Selic meta ficou na faixa em 13 fins de mês desde jul/1999 (set/2019 a mai/2020; mai a ago/2021). A proposta resolve a tensão do lado neo-fisheriano sem dizê-lo e entrega a exceção a um conselho sem critério nem composição.
+
+Classificação dos elos: 1 corte → conta de juros: procede. 2 conta → dívida e prêmio: procede em parte. 3 corte → câmbio: procede em parte. 4 câmbio → inflação ("neutralizado"): não procede na forma escrita (a versão "suavizar" procede). 5 expectativas: falta evidência, indícios contra. 6 regra de reação: não procede. 7 conselho e governança: falta evidência (a versão com a composição do CMN atual não procede). 8 fiscal: procede em parte.
+
+Base legal (leitura do painel): sem mudar lei, o Copom pode fazer a transição a 7,5%, anunciar atuação cambial (Lei 4.595, art. 11, III) e adotar a faixa como orientação voluntária; o CMN sozinho pode fixar a meta e o intervalo (Decreto 12.079, antecedência de 36 meses, alterável por decreto) e publicar trajetória de referência sem efeito sobre o Copom. Faixa obrigatória e exceções autorizadas pelo conselho exigem lei complementar que altere a LC 179 (arts. 1º, 2º e 6º; maioria absoluta, art. 69 CF: 257 deputados, 41 senadores). CFMN consultivo: lei ordinária; CFMN no lugar do CMN: lei complementar (competências da Lei 4.595 alteradas por LC, art. 192). Metas fiscais plurianuais indicativas: PPA e LDO; vinculantes além da LDO: LC (LRF art. 4º, LC 200). Nenhuma peça exige emenda, salvo metas fiscais que obriguem o Congresso fora das leis orçamentárias (arts. 165–166). O art. 164 não é tocado: a proposta não pede financiamento do Tesouro; controle de curva caberia no §2º no mercado secundário (LRF art. 39). Mandato do presidente do BC em exercício até o fim de 2028.
+
+### Fontes usadas
+
+- Artigo de 25/09/2026 (Grabois para o texto, RED para as notas), recortes conferidos no JSON coletado: "A redução do custo médio da dívida de quase 13% para 7,5%..."; "restabelece a credibilidade fiscal de longo prazo"; "Garante a sustentabilidade e dissipa a desconfiança..."; "A redução do juro doméstico, através da arbitragem..."; "atuará no câmbio para suavizar toda depreciação mais acentuada"; "munição de sobra"; "Os dois canais [...] neutralizados"; "No curto prazo, a relação entre a taxa de juros e a inflação pode ser inversa, como convencionalmente aceito"; "apenas um repique transitório"; "Um raciocínio circular tautológico"; "Só em casos excepcionais, autorizados pelo CFMN"; "Um novo Conselho Fiscal e Monetário Nacional, CFMN"; "Não se trata de dominância fiscal, mas de coordenação transparente e anunciada"; "pautadas pela racionalização e simplificação..."; "nenhum ajuste fiscal é capaz de produzir um superávit primário dessa magnitude"; "A redução do juro básico é a solução do desequilíbrio fiscal"; "passa a ser a própria taxa básica de juros, combinada com a confiança na solvência do Estado".
+- Canal Livre (tuPETK1-9kU): 05:06 (autonomia operacional "avanço institucional"), 21:52 (espiral), 24:17 (CMN "pode ter outra constituição"), 41:11 e 42:11 (a regra da faixa em 2023, com a exceção decidida pelo próprio BC: "circunstâncias excepcionais", "momentaneamente circunstanciais"; a legenda embaralha o motivo da exceção do teto, não citado), 57:58 (regime fiscal parecido com metas). NeoFeed, 13/10/2022 ("o efeito seria nenhum"). Brasil 247, 01/11/2026 (CEBRI, segunda mão). Rádio Bandeirantes (Zst0xTi156M): não usada como fala do autor.
+- Páginas do painel: 13.1, 13.2, 13.3 (simulação: R$ 193 bi, R$ 386 bi, 1,1/2,4/4,0% do PIB, DBGG 96,3% × 107,9%, primário estabilizador 4,8 → 1,1 e 0,6, swaps de 2024 ≈ 1% do PIB), 13.5 (Austrália, EUA, Turquia), 13.6 (reservas 21% da DPF), 10.3.6 (ARA ≈ 140%, IFI NT 58; 2020, dez/2024, 2013–2015; swaps ≈ US$ 96 bi), 3.3 (não residentes 9,91% da DPMFi de ≈ R$ 8,9 tri), 4.1, 4.2, 4.4, 2.4 (repasse ilustrativo de 10%; boxe do RPM mar/2026), 2.4.1 e 6.4.1 (viés de +1,0 do Focus), 12.4.5 (46 meses), 12.4.3 (DI jan/29 ≈ 15%), 10.3.1 (orientação de 2020), 6.2.1, 6.4, 10.4, 10.5, 11.6, 11.7, 7.8, 1.5.1, 10.1.1 (LC 179, decretos, Res. 5.141, ADI 6696).
+- Textos legais, por WebSearch em 05/11/2026: LC 179 art. 2º (texto literal via reprodução do DOU no Congresso em Foco e Planalto) e art. 5º, IV e §1º (Dizer o Direito, LegJur); Lei 9.069 art. 8º com a redação da Lei 14.600/2023 (Fazenda, Planejamento e Orçamento, presidente do BC; LegJur); Lei 4.595 art. 11, III (base citada nas Resoluções BCB 76/2021 e 350/2023); LC 179 alterou e revogou dispositivos da Lei 4.595 (LegJur); CF art. 164 §§1º e 2º (compilações; conferir no Planalto); LRF art. 4º §1º (exercício e dois seguintes).
+- Cálculos novos (tools/analises/13.4_coerencia.py): Taylor com r* de 2,5% e 5% (limiar de 3,00% e 1,33%; 7,75% e 7,87% com inflação de 4,5% e 4,58%; 10,4% com r* de 5%; juro real de 0,88% no teto com 4,58%); contagem de meses (acima); diferencial contra fed funds de 3,875%: 9,9 / 3,6 / 1,6 p.p., depreciação de equilíbrio 9,5% / 3,5% / 1,6%; não residentes ≈ US$ 163 bi = 45% das reservas (PTAX 30/10/2026 = 5,4212); prêmio do DI jan/29 ≈ 3,2 p.p. sobre a Selic média esperada (≈ 11,75%, trajetória linear entre as medianas de fim de ano do Focus de 23/10/2026).
+
+### Descartadas e por quê
+
+- Natureza de lei complementar da Lei 4.595 por decisão do STF: a busca não achou o julgado; a página diz só que a LC 179 alterou a 4.595 por lei complementar e que o legislador trata a matéria como do art. 192.
+- Texto literal do art. 6º da LC 179 ("ausência de vinculação a Ministério..."): não confirmado na busca; entrou em paráfrase.
+- PEC 65/2023 (autonomia financeira do BC): status em 2026 não conferido; não entrou.
+- Série de fluxos da conta financeira (investimento em carteira de não residentes): não está no acervo; a página diz que a ordem de grandeza vem dos estoques.
+- Escalonamento exato dos diretores (datas de início): não conferido; a página diz "de forma escalonada".
+
+### Números que divergem ou pedem cuidado
+
+- Diferencial de carry: a 13.6 usa juro externo de 4% (folga de 9,4% → 3,4%); a 13.4 usa os fed funds de 3,875% da 13.3 (9,5% → 3,5%). Diferença de régua, dita no texto.
+- Prêmio do DI: a comparação "15% contra Selic de 10% em 2028" (13.3, 12.4.3) dá 5 pontos contra o fim de 2028; contra a média esperada até jan/2029, cerca de 3,2 pontos. A 13.4 usa o segundo; a 13.7 deve dizer qual usa.
+- Contagem de meses acima de 3% e 4,5% usa a régua de hoje (meta contínua de 3%, teto de 4,5%) para todo o período, embora a meta tenha sido de 4,5% até 2018; dito no texto ("contra a meta de hoje").
+- Orientação futura de 2020 "durou cinco meses" (05/08/2020 a 20/01/2021, cinco meses e meio).
+
+### Lacunas
+
+- O vídeo do CEBRI (v5igijNfi1g) pode trazer a regra de reação e a composição do conselho na voz do autor; não transcrito. Se trouxer critério para a exceção, o elo 6 deve ser revisto.
+- Nenhuma estimativa da depreciação que um corte de 6,25 pontos produziria; o elo 4 usa o caso (c) da 13.3 (+20%) e repasse ilustrativo.
+- Nenhum parecer jurídico sobre a leitura de que o CMN poderia fixar uma meta para a Selic pelo art. 2º da LC 179; a página registra a leitura e os dois obstáculos de texto.
+
+### Linhas para a matriz da 13.7 (elo × evidência × classificação × força e direção)
+
+| Elo | Evidência principal | Classificação | Força e direção | Páginas |
+|---|---|---|---|---|
+| Corte → conta de juros | R$ 386 bi/ano pleno; 4,0% do PIB em 2030 contra o Focus | Procede | Forte, a favor | 13.3, 2.4 |
+| Conta → dívida e prêmio | DBGG 96,3% em 2031 no caso favorável; DI jan/29 ≈ 3 p.p. acima da Selic esperada; curva longa não seguiu a orientação de 2020; Bohn nulo | Procede em parte | Moderada; a favor na dívida, contra no prêmio | 13.3, 6.1.1, 10.3.1, 11.7 |
+| Corte → câmbio | Folga do carry 9,5% → 3,5%; reservas 140% da ARA, 2,2 vezes os não residentes, 21% da DPF; 2020 e dez/2024 | Procede em parte | Moderada, contra o "munição de sobra" diante de residentes | 10.3.6, 3.3, 13.6 |
+| Câmbio → inflação ("neutralizado") | Repasse moderado; intervenção suaviza choque de prêmio, não mudança de fundamento; 2020 | Não procede na forma escrita | Moderada, contra | 4.1, 4.2, 4.4, 10.3.6 |
+| Expectativas | Focus 3 anos acima da meta há 46 meses; Focus subestima (+1,0); 2011–2012 e 2020 de curta duração | Falta evidência | Fraca a moderada, contra | 2.4.1, 6.2.1, 10.3.1, 12.4.5 |
+| Regra de reação | Taylor com r* = 2,5% passa do teto com inflação > 3%; IPCA > 3% em 92% dos meses desde 2005; faixa ocupada em 13 meses desde 1999; sem critério para a exceção | Não procede | Forte, contra (coerência interna) | 13.2, 13.4, 10.2.5 |
+| Conselho e governança | Composição e voto não definidos; viés inflacionário (Kydland-Prescott, Barro-Gordon); precedentes de juro coordenado terminaram em inflação | Falta evidência | Depende do desenho; contra se repetir o CMN | 6.4, 1.5.1, 13.5 |
+| O fiscal | Primário estabilizador 4,8 → 1,1% do PIB; meta sem número; histórico de metas alteradas | Procede em parte | Moderada, a favor no diagnóstico e contra na âncora | 13.3, 7.8, 11.6 |
+| Base legal | Faixa obrigatória e exceções do conselho exigem LC que altere a LC 179; transição e câmbio cabem ao Copom; sem emenda | Procede como fato legal | Forte; não decide o mérito | 13.4, 10.1.1, 6.4 |

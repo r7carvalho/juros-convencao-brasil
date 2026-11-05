@@ -283,7 +283,7 @@ no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do 
   neo-fisheriana, moeda e dívida) e o que cada uma prevê
 - [x] 13.3 As contas: o que o corte faz com juros, déficit nominal e dívida (com os dados do painel e
   exemplo de brinquedo); a afirmação do déficit "de mais de 10% para perto de 6% do PIB"
-- [ ] 13.4 Coerência interna: cada elo da proposta testado (corte → dívida → inflação → câmbio →
+- [x] 13.4 Coerência interna: cada elo da proposta testado (corte → dívida → inflação → câmbio →
   expectativas), as condições de que ela depende e a base legal (autonomia do BC, LC 179/2021)
 - [x] 13.5 Os precedentes: juro fixado ou coordenado em outros países e no Brasil (EUA 1942–1951,
   Japão e controle da curva, Brasil 2011–2013, Turquia 2021–2023 e outros), o que cada um ensina
