@@ -291,7 +291,7 @@ no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do 
   da proposta, com classificação
 - [x] 13.7 Como argumentar: guia de objeção × resposta × réplica, matriz tese × evidência × força e
   direção de conclusão
-- [ ] 13.R Revisão independente do bloco 13
+- [x] 13.R Revisão independente do bloco 13 (05/11/2026: relatório 13.md, 59 achados, aplicados em 13-aplicacao-a.md e 13-aplicacao-b.md)
 
 ## 8–9. Conclusão e apoio
 

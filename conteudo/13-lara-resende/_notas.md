@@ -497,3 +497,10 @@ Aplicação registrada em conteudo/_revisao/13-aplicacao-a.md; classes únicas e
 - Divergência com o relatório: a 13.4 (achado 4) sugeria "falta evidência" para o desenho do conselho; a classe única escolhida para "coordenação, e não dominância" é "procede em parte", e o elo 7 passa a ela (justificativa em _divergencias).
 - Não aplicado: na 12.5.6, linha 14, "os textos circulam [...] na Rede Desenvolvimentista" ficou como está, porque não tem link e o painel não conferiu se Oreiro publica também na Rede Desenvolvimentista; os dois links para red.org.br passaram a "RED, Rede Estação Democracia".
 - Pendência: extensão de prosa da 13.2 e da 13.4 continua acima das 4.500 palavras do cartão; os cortes feitos foram o trecho repetido do "rentista" na 13.2 (remetido à 13.1), a lista de lacunas da 13.1 (virou parágrafo) e os rótulos em negrito da 13.4.
+
+## Correção de 13.5, 13.6 e 13.7 (parte B, 05/11/2026)
+
+Registro completo em conteudo/_revisao/13-aplicacao-b.md.
+- Pendência: extensão de prosa da 13.5 (cerca de 5.200 palavras) e da 13.6 (cerca de 5.400) segue acima das 4.500 do cartão; as correções acrescentaram evidência e o corte fica para a passada de estilo.
+- Matriz da 13.7: nenhuma direção ou força mudou; mudaram as classes da linha 4 (procede em parte) e da LFT na linha 6 (procede em parte), e a condição das linhas 2 e 10 (precedente em condições que 2026 não cumpre).
+- Contagem da regra de reação conferida com o SGS 13522: IPCA de 12 meses acima de 3% em 98 de 117 meses de jan/2017 a set/2026 (84%); 239 de 261 desde 2005 (92%) sai das páginas do bloco.
