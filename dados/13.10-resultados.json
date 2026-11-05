@@ -1318,7 +1318,7 @@
  },
  "cds": {
   "ago/2026": {
-   "fonte": "Revista Mercado (República Dominicana), ranking latino-americano de CDS de 5 anos, ago/2026",
+   "fonte": "Revista Mercado (República Dominicana), ranking latino-americano de CDS de 5 anos, ago/2026; página não aberta pelo painel (bloqueada para leitura), números do resumo de busca, dia exato não conferido",
    "url": "https://revistamercado.do/money-invest/daily-news/republica-dominicana-supera-a-brasil-y-colombia-en-riesgo-pais-asi-queda-el-ranking-latinoamericano/",
    "valores": {
     "BR": 122.21,
@@ -1885,6 +1885,78 @@
     -1.05
    ]
   }
+ },
+ "testes_extras": {
+  "M1_ic95_previsao_brasil": [
+   0.61,
+   7.82
+  ],
+  "M3_sem_peru_2025": {
+   "coef_hist": 3.93,
+   "ep_hist": 9.78,
+   "t_hist": 0.4,
+   "gl": 6,
+   "previsto_brasil": 7.36,
+   "residuo_brasil": 1.73,
+   "ic95_residuo": [
+    -23.16,
+    26.62
+   ],
+   "ln_hist_brasil": 1.17,
+   "maior_ln_hist_fora_brasil": [
+    "Turquia",
+    0.47
+   ]
+  },
+  "ratings_2025": {
+   "BB+ (Colômbia)": {
+    "M1 rating": 4.85,
+    "M2 rating, inflação 2015-24, dívida": 5.83,
+    "igual_ou_pior": {
+     "paises": [
+      "África do Sul",
+      "Turquia"
+     ],
+     "distancia_2025": 4.34
+    }
+   },
+   "BB (Colômbia)": {
+    "M1 rating": 4.92,
+    "M2 rating, inflação 2015-24, dívida": 5.88,
+    "igual_ou_pior": {
+     "paises": [
+      "Colômbia",
+      "África do Sul",
+      "Turquia"
+     ],
+     "distancia_2025": 4.59
+    }
+   }
+  },
+  "M1_com_suica_suecia_dinamarca": {
+   "juro_real_2025": {
+    "Suíça": -0.01,
+    "Suécia": 1.37,
+    "Dinamarca": -0.08
+   },
+   "n_sem_brasil": 15,
+   "coef": [
+    -0.11,
+    0.381
+   ],
+   "previsto_brasil": 4.08,
+   "residuo_brasil": 5.01,
+   "ic95_residuo": [
+    1.74,
+    8.27
+   ]
+  },
+  "posicao_brasil_loo_M1": 1,
+  "posicao_brasil_loo_M2": 3,
+  "paises_erro_acima_de_4_M1": [
+   "Brasil",
+   "Japão"
+  ]
  },
  "serie_brasil": {
   "anos": [

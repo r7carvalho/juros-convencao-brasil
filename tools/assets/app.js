@@ -352,7 +352,7 @@
     (spec.ref || []).forEach(function (r) { vs.push(r.v); });
     var nx = nice(Math.min.apply(null, xs), Math.max.apply(null, xs), W < 480 ? 4 : 6);
     var ny = nice(Math.min.apply(null, vs.concat([0])), Math.max.apply(null, vs), W < 480 ? 4 : 6);
-    var H = W < 480 ? 280 : 340, mL = 44, mR = 14, mT = 12, mB = 40;
+    var H = W < 480 ? 280 : 340, mL = spec.eixo_y ? 58 : 44, mR = 14, mT = 12, mB = 40;
     var pw = W - mL - mR, ph = H - mT - mB;
     function X(x) { return mL + (x - nx.lo) / (nx.hi - nx.lo) * pw; }
     function Y(v) { return mT + (1 - (v - ny.lo) / (ny.hi - ny.lo)) * ph; }
@@ -366,17 +366,27 @@
       s.appendChild(svg("text", { x: X(t), y: mT + ph + 16, "text-anchor": "middle", "class": "ax" }, fmt(t)));
     });
     if (spec.eixo_x) s.appendChild(svg("text", { x: mL + pw / 2, y: H - 4, "text-anchor": "middle", "class": "ax" }, spec.eixo_x.length > 90 ? spec.eixo_x.slice(0, 89) + "…" : spec.eixo_x));
+    if (spec.eixo_y) {
+      var ey = spec.eixo_y.length > 60 ? spec.eixo_y.slice(0, 59) + "…" : spec.eixo_y;
+      s.appendChild(svg("text", { x: 0, y: 0, "text-anchor": "middle", "class": "ax", transform: "translate(11," + (mT + ph / 2) + ") rotate(-90)" }, ey));
+    }
     (spec.ref || []).forEach(function (r) {
       s.appendChild(svg("line", { x1: mL, x2: W - mR, y1: Y(r.v), y2: Y(r.v), "class": "refl" }));
       if (r.rotulo) s.appendChild(svg("text", { x: W - mR - 2, y: Y(r.v) - 4, "text-anchor": "end", "class": "refl-t" }, r.rotulo));
     });
     if (spec.reta && spec.reta.b != null) {
       var a = spec.reta.a, b = spec.reta.b, xa = nx.lo, xb = nx.hi;
+      if (b !== 0) {
+        /* corta a reta nos limites do eixo y */
+        var x1 = (ny.lo - a) / b, x2 = (ny.hi - a) / b;
+        xa = Math.max(xa, Math.min(x1, x2)); xb = Math.min(xb, Math.max(x1, x2));
+      }
       s.appendChild(svg("line", { x1: X(xa), x2: X(xb), y1: Y(a + b * xa), y2: Y(a + b * xb), "class": "refl" }));
       if (spec.reta.rotulo) s.appendChild(svg("text", { x: W - mR - 2, y: Math.max(mT + 10, Math.min(mT + ph - 4, Y(a + b * xb) - 6)), "text-anchor": "end", "class": "refl-t" }, spec.reta.rotulo));
     }
     var tip = tooltip(area);
     var cinza = getComputedStyle(root).getPropertyValue("--text-3").trim() || "#888";
+    var postos = [];   /* rótulos já desenhados, para evitar sobreposição */
     pts.forEach(function (p) {
       var hi = destaque.indexOf(p.t) >= 0;
       var c = svg("circle", { cx: X(p.x), cy: Y(p.v), r: hi ? 6 : 4.5, fill: hi ? cor(1) : cor(0), stroke: "var(--surface)", "stroke-width": 1.5 });
@@ -391,7 +401,15 @@
       s.appendChild(c);
       if (W >= 420 || hi) {
         var dir = X(p.x) > mL + pw * 0.8;
-        s.appendChild(svg("text", { x: X(p.x) + (dir ? -8 : 8), y: Y(p.v) + 4, "text-anchor": dir ? "end" : "start", "class": "ax", fill: hi ? "var(--text)" : cinza, "font-weight": hi ? 700 : 400 }, p.t));
+        var lx = X(p.x) + (dir ? -8 : 8), ly = Y(p.v) + 4, larg = p.t.length * 6.5;
+        var x0 = dir ? lx - larg : lx, x1r = dir ? lx : lx + larg;
+        for (var k = 0; k < 6; k++) {
+          var bate = postos.some(function (q) { return Math.abs(q.y - ly) < 12 && x0 < q.x1 && x1r > q.x0; });
+          if (!bate) break;
+          ly += (k % 2 === 0 ? 1 : -1) * 12 * (k + 1);
+        }
+        postos.push({ x0: x0, x1: x1r, y: ly });
+        s.appendChild(svg("text", { x: lx, y: ly, "text-anchor": dir ? "end" : "start", "class": "ax", fill: hi ? "var(--text)" : cinza, "font-weight": hi ? 700 : 400 }, p.t));
       }
     });
     area.appendChild(s);

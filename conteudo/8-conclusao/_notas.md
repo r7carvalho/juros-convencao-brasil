@@ -174,3 +174,14 @@ A 1ª versão da conclusão, de 02/11/2026, foi escrita antes dos blocos 11 e 12
 - 12.2.2 (linha 124) e a caixa da 6.2.2 tratam o "cerca de 1 ponto" do direcionado como explicação; pela decisão, é conta de brinquedo. Ajustar a 12.2.2 para "numa conta ilustrativa".
 - Extensão: a 8 tem cerca de 3.600 palavras de prosa (era 5.200), a 8.1 cerca de 9.400 no corpo (30 linhas), a 0 cerca de 1.800 e a 0.1 cerca de 3.100, todas acima das faixas de `_CONVENCOES.md`. A 8.1 encurtaria mais se as leituras de cada linha fossem reduzidas a uma frase.
 - As pendências da 2ª versão sobre a 9.1 ("ainda descreve quatro graus") e sobre a caixa da 12.1 (112 e 15) estão obsoletas: a 9.1 já usa dois eixos e a 12.1 já diz 113 e 16.
+
+## Integração da 13.10 na 8.1 (05/11/2026)
+
+A 8.1 passou a citar a [13.10](pagina:13.10) em P2, P3, O1b, O8 e na lista "O que pode mudar a matriz", uma frase em cada, sem mudar classificação. Registro completo em `conteudo/_revisao/13b-integracao.md`.
+
+Proposta de classificação: nenhuma. As razões, linha a linha:
+- P2 (a favor, moderada): a comparação de 13 países aponta no mesmo sentido, com força moderada (uma seção transversal, rating como medida principal, reversão de 2018–2021), e não chega a forte porque não testa o risco que age pelas expectativas e pelo neutro.
+- O1b (contra, moderada): mesmo argumento, do outro lado; a 13.10 não decompõe o prêmio e não muda a força.
+- P3 (mista, fraca): a regressão mede o que sobra e não mede convenção; a 13.10 dá à convenção a mesma classe (falta evidência).
+- O8 (mista, fraca): o Peru é contraexemplo único ao histórico de inflação, e sem ele o histórico não se estima; indexação e direcionado seguem sem medida comparável.
+- Se um painel maior de países, com indexação, direcionado e histórico de inflação medidos, mantiver o resíduo brasileiro, P2 pode subir a forte e O8 descer a contra, fraca; até lá, nada muda.

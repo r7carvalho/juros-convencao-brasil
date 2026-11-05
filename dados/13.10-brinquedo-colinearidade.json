@@ -4,7 +4,7 @@
  "tipo": "barras",
  "unidade": "coeficiente",
  "fonte": "Exemplo de brinquedo do painel (tools/analises/13.10_risco.py)",
- "nota": "Verdade do exemplo: y = 1·x1 + 1·x2. x1 e x2 têm correlação de 0,998. A soma dos dois coeficientes sai perto de 2 nas duas amostras; a divisão entre eles muda de lado.",
+ "nota": "Verdade do exemplo: y = 1·x1 + 1·x2. x1 e x2 têm correlação de 0,999. A soma dos dois coeficientes sai perto de 2 nas duas amostras; a divisão entre eles muda de lado.",
  "ref": [
   {
    "v": 1,

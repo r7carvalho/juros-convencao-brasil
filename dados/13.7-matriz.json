@@ -2,9 +2,9 @@
   "titulo": "Apoio da evidência a cada proposição da proposta (direção × força)",
   "tipo": "barrash",
   "unidade": "escala de −3 a +3",
-  "fonte": "Matriz da página 13.7, a partir das páginas 13.1 a 13.6; régua das páginas 9.1 e 8.1",
+  "fonte": "Matriz da página 13.7, a partir das páginas 13.1 a 13.6 e 13.8 a 13.10; régua das páginas 9.1 e 8.1",
   "consulta": "2026-11-05",
-  "nota": "Valor = direção × força: +1 a favor, −1 contra, 0 mista; força 3 forte, 2 moderada, 1 fraca. Barra positiva indica apoio à proposição da linha, na forma em que o texto de 25/09/2026 a escreve. Linhas mistas ficam em zero qualquer que seja a força (a tabela mostra a força). A linha 7 vale pela leitura convencional (regra de Taylor com o neutro da proposta); pela neo-fisheriana, falta evidência. A linha 9 é fato legal e não mede o mérito. Revisão de 05/11/2026: nenhuma direção ou força mudou; mudaram a classe da linha 4 (procede em parte), a da LFT na linha 6 (procede em parte) e a condição da linha 2 (precedente em condições que 2026 não cumpre).",
+  "nota": "Valor = direção × força: +1 a favor, −1 contra, 0 mista; força 3 forte, 2 moderada, 1 fraca. Barra positiva indica apoio à proposição da linha, na forma em que o texto de 25/09/2026 a escreve; nas linhas 15 a 18, na forma do argumento que a 13.10 monta com os ingredientes do autor. Linhas mistas ficam em zero qualquer que seja a força (a tabela mostra a força). A linha 7 vale pela leitura convencional (regra de Taylor com o neutro da proposta); pela neo-fisheriana, falta evidência. A linha 9 é fato legal e não mede o mérito. A linha 11 é premissa e não decide o nível. Revisão de 05/11/2026: nenhuma direção ou força das linhas 1 a 10 mudou; mudaram a classe da linha 4 (procede em parte), a da LFT na linha 6 (procede em parte) e a condição da linha 2 (precedente em condições que 2026 não cumpre). Integração de 05/11/2026: entram as linhas 11 a 18, das páginas 13.8, 13.9 e 13.10.",
   "series": [
     {
       "nome": "Apoio",
@@ -51,6 +51,42 @@
         },
         {
           "t": "10 Precedentes",
+          "v": -2
+        },
+        {
+          "t": "11 BC fixa o juro, moeda endógena",
+          "v": 3
+        },
+        {
+          "t": "12 Phillips praticamente horizontal (mista)",
+          "v": 0
+        },
+        {
+          "t": "13a Juro alto custa produção (mista)",
+          "v": 0
+        },
+        {
+          "t": "13b Corte com custo inflacionário pequeno",
+          "v": -1
+        },
+        {
+          "t": "14 Juro age sobretudo pelo câmbio",
+          "v": 2
+        },
+        {
+          "t": "15 Pares de risco igual ou maior pagam menos",
+          "v": 3
+        },
+        {
+          "t": "16 Risco medido não explica a distância",
+          "v": 2
+        },
+        {
+          "t": "17 Logo, convenção (mista)",
+          "v": 0
+        },
+        {
+          "t": "18 A comparação autoriza o corte",
           "v": -2
         }
       ]

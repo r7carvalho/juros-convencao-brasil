@@ -106,6 +106,16 @@ def main():
     ys, is_ = equilibrio(l0=L0 + 12)
     print(f"choque de liquidez +12 com moeda fixa em 260: renda {ys:.1f}, juro {is_:.2f}")
     print(f"choque de liquidez +12 com juro fixo em 5%: renda {is_y(5):.0f}, moeda pedida {demanda_moeda(is_y(5), 5, l0=L0 + 12):.0f}")
+    # Poole, a outra metade: choque na IS (investimento autônomo +15)
+    yi, ii = equilibrio(i0=I0 + 15)
+    print(f"choque de investimento +15: com juro fixo em 5%, renda {is_y(5, i0=I0 + 15):.0f}; "
+          f"com moeda fixa em 260, renda {yi:.0f} e juro {ii:.2f}")
+
+    print("== Regra de juro que reage ao produto (MP de Romer, inclinada)")
+    # regra: i = 5 + 0,05 (Y - 1050); IS com gasto +15: Y = 1130 - 10 i
+    a_is, b_is = (C0 + I0 + G0 + 15) / (1 - MPC), (CI + II) / (1 - MPC)
+    y_mp = (a_is - b_is * (5 - 0.05 * 1050)) / (1 + b_is * 0.05)
+    print(f"regra i = 5 + 0,05 (Y - 1.050), gasto +15: renda {y_mp:.0f}, juro {5 + 0.05 * (y_mp - 1050):.2f}")
 
     print("== Phillips de brinquedo e identificação")
     kap = 0.5
@@ -238,9 +248,11 @@ def main():
         "tipo": "barras", "unidade": "κ (coeficiente)",
         "fonte": "Hazell, Herreño, Nakamura e Steinsson, NBER Working Paper 28005 (rev. maio de 2021), Tabela 2, colunas 1 a 4",
         "url": "https://www.nber.org/papers/w28005", "consulta": CONSULTA,
-        "nota": "κ é a resposta da inflação de bens não comercializáveis do estado ao desemprego do estado, em pontos por ponto, "
-                "na equação (17) do artigo. Sem efeitos fixos de tempo, a curva parece cem vezes mais plana depois de 1990; "
-                "com eles, que absorvem a mudança das expectativas de longo prazo, a queda é de cerca de metade.",
+        "nota": "κ é a inclinação da curva de Phillips estimada pelos autores (equação 17), com a inflação de bens não "
+                "comercializáveis e o desemprego de cada estado e desemprego instrumentado. Sem efeitos fixos de tempo, a curva "
+                "parece cem vezes mais plana depois de 1990; com eles, que absorvem a mudança das expectativas de longo prazo, "
+                "a queda é de cerca de metade (de 0,0107, erro-padrão 0,0080, para 0,0050, erro-padrão 0,0040), diferença que "
+                "os autores dizem não ser significativa. Na amostra inteira, κ = 0,0062 (erro-padrão 0,0028).",
         "series": [
             {"nome": "Sem efeitos fixos de tempo", "pontos": [{"t": "1978–1990", "v": 0.0278}, {"t": "1991–2018", "v": 0.0002}]},
             {"nome": "Com efeitos fixos de tempo", "pontos": [{"t": "1978–1990", "v": 0.0107}, {"t": "1991–2018", "v": 0.0050}]},

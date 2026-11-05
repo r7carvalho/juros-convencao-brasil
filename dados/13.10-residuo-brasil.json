@@ -5,7 +5,7 @@
  "tipo": "barrash",
  "unidade": "p.p.",
  "fonte": "BIS (WS_CBPOL e WS_LONG_CPI, coleta de 02/11/2026); S&P via imprensa e listas de ratings (datas por país em dados/13.10-resultados.json); FMI; cálculo do painel (tools/analises/13.10_risco.py)",
- "nota": "Cada barra estima o modelo sem o Brasil e mede o juro brasileiro observado menos o previsto. M1: só rating; M2: rating, inflação média de 2015 a 2024 e dívida bruta; M3: M2 mais o histórico de inflação de 1985 a 2004 (em log). Amostra de 13 países (12 sem o Brasil; 10 no ex-ante, que não cobre Peru e Coreia), exceto as duas barras sem o Peru. Com 9 a 12 países, cada resíduo tem margem de erro grande.",
+ "nota": "Cada barra estima o modelo sem o Brasil e mede o juro brasileiro observado menos o previsto. M1: só rating; M2: rating, inflação média de 2015 a 2024 e dívida bruta; M3: M2 mais o histórico de inflação de 1985 a 2004 (em log). Amostra de 13 países (12 sem o Brasil; 10 no ex-ante, que não cobre Peru e Coreia). Com 9 a 12 países, cada resíduo tem margem de erro grande. O M3 sem o Peru fica fora do gráfico: nessa amostra o coeficiente do histórico não se estima (t de 0,4) e o resíduo é extrapolação, com intervalo de 95% de −23 a +27 pontos.",
  "series": [
   {
    "nome": "Resíduo do Brasil",
@@ -23,10 +23,6 @@
      "v": 6.76
     },
     {
-     "t": "2025, M3 sem o Peru",
-     "v": 1.73
-    },
-    {
      "t": "2026 (jan-set), M1",
      "v": 6.5
     },
@@ -37,10 +33,6 @@
     {
      "t": "2026 (jan-set), M3",
      "v": 9.37
-    },
-    {
-     "t": "2026 (jan-set), M3 sem o Peru",
-     "v": 0.64
     },
     {
      "t": "2024, M1",

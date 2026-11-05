@@ -86,7 +86,8 @@ EX_ANTE = {"BR": 8.45, "CO": 6.33, "TR": 6.25, "MX": 3.08, "ZA": 2.93, "ID": 2.1
 
 # CDS de 5 anos, América Latina, duas datas de 2026 (pontos-base).
 CDS = {
-    "ago/2026": {"fonte": "Revista Mercado (República Dominicana), ranking latino-americano de CDS de 5 anos, ago/2026",
+    "ago/2026": {"fonte": "Revista Mercado (República Dominicana), ranking latino-americano de CDS de 5 anos, ago/2026; "
+                         "página não aberta pelo painel (bloqueada para leitura), números do resumo de busca, dia exato não conferido",
                  "url": "https://revistamercado.do/money-invest/daily-news/republica-dominicana-supera-a-brasil-y-colombia-en-riesgo-pais-asi-queda-el-ranking-latinoamericano/",
                  "v": {"BR": 122.21, "CO": 136.18, "MX": 79.44, "PE": 59.02, "CL": 41.24}},
     "mai/2026": {"fonte": "La República (Colômbia), com dados da Bloomberg, semana anterior ao 1º turno colombiano, mai/2026",
@@ -184,7 +185,7 @@ def ep_previsao(m, x):
 
 
 # valor crítico t bicaudal de 95% para poucos graus de liberdade
-T95 = {6: 2.447, 7: 2.365, 8: 2.306, 9: 2.262, 10: 2.228, 11: 2.201, 12: 2.179}
+T95 = {4: 2.776, 5: 2.571, 6: 2.447, 7: 2.365, 8: 2.306, 9: 2.262, 10: 2.228, 11: 2.201, 12: 2.179, 13: 2.160}
 
 
 def prever(b, x):
@@ -442,6 +443,8 @@ def main():
         f[1] = v if f[1] is None else max(f[1], v)
     res["faixas_residuo"] = faixas
 
+    res["testes_extras"] = testes_extras(linhas, res)
+
     sb = serie_brasil()
     res["serie_brasil"] = json.loads(json.dumps(sb), parse_float=lambda x: round(float(x), 3))
 
@@ -454,16 +457,87 @@ def main():
         imprimir(linhas, res)
 
 
+# Ratings S&P vigentes em 2025, quando diferem dos de 2026 usados na tabela (datas do próprio RISCO):
+# África do Sul BB- até 14/11/2025; Índia BBB- até 14/08/2025; Colômbia BB até 08/04/2026, e BB+ no começo
+# de 2025 (rebaixada para BB em jun/2025, a conferir na S&P). Duas variantes para a Colômbia.
+RATING_2025 = {"BB+ (Colômbia)": {"CO": 10, "ZA": 12, "IN": 9}, "BB (Colômbia)": {"CO": 11, "ZA": 12, "IN": 9}}
+
+# Países do acervo do BIS que a tabela principal deixa fora por falta de dívida comparável; entram só no M1
+# (o M1 não usa dívida), como AAA na S&P.
+AAA_EXTRAS = {"CH": "Suíça", "SE": "Suécia", "DK": "Dinamarca"}
+
+
+def testes_extras(linhas, res):
+    out = {}
+    todos = list(RISCO)
+    # 1. intervalo da previsão (e não do resíduo) do juro brasileiro no M1
+    regs = MODELOS["M1 rating"]
+    resid, prev, m = residuo_fora(linhas, todos, "r2025", regs)
+    e = ep_previsao(m, [linhas["BR"][x] for x in regs])
+    out["M1_ic95_previsao_brasil"] = [r(prev - T95[m["gl"]] * e), r(prev + T95[m["gl"]] * e)]
+
+    # 2. M3 sem o Brasil e sem o Peru: o histórico não se estima
+    regs = MODELOS["M3 M2 + histórico 1985-2004"]
+    am = [p for p in todos if p != "PE"]
+    resid, prev, m = residuo_fora(linhas, am, "r2025", regs)
+    e = ep_previsao(m, [linhas["BR"][x] for x in regs])
+    k = regs.index("ln_hist") + 1
+    outros = [p for p in am if p != "BR"]
+    maior = max(outros, key=lambda p: linhas[p]["ln_hist"])
+    out["M3_sem_peru_2025"] = {
+        "coef_hist": r(m["b"][k]), "ep_hist": r(m["ep"][k]), "t_hist": r(m["b"][k] / m["ep"][k]), "gl": m["gl"],
+        "previsto_brasil": r(prev), "residuo_brasil": r(resid),
+        "ic95_residuo": [r(resid - T95[m["gl"]] * e), r(resid + T95[m["gl"]] * e)],
+        "ln_hist_brasil": r(linhas["BR"]["ln_hist"]), "maior_ln_hist_fora_brasil": [NOMES[maior], r(linhas[maior]["ln_hist"])]}
+
+    # 3. ratings datados de 2025
+    rt = {}
+    for nome, troca in RATING_2025.items():
+        orig = {q: linhas[q]["degrau"] for q in troca}
+        for q, v in troca.items():
+            linhas[q]["degrau"] = v
+        rt[nome] = {}
+        for mn in ("M1 rating", "M2 rating, inflação 2015-24, dívida"):
+            resid, prev, m = residuo_fora(linhas, todos, "r2025", MODELOS[mn])
+            rt[nome][mn] = r(resid)
+        piores = [p for p in todos if p != "BR" and linhas[p]["degrau"] >= linhas["BR"]["degrau"]]
+        media = sum(linhas[p]["r2025"] for p in piores) / len(piores)
+        rt[nome]["igual_ou_pior"] = {"paises": [NOMES[p] for p in piores], "distancia_2025": r(linhas["BR"]["r2025"] - media)}
+        for q, v in orig.items():
+            linhas[q]["degrau"] = v
+    out["ratings_2025"] = rt
+
+    # 4. Suíça, Suécia e Dinamarca no M1, como AAA
+    ext = {p: juro_real(p, 2025) for p in AAA_EXTRAS}
+    ys = [linhas[p]["r2025"] for p in todos if p != "BR"] + [ext[p] for p in AAA_EXTRAS]
+    xs = [linhas[p]["degrau"] for p in todos if p != "BR"] + [0 for _ in AAA_EXTRAS]
+    m = mqo(ys, [xs])
+    prev = prever(m["b"], [linhas["BR"]["degrau"]])
+    resid = linhas["BR"]["r2025"] - prev
+    e = ep_previsao(m, [linhas["BR"]["degrau"]])
+    out["M1_com_suica_suecia_dinamarca"] = {
+        "juro_real_2025": {AAA_EXTRAS[p]: r(v) for p, v in ext.items()}, "n_sem_brasil": m["n"],
+        "coef": [r(b, 3) for b in m["b"]], "previsto_brasil": r(prev), "residuo_brasil": r(resid),
+        "ic95_residuo": [r(resid - T95[m["gl"]] * e), r(resid + T95[m["gl"]] * e)]}
+
+    # 5. lugar do Brasil na validação deixando um de fora
+    for chave in ("M1, ex-post 2025", "M2, ex-post 2025"):
+        ordem = list(res["loo"][chave])
+        out["posicao_brasil_loo_" + chave.split(",")[0]] = ordem.index("BR") + 1
+    out["paises_erro_acima_de_4_M1"] = [NOMES[p] for p, v in res["loo"]["M1, ex-post 2025"].items() if abs(v) > 4]
+    return out
+
+
 def graficos(linhas, res):
     todos = list(RISCO)
     base = {"consulta": CONSULTA, "url": "https://data.bis.org"}
     fonte_r = "BIS (WS_CBPOL e WS_LONG_CPI, coleta de 02/11/2026); S&P via imprensa e listas de ratings (datas por país em dados/13.10-resultados.json); FMI; cálculo do painel (tools/analises/13.10_risco.py)"
     m_sem = res["regressoes"]["M1 rating"]["sem_brasil"]["coef"]
     g1 = dict(base, titulo="Juro real ex-post de 2025 e rating soberano, 13 países",
-              tipo="dispersao", unidade="% a.a.", eixo_x="degraus abaixo de AAA (S&P): 0 = AAA, 8 = BBB, 11 = BB, 12 = BB-",
+              tipo="dispersao", unidade="% a.a.", eixo_x="degraus abaixo de AAA",
               eixo_y="juro real ex-post de 2025 (% a.a.)", fonte=fonte_r, destaque=["Brasil"],
               reta={"a": round(m_sem[0], 3), "b": round(m_sem[1], 3), "rotulo": "reta estimada sem o Brasil"},
-              nota="Juro real: média anual da taxa de política deflacionada pela média anual da inflação em 12 meses (régua da 2.1). Rating de longo prazo em moeda estrangeira da S&P; datas e fontes por país no arquivo de resultados. Rússia (sem rating desde 2022), área do euro, Suíça, Suécia e Dinamarca ficam fora por falta de rating ou de dívida comparável.",
+              nota="Eixo horizontal: rating de longo prazo em moeda estrangeira da S&P, em degraus abaixo de AAA (0 = AAA, 2 = AA, 5 = A, 8 = BBB, 11 = BB, 12 = BB-); notas de 2026, com datas e fontes por país no arquivo de resultados. Juro real: média anual da taxa de política deflacionada pela média anual da inflação em 12 meses (régua da 2.1). Rússia (sem rating desde 2022) e área do euro ficam fora; Suíça, Suécia e Dinamarca ficam fora da tabela por falta de dívida no acervo e entram num teste à parte do modelo só com rating (resíduo do Brasil de 5,0).",
               series=[{"nome": "Países", "pontos": [{"t": linhas[p]["nome"], "x": linhas[p]["degrau"], "v": r(linhas[p]["r2025"])} for p in todos]}])
     g2 = dict(base, titulo="Juro real ex-post de 2025 e dívida bruta do governo geral, 13 países",
               tipo="dispersao", unidade="% a.a.", eixo_x="dívida bruta do governo geral, 2025 (% do PIB)",
@@ -475,14 +549,14 @@ def graficos(linhas, res):
     g3 = dict(base, titulo="América Latina: juro real ex-post de 2026 (jan-set) e CDS de 5 anos de ago/2026",
               tipo="dispersao", unidade="% a.a.", eixo_x="CDS de 5 anos, ago/2026 (pontos-base)",
               eixo_y="juro real ex-post, jan-set 2026 (% a.a.)",
-              fonte="BIS (coleta de 02/11/2026); Revista Mercado, ranking latino-americano de CDS, ago/2026; cálculo do painel",
+              fonte="BIS (coleta de 02/11/2026); Revista Mercado, ranking latino-americano de CDS, ago/2026, página não aberta pelo painel (números do resumo de busca); cálculo do painel",
               url=c["url"], destaque=["Brasil"],
               nota="Cinco países, uma data de CDS. Em mai/2026, às vésperas da eleição colombiana, o CDS da Colômbia estava em 220,9 e o do Brasil em 128,3 (La República, com dados da Bloomberg).",
               series=[{"nome": "Países", "pontos": [{"t": linhas[p]["nome"], "x": c["v"][p], "v": r(linhas[p]["r2026"])} for p in c["v"]]}])
     b = res["brinquedo"]["amostras"]
     g4 = dict(consulta=CONSULTA, titulo="Exemplo de brinquedo: o mesmo dado, duas amostras de ruído, coeficientes trocados",
               tipo="barras", unidade="coeficiente", fonte="Exemplo de brinquedo do painel (tools/analises/13.10_risco.py)",
-              nota="Verdade do exemplo: y = 1·x1 + 1·x2. x1 e x2 têm correlação de 0,998. A soma dos dois coeficientes sai perto de 2 nas duas amostras; a divisão entre eles muda de lado.",
+              nota="Verdade do exemplo: y = 1·x1 + 1·x2. x1 e x2 têm correlação de 0,999. A soma dos dois coeficientes sai perto de 2 nas duas amostras; a divisão entre eles muda de lado.",
               ref=[{"v": 1, "rotulo": "valor verdadeiro de cada um"}],
               series=[{"nome": "Amostra A", "pontos": [{"t": "peso de x1", "v": r(b["A"]["b1"])}, {"t": "peso de x2", "v": r(b["A"]["b2"])}, {"t": "soma", "v": r(b["A"]["soma"])}]},
                       {"nome": "Amostra B", "pontos": [{"t": "peso de x1", "v": r(b["B"]["b1"])}, {"t": "peso de x2", "v": r(b["B"]["b2"])}, {"t": "soma", "v": r(b["B"]["soma"])}]}])
@@ -494,11 +568,9 @@ def graficos(linhas, res):
         cod = s_["modelo"].split(" ")[0]
         if s_["amostra"] == "13 países" and cod in ("M1", "M2", "M3"):
             pts.append({"t": f'{curto[s_["dep"]]}, {cod}', "v": s_["residuo"]})
-        if s_["amostra"] == "12 sem Peru" and cod == "M3" and s_["dep"] in ("ex-post 2025", "ex-post 2026 (jan-set)"):
-            pts.append({"t": f'{curto[s_["dep"]]}, M3 sem o Peru', "v": s_["residuo"]})
     g5 = dict(base, titulo="Quanto o juro real do Brasil fica acima do previsto pelos outros países (p.p.)",
               tipo="barrash", unidade="p.p.", fonte=fonte_r,
-              nota="Cada barra estima o modelo sem o Brasil e mede o juro brasileiro observado menos o previsto. M1: só rating; M2: rating, inflação média de 2015 a 2024 e dívida bruta; M3: M2 mais o histórico de inflação de 1985 a 2004 (em log). Amostra de 13 países (12 sem o Brasil; 10 no ex-ante, que não cobre Peru e Coreia), exceto as duas barras sem o Peru. Com 9 a 12 países, cada resíduo tem margem de erro grande.",
+              nota="Cada barra estima o modelo sem o Brasil e mede o juro brasileiro observado menos o previsto. M1: só rating; M2: rating, inflação média de 2015 a 2024 e dívida bruta; M3: M2 mais o histórico de inflação de 1985 a 2004 (em log). Amostra de 13 países (12 sem o Brasil; 10 no ex-ante, que não cobre Peru e Coreia). Com 9 a 12 países, cada resíduo tem margem de erro grande. O M3 sem o Peru fica fora do gráfico: nessa amostra o coeficiente do histórico não se estima (t de 0,4) e o resíduo é extrapolação, com intervalo de 95% de −23 a +27 pontos.",
               series=[{"nome": "Resíduo do Brasil", "pontos": pts}])
     for nome, g in (("dispersao-rating", g1), ("dispersao-divida", g2), ("cds-latam", g3),
                     ("brinquedo-colinearidade", g4), ("residuo-brasil", g5)):
@@ -524,6 +596,7 @@ def imprimir(linhas, res):
     print("Corr dívida x juro emergentes:", res["corr_divida_juro_emergentes"])
     rb = res["robustez_rating"]
     print("Robustez rating ±1:", rb["residuo_min"], rb["residuo_max"], rb["coef_min"], rb["coef_max"])
+    print("\nTestes extras:", json.dumps(res["testes_extras"], ensure_ascii=False, indent=1))
     print("\nRisco igual ou maior:", json.dumps(res["risco_igual_ou_maior"], ensure_ascii=False))
     print("Faixas:", json.dumps(res["faixas_residuo"], ensure_ascii=False, indent=1))
     print("\nSensibilidade (resíduo do Brasil fora da amostra):")

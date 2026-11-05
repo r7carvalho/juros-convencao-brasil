@@ -310,7 +310,7 @@ Não alinhado ou pendente:
 ## Decisões da revisão de 13.8 a 13.10 (05/11/2026)
 
 - **Duas proposições na 13.10, com grau único em todo o painel.**
-  - (a) Existe distância de juro real para os pares de rating igual ou pior em 2023–2026: 4,6 pontos em 2025, 5,7 em jan–set/2026 e 3,3 na média do período. É fato datado, com confiança alta. Em 2019 a distância era de −0,2 ponto.
+  - (a) Existe distância de juro real para os pares de rating igual ou pior em 2023–2026: 4,6 pontos em 2025, 5,7 em jan–set/2026 e 3,3 no juro ex-ante de 16/09/2026. É fato datado, com confiança alta. Em 2019 a distância era de −0,2 ponto.
   - (b) Rating, CDS, dívida e inflação recente não explicam essa distância. A favor, moderada, procede em parte. O resíduo da regressão fica entre 2,4 e 8,2 pontos, conforme o ano e a amostra.
   - Essas medidas são novas e não se somam ao resíduo da 2.5 nem à distância para a regra de Taylor (10.2.5).
   - A comparação não testa o canal ortodoxo do risco, que passa pelas expectativas e pelo juro neutro.
