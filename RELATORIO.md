@@ -1,13 +1,13 @@
 # Relatório do coordenador
 
-Estado em 03/11/2026. Site: https://r7carvalho.github.io/juros-convencao-brasil/ (GitHub Pages, `main:/docs`).
+Estado em 05/11/2026. Site: https://r7carvalho.github.io/juros-convencao-brasil/ (GitHub Pages, `main:/docs`).
 Este relatório é atualizado a cada rodada; a seção "Último item feito" no fim diz onde parar e retomar.
 
 ## O que está pronto
 
-**155 páginas publicadas, cerca de 628 mil palavras (contagem do build) e 172 gráficos**, em todas as
-macroáreas da topologia original (0 a 9) e nos três blocos acrescentados pelo `PLANO.md` (10 política
-monetária, 11 finanças públicas, 12 vozes do debate). Todos os itens do `PLANO.md` estão marcados.
+**166 páginas publicadas, cerca de 715 mil palavras (contagem do build) e 196 gráficos**, em todas as
+macroáreas da topologia original (0 a 9) e nos quatro blocos acrescentados pelo `PLANO.md` (10 política
+monetária, 11 finanças públicas, 12 vozes do debate, 13 a proposta de Lara Resende em estudo). Todos os itens do `PLANO.md` estão marcados.
 
 | Área | Páginas | Palavras (aprox.) | Estado |
 |---|---|---|---|
@@ -24,6 +24,7 @@ monetária, 11 finanças públicas, 12 vozes do debate). Todos os itens do `PLAN
 | 10 Política monetária | 22 | 82.900 | revisadas |
 | 11 Finanças públicas | 9 | 33.900 | revisadas |
 | 12 Vozes do debate | 41 | 164.700 | revisadas (23 pessoas, 10 jargões, 2 páginas do mercado, ramos e conclusão do bloco) |
+| 13 A proposta de Lara Resende | 11 | 76.300 | revisadas (proposta, teoria, contas, coerência e lei, precedentes, críticas, guia de argumentação, IS-LM, linha teórica, juro real × risco) |
 
 O contraponto ortodoxo (área 6, mais as linhas O1 a O8 da matriz e os ramos ortodoxos do bloco 12)
 tem extensão comparável à da tese em teste, como o briefing pede.
@@ -44,6 +45,22 @@ tudo isso foi corrigido, e as regras ficaram no método da página 12 (perguntas
 evidência"; relação comercial só em "Quem é"). Balanço depois da revisão: 387 proposições de pessoas =
 153 procedem / 162 em parte / 22 não procedem / 50 falta evidência. Lado crítico 10,1% de "não
 procede", demais 2,9%; 17 dos 22 "não procede" são previsões ou leituras de conjuntura.
+
+**Bloco 13 (a proposta de Lara Resende, 05/11/2026).** Estudo da proposta "Eu acuso: uma proposta
+para eliminar os juros absurdos" (25/09/2026): Selic a cerca de 7,5% em doze meses, depois numa faixa
+entre a meta de inflação e o crescimento nominal potencial (3% a 5,5%), sob um conselho fiscal e
+monetário. Onze páginas, duas revisões independentes (100 achados, aplicados). O texto integral foi lido
+em três republicações; as falas do autor vêm de legendas automáticas do YouTube (Canal Livre 2023,
+Roda Viva 2021, MyNews), com minutagem; as críticas e os apoios, de 33 reportagens e colunas e de textos
+acadêmicos e do BNDES (TD 154). Direção de conclusão (confiança moderada): a proposta acerta no
+diagnóstico e na aritmética (o corte alivia R$ 193 bi no ano 1 e R$ 386 bi, 2,9% do PIB, a partir do
+ano 2; 4,0% do PIB em 2030 contra o Focus) e no princípio de coordenar sem financiamento monetário;
+depende de um juro neutro perto de 2,5% e de expectativas que sigam o anúncio, sem teste e com indícios
+contra; e, como escrita, não fecha na regra de reação da faixa, no câmbio "neutralizado" e na âncora
+fiscal sem número. A comparação com países de rating igual ou pior mostra distância de juro real de 4,6
+a 5,7 pontos em 2025–2026 que o risco medido não explica (procede em parte), compatível com convenção e
+com fundamento não medido, sem separar os dois. O guia da 13.7 traz os argumentos mais fortes de cada
+lado, as armadilhas de debate e a matriz de 20 linhas.
 
 **Dados primários.** A rede da sessão de nuvem bloqueia os sites oficiais. A solução foi um coletor
 (`tools/coletar.py`) que roda no GitHub Actions (`.github/workflows/coletar-dados.yml`, toda segunda
@@ -95,6 +112,14 @@ dia são compatíveis com convenção e também com choques comuns, e não conta
 - **Bloco 12, pontos abertos:** posts sem link localizado (fora das tabelas), datas aproximadas de
   vídeos e entrevistas, um vídeo citado pelo título e não assistido (classificado "falta evidência").
 
+- **Bloco 13.** O YouTube bloqueou a coleta da maioria dos vídeos ("confirme que não é um robô");
+  dos três vídeos indicados, um foi removido por pedido de direitos autorais do Jornal GGN e dois não
+  transcreveram. Faltam o debate do CEBRI e os cortes de 2026 em que o autor explica a proposta; a lista
+  está em `conteudo/13-lara-resende/_notas.md`. Basta colar a transcrição (YouTube, "Mostrar
+  transcrição") num arquivo em `dados/brutos/transcricoes/`. O Substack do autor, o texto de Oreiro e
+  os posts de Cochrane não abriram (403). O CDS de ago/2026 dos pares e as dívidas de Peru, Indonésia e
+  Coreia vêm de fontes secundárias. As páginas 13.2 a 13.10 passam do limite de extensão do cartão.
+
 ## Identidades deduzidas
 
 - Item 12.2b: o pedido por voz citava "Márcio … do INPE". A página 12.2.2 trata de **Marcos Lisboa**
@@ -133,6 +158,8 @@ python3 tools/coletar.py sgs      # coleta (precisa de rede aberta; ou rode o wo
 
 ## Último item feito
 
-Bloco 12 revisado, corrigido e concluído na página 12; conclusão 8 e 8.1 e página inicial refeitas com
-os blocos 10 a 12, revisadas por revisor independente e corrigidas (matriz de 30 linhas, com P9d, O7 e
-O8 novas); 9.2 regenerada. Todos os itens do `PLANO.md` estão feitos. Próximo passo: a lista acima.
+Bloco 13 (a proposta de Lara Resende) escrito, revisado duas vezes e integrado: 11 páginas, matriz de
+20 linhas na 13.7, remissões na 7.8, 12.5.1, 2.5, 8.1 e página inicial. Coletores novos:
+`tools/transcricoes.py` (legendas do YouTube) e `tools/textos.py` (páginas públicas e PDF), com os
+workflows `transcricoes.yml` e `textos.yml`. Próximo passo: transcrever os vídeos de 2026 que faltam e
+encurtar as páginas do bloco 13.
