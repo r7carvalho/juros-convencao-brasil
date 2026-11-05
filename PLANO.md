@@ -308,7 +308,7 @@ lados; lembrar a cada passo que correlação não é causalidade, que as variáv
   mar/2023 e comissão de estudos; Keynes, Minsky, moeda endógena, MMT, teoria fiscal do nível de
   preços, novo-desenvolvimentismo; críticas acadêmicas), com o que cada texto sustenta e o que não
   sustenta
-- [ ] 13.10 Juro real, risco e convenção: o que a comparação com países de risco igual ou maior permite
+- [x] 13.10 Juro real, risco e convenção: o que a comparação com países de risco igual ou maior permite
   concluir e o que não permite (correlação, colinearidade, causalidade reversa, poucas observações);
   a tese de que o juro virou consenso, testada e não presumida
 - [ ] 13.R2 Revisão independente de 13.8 a 13.10

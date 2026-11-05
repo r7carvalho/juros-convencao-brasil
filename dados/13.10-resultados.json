@@ -267,7 +267,12 @@
     "r2": 0.606,
     "n": 12,
     "previsto_brasil": 4.21,
-    "residuo_brasil": 4.87
+    "residuo_brasil": 4.87,
+    "ep_previsao": 1.62,
+    "ic95_residuo": [
+     1.27,
+     8.48
+    ]
    }
   },
   "M2 rating, inflação 2015-24, dívida": {
@@ -312,7 +317,12 @@
     "r2": 0.765,
     "n": 12,
     "previsto_brasil": 3.22,
-    "residuo_brasil": 5.87
+    "residuo_brasil": 5.87,
+    "ep_previsao": 1.46,
+    "ic95_residuo": [
+     2.49,
+     9.24
+    ]
    }
   },
   "M3 M2 + histórico 1985-2004": {
@@ -363,7 +373,12 @@
     "r2": 0.771,
     "n": 12,
     "previsto_brasil": 2.32,
-    "residuo_brasil": 6.76
+    "residuo_brasil": 6.76,
+    "ep_previsao": 2.53,
+    "ic95_residuo": [
+     0.78,
+     12.74
+    ]
    }
   },
   "M4 inflação 2015-24 e dívida": {
@@ -402,7 +417,12 @@
     "r2": 0.614,
     "n": 12,
     "previsto_brasil": 1.93,
-    "residuo_brasil": 7.16
+    "residuo_brasil": 7.16,
+    "ep_previsao": 1.63,
+    "ic95_residuo": [
+     3.48,
+     10.84
+    ]
    }
   }
  },

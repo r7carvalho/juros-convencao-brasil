@@ -547,3 +547,35 @@ Economia de brinquedo: C = 100 + 0,5Y − 2i; I = 300 − 3i; G = 150; IS Y = 1.
 | Recessão não reduz a inflação | Inclinação pequena e presente; 2016–2017 | Não procede na forma absoluta | Moderada, contra | 13.6, 13.8 |
 | O juro alto inviabiliza crédito e investimento (IS inclinada) | Canais do BC; direcionado reduz potência | Procede em parte (sentido sim; intensidade sem medida) | Moderada, a favor do diagnóstico | 13.8, 6.2, 6.2.2 |
 | Corte com custo inflacionário pequeno | Vale com expectativas paradas; canal cambial independe da planura | Falta evidência | Fraca, contra pela partida de 2026 | 13.8, 13.4, 12.4.5 |
+
+## 13.10 Juro real, risco e convenção (05/11/2026)
+
+Página `conteudo/13-lara-resende/13.10-juro-real-risco-convencao.md`: cerca de 4.480 palavras de prosa (6.589 no lint, com tabelas e Para ler). Script `tools/analises/13.10_risco.py` (biblioteca padrão; `--resumo` imprime tudo); dados `dados/13.10-resultados.json` (todas as regressões, correlações, VIF, validação deixando um de fora, robustez do rating ±1, faixas do resíduo, série brasileira 2007–2023) e cinco gráficos: `13.10-dispersao-rating`, `13.10-dispersao-divida`, `13.10-cds-latam`, `13.10-brinquedo-colinearidade`, `13.10-residuo-brasil`.
+
+Edição fora da página: o build não tinha gráfico de dispersão, e o item pede um. Foi acrescentado o tipo `dispersao` em `tools/build.py` (TIPOS, validação de `x` numérico, tabela com rótulo, x e y) e em `tools/assets/app.js` (função `dispersao`: pontos com rótulo, `destaque`, `reta` opcional {a, b, rotulo}, `eixo_x`, `eixo_y`). Formato do ponto: `{"t": "Brasil", "x": 11, "v": 9.09}`. Convém registrar o tipo em `_CONVENCOES.md` (fora do escopo do item).
+
+Números novos (todos do script; régua de juro real da 2.1, que o script reproduz: Brasil 9,09 em 2025 e 3,93 em 2010–2019):
+- 13 países (Brasil, México, Colômbia, Chile, Peru, África do Sul, Turquia, Indonésia, Índia, Coreia, EUA, Reino Unido, Japão). Fora: Rússia (sem rating S&P desde 2022, sem CDS), área do euro, Suíça, Suécia e Dinamarca (sem dívida comparável achada).
+- Rating igual ou pior que o brasileiro (Colômbia BB−, Turquia BB−, África do Sul BB): juro real médio 4,50 em 2025 (Brasil 9,09; distância 4,59), 3,98 em 2026 jan–set (5,67), ex-ante de 16/09/2026 5,17 (3,28); em 2019, 2,35 contra 2,14 no Brasil (−0,21).
+- M1 (só rating), 13 países: 0,545 por degrau, t 3,81, R² 0,57. Sem o Brasil: −0,684 + 0,445 × degrau; previsto 4,21; resíduo 4,87, IC 95% de 1,27 a 8,48. Maior erro na validação deixando um de fora (Japão −4,31, EUA +2,71).
+- M2 (rating, inflação 2015–2024, dívida): previsto 3,22, resíduo 5,87 (IC 2,49 a 9,24). M3 (+ histórico 1985–2004 em log): resíduo 6,76; com o Brasil dentro, histórico 3,53 (t 2,06); sem o Brasil, −0,95 (ep 2,11). M4 (inflação e dívida, sem rating): resíduo 7,16.
+- Faixa do resíduo sem o histórico (M1, M2, M4), em 13 países, 10 emergentes, sem Turquia e sem Peru: 4,47–7,16 (2025), 6,14–8,20 (2026), 2,41–5,35 (2024), 4,51–7,55 (2023–2025), 3,83–6,19 (ex-ante). Com o histórico e sem o Peru: 1,73 (2025), 0,64 (2026), −1,05 no ex-ante (amostra sem Peru e Coreia).
+- Correlações (13): juro × rating 0,75; × inflação 2015–24 0,45; × dívida −0,47; × histórico 0,72. Dívida × juro entre emergentes: +0,42 com o Brasil, −0,01 sem ele. VIF: 1,34 a 1,49 (M2), 1,34 a 1,89 (M3).
+- Robustez: rating de qualquer outro país ±1 degrau deixa o resíduo do Brasil entre 4,77 e 6,00 (M1 e M2).
+- CDS América Latina (cinco países): ago/2026 correlação CDS × degrau 0,92; reta sem o Brasil prevê 4,33 para 2026 (resíduo 5,32); mai/2026: 0,85 e resíduo 6,89.
+- Série brasileira 2007–2023: correlação EMBI+ × DBGG 0,50, EMBI+ × IPCA do ano anterior 0,44, juro real × DBGG −0,47; VIF 1,35 a 1,79; coeficiente do EMBI+ (por 100 pb) +0,86 em 2007–2015 e −3,28 em 2016–2023.
+- Brinquedo: correlação 0,9989, VIF 454; coeficientes −0,5 e 2,5 (A) e 2,5 e −0,5 (B), soma 2,0; coeficiente da soma 0,99 e 1,01 (ep 0,019).
+
+Fontes usadas: BIS (WS_CBPOL, WS_LONG_CPI, acervo de 02/11/2026); BCB SGS 13762 e 13522; Ipeadata EMBI+; FMI DataMapper via dados/3.4 (nove países); Wikipédia, cópias de mar/2026 (dívida de Peru 33,7, Indonésia 41,0 e Coreia 54,5; rating da África do Sul e da Índia); Trading Economics (dívida do Chile 41,5, conceito nacional; lista de ratings); FX Empire (lista de ratings); Movimento Econômico (19/12/2023) e IstoÉ Dinheiro (05/06/2025) para o BB do Brasil; La República e Scotiabank Colpatria (Colômbia BB−, 08/04/2026); Mexico Daily Post (14/05/2026, México BBB, perspectiva negativa); Property Turkey (Turquia BB−, fonte fraca); Revista Mercado (CDS da América Latina, ago/2026); La República com dados da Bloomberg (CDS, mai/2026); Poder360 (CDS do Brasil de 138 no fim de 2025); MoneYou e Lev (ex-ante, via 2.1); Keynes 1936 e 1937 (recortes da 1.4); Lucas (1976); Wooldridge (cap. 3).
+
+Fontes descartadas: sovereign-em-guide.pages.dev (marcada "confidential", sem procedência; Turquia a 480–520 pb); números de CDS de Turquia, África do Sul, Indonésia e Coreia atribuídos ao fgeerolf.com pelo resumo da busca (página não abriu; não conferidos); Monex (só trechos, sem tabela completa); worldgovernmentbonds.com, fgeerolf.com e revistamercado.do (rede bloqueada para WebFetch); post de LinkedIn de ago/2026 com ratings (não citado como fonte); Zerohedge e statisticsoftheworld para dívida (diferem cerca de 1 ponto das cópias da Wikipédia).
+
+Lacunas: CDS de cinco anos fora da América Latina numa mesma data (por isso o rating é a medida de risco principal); notas da S&P não abertas na fonte para Chile, Peru, Indonésia, Coreia, Japão, Reino Unido, EUA e Turquia; dia exato do ranking de CDS de agosto de 2026; dívida comparável de Suíça, Suécia, Dinamarca e área do euro; ex-ante de Peru e Coreia; o teste de dispersão do Focus contra as pesquisas de México, Chile e Colômbia não foi feito.
+
+Números que divergem: nenhum contra _divergencias.md. O juro real do Brasil em 2026 é 9,64 (jan–set), o mesmo de _divergencias, e não os 9,67 (jan–ago) do JSON da 2.1. A distância para os pares com rating igual ou pior (4,6 em 2025) é outra medida que a distância para os cinco pares da 2.1 (5,5 em 2023–2026) e que o resíduo da 2.5 (2 a 4,5): não se somam.
+
+Linhas para a matriz da 13.7:
+- "Países com risco igual ou maior pagam juro real menor": a favor, forte; procede (Colômbia, Turquia e África do Sul, 4,6 pontos em 2025; Colômbia com CDS maior em ago/2026).
+- "Nenhuma variável medida explica a distância": mista, moderada; procede em parte (rating, CDS, dívida e inflação recente não fecham, em todos os anos e amostras; o histórico de inflação de 1985–2004 fecha quando o Peru sai).
+- "Logo o juro brasileiro é convenção (consenso)": mista, fraca; falta evidência (o resíduo é compatível com convenção e com indexação, direcionado, poupança, ciclo e prêmio pela dívida futura; 2018–2021 favorece que o nível muda sem o risco medido mudar, com explicação concorrente forte).
+- "Logo o juro pode cair por decisão sem custo": contra, moderada; não procede como inferência da comparação (crítica de Lucas; a regressão descreve a regra atual).

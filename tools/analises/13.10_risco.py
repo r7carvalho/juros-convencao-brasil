@@ -171,7 +171,20 @@ def mqo(y, xs):
     gl = n - k
     s2 = sqr / gl if gl > 0 else float("nan")
     ep = [math.sqrt(s2 * inv[i][i]) if gl > 0 else float("nan") for i in range(k)]
-    return {"b": b, "ep": ep, "r2": 1 - sqr / sqt if sqt else float("nan"), "n": n, "gl": gl}
+    return {"b": b, "ep": ep, "r2": 1 - sqr / sqt if sqt else float("nan"), "n": n, "gl": gl,
+            "s2": s2, "inv": inv}
+
+
+def ep_previsao(m, x):
+    """Erro-padrão da previsão de uma observação nova com regressores x (sem a constante)."""
+    v = [1.0] + list(x)
+    k = len(v)
+    q = sum(v[i] * m["inv"][i][j] * v[j] for i in range(k) for j in range(k))
+    return math.sqrt(m["s2"] * (1 + q))
+
+
+# valor crítico t bicaudal de 95% para poucos graus de liberdade
+T95 = {6: 2.447, 7: 2.365, 8: 2.306, 9: 2.262, 10: 2.228, 11: 2.201, 12: 2.179}
 
 
 def prever(b, x):
@@ -337,7 +350,10 @@ def main():
             "t": [r(b / e, 2) if e else None for b, e in zip(m["b"], m["ep"])],
             "sem_brasil": {"coef": [r(b, 3) for b in m_sem["b"]], "ep": [r(e, 3) for e in m_sem["ep"]],
                            "r2": r(m_sem["r2"], 3), "n": m_sem["n"],
-                           "previsto_brasil": r(prev), "residuo_brasil": r(resid)},
+                           "previsto_brasil": r(prev), "residuo_brasil": r(resid),
+                           "ep_previsao": r(ep_previsao(m_sem, [linhas["BR"][x] for x in regs])),
+                           "ic95_residuo": [r(resid - T95[m_sem["gl"]] * ep_previsao(m_sem, [linhas["BR"][x] for x in regs])),
+                                            r(resid + T95[m_sem["gl"]] * ep_previsao(m_sem, [linhas["BR"][x] for x in regs]))]},
         }
 
     # sensibilidade: resíduo do Brasil fora da amostra
