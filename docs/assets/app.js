@@ -173,9 +173,13 @@
       s.appendChild(svg("line", { x1: X(xt), x2: X(xt), y1: mT + ph, y2: mT + ph + 4, "class": "gl" }));
       s.appendChild(svg("text", { x: X(xt), y: H - 8, "text-anchor": "middle", "class": "ax" }, lab));
     }
+    var postos = [];   /* caixas de rótulos já desenhados, para evitar sobreposição */
     (spec.ref || []).forEach(function (r) {
       s.appendChild(svg("line", { x1: mL, x2: W - mR, y1: Y(r.v), y2: Y(r.v), "class": "refl" }));
-      if (r.rotulo) s.appendChild(svg("text", { x: W - mR - 2, y: Y(r.v) - 4, "text-anchor": "end", "class": "refl-t" }, r.rotulo));
+      if (r.rotulo) {
+        s.appendChild(svg("text", { x: W - mR - 2, y: Y(r.v) - 4, "text-anchor": "end", "class": "refl-t" }, r.rotulo));
+        postos.push({ x0: W - mR - 2 - r.rotulo.length * 6, x1: W - mR, y0: Y(r.v) - 14, y1: Y(r.v) - 2 });
+      }
     });
     series.forEach(function (se, i) {
       var d = "", pen = false;
@@ -291,9 +295,13 @@
         s.appendChild(t);
       }
     });
+    var postos = [];   /* caixas de rótulos já desenhados, para evitar sobreposição */
     (spec.ref || []).forEach(function (r) {
       s.appendChild(svg("line", { x1: mL, x2: W - mR, y1: Y(r.v), y2: Y(r.v), "class": "refl" }));
-      if (r.rotulo) s.appendChild(svg("text", { x: W - mR - 2, y: Y(r.v) - 4, "text-anchor": "end", "class": "refl-t" }, r.rotulo));
+      if (r.rotulo) {
+        s.appendChild(svg("text", { x: W - mR - 2, y: Y(r.v) - 4, "text-anchor": "end", "class": "refl-t" }, r.rotulo));
+        postos.push({ x0: W - mR - 2 - r.rotulo.length * 6, x1: W - mR, y0: Y(r.v) - 14, y1: Y(r.v) - 2 });
+      }
     });
     function dica(ev, c) {
       var r = s.getBoundingClientRect(); esc_ = W / r.width;
@@ -370,9 +378,13 @@
       var ey = spec.eixo_y.length > 60 ? spec.eixo_y.slice(0, 59) + "…" : spec.eixo_y;
       s.appendChild(svg("text", { x: 0, y: 0, "text-anchor": "middle", "class": "ax", transform: "translate(11," + (mT + ph / 2) + ") rotate(-90)" }, ey));
     }
+    var postos = [];   /* caixas de rótulos já desenhados, para evitar sobreposição */
     (spec.ref || []).forEach(function (r) {
       s.appendChild(svg("line", { x1: mL, x2: W - mR, y1: Y(r.v), y2: Y(r.v), "class": "refl" }));
-      if (r.rotulo) s.appendChild(svg("text", { x: W - mR - 2, y: Y(r.v) - 4, "text-anchor": "end", "class": "refl-t" }, r.rotulo));
+      if (r.rotulo) {
+        s.appendChild(svg("text", { x: W - mR - 2, y: Y(r.v) - 4, "text-anchor": "end", "class": "refl-t" }, r.rotulo));
+        postos.push({ x0: W - mR - 2 - r.rotulo.length * 6, x1: W - mR, y0: Y(r.v) - 14, y1: Y(r.v) - 2 });
+      }
     });
     if (spec.reta && spec.reta.b != null) {
       var a = spec.reta.a, b = spec.reta.b, xa = nx.lo, xb = nx.hi;
@@ -382,11 +394,18 @@
         xa = Math.max(xa, Math.min(x1, x2)); xb = Math.min(xb, Math.max(x1, x2));
       }
       s.appendChild(svg("line", { x1: X(xa), x2: X(xb), y1: Y(a + b * xa), y2: Y(a + b * xb), "class": "refl" }));
-      if (spec.reta.rotulo) s.appendChild(svg("text", { x: W - mR - 2, y: Math.max(mT + 10, Math.min(mT + ph - 4, Y(a + b * xb) - 6)), "text-anchor": "end", "class": "refl-t" }, spec.reta.rotulo));
+      if (spec.reta.rotulo) {
+        /* rótulo da reta como legenda no canto superior esquerdo, com um traço de amostra */
+        var yr = mT + 12, xr = mL + 8;
+        s.appendChild(svg("line", { x1: xr, x2: xr + 22, y1: yr - 4, y2: yr - 4, "class": "refl" }));
+        s.appendChild(svg("text", { x: xr + 28, y: yr, "text-anchor": "start", "class": "refl-t" }, spec.reta.rotulo));
+        postos.push({ x0: xr, x1: xr + 28 + spec.reta.rotulo.length * 6, y0: yr - 10, y1: yr + 2 });
+      }
     }
     var tip = tooltip(area);
     var cinza = getComputedStyle(root).getPropertyValue("--text-3").trim() || "#888";
-    var postos = [];   /* rótulos já desenhados, para evitar sobreposição */
+    /* os próprios pontos também são obstáculos para os rótulos */
+    pts.forEach(function (p) { postos.push({ x0: X(p.x) - 6, x1: X(p.x) + 6, y0: Y(p.v) - 6, y1: Y(p.v) + 6 }); });
     pts.forEach(function (p) {
       var hi = destaque.indexOf(p.t) >= 0;
       var c = svg("circle", { cx: X(p.x), cy: Y(p.v), r: hi ? 6 : 4.5, fill: hi ? cor(1) : cor(0), stroke: "var(--surface)", "stroke-width": 1.5 });
@@ -400,16 +419,25 @@
       c.addEventListener("mouseleave", tip.hide);
       s.appendChild(c);
       if (W >= 420 || hi) {
-        var dir = X(p.x) > mL + pw * 0.8;
-        var lx = X(p.x) + (dir ? -8 : 8), ly = Y(p.v) + 4, larg = p.t.length * 6.5;
-        var x0 = dir ? lx - larg : lx, x1r = dir ? lx : lx + larg;
-        for (var k = 0; k < 6; k++) {
-          var bate = postos.some(function (q) { return Math.abs(q.y - ly) < 12 && x0 < q.x1 && x1r > q.x0; });
-          if (!bate) break;
-          ly += (k % 2 === 0 ? 1 : -1) * 12 * (k + 1);
+        /* tenta posições ao redor do ponto e fica com a primeira que não bate em outro rótulo
+           nem sai da área do gráfico */
+        var px = X(p.x), py = Y(p.v), larg = p.t.length * 6.5 + (hi ? 6 : 0);
+        var direita = px < mL + pw * 0.8;
+        var lados = direita ? [1, -1] : [-1, 1];
+        var cands = [];
+        lados.forEach(function (ld) { [0, -13, 13, -26, 26].forEach(function (dy) { cands.push({ ld: ld, dy: dy }); }); });
+        var esc0 = null;
+        for (var k = 0; k < cands.length; k++) {
+          var cd = cands[k];
+          var lx = px + cd.ld * 8, ly = py + 4 + cd.dy;
+          var x0 = cd.ld > 0 ? lx : lx - larg, x1r = cd.ld > 0 ? lx + larg : lx;
+          var fora = x0 < mL || x1r > W - mR || ly < mT + 9 || ly > mT + ph;
+          var bate = postos.some(function (q) { return ly - 10 < q.y1 && ly + 2 > q.y0 && x0 < q.x1 && x1r > q.x0; });
+          if (!fora && !bate) { esc0 = { lx: lx, ly: ly, x0: x0, x1: x1r, ld: cd.ld }; break; }
+          if (!esc0 && k === cands.length - 1) esc0 = { lx: px + lados[0] * 8, ly: py + 4, x0: x0, x1: x1r, ld: lados[0] };
         }
-        postos.push({ x0: x0, x1: x1r, y: ly });
-        s.appendChild(svg("text", { x: lx, y: ly, "text-anchor": dir ? "end" : "start", "class": "ax", fill: hi ? "var(--text)" : cinza, "font-weight": hi ? 700 : 400 }, p.t));
+        postos.push({ x0: esc0.x0, x1: esc0.x1, y0: esc0.ly - 10, y1: esc0.ly + 2 });
+        s.appendChild(svg("text", { x: esc0.lx, y: esc0.ly, "text-anchor": esc0.ld > 0 ? "start" : "end", "class": "ax", fill: hi ? "var(--text)" : cinza, "font-weight": hi ? 700 : 400 }, p.t));
       }
     });
     area.appendChild(s);
