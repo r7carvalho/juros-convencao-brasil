@@ -1,0 +1,9 @@
+{
+ "id": "eYCaLt5eY1U",
+ "url": "https://www.youtube.com/watch?v=eYCaLt5eY1U",
+ "coleta": "2026-11-05 13:55 UTC",
+ "erro_metadados": "DownloadError('ERROR: [youtube] eYCaLt5eY1U: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies')",
+ "erros_transcricao": [
+  "api: RequestBlocked()"
+ ]
+}

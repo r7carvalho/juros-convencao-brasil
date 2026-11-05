@@ -1,0 +1,9 @@
+{
+ "id": "_ABp4pDoOpk",
+ "url": "https://www.youtube.com/watch?v=_ABp4pDoOpk",
+ "coleta": "2026-11-05 13:54 UTC",
+ "erro_metadados": "DownloadError('ERROR: [youtube] _ABp4pDoOpk: Video unavailable. It was removed following a copyright removal request by Jornal GGN Ltda')",
+ "erros_transcricao": [
+  "api: VideoUnplayable()"
+ ]
+}

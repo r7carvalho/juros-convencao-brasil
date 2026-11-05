@@ -1,0 +1,6359 @@
+{
+ "id": "tuPETK1-9kU",
+ "url": "https://www.youtube.com/watch?v=tuPETK1-9kU",
+ "coleta": "2026-11-05 13:55 UTC",
+ "title": "ANDRÉ LARA | CANAL LIVRE",
+ "channel": "Band Jornalismo",
+ "uploader": "Band Jornalismo",
+ "upload_date": "20230213",
+ "duration": 3955,
+ "description": "O Canal Livre do próximo domingo recebe um dos idealizadores do Plano Real, ex-diretor do Banco Central e recém nomeado para a Comissão de Estudos Estratégicos do BNDES, o economista André Lara Resende. O programa vai debater a atual conjuntura econômica brasileira, os embates sobre a taxa de juros e as reformas que o Brasil precisa aprovar no Congresso Nacional.\n\nTAXA DE JUROS E REFORMAS NO BRASIL\n\nMais notícias em https://www.band.uol.com.br/",
+ "view_count": 250000,
+ "chapters": [
+  {
+   "start_time": 0,
+   "title": "Introdução",
+   "end_time": 127
+  },
+  {
+   "start_time": 127,
+   "title": "Autonomia do Banco Central",
+   "end_time": 635
+  },
+  {
+   "start_time": 635,
+   "title": "Risco fiscal",
+   "end_time": 1095
+  },
+  {
+   "start_time": 1095,
+   "title": "Ditadura do rentismo",
+   "end_time": 1327
+  },
+  {
+   "start_time": 1327,
+   "title": "PEC da Transição",
+   "end_time": 1545
+  },
+  {
+   "start_time": 1545,
+   "title": "O Estado não tem",
+   "end_time": 1612
+  },
+  {
+   "start_time": 1612,
+   "title": "Estado é um peso morto",
+   "end_time": 2025
+  },
+  {
+   "start_time": 2025,
+   "title": "Financiamento do BNDES",
+   "end_time": 2199
+  },
+  {
+   "start_time": 2199,
+   "title": "Inadimplência do BNDES",
+   "end_time": 2661
+  },
+  {
+   "start_time": 2661,
+   "title": "Investimentos",
+   "end_time": 3032
+  },
+  {
+   "start_time": 3032,
+   "title": "Inflação",
+   "end_time": 3329
+  },
+  {
+   "start_time": 3329,
+   "title": "Nova âncora fiscal",
+   "end_time": 3955
+  }
+ ],
+ "metodo": "youtube-transcript-api",
+ "lingua": "pt",
+ "segmentos": [
+  {
+   "inicio": 3,
+   "texto": "[Música]"
+  },
+  {
+   "inicio": 13,
+   "texto": "Boa noite ele foi diretor do Banco"
+  },
+  {
+   "inicio": 16,
+   "texto": "Central presidente do BNDES um dos"
+  },
+  {
+   "inicio": 19,
+   "texto": "mentores do Plano Cruzado integrou A"
+  },
+  {
+   "inicio": 22,
+   "texto": "equipe que formulou o plano real tido"
+  },
+  {
+   "inicio": 24,
+   "texto": "como um dos pensadores idealizadores e"
+  },
+  {
+   "inicio": 27,
+   "texto": "foi mesmo do plano real fez parte da"
+  },
+  {
+   "inicio": 30,
+   "texto": "equipe de transição do governo do"
+  },
+  {
+   "inicio": 31,
+   "texto": "presidente Lula desse atual Governo foi"
+  },
+  {
+   "inicio": 33,
+   "texto": "nomeado no início dessa semana para"
+  },
+  {
+   "inicio": 35,
+   "texto": "comissão de assuntos estratégicos do"
+  },
+  {
+   "inicio": 37,
+   "texto": "BNDS o Canal Livre recebe um dos"
+  },
+  {
+   "inicio": 40,
+   "texto": "economistas mais respeitados do Brasil"
+  },
+  {
+   "inicio": 42,
+   "texto": "André Lara Rezende boa noite André"
+  },
+  {
+   "inicio": 45,
+   "texto": "Obrigado pela sua presença aqui no Canal"
+  },
+  {
+   "inicio": 47,
+   "texto": "Livre Obrigado pelo convite aqui na"
+  },
+  {
+   "inicio": 50,
+   "texto": "bancada comigo jornalistas Rodrigo André"
+  },
+  {
+   "inicio": 52,
+   "texto": "basbal e também a Juliana Rosa Primeiro"
+  },
+  {
+   "inicio": 56,
+   "texto": "mostrar aqui o último livro lançado por"
+  },
+  {
+   "inicio": 59,
+   "texto": "André Resende camisa de força ideológica"
+  },
+  {
+   "inicio": 61,
+   "texto": "a crise da macroeconomia e eu queria"
+  },
+  {
+   "inicio": 66,
+   "texto": "para esse início contextualizar não dá"
+  },
+  {
+   "inicio": 69,
+   "texto": "né André para a gente sair do assunto da"
+  },
+  {
+   "inicio": 70,
+   "texto": "discussão do momento que é a questão da"
+  },
+  {
+   "inicio": 73,
+   "texto": "taxa do banco central do juros do banco"
+  },
+  {
+   "inicio": 75,
+   "texto": "central 1375 o presidente Lula tem"
+  },
+  {
+   "inicio": 78,
+   "texto": "atacado nessas últimas semanas tem"
+  },
+  {
+   "inicio": 81,
+   "texto": "atacado o banco central a independência"
+  },
+  {
+   "inicio": 82,
+   "texto": "do Banco Central a taxa de 13,75% muitos"
+  },
+  {
+   "inicio": 86,
+   "texto": "acham que ele tá fazendo isso para poder"
+  },
+  {
+   "inicio": 87,
+   "texto": "você eventualmente a economia não"
+  },
+  {
+   "inicio": 89,
+   "texto": "crescendo andar de lado ele possa usar"
+  },
+  {
+   "inicio": 90,
+   "texto": "isso no final do ano como uma desculpa"
+  },
+  {
+   "inicio": 92,
+   "texto": "dizendo que bom que Central teve"
+  },
+  {
+   "inicio": 93,
+   "texto": "interferência diretamente nisso o"
+  },
+  {
+   "inicio": 96,
+   "texto": "presidente do senado e da câmara se"
+  },
+  {
+   "inicio": 98,
+   "texto": "pronunciaram dizendo que o banco central"
+  },
+  {
+   "inicio": 100,
+   "texto": "tem que ficar independente tem que"
+  },
+  {
+   "inicio": 101,
+   "texto": "seguir dessa maneira como independente"
+  },
+  {
+   "inicio": 103,
+   "texto": "que é uma marca Mundial e o presidente"
+  },
+  {
+   "inicio": 105,
+   "texto": "do Banco Central Campos Neto o Roberto"
+  },
+  {
+   "inicio": 106,
+   "texto": "Campos Neto se pronunciou dizendo que é"
+  },
+  {
+   "inicio": 109,
+   "texto": "correto que tá o estabelecido com o"
+  },
+  {
+   "inicio": 111,
+   "texto": "banco central independente porque a"
+  },
+  {
+   "inicio": 112,
+   "texto": "política monetária tem que ficar"
+  },
+  {
+   "inicio": 113,
+   "texto": "dissociada de um cunho político eu"
+  },
+  {
+   "inicio": 116,
+   "texto": "queria ele perguntar nesse início o"
+  },
+  {
+   "inicio": 118,
+   "texto": "senhor é favorável ao Banco Central"
+  },
+  {
+   "inicio": 120,
+   "texto": "independente e dois o senhor acha que a"
+  },
+  {
+   "inicio": 122,
+   "texto": "nossa taxa de juros neste momento"
+  },
+  {
+   "inicio": 124,
+   "texto": "deveria ser essa de 13,75 senão Qual"
+  },
+  {
+   "inicio": 126,
+   "texto": "deveria ser"
+  },
+  {
+   "inicio": 128,
+   "texto": "a palavra Independência é inapropriada a"
+  },
+  {
+   "inicio": 132,
+   "texto": "palavra correta é autonomia do Banco"
+  },
+  {
+   "inicio": 133,
+   "texto": "Central concentrado neste momento não"
+  },
+  {
+   "inicio": 135,
+   "texto": "pode ser independente dos poderes"
+  },
+  {
+   "inicio": 136,
+   "texto": "constituídos então seria um quarto poder"
+  },
+  {
+   "inicio": 138,
+   "texto": "e corretamente o que você quer é o que o"
+  },
+  {
+   "inicio": 141,
+   "texto": "banco central tem autonomia operacional"
+  },
+  {
+   "inicio": 143,
+   "texto": "para conduzir a política as políticas"
+  },
+  {
+   "inicio": 147,
+   "texto": "determinadas pelo pelo governo é um"
+  },
+  {
+   "inicio": 150,
+   "texto": "evidentemente o banco central é uma um"
+  },
+  {
+   "inicio": 154,
+   "texto": "órgão de estado de governo você quer que"
+  },
+  {
+   "inicio": 156,
+   "texto": "tenha uma certa continuidade na política"
+  },
+  {
+   "inicio": 158,
+   "texto": "uma certa"
+  },
+  {
+   "inicio": 159,
+   "texto": "ele seja protegido depressões políticas"
+  },
+  {
+   "inicio": 163,
+   "texto": "escuras pessoas simples normalmente a"
+  },
+  {
+   "inicio": 166,
+   "texto": "ideia pessoal é eleitoreira"
+  },
+  {
+   "inicio": 169,
+   "texto": "enfim de governo pré-eleição etc e com"
+  },
+  {
+   "inicio": 174,
+   "texto": "isso a ideia de que os diretores do"
+  },
+  {
+   "inicio": 176,
+   "texto": "Banco Central tem um mandato que não não"
+  },
+  {
+   "inicio": 178,
+   "texto": "coincidência"
+  },
+  {
+   "inicio": 180,
+   "texto": "os mandatos"
+  },
+  {
+   "inicio": 182,
+   "texto": "do executivo da presença da República"
+  },
+  {
+   "inicio": 185,
+   "texto": "faz um pouco sentido porque os bancos os"
+  },
+  {
+   "inicio": 189,
+   "texto": "mercados financeiros precisam de certa"
+  },
+  {
+   "inicio": 191,
+   "texto": "previsibilidade e ideia de grandes"
+  },
+  {
+   "inicio": 194,
+   "texto": "mudanças e quanto podem ser"
+  },
+  {
+   "inicio": 197,
+   "texto": "perturbadores organizadoras do mercado"
+  },
+  {
+   "inicio": 200,
+   "texto": "financeiro e da economia Então faz"
+  },
+  {
+   "inicio": 202,
+   "texto": "sentido que você tenha autonomia"
+  },
+  {
+   "inicio": 205,
+   "texto": "operacional dos bancos centrais agora um"
+  },
+  {
+   "inicio": 207,
+   "texto": "banco central autônomo parte do"
+  },
+  {
+   "inicio": 209,
+   "texto": "princípio de que a política"
+  },
+  {
+   "inicio": 213,
+   "texto": "monetária política do Banco Central"
+  },
+  {
+   "inicio": 217,
+   "texto": "possa ser é algo"
+  },
+  {
+   "inicio": 224,
+   "texto": "e não está não esteja submetido a"
+  },
+  {
+   "inicio": 227,
+   "texto": "circunstâncias o que não é verdade"
+  },
+  {
+   "inicio": 229,
+   "texto": "a teoria monetária como toda a teoria"
+  },
+  {
+   "inicio": 232,
+   "texto": "económica é uma combinação de técnica de"
+  },
+  {
+   "inicio": 236,
+   "texto": "doações"
+  },
+  {
+   "inicio": 237,
+   "texto": "sobre o funcionamento da economia e como"
+  },
+  {
+   "inicio": 240,
+   "texto": "economia é uma ciência social portanto e"
+  },
+  {
+   "inicio": 244,
+   "texto": "uma ciência política não uma ciência"
+  },
+  {
+   "inicio": 245,
+   "texto": "exata"
+  },
+  {
+   "inicio": 248,
+   "texto": "ela tem necessariamente"
+  },
+  {
+   "inicio": 250,
+   "texto": "está ligada a circunstâncias"
+  },
+  {
+   "inicio": 253,
+   "texto": "circunstâncias políticas e precisa estar"
+  },
+  {
+   "inicio": 254,
+   "texto": "sempre em evolução tanto que a teoria"
+  },
+  {
+   "inicio": 256,
+   "texto": "econômica está em permanente evolução"
+  },
+  {
+   "inicio": 258,
+   "texto": "não necessariamente que ela foi errada"
+  },
+  {
+   "inicio": 260,
+   "texto": "no passado ela é mais ou menos"
+  },
+  {
+   "inicio": 263,
+   "texto": "apropriada para circunstância e a"
+  },
+  {
+   "inicio": 266,
+   "texto": "circunstâncias nos últimos nas últimas"
+  },
+  {
+   "inicio": 268,
+   "texto": "décadas nesse início do Século 21 São"
+  },
+  {
+   "inicio": 271,
+   "texto": "muito diferentes do que foram na segunda"
+  },
+  {
+   "inicio": 273,
+   "texto": "metade do século 20 então a teoria"
+  },
+  {
+   "inicio": 275,
+   "texto": "monetária mudou muito e como a condução"
+  },
+  {
+   "inicio": 279,
+   "texto": "de política de política monetária mudou"
+  },
+  {
+   "inicio": 281,
+   "texto": "antes que pensava em paz monetária"
+  },
+  {
+   "inicio": 283,
+   "texto": "monetárias hoje sabemos que não é assim"
+  },
+  {
+   "inicio": 285,
+   "texto": "que o banco central funciona banco"
+  },
+  {
+   "inicio": 287,
+   "texto": "centrais deixaram de acompanhar a os"
+  },
+  {
+   "inicio": 291,
+   "texto": "agregados monetários e passar a"
+  },
+  {
+   "inicio": 293,
+   "texto": "funcionar com um instrumento que é a"
+  },
+  {
+   "inicio": 294,
+   "texto": "taxa de básica de juros a taxa cobrada"
+  },
+  {
+   "inicio": 297,
+   "texto": "sobre as reservas bancárias eu não quero"
+  },
+  {
+   "inicio": 300,
+   "texto": "me estender demais nisso porque a"
+  },
+  {
+   "inicio": 301,
+   "texto": "pergunta já era longa mas eu voltar"
+  },
+  {
+   "inicio": 304,
+   "texto": "então assim sim"
+  },
+  {
+   "inicio": 306,
+   "texto": "autonomia operação do Banco Central é um"
+  },
+  {
+   "inicio": 309,
+   "texto": "avanço institucional sua segunda"
+  },
+  {
+   "inicio": 311,
+   "texto": "pergunta a taxa de juros básica hoje de"
+  },
+  {
+   "inicio": 315,
+   "texto": "13.75 está correta Na minha opinião não"
+  },
+  {
+   "inicio": 318,
+   "texto": "aprofundamente errada e digo porque"
+  },
+  {
+   "inicio": 321,
+   "texto": "assim como eu acho que a taxa muito"
+  },
+  {
+   "inicio": 323,
+   "texto": "baixa abaixo de três por cento foi posta"
+  },
+  {
+   "inicio": 326,
+   "texto": "também estava errada porque justamente"
+  },
+  {
+   "inicio": 329,
+   "texto": "porque como eu tinha como te disse o"
+  },
+  {
+   "inicio": 332,
+   "texto": "mercado financeiro não deve ter sofrer"
+  },
+  {
+   "inicio": 335,
+   "texto": "mudanças bruscas de direção então a"
+  },
+  {
+   "inicio": 338,
+   "texto": "condução da política monetária deve ser"
+  },
+  {
+   "inicio": 340,
+   "texto": "a condução suave com direcionamento"
+  },
+  {
+   "inicio": 344,
+   "texto": "dúvida nenhuma sobre isso e"
+  },
+  {
+   "inicio": 347,
+   "texto": "depois essa taxa hoje é muito alta eu só"
+  },
+  {
+   "inicio": 352,
+   "texto": "para por isso em perspectiva o mundo"
+  },
+  {
+   "inicio": 355,
+   "texto": "hoje todos os países avançados têm taxas"
+  },
+  {
+   "inicio": 358,
+   "texto": "real ou seja a taxa nominal"
+  },
+  {
+   "inicio": 361,
+   "texto": "reduzida a taxa de inflação negativa"
+  },
+  {
+   "inicio": 364,
+   "texto": "ainda que estejam todas subindo todas as"
+  },
+  {
+   "inicio": 367,
+   "texto": "taxas estão em processo de ajuste para"
+  },
+  {
+   "inicio": 369,
+   "texto": "cima porque você saiu de um período de"
+  },
+  {
+   "inicio": 371,
+   "texto": "deflação com período de recuperação da"
+  },
+  {
+   "inicio": 374,
+   "texto": "inflação todos todo mundo essas taxas"
+  },
+  {
+   "inicio": 376,
+   "texto": "estão subindo mas continuam negativas"
+  },
+  {
+   "inicio": 378,
+   "texto": "nos países alguns países que têm taxas"
+  },
+  {
+   "inicio": 381,
+   "texto": "positiva a morta que é positiva Se não"
+  },
+  {
+   "inicio": 384,
+   "texto": "me engano do México a segunda é do Chile"
+  },
+  {
+   "inicio": 385,
+   "texto": "é torno de quatro por cento real"
+  },
+  {
+   "inicio": 389,
+   "texto": "8 8 e meio por cento então o Brasil tem"
+  },
+  {
+   "inicio": 393,
+   "texto": "a taxa real mais do que o dobro do"
+  },
+  {
+   "inicio": 396,
+   "texto": "segundo a mais alta do mundo"
+  },
+  {
+   "inicio": 398,
+   "texto": "para por em perspectiva segundo a taxa"
+  },
+  {
+   "inicio": 402,
+   "texto": "de juros"
+  },
+  {
+   "inicio": 404,
+   "texto": "o efeito da taxa de juros"
+  },
+  {
+   "inicio": 407,
+   "texto": "sobre a o crescimento da economia e o"
+  },
+  {
+   "inicio": 411,
+   "texto": "emprego é inequívoco sobe a taxa de"
+  },
+  {
+   "inicio": 414,
+   "texto": "juros aquece economia e aumenta o"
+  },
+  {
+   "inicio": 416,
+   "texto": "desemprego o efeito este efeito diz"
+  },
+  {
+   "inicio": 419,
+   "texto": "aquecimento da economia e aumento do"
+  },
+  {
+   "inicio": 422,
+   "texto": "desemprego sobre a inflação que existia"
+  },
+  {
+   "inicio": 425,
+   "texto": "no passado era chamada curva de Philips"
+  },
+  {
+   "inicio": 427,
+   "texto": "que relacionava inversamente"
+  },
+  {
+   "inicio": 431,
+   "texto": "desemprego e inflação desapareceu"
+  },
+  {
+   "inicio": 433,
+   "texto": "desapareceu no mundo inteiro não há mais"
+  },
+  {
+   "inicio": 437,
+   "texto": "essa relação ou seja a taxa de inflação"
+  },
+  {
+   "inicio": 439,
+   "texto": "tá desconectada do emprego do Desemprego"
+  },
+  {
+   "inicio": 444,
+   "texto": "a especula-se porque as razões disso"
+  },
+  {
+   "inicio": 446,
+   "texto": "Muito provavelmente é o que me parece a"
+  },
+  {
+   "inicio": 449,
+   "texto": "explicação mais razoável é justamente"
+  },
+  {
+   "inicio": 451,
+   "texto": "porque o emprego deixou de ser formal"
+  },
+  {
+   "inicio": 453,
+   "texto": "então o emprego hoje é mais disperso"
+  },
+  {
+   "inicio": 456,
+   "texto": "informalizado e você reduziu muito o"
+  },
+  {
+   "inicio": 459,
+   "texto": "poder do sindicatos de certa forma"
+  },
+  {
+   "inicio": 462,
+   "texto": "Portanto o salário deixou de ser um"
+  },
+  {
+   "inicio": 465,
+   "texto": "preço"
+  },
+  {
+   "inicio": 467,
+   "texto": "que sinaliza a questão de inflação"
+  },
+  {
+   "inicio": 471,
+   "texto": "salário mínimo ainda é muito relacionado"
+  },
+  {
+   "inicio": 473,
+   "texto": "com inflação feito mas o salário em"
+  },
+  {
+   "inicio": 475,
+   "texto": "geral o desemprego desapareceu e"
+  },
+  {
+   "inicio": 477,
+   "texto": "portanto por onde a taxa de juros afeta"
+  },
+  {
+   "inicio": 481,
+   "texto": "inflação na subida da taxa de juros já"
+  },
+  {
+   "inicio": 485,
+   "texto": "quer essa economia não tem muito efeito"
+  },
+  {
+   "inicio": 487,
+   "texto": "sobre a inflação especialmente sobre"
+  },
+  {
+   "inicio": 489,
+   "texto": "inflação como é que nós temos hoje de"
+  },
+  {
+   "inicio": 491,
+   "texto": "novo em relação não é sempre o mesmo"
+  },
+  {
+   "inicio": 492,
+   "texto": "fenômeno a inflação não é sempre um"
+  },
+  {
+   "inicio": 495,
+   "texto": "excesso de demanda às vezes é não é"
+  },
+  {
+   "inicio": 497,
+   "texto": "sempre não é de hoje claramente não é"
+  },
+  {
+   "inicio": 498,
+   "texto": "essa inflação de hoje foi provocada por"
+  },
+  {
+   "inicio": 500,
+   "texto": "choques negativos e oferta"
+  },
+  {
+   "inicio": 502,
+   "texto": "essencialmente a desorganização"
+  },
+  {
+   "inicio": 504,
+   "texto": "produtiva que ocorreu no mundo todo com"
+  },
+  {
+   "inicio": 507,
+   "texto": "a pandemia e na saída da"
+  },
+  {
+   "inicio": 510,
+   "texto": "pandemia com a guerra da Ucrânia que"
+  },
+  {
+   "inicio": 513,
+   "texto": "desorganizou e aumentativo aumento de"
+  },
+  {
+   "inicio": 515,
+   "texto": "preços de energia de petróleo de"
+  },
+  {
+   "inicio": 518,
+   "texto": "fertilizantes e portanto de alimentos e"
+  },
+  {
+   "inicio": 521,
+   "texto": "isso então um choque negativo que não é"
+  },
+  {
+   "inicio": 522,
+   "texto": "isso não se resolve com contração de"
+  },
+  {
+   "inicio": 524,
+   "texto": "demanda a taxa de juro ao aumentar a"
+  },
+  {
+   "inicio": 527,
+   "texto": "taxa de juros por exemplo o outro canal"
+  },
+  {
+   "inicio": 528,
+   "texto": "por onde funciona"
+  },
+  {
+   "inicio": 531,
+   "texto": "valorização do câmbio"
+  },
+  {
+   "inicio": 533,
+   "texto": "Esse é o que é o que faz valoriza o"
+  },
+  {
+   "inicio": 535,
+   "texto": "câmbio e isso pode reduzir controlar a"
+  },
+  {
+   "inicio": 538,
+   "texto": "inflação mas é"
+  },
+  {
+   "inicio": 540,
+   "texto": "pouco poderoso mas a taxa de juros é um"
+  },
+  {
+   "inicio": 544,
+   "texto": "instrumento muito poderoso dos"
+  },
+  {
+   "inicio": 546,
+   "texto": "aquecimento da economia a pergunta a"
+  },
+  {
+   "inicio": 548,
+   "texto": "economia brasileira precisa ser"
+  },
+  {
+   "inicio": 549,
+   "texto": "desaquecida com esse nível terra a taxa"
+  },
+  {
+   "inicio": 551,
+   "texto": "real mais alto do mundo hoje claramente"
+  },
+  {
+   "inicio": 554,
+   "texto": "não não e mais esse é o ponto"
+  },
+  {
+   "inicio": 558,
+   "texto": "fundamental eu vou terminar aqui"
+  },
+  {
+   "inicio": 562,
+   "texto": "o que tá acontecendo agora essa semana"
+  },
+  {
+   "inicio": 564,
+   "texto": "tão saindo os balanços de banco não sei"
+  },
+  {
+   "inicio": 566,
+   "texto": "se você já viu"
+  },
+  {
+   "inicio": 568,
+   "texto": "todos os resultados são muito a quem"
+  },
+  {
+   "inicio": 571,
+   "texto": "muito abaixo do esperado o todas as"
+  },
+  {
+   "inicio": 574,
+   "texto": "provisões devedores estão aumentando"
+  },
+  {
+   "inicio": 576,
+   "texto": "drasticamente o fato que você teve"
+  },
+  {
+   "inicio": 578,
+   "texto": "quebras no varejo e o caso em Americanas"
+  },
+  {
+   "inicio": 580,
+   "texto": "de problemas em outras áreas de varejo"
+  },
+  {
+   "inicio": 582,
+   "texto": "tá levando os bancos a retrair"
+  },
+  {
+   "inicio": 584,
+   "texto": "drasticamente o crédito quando você tem"
+  },
+  {
+   "inicio": 587,
+   "texto": "uma contração de crédito como essa você"
+  },
+  {
+   "inicio": 589,
+   "texto": "agravam o processo de"
+  },
+  {
+   "inicio": 593,
+   "texto": "desaquecimento da economia e de indica"
+  },
+  {
+   "inicio": 596,
+   "texto": "que uma recessão que pode ser muito"
+  },
+  {
+   "inicio": 597,
+   "texto": "sério"
+  },
+  {
+   "inicio": 598,
+   "texto": "faz sentido Neste contexto Você tem uma"
+  },
+  {
+   "inicio": 602,
+   "texto": "taxa de juros já que estão há dois anos"
+  },
+  {
+   "inicio": 604,
+   "texto": "nesse nível claramente não agora os"
+  },
+  {
+   "inicio": 608,
+   "texto": "objetivos do Banco Central determinados"
+  },
+  {
+   "inicio": 611,
+   "texto": "na lei que deu o Banco Central"
+  },
+  {
+   "inicio": 615,
+   "texto": "o controle da inflação a estabilidade do"
+  },
+  {
+   "inicio": 620,
+   "texto": "sistema financeiro e a garantia do plano"
+  },
+  {
+   "inicio": 623,
+   "texto": "emprego tá mais próximo possível do"
+  },
+  {
+   "inicio": 625,
+   "texto": "plano de emprego obviamente essa taxa de"
+  },
+  {
+   "inicio": 627,
+   "texto": "juros de 13 13 75 8% real é incompatível"
+  },
+  {
+   "inicio": 632,
+   "texto": "com esse objetivo na minha tela está"
+  },
+  {
+   "inicio": 634,
+   "texto": "errada Esse é um ponto bastante passar"
+  },
+  {
+   "inicio": 637,
+   "texto": "Juliana se a gente fosse ser tipo México"
+  },
+  {
+   "inicio": 639,
+   "texto": "Chile exemplos citados pelo André é com"
+  },
+  {
+   "inicio": 641,
+   "texto": "quatro por cento mais ou menos a gente"
+  },
+  {
+   "inicio": 643,
+   "texto": "teria que estar em 975 para estar"
+  },
+  {
+   "inicio": 645,
+   "texto": "igualado a eles não nos 13 75 só para"
+  },
+  {
+   "inicio": 647,
+   "texto": "fazer a conta né uma das questões que"
+  },
+  {
+   "inicio": 650,
+   "texto": "fazem parte dessa explicação no mercado"
+  },
+  {
+   "inicio": 654,
+   "texto": "financeiro de um juro que é muito acima"
+  },
+  {
+   "inicio": 656,
+   "texto": "da média inclusive dos emergentes como o"
+  },
+  {
+   "inicio": 659,
+   "texto": "senhor tá colocando é a questão do Risco"
+  },
+  {
+   "inicio": 661,
+   "texto": "fiscal que o Senhor tem dito que é um"
+  },
+  {
+   "inicio": 664,
+   "texto": "exagero porque inclusive teve superar a"
+  },
+  {
+   "inicio": 668,
+   "texto": "vítimas contas públicas no ano passado"
+  },
+  {
+   "inicio": 669,
+   "texto": "né Eu sou até escrever um artigo"
+  },
+  {
+   "inicio": 671,
+   "texto": "recentemente sobre isso então como é que"
+  },
+  {
+   "inicio": 673,
+   "texto": "muda essa aqui na prática o chamado"
+  },
+  {
+   "inicio": 677,
+   "texto": "risco fiscal já impede a queda de juro"
+  },
+  {
+   "inicio": 680,
+   "texto": "ou mesmo que a SELIC caia o chamado"
+  },
+  {
+   "inicio": 683,
+   "texto": "risco fiscal já tá encarecendo o crédito"
+  },
+  {
+   "inicio": 686,
+   "texto": "primeiro"
+  },
+  {
+   "inicio": 689,
+   "texto": "com esse terrorismo é feito"
+  },
+  {
+   "inicio": 691,
+   "texto": "permanentemente o risco fiscal a dívida"
+  },
+  {
+   "inicio": 694,
+   "texto": "a relação dívida PIB brasileiro como com"
+  },
+  {
+   "inicio": 697,
+   "texto": "o resultado do ano passado Depois de"
+  },
+  {
+   "inicio": 699,
+   "texto": "toda essa coisa foi um superável"
+  },
+  {
+   "inicio": 700,
+   "texto": "primário de 1,3%"
+  },
+  {
+   "inicio": 703,
+   "texto": "a dívida PIB"
+  },
+  {
+   "inicio": 707,
+   "texto": "relacionado"
+  },
+  {
+   "inicio": 709,
+   "texto": "anos que vai dizer que vamos bater isso"
+  },
+  {
+   "inicio": 712,
+   "texto": "100% 90% caiu para 73%. é o nível mais"
+  },
+  {
+   "inicio": 715,
+   "texto": "baixo dos últimos anos acho que o mais"
+  },
+  {
+   "inicio": 719,
+   "texto": "baixo dos últimos seis ou sete anos"
+  },
+  {
+   "inicio": 722,
+   "texto": "sustentável né"
+  },
+  {
+   "inicio": 726,
+   "texto": "sustentado muito bem vamos voltar então"
+  },
+  {
+   "inicio": 729,
+   "texto": "sim isso que quer dizer risco fiscal o"
+  },
+  {
+   "inicio": 731,
+   "texto": "risco de sustentabilidade a dívida"
+  },
+  {
+   "inicio": 733,
+   "texto": "segundo"
+  },
+  {
+   "inicio": 734,
+   "texto": "Jefferson quem nós tivermos uma reunião"
+  },
+  {
+   "inicio": 737,
+   "texto": "ontem já desde o cometer o processo"
+  },
+  {
+   "inicio": 740,
+   "texto": "estratégico do Ben 10 para discutir"
+  },
+  {
+   "inicio": 742,
+   "texto": "programas de investimento longo prazo"
+  },
+  {
+   "inicio": 744,
+   "texto": "repeti o que tinha me dito no início de"
+  },
+  {
+   "inicio": 747,
+   "texto": "mês um jantar no Rio de Janeiro"
+  },
+  {
+   "inicio": 749,
+   "texto": "olha as contas brasileiras os números"
+  },
+  {
+   "inicio": 751,
+   "texto": "brasileiros e disse que em paz Qual é"
+  },
+  {
+   "inicio": 753,
+   "texto": "esse país é um país altamente"
+  },
+  {
+   "inicio": 755,
+   "texto": "perfeitamente bem com Economia em ordem"
+  },
+  {
+   "inicio": 760,
+   "texto": "Ah um endividamento relação dívida PIB"
+  },
+  {
+   "inicio": 763,
+   "texto": "perde de 70% é muito inferior Radio"
+  },
+  {
+   "inicio": 768,
+   "texto": "qualquer dos países desenvolvidos"
+  },
+  {
+   "inicio": 769,
+   "texto": "Nacional"
+  },
+  {
+   "inicio": 771,
+   "texto": "muito inferior a todos os países"
+  },
+  {
+   "inicio": 773,
+   "texto": "desenvolvidos é em linha com um dos"
+  },
+  {
+   "inicio": 776,
+   "texto": "países de desenvolvimento sendo que os"
+  },
+  {
+   "inicio": 779,
+   "texto": "países e desenvolvimento a dívida"
+  },
+  {
+   "inicio": 781,
+   "texto": "brasileira é integralmente em moeda"
+  },
+  {
+   "inicio": 783,
+   "texto": "Nacional então assim acima da média dos"
+  },
+  {
+   "inicio": 786,
+   "texto": "emergentes né porque assim São 50 6 anos"
+  },
+  {
+   "inicio": 789,
+   "texto": "toma 70 nós somos um país maior com"
+  },
+  {
+   "inicio": 790,
+   "texto": "Depois eu vou entrar sobre isso a gente"
+  },
+  {
+   "inicio": 793,
+   "texto": "quanto mais mais sofisticado é o mercado"
+  },
+  {
+   "inicio": 795,
+   "texto": "financeiro maior deve ser a dívida a"
+  },
+  {
+   "inicio": 798,
+   "texto": "dívida interna porque a dívida interna é"
+  },
+  {
+   "inicio": 799,
+   "texto": "um ativo é o ativo sem risco do que tem"
+  },
+  {
+   "inicio": 802,
+   "texto": "a financeira Então ela tem que ter uma"
+  },
+  {
+   "inicio": 804,
+   "texto": "certa proporção ele é muito mais"
+  },
+  {
+   "inicio": 806,
+   "texto": "coerente seria medir a proporção de"
+  },
+  {
+   "inicio": 808,
+   "texto": "dívida com ativos financeiros privados"
+  },
+  {
+   "inicio": 810,
+   "texto": "que a dívida pública é uma dívida do"
+  },
+  {
+   "inicio": 813,
+   "texto": "governo a dívida financeira e é um ativo"
+  },
+  {
+   "inicio": 816,
+   "texto": "do setor privado as pessoas esquecem"
+  },
+  {
+   "inicio": 818,
+   "texto": "isso quando você for reduzir-se a dívida"
+  },
+  {
+   "inicio": 822,
+   "texto": "a dívida interna para zero o setor"
+  },
+  {
+   "inicio": 824,
+   "texto": "privado se reduziria o valor perderia"
+  },
+  {
+   "inicio": 827,
+   "texto": "70% do PIB em termos de riqueza"
+  },
+  {
+   "inicio": 829,
+   "texto": "financeira faz sentido isso se ela"
+  },
+  {
+   "inicio": 831,
+   "texto": "liquidasse toda dívida do Estado"
+  },
+  {
+   "inicio": 833,
+   "texto": "Nacional vamos voltar ao ponto nós então"
+  },
+  {
+   "inicio": 836,
+   "texto": "vamos vamos esquecer isso que é um com"
+  },
+  {
+   "inicio": 838,
+   "texto": "que o outro conceito portanto a situação"
+  },
+  {
+   "inicio": 841,
+   "texto": "fiscal brasileira é muito razoável"
+  },
+  {
+   "inicio": 844,
+   "texto": "perfeito é muito razoável o Brasil tem"
+  },
+  {
+   "inicio": 847,
+   "texto": "nos últimos anos durante a pandemia"
+  },
+  {
+   "inicio": 850,
+   "texto": "sempre teve no século XXI em quase todos"
+  },
+  {
+   "inicio": 853,
+   "texto": "os anos com algumas exceções superar"
+  },
+  {
+   "inicio": 855,
+   "texto": "arte primária Depois teve alguns anos"
+  },
+  {
+   "inicio": 857,
+   "texto": "que teve que teve 10 primário e depois"
+  },
+  {
+   "inicio": 859,
+   "texto": "voltou e o ano passado voltou a ter"
+  },
+  {
+   "inicio": 861,
+   "texto": "superado de primário 1,3% do PIB"
+  },
+  {
+   "inicio": 863,
+   "texto": "perfeito então a situação fiscal"
+  },
+  {
+   "inicio": 865,
+   "texto": "brasileira é sustentável como é que se"
+  },
+  {
+   "inicio": 868,
+   "texto": "pode dizer que é um risco fiscal ameaça"
+  },
+  {
+   "inicio": 870,
+   "texto": "fiscal e por causa disso a taxa de juros"
+  },
+  {
+   "inicio": 873,
+   "texto": "tem que ser alta Deixa eu só vou"
+  },
+  {
+   "inicio": 874,
+   "texto": "terminar vou terminar"
+  },
+  {
+   "inicio": 876,
+   "texto": "muito bem é segundo a taxa de juros"
+  },
+  {
+   "inicio": 880,
+   "texto": "básica Quem determina o banco central a"
+  },
+  {
+   "inicio": 883,
+   "texto": "taxa de juros de longo prazo é fixada"
+  },
+  {
+   "inicio": 885,
+   "texto": "pelo mercado com base em que na"
+  },
+  {
+   "inicio": 888,
+   "texto": "expectativa do custo de carregamento na"
+  },
+  {
+   "inicio": 891,
+   "texto": "expectativa correta trajetória daqui até"
+  },
+  {
+   "inicio": 893,
+   "texto": "lá da taxa básica Portanto o City também"
+  },
+  {
+   "inicio": 896,
+   "texto": "ela é determinada pelo pelo banco"
+  },
+  {
+   "inicio": 898,
+   "texto": "central ou pelo que o mercado espera que"
+  },
+  {
+   "inicio": 899,
+   "texto": "o banco central vai fazer perfeito Olha"
+  },
+  {
+   "inicio": 901,
+   "texto": "e se o Banco Central quiser discordasse"
+  },
+  {
+   "inicio": 904,
+   "texto": "como já faz o banco do Japão entre"
+  },
+  {
+   "inicio": 906,
+   "texto": "outros bancos os bancos opera na curva"
+  },
+  {
+   "inicio": 907,
+   "texto": "inteira de um dia a 10 anos agora acabou"
+  },
+  {
+   "inicio": 911,
+   "texto": "de abrir um pouquinho o esperto nos 10"
+  },
+  {
+   "inicio": 912,
+   "texto": "anos ele diz eu compro e vendo nesses"
+  },
+  {
+   "inicio": 915,
+   "texto": "prazos isso então ele determina toda a"
+  },
+  {
+   "inicio": 918,
+   "texto": "estrutura termo da taxa de juros da"
+  },
+  {
+   "inicio": 921,
+   "texto": "dívida pública com isso ele em vez de"
+  },
+  {
+   "inicio": 923,
+   "texto": "operar só de um dia ele opera em toda a"
+  },
+  {
+   "inicio": 927,
+   "texto": "estrutura da terra perfeito e pode fazer"
+  },
+  {
+   "inicio": 928,
+   "texto": "isso perfeitamente determinar toda a"
+  },
+  {
+   "inicio": 930,
+   "texto": "taxa de juros e acaba com essa com essa"
+  },
+  {
+   "inicio": 932,
+   "texto": "loucura e dizer olha o risco fez carro"
+  },
+  {
+   "inicio": 936,
+   "texto": "mas é mais fácil encontrar alguém que"
+  },
+  {
+   "inicio": 938,
+   "texto": "queira financiar o Japão do que o Brasil"
+  },
+  {
+   "inicio": 939,
+   "texto": "não não o brasileiro todo financiado com"
+  },
+  {
+   "inicio": 941,
+   "texto": "um brasileiro Juliana Como É Que"
+  },
+  {
+   "inicio": 942,
+   "texto": "conversa é essa desculpe mas fiquei"
+  },
+  {
+   "inicio": 945,
+   "texto": "encontrar alguém que financia o Brasil"
+  },
+  {
+   "inicio": 948,
+   "texto": "são os brasileiros e moeda Nacional de"
+  },
+  {
+   "inicio": 951,
+   "texto": "segundo vamos falar mais sobre usar o da"
+  },
+  {
+   "inicio": 953,
+   "texto": "dominação de que você falou os"
+  },
+  {
+   "inicio": 955,
+   "texto": "investidores Quem compra dívida pública"
+  },
+  {
+   "inicio": 957,
+   "texto": "não é investidor é rentista e não tá"
+  },
+  {
+   "inicio": 959,
+   "texto": "nenhum e não há contratação negativa"
+  },
+  {
+   "inicio": 961,
+   "texto": "pejorativa não cientista é qualquer"
+  },
+  {
+   "inicio": 965,
+   "texto": "pessoa que quer"
+  },
+  {
+   "inicio": 966,
+   "texto": "transferir no tempo sua poupança os seus"
+  },
+  {
+   "inicio": 969,
+   "texto": "recursos perfeito o que é o que é"
+  },
+  {
+   "inicio": 971,
+   "texto": "perfeito e quer mantendo o valor"
+  },
+  {
+   "inicio": 973,
+   "texto": "investidor é quem investe na investe com"
+  },
+  {
+   "inicio": 977,
+   "texto": "risco porque na dívida pública não tem"
+  },
+  {
+   "inicio": 979,
+   "texto": "risco então assim O Retorno o que tem"
+  },
+  {
+   "inicio": 982,
+   "texto": "hoje o retorno comprar entender"
+  },
+  {
+   "inicio": 983,
+   "texto": "Brasileira hoje de longo prazo que paga"
+  },
+  {
+   "inicio": 986,
+   "texto": "inflação mais seis e meio por cento ao"
+  },
+  {
+   "inicio": 988,
+   "texto": "ano eu não existe nada mais nada no"
+  },
+  {
+   "inicio": 992,
+   "texto": "mundo tão bom nenhum investimento pode"
+  },
+  {
+   "inicio": 994,
+   "texto": "concorrer com isso"
+  },
+  {
+   "inicio": 996,
+   "texto": "porque porque a taxa está profundamente"
+  },
+  {
+   "inicio": 998,
+   "texto": "errada professor já que você entrou"
+  },
+  {
+   "inicio": 1000,
+   "texto": "nesse ponto é Ju não é uma discordância"
+  },
+  {
+   "inicio": 1003,
+   "texto": "pelo amor de Deus mas acho que a gente"
+  },
+  {
+   "inicio": 1005,
+   "texto": "caminha aqui para um tema que tá bem"
+  },
+  {
+   "inicio": 1007,
+   "texto": "desenvolvido no livro que é uma espécie"
+  },
+  {
+   "inicio": 1009,
+   "texto": "uma ditadura do rentismo né um"
+  },
+  {
+   "inicio": 1012,
+   "texto": "pensamento único né o garrote ideológico"
+  },
+  {
+   "inicio": 1014,
+   "texto": "que se chama aqui eu queria te fazer a"
+  },
+  {
+   "inicio": 1016,
+   "texto": "seguinte provocação nós tivemos agora no"
+  },
+  {
+   "inicio": 1018,
+   "texto": "século 21 como ser bem apontou no livro"
+  },
+  {
+   "inicio": 1020,
+   "texto": "dois grandes momentos da economia"
+  },
+  {
+   "inicio": 1022,
+   "texto": "mundial que foi né 2008 2009 o craque da"
+  },
+  {
+   "inicio": 1026,
+   "texto": "da das bolsas né do surprime americano"
+  },
+  {
+   "inicio": 1028,
+   "texto": "que quase destruiu o sistema de crédito"
+  },
+  {
+   "inicio": 1030,
+   "texto": "Mundial chegou a congelado por alguns"
+  },
+  {
+   "inicio": 1033,
+   "texto": "dias ninguém sabia quem tava contaminado"
+  },
+  {
+   "inicio": 1035,
+   "texto": "não é poderia ter derrubado ali economia"
+  },
+  {
+   "inicio": 1038,
+   "texto": "inteiras os bancos centrais todos"
+  },
+  {
+   "inicio": 1039,
+   "texto": "operaram em conjunto liquidez geral no"
+  },
+  {
+   "inicio": 1043,
+   "texto": "mercado ali o governo americano virou"
+  },
+  {
+   "inicio": 1045,
+   "texto": "sócio de uma GM porque você não deixa"
+  },
+  {
+   "inicio": 1046,
+   "texto": "uma GM quebrar virou sócio de uma"
+  },
+  {
+   "inicio": 1048,
+   "texto": "General Elétrica você não deixa uma"
+  },
+  {
+   "inicio": 1050,
+   "texto": "empresa desse tamanho quebrar e agora na"
+  },
+  {
+   "inicio": 1051,
+   "texto": "pandemia nós tivemos a emissão de papel"
+  },
+  {
+   "inicio": 1053,
+   "texto": "moeda por parte do Banco Central"
+  },
+  {
+   "inicio": 1055,
+   "texto": "americano do governo America no tesouro"
+  },
+  {
+   "inicio": 1056,
+   "texto": "americano para segurar o impacto"
+  },
+  {
+   "inicio": 1059,
+   "texto": "econômico da da dos efeitos da pandemia"
+  },
+  {
+   "inicio": 1061,
+   "texto": "na economia então nós tivemos dois dois"
+  },
+  {
+   "inicio": 1064,
+   "texto": "momentos em que o papel do Estado"
+  },
+  {
+   "inicio": 1065,
+   "texto": "Nacional é absolutamente fundamental"
+  },
+  {
+   "inicio": 1067,
+   "texto": "para que você pense em política"
+  },
+  {
+   "inicio": 1068,
+   "texto": "econômica e por que que ainda nós"
+  },
+  {
+   "inicio": 1071,
+   "texto": "estamos aqui nessa empacados nessa"
+  },
+  {
+   "inicio": 1073,
+   "texto": "Ditadura do rentismo nessa ditadura de"
+  },
+  {
+   "inicio": 1075,
+   "texto": "que não"
+  },
+  {
+   "inicio": 1076,
+   "texto": "esse essa dívida aqui não mexe temos que"
+  },
+  {
+   "inicio": 1079,
+   "texto": "pagar essa taxa mesmo sendo que você"
+  },
+  {
+   "inicio": 1081,
+   "texto": "acabou de descrever um país que precisa"
+  },
+  {
+   "inicio": 1082,
+   "texto": "se desenvolver que precisa empregar que"
+  },
+  {
+   "inicio": 1085,
+   "texto": "precisa crescer precisa incluir né"
+  },
+  {
+   "inicio": 1087,
+   "texto": "Precisa diminuir desigualdade e e"
+  },
+  {
+   "inicio": 1089,
+   "texto": "portanto tá preso num num numa taxa de"
+  },
+  {
+   "inicio": 1092,
+   "texto": "juros real do mundo deixa deixa eu eu"
+  },
+  {
+   "inicio": 1097,
+   "texto": "não usaria a expressão Ditadura do"
+  },
+  {
+   "inicio": 1099,
+   "texto": "rentismo primeiro porque quando eu achar"
+  },
+  {
+   "inicio": 1101,
+   "texto": "uma camisa de força ideológica na ideia"
+  },
+  {
+   "inicio": 1103,
+   "texto": "da loja é um de um acabou fundamental de"
+  },
+  {
+   "inicio": 1106,
+   "texto": "concepção perfeito não necessariamente"
+  },
+  {
+   "inicio": 1108,
+   "texto": "de esquerda ou direita embora a palavra"
+  },
+  {
+   "inicio": 1110,
+   "texto": "ideológica dessa conotação O que é eu"
+  },
+  {
+   "inicio": 1114,
+   "texto": "não o que ocorre é está com a taxa de"
+  },
+  {
+   "inicio": 1117,
+   "texto": "juros errada alta demais há muitos anos"
+  },
+  {
+   "inicio": 1119,
+   "texto": "desde o plano real de certa forma na"
+  },
+  {
+   "inicio": 1122,
+   "texto": "saída do plano real a taxa de juros alta"
+  },
+  {
+   "inicio": 1124,
+   "texto": "porque havia muita desconfiança se o"
+  },
+  {
+   "inicio": 1127,
+   "texto": "plano real você hoje se esquecer hoje"
+  },
+  {
+   "inicio": 1128,
+   "texto": "todo mundo acha Parabéns o plano real"
+  },
+  {
+   "inicio": 1130,
+   "texto": "mas havia muita desconfiança do plano"
+  },
+  {
+   "inicio": 1132,
+   "texto": "real perfeito então uma das formas de"
+  },
+  {
+   "inicio": 1135,
+   "texto": "garantir que não haveria saída muito"
+  },
+  {
+   "inicio": 1137,
+   "texto": "rápida de capitais especulativos e"
+  },
+  {
+   "inicio": 1139,
+   "texto": "desvalorização do lembre-se que o câmbio"
+  },
+  {
+   "inicio": 1141,
+   "texto": "valorizou o mundo real ou quando entrou"
+  },
+  {
+   "inicio": 1144,
+   "texto": "ao RV se transformou no real era um para"
+  },
+  {
+   "inicio": 1147,
+   "texto": "um e o o Real ficou valorizou mais valia"
+  },
+  {
+   "inicio": 1151,
+   "texto": "mais do que um dólar chegou a 93"
+  },
+  {
+   "inicio": 1153,
+   "texto": "centavos de reais por dólar perfeito"
+  },
+  {
+   "inicio": 1155,
+   "texto": "Isso foi um porque a taxas era muito"
+  },
+  {
+   "inicio": 1157,
+   "texto": "alta e tem fluxo de capitais nesse"
+  },
+  {
+   "inicio": 1161,
+   "texto": "sentido a taxa de juros saiu do Real"
+  },
+  {
+   "inicio": 1163,
+   "texto": "muito alta e é um certo problema em 2005"
+  },
+  {
+   "inicio": 1167,
+   "texto": "aqui no seminário no Rio de Janeiro"
+  },
+  {
+   "inicio": 1170,
+   "texto": "Olivier blanchar que é um economista"
+  },
+  {
+   "inicio": 1173,
+   "texto": "francês mas americano do foi chefe"
+  },
+  {
+   "inicio": 1176,
+   "texto": "comunista chefe do fundamental Nacional"
+  },
+  {
+   "inicio": 1178,
+   "texto": "internacional"
+  },
+  {
+   "inicio": 1198,
+   "texto": "com baixa chama dívida pública com baixa"
+  },
+  {
+   "inicio": 1200,
+   "texto": "taxa de juros sobre baixa taxa de juros"
+  },
+  {
+   "inicio": 1203,
+   "texto": "que faz toda a diferença muito bem o que"
+  },
+  {
+   "inicio": 1206,
+   "texto": "que eu levei lanchar veio aqui disse"
+  },
+  {
+   "inicio": 1208,
+   "texto": "nesse seminário disse olha a"
+  },
+  {
+   "inicio": 1210,
+   "texto": "possibilidade fez essa essa vocês não te"
+  },
+  {
+   "inicio": 1213,
+   "texto": "consideraram num canto disse André você"
+  },
+  {
+   "inicio": 1215,
+   "texto": "não considera a possibilidade de que o"
+  },
+  {
+   "inicio": 1218,
+   "texto": "Brasil está numa numa armadilha no"
+  },
+  {
+   "inicio": 1219,
+   "texto": "sentido de um mal equilíbrio"
+  },
+  {
+   "inicio": 1221,
+   "texto": "onde porque a taxa de juros alta demais"
+  },
+  {
+   "inicio": 1225,
+   "texto": "provocam déficit fiscal que é percebido"
+  },
+  {
+   "inicio": 1228,
+   "texto": "como um risco que obriga a taxas Então"
+  },
+  {
+   "inicio": 1231,
+   "texto": "são mal equilíbrio se você matar essa"
+  },
+  {
+   "inicio": 1233,
+   "texto": "taxa de juros reduziria o custo o"
+  },
+  {
+   "inicio": 1236,
+   "texto": "serviço da dívida e reduziria o déficit"
+  },
+  {
+   "inicio": 1238,
+   "texto": "porque lembre-se o verbo superado de"
+  },
+  {
+   "inicio": 1240,
+   "texto": "primário foi de 1,3% agora o custo eu"
+  },
+  {
+   "inicio": 1246,
+   "texto": "isso foi o meu artigo anterior penúltimo"
+  },
+  {
+   "inicio": 1248,
+   "texto": "artigo que eu escrevi com os dados do"
+  },
+  {
+   "inicio": 1250,
+   "texto": "Tesouro Nacional a elevação da taxa de"
+  },
+  {
+   "inicio": 1252,
+   "texto": "juros tá no site do Tesouro Nacional a"
+  },
+  {
+   "inicio": 1255,
+   "texto": "elevação da taxa de nos últimos dois"
+  },
+  {
+   "inicio": 1257,
+   "texto": "anos custou quase 2% do PIB saída de"
+  },
+  {
+   "inicio": 1262,
+   "texto": "2,75 para 3,75 cortou quase 2% do PIB a"
+  },
+  {
+   "inicio": 1266,
+   "texto": "mais um serviço de juros em 2021 e quase"
+  },
+  {
+   "inicio": 1270,
+   "texto": "quatro por cento do PIB em 2022"
+  },
+  {
+   "inicio": 1273,
+   "texto": "lembre-se até que da transição é menos"
+  },
+  {
+   "inicio": 1276,
+   "texto": "de 2% do PIB ou seja exigiu uma emenda"
+  },
+  {
+   "inicio": 1280,
+   "texto": "constitucional para aumentar os gastos"
+  },
+  {
+   "inicio": 1282,
+   "texto": "públicos em 2% do PIB e o time desculpa"
+  },
+  {
+   "inicio": 1286,
+   "texto": "algumas canetadas do Banco Central"
+  },
+  {
+   "inicio": 1288,
+   "texto": "aumenta"
+  },
+  {
+   "inicio": 1290,
+   "texto": "em dois anos 6% do PIB de dívida de"
+  },
+  {
+   "inicio": 1294,
+   "texto": "custo da dívida agora faz sentido faz"
+  },
+  {
+   "inicio": 1297,
+   "texto": "sentido lembre-se quando você aumenta o"
+  },
+  {
+   "inicio": 1300,
+   "texto": "juros você aumenta o custo do"
+  },
+  {
+   "inicio": 1302,
+   "texto": "financiamento da dívida você aumenta o"
+  },
+  {
+   "inicio": 1304,
+   "texto": "déficit perfeito senão alguém Sudeste"
+  },
+  {
+   "inicio": 1306,
+   "texto": "primário mas vamos ver aumento deste"
+  },
+  {
+   "inicio": 1308,
+   "texto": "nominal o décimo você aumenta a dívida é"
+  },
+  {
+   "inicio": 1311,
+   "texto": "feito ou então você diz eu estou"
+  },
+  {
+   "inicio": 1312,
+   "texto": "aumentando a taxa de juros para por"
+  },
+  {
+   "inicio": 1315,
+   "texto": "causa do Risco fiscal só que ao aumentar"
+  },
+  {
+   "inicio": 1318,
+   "texto": "essa juros você aumenta os equilíbrio"
+  },
+  {
+   "inicio": 1320,
+   "texto": "fiscal Teoricamente só aumenta o risco"
+  },
+  {
+   "inicio": 1322,
+   "texto": "fiscal aí você tem que aumentar mais a"
+  },
+  {
+   "inicio": 1323,
+   "texto": "taxa de juro olha alguma coisa tá"
+  },
+  {
+   "inicio": 1326,
+   "texto": "profundamente errado agora e só detalhe"
+  },
+  {
+   "inicio": 1328,
+   "texto": "para passar por Ah nesse aspecto aliás"
+  },
+  {
+   "inicio": 1332,
+   "texto": "eu acho que o artigo do André Lara"
+  },
+  {
+   "inicio": 1333,
+   "texto": "Rezende também tocou nisso que às vezes"
+  },
+  {
+   "inicio": 1335,
+   "texto": "reações desproporcionais né Ou seja a"
+  },
+  {
+   "inicio": 1337,
+   "texto": "reação é que foi muito grande durante"
+  },
+  {
+   "inicio": 1340,
+   "texto": "muito tempo e a gente uma gritaria muito"
+  },
+  {
+   "inicio": 1342,
+   "texto": "grande com a PEC da transição Realmente"
+  },
+  {
+   "inicio": 1344,
+   "texto": "você tinha que olhar para a"
+  },
+  {
+   "inicio": 1345,
+   "texto": "responsabilidade daquilo Mas levar r$"
+  },
+  {
+   "inicio": 1347,
+   "texto": "600 no momento fundamental para as"
+  },
+  {
+   "inicio": 1349,
+   "texto": "pessoas de tudo o impacto daquilo que o"
+  },
+  {
+   "inicio": 1352,
+   "texto": "mercado tanto falou mas por outro lado"
+  },
+  {
+   "inicio": 1353,
+   "texto": "ignorou é o que foi colocado pelo pelo"
+  },
+  {
+   "inicio": 1356,
+   "texto": "André nessa questão agora"
+  },
+  {
+   "inicio": 1358,
+   "texto": "Nesse artigo eu uso apelando um"
+  },
+  {
+   "inicio": 1361,
+   "texto": "pouquinho eu digo Olha o o o pra ser o a"
+  },
+  {
+   "inicio": 1364,
+   "texto": "PEC da transição o grande parte vai para"
+  },
+  {
+   "inicio": 1366,
+   "texto": "o bolsa família ou o que nome que era"
+  },
+  {
+   "inicio": 1369,
+   "texto": "dar a ele perfeito que é aí pra pagar um"
+  },
+  {
+   "inicio": 1372,
+   "texto": "adicional pra crianças até seis anos em"
+  },
+  {
+   "inicio": 1374,
+   "texto": "família etc agora isso criou um problema"
+  },
+  {
+   "inicio": 1377,
+   "texto": "exigiu foi uma gritaria fenomenal aí"
+  },
+  {
+   "inicio": 1379,
+   "texto": "responsabilidade fiscal o governo não"
+  },
+  {
+   "inicio": 1381,
+   "texto": "pode gastar de forma responsável isso é"
+  },
+  {
+   "inicio": 1383,
+   "texto": "um ponto tem que gastar bem e que ser"
+  },
+  {
+   "inicio": 1385,
+   "texto": "coerência não tem dúvida sobre isso"
+  },
+  {
+   "inicio": 1386,
+   "texto": "agora esse o bolsa família uma gritaria"
+  },
+  {
+   "inicio": 1390,
+   "texto": "agora o Bolsa rentista dá 4% a mais"
+  },
+  {
+   "inicio": 1392,
+   "texto": "tarde juro isso não tem problema nenhum"
+  },
+  {
+   "inicio": 1395,
+   "texto": "nenhum agora eu gostaria até de"
+  },
+  {
+   "inicio": 1397,
+   "texto": "aproveitar a situação a PEC da transição"
+  },
+  {
+   "inicio": 1399,
+   "texto": "Para retomar uma discussão que é do"
+  },
+  {
+   "inicio": 1402,
+   "texto": "ponto de vista de legislação essa é uma"
+  },
+  {
+   "inicio": 1404,
+   "texto": "legislação de autonomia do Banco Central"
+  },
+  {
+   "inicio": 1405,
+   "texto": "muito recente tem dois anos Segue uma"
+  },
+  {
+   "inicio": 1409,
+   "texto": "lógica inclusive semelhante a outros"
+  },
+  {
+   "inicio": 1411,
+   "texto": "países conversando com líderes"
+  },
+  {
+   "inicio": 1412,
+   "texto": "partidários ministros não há um ambiente"
+  },
+  {
+   "inicio": 1415,
+   "texto": "neste momento de mudar essa legislação"
+  },
+  {
+   "inicio": 1418,
+   "texto": "mas eu perguntaria ao senhor a"
+  },
+  {
+   "inicio": 1420,
+   "texto": "possibilidade de aprimorar que foi"
+  },
+  {
+   "inicio": 1422,
+   "texto": "criada no Congresso Nacional ou mexer"
+  },
+  {
+   "inicio": 1425,
+   "texto": "nesse assunto tão recente criaria um"
+  },
+  {
+   "inicio": 1428,
+   "texto": "risco inclusive um risco para economia"
+  },
+  {
+   "inicio": 1430,
+   "texto": "do país não eu acho"
+  },
+  {
+   "inicio": 1433,
+   "texto": "que você tá dizendo tem toda razão"
+  },
+  {
+   "inicio": 1435,
+   "texto": "e ela precisa ser de certa forma"
+  },
+  {
+   "inicio": 1439,
+   "texto": "Primeiro ela vai ter que ser"
+  },
+  {
+   "inicio": 1441,
+   "texto": "permanentemente"
+  },
+  {
+   "inicio": 1443,
+   "texto": "a autonomia do Banco Central eu disse é"
+  },
+  {
+   "inicio": 1446,
+   "texto": "uma perfeita emocional eu não acho que"
+  },
+  {
+   "inicio": 1448,
+   "texto": "tá em discussão que eu deveria estar em"
+  },
+  {
+   "inicio": 1450,
+   "texto": "discussão aprimoramento agora a forma"
+  },
+  {
+   "inicio": 1452,
+   "texto": "como é que como é que isso como é que"
+  },
+  {
+   "inicio": 1455,
+   "texto": "também implementada primeiro está lá na"
+  },
+  {
+   "inicio": 1457,
+   "texto": "lei Quem determina a política a ser"
+  },
+  {
+   "inicio": 1460,
+   "texto": "seguida pelo banco central ele tem"
+  },
+  {
+   "inicio": 1462,
+   "texto": "autonomia para implementá-la mas é"
+  },
+  {
+   "inicio": 1464,
+   "texto": "determinação da política é do governo e"
+  },
+  {
+   "inicio": 1467,
+   "texto": "é transmitida para o banco central pelo"
+  },
+  {
+   "inicio": 1469,
+   "texto": "Conselho monetário Nacional que hoje é"
+  },
+  {
+   "inicio": 1472,
+   "texto": "formado pelo presidente do Banco Central"
+  },
+  {
+   "inicio": 1473,
+   "texto": "o ministro da fazenda e mito"
+  },
+  {
+   "inicio": 1475,
+   "texto": "planejamento mas pode ter outra"
+  },
+  {
+   "inicio": 1477,
+   "texto": "constituição Esse é esse é o primeiro"
+  },
+  {
+   "inicio": 1479,
+   "texto": "ponto então claramente E como você"
+  },
+  {
+   "inicio": 1482,
+   "texto": "implementa o que você o que você diz e"
+  },
+  {
+   "inicio": 1484,
+   "texto": "como é que você define como é que você"
+  },
+  {
+   "inicio": 1486,
+   "texto": "organiza essas essas responsabilidades é"
+  },
+  {
+   "inicio": 1489,
+   "texto": "algo que pode ser discutindo agora A Lei"
+  },
+  {
+   "inicio": 1491,
+   "texto": "e há também uma tradição e há uma"
+  },
+  {
+   "inicio": 1494,
+   "texto": "tradição de quem é indicação do governo"
+  },
+  {
+   "inicio": 1496,
+   "texto": "do presidente de diretores do Banco"
+  },
+  {
+   "inicio": 1498,
+   "texto": "Central é uma indicação inclusive com o"
+  },
+  {
+   "inicio": 1501,
+   "texto": "diálogo com a diretoria atual do Banco"
+  },
+  {
+   "inicio": 1504,
+   "texto": "Central com o presidente do Banco"
+  },
+  {
+   "inicio": 1505,
+   "texto": "Central seria saudável manter essa"
+  },
+  {
+   "inicio": 1508,
+   "texto": "tradição de ter uma conversa no momento"
+  },
+  {
+   "inicio": 1511,
+   "texto": "da indicação de novos diretores"
+  },
+  {
+   "inicio": 1514,
+   "texto": "conversa é sempre saudável o que não é"
+  },
+  {
+   "inicio": 1518,
+   "texto": "saudável é briga"
+  },
+  {
+   "inicio": 1520,
+   "texto": "conversa sempre saudável é óbvio nós no"
+  },
+  {
+   "inicio": 1522,
+   "texto": "Brasil e além do mundo todo nosso Brasil"
+  },
+  {
+   "inicio": 1524,
+   "texto": "também nós somos de uma certa forma nos"
+  },
+  {
+   "inicio": 1526,
+   "texto": "reconciliarmos e as conversas"
+  },
+  {
+   "inicio": 1528,
+   "texto": "reconciliam de novo o ponto fundamental"
+  },
+  {
+   "inicio": 1531,
+   "texto": "que é importantíssimo é justamente dizer"
+  },
+  {
+   "inicio": 1533,
+   "texto": "que teoria Econômica é teoria política é"
+  },
+  {
+   "inicio": 1537,
+   "texto": "política econômica é parte política"
+  },
+  {
+   "inicio": 1538,
+   "texto": "parte uma certa ciência de conhecimento"
+  },
+  {
+   "inicio": 1541,
+   "texto": "e exige que você escuta politicamente"
+  },
+  {
+   "inicio": 1545,
+   "texto": "entrar nesse ponto André"
+  },
+  {
+   "inicio": 1547,
+   "texto": "estado e economia de novo"
+  },
+  {
+   "inicio": 1550,
+   "texto": "aqui tá no tá no seu capítulo sobre o"
+  },
+  {
+   "inicio": 1553,
+   "texto": "que a gente tava falando da Ju aqui o"
+  },
+  {
+   "inicio": 1554,
+   "texto": "estado como credor primeiro né que é a"
+  },
+  {
+   "inicio": 1556,
+   "texto": "história de Civic dá Tudo Termina a"
+  },
+  {
+   "inicio": 1558,
+   "texto": "história o estado não tem né como é que"
+  },
+  {
+   "inicio": 1561,
+   "texto": "faz esse dinheiro girar que é o próprio"
+  },
+  {
+   "inicio": 1562,
+   "texto": "dinheiro da do juro da dívida toda"
+  },
+  {
+   "inicio": 1564,
+   "texto": "produtividade é a capacidade de produzir"
+  },
+  {
+   "inicio": 1566,
+   "texto": "bem em serviço de venda da sociedade da"
+  },
+  {
+   "inicio": 1568,
+   "texto": "ação conjunta do setor privado e do"
+  },
+  {
+   "inicio": 1570,
+   "texto": "Estado a expansão do crédito pelo Estado"
+  },
+  {
+   "inicio": 1572,
+   "texto": "como todo crédito por si só nada cria"
+  },
+  {
+   "inicio": 1574,
+   "texto": "mas viabiliza a materialização da"
+  },
+  {
+   "inicio": 1576,
+   "texto": "produtividade da sociedade a moeda e o"
+  },
+  {
+   "inicio": 1578,
+   "texto": "crédito são fermento mas se não houver"
+  },
+  {
+   "inicio": 1580,
+   "texto": "massa capacidade de produzir não haverá"
+  },
+  {
+   "inicio": 1582,
+   "texto": "bolo a ser repartido no país estão"
+  },
+  {
+   "inicio": 1584,
+   "texto": "desigual como o Brasil é o que que a"
+  },
+  {
+   "inicio": 1587,
+   "texto": "gente pode ter de exemplo concreto de"
+  },
+  {
+   "inicio": 1589,
+   "texto": "medida concreta nesses próximos anos de"
+  },
+  {
+   "inicio": 1591,
+   "texto": "governo Lula o senhor acredita esta"
+  },
+  {
+   "inicio": 1594,
+   "texto": "fazendo parte do Ben 10 para que a gente"
+  },
+  {
+   "inicio": 1596,
+   "texto": "repense esse papel de investimento na"
+  },
+  {
+   "inicio": 1599,
+   "texto": "economia geração de emprego atrair"
+  },
+  {
+   "inicio": 1603,
+   "texto": "investidores de fora do Brasil né com a"
+  },
+  {
+   "inicio": 1606,
+   "texto": "economia verde a nova economia como é"
+  },
+  {
+   "inicio": 1608,
+   "texto": "que o senhor enxerga essa essa"
+  },
+  {
+   "inicio": 1610,
+   "texto": "esse cenário"
+  },
+  {
+   "inicio": 1611,
+   "texto": "vamos lá eu acho que primeiro É de fato"
+  },
+  {
+   "inicio": 1615,
+   "texto": "é muito é estranho que haja tenha a vida"
+  },
+  {
+   "inicio": 1620,
+   "texto": "essa prevalência ou grande parte"
+  },
+  {
+   "inicio": 1622,
+   "texto": "dominância pelo menos assim na grande"
+  },
+  {
+   "inicio": 1624,
+   "texto": "mídia e uma certa visão de que o estado"
+  },
+  {
+   "inicio": 1628,
+   "texto": "era melhor das hipóteses um peso morto"
+  },
+  {
+   "inicio": 1630,
+   "texto": "no país o estado é um peso morto e Só"
+  },
+  {
+   "inicio": 1634,
+   "texto": "atrapalha se não atirarmos o estado a"
+  },
+  {
+   "inicio": 1636,
+   "texto": "economia capitalista funcionará isso é"
+  },
+  {
+   "inicio": 1638,
+   "texto": "profundamente falso a economia"
+  },
+  {
+   "inicio": 1642,
+   "texto": "capitalista Depende destruições de"
+  },
+  {
+   "inicio": 1645,
+   "texto": "regras que depende do Estado de um"
+  },
+  {
+   "inicio": 1647,
+   "texto": "estado competente não existe um bom"
+  },
+  {
+   "inicio": 1651,
+   "texto": "funcionamento de Economia sem um estado"
+  },
+  {
+   "inicio": 1653,
+   "texto": "competente sem o status então a ideia de"
+  },
+  {
+   "inicio": 1656,
+   "texto": "que o estado é um peso morto não é"
+  },
+  {
+   "inicio": 1659,
+   "texto": "verdade um estado contribui para a"
+  },
+  {
+   "inicio": 1662,
+   "texto": "produtividade e a criatividade da"
+  },
+  {
+   "inicio": 1665,
+   "texto": "Economia em conjunto com setor privado"
+  },
+  {
+   "inicio": 1667,
+   "texto": "aliás alocação"
+  },
+  {
+   "inicio": 1670,
+   "texto": "de de quem quem criou isso quem criou"
+  },
+  {
+   "inicio": 1673,
+   "texto": "Aquilo é uma na fundo é não é"
+  },
+  {
+   "inicio": 1676,
+   "texto": "indissociável nós devemos sempre a todo"
+  },
+  {
+   "inicio": 1679,
+   "texto": "mundo inclusive as pessoas que já"
+  },
+  {
+   "inicio": 1681,
+   "texto": "morreram ao passado conhecimento"
+  },
+  {
+   "inicio": 1683,
+   "texto": "contribuição como é que se organiza como"
+  },
+  {
+   "inicio": 1685,
+   "texto": "é que se pensa conhecimento científico"
+  },
+  {
+   "inicio": 1687,
+   "texto": "tudo isso é parte é uma condição da"
+  },
+  {
+   "inicio": 1689,
+   "texto": "humanidade como você rede distribui"
+  },
+  {
+   "inicio": 1691,
+   "texto": "depende da organização política e dos"
+  },
+  {
+   "inicio": 1694,
+   "texto": "valores que estão impulsionado naquela"
+  },
+  {
+   "inicio": 1696,
+   "texto": "sociedade a sociedade capitalista tem"
+  },
+  {
+   "inicio": 1699,
+   "texto": "uma forma de de distribuir isso"
+  },
+  {
+   "inicio": 1702,
+   "texto": "sabe-se sempre se soube que o cataliano"
+  },
+  {
+   "inicio": 1705,
+   "texto": "nunca foi assim não é a mesma coisa ele"
+  },
+  {
+   "inicio": 1706,
+   "texto": "também evolui mas a ideia é que a"
+  },
+  {
+   "inicio": 1709,
+   "texto": "solução que o capitalismo é altamente"
+  },
+  {
+   "inicio": 1710,
+   "texto": "eficiente não acredito na criação de"
+  },
+  {
+   "inicio": 1712,
+   "texto": "riqueza mas nem sempre tem é justo na"
+  },
+  {
+   "inicio": 1716,
+   "texto": "distribuição desta riqueza a solução"
+  },
+  {
+   "inicio": 1718,
+   "texto": "disso no início do século 20 foi"
+  },
+  {
+   "inicio": 1720,
+   "texto": "associado à democracia criar sistemas"
+  },
+  {
+   "inicio": 1722,
+   "texto": "inclusive de sistema de é social de"
+  },
+  {
+   "inicio": 1726,
+   "texto": "Assistência Social de educação pública"
+  },
+  {
+   "inicio": 1728,
+   "texto": "sistema de saúde público coisas que são"
+  },
+  {
+   "inicio": 1731,
+   "texto": "foram fundamentais até que foram avanço"
+  },
+  {
+   "inicio": 1734,
+   "texto": "é claramente esse isso é regredir em"
+  },
+  {
+   "inicio": 1738,
+   "texto": "relação a isso seria uma tragédia agora"
+  },
+  {
+   "inicio": 1739,
+   "texto": "a sua a sua a sua resposta o Brasil é"
+  },
+  {
+   "inicio": 1743,
+   "texto": "hoje o Brasil em muitos aspectos é um"
+  },
+  {
+   "inicio": 1746,
+   "texto": "país desenvolvido e rico não vamos nos"
+  },
+  {
+   "inicio": 1749,
+   "texto": "iludir o Brasil é um país rico"
+  },
+  {
+   "inicio": 1751,
+   "texto": "e um país de certa forma altamente"
+  },
+  {
+   "inicio": 1753,
+   "texto": "educado agora ele o que o Brasil é é um"
+  },
+  {
+   "inicio": 1757,
+   "texto": "país profundamente desigual com pobreza"
+  },
+  {
+   "inicio": 1761,
+   "texto": "inadmissível dado o nível que chegou"
+  },
+  {
+   "inicio": 1764,
+   "texto": "pobreza de educação problema de saúde de"
+  },
+  {
+   "inicio": 1767,
+   "texto": "saneamento Então o que o Brasil precisa"
+  },
+  {
+   "inicio": 1769,
+   "texto": "e você não resolve isso com políticas"
+  },
+  {
+   "inicio": 1773,
+   "texto": "assistencialistas a política da"
+  },
+  {
+   "inicio": 1775,
+   "texto": "assistencialista de transferência de"
+  },
+  {
+   "inicio": 1776,
+   "texto": "renda é como se diz um paliativo pode"
+  },
+  {
+   "inicio": 1780,
+   "texto": "ser um paliativo transitório temporário"
+  },
+  {
+   "inicio": 1782,
+   "texto": "a solução para pobreza"
+  },
+  {
+   "inicio": 1785,
+   "texto": "endêmica e aproveitar absoluta só tem"
+  },
+  {
+   "inicio": 1788,
+   "texto": "uma é o verdadeiro desenvolvimento é"
+  },
+  {
+   "inicio": 1791,
+   "texto": "crescimento enriquecimento e sobretudo"
+  },
+  {
+   "inicio": 1793,
+   "texto": "enriquecimento ponto de vista de capital"
+  },
+  {
+   "inicio": 1795,
+   "texto": "humano de Educação de saúde isto é que é"
+  },
+  {
+   "inicio": 1799,
+   "texto": "o enriquecimento isso é que tem que ser"
+  },
+  {
+   "inicio": 1800,
+   "texto": "feito o que nós precisamos e isso é que"
+  },
+  {
+   "inicio": 1802,
+   "texto": "o nosso conselho estratégico do Ben 10"
+  },
+  {
+   "inicio": 1804,
+   "texto": "está propondo tá se propõe a fazer é"
+  },
+  {
+   "inicio": 1807,
+   "texto": "dizer assim qual é o programa e nós"
+  },
+  {
+   "inicio": 1809,
+   "texto": "temos que ter um programa que transcenda"
+  },
+  {
+   "inicio": 1811,
+   "texto": "muito mais importante do que mandatos do"
+  },
+  {
+   "inicio": 1813,
+   "texto": "diretor do Banco Central que não"
+  },
+  {
+   "inicio": 1815,
+   "texto": "conhecidam com com mandato presidencial"
+  },
+  {
+   "inicio": 1818,
+   "texto": "ou executivo é um programa de"
+  },
+  {
+   "inicio": 1820,
+   "texto": "investimento de longo prazo Então vamos"
+  },
+  {
+   "inicio": 1822,
+   "texto": "lá por que que o Brasil não cresce nos"
+  },
+  {
+   "inicio": 1824,
+   "texto": "últimos anos o Brasil tá preso essa"
+  },
+  {
+   "inicio": 1826,
+   "texto": "armadilha da renda média o crescimento"
+  },
+  {
+   "inicio": 1829,
+   "texto": "muito abaixo do esperado dos países da"
+  },
+  {
+   "inicio": 1831,
+   "texto": "por exemplo de todos os países asiáticos"
+  },
+  {
+   "inicio": 1833,
+   "texto": "são um número nos últimos"
+  },
+  {
+   "inicio": 1836,
+   "texto": "40 anos a renda per capita da China foi"
+  },
+  {
+   "inicio": 1839,
+   "texto": "muito caro por 20 a do Brasil por dois é"
+  },
+  {
+   "inicio": 1842,
+   "texto": "possível isso alguma coisa errada nós"
+  },
+  {
+   "inicio": 1844,
+   "texto": "temos que ver isso perfeito muito bem"
+  },
+  {
+   "inicio": 1846,
+   "texto": "porque se você for olhar primeiro a taxa"
+  },
+  {
+   "inicio": 1849,
+   "texto": "de investimento no Brasil é muito baixo"
+  },
+  {
+   "inicio": 1851,
+   "texto": "a taxa de vencimento do Brasil hoje é"
+  },
+  {
+   "inicio": 1853,
+   "texto": "17% do PIB e todos os países que"
+  },
+  {
+   "inicio": 1856,
+   "texto": "cresceram rapidamente asiático é acima"
+  },
+  {
+   "inicio": 1858,
+   "texto": "de 30 ou seja é o dobro da taxa de"
+  },
+  {
+   "inicio": 1861,
+   "texto": "investimento do Brasil a taxa de"
+  },
+  {
+   "inicio": 1863,
+   "texto": "investimento público do Brasil despencou"
+  },
+  {
+   "inicio": 1866,
+   "texto": "caiu de a taxa de investimento e é"
+  },
+  {
+   "inicio": 1870,
+   "texto": "público caiu de 9 10% para baixo de dois"
+  },
+  {
+   "inicio": 1872,
+   "texto": "isso não é o suficiente nem para repor"
+  },
+  {
+   "inicio": 1875,
+   "texto": "ao fluência do capital da infraestrutura"
+  },
+  {
+   "inicio": 1878,
+   "texto": "do país então o Brasil tem que voltar a"
+  },
+  {
+   "inicio": 1880,
+   "texto": "investir ao contrário do que diz a"
+  },
+  {
+   "inicio": 1883,
+   "texto": "teoria essa teoria é"
+  },
+  {
+   "inicio": 1886,
+   "texto": "antes da tal radical"
+  },
+  {
+   "inicio": 1890,
+   "texto": "o investimento público não compete com"
+  },
+  {
+   "inicio": 1893,
+   "texto": "investimento privado se o investimento"
+  },
+  {
+   "inicio": 1894,
+   "texto": "muito bem feito pelo contrário ele é"
+  },
+  {
+   "inicio": 1897,
+   "texto": "complementar o investimento privado e"
+  },
+  {
+   "inicio": 1899,
+   "texto": "ele pauta E cria oportunidades para o"
+  },
+  {
+   "inicio": 1901,
+   "texto": "investimento privado"
+  },
+  {
+   "inicio": 1905,
+   "texto": "sempre foi ele ele financiar auxiliar no"
+  },
+  {
+   "inicio": 1910,
+   "texto": "financiamento de projetos de"
+  },
+  {
+   "inicio": 1911,
+   "texto": "investimentos tanto quanto privado ele é"
+  },
+  {
+   "inicio": 1913,
+   "texto": "um grande diferenciador de investimentos"
+  },
+  {
+   "inicio": 1917,
+   "texto": "foi um Ben 10"
+  },
+  {
+   "inicio": 1923,
+   "texto": "acabou então nós temos que retomar o Ben"
+  },
+  {
+   "inicio": 1926,
+   "texto": "10 então o grande programa é quando você"
+  },
+  {
+   "inicio": 1928,
+   "texto": "tem um programa de desenvolvimento de"
+  },
+  {
+   "inicio": 1930,
+   "texto": "investimento você precisa você precisa"
+  },
+  {
+   "inicio": 1932,
+   "texto": "ter Quais são os projetos"
+  },
+  {
+   "inicio": 1934,
+   "texto": "pá nós temos uma certa obsessão com de"
+  },
+  {
+   "inicio": 1937,
+   "texto": "onde vai vir o financiamento é"
+  },
+  {
+   "inicio": 1938,
+   "texto": "importante de onde vai vir o"
+  },
+  {
+   "inicio": 1939,
+   "texto": "financiamento mas antes de saber de onde"
+  },
+  {
+   "inicio": 1941,
+   "texto": "vai ver o financiamento que projetos são"
+  },
+  {
+   "inicio": 1944,
+   "texto": "esses que investimentos vão ser feitos"
+  },
+  {
+   "inicio": 1945,
+   "texto": "Qual é a taxa de retorno desses"
+  },
+  {
+   "inicio": 1947,
+   "texto": "investimento e nós vamos ter que fazer"
+  },
+  {
+   "inicio": 1948,
+   "texto": "uma ordenação desse investimento e"
+  },
+  {
+   "inicio": 1952,
+   "texto": "dentro dessa ordenação um programa que"
+  },
+  {
+   "inicio": 1954,
+   "texto": "vá de não é de quatro anos não deve ser"
+  },
+  {
+   "inicio": 1957,
+   "texto": "um programa de 10 anos revisto"
+  },
+  {
+   "inicio": 1959,
+   "texto": "permanentemente os investimentos devem"
+  },
+  {
+   "inicio": 1962,
+   "texto": "ser feitos devem ser estar submetidos a"
+  },
+  {
+   "inicio": 1965,
+   "texto": "uma revisão de avaliação de ser tão"
+  },
+  {
+   "inicio": 1967,
+   "texto": "sendo feito de retorno então foi feito"
+  },
+  {
+   "inicio": 1970,
+   "texto": "com os custos estão corretos essa taxa"
+  },
+  {
+   "inicio": 1972,
+   "texto": "de retorno são aquelas previstas e você"
+  },
+  {
+   "inicio": 1975,
+   "texto": "vai reprogramar de reorganizando e isso"
+  },
+  {
+   "inicio": 1977,
+   "texto": "baliza todo o programa de investimento"
+  },
+  {
+   "inicio": 1980,
+   "texto": "público e privado do país e este é a"
+  },
+  {
+   "inicio": 1984,
+   "texto": "forma de fazer o país crescer para"
+  },
+  {
+   "inicio": 1987,
+   "texto": "voltar a crescer em livros muito acima"
+  },
+  {
+   "inicio": 1990,
+   "texto": "do que ele tem crescido e isso é"
+  },
+  {
+   "inicio": 1992,
+   "texto": "fundamental a gente vai fazer rápido"
+  },
+  {
+   "inicio": 1995,
+   "texto": "intervalo e volta já já com um pouco"
+  },
+  {
+   "inicio": 1996,
+   "texto": "mais dessa conversa aqui sobre economia"
+  },
+  {
+   "inicio": 1998,
+   "texto": "com André Lara Rezende até já"
+  },
+  {
+   "inicio": 2002,
+   "texto": "[Música]"
+  },
+  {
+   "inicio": 2006,
+   "texto": "só o mar Relaxa"
+  },
+  {
+   "inicio": 2009,
+   "texto": "diverte"
+  },
+  {
+   "inicio": 2011,
+   "texto": "encanta"
+  },
+  {
+   "inicio": 2013,
+   "texto": "só o mar só MSC MSC Cruzeiros um mundo"
+  },
+  {
+   "inicio": 2019,
+   "texto": "de descobertas"
+  },
+  {
+   "inicio": 2026,
+   "texto": "do plano real economista André Lara"
+  },
+  {
+   "inicio": 2030,
+   "texto": "Rezende que agora também passa a"
+  },
+  {
+   "inicio": 2032,
+   "texto": "integral conselho estratégico do BNDES e"
+  },
+  {
+   "inicio": 2034,
+   "texto": "eu queria já que terminamos o último"
+  },
+  {
+   "inicio": 2036,
+   "texto": "bloco o André falando sobre o BNDS eu"
+  },
+  {
+   "inicio": 2038,
+   "texto": "queria só pegar um assunto que foi muito"
+  },
+  {
+   "inicio": 2039,
+   "texto": "debatido ao longo da campanha e às vezes"
+  },
+  {
+   "inicio": 2041,
+   "texto": "com muita gritaria de ambos os lados e"
+  },
+  {
+   "inicio": 2044,
+   "texto": "pouca razão que é a questão do"
+  },
+  {
+   "inicio": 2046,
+   "texto": "financiamento do BNDS por exemplo obras"
+  },
+  {
+   "inicio": 2048,
+   "texto": "estruturais de infraestrutura em outros"
+  },
+  {
+   "inicio": 2050,
+   "texto": "países eu queria lhe ouvir sobre isso e"
+  },
+  {
+   "inicio": 2053,
+   "texto": "as garantias que lá atrás eram pedidas"
+  },
+  {
+   "inicio": 2055,
+   "texto": "falam tal do charutos cubanos"
+  },
+  {
+   "inicio": 2058,
+   "texto": "na sua avaliação eram corretas ou algo"
+  },
+  {
+   "inicio": 2061,
+   "texto": "tem que mudar ou ser aprimorado neste"
+  },
+  {
+   "inicio": 2064,
+   "texto": "governo por exemplo"
+  },
+  {
+   "inicio": 2066,
+   "texto": "esse esse financiamento o financiamento"
+  },
+  {
+   "inicio": 2069,
+   "texto": "não é a empresas estrangeiras no"
+  },
+  {
+   "inicio": 2071,
+   "texto": "exterior e países no exterior é"
+  },
+  {
+   "inicio": 2072,
+   "texto": "financiamento a empresas brasileiras que"
+  },
+  {
+   "inicio": 2074,
+   "texto": "prestam serviços no exterior perfeito"
+  },
+  {
+   "inicio": 2075,
+   "texto": "então é esse é um financiamento de"
+  },
+  {
+   "inicio": 2078,
+   "texto": "exportação brasileira exportação de"
+  },
+  {
+   "inicio": 2080,
+   "texto": "serviço A ideia é como de um desempenho"
+  },
+  {
+   "inicio": 2082,
+   "texto": "brasileiro de serviços de exportação em"
+  },
+  {
+   "inicio": 2085,
+   "texto": "princípio todo esses esse financiamento"
+  },
+  {
+   "inicio": 2087,
+   "texto": "é exportação é um é um ajuda a economia"
+  },
+  {
+   "inicio": 2090,
+   "texto": "brasileira a indústria brasileira e"
+  },
+  {
+   "inicio": 2093,
+   "texto": "serviços"
+  },
+  {
+   "inicio": 2095,
+   "texto": "o setor de serviços brasileiros na sua"
+  },
+  {
+   "inicio": 2097,
+   "texto": "exportação gera divisas e tem um bom"
+  },
+  {
+   "inicio": 2100,
+   "texto": "retorno claramente Toda vez que você faz"
+  },
+  {
+   "inicio": 2102,
+   "texto": "empréstimos é no exterior olhar com todo"
+  },
+  {
+   "inicio": 2106,
+   "texto": "o império Depende de garantia tem que"
+  },
+  {
+   "inicio": 2108,
+   "texto": "ter boa garantia Esse é o ponto"
+  },
+  {
+   "inicio": 2109,
+   "texto": "fundamental agora não não tem"
+  },
+  {
+   "inicio": 2111,
+   "texto": "conhecimento específico dessa como é que"
+  },
+  {
+   "inicio": 2113,
+   "texto": "foi esse financiamento que alguns é das"
+  },
+  {
+   "inicio": 2117,
+   "texto": "garantias não foram não foram bem feitas"
+  },
+  {
+   "inicio": 2119,
+   "texto": "o que é isso não é uma questão de de"
+  },
+  {
+   "inicio": 2121,
+   "texto": "banco de concreto mas em princípio isso"
+  },
+  {
+   "inicio": 2125,
+   "texto": "faz sentido agora e o presidente Lula"
+  },
+  {
+   "inicio": 2128,
+   "texto": "que tá muito interessado claramente"
+  },
+  {
+   "inicio": 2130,
+   "texto": "assinante de recompor o papel de"
+  },
+  {
+   "inicio": 2134,
+   "texto": "liderança do Brasil eh no mundo uma"
+  },
+  {
+   "inicio": 2137,
+   "texto": "Especialmente na América Latina que o"
+  },
+  {
+   "inicio": 2139,
+   "texto": "Brasil saiu da retraiu a sua diplomacia"
+  },
+  {
+   "inicio": 2142,
+   "texto": "e sempre teve um papel importante nesse"
+  },
+  {
+   "inicio": 2144,
+   "texto": "mundo esse mundo hoje que é um mundo é"
+  },
+  {
+   "inicio": 2147,
+   "texto": "multipolar tá deixando de ser um Uno"
+  },
+  {
+   "inicio": 2149,
+   "texto": "deixou de ser um mundo o mundo bipolar"
+  },
+  {
+   "inicio": 2152,
+   "texto": "de guerra fria depois foi o mundo"
+  },
+  {
+   "inicio": 2154,
+   "texto": "parecia onde é tinha uma potência"
+  },
+  {
+   "inicio": 2157,
+   "texto": "Germânica nos Estados Unidos e hoje tem"
+  },
+  {
+   "inicio": 2159,
+   "texto": "mais de uma perfeito mas claramente tem"
+  },
+  {
+   "inicio": 2163,
+   "texto": "duas grandes potências os Estados Unidos"
+  },
+  {
+   "inicio": 2164,
+   "texto": "e China tá muito muito tenso nesse nesse"
+  },
+  {
+   "inicio": 2168,
+   "texto": "universo e o Brasil com a sua história"
+  },
+  {
+   "inicio": 2172,
+   "texto": "de diplomacia de grande sucesso"
+  },
+  {
+   "inicio": 2174,
+   "texto": "brasileiro é respeitadíssima tem não tem"
+  },
+  {
+   "inicio": 2177,
+   "texto": "porque"
+  },
+  {
+   "inicio": 2178,
+   "texto": "se retraído como se retraiu e o"
+  },
+  {
+   "inicio": 2182,
+   "texto": "presidente Lula quer por tanto acha"
+  },
+  {
+   "inicio": 2183,
+   "texto": "vincula a ideia desses financiamento que"
+  },
+  {
+   "inicio": 2186,
+   "texto": "fazem sentido o ponto de financiamento"
+  },
+  {
+   "inicio": 2187,
+   "texto": "da empresa da indústria brasileira com a"
+  },
+  {
+   "inicio": 2190,
+   "texto": "ideia de retomar essa essa"
+  },
+  {
+   "inicio": 2194,
+   "texto": "preponderâncias papel estratégico da"
+  },
+  {
+   "inicio": 2197,
+   "texto": "política externa brasileira não na"
+  },
+  {
+   "inicio": 2198,
+   "texto": "região é interessante até esse assunto"
+  },
+  {
+   "inicio": 2201,
+   "texto": "que o"
+  },
+  {
+   "inicio": 2202,
+   "texto": "Rodolfo puxou porque"
+  },
+  {
+   "inicio": 2205,
+   "texto": "para o discurso político sempre é muito"
+  },
+  {
+   "inicio": 2209,
+   "texto": "que foi muito explorado em relação a"
+  },
+  {
+   "inicio": 2212,
+   "texto": "caixa preta do BNDS né os calotes mas a"
+  },
+  {
+   "inicio": 2216,
+   "texto": "inadimplência do BNDS a historicamente"
+  },
+  {
+   "inicio": 2218,
+   "texto": "baixa e hoje a preocupação é muito mais"
+  },
+  {
+   "inicio": 2221,
+   "texto": "em relação a Como Você levantou como se"
+  },
+  {
+   "inicio": 2225,
+   "texto": "levantou a questão de onde vem o"
+  },
+  {
+   "inicio": 2227,
+   "texto": "dinheiro para poder sustentar os"
+  },
+  {
+   "inicio": 2231,
+   "texto": "recursos para poder emprestar o dinheiro"
+  },
+  {
+   "inicio": 2233,
+   "texto": "né"
+  },
+  {
+   "inicio": 2234,
+   "texto": "E aí eu queria voltar essa questão né"
+  },
+  {
+   "inicio": 2237,
+   "texto": "como é que o BNDS vai"
+  },
+  {
+   "inicio": 2240,
+   "texto": "impulsionar o crescimento do Brasil né"
+  },
+  {
+   "inicio": 2243,
+   "texto": "da onde que vão sair esses vendo o Ben"
+  },
+  {
+   "inicio": 2247,
+   "texto": "10 devolveu bilhões de reais"
+  },
+  {
+   "inicio": 2250,
+   "texto": "ao estado ao tesouro nos últimos anos"
+  },
+  {
+   "inicio": 2253,
+   "texto": "perfeito e isso inclusive reduziu muita"
+  },
+  {
+   "inicio": 2255,
+   "texto": "capacidade de impresso para frente do do"
+  },
+  {
+   "inicio": 2258,
+   "texto": "Ben 10 isso é de cor de seu banco de"
+  },
+  {
+   "inicio": 2260,
+   "texto": "fomento né É verdade você tem se você"
+  },
+  {
+   "inicio": 2263,
+   "texto": "tem um banco um banco de desenvolvimento"
+  },
+  {
+   "inicio": 2264,
+   "texto": "o Ben 10 tem capacidade de onde é que"
+  },
+  {
+   "inicio": 2266,
+   "texto": "ele vem o principal passo recurso Ele é"
+  },
+  {
+   "inicio": 2268,
+   "texto": "um curso quase é quase fiscal que é o"
+  },
+  {
+   "inicio": 2271,
+   "texto": "fato de Apoio ao Trabalhador a ideia de"
+  },
+  {
+   "inicio": 2274,
+   "texto": "com a capitalização do Ben 10 o tesouro"
+  },
+  {
+   "inicio": 2275,
+   "texto": "pode capitalizar mais o Ben 10 para que"
+  },
+  {
+   "inicio": 2278,
+   "texto": "ele possa ter um papel mais atuante Esse"
+  },
+  {
+   "inicio": 2280,
+   "texto": "é uma das possibilidades tem discussão"
+  },
+  {
+   "inicio": 2281,
+   "texto": "Mas isso é subsídio né"
+  },
+  {
+   "inicio": 2284,
+   "texto": "aí acho que não tem não tem não é perda"
+  },
+  {
+   "inicio": 2287,
+   "texto": "pro tesouro o outro é outro mito"
+  },
+  {
+   "inicio": 2289,
+   "texto": "perfeito a ideia de que perdas por"
+  },
+  {
+   "inicio": 2291,
+   "texto": "tesouro se você fina você"
+  },
+  {
+   "inicio": 2294,
+   "texto": "emprestado"
+  },
+  {
+   "inicio": 2296,
+   "texto": "antes eu tinha tjlp até jlb tinha era um"
+  },
+  {
+   "inicio": 2300,
+   "texto": "curto abaixo do curso de ensinamento do"
+  },
+  {
+   "inicio": 2302,
+   "texto": "Tesouro isso é subsídio se você quer ser"
+  },
+  {
+   "inicio": 2305,
+   "texto": "um banco o banco de fomento por"
+  },
+  {
+   "inicio": 2307,
+   "texto": "definição ele pode em certas"
+  },
+  {
+   "inicio": 2309,
+   "texto": "circunstância Em certas áreas que não"
+  },
+  {
+   "inicio": 2310,
+   "texto": "tem retorno perfeito se você quer olha"
+  },
+  {
+   "inicio": 2313,
+   "texto": "com certeza o o financiamento a"
+  },
+  {
+   "inicio": 2318,
+   "texto": "saúde perfeita se não for saúde pública"
+  },
+  {
+   "inicio": 2322,
+   "texto": "de quem não tem não pode pagar o"
+  },
+  {
+   "inicio": 2324,
+   "texto": "hospital da Rede D'Or não vai ter"
+  },
+  {
+   "inicio": 2326,
+   "texto": "retorno perfeito não tem retorno você"
+  },
+  {
+   "inicio": 2328,
+   "texto": "para ele não pode portanto pagar"
+  },
+  {
+   "inicio": 2330,
+   "texto": "especialmente a taxa de juros básicos é"
+  },
+  {
+   "inicio": 2332,
+   "texto": "8% real você imagina quanto vai custar"
+  },
+  {
+   "inicio": 2335,
+   "texto": "pra isso ninguém vai investir então"
+  },
+  {
+   "inicio": 2337,
+   "texto": "muito bem o o Ben 10 você substitui o"
+  },
+  {
+   "inicio": 2340,
+   "texto": "nome por causa para evitar subsídio"
+  },
+  {
+   "inicio": 2341,
+   "texto": "subiu-se uma uma uma taxa que era tjlp"
+  },
+  {
+   "inicio": 2344,
+   "texto": "que permitia ela é subsidiada no sentido"
+  },
+  {
+   "inicio": 2347,
+   "texto": "que era tinha redutor em relação ao"
+  },
+  {
+   "inicio": 2349,
+   "texto": "curto do Tesouro pela tlt que é uma taxa"
+  },
+  {
+   "inicio": 2352,
+   "texto": "baseada na na no curso do tesouro que é"
+  },
+  {
+   "inicio": 2356,
+   "texto": "determinado pelo banco central põe na"
+  },
+  {
+   "inicio": 2357,
+   "texto": "lua e além de mais que um período de"
+  },
+  {
+   "inicio": 2359,
+   "texto": "curto prazo muito com algo a utilidade E"
+  },
+  {
+   "inicio": 2361,
+   "texto": "se inviabiliza qualquer impresso é mais"
+  },
+  {
+   "inicio": 2363,
+   "texto": "ou menos a mesma taxa que se encontra em"
+  },
+  {
+   "inicio": 2365,
+   "texto": "qualquer"
+  },
+  {
+   "inicio": 2372,
+   "texto": "qualquer empresa que está usando o"
+  },
+  {
+   "inicio": 2374,
+   "texto": "crédito a não ser que seja de capital de"
+  },
+  {
+   "inicio": 2376,
+   "texto": "giro de curto prazo aliás e as empresas"
+  },
+  {
+   "inicio": 2378,
+   "texto": "de varejo com o risco sacado é capital"
+  },
+  {
+   "inicio": 2381,
+   "texto": "de giro"
+  },
+  {
+   "inicio": 2382,
+   "texto": "tá fornecedor em princípio quebram em"
+  },
+  {
+   "inicio": 2385,
+   "texto": "dois anos com essa taxa O que é um"
+  },
+  {
+   "inicio": 2386,
+   "texto": "quebra Então se é impossível investir"
+  },
+  {
+   "inicio": 2388,
+   "texto": "nessa tarde"
+  },
+  {
+   "inicio": 2389,
+   "texto": "se nós fazemos o diagnóstico do país o"
+  },
+  {
+   "inicio": 2392,
+   "texto": "país não cresce porque não investe Por"
+  },
+  {
+   "inicio": 2394,
+   "texto": "que que o país não investe mas não"
+  },
+  {
+   "inicio": 2395,
+   "texto": "investe porque a taxa de juros é"
+  },
+  {
+   "inicio": 2397,
+   "texto": "impeditiva de investir e vamos nós por"
+  },
+  {
+   "inicio": 2399,
+   "texto": "isso nós temos que separar digamos assim"
+  },
+  {
+   "inicio": 2400,
+   "texto": "vamos dizer definir o que que é"
+  },
+  {
+   "inicio": 2402,
+   "texto": "investidor e o que que é rentista e que"
+  },
+  {
+   "inicio": 2404,
+   "texto": "que é cientista quem vive emprestando"
+  },
+  {
+   "inicio": 2407,
+   "texto": "botando dinheiro em papéis financeiros"
+  },
+  {
+   "inicio": 2410,
+   "texto": "sobretudo da dívida pública ou de alguns"
+  },
+  {
+   "inicio": 2414,
+   "texto": "emissoras privados investidor é quem de"
+  },
+  {
+   "inicio": 2418,
+   "texto": "fato corre risco e investe na expansão"
+  },
+  {
+   "inicio": 2420,
+   "texto": "da capacidade produtiva e organizacional"
+  },
+  {
+   "inicio": 2422,
+   "texto": "da economia brasileira são uma coisa"
+  },
+  {
+   "inicio": 2424,
+   "texto": "muito diferente Esse vício no mercado"
+  },
+  {
+   "inicio": 2426,
+   "texto": "financeiro o investidor que não é um"
+  },
+  {
+   "inicio": 2428,
+   "texto": "investidor isso é um cientista aqueles"
+  },
+  {
+   "inicio": 2431,
+   "texto": "que vivem de juro de renda e eu tô"
+  },
+  {
+   "inicio": 2433,
+   "texto": "dizendo de novo isso não é pejorativo"
+  },
+  {
+   "inicio": 2434,
+   "texto": "não é perfeitamente razoável que a"
+  },
+  {
+   "inicio": 2436,
+   "texto": "economia tenhatista deve ter uma"
+  },
+  {
+   "inicio": 2437,
+   "texto": "economia rica tem registro que só tá"
+  },
+  {
+   "inicio": 2439,
+   "texto": "defendendo é que o tesouro então ajude o"
+  },
+  {
+   "inicio": 2441,
+   "texto": "BNDS a emprestar dinheiro mais baixo não"
+  },
+  {
+   "inicio": 2443,
+   "texto": "mais barato"
+  },
+  {
+   "inicio": 2448,
+   "texto": "porque o banco central está botando a"
+  },
+  {
+   "inicio": 2450,
+   "texto": "taxa de juros errada primeiro ponto"
+  },
+  {
+   "inicio": 2451,
+   "texto": "segundo se a taxa de juros no Brasil"
+  },
+  {
+   "inicio": 2454,
+   "texto": "tivesse correta tivesse uma taxa real de"
+  },
+  {
+   "inicio": 2457,
+   "texto": "o banco a taxa de juros que o banco"
+  },
+  {
+   "inicio": 2460,
+   "texto": "central o banco controla a taxa de juros"
+  },
+  {
+   "inicio": 2461,
+   "texto": "é muito simples ele não pode pôr a taxa"
+  },
+  {
+   "inicio": 2464,
+   "texto": "de juros a referência não já disse Como"
+  },
+  {
+   "inicio": 2466,
+   "texto": "já disse aqui ele não deve fazer grande"
+  },
+  {
+   "inicio": 2467,
+   "texto": "variações bruscas na taxa de juros nem"
+  },
+  {
+   "inicio": 2469,
+   "texto": "grandes variações então o que que ele"
+  },
+  {
+   "inicio": 2471,
+   "texto": "deve Quais são os limites da taxa de"
+  },
+  {
+   "inicio": 2472,
+   "texto": "juros não faça grandes variações não"
+  },
+  {
+   "inicio": 2474,
+   "texto": "faça movimentos bruscos nunca põe a taxa"
+  },
+  {
+   "inicio": 2477,
+   "texto": "de juros a não ser em casa profissionais"
+  },
+  {
+   "inicio": 2478,
+   "texto": "você precisa estimular a economia abaixo"
+  },
+  {
+   "inicio": 2481,
+   "texto": "da taxa esperada de inflação da meta de"
+  },
+  {
+   "inicio": 2484,
+   "texto": "inflação perfeito"
+  },
+  {
+   "inicio": 2485,
+   "texto": "e depois o banco central depois é a"
+  },
+  {
+   "inicio": 2488,
+   "texto": "única vez nesse século 21 foi que esse"
+  },
+  {
+   "inicio": 2490,
+   "texto": "Banco Central pois a taxa de juros"
+  },
+  {
+   "inicio": 2492,
+   "texto": "abaixo da meta de inflação muito bem"
+  },
+  {
+   "inicio": 2493,
+   "texto": "segundo eh segundo ponto nunca põe a"
+  },
+  {
+   "inicio": 2498,
+   "texto": "taxa de juros a não ser em"
+  },
+  {
+   "inicio": 2499,
+   "texto": "circunstâncias excepcionais que você"
+  },
+  {
+   "inicio": 2501,
+   "texto": "precisa aquecer a economia acima da taxa"
+  },
+  {
+   "inicio": 2505,
+   "texto": "de crescimento esperado da economia com"
+  },
+  {
+   "inicio": 2507,
+   "texto": "isso a taxa de juros será sempre menor"
+  },
+  {
+   "inicio": 2509,
+   "texto": "que a taxa de crescimento por definição"
+  },
+  {
+   "inicio": 2511,
+   "texto": "Isso é isso é aritmética efeito por"
+  },
+  {
+   "inicio": 2515,
+   "texto": "definição a relação dívida PIB vai"
+  },
+  {
+   "inicio": 2518,
+   "texto": "convergir se não houver eh deste"
+  },
+  {
+   "inicio": 2521,
+   "texto": "primário Então isso é muito simples é"
+  },
+  {
+   "inicio": 2524,
+   "texto": "muito simples então basta eu sentir o"
+  },
+  {
+   "inicio": 2526,
+   "texto": "banco central controlado taxa de juros"
+  },
+  {
+   "inicio": 2527,
+   "texto": "ele vai dizer isso vai acabar com com"
+  },
+  {
+   "inicio": 2531,
+   "texto": "esse risco vai dizer Olha eu não vou pôr"
+  },
+  {
+   "inicio": 2533,
+   "texto": "a taxa de juros abaixo da taxa de"
+  },
+  {
+   "inicio": 2535,
+   "texto": "inflação a não ser em condições"
+  },
+  {
+   "inicio": 2537,
+   "texto": "momentâneamente circunstanciais que"
+  },
+  {
+   "inicio": 2539,
+   "texto": "exigem nem vou pôr a taxa de juros acima"
+  },
+  {
+   "inicio": 2542,
+   "texto": "da taxa de crescimento potencial da"
+  },
+  {
+   "inicio": 2543,
+   "texto": "economia Acabou agora o interessante os"
+  },
+  {
+   "inicio": 2546,
+   "texto": "campeões nacionais porque a referência"
+  },
+  {
+   "inicio": 2548,
+   "texto": "que se faz um passado recente é uma"
+  },
+  {
+   "inicio": 2551,
+   "texto": "referência que se faz e muita crítica"
+  },
+  {
+   "inicio": 2554,
+   "texto": "ouvimos né mas a gente tem ouvido muito"
+  },
+  {
+   "inicio": 2556,
+   "texto": "também que é preciso virar a página"
+  },
+  {
+   "inicio": 2557,
+   "texto": "olhar para frente e nessa perspectiva"
+  },
+  {
+   "inicio": 2560,
+   "texto": "estratégicamente Quais são os setores"
+  },
+  {
+   "inicio": 2563,
+   "texto": "segmentos em que há uma aposta que"
+  },
+  {
+   "inicio": 2566,
+   "texto": "investindo poderemos ter retorno melhor"
+  },
+  {
+   "inicio": 2568,
+   "texto": "ou que merece mais essa ajuda nesse"
+  },
+  {
+   "inicio": 2571,
+   "texto": "momento vamos lá primeiro infraestrutura"
+  },
+  {
+   "inicio": 2574,
+   "texto": "física e estrutura social então"
+  },
+  {
+   "inicio": 2577,
+   "texto": "infraestrutura Transportes"
+  },
+  {
+   "inicio": 2584,
+   "texto": "depósitos Urbana e"
+  },
+  {
+   "inicio": 2590,
+   "texto": "rodoviária"
+  },
+  {
+   "inicio": 2591,
+   "texto": "o que for"
+  },
+  {
+   "inicio": 2594,
+   "texto": "estrutura social"
+  },
+  {
+   "inicio": 2597,
+   "texto": "que é ligado"
+  },
+  {
+   "inicio": 2600,
+   "texto": "perfeito fundamental eu marco novo aí"
+  },
+  {
+   "inicio": 2603,
+   "texto": "que é um avanço perfeito porque você não"
+  },
+  {
+   "inicio": 2605,
+   "texto": "precisa fazer isso pode ser feito e"
+  },
+  {
+   "inicio": 2607,
+   "texto": "parceria com setor privado melhor ainda"
+  },
+  {
+   "inicio": 2608,
+   "texto": "de novo estado setor privado podendo"
+  },
+  {
+   "inicio": 2610,
+   "texto": "infraestrutura saúde educação"
+  },
+  {
+   "inicio": 2614,
+   "texto": "primária fundamental educação a partir"
+  },
+  {
+   "inicio": 2617,
+   "texto": "desde lá de baixo isso é muito mais"
+  },
+  {
+   "inicio": 2620,
+   "texto": "importante que a educação superior"
+  },
+  {
+   "inicio": 2621,
+   "texto": "perfeito e não há tá comprovados no"
+  },
+  {
+   "inicio": 2625,
+   "texto": "mundo inteiro todos os lugares se você"
+  },
+  {
+   "inicio": 2628,
+   "texto": "nasce uma família de pobreza absoluta"
+  },
+  {
+   "inicio": 2630,
+   "texto": "tem má alimentação tem desde até medo"
+  },
+  {
+   "inicio": 2634,
+   "texto": "até os três anos de idade a sua"
+  },
+  {
+   "inicio": 2636,
+   "texto": "performance de educação vai ser afetada"
+  },
+  {
+   "inicio": 2638,
+   "texto": "então tratar da questão de pobreza"
+  },
+  {
+   "inicio": 2641,
+   "texto": "absoluta dá um auxílio para a família"
+  },
+  {
+   "inicio": 2643,
+   "texto": "que tem crianças abaixo e não só se ele"
+  },
+  {
+   "inicio": 2646,
+   "texto": "financeiro certa forma o apoio a família"
+  },
+  {
+   "inicio": 2649,
+   "texto": "de pobreza absoluta é fundamental do"
+  },
+  {
+   "inicio": 2652,
+   "texto": "ponto de vista de melhoria da educação"
+  },
+  {
+   "inicio": 2653,
+   "texto": "então saúde e educação são de novo não"
+  },
+  {
+   "inicio": 2658,
+   "texto": "são dissociáveis não precisa ser"
+  },
+  {
+   "inicio": 2660,
+   "texto": "tratadas coerentemente André Você"
+  },
+  {
+   "inicio": 2662,
+   "texto": "desenhou bem para o Rodrigo aí Alguns"
+  },
+  {
+   "inicio": 2664,
+   "texto": "setores que podem sobretudo investimento"
+  },
+  {
+   "inicio": 2666,
+   "texto": "na economia investimento real que a"
+  },
+  {
+   "inicio": 2667,
+   "texto": "gente tava falando aqui Estado e setor"
+  },
+  {
+   "inicio": 2669,
+   "texto": "privado podem né de investimento é"
+  },
+  {
+   "inicio": 2671,
+   "texto": "sempre real tá o resto não é não é o"
+  },
+  {
+   "inicio": 2673,
+   "texto": "outro não é investimento Tá certo eu"
+  },
+  {
+   "inicio": 2676,
+   "texto": "queria te fazer uma pergunta sobre eh a"
+  },
+  {
+   "inicio": 2678,
+   "texto": "questão internacional Rodolfo falou"
+  },
+  {
+   "inicio": 2679,
+   "texto": "Ajuda também sobre integração Regional"
+  },
+  {
+   "inicio": 2682,
+   "texto": "aqui na América do Sul que é o"
+  },
+  {
+   "inicio": 2683,
+   "texto": "presidente Lula sempre teve isso em"
+  },
+  {
+   "inicio": 2686,
+   "texto": "mente e isso pode voltar a pauta e uma"
+  },
+  {
+   "inicio": 2690,
+   "texto": "outra coisa é essa agenda nova da"
+  },
+  {
+   "inicio": 2693,
+   "texto": "economia verde essa capacidade que o"
+  },
+  {
+   "inicio": 2695,
+   "texto": "Lula tem de de conversar com as"
+  },
+  {
+   "inicio": 2697,
+   "texto": "lideranças internacionais de colocar o"
+  },
+  {
+   "inicio": 2698,
+   "texto": "Brasil de novo no mundo no jogo você"
+  },
+  {
+   "inicio": 2701,
+   "texto": "acha que isso já traz um retorno"
+  },
+  {
+   "inicio": 2702,
+   "texto": "imediato pra esse ano pra de repente"
+  },
+  {
+   "inicio": 2704,
+   "texto": "segurar uma economia que não vai dar um"
+  },
+  {
+   "inicio": 2706,
+   "texto": "né não vai dar um solavanco esse ano Mas"
+  },
+  {
+   "inicio": 2708,
+   "texto": "é que segura aí talvez chegue no"
+  },
+  {
+   "inicio": 2711,
+   "texto": "crescimento de 2% do PIB para a gente"
+  },
+  {
+   "inicio": 2713,
+   "texto": "pensar num salto em 24 O que que você tá"
+  },
+  {
+   "inicio": 2715,
+   "texto": "vendo nisso e depois"
+  },
+  {
+   "inicio": 2718,
+   "texto": "plano real se é possível essa ideia ser"
+  },
+  {
+   "inicio": 2722,
+   "texto": "exportada para região aqui sobretudo eu"
+  },
+  {
+   "inicio": 2725,
+   "texto": "não terminei a questão dos investimentos"
+  },
+  {
+   "inicio": 2726,
+   "texto": "claramente o o que tem o investimento"
+  },
+  {
+   "inicio": 2729,
+   "texto": "que tem efeito mais imediato sobre"
+  },
+  {
+   "inicio": 2731,
+   "texto": "recuperação da economia seria Sem dúvida"
+  },
+  {
+   "inicio": 2733,
+   "texto": "nenhuma em habitação"
+  },
+  {
+   "inicio": 2735,
+   "texto": "então a habitação saneamento infrator a"
+  },
+  {
+   "inicio": 2738,
+   "texto": "habitação saneamento para começar ele"
+  },
+  {
+   "inicio": 2740,
+   "texto": "tem efeito o impacto imediato na"
+  },
+  {
+   "inicio": 2742,
+   "texto": "construção civil e para a recuperação da"
+  },
+  {
+   "inicio": 2745,
+   "texto": "economia o agora"
+  },
+  {
+   "inicio": 2747,
+   "texto": "pulando do desse que tem efeito imediato"
+  },
+  {
+   "inicio": 2750,
+   "texto": "porque tem um que é objetivo e longo"
+  },
+  {
+   "inicio": 2753,
+   "texto": "prazo que hoje tem mais fontes de"
+  },
+  {
+   "inicio": 2755,
+   "texto": "financiamento externo de verdade é"
+  },
+  {
+   "inicio": 2757,
+   "texto": "claramente na o investimento que se"
+  },
+  {
+   "inicio": 2760,
+   "texto": "chama ambiental um investimento o Brasil"
+  },
+  {
+   "inicio": 2762,
+   "texto": "e você recompor a riqueza Ambiental do"
+  },
+  {
+   "inicio": 2765,
+   "texto": "Brasil claramente a Floresta Amazônica é"
+  },
+  {
+   "inicio": 2768,
+   "texto": "o principal é ativo disso então este"
+  },
+  {
+   "inicio": 2772,
+   "texto": "investimento a ideia de que o Brasil"
+  },
+  {
+   "inicio": 2774,
+   "texto": "avançar reindustrialização uma ideia de"
+  },
+  {
+   "inicio": 2778,
+   "texto": "uma um investimento criar economia ser"
+  },
+  {
+   "inicio": 2782,
+   "texto": "tem uma agenda produtivista e não"
+  },
+  {
+   "inicio": 2784,
+   "texto": "financista produtivista o país e que"
+  },
+  {
+   "inicio": 2788,
+   "texto": "essa nova produção aumenta a"
+  },
+  {
+   "inicio": 2790,
+   "texto": "produtividade seja numa economia desse"
+  },
+  {
+   "inicio": 2793,
+   "texto": "carbonizada ou seja limpa sem carbono"
+  },
+  {
+   "inicio": 2796,
+   "texto": "que é a agenda que está sendo imposta"
+  },
+  {
+   "inicio": 2798,
+   "texto": "exigido no mundo inteiro é fundamental E"
+  },
+  {
+   "inicio": 2801,
+   "texto": "para isso o Brasil com o país é de"
+  },
+  {
+   "inicio": 2804,
+   "texto": "referência até por causa da Amazônia"
+  },
+  {
+   "inicio": 2806,
+   "texto": "teria tem linhas muito favoráveis no"
+  },
+  {
+   "inicio": 2811,
+   "texto": "mundo e abundante e não são linhas de"
+  },
+  {
+   "inicio": 2814,
+   "texto": "bancos privados são lixo porque são mais"
+  },
+  {
+   "inicio": 2816,
+   "texto": "caras a gente vamos pegar as linhas mais"
+  },
+  {
+   "inicio": 2818,
+   "texto": "baratas você teria linha de organismos"
+  },
+  {
+   "inicio": 2821,
+   "texto": "oficiais todos os ninhos internacionais"
+  },
+  {
+   "inicio": 2823,
+   "texto": "de estados que Estão dispostos a"
+  },
+  {
+   "inicio": 2826,
+   "texto": "financiar este este este que chamaria"
+  },
+  {
+   "inicio": 2829,
+   "texto": "esse investimento Ambiental do Brasil"
+  },
+  {
+   "inicio": 2831,
+   "texto": "isso tem efeito a curto prazo na"
+  },
+  {
+   "inicio": 2834,
+   "texto": "recuperação na economia menos mas tem um"
+  },
+  {
+   "inicio": 2836,
+   "texto": "efeito fundamental na credibilidade do"
+  },
+  {
+   "inicio": 2839,
+   "texto": "país na recuperação ao longo prazo e num"
+  },
+  {
+   "inicio": 2841,
+   "texto": "direcionamento para onde nós vamos e"
+  },
+  {
+   "inicio": 2844,
+   "texto": "isso precisa ser definido imediatamente"
+  },
+  {
+   "inicio": 2845,
+   "texto": "agora só para terminar nós precisamos"
+  },
+  {
+   "inicio": 2848,
+   "texto": "que essa discussão chegue a mídia que"
+  },
+  {
+   "inicio": 2851,
+   "texto": "pare de se falar em risco fiscal"
+  },
+  {
+   "inicio": 2853,
+   "texto": "perfeito em Abismo fiscal enfim em"
+  },
+  {
+   "inicio": 2856,
+   "texto": "discussão o filme a taxa de juros Deve"
+  },
+  {
+   "inicio": 2858,
+   "texto": "ser isso deve ser aquilo era claramente"
+  },
+  {
+   "inicio": 2860,
+   "texto": "essa essa é que é a difusão a verdadeira"
+  },
+  {
+   "inicio": 2862,
+   "texto": "discussão é a discussão de o projeto de"
+  },
+  {
+   "inicio": 2865,
+   "texto": "de por o Brasil numa economia de Século"
+  },
+  {
+   "inicio": 2869,
+   "texto": "21 uma economia digitalizada e ela é"
+  },
+  {
+   "inicio": 2872,
+   "texto": "porque é importante um economia onde o"
+  },
+  {
+   "inicio": 2875,
+   "texto": "estado é profundamente eficiente hoje"
+  },
+  {
+   "inicio": 2877,
+   "texto": "com digitalização o estado pode ser"
+  },
+  {
+   "inicio": 2879,
+   "texto": "muito mais eficiente muito mais"
+  },
+  {
+   "inicio": 2880,
+   "texto": "desburocratizado ele pode custar muito"
+  },
+  {
+   "inicio": 2882,
+   "texto": "menos na sua operação que é fundamental"
+  },
+  {
+   "inicio": 2884,
+   "texto": "e pode ser muito mais fácil ser usado na"
+  },
+  {
+   "inicio": 2887,
+   "texto": "sua interação com o cidadão tanto para"
+  },
+  {
+   "inicio": 2890,
+   "texto": "cumprir os seus desejos como para"
+  },
+  {
+   "inicio": 2892,
+   "texto": "receber os seus direitos a ideia de um"
+  },
+  {
+   "inicio": 2894,
+   "texto": "estupro de uma plataforma digital"
+  },
+  {
+   "inicio": 2897,
+   "texto": "pública e isso substitui hoje é o"
+  },
+  {
+   "inicio": 2900,
+   "texto": "serviços burocráticos Infernais que você"
+  },
+  {
+   "inicio": 2902,
+   "texto": "tem de um estado de um estado confuso e"
+  },
+  {
+   "inicio": 2905,
+   "texto": "isto é isto é um projeto e só nisso já"
+  },
+  {
+   "inicio": 2909,
+   "texto": "nós já temos um projeto maravilhoso para"
+  },
+  {
+   "inicio": 2911,
+   "texto": "os próximos anos"
+  },
+  {
+   "inicio": 2915,
+   "texto": "países colocando dinheiro no Brasil hoje"
+  },
+  {
+   "inicio": 2917,
+   "texto": "no fundo Amazônia e tal você acredita"
+  },
+  {
+   "inicio": 2919,
+   "texto": "que em muito pouco tempo as os grandes"
+  },
+  {
+   "inicio": 2921,
+   "texto": "conglomeradas as grandes empresas vão"
+  },
+  {
+   "inicio": 2923,
+   "texto": "fazer isso também estão fazendo isso de"
+  },
+  {
+   "inicio": 2925,
+   "texto": "uma maneira significativa que possa"
+  },
+  {
+   "inicio": 2927,
+   "texto": "fazer chegar fluxo de Capital no Brasil"
+  },
+  {
+   "inicio": 2930,
+   "texto": "pesado Grande para que a gente possa"
+  },
+  {
+   "inicio": 2932,
+   "texto": "investir nessa economia produtivista"
+  },
+  {
+   "inicio": 2934,
+   "texto": "André vão voltando vamos assim o Brasil"
+  },
+  {
+   "inicio": 2936,
+   "texto": "hoje você começou nós temos ele tem 73%"
+  },
+  {
+   "inicio": 2939,
+   "texto": "de dívida pública financeira pública e"
+  },
+  {
+   "inicio": 2942,
+   "texto": "tem 20% do PIB em reservas"
+  },
+  {
+   "inicio": 2944,
+   "texto": "internacionais então o Brasil hoje não"
+  },
+  {
+   "inicio": 2946,
+   "texto": "precisa de dinheiro externo mas é sempre"
+  },
+  {
+   "inicio": 2949,
+   "texto": "bom ter mais tem que ser bom não precisa"
+  },
+  {
+   "inicio": 2951,
+   "texto": "não depende de recursos externos esse"
+  },
+  {
+   "inicio": 2954,
+   "texto": "isso é um cacoete de um período em que o"
+  },
+  {
+   "inicio": 2956,
+   "texto": "Brasil no século 20 foi sempre"
+  },
+  {
+   "inicio": 2958,
+   "texto": "dependente de recursos externo mas eu"
+  },
+  {
+   "inicio": 2960,
+   "texto": "não precisa de recursos externo ele é"
+  },
+  {
+   "inicio": 2962,
+   "texto": "claro que se ele começar a crescer muito"
+  },
+  {
+   "inicio": 2963,
+   "texto": "rapidamente ele pode até depender Porque"
+  },
+  {
+   "inicio": 2965,
+   "texto": "isso pode virar a ter as suas"
+  },
+  {
+   "inicio": 2967,
+   "texto": "importações de bens de Capital pode"
+  },
+  {
+   "inicio": 2968,
+   "texto": "levar que você precisa de linhas"
+  },
+  {
+   "inicio": 2970,
+   "texto": "externas e investimento externo não é"
+  },
+  {
+   "inicio": 2973,
+   "texto": "não traz só"
+  },
+  {
+   "inicio": 2975,
+   "texto": "é só recurso financeiro ele pode trazer"
+  },
+  {
+   "inicio": 2977,
+   "texto": "isso que você deve procurar ele pode"
+  },
+  {
+   "inicio": 2979,
+   "texto": "trazer tecnologia e absorção de"
+  },
+  {
+   "inicio": 2981,
+   "texto": "tecnologia e esse que é o critério que"
+  },
+  {
+   "inicio": 2983,
+   "texto": "você deve avaliar para trazer"
+  },
+  {
+   "inicio": 2985,
+   "texto": "investimento externo ele está trazendo"
+  },
+  {
+   "inicio": 2986,
+   "texto": "tecnologia está permitindo a absorção de"
+  },
+  {
+   "inicio": 2989,
+   "texto": "tecnologia e a tecnologia do mundo hoje"
+  },
+  {
+   "inicio": 2992,
+   "texto": "está Mudando completamente todas as"
+  },
+  {
+   "inicio": 2993,
+   "texto": "áreas da economia isso é fundamental"
+  },
+  {
+   "inicio": 2995,
+   "texto": "isso nós temos que fazer agora sua"
+  },
+  {
+   "inicio": 2998,
+   "texto": "pergunta hoje para essa questão"
+  },
+  {
+   "inicio": 3000,
+   "texto": "ambiental os Fundos oficiais são muito"
+  },
+  {
+   "inicio": 3004,
+   "texto": "mais abundantes e mais mais mais baratos"
+  },
+  {
+   "inicio": 3008,
+   "texto": "do que você tem investimentos do setor"
+  },
+  {
+   "inicio": 3010,
+   "texto": "privado claramente no setor privado vem"
+  },
+  {
+   "inicio": 3014,
+   "texto": "a reboque ele se gerar isso mais à"
+  },
+  {
+   "inicio": 3016,
+   "texto": "frente perfeito mas não é isso que é"
+  },
+  {
+   "inicio": 3017,
+   "texto": "importante o Brasil Por que que você tem"
+  },
+  {
+   "inicio": 3020,
+   "texto": "que ser tão dependente de de"
+  },
+  {
+   "inicio": 3022,
+   "texto": "investimentos privados externos olha"
+  },
+  {
+   "inicio": 3024,
+   "texto": "investimento privados externo se torcer"
+  },
+  {
+   "inicio": 3026,
+   "texto": "a tecnologia e permitir uma grande"
+  },
+  {
+   "inicio": 3029,
+   "texto": "absorção de tecnologia aqui perfeito"
+  },
+  {
+   "inicio": 3033,
+   "texto": "os Estados Unidos"
+  },
+  {
+   "inicio": 3035,
+   "texto": "muito e"
+  },
+  {
+   "inicio": 3036,
+   "texto": "a inflação explodiu lá né passou a"
+  },
+  {
+   "inicio": 3040,
+   "texto": "superou os 9% ao inédito e eles estão"
+  },
+  {
+   "inicio": 3044,
+   "texto": "tendo que"
+  },
+  {
+   "inicio": 3045,
+   "texto": "correr atrás agora do prejuízo para"
+  },
+  {
+   "inicio": 3048,
+   "texto": "poder trazer essa inflação para baixo né"
+  },
+  {
+   "inicio": 3051,
+   "texto": "os números da nossa inflação apontam 5.8"
+  },
+  {
+   "inicio": 3055,
+   "texto": "mas sem aquela decisão do congresso de"
+  },
+  {
+   "inicio": 3058,
+   "texto": "reduzir os impostos de combustíveis e"
+  },
+  {
+   "inicio": 3062,
+   "texto": "energia estariam ali na casa dos nove"
+  },
+  {
+   "inicio": 3064,
+   "texto": "por cento então Digamos que a gente tem"
+  },
+  {
+   "inicio": 3067,
+   "texto": "uma uma inflação não de 5.8 mas talvez"
+  },
+  {
+   "inicio": 3071,
+   "texto": "algo no meio do caminho entre 5.8 e 9 8"
+  },
+  {
+   "inicio": 3076,
+   "texto": "se eu não tenho um aumento de política"
+  },
+  {
+   "inicio": 3080,
+   "texto": "uma expansão de política é fiscal e"
+  },
+  {
+   "inicio": 3083,
+   "texto": "monetária que possa a gente perder a mão"
+  },
+  {
+   "inicio": 3086,
+   "texto": "com a inflação Juliana eu a minha vida"
+  },
+  {
+   "inicio": 3090,
+   "texto": "inteira foi preocupada com inflação"
+  },
+  {
+   "inicio": 3095,
+   "texto": "Participei de todos os planos de combate"
+  },
+  {
+   "inicio": 3097,
+   "texto": "à infração do Brasil os bens sucedidos"
+  },
+  {
+   "inicio": 3098,
+   "texto": "mal sucedidos o bem sucedido real"
+  },
+  {
+   "inicio": 3100,
+   "texto": "perfeito Minha tese sobre inflação eu"
+  },
+  {
+   "inicio": 3103,
+   "texto": "sou a pessoa mais preocupada com"
+  },
+  {
+   "inicio": 3104,
+   "texto": "infração não sei quão importante"
+  },
+  {
+   "inicio": 3105,
+   "texto": "inflação conter inflação é perfeito"
+  },
+  {
+   "inicio": 3107,
+   "texto": "agora você você começou a sua pergunta"
+  },
+  {
+   "inicio": 3111,
+   "texto": "com viés os Estados Unidos gastaram e aí"
+  },
+  {
+   "inicio": 3113,
+   "texto": "criou a inflação americana não tem nada"
+  },
+  {
+   "inicio": 3116,
+   "texto": "a ver com Castor os Estados Unidos o"
+  },
+  {
+   "inicio": 3118,
+   "texto": "gastou multiplicou a base monetária em"
+  },
+  {
+   "inicio": 3120,
+   "texto": "2007 2008 para salvar o sistema"
+  },
+  {
+   "inicio": 3122,
+   "texto": "financeiro que tinha que fazer não tô"
+  },
+  {
+   "inicio": 3124,
+   "texto": "fazendo uma uma demagogia disso não"
+  },
+  {
+   "inicio": 3126,
+   "texto": "porque teria levada em relação eles"
+  },
+  {
+   "inicio": 3128,
+   "texto": "gastaram demais"
+  },
+  {
+   "inicio": 3131,
+   "texto": "a palavra os Estados Unidos emitiram"
+  },
+  {
+   "inicio": 3134,
+   "texto": "moeda passar na base monetária de 3% do"
+  },
+  {
+   "inicio": 3136,
+   "texto": "PIB para 10% do PIB 27 tem uma crise que"
+  },
+  {
+   "inicio": 3140,
+   "texto": "talvez houve um exagera então talvez"
+  },
+  {
+   "inicio": 3142,
+   "texto": "tenha me colocado não teve inflação"
+  },
+  {
+   "inicio": 3144,
+   "texto": "nenhuma em 2007 2008 pelo contrário"
+  },
+  {
+   "inicio": 3146,
+   "texto": "saíamos de 2017 2008 depois dos Estados"
+  },
+  {
+   "inicio": 3148,
+   "texto": "Unidos multiplicar a base monetária por"
+  },
+  {
+   "inicio": 3150,
+   "texto": "10 um fator de 10 e passou nós passamos"
+  },
+  {
+   "inicio": 3152,
+   "texto": "10 anos 11 anos com com ameaça de"
+  },
+  {
+   "inicio": 3156,
+   "texto": "deflação nos Estados Unidos e no mundo"
+  },
+  {
+   "inicio": 3157,
+   "texto": "agora quando ver a pandemia os Estados"
+  },
+  {
+   "inicio": 3160,
+   "texto": "Unidos dobrou a dose mais uma vez pegou"
+  },
+  {
+   "inicio": 3163,
+   "texto": "a base militar que já tava muito mais"
+  },
+  {
+   "inicio": 3165,
+   "texto": "alta perfeito e triplicou"
+  },
+  {
+   "inicio": 3167,
+   "texto": "e deu distribuiu o cheque"
+  },
+  {
+   "inicio": 3171,
+   "texto": "para a população corretamente para"
+  },
+  {
+   "inicio": 3174,
+   "texto": "evitar uma catástrofe que a pandemia"
+  },
+  {
+   "inicio": 3175,
+   "texto": "podia ter acontecido o efeito foi a"
+  },
+  {
+   "inicio": 3179,
+   "texto": "saída da pandemia quando as pessoas"
+  },
+  {
+   "inicio": 3181,
+   "texto": "estavam desesperadas para viajar para"
+  },
+  {
+   "inicio": 3184,
+   "texto": "comprar coisas para sair deixar de"
+  },
+  {
+   "inicio": 3186,
+   "texto": "comprar em só em plataforma digital e a"
+  },
+  {
+   "inicio": 3189,
+   "texto": "loja e a restaurante perfeito esse"
+  },
+  {
+   "inicio": 3192,
+   "texto": "efeito esse efeito coincidiu com o"
+  },
+  {
+   "inicio": 3196,
+   "texto": "efeito que a economia no mundo inteiro"
+  },
+  {
+   "inicio": 3198,
+   "texto": "estava desorganizada os portos"
+  },
+  {
+   "inicio": 3199,
+   "texto": "americanos tinha como entrar é"
+  },
+  {
+   "inicio": 3203,
+   "texto": "mercadoria todas as redes as cadeias"
+  },
+  {
+   "inicio": 3207,
+   "texto": "produtivas Eu tenho um amigo que é que é"
+  },
+  {
+   "inicio": 3209,
+   "texto": "brasileiro toda aposta trabalha no"
+  },
+  {
+   "inicio": 3211,
+   "texto": "sofrimento da porta e eles Olha você não"
+  },
+  {
+   "inicio": 3213,
+   "texto": "tem noção nós não conseguimos entregar"
+  },
+  {
+   "inicio": 3214,
+   "texto": "carro porque eu não consigo não tem não"
+  },
+  {
+   "inicio": 3216,
+   "texto": "tinha microchip para automóveis Então os"
+  },
+  {
+   "inicio": 3219,
+   "texto": "automóveis todos"
+  },
+  {
+   "inicio": 3220,
+   "texto": "ofertas se contraiu houve uma pressão"
+  },
+  {
+   "inicio": 3223,
+   "texto": "inflacionária"
+  },
+  {
+   "inicio": 3225,
+   "texto": "em cima dessa por exemplo"
+  },
+  {
+   "inicio": 3227,
+   "texto": "que"
+  },
+  {
+   "inicio": 3229,
+   "texto": "subiu o preço de energia de petróleo e"
+  },
+  {
+   "inicio": 3231,
+   "texto": "Toda energia e de alimentos por causa"
+  },
+  {
+   "inicio": 3234,
+   "texto": "inclusive de fertilizantes Espera aí"
+  },
+  {
+   "inicio": 3235,
+   "texto": "então esta esta foi a inflação não tem"
+  },
+  {
+   "inicio": 3238,
+   "texto": "nada a ver com os Estados Unidos gastou"
+  },
+  {
+   "inicio": 3239,
+   "texto": "mais segundo só a última coisa que eu"
+  },
+  {
+   "inicio": 3242,
+   "texto": "vou falar se taxa de juros alta combater"
+  },
+  {
+   "inicio": 3245,
+   "texto": "essa inflação não precisa ter feito o"
+  },
+  {
+   "inicio": 3247,
+   "texto": "plano real quando eu fui diretor do"
+  },
+  {
+   "inicio": 3248,
+   "texto": "Banco Central eu assumi com a taxa de"
+  },
+  {
+   "inicio": 3250,
+   "texto": "juros do real mais alto da história"
+  },
+  {
+   "inicio": 3251,
+   "texto": "perfeito Quando assumir e não tinha nem"
+  },
+  {
+   "inicio": 3256,
+   "texto": "sinal de que a inflação ia receber"
+  },
+  {
+   "inicio": 3258,
+   "texto": "por que que precisa de plano real é só"
+  },
+  {
+   "inicio": 3261,
+   "texto": "subir a taxa de juro é o que dizem que"
+  },
+  {
+   "inicio": 3263,
+   "texto": "isso não vai colocar em risco um aumento"
+  },
+  {
+   "inicio": 3265,
+   "texto": "de inflação maior ainda no Brasil é a"
+  },
+  {
+   "inicio": 3268,
+   "texto": "questão do gasto maior"
+  },
+  {
+   "inicio": 3270,
+   "texto": "porque gasta um homem o gás"
+  },
+  {
+   "inicio": 3274,
+   "texto": "onde é que você viu o gasto nós estamos"
+  },
+  {
+   "inicio": 3277,
+   "texto": "saindo de 1,3% de de superágio primário"
+  },
+  {
+   "inicio": 3279,
+   "texto": "no ano passado agora esse ano o que o"
+  },
+  {
+   "inicio": 3282,
+   "texto": "autorizado pela PEC é mais 2%. significa"
+  },
+  {
+   "inicio": 3286,
+   "texto": "se gastar tudo e arrecadação tá"
+  },
+  {
+   "inicio": 3288,
+   "texto": "arrecadação é surpreender mais uma vez a"
+  },
+  {
+   "inicio": 3290,
+   "texto": "arrecadações você não vai surpreender"
+  },
+  {
+   "inicio": 3291,
+   "texto": "positivamente Então se arrecadação"
+  },
+  {
+   "inicio": 3294,
+   "texto": "ficasse onde estava meio livre e o você"
+  },
+  {
+   "inicio": 3297,
+   "texto": "gastasse os dois por cento integral da"
+  },
+  {
+   "inicio": 3298,
+   "texto": "PEC que não vai conseguir perfeito"
+  },
+  {
+   "inicio": 3299,
+   "texto": "porque a PEC tem muito ela autorizou e"
+  },
+  {
+   "inicio": 3302,
+   "texto": "você não tem tempo para gastar se você"
+  },
+  {
+   "inicio": 3303,
+   "texto": "fizesse isso você teria equilíbrio"
+  },
+  {
+   "inicio": 3306,
+   "texto": "equilíbrio é primário o orçamento a"
+  },
+  {
+   "inicio": 3309,
+   "texto": "previsão é que você possa ter um um"
+  },
+  {
+   "inicio": 3311,
+   "texto": "défice primário de 1%. isso é grave"
+  },
+  {
+   "inicio": 3313,
+   "texto": "Claro que não se você reduzir essa taxa"
+  },
+  {
+   "inicio": 3315,
+   "texto": "de juro moderadamente Então não é para"
+  },
+  {
+   "inicio": 3317,
+   "texto": "fazer uma coisa trágica não levar"
+  },
+  {
+   "inicio": 3319,
+   "texto": "segundo a sua sugestão levar pra botar o"
+  },
+  {
+   "inicio": 3322,
+   "texto": "Tacho o Tacho real igual ao do México"
+  },
+  {
+   "inicio": 3324,
+   "texto": "leva para hoje isso aí economizaria mais"
+  },
+  {
+   "inicio": 3327,
+   "texto": "do que esses dois por cento que nós"
+  },
+  {
+   "inicio": 3328,
+   "texto": "vamos tendo graça da PEC agora eu"
+  },
+  {
+   "inicio": 3330,
+   "texto": "gostaria de aproveitar o final Claro"
+  },
+  {
+   "inicio": 3331,
+   "texto": "aproveitar o momento da discussão fiscal"
+  },
+  {
+   "inicio": 3334,
+   "texto": "porque O Grande Debate hoje é sobre uma"
+  },
+  {
+   "inicio": 3337,
+   "texto": "nova Âncora fiscal e a primeira pergunta"
+  },
+  {
+   "inicio": 3340,
+   "texto": "que eu faço essa realmente a política do"
+  },
+  {
+   "inicio": 3342,
+   "texto": "teto de gastos se esgotou E qual seria o"
+  },
+  {
+   "inicio": 3346,
+   "texto": "caminho porque Vamos enfrentar esse"
+  },
+  {
+   "inicio": 3348,
+   "texto": "debate e é um debate prioritário neste"
+  },
+  {
+   "inicio": 3349,
+   "texto": "ano muito bem é claramente que sim Você"
+  },
+  {
+   "inicio": 3353,
+   "texto": "precisa ter eu não gosto da palavra"
+  },
+  {
+   "inicio": 3354,
+   "texto": "Âncora fiscal isso de novo é um"
+  },
+  {
+   "inicio": 3356,
+   "texto": "neologismo de Economia"
+  },
+  {
+   "inicio": 3358,
+   "texto": "economicismo que se usa em livros em"
+  },
+  {
+   "inicio": 3361,
+   "texto": "tempos de Economia você precisa discutir"
+  },
+  {
+   "inicio": 3363,
+   "texto": "um regime fiscal Qual é o regime fiscal"
+  },
+  {
+   "inicio": 3365,
+   "texto": "response de responsabilidade o governo"
+  },
+  {
+   "inicio": 3367,
+   "texto": "tem que gastar bem Como é que é Esse"
+  },
+  {
+   "inicio": 3369,
+   "texto": "regime o regime que que limita o teto o"
+  },
+  {
+   "inicio": 3373,
+   "texto": "limita com um teto constitucional Esse é"
+  },
+  {
+   "inicio": 3376,
+   "texto": "um grande problema graças a Deus a"
+  },
+  {
+   "inicio": 3377,
+   "texto": "grande mudança foi que nós conseguimos"
+  },
+  {
+   "inicio": 3378,
+   "texto": "que e agora sai da Constituição feito"
+  },
+  {
+   "inicio": 3381,
+   "texto": "esse teto constitucional claramente bom"
+  },
+  {
+   "inicio": 3384,
+   "texto": "mas se você quando você limita o o o"
+  },
+  {
+   "inicio": 3387,
+   "texto": "gasto com um teto constitucional e o"
+  },
+  {
+   "inicio": 3391,
+   "texto": "gasto tem que tanto gasto obrigatório"
+  },
+  {
+   "inicio": 3393,
+   "texto": "continua a crescer Sobretudo o"
+  },
+  {
+   "inicio": 3396,
+   "texto": "Previdenciário não se fala mais falava"
+  },
+  {
+   "inicio": 3399,
+   "texto": "em reforma da Previdência aí fez uma"
+  },
+  {
+   "inicio": 3400,
+   "texto": "reforma do sódio do INSS mas a reforma a"
+  },
+  {
+   "inicio": 3404,
+   "texto": "Previdência que é complicada que é a"
+  },
+  {
+   "inicio": 3405,
+   "texto": "Previdência pública a imprensa esqueceu"
+  },
+  {
+   "inicio": 3407,
+   "texto": "porque não não paramos de falar nisso"
+  },
+  {
+   "inicio": 3409,
+   "texto": "agora não é mais assunto agora"
+  },
+  {
+   "inicio": 3411,
+   "texto": "Sinceramente esse é o grande problema e"
+  },
+  {
+   "inicio": 3414,
+   "texto": "o que esse gasto essas despesas"
+  },
+  {
+   "inicio": 3415,
+   "texto": "correntes obrigatórias foram crescendo e"
+  },
+  {
+   "inicio": 3417,
+   "texto": "foram comprimindo as despesas as"
+  },
+  {
+   "inicio": 3420,
+   "texto": "despesas discricionárias Onde está o"
+  },
+  {
+   "inicio": 3422,
+   "texto": "espaço de investimento comprimir um"
+  },
+  {
+   "inicio": 3424,
+   "texto": "investimento público obviamente que isso"
+  },
+  {
+   "inicio": 3427,
+   "texto": "não faz sentido Não é saudável segundo"
+  },
+  {
+   "inicio": 3429,
+   "texto": "ao fazer isso e criar uma um um"
+  },
+  {
+   "inicio": 3432,
+   "texto": "teto constitucional você põe de certa"
+  },
+  {
+   "inicio": 3435,
+   "texto": "forma você fragiliza o executivo e"
+  },
+  {
+   "inicio": 3437,
+   "texto": "favorece o congresso que nós vimos no"
+  },
+  {
+   "inicio": 3442,
+   "texto": "ano passado com o orçamento secreto"
+  },
+  {
+   "inicio": 3444,
+   "texto": "perfeito as emendas de relator que que é"
+  },
+  {
+   "inicio": 3448,
+   "texto": "uma coisa o que é legal agora a ideia de"
+  },
+  {
+   "inicio": 3450,
+   "texto": "que você não tenha não tenha"
+  },
+  {
+   "inicio": 3451,
+   "texto": "visibilidade transparência não fazem mal"
+  },
+  {
+   "inicio": 3454,
+   "texto": "sentido"
+  },
+  {
+   "inicio": 3454,
+   "texto": "Este é o verdadeiro gasto Este é o Gato"
+  },
+  {
+   "inicio": 3457,
+   "texto": "patrimonialista demagógico perfeito esse"
+  },
+  {
+   "inicio": 3461,
+   "texto": "é que é o curso eu queria evitar você"
+  },
+  {
+   "inicio": 3463,
+   "texto": "então o tiro saiu pela culatra então nós"
+  },
+  {
+   "inicio": 3465,
+   "texto": "precisamos desenhar um regime fiscal que"
+  },
+  {
+   "inicio": 3467,
+   "texto": "defina porque o orçamento é a peça de"
+  },
+  {
+   "inicio": 3471,
+   "texto": "condução da da política da política do"
+  },
+  {
+   "inicio": 3474,
+   "texto": "país e então como é que você define isso"
+  },
+  {
+   "inicio": 3477,
+   "texto": "como é que é um regime fiscal coerente"
+  },
+  {
+   "inicio": 3478,
+   "texto": "não é pressão de âncora é uma questão e"
+  },
+  {
+   "inicio": 3481,
+   "texto": "a ideia de de limites é"
+  },
+  {
+   "inicio": 3485,
+   "texto": "inflexíveis é um equívoco você precisa"
+  },
+  {
+   "inicio": 3488,
+   "texto": "ter certas referências que que você faz"
+  },
+  {
+   "inicio": 3490,
+   "texto": "e você se você não não é não atingir as"
+  },
+  {
+   "inicio": 3494,
+   "texto": "referências objetivos determinado você"
+  },
+  {
+   "inicio": 3497,
+   "texto": "precisa que se explique e que você que o"
+  },
+  {
+   "inicio": 3499,
+   "texto": "o o governo ela diga que medida vai"
+  },
+  {
+   "inicio": 3503,
+   "texto": "tomar para voltar a convergir para a os"
+  },
+  {
+   "inicio": 3506,
+   "texto": "objetivos muito parecido com o regime de"
+  },
+  {
+   "inicio": 3508,
+   "texto": "metas algo que por exemplo esse presente"
+  },
+  {
+   "inicio": 3510,
+   "texto": "falou sobre o comprometimento de redução"
+  },
+  {
+   "inicio": 3511,
+   "texto": "de dívida chegou a falar sobre quem sabe"
+  },
+  {
+   "inicio": 3513,
+   "texto": "a questão do primário algum caminho tem"
+  },
+  {
+   "inicio": 3516,
+   "texto": "que ser desenhado e o quanto antes né"
+  },
+  {
+   "inicio": 3518,
+   "texto": "sim mas eu acho que não deve não é eu"
+  },
+  {
+   "inicio": 3520,
+   "texto": "acho aí é uma questão isso nós vamos"
+  },
+  {
+   "inicio": 3522,
+   "texto": "discutir no seminário agora em Lisboa"
+  },
+  {
+   "inicio": 3523,
+   "texto": "nós vamos ter os times no seminário aqui"
+  },
+  {
+   "inicio": 3525,
+   "texto": "em março tá sendo todo mundo tá"
+  },
+  {
+   "inicio": 3526,
+   "texto": "discutindo isso tem várias propostas"
+  },
+  {
+   "inicio": 3527,
+   "texto": "isso tá em discussão na na na europeia e"
+  },
+  {
+   "inicio": 3531,
+   "texto": "a ideia é que você substitua essas"
+  },
+  {
+   "inicio": 3533,
+   "texto": "regras inflexíveis por certos critérios"
+  },
+  {
+   "inicio": 3536,
+   "texto": "e inteligentes irracionais de"
+  },
+  {
+   "inicio": 3538,
+   "texto": "funcionamento critérios com objetivos"
+  },
+  {
+   "inicio": 3540,
+   "texto": "que o gasto público seja coerente com a"
+  },
+  {
+   "inicio": 3545,
+   "texto": "situação com a situação económica do"
+  },
+  {
+   "inicio": 3547,
+   "texto": "país com com seus objetivos e que você"
+  },
+  {
+   "inicio": 3549,
+   "texto": "não tenha um um descontrole da da das"
+  },
+  {
+   "inicio": 3553,
+   "texto": "Finanças Públicas tributária chegou o"
+  },
+  {
+   "inicio": 3555,
+   "texto": "momento de votar reforma tributária"
+  },
+  {
+   "inicio": 3558,
+   "texto": "Eu não acho eu não acho que esse é uma"
+  },
+  {
+   "inicio": 3561,
+   "texto": "boa ideia porque a reforma tributária"
+  },
+  {
+   "inicio": 3563,
+   "texto": "todo mundo é a favor perfeito há muitos"
+  },
+  {
+   "inicio": 3565,
+   "texto": "anos é todo mundo a ideia da"
+  },
+  {
+   "inicio": 3567,
+   "texto": "simplificação e da criação do Imposto"
+  },
+  {
+   "inicio": 3569,
+   "texto": "sobre valor relacionado um Iva são é em"
+  },
+  {
+   "inicio": 3572,
+   "texto": "princípio uma uma muito boa ideia só que"
+  },
+  {
+   "inicio": 3575,
+   "texto": "ela provoca com todo o tema tributário"
+  },
+  {
+   "inicio": 3576,
+   "texto": "ele provoca provoca tantas reações todo"
+  },
+  {
+   "inicio": 3579,
+   "texto": "mundo é a favor desde que não no meu"
+  },
+  {
+   "inicio": 3581,
+   "texto": "lado aqui então você tem resistências"
+  },
+  {
+   "inicio": 3583,
+   "texto": "por todos os lados Então não é à toa que"
+  },
+  {
+   "inicio": 3586,
+   "texto": "ela nunca foi aprovada"
+  },
+  {
+   "inicio": 3587,
+   "texto": "e eu acho muito difícil que ela seja"
+  },
+  {
+   "inicio": 3590,
+   "texto": "aprovada a não ser para usar o termo do"
+  },
+  {
+   "inicio": 3593,
+   "texto": "Legislativo do congresso fatiada você"
+  },
+  {
+   "inicio": 3596,
+   "texto": "teria que fatia-las e dividir e enviar"
+  },
+  {
+   "inicio": 3598,
+   "texto": "em várias etapas vai ser quase que a"
+  },
+  {
+   "inicio": 3600,
+   "texto": "Previdência que o senhor está agora"
+  },
+  {
+   "inicio": 3604,
+   "texto": "Quando você você vai fatiar vai tomar"
+  },
+  {
+   "inicio": 3608,
+   "texto": "tempo então eu não acho que a forma"
+  },
+  {
+   "inicio": 3610,
+   "texto": "tributária e a modernização e a"
+  },
+  {
+   "inicio": 3613,
+   "texto": "simplificação do sistema tributária é"
+  },
+  {
+   "inicio": 3615,
+   "texto": "fundamental e é e criar mais é dele é"
+  },
+  {
+   "inicio": 3619,
+   "texto": "menos menos concentrador é é muito"
+  },
+  {
+   "inicio": 3622,
+   "texto": "importante tanto na no imposto indireto"
+  },
+  {
+   "inicio": 3626,
+   "texto": "como depois no imposto direto Imposto de"
+  },
+  {
+   "inicio": 3628,
+   "texto": "Renda embora não é aí que se faça"
+  },
+  {
+   "inicio": 3630,
+   "texto": "mudanças na distribuição de renda e de"
+  },
+  {
+   "inicio": 3633,
+   "texto": "pobreza do país mas é importante um"
+  },
+  {
+   "inicio": 3636,
+   "texto": "simbólico isto deve ser feito mas é não"
+  },
+  {
+   "inicio": 3640,
+   "texto": "é eu não acho que isso que isso possa"
+  },
+  {
+   "inicio": 3642,
+   "texto": "ser posto como o principal objetivo do"
+  },
+  {
+   "inicio": 3645,
+   "texto": "país eu preciso é objetivo do país é"
+  },
+  {
+   "inicio": 3646,
+   "texto": "definir uma recuperação do"
+  },
+  {
+   "inicio": 3648,
+   "texto": "desenvolvimento uma um país o Brasil não"
+  },
+  {
+   "inicio": 3650,
+   "texto": "tem porque o Brasil não crescer pelo"
+  },
+  {
+   "inicio": 3653,
+   "texto": "menos pelo menos cinco seis sete por"
+  },
+  {
+   "inicio": 3655,
+   "texto": "cento ao ano Durante os próximos anos"
+  },
+  {
+   "inicio": 3657,
+   "texto": "como cresceram todas as economias"
+  },
+  {
+   "inicio": 3659,
+   "texto": "asiáticas só rapidamente para terminar"
+  },
+  {
+   "inicio": 3662,
+   "texto": "só uma coisa quase também a homenagem"
+  },
+  {
+   "inicio": 3664,
+   "texto": "Nossa aqui do Canal Livre é a quando a"
+  },
+  {
+   "inicio": 3668,
+   "texto": "gente terminou com a periflação com o"
+  },
+  {
+   "inicio": 3669,
+   "texto": "plano real isso empurrou o Brasil para o"
+  },
+  {
+   "inicio": 3671,
+   "texto": "século 21 que agora precisa retomar esse"
+  },
+  {
+   "inicio": 3673,
+   "texto": "caminho aí de crescimento e"
+  },
+  {
+   "inicio": 3674,
+   "texto": "desenvolvimento Mas uma pergunta que me"
+  },
+  {
+   "inicio": 3676,
+   "texto": "você que tem obsessão pela inflação Como"
+  },
+  {
+   "inicio": 3678,
+   "texto": "disse"
+  },
+  {
+   "inicio": 3678,
+   "texto": "é por que que essa tecnologia"
+  },
+  {
+   "inicio": 3680,
+   "texto": "brasileira que debelou a inflação e por"
+  },
+  {
+   "inicio": 3683,
+   "texto": "inflação ela não pode ser usada em"
+  },
+  {
+   "inicio": 3685,
+   "texto": "nenhum outro lugar ou ela não é aplicada"
+  },
+  {
+   "inicio": 3686,
+   "texto": "em outro lugar como na Argentina por"
+  },
+  {
+   "inicio": 3688,
+   "texto": "exemplo você tem essa indagação não"
+  },
+  {
+   "inicio": 3692,
+   "texto": "porque porque a inflação ao contrário"
+  },
+  {
+   "inicio": 3694,
+   "texto": "que as pessoas imaginam é a situação não"
+  },
+  {
+   "inicio": 3697,
+   "texto": "vem de um de um de um problema econômico"
+  },
+  {
+   "inicio": 3700,
+   "texto": "eu faço um vende um problema político é"
+  },
+  {
+   "inicio": 3702,
+   "texto": "o a moeda a moeda é um instrumento é"
+  },
+  {
+   "inicio": 3706,
+   "texto": "político é uma moeda é a unidade de"
+  },
+  {
+   "inicio": 3707,
+   "texto": "conta do estado que a economia com todo"
+  },
+  {
+   "inicio": 3711,
+   "texto": "utiliza se o estado se desorganiza e"
+  },
+  {
+   "inicio": 3713,
+   "texto": "perde legitimidade se com desorganismos"
+  },
+  {
+   "inicio": 3715,
+   "texto": "esse sistema de contabilidade fica"
+  },
+  {
+   "inicio": 3717,
+   "texto": "questionado e eu não aceito mais essa"
+  },
+  {
+   "inicio": 3719,
+   "texto": "unidade de conta doméstica de um estado"
+  },
+  {
+   "inicio": 3721,
+   "texto": "que perdeu então diz o que provoca"
+  },
+  {
+   "inicio": 3723,
+   "texto": "inflação é desorganização do Estado o"
+  },
+  {
+   "inicio": 3725,
+   "texto": "que se chama em inglês feitos estados"
+  },
+  {
+   "inicio": 3727,
+   "texto": "que é que é desorganizaram completamente"
+  },
+  {
+   "inicio": 3732,
+   "texto": "fracassação sempre tem inflação perfeito"
+  },
+  {
+   "inicio": 3735,
+   "texto": "é o caso da Venezuela o que aconteceu"
+  },
+  {
+   "inicio": 3736,
+   "texto": "disso"
+  },
+  {
+   "inicio": 3738,
+   "texto": "é muito confuso então o plano real a URV"
+  },
+  {
+   "inicio": 3743,
+   "texto": "é uma ideia é um isso é simplesmente um"
+  },
+  {
+   "inicio": 3746,
+   "texto": "mecanismo de"
+  },
+  {
+   "inicio": 3748,
+   "texto": "desinnexar a refração do passado mas"
+  },
+  {
+   "inicio": 3751,
+   "texto": "você precisa que haja que o país perceba"
+  },
+  {
+   "inicio": 3755,
+   "texto": "que está que está com uma organização"
+  },
+  {
+   "inicio": 3758,
+   "texto": "política institucional estável se não"
+  },
+  {
+   "inicio": 3761,
+   "texto": "houver isso não há como combater"
+  },
+  {
+   "inicio": 3763,
+   "texto": "inflação perfeito e a verdadeira"
+  },
+  {
+   "inicio": 3765,
+   "texto": "inflação só aparece quando cria-se perde"
+  },
+  {
+   "inicio": 3768,
+   "texto": "credibilidade institucional legitimidade"
+  },
+  {
+   "inicio": 3771,
+   "texto": "nos dado Este é o ponto fundamental Não"
+  },
+  {
+   "inicio": 3774,
+   "texto": "tem nada a ver com moeda com emissão de"
+  },
+  {
+   "inicio": 3776,
+   "texto": "moeda como está demonstrado perfeito e"
+  },
+  {
+   "inicio": 3779,
+   "texto": "eu acho muito engraçado porque isso tá"
+  },
+  {
+   "inicio": 3781,
+   "texto": "demonstrar por isso que eu terminei meu"
+  },
+  {
+   "inicio": 3783,
+   "texto": "artigo citando o James filho do Johnny"
+  },
+  {
+   "inicio": 3787,
+   "texto": "eu falei recentemente disse olha é é"
+  },
+  {
+   "inicio": 3791,
+   "texto": "tentar"
+  },
+  {
+   "inicio": 3794,
+   "texto": "mudar a opinião mudar aquilo que todo"
+  },
+  {
+   "inicio": 3796,
+   "texto": "mundo sabe todo mundo sabe é porque o"
+  },
+  {
+   "inicio": 3799,
+   "texto": "governo gasta muito tentar mudar isso"
+  },
+  {
+   "inicio": 3801,
+   "texto": "com Fatos e lógica é impossível então"
+  },
+  {
+   "inicio": 3805,
+   "texto": "primeiro que as pessoas não presta"
+  },
+  {
+   "inicio": 3807,
+   "texto": "atenção e repetem sem parar isso"
+  },
+  {
+   "inicio": 3809,
+   "texto": "perfeito Então mas não é verdade não é"
+  },
+  {
+   "inicio": 3811,
+   "texto": "verdade agora se não se parar e pensar e"
+  },
+  {
+   "inicio": 3815,
+   "texto": "ficar repetindo especialmente você que"
+  },
+  {
+   "inicio": 3818,
+   "texto": "são a mídia que tem Impacto que tem"
+  },
+  {
+   "inicio": 3820,
+   "texto": "importância e ficarem repetindo esses"
+  },
+  {
+   "inicio": 3822,
+   "texto": "por isso que eu falo de dogmas esses"
+  },
+  {
+   "inicio": 3823,
+   "texto": "mantras mantra para pensar não fica"
+  },
+  {
+   "inicio": 3827,
+   "texto": "repetindo Por que que a mídia hoje só"
+  },
+  {
+   "inicio": 3830,
+   "texto": "ouve economista do mercado financeiro"
+  },
+  {
+   "inicio": 3833,
+   "texto": "inacreditável Antigamente você ouvia um"
+  },
+  {
+   "inicio": 3836,
+   "texto": "professor"
+  },
+  {
+   "inicio": 3838,
+   "texto": "hoje em dia é o economista chefe da"
+  },
+  {
+   "inicio": 3841,
+   "texto": "gestora tal da gestora x da x-pz"
+  },
+  {
+   "inicio": 3845,
+   "texto": "WP é óbvio que ele só diz é a mesma"
+  },
+  {
+   "inicio": 3847,
+   "texto": "coisa é que só não tem agenda Demorou"
+  },
+  {
+   "inicio": 3850,
+   "texto": "até a trazer não"
+  },
+  {
+   "inicio": 3856,
+   "texto": "é o seguinte só eu aqui fiquei vários"
+  },
+  {
+   "inicio": 3859,
+   "texto": "pontos da minha lista que eu não consigo"
+  },
+  {
+   "inicio": 3860,
+   "texto": "entender nada eles perguntam também"
+  },
+  {
+   "inicio": 3862,
+   "texto": "muito entendeu então é o seguinte a"
+  },
+  {
+   "inicio": 3863,
+   "texto": "gente vai ter que já deixar marcado"
+  },
+  {
+   "inicio": 3866,
+   "texto": "ele já estourar a boca do balão o"
+  },
+  {
+   "inicio": 3868,
+   "texto": "problema já estourou o seu horário e a"
+  },
+  {
+   "inicio": 3871,
+   "texto": "gente vai ter que marcar um outro"
+  },
+  {
+   "inicio": 3871,
+   "texto": "programa porque a conversa além de ser"
+  },
+  {
+   "inicio": 3873,
+   "texto": "muito boa se aprofundou e tem tantos"
+  },
+  {
+   "inicio": 3874,
+   "texto": "outros temas e como a Ju disse é a"
+  },
+  {
+   "inicio": 3877,
+   "texto": "agenda obviamente do André Lara Rezende"
+  },
+  {
+   "inicio": 3879,
+   "texto": "nos principais economistas do Brasil"
+  },
+  {
+   "inicio": 3881,
+   "texto": "obviamente é muito agitada corretamente"
+  },
+  {
+   "inicio": 3882,
+   "texto": "mas a gente já vai tentar obviamente pra"
+  },
+  {
+   "inicio": 3884,
+   "texto": "frente sentar mais uma vez e ter essa"
+  },
+  {
+   "inicio": 3886,
+   "texto": "boa conversa já em breve com a volta do"
+  },
+  {
+   "inicio": 3888,
+   "texto": "nosso Fernando Mitre que tá descansando"
+  },
+  {
+   "inicio": 3890,
+   "texto": "merecidamente muito obrigado André pela"
+  },
+  {
+   "inicio": 3892,
+   "texto": "presença aqui no Canal Livre até a"
+  },
+  {
+   "inicio": 3894,
+   "texto": "próxima obrigado a vocês pela"
+  },
+  {
+   "inicio": 3895,
+   "texto": "oportunidade obrigado mesmo agradeço"
+  },
+  {
+   "inicio": 3897,
+   "texto": "Juliana paspão é você que nos acompanhou"
+  },
+  {
+   "inicio": 3900,
+   "texto": "uma ótima semana até semana que vem a"
+  },
+  {
+   "inicio": 3902,
+   "texto": "gente aliás semana que vem Lembrando"
+  },
+  {
+   "inicio": 3904,
+   "texto": "aqui a gente tem cobertura das festas de"
+  },
+  {
+   "inicio": 3906,
+   "texto": "carnaval pelo país né então a gente tem"
+  },
+  {
+   "inicio": 3909,
+   "texto": "transmissões especial ao longo de todo o"
+  },
+  {
+   "inicio": 3911,
+   "texto": "carnaval e a gente volta na semana"
+  },
+  {
+   "inicio": 3912,
+   "texto": "seguinte é o carnaval tchau tchau boa"
+  },
+  {
+   "inicio": 3914,
+   "texto": "noite"
+  },
+  {
+   "inicio": 3936,
+   "texto": "do Band News você fica 24 horas por"
+  },
+  {
+   "inicio": 3939,
+   "texto": "dentro de todas as notícias e o melhor"
+  },
+  {
+   "inicio": 3942,
+   "texto": "você pode ficar 100% conectado com Band"
+  },
+  {
+   "inicio": 3946,
+   "texto": "News através das nossas redes sociais"
+  },
+  {
+   "inicio": 3949,
+   "texto": "compartilhe"
+  },
+  {
+   "inicio": 3950,
+   "texto": "[Aplausos]"
+  }
+ ],
+ "texto": "[Música] Boa noite ele foi diretor do Banco Central presidente do BNDES um dos mentores do Plano Cruzado integrou A equipe que formulou o plano real tido como um dos pensadores idealizadores e foi mesmo do plano real fez parte da equipe de transição do governo do presidente Lula desse atual Governo foi nomeado no início dessa semana para comissão de assuntos estratégicos do BNDS o Canal Livre recebe um dos economistas mais respeitados do Brasil André Lara Rezende boa noite André Obrigado pela sua presença aqui no Canal Livre Obrigado pelo convite aqui na bancada comigo jornalistas Rodrigo André basbal e também a Juliana Rosa Primeiro mostrar aqui o último livro lançado por André Resende camisa de força ideológica a crise da macroeconomia e eu queria para esse início contextualizar não dá né André para a gente sair do assunto da discussão do momento que é a questão da taxa do banco central do juros do banco central 1375 o presidente Lula tem atacado nessas últimas semanas tem atacado o banco central a independência do Banco Central a taxa de 13,75% muitos acham que ele tá fazendo isso para poder você eventualmente a economia não crescendo andar de lado ele possa usar isso no final do ano como uma desculpa dizendo que bom que Central teve interferência diretamente nisso o presidente do senado e da câmara se pronunciaram dizendo que o banco central tem que ficar independente tem que seguir dessa maneira como independente que é uma marca Mundial e o presidente do Banco Central Campos Neto o Roberto Campos Neto se pronunciou dizendo que é correto que tá o estabelecido com o banco central independente porque a política monetária tem que ficar dissociada de um cunho político eu queria ele perguntar nesse início o senhor é favorável ao Banco Central independente e dois o senhor acha que a nossa taxa de juros neste momento deveria ser essa de 13,75 senão Qual deveria ser a palavra Independência é inapropriada a palavra correta é autonomia do Banco Central concentrado neste momento não pode ser independente dos poderes constituídos então seria um quarto poder e corretamente o que você quer é o que o banco central tem autonomia operacional para conduzir a política as políticas determinadas pelo pelo governo é um evidentemente o banco central é uma um órgão de estado de governo você quer que tenha uma certa continuidade na política uma certa ele seja protegido depressões políticas escuras pessoas simples normalmente a ideia pessoal é eleitoreira enfim de governo pré-eleição etc e com isso a ideia de que os diretores do Banco Central tem um mandato que não não coincidência os mandatos do executivo da presença da República faz um pouco sentido porque os bancos os mercados financeiros precisam de certa previsibilidade e ideia de grandes mudanças e quanto podem ser perturbadores organizadoras do mercado financeiro e da economia Então faz sentido que você tenha autonomia operacional dos bancos centrais agora um banco central autônomo parte do princípio de que a política monetária política do Banco Central possa ser é algo e não está não esteja submetido a circunstâncias o que não é verdade a teoria monetária como toda a teoria económica é uma combinação de técnica de doações sobre o funcionamento da economia e como economia é uma ciência social portanto e uma ciência política não uma ciência exata ela tem necessariamente está ligada a circunstâncias circunstâncias políticas e precisa estar sempre em evolução tanto que a teoria econômica está em permanente evolução não necessariamente que ela foi errada no passado ela é mais ou menos apropriada para circunstância e a circunstâncias nos últimos nas últimas décadas nesse início do Século 21 São muito diferentes do que foram na segunda metade do século 20 então a teoria monetária mudou muito e como a condução de política de política monetária mudou antes que pensava em paz monetária monetárias hoje sabemos que não é assim que o banco central funciona banco centrais deixaram de acompanhar a os agregados monetários e passar a funcionar com um instrumento que é a taxa de básica de juros a taxa cobrada sobre as reservas bancárias eu não quero me estender demais nisso porque a pergunta já era longa mas eu voltar então assim sim autonomia operação do Banco Central é um avanço institucional sua segunda pergunta a taxa de juros básica hoje de 13.75 está correta Na minha opinião não aprofundamente errada e digo porque assim como eu acho que a taxa muito baixa abaixo de três por cento foi posta também estava errada porque justamente porque como eu tinha como te disse o mercado financeiro não deve ter sofrer mudanças bruscas de direção então a condução da política monetária deve ser a condução suave com direcionamento dúvida nenhuma sobre isso e depois essa taxa hoje é muito alta eu só para por isso em perspectiva o mundo hoje todos os países avançados têm taxas real ou seja a taxa nominal reduzida a taxa de inflação negativa ainda que estejam todas subindo todas as taxas estão em processo de ajuste para cima porque você saiu de um período de deflação com período de recuperação da inflação todos todo mundo essas taxas estão subindo mas continuam negativas nos países alguns países que têm taxas positiva a morta que é positiva Se não me engano do México a segunda é do Chile é torno de quatro por cento real 8 8 e meio por cento então o Brasil tem a taxa real mais do que o dobro do segundo a mais alta do mundo para por em perspectiva segundo a taxa de juros o efeito da taxa de juros sobre a o crescimento da economia e o emprego é inequívoco sobe a taxa de juros aquece economia e aumenta o desemprego o efeito este efeito diz aquecimento da economia e aumento do desemprego sobre a inflação que existia no passado era chamada curva de Philips que relacionava inversamente desemprego e inflação desapareceu desapareceu no mundo inteiro não há mais essa relação ou seja a taxa de inflação tá desconectada do emprego do Desemprego a especula-se porque as razões disso Muito provavelmente é o que me parece a explicação mais razoável é justamente porque o emprego deixou de ser formal então o emprego hoje é mais disperso informalizado e você reduziu muito o poder do sindicatos de certa forma Portanto o salário deixou de ser um preço que sinaliza a questão de inflação salário mínimo ainda é muito relacionado com inflação feito mas o salário em geral o desemprego desapareceu e portanto por onde a taxa de juros afeta inflação na subida da taxa de juros já quer essa economia não tem muito efeito sobre a inflação especialmente sobre inflação como é que nós temos hoje de novo em relação não é sempre o mesmo fenômeno a inflação não é sempre um excesso de demanda às vezes é não é sempre não é de hoje claramente não é essa inflação de hoje foi provocada por choques negativos e oferta essencialmente a desorganização produtiva que ocorreu no mundo todo com a pandemia e na saída da pandemia com a guerra da Ucrânia que desorganizou e aumentativo aumento de preços de energia de petróleo de fertilizantes e portanto de alimentos e isso então um choque negativo que não é isso não se resolve com contração de demanda a taxa de juro ao aumentar a taxa de juros por exemplo o outro canal por onde funciona valorização do câmbio Esse é o que é o que faz valoriza o câmbio e isso pode reduzir controlar a inflação mas é pouco poderoso mas a taxa de juros é um instrumento muito poderoso dos aquecimento da economia a pergunta a economia brasileira precisa ser desaquecida com esse nível terra a taxa real mais alto do mundo hoje claramente não não e mais esse é o ponto fundamental eu vou terminar aqui o que tá acontecendo agora essa semana tão saindo os balanços de banco não sei se você já viu todos os resultados são muito a quem muito abaixo do esperado o todas as provisões devedores estão aumentando drasticamente o fato que você teve quebras no varejo e o caso em Americanas de problemas em outras áreas de varejo tá levando os bancos a retrair drasticamente o crédito quando você tem uma contração de crédito como essa você agravam o processo de desaquecimento da economia e de indica que uma recessão que pode ser muito sério faz sentido Neste contexto Você tem uma taxa de juros já que estão há dois anos nesse nível claramente não agora os objetivos do Banco Central determinados na lei que deu o Banco Central o controle da inflação a estabilidade do sistema financeiro e a garantia do plano emprego tá mais próximo possível do plano de emprego obviamente essa taxa de juros de 13 13 75 8% real é incompatível com esse objetivo na minha tela está errada Esse é um ponto bastante passar Juliana se a gente fosse ser tipo México Chile exemplos citados pelo André é com quatro por cento mais ou menos a gente teria que estar em 975 para estar igualado a eles não nos 13 75 só para fazer a conta né uma das questões que fazem parte dessa explicação no mercado financeiro de um juro que é muito acima da média inclusive dos emergentes como o senhor tá colocando é a questão do Risco fiscal que o Senhor tem dito que é um exagero porque inclusive teve superar a vítimas contas públicas no ano passado né Eu sou até escrever um artigo recentemente sobre isso então como é que muda essa aqui na prática o chamado risco fiscal já impede a queda de juro ou mesmo que a SELIC caia o chamado risco fiscal já tá encarecendo o crédito primeiro com esse terrorismo é feito permanentemente o risco fiscal a dívida a relação dívida PIB brasileiro como com o resultado do ano passado Depois de toda essa coisa foi um superável primário de 1,3% a dívida PIB relacionado anos que vai dizer que vamos bater isso 100% 90% caiu para 73%. é o nível mais baixo dos últimos anos acho que o mais baixo dos últimos seis ou sete anos sustentável né sustentado muito bem vamos voltar então sim isso que quer dizer risco fiscal o risco de sustentabilidade a dívida segundo Jefferson quem nós tivermos uma reunião ontem já desde o cometer o processo estratégico do Ben 10 para discutir programas de investimento longo prazo repeti o que tinha me dito no início de mês um jantar no Rio de Janeiro olha as contas brasileiras os números brasileiros e disse que em paz Qual é esse país é um país altamente perfeitamente bem com Economia em ordem Ah um endividamento relação dívida PIB perde de 70% é muito inferior Radio qualquer dos países desenvolvidos Nacional muito inferior a todos os países desenvolvidos é em linha com um dos países de desenvolvimento sendo que os países e desenvolvimento a dívida brasileira é integralmente em moeda Nacional então assim acima da média dos emergentes né porque assim São 50 6 anos toma 70 nós somos um país maior com Depois eu vou entrar sobre isso a gente quanto mais mais sofisticado é o mercado financeiro maior deve ser a dívida a dívida interna porque a dívida interna é um ativo é o ativo sem risco do que tem a financeira Então ela tem que ter uma certa proporção ele é muito mais coerente seria medir a proporção de dívida com ativos financeiros privados que a dívida pública é uma dívida do governo a dívida financeira e é um ativo do setor privado as pessoas esquecem isso quando você for reduzir-se a dívida a dívida interna para zero o setor privado se reduziria o valor perderia 70% do PIB em termos de riqueza financeira faz sentido isso se ela liquidasse toda dívida do Estado Nacional vamos voltar ao ponto nós então vamos vamos esquecer isso que é um com que o outro conceito portanto a situação fiscal brasileira é muito razoável perfeito é muito razoável o Brasil tem nos últimos anos durante a pandemia sempre teve no século XXI em quase todos os anos com algumas exceções superar arte primária Depois teve alguns anos que teve que teve 10 primário e depois voltou e o ano passado voltou a ter superado de primário 1,3% do PIB perfeito então a situação fiscal brasileira é sustentável como é que se pode dizer que é um risco fiscal ameaça fiscal e por causa disso a taxa de juros tem que ser alta Deixa eu só vou terminar vou terminar muito bem é segundo a taxa de juros básica Quem determina o banco central a taxa de juros de longo prazo é fixada pelo mercado com base em que na expectativa do custo de carregamento na expectativa correta trajetória daqui até lá da taxa básica Portanto o City também ela é determinada pelo pelo banco central ou pelo que o mercado espera que o banco central vai fazer perfeito Olha e se o Banco Central quiser discordasse como já faz o banco do Japão entre outros bancos os bancos opera na curva inteira de um dia a 10 anos agora acabou de abrir um pouquinho o esperto nos 10 anos ele diz eu compro e vendo nesses prazos isso então ele determina toda a estrutura termo da taxa de juros da dívida pública com isso ele em vez de operar só de um dia ele opera em toda a estrutura da terra perfeito e pode fazer isso perfeitamente determinar toda a taxa de juros e acaba com essa com essa loucura e dizer olha o risco fez carro mas é mais fácil encontrar alguém que queira financiar o Japão do que o Brasil não não o brasileiro todo financiado com um brasileiro Juliana Como É Que conversa é essa desculpe mas fiquei encontrar alguém que financia o Brasil são os brasileiros e moeda Nacional de segundo vamos falar mais sobre usar o da dominação de que você falou os investidores Quem compra dívida pública não é investidor é rentista e não tá nenhum e não há contratação negativa pejorativa não cientista é qualquer pessoa que quer transferir no tempo sua poupança os seus recursos perfeito o que é o que é perfeito e quer mantendo o valor investidor é quem investe na investe com risco porque na dívida pública não tem risco então assim O Retorno o que tem hoje o retorno comprar entender Brasileira hoje de longo prazo que paga inflação mais seis e meio por cento ao ano eu não existe nada mais nada no mundo tão bom nenhum investimento pode concorrer com isso porque porque a taxa está profundamente errada professor já que você entrou nesse ponto é Ju não é uma discordância pelo amor de Deus mas acho que a gente caminha aqui para um tema que tá bem desenvolvido no livro que é uma espécie uma ditadura do rentismo né um pensamento único né o garrote ideológico que se chama aqui eu queria te fazer a seguinte provocação nós tivemos agora no século 21 como ser bem apontou no livro dois grandes momentos da economia mundial que foi né 2008 2009 o craque da da das bolsas né do surprime americano que quase destruiu o sistema de crédito Mundial chegou a congelado por alguns dias ninguém sabia quem tava contaminado não é poderia ter derrubado ali economia inteiras os bancos centrais todos operaram em conjunto liquidez geral no mercado ali o governo americano virou sócio de uma GM porque você não deixa uma GM quebrar virou sócio de uma General Elétrica você não deixa uma empresa desse tamanho quebrar e agora na pandemia nós tivemos a emissão de papel moeda por parte do Banco Central americano do governo America no tesouro americano para segurar o impacto econômico da da dos efeitos da pandemia na economia então nós tivemos dois dois momentos em que o papel do Estado Nacional é absolutamente fundamental para que você pense em política econômica e por que que ainda nós estamos aqui nessa empacados nessa Ditadura do rentismo nessa ditadura de que não esse essa dívida aqui não mexe temos que pagar essa taxa mesmo sendo que você acabou de descrever um país que precisa se desenvolver que precisa empregar que precisa crescer precisa incluir né Precisa diminuir desigualdade e e portanto tá preso num num numa taxa de juros real do mundo deixa deixa eu eu não usaria a expressão Ditadura do rentismo primeiro porque quando eu achar uma camisa de força ideológica na ideia da loja é um de um acabou fundamental de concepção perfeito não necessariamente de esquerda ou direita embora a palavra ideológica dessa conotação O que é eu não o que ocorre é está com a taxa de juros errada alta demais há muitos anos desde o plano real de certa forma na saída do plano real a taxa de juros alta porque havia muita desconfiança se o plano real você hoje se esquecer hoje todo mundo acha Parabéns o plano real mas havia muita desconfiança do plano real perfeito então uma das formas de garantir que não haveria saída muito rápida de capitais especulativos e desvalorização do lembre-se que o câmbio valorizou o mundo real ou quando entrou ao RV se transformou no real era um para um e o o Real ficou valorizou mais valia mais do que um dólar chegou a 93 centavos de reais por dólar perfeito Isso foi um porque a taxas era muito alta e tem fluxo de capitais nesse sentido a taxa de juros saiu do Real muito alta e é um certo problema em 2005 aqui no seminário no Rio de Janeiro Olivier blanchar que é um economista francês mas americano do foi chefe comunista chefe do fundamental Nacional internacional com baixa chama dívida pública com baixa taxa de juros sobre baixa taxa de juros que faz toda a diferença muito bem o que que eu levei lanchar veio aqui disse nesse seminário disse olha a possibilidade fez essa essa vocês não te consideraram num canto disse André você não considera a possibilidade de que o Brasil está numa numa armadilha no sentido de um mal equilíbrio onde porque a taxa de juros alta demais provocam déficit fiscal que é percebido como um risco que obriga a taxas Então são mal equilíbrio se você matar essa taxa de juros reduziria o custo o serviço da dívida e reduziria o déficit porque lembre-se o verbo superado de primário foi de 1,3% agora o custo eu isso foi o meu artigo anterior penúltimo artigo que eu escrevi com os dados do Tesouro Nacional a elevação da taxa de juros tá no site do Tesouro Nacional a elevação da taxa de nos últimos dois anos custou quase 2% do PIB saída de 2,75 para 3,75 cortou quase 2% do PIB a mais um serviço de juros em 2021 e quase quatro por cento do PIB em 2022 lembre-se até que da transição é menos de 2% do PIB ou seja exigiu uma emenda constitucional para aumentar os gastos públicos em 2% do PIB e o time desculpa algumas canetadas do Banco Central aumenta em dois anos 6% do PIB de dívida de custo da dívida agora faz sentido faz sentido lembre-se quando você aumenta o juros você aumenta o custo do financiamento da dívida você aumenta o déficit perfeito senão alguém Sudeste primário mas vamos ver aumento deste nominal o décimo você aumenta a dívida é feito ou então você diz eu estou aumentando a taxa de juros para por causa do Risco fiscal só que ao aumentar essa juros você aumenta os equilíbrio fiscal Teoricamente só aumenta o risco fiscal aí você tem que aumentar mais a taxa de juro olha alguma coisa tá profundamente errado agora e só detalhe para passar por Ah nesse aspecto aliás eu acho que o artigo do André Lara Rezende também tocou nisso que às vezes reações desproporcionais né Ou seja a reação é que foi muito grande durante muito tempo e a gente uma gritaria muito grande com a PEC da transição Realmente você tinha que olhar para a responsabilidade daquilo Mas levar r$ 600 no momento fundamental para as pessoas de tudo o impacto daquilo que o mercado tanto falou mas por outro lado ignorou é o que foi colocado pelo pelo André nessa questão agora Nesse artigo eu uso apelando um pouquinho eu digo Olha o o o pra ser o a PEC da transição o grande parte vai para o bolsa família ou o que nome que era dar a ele perfeito que é aí pra pagar um adicional pra crianças até seis anos em família etc agora isso criou um problema exigiu foi uma gritaria fenomenal aí responsabilidade fiscal o governo não pode gastar de forma responsável isso é um ponto tem que gastar bem e que ser coerência não tem dúvida sobre isso agora esse o bolsa família uma gritaria agora o Bolsa rentista dá 4% a mais tarde juro isso não tem problema nenhum nenhum agora eu gostaria até de aproveitar a situação a PEC da transição Para retomar uma discussão que é do ponto de vista de legislação essa é uma legislação de autonomia do Banco Central muito recente tem dois anos Segue uma lógica inclusive semelhante a outros países conversando com líderes partidários ministros não há um ambiente neste momento de mudar essa legislação mas eu perguntaria ao senhor a possibilidade de aprimorar que foi criada no Congresso Nacional ou mexer nesse assunto tão recente criaria um risco inclusive um risco para economia do país não eu acho que você tá dizendo tem toda razão e ela precisa ser de certa forma Primeiro ela vai ter que ser permanentemente a autonomia do Banco Central eu disse é uma perfeita emocional eu não acho que tá em discussão que eu deveria estar em discussão aprimoramento agora a forma como é que como é que isso como é que também implementada primeiro está lá na lei Quem determina a política a ser seguida pelo banco central ele tem autonomia para implementá-la mas é determinação da política é do governo e é transmitida para o banco central pelo Conselho monetário Nacional que hoje é formado pelo presidente do Banco Central o ministro da fazenda e mito planejamento mas pode ter outra constituição Esse é esse é o primeiro ponto então claramente E como você implementa o que você o que você diz e como é que você define como é que você organiza essas essas responsabilidades é algo que pode ser discutindo agora A Lei e há também uma tradição e há uma tradição de quem é indicação do governo do presidente de diretores do Banco Central é uma indicação inclusive com o diálogo com a diretoria atual do Banco Central com o presidente do Banco Central seria saudável manter essa tradição de ter uma conversa no momento da indicação de novos diretores conversa é sempre saudável o que não é saudável é briga conversa sempre saudável é óbvio nós no Brasil e além do mundo todo nosso Brasil também nós somos de uma certa forma nos reconciliarmos e as conversas reconciliam de novo o ponto fundamental que é importantíssimo é justamente dizer que teoria Econômica é teoria política é política econômica é parte política parte uma certa ciência de conhecimento e exige que você escuta politicamente entrar nesse ponto André estado e economia de novo aqui tá no tá no seu capítulo sobre o que a gente tava falando da Ju aqui o estado como credor primeiro né que é a história de Civic dá Tudo Termina a história o estado não tem né como é que faz esse dinheiro girar que é o próprio dinheiro da do juro da dívida toda produtividade é a capacidade de produzir bem em serviço de venda da sociedade da ação conjunta do setor privado e do Estado a expansão do crédito pelo Estado como todo crédito por si só nada cria mas viabiliza a materialização da produtividade da sociedade a moeda e o crédito são fermento mas se não houver massa capacidade de produzir não haverá bolo a ser repartido no país estão desigual como o Brasil é o que que a gente pode ter de exemplo concreto de medida concreta nesses próximos anos de governo Lula o senhor acredita esta fazendo parte do Ben 10 para que a gente repense esse papel de investimento na economia geração de emprego atrair investidores de fora do Brasil né com a economia verde a nova economia como é que o senhor enxerga essa essa esse cenário vamos lá eu acho que primeiro É de fato é muito é estranho que haja tenha a vida essa prevalência ou grande parte dominância pelo menos assim na grande mídia e uma certa visão de que o estado era melhor das hipóteses um peso morto no país o estado é um peso morto e Só atrapalha se não atirarmos o estado a economia capitalista funcionará isso é profundamente falso a economia capitalista Depende destruições de regras que depende do Estado de um estado competente não existe um bom funcionamento de Economia sem um estado competente sem o status então a ideia de que o estado é um peso morto não é verdade um estado contribui para a produtividade e a criatividade da Economia em conjunto com setor privado aliás alocação de de quem quem criou isso quem criou Aquilo é uma na fundo é não é indissociável nós devemos sempre a todo mundo inclusive as pessoas que já morreram ao passado conhecimento contribuição como é que se organiza como é que se pensa conhecimento científico tudo isso é parte é uma condição da humanidade como você rede distribui depende da organização política e dos valores que estão impulsionado naquela sociedade a sociedade capitalista tem uma forma de de distribuir isso sabe-se sempre se soube que o cataliano nunca foi assim não é a mesma coisa ele também evolui mas a ideia é que a solução que o capitalismo é altamente eficiente não acredito na criação de riqueza mas nem sempre tem é justo na distribuição desta riqueza a solução disso no início do século 20 foi associado à democracia criar sistemas inclusive de sistema de é social de Assistência Social de educação pública sistema de saúde público coisas que são foram fundamentais até que foram avanço é claramente esse isso é regredir em relação a isso seria uma tragédia agora a sua a sua a sua resposta o Brasil é hoje o Brasil em muitos aspectos é um país desenvolvido e rico não vamos nos iludir o Brasil é um país rico e um país de certa forma altamente educado agora ele o que o Brasil é é um país profundamente desigual com pobreza inadmissível dado o nível que chegou pobreza de educação problema de saúde de saneamento Então o que o Brasil precisa e você não resolve isso com políticas assistencialistas a política da assistencialista de transferência de renda é como se diz um paliativo pode ser um paliativo transitório temporário a solução para pobreza endêmica e aproveitar absoluta só tem uma é o verdadeiro desenvolvimento é crescimento enriquecimento e sobretudo enriquecimento ponto de vista de capital humano de Educação de saúde isto é que é o enriquecimento isso é que tem que ser feito o que nós precisamos e isso é que o nosso conselho estratégico do Ben 10 está propondo tá se propõe a fazer é dizer assim qual é o programa e nós temos que ter um programa que transcenda muito mais importante do que mandatos do diretor do Banco Central que não conhecidam com com mandato presidencial ou executivo é um programa de investimento de longo prazo Então vamos lá por que que o Brasil não cresce nos últimos anos o Brasil tá preso essa armadilha da renda média o crescimento muito abaixo do esperado dos países da por exemplo de todos os países asiáticos são um número nos últimos 40 anos a renda per capita da China foi muito caro por 20 a do Brasil por dois é possível isso alguma coisa errada nós temos que ver isso perfeito muito bem porque se você for olhar primeiro a taxa de investimento no Brasil é muito baixo a taxa de vencimento do Brasil hoje é 17% do PIB e todos os países que cresceram rapidamente asiático é acima de 30 ou seja é o dobro da taxa de investimento do Brasil a taxa de investimento público do Brasil despencou caiu de a taxa de investimento e é público caiu de 9 10% para baixo de dois isso não é o suficiente nem para repor ao fluência do capital da infraestrutura do país então o Brasil tem que voltar a investir ao contrário do que diz a teoria essa teoria é antes da tal radical o investimento público não compete com investimento privado se o investimento muito bem feito pelo contrário ele é complementar o investimento privado e ele pauta E cria oportunidades para o investimento privado sempre foi ele ele financiar auxiliar no financiamento de projetos de investimentos tanto quanto privado ele é um grande diferenciador de investimentos foi um Ben 10 acabou então nós temos que retomar o Ben 10 então o grande programa é quando você tem um programa de desenvolvimento de investimento você precisa você precisa ter Quais são os projetos pá nós temos uma certa obsessão com de onde vai vir o financiamento é importante de onde vai vir o financiamento mas antes de saber de onde vai ver o financiamento que projetos são esses que investimentos vão ser feitos Qual é a taxa de retorno desses investimento e nós vamos ter que fazer uma ordenação desse investimento e dentro dessa ordenação um programa que vá de não é de quatro anos não deve ser um programa de 10 anos revisto permanentemente os investimentos devem ser feitos devem ser estar submetidos a uma revisão de avaliação de ser tão sendo feito de retorno então foi feito com os custos estão corretos essa taxa de retorno são aquelas previstas e você vai reprogramar de reorganizando e isso baliza todo o programa de investimento público e privado do país e este é a forma de fazer o país crescer para voltar a crescer em livros muito acima do que ele tem crescido e isso é fundamental a gente vai fazer rápido intervalo e volta já já com um pouco mais dessa conversa aqui sobre economia com André Lara Rezende até já [Música] só o mar Relaxa diverte encanta só o mar só MSC MSC Cruzeiros um mundo de descobertas do plano real economista André Lara Rezende que agora também passa a integral conselho estratégico do BNDES e eu queria já que terminamos o último bloco o André falando sobre o BNDS eu queria só pegar um assunto que foi muito debatido ao longo da campanha e às vezes com muita gritaria de ambos os lados e pouca razão que é a questão do financiamento do BNDS por exemplo obras estruturais de infraestrutura em outros países eu queria lhe ouvir sobre isso e as garantias que lá atrás eram pedidas falam tal do charutos cubanos na sua avaliação eram corretas ou algo tem que mudar ou ser aprimorado neste governo por exemplo esse esse financiamento o financiamento não é a empresas estrangeiras no exterior e países no exterior é financiamento a empresas brasileiras que prestam serviços no exterior perfeito então é esse é um financiamento de exportação brasileira exportação de serviço A ideia é como de um desempenho brasileiro de serviços de exportação em princípio todo esses esse financiamento é exportação é um é um ajuda a economia brasileira a indústria brasileira e serviços o setor de serviços brasileiros na sua exportação gera divisas e tem um bom retorno claramente Toda vez que você faz empréstimos é no exterior olhar com todo o império Depende de garantia tem que ter boa garantia Esse é o ponto fundamental agora não não tem conhecimento específico dessa como é que foi esse financiamento que alguns é das garantias não foram não foram bem feitas o que é isso não é uma questão de de banco de concreto mas em princípio isso faz sentido agora e o presidente Lula que tá muito interessado claramente assinante de recompor o papel de liderança do Brasil eh no mundo uma Especialmente na América Latina que o Brasil saiu da retraiu a sua diplomacia e sempre teve um papel importante nesse mundo esse mundo hoje que é um mundo é multipolar tá deixando de ser um Uno deixou de ser um mundo o mundo bipolar de guerra fria depois foi o mundo parecia onde é tinha uma potência Germânica nos Estados Unidos e hoje tem mais de uma perfeito mas claramente tem duas grandes potências os Estados Unidos e China tá muito muito tenso nesse nesse universo e o Brasil com a sua história de diplomacia de grande sucesso brasileiro é respeitadíssima tem não tem porque se retraído como se retraiu e o presidente Lula quer por tanto acha vincula a ideia desses financiamento que fazem sentido o ponto de financiamento da empresa da indústria brasileira com a ideia de retomar essa essa preponderâncias papel estratégico da política externa brasileira não na região é interessante até esse assunto que o Rodolfo puxou porque para o discurso político sempre é muito que foi muito explorado em relação a caixa preta do BNDS né os calotes mas a inadimplência do BNDS a historicamente baixa e hoje a preocupação é muito mais em relação a Como Você levantou como se levantou a questão de onde vem o dinheiro para poder sustentar os recursos para poder emprestar o dinheiro né E aí eu queria voltar essa questão né como é que o BNDS vai impulsionar o crescimento do Brasil né da onde que vão sair esses vendo o Ben 10 devolveu bilhões de reais ao estado ao tesouro nos últimos anos perfeito e isso inclusive reduziu muita capacidade de impresso para frente do do Ben 10 isso é de cor de seu banco de fomento né É verdade você tem se você tem um banco um banco de desenvolvimento o Ben 10 tem capacidade de onde é que ele vem o principal passo recurso Ele é um curso quase é quase fiscal que é o fato de Apoio ao Trabalhador a ideia de com a capitalização do Ben 10 o tesouro pode capitalizar mais o Ben 10 para que ele possa ter um papel mais atuante Esse é uma das possibilidades tem discussão Mas isso é subsídio né aí acho que não tem não tem não é perda pro tesouro o outro é outro mito perfeito a ideia de que perdas por tesouro se você fina você emprestado antes eu tinha tjlp até jlb tinha era um curto abaixo do curso de ensinamento do Tesouro isso é subsídio se você quer ser um banco o banco de fomento por definição ele pode em certas circunstância Em certas áreas que não tem retorno perfeito se você quer olha com certeza o o financiamento a saúde perfeita se não for saúde pública de quem não tem não pode pagar o hospital da Rede D'Or não vai ter retorno perfeito não tem retorno você para ele não pode portanto pagar especialmente a taxa de juros básicos é 8% real você imagina quanto vai custar pra isso ninguém vai investir então muito bem o o Ben 10 você substitui o nome por causa para evitar subsídio subiu-se uma uma uma taxa que era tjlp que permitia ela é subsidiada no sentido que era tinha redutor em relação ao curto do Tesouro pela tlt que é uma taxa baseada na na no curso do tesouro que é determinado pelo banco central põe na lua e além de mais que um período de curto prazo muito com algo a utilidade E se inviabiliza qualquer impresso é mais ou menos a mesma taxa que se encontra em qualquer qualquer empresa que está usando o crédito a não ser que seja de capital de giro de curto prazo aliás e as empresas de varejo com o risco sacado é capital de giro tá fornecedor em princípio quebram em dois anos com essa taxa O que é um quebra Então se é impossível investir nessa tarde se nós fazemos o diagnóstico do país o país não cresce porque não investe Por que que o país não investe mas não investe porque a taxa de juros é impeditiva de investir e vamos nós por isso nós temos que separar digamos assim vamos dizer definir o que que é investidor e o que que é rentista e que que é cientista quem vive emprestando botando dinheiro em papéis financeiros sobretudo da dívida pública ou de alguns emissoras privados investidor é quem de fato corre risco e investe na expansão da capacidade produtiva e organizacional da economia brasileira são uma coisa muito diferente Esse vício no mercado financeiro o investidor que não é um investidor isso é um cientista aqueles que vivem de juro de renda e eu tô dizendo de novo isso não é pejorativo não é perfeitamente razoável que a economia tenhatista deve ter uma economia rica tem registro que só tá defendendo é que o tesouro então ajude o BNDS a emprestar dinheiro mais baixo não mais barato porque o banco central está botando a taxa de juros errada primeiro ponto segundo se a taxa de juros no Brasil tivesse correta tivesse uma taxa real de o banco a taxa de juros que o banco central o banco controla a taxa de juros é muito simples ele não pode pôr a taxa de juros a referência não já disse Como já disse aqui ele não deve fazer grande variações bruscas na taxa de juros nem grandes variações então o que que ele deve Quais são os limites da taxa de juros não faça grandes variações não faça movimentos bruscos nunca põe a taxa de juros a não ser em casa profissionais você precisa estimular a economia abaixo da taxa esperada de inflação da meta de inflação perfeito e depois o banco central depois é a única vez nesse século 21 foi que esse Banco Central pois a taxa de juros abaixo da meta de inflação muito bem segundo eh segundo ponto nunca põe a taxa de juros a não ser em circunstâncias excepcionais que você precisa aquecer a economia acima da taxa de crescimento esperado da economia com isso a taxa de juros será sempre menor que a taxa de crescimento por definição Isso é isso é aritmética efeito por definição a relação dívida PIB vai convergir se não houver eh deste primário Então isso é muito simples é muito simples então basta eu sentir o banco central controlado taxa de juros ele vai dizer isso vai acabar com com esse risco vai dizer Olha eu não vou pôr a taxa de juros abaixo da taxa de inflação a não ser em condições momentâneamente circunstanciais que exigem nem vou pôr a taxa de juros acima da taxa de crescimento potencial da economia Acabou agora o interessante os campeões nacionais porque a referência que se faz um passado recente é uma referência que se faz e muita crítica ouvimos né mas a gente tem ouvido muito também que é preciso virar a página olhar para frente e nessa perspectiva estratégicamente Quais são os setores segmentos em que há uma aposta que investindo poderemos ter retorno melhor ou que merece mais essa ajuda nesse momento vamos lá primeiro infraestrutura física e estrutura social então infraestrutura Transportes depósitos Urbana e rodoviária o que for estrutura social que é ligado perfeito fundamental eu marco novo aí que é um avanço perfeito porque você não precisa fazer isso pode ser feito e parceria com setor privado melhor ainda de novo estado setor privado podendo infraestrutura saúde educação primária fundamental educação a partir desde lá de baixo isso é muito mais importante que a educação superior perfeito e não há tá comprovados no mundo inteiro todos os lugares se você nasce uma família de pobreza absoluta tem má alimentação tem desde até medo até os três anos de idade a sua performance de educação vai ser afetada então tratar da questão de pobreza absoluta dá um auxílio para a família que tem crianças abaixo e não só se ele financeiro certa forma o apoio a família de pobreza absoluta é fundamental do ponto de vista de melhoria da educação então saúde e educação são de novo não são dissociáveis não precisa ser tratadas coerentemente André Você desenhou bem para o Rodrigo aí Alguns setores que podem sobretudo investimento na economia investimento real que a gente tava falando aqui Estado e setor privado podem né de investimento é sempre real tá o resto não é não é o outro não é investimento Tá certo eu queria te fazer uma pergunta sobre eh a questão internacional Rodolfo falou Ajuda também sobre integração Regional aqui na América do Sul que é o presidente Lula sempre teve isso em mente e isso pode voltar a pauta e uma outra coisa é essa agenda nova da economia verde essa capacidade que o Lula tem de de conversar com as lideranças internacionais de colocar o Brasil de novo no mundo no jogo você acha que isso já traz um retorno imediato pra esse ano pra de repente segurar uma economia que não vai dar um né não vai dar um solavanco esse ano Mas é que segura aí talvez chegue no crescimento de 2% do PIB para a gente pensar num salto em 24 O que que você tá vendo nisso e depois plano real se é possível essa ideia ser exportada para região aqui sobretudo eu não terminei a questão dos investimentos claramente o o que tem o investimento que tem efeito mais imediato sobre recuperação da economia seria Sem dúvida nenhuma em habitação então a habitação saneamento infrator a habitação saneamento para começar ele tem efeito o impacto imediato na construção civil e para a recuperação da economia o agora pulando do desse que tem efeito imediato porque tem um que é objetivo e longo prazo que hoje tem mais fontes de financiamento externo de verdade é claramente na o investimento que se chama ambiental um investimento o Brasil e você recompor a riqueza Ambiental do Brasil claramente a Floresta Amazônica é o principal é ativo disso então este investimento a ideia de que o Brasil avançar reindustrialização uma ideia de uma um investimento criar economia ser tem uma agenda produtivista e não financista produtivista o país e que essa nova produção aumenta a produtividade seja numa economia desse carbonizada ou seja limpa sem carbono que é a agenda que está sendo imposta exigido no mundo inteiro é fundamental E para isso o Brasil com o país é de referência até por causa da Amazônia teria tem linhas muito favoráveis no mundo e abundante e não são linhas de bancos privados são lixo porque são mais caras a gente vamos pegar as linhas mais baratas você teria linha de organismos oficiais todos os ninhos internacionais de estados que Estão dispostos a financiar este este este que chamaria esse investimento Ambiental do Brasil isso tem efeito a curto prazo na recuperação na economia menos mas tem um efeito fundamental na credibilidade do país na recuperação ao longo prazo e num direcionamento para onde nós vamos e isso precisa ser definido imediatamente agora só para terminar nós precisamos que essa discussão chegue a mídia que pare de se falar em risco fiscal perfeito em Abismo fiscal enfim em discussão o filme a taxa de juros Deve ser isso deve ser aquilo era claramente essa essa é que é a difusão a verdadeira discussão é a discussão de o projeto de de por o Brasil numa economia de Século 21 uma economia digitalizada e ela é porque é importante um economia onde o estado é profundamente eficiente hoje com digitalização o estado pode ser muito mais eficiente muito mais desburocratizado ele pode custar muito menos na sua operação que é fundamental e pode ser muito mais fácil ser usado na sua interação com o cidadão tanto para cumprir os seus desejos como para receber os seus direitos a ideia de um estupro de uma plataforma digital pública e isso substitui hoje é o serviços burocráticos Infernais que você tem de um estado de um estado confuso e isto é isto é um projeto e só nisso já nós já temos um projeto maravilhoso para os próximos anos países colocando dinheiro no Brasil hoje no fundo Amazônia e tal você acredita que em muito pouco tempo as os grandes conglomeradas as grandes empresas vão fazer isso também estão fazendo isso de uma maneira significativa que possa fazer chegar fluxo de Capital no Brasil pesado Grande para que a gente possa investir nessa economia produtivista André vão voltando vamos assim o Brasil hoje você começou nós temos ele tem 73% de dívida pública financeira pública e tem 20% do PIB em reservas internacionais então o Brasil hoje não precisa de dinheiro externo mas é sempre bom ter mais tem que ser bom não precisa não depende de recursos externos esse isso é um cacoete de um período em que o Brasil no século 20 foi sempre dependente de recursos externo mas eu não precisa de recursos externo ele é claro que se ele começar a crescer muito rapidamente ele pode até depender Porque isso pode virar a ter as suas importações de bens de Capital pode levar que você precisa de linhas externas e investimento externo não é não traz só é só recurso financeiro ele pode trazer isso que você deve procurar ele pode trazer tecnologia e absorção de tecnologia e esse que é o critério que você deve avaliar para trazer investimento externo ele está trazendo tecnologia está permitindo a absorção de tecnologia e a tecnologia do mundo hoje está Mudando completamente todas as áreas da economia isso é fundamental isso nós temos que fazer agora sua pergunta hoje para essa questão ambiental os Fundos oficiais são muito mais abundantes e mais mais mais baratos do que você tem investimentos do setor privado claramente no setor privado vem a reboque ele se gerar isso mais à frente perfeito mas não é isso que é importante o Brasil Por que que você tem que ser tão dependente de de investimentos privados externos olha investimento privados externo se torcer a tecnologia e permitir uma grande absorção de tecnologia aqui perfeito os Estados Unidos muito e a inflação explodiu lá né passou a superou os 9% ao inédito e eles estão tendo que correr atrás agora do prejuízo para poder trazer essa inflação para baixo né os números da nossa inflação apontam 5.8 mas sem aquela decisão do congresso de reduzir os impostos de combustíveis e energia estariam ali na casa dos nove por cento então Digamos que a gente tem uma uma inflação não de 5.8 mas talvez algo no meio do caminho entre 5.8 e 9 8 se eu não tenho um aumento de política uma expansão de política é fiscal e monetária que possa a gente perder a mão com a inflação Juliana eu a minha vida inteira foi preocupada com inflação Participei de todos os planos de combate à infração do Brasil os bens sucedidos mal sucedidos o bem sucedido real perfeito Minha tese sobre inflação eu sou a pessoa mais preocupada com infração não sei quão importante inflação conter inflação é perfeito agora você você começou a sua pergunta com viés os Estados Unidos gastaram e aí criou a inflação americana não tem nada a ver com Castor os Estados Unidos o gastou multiplicou a base monetária em 2007 2008 para salvar o sistema financeiro que tinha que fazer não tô fazendo uma uma demagogia disso não porque teria levada em relação eles gastaram demais a palavra os Estados Unidos emitiram moeda passar na base monetária de 3% do PIB para 10% do PIB 27 tem uma crise que talvez houve um exagera então talvez tenha me colocado não teve inflação nenhuma em 2007 2008 pelo contrário saíamos de 2017 2008 depois dos Estados Unidos multiplicar a base monetária por 10 um fator de 10 e passou nós passamos 10 anos 11 anos com com ameaça de deflação nos Estados Unidos e no mundo agora quando ver a pandemia os Estados Unidos dobrou a dose mais uma vez pegou a base militar que já tava muito mais alta perfeito e triplicou e deu distribuiu o cheque para a população corretamente para evitar uma catástrofe que a pandemia podia ter acontecido o efeito foi a saída da pandemia quando as pessoas estavam desesperadas para viajar para comprar coisas para sair deixar de comprar em só em plataforma digital e a loja e a restaurante perfeito esse efeito esse efeito coincidiu com o efeito que a economia no mundo inteiro estava desorganizada os portos americanos tinha como entrar é mercadoria todas as redes as cadeias produtivas Eu tenho um amigo que é que é brasileiro toda aposta trabalha no sofrimento da porta e eles Olha você não tem noção nós não conseguimos entregar carro porque eu não consigo não tem não tinha microchip para automóveis Então os automóveis todos ofertas se contraiu houve uma pressão inflacionária em cima dessa por exemplo que subiu o preço de energia de petróleo e Toda energia e de alimentos por causa inclusive de fertilizantes Espera aí então esta esta foi a inflação não tem nada a ver com os Estados Unidos gastou mais segundo só a última coisa que eu vou falar se taxa de juros alta combater essa inflação não precisa ter feito o plano real quando eu fui diretor do Banco Central eu assumi com a taxa de juros do real mais alto da história perfeito Quando assumir e não tinha nem sinal de que a inflação ia receber por que que precisa de plano real é só subir a taxa de juro é o que dizem que isso não vai colocar em risco um aumento de inflação maior ainda no Brasil é a questão do gasto maior porque gasta um homem o gás onde é que você viu o gasto nós estamos saindo de 1,3% de de superágio primário no ano passado agora esse ano o que o autorizado pela PEC é mais 2%. significa se gastar tudo e arrecadação tá arrecadação é surpreender mais uma vez a arrecadações você não vai surpreender positivamente Então se arrecadação ficasse onde estava meio livre e o você gastasse os dois por cento integral da PEC que não vai conseguir perfeito porque a PEC tem muito ela autorizou e você não tem tempo para gastar se você fizesse isso você teria equilíbrio equilíbrio é primário o orçamento a previsão é que você possa ter um um défice primário de 1%. isso é grave Claro que não se você reduzir essa taxa de juro moderadamente Então não é para fazer uma coisa trágica não levar segundo a sua sugestão levar pra botar o Tacho o Tacho real igual ao do México leva para hoje isso aí economizaria mais do que esses dois por cento que nós vamos tendo graça da PEC agora eu gostaria de aproveitar o final Claro aproveitar o momento da discussão fiscal porque O Grande Debate hoje é sobre uma nova Âncora fiscal e a primeira pergunta que eu faço essa realmente a política do teto de gastos se esgotou E qual seria o caminho porque Vamos enfrentar esse debate e é um debate prioritário neste ano muito bem é claramente que sim Você precisa ter eu não gosto da palavra Âncora fiscal isso de novo é um neologismo de Economia economicismo que se usa em livros em tempos de Economia você precisa discutir um regime fiscal Qual é o regime fiscal response de responsabilidade o governo tem que gastar bem Como é que é Esse regime o regime que que limita o teto o limita com um teto constitucional Esse é um grande problema graças a Deus a grande mudança foi que nós conseguimos que e agora sai da Constituição feito esse teto constitucional claramente bom mas se você quando você limita o o o gasto com um teto constitucional e o gasto tem que tanto gasto obrigatório continua a crescer Sobretudo o Previdenciário não se fala mais falava em reforma da Previdência aí fez uma reforma do sódio do INSS mas a reforma a Previdência que é complicada que é a Previdência pública a imprensa esqueceu porque não não paramos de falar nisso agora não é mais assunto agora Sinceramente esse é o grande problema e o que esse gasto essas despesas correntes obrigatórias foram crescendo e foram comprimindo as despesas as despesas discricionárias Onde está o espaço de investimento comprimir um investimento público obviamente que isso não faz sentido Não é saudável segundo ao fazer isso e criar uma um um teto constitucional você põe de certa forma você fragiliza o executivo e favorece o congresso que nós vimos no ano passado com o orçamento secreto perfeito as emendas de relator que que é uma coisa o que é legal agora a ideia de que você não tenha não tenha visibilidade transparência não fazem mal sentido Este é o verdadeiro gasto Este é o Gato patrimonialista demagógico perfeito esse é que é o curso eu queria evitar você então o tiro saiu pela culatra então nós precisamos desenhar um regime fiscal que defina porque o orçamento é a peça de condução da da política da política do país e então como é que você define isso como é que é um regime fiscal coerente não é pressão de âncora é uma questão e a ideia de de limites é inflexíveis é um equívoco você precisa ter certas referências que que você faz e você se você não não é não atingir as referências objetivos determinado você precisa que se explique e que você que o o o governo ela diga que medida vai tomar para voltar a convergir para a os objetivos muito parecido com o regime de metas algo que por exemplo esse presente falou sobre o comprometimento de redução de dívida chegou a falar sobre quem sabe a questão do primário algum caminho tem que ser desenhado e o quanto antes né sim mas eu acho que não deve não é eu acho aí é uma questão isso nós vamos discutir no seminário agora em Lisboa nós vamos ter os times no seminário aqui em março tá sendo todo mundo tá discutindo isso tem várias propostas isso tá em discussão na na na europeia e a ideia é que você substitua essas regras inflexíveis por certos critérios e inteligentes irracionais de funcionamento critérios com objetivos que o gasto público seja coerente com a situação com a situação económica do país com com seus objetivos e que você não tenha um um descontrole da da das Finanças Públicas tributária chegou o momento de votar reforma tributária Eu não acho eu não acho que esse é uma boa ideia porque a reforma tributária todo mundo é a favor perfeito há muitos anos é todo mundo a ideia da simplificação e da criação do Imposto sobre valor relacionado um Iva são é em princípio uma uma muito boa ideia só que ela provoca com todo o tema tributário ele provoca provoca tantas reações todo mundo é a favor desde que não no meu lado aqui então você tem resistências por todos os lados Então não é à toa que ela nunca foi aprovada e eu acho muito difícil que ela seja aprovada a não ser para usar o termo do Legislativo do congresso fatiada você teria que fatia-las e dividir e enviar em várias etapas vai ser quase que a Previdência que o senhor está agora Quando você você vai fatiar vai tomar tempo então eu não acho que a forma tributária e a modernização e a simplificação do sistema tributária é fundamental e é e criar mais é dele é menos menos concentrador é é muito importante tanto na no imposto indireto como depois no imposto direto Imposto de Renda embora não é aí que se faça mudanças na distribuição de renda e de pobreza do país mas é importante um simbólico isto deve ser feito mas é não é eu não acho que isso que isso possa ser posto como o principal objetivo do país eu preciso é objetivo do país é definir uma recuperação do desenvolvimento uma um país o Brasil não tem porque o Brasil não crescer pelo menos pelo menos cinco seis sete por cento ao ano Durante os próximos anos como cresceram todas as economias asiáticas só rapidamente para terminar só uma coisa quase também a homenagem Nossa aqui do Canal Livre é a quando a gente terminou com a periflação com o plano real isso empurrou o Brasil para o século 21 que agora precisa retomar esse caminho aí de crescimento e desenvolvimento Mas uma pergunta que me você que tem obsessão pela inflação Como disse é por que que essa tecnologia brasileira que debelou a inflação e por inflação ela não pode ser usada em nenhum outro lugar ou ela não é aplicada em outro lugar como na Argentina por exemplo você tem essa indagação não porque porque a inflação ao contrário que as pessoas imaginam é a situação não vem de um de um de um problema econômico eu faço um vende um problema político é o a moeda a moeda é um instrumento é político é uma moeda é a unidade de conta do estado que a economia com todo utiliza se o estado se desorganiza e perde legitimidade se com desorganismos esse sistema de contabilidade fica questionado e eu não aceito mais essa unidade de conta doméstica de um estado que perdeu então diz o que provoca inflação é desorganização do Estado o que se chama em inglês feitos estados que é que é desorganizaram completamente fracassação sempre tem inflação perfeito é o caso da Venezuela o que aconteceu disso é muito confuso então o plano real a URV é uma ideia é um isso é simplesmente um mecanismo de desinnexar a refração do passado mas você precisa que haja que o país perceba que está que está com uma organização política institucional estável se não houver isso não há como combater inflação perfeito e a verdadeira inflação só aparece quando cria-se perde credibilidade institucional legitimidade nos dado Este é o ponto fundamental Não tem nada a ver com moeda com emissão de moeda como está demonstrado perfeito e eu acho muito engraçado porque isso tá demonstrar por isso que eu terminei meu artigo citando o James filho do Johnny eu falei recentemente disse olha é é tentar mudar a opinião mudar aquilo que todo mundo sabe todo mundo sabe é porque o governo gasta muito tentar mudar isso com Fatos e lógica é impossível então primeiro que as pessoas não presta atenção e repetem sem parar isso perfeito Então mas não é verdade não é verdade agora se não se parar e pensar e ficar repetindo especialmente você que são a mídia que tem Impacto que tem importância e ficarem repetindo esses por isso que eu falo de dogmas esses mantras mantra para pensar não fica repetindo Por que que a mídia hoje só ouve economista do mercado financeiro inacreditável Antigamente você ouvia um professor hoje em dia é o economista chefe da gestora tal da gestora x da x-pz WP é óbvio que ele só diz é a mesma coisa é que só não tem agenda Demorou até a trazer não é o seguinte só eu aqui fiquei vários pontos da minha lista que eu não consigo entender nada eles perguntam também muito entendeu então é o seguinte a gente vai ter que já deixar marcado ele já estourar a boca do balão o problema já estourou o seu horário e a gente vai ter que marcar um outro programa porque a conversa além de ser muito boa se aprofundou e tem tantos outros temas e como a Ju disse é a agenda obviamente do André Lara Rezende nos principais economistas do Brasil obviamente é muito agitada corretamente mas a gente já vai tentar obviamente pra frente sentar mais uma vez e ter essa boa conversa já em breve com a volta do nosso Fernando Mitre que tá descansando merecidamente muito obrigado André pela presença aqui no Canal Livre até a próxima obrigado a vocês pela oportunidade obrigado mesmo agradeço Juliana paspão é você que nos acompanhou uma ótima semana até semana que vem a gente aliás semana que vem Lembrando aqui a gente tem cobertura das festas de carnaval pelo país né então a gente tem transmissões especial ao longo de todo o carnaval e a gente volta na semana seguinte é o carnaval tchau tchau boa noite do Band News você fica 24 horas por dentro de todas as notícias e o melhor você pode ficar 100% conectado com Band News através das nossas redes sociais compartilhe [Aplausos]",
+ "palavras": 10233,
+ "erros_transcricao": [
+  "yt-dlp: <HTTPError 429: 'Too Many Requests'>"
+ ]
+}
