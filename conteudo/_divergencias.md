@@ -306,3 +306,33 @@ Não alinhado ou pendente:
 - **"Coordenação, e não dominância"** (texto: "Não se trata de dominância fiscal, mas de coordenação transparente e anunciada"): **procede em parte**, em 13.4 (elo 7), 13.6 e 13.7. Procede que não há financiamento monetário do déficit (o sentido de Sargent e Wallace não está na proposta); fica aberto o risco de política monetária passiva no sentido de Leeper, porque a exceção à faixa depende de um conselho sem composição, mandato nem regra de voto, e a versão que repete o CMN de hoje, com maioria do governo, não procede.
 - **"Câmbio neutralizado"** pelas reservas: **não procede na forma escrita** ("neutralizados"); a versão fraca, **suavizar** a depreciação e o pico do repasse, **procede**. Reservas de US$ 362,8 bi bastam para suavizar um choque de prêmio, e não desfazem o repasse de um câmbio que muda de patamar com o diferencial de juros (2020: dólar +35% com venda de reservas).
 - **"A LFT neutraliza o repique da inflação"** (o canal fiscal "neutralizado pela dívida curta"): **procede em parte**, em 13.2, 13.3, 13.6 e 13.7. Procede na aritmética e no modelo (o corte chega à conta de juros a cada reunião, e com dívida curta a FTPL não prevê salto de preços, como Mauro Miranda concede); "neutraliza" pede mais do que isso, porque os títulos de inflação reagem ao IPCA no mês, os prefixados novos ao prêmio, a rolagem da LFT depende de quem a carrega, e nenhum dado brasileiro isola o efeito (a desinflação de 2025 é teste fraco, pela 8.1).
+
+## Decisões da revisão de 13.8 a 13.10 (05/11/2026)
+
+- **Duas proposições na 13.10, com grau único em todo o painel.**
+  - (a) Existe distância de juro real para os pares de rating igual ou pior em 2023–2026: 4,6 pontos em 2025, 5,7 em jan–set/2026 e 3,3 na média do período. É fato datado, com confiança alta. Em 2019 a distância era de −0,2 ponto.
+  - (b) Rating, CDS, dívida e inflação recente não explicam essa distância. A favor, moderada, procede em parte. O resíduo da regressão fica entre 2,4 e 8,2 pontos, conforme o ano e a amostra.
+  - Essas medidas são novas e não se somam ao resíduo da 2.5 nem à distância para a regra de Taylor (10.2.5).
+  - A comparação não testa o canal ortodoxo do risco, que passa pelas expectativas e pelo juro neutro.
+- **Caso sem o Peru.** Sem o Peru, o histórico de inflação não se estima: t de 0,4 e intervalo do resíduo de −23 a +27. O resíduo de 1,7 é extrapolação e não serve como explicação.
+- **Mediação e colinearidade.** Na amostra a colinearidade medida é baixa (VIF de 1,3 a 1,9). O problema é o rating funcionar como mediador de dívida e inflação. Na série de 2007–2023, a troca de sinal vem de amostra pequena e de mudança de regime.
+- **Novas linhas da matriz da 13.7 (11 a 18):**
+
+  | Linha | Proposição | Direção | Força | Classe |
+  |---|---|---|---|---|
+  | 11 | BC fixa o juro e moeda endógena | a favor | forte | procede; não decide o nível |
+  | 12 | Phillips "praticamente horizontal" | mista | moderada | procede em parte |
+  | 13 | Juro alto custa produção e compra pouca desinflação | mista | moderada | procede em parte |
+  | 13 (corolário) | "O corte tem custo inflacionário pequeno" | contra | fraca | falta evidência |
+  | 14 | Juro age sobretudo pelo câmbio | a favor | moderada | procede em parte |
+  | 15 | Países de risco igual ou maior pagam menos | a favor | forte | procede em 2023–2026 |
+  | 16 | O risco medido não explica a distância | a favor | moderada | procede em parte |
+  | 17 | Logo, o juro alto é convenção | mista | fraca | falta evidência, como P3 |
+  | 18 | A comparação autoriza cortar por decisão | contra | moderada | não procede como inferência (crítica de Lucas) |
+
+- **Teoria (13.8).**
+  - Na regra de Romer (2000), a MP responde ao produto e por isso é inclinada.
+  - Sob ouro ou câmbio fixo, a moeda é endógena ao balanço de pagamentos. As metas monetárias são dos anos 1970 e do começo dos 1980.
+  - A prova brasileira de LM horizontal é a over 0,10 abaixo da meta em todos os dias úteis desde 2014. A alta da base em dezembro é só demanda acomodada.
+  - A inclinação de Hazell et al. é estimativa causal com instrumento, e não correlação.
+- **Mesma régua na 13.9.** A bola de neve é identidade contábil e não fala da causa do nível do juro. O neutro por filtro segue o juro por construção. Em 2019 o IPCA foi de 4,31%, contra meta de 4,25%. O caso de 2016–2017 é ambíguo para a tese neo-fisheriana. A escala de força é a da 9.1.
