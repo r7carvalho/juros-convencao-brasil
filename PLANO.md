@@ -281,7 +281,7 @@ no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do 
   plurianuais, papel do BC), com as falas em vídeo
 - [x] 13.2 A teoria por trás (juro como convenção, teoria fiscal do nível de preços, leitura
   neo-fisheriana, moeda e dívida) e o que cada uma prevê
-- [ ] 13.3 As contas: o que o corte faz com juros, déficit nominal e dívida (com os dados do painel e
+- [x] 13.3 As contas: o que o corte faz com juros, déficit nominal e dívida (com os dados do painel e
   exemplo de brinquedo); a afirmação do déficit "de mais de 10% para perto de 6% do PIB"
 - [ ] 13.4 Coerência interna: cada elo da proposta testado (corte → dívida → inflação → câmbio →
   expectativas), as condições de que ela depende e a base legal (autonomia do BC, LC 179/2021)

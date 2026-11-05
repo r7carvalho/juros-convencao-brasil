@@ -70,7 +70,7 @@ Para cada um: o trecho literal do artigo (Grabois/RED/DCM, 25/09/2026); a fala e
 **D6. O BC fixa a taxa básica, que determina o custo da dívida e a curva.**
 - Artigo: "O BC anuncia e controla integralmente a taxa básica de juros, que é o principal determinante do custo da dívida. É o parâmetro que baliza toda a estrutura a termo da dívida. Outros fatores, como a incerteza sobre a sua trajetória futura, as expectativas de inflação e o risco político da dívida, também influenciam [...] sobretudo dos papéis mais longos".
 - Vídeo: CL 14:43 a 15:18 ("a taxa de juros de longo prazo é fixada pelo mercado com base [...] na expectativa do custo de carregamento [...] da taxa básica"; o BC poderia operar na curva inteira como o Banco do Japão), https://www.youtube.com/watch?v=tuPETK1-9kU&t=883s ; MN 03:18 a 03:42 (a taxa básica "é completamente determinada pelo banco central"), https://www.youtube.com/watch?v=L3XqaiiXFfE&t=198s. Em 2022, ao NeoFeed, o mesmo mecanismo do custo de carregamento.
-- Imprensa: Brazil Journal (opinião, 02/11/2026) responde a este ponto: "O Banco Central fixa a taxa de um dia. Quem fixa o preço do dinheiro no tempo é o credor". Bom para a 13.6.
+- Imprensa: Brazil Journal (opinião de Mauro Miranda, 02/11/2026) responde a este ponto: "O Banco Central fixa a taxa de um dia. Quem fixa o preço do dinheiro no tempo é o credor". Bom para a 13.6.
 
 **D7. A curva de Phillips achatou e o modelo virou circular.**
 - Artigo: "Desde os anos 1990, a Curva de Phillips tornou-se praticamente horizontal"; "Um raciocínio circular tautológico: o modelo diz que as expectativas determinam a inflação [...] logo a inflação responde inversamente à taxa de juros. CQD."
@@ -219,7 +219,7 @@ Na mesma busca, sobre o autor e o tema, mas provavelmente anteriores à proposta
 - Sérgio Vale, MB Associados (via BPMoney): "Isso já foi feito, de certa forma, em 2012 e foi um desastre".
 - Gestores anônimos (Folha, via BPMoney): "terra arrasada"; juro reflete falta de credibilidade fiscal.
 - Alexandre Schwartsman (via Poder360): recessão em 2027 é mais provável sem corte de gastos.
-- Brazil Journal, opinião "Juros por decreto. Lágrimas a prazo" (02/11/2026, autor não identificado na coleta): o credor fixa o juro longo; Wicksell; pela própria TFNP, renunciar ao ajuste acaba em inflação; NTN-B acima de 7% real; recompra de R$ 31,6 bi pelo Tesouro depois do segundo turno; o texto de 1984 de Lara Resende listava controle do déficit e da política monetária entre as premissas.
+- Brazil Journal, opinião "Juros por decreto. Lágrimas a prazo" (02/11/2026, de Mauro Miranda, CFA, sócio-gestor da Stellaris Investimentos e ex-presidente da CFA Society Brazil, pela assinatura no fim do texto): o credor fixa o juro longo; Wicksell; pela própria TFNP, renunciar ao ajuste acaba em inflação; NTN-B acima de 7% real; recompra de R$ 31,6 bi pelo Tesouro depois do segundo turno; o texto de 1984 de Lara Resende listava controle do déficit e da política monetária entre as premissas.
 - Oreiro (Substack, 2026): não lido (403); a 7.8 e a 12.5.1 o citam ("diagnóstico correto, terapia ingênua e o risco de um novo 2012").
 - Do lado favorável: Gleisi Hoffmann (X, via SBT e Poder360); José Sergio Gabrielli ("merece atenção especial", via Times Brasil e SBT, 02/11/2026). Do governo: Dario Durigan ("Nenhuma dessas ideias como tabelamento de juros está na mesa do presidente", via Brasil 247, 01/11/2026); Edinho Silva.
 - Resposta do autor às críticas: só a paráfrase de segunda mão do debate no CEBRI (Brasil 247). Nenhuma resposta escrita dele depois de 01/11/2026 foi coletada.
@@ -314,3 +314,31 @@ Página `conteudo/13-lara-resende/13.5-precedentes.md`: cerca de 4.400 palavras 
 | Argentina 2020–2023 | Neutra a contra (financiamento monetário); 2024 a favor da âncora fiscal | Fraca | Mecanismo diferente do proposto |
 
 Conclusão para a 13.7: a transição (juro real de cerca de 3%) tem precedente brasileiro, condicionado a inflação convergindo e fiscal crível; a faixa permanente (juro real de −1,5% a 2,4%) não tem precedente nas condições de 2026.
+
+## 13.3 As contas (05/11/2026)
+
+Página `conteudo/13-lara-resende/13.3-contas.md`, cerca de 4.400 palavras de prosa (6.200 com tabelas e fórmulas). Script `tools/analises/13.3_contas.py` (biblioteca padrão; `--resumo` imprime todas as tabelas do texto). Gráficos: `dados/13.3-alivio-juros.json` (empilhadas), `dados/13.3-juros-nominais.json`, `dados/13.3-dbgg.json`, `dados/13.3-dlsp.json` (linhas, três casos).
+
+Fontes usadas: o artigo pelas citações literais do dossiê (D2, D4, D14, P3, P4; Grabois, RED e DCM); SGS 432, 4390, 4382, 4513, 5727, 5793, 13522, 13762 e 3546 (coleta de 02/11/2026); Focus de 23/10/2026 (Selic, IPCA e PIB anuais); números de `_divergencias.md` (DPF de ago/2026 e composição, compromissadas de 10,28% do PIB, R$ 61,7 bi e R$ 49 bi por ponto, custo médio da DPF de 12,59%, juro implícito de 2026 de 13,16%, R$ 189,5 bi e R$ 19 bi por ponto das reservas, sensibilidade da DLSP ao dólar, detentores de ago/2026, swaps de 2024, IFI RAF 117, FMI 104,5% em 2030). Buscas web (modo standard, seis) só para confirmar os números do artigo antes de o dossiê aparecer; nada novo entrou por elas. Descartado: RMD por indexador (vencimentos em 12 meses por tipo de título), não achado; a página declara a hipótese.
+
+Hipóteses declaradas na página (todas no script): blocos da DBGG com participação constante; prefixados vencem 1/3 por ano e títulos de inflação 1/6 (testados 1/4 e 1/4, 1/2 e 1/8, 1/5 e 1/10: DBGG de 2031 no caso b entre 95,8% e 97,3%); custo inicial dos prefixados = custo médio da DPF; juro real do estoque de títulos de inflação calibrado em 5,88% para fechar 13,16%; renda dos ativos que a DLSP desconta calibrada em R$ 78 bi (reservas a 3,875% mais resíduo de R$ 2 bi); deflator = IPCA; primário de −0,52% nos três casos; caso b com Selic 10,625% (média de 2027), 7,5% (2028), 6,5% (2029, retirada parcial do "spread de segurança", sem prazo no texto) e 5,5% depois; caso c com Selic 7,5% mantida, IPCA 6 / 7,5 / 7,5 / 7 / 7, dólar +20% e +10%, prêmio de 4 e 2,5 pontos; variantes c′ (reversão a 11, 13 e 12%) e b+ (PIB +0,5).
+
+Resultados principais: alívio pleno da parte flutuante R$ 386 bi por ano (2,9% do PIB); contra o Focus, R$ 157 bi (2027) a R$ 780 bi (2031), 4,0% do PIB em 2030; déficit nominal no caso b 8,3 / 6,8 / 6,3 / 5,7 / 5,7% do PIB; no caso c 8,4 / 7,3 / 7,3 / 7,2 / 7,2; DBGG em 2031: a 107,9, b 96,3, c 88,4, c′ 97,8; primário estabilizador em 2031: a 4,8, b 1,1, c −0,2, c′ 3,2, b+ 0,6. No caso b, 77% (2028) a 89% (2031) da queda dos juros é juro real; no c, o juro real cai mais que os juros nominais (imposto inflacionário).
+
+Números que divergem ou pedem atenção:
+- "Mais de 10% do PIB" (D14, D13) é juro bruto sobre a DBGG (10,5% no texto; 10,9% na conta do painel com o estoque de set/2026 a 13,16%); o déficit nominal oficial é 9,51% (set/2026) e o próprio texto diz "aproxima-se de 10%" (D4). Resolve a pendência (c) de D14.
+- A economia de "cerca de 4% do PIB" aparece no caso b contra o Focus só no quarto ano; com os números do texto, (12,68 − 7,5) × 0,8 = 4,1 e (13 − 7,5) × 0,8 = 4,4.
+- O custo de 1 ponto sobre a parte flutuante bruta é R$ 62,8 bi pela composição de ago/2026, contra R$ 61,7 bi do BCB (DLSP, dez/2025): diferença de base e data, as duas citadas.
+- A trajetória (a) fica cerca de 10 pontos acima da projeção do FMI convertida ao conceito BCB (≈93% em 2030), por manter o déficit primário e usar o IPCA como deflator; a página diz que vale a distância entre os casos.
+- O caso b não estabiliza a dívida: a 12.5.1 (6b) diz que o alívio é "na escala de pontos do PIB", e a 13.3 confirma; o que a 13.3 acrescenta é que a DBGG ainda sobe sem primário positivo.
+
+Linhas para a matriz da 13.7:
+- C1. O corte alivia a conta de juros logo e em pontos do PIB: procede (R$ 193 bi no ano 1, R$ 386 bi por ano no efeito pleno; 56,5% da DBGG na Selic do dia).
+- C2. O déficit nominal era de mais de 10% do PIB: procede em parte (vale para juros brutos; NFSP de 9,51%).
+- C3. O déficit cai para perto de 6% do PIB: procede em parte (no caso b, 6,8% no segundo ano e 5,7% do quarto em diante; depende de inflação na meta e prêmio menor, hipóteses não testáveis com dados passados).
+- C4. A economia chega a cerca de 4% do PIB: procede em parte (no caso b, no quarto ano, contra o Focus).
+- C5. O canal fiscal está neutralizado pela dívida curta: procede em parte (vale com a inflação na meta; os títulos de inflação reagem ao IPCA no mês e os prefixados novos ao prêmio; com desancoragem, o alívio vem da inflação).
+- C6. Com o juro na faixa, a dívida converge sem ajuste primário: não procede na conta do painel para 2027–2031 (caso b: DBGG a 96,3% em 2031; estabiliza com primário de 1,1%; com PIB +0,5, 0,6%). O texto não afirma isso de forma literal; a linha testa a leitura de que o ajuste primário seria dispensável (D13 fala em "nenhum ajuste fiscal" sem o corte, não no inverso).
+- C7. O corte tira renda de quem: fato da conta, sem classificação (LFT ≈ R$ 306 bi e compromissadas ≈ R$ 86 bi por ano; bancos, fundos, previdência e, por trás, aplicadores).
+
+Lacunas: perfil de vencimento por indexador (RMD, tabela "DPF a vencer em 12 meses, por indexador"); carteira de cada detentor por tipo de título; estimativa oficial da sensibilidade da DBGG (não só da DLSP) à Selic; resultado dos swaps sob uma desvalorização de 20%.
