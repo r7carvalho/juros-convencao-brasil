@@ -103,18 +103,37 @@ if "--json" in sys.argv:
         json.dump(dados, f, ensure_ascii=False, indent=1)
     print("gravado", caminho)
 
-# 6. Prêmio aproximado do DI jan/29 (perto de 15% em 26/10/2026, 12.4.3) sobre a Selic média esperada pelo
-#    Focus de 23/10/2026 (13,25% no fim de 2026, 11,75% no fim de 2027, 10% no fim de 2028), com trajetória
-#    linear entre os fins de ano, de nov/2026 a dez/2028, capitalizada mês a mês.
-pontos = {0: 13.75, 2: 13.25, 14: 11.75, 26: 10.0}  # meses a partir de out/2026
-def selic_mes(k):
+# 6. Prêmio aproximado do DI jan/29 sobre a Selic média esperada pelo Focus até o vencimento, com
+#    trajetória linear entre os fins de ano (de 13,75% em out/2026 às medianas de fim de 2026, 2027 e
+#    2028), de nov/2026 a dez/2028, capitalizada mês a mês. Duas marcas (decisão de 05/11/2026 em
+#    conteudo/_divergencias.md): a linha de base, DI de cerca de 12,6% em 19 e 20/10/2026, antes do
+#    choque eleitoral, contra o Focus da mesma semana (16/10 e 23/10); e o pregão de 26/10/2026, dia
+#    seguinte ao segundo turno, DI de 15,03%, contra o Focus de 23/10 (Cadaminuto, 26/10/2026, com dados
+#    da B3; páginas 6.1 e 12.4.3).
+def focus_selic(data):
+    dd = json.load(open(os.path.join(ROOT, "dados", "brutos", "focus-anuais_selic.json"), encoding="utf-8"))["dados"]
+    return {int(x["DataReferencia"]): x["Mediana"] for x in dd if x["Data"] == data and x["baseCalculo"] == 0}
+
+
+def selic_media_ate_jan29(fs):
+    pontos = {0: 13.75, 2: fs[2026], 14: fs[2027], 26: fs[2028]}  # meses a partir de out/2026
     ks = sorted(pontos)
-    for a, b in zip(ks, ks[1:]):
-        if a <= k <= b:
-            return pontos[a] + (pontos[b] - pontos[a]) * (k - a) / (b - a)
-    return pontos[ks[-1]]
-fator = 1.0
-for k in range(1, 27):
-    fator *= (1 + selic_mes(k) / 100) ** (1 / 12)
-media = (fator ** (12 / 26) - 1) * 100
-print(f"Selic média esperada nov/2026-dez/2028 ~ {media:.2f}% a.a.; prêmio do DI jan/29 a 15% ~ {15 - media:.1f} p.p.")
+
+    def selic_mes(k):
+        for a, b in zip(ks, ks[1:]):
+            if a <= k <= b:
+                return pontos[a] + (pontos[b] - pontos[a]) * (k - a) / (b - a)
+        return pontos[ks[-1]]
+    fator = 1.0
+    for k in range(1, 27):
+        fator *= (1 + selic_mes(k) / 100) ** (1 / 12)
+    return (fator ** (12 / 26) - 1) * 100
+
+
+for data, di, rotulo in (("2026-10-16", 12.6, "linha de base, DI de 19-20/10"),
+                         ("2026-10-23", 12.6, "linha de base, DI de 19-20/10"),
+                         ("2026-10-23", 15.03, "pregão de 26/10, dia seguinte à eleição")):
+    fs = focus_selic(data)
+    media = selic_media_ate_jan29(fs)
+    print(f"Focus de {data} (Selic {fs[2026]} / {fs[2027]} / {fs[2028]}): Selic média esperada nov/2026-dez/2028 "
+          f"~ {media:.2f}% a.a.; {rotulo}: DI jan/29 a {di:.2f}% -> prêmio ~ {di - media:.2f} p.p.")

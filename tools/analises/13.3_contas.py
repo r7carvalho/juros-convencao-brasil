@@ -155,6 +155,12 @@ VARIANTES = {
                   pib={a: v + 0.5 for a, v in PIB_A.items()}),
     "k1375": dict(CASOS["a"], nome="Selic parada em 13,75%",
                   selic={a: 13.75 for a in ANOS}),
+    # O caso (b) usa prêmio de 1 ponto nos prefixados novos, contra 1,5 no (a): hipótese de anúncio
+    # crível. A variante dá ao (b) o mesmo 1,5 do (a), para separar o efeito do corte do efeito do
+    # prêmio. Referência do prêmio observado (13.4_coerencia.py): DI jan/29 cerca de 0,6 a 0,9 ponto
+    # acima da Selic média esperada em 19-20/10/2026, antes do choque eleitoral; cerca de 3,3 em 26/10.
+    "b_tau15": dict(CASOS["b"], nome="(b, prêmio 1,5) proposta na meta com o prêmio dos prefixados do caso (a)",
+                    tau_p=1.5),
 }
 N_P, N_X = 3.0, 6.0                       # anos para o estoque prefixado e o de inflação vencerem
 
@@ -334,6 +340,13 @@ def resumo(sims):
     for lk, lb in zip(k, b):
         print(f"  {lk['ano']}: total {lk['jg'] - lb['jg']:6.0f} bi; flutuante {lk['partes']['F'] - lb['partes']['F']:6.0f}; "
               f"% do PIB {(lk['jl_pp'] - lb['jl_pp']):.2f} (líquido)")
+
+    bt = sims["b_tau15"]
+    print("Alívio contra (a) com o caso (b) no mesmo prêmio de 1,5 ponto nos prefixados novos:")
+    for la, lb, lt in zip(a, b, bt):
+        print(f"  {la['ano']}: total {la['jg'] - lt['jg']:6.0f} bi ({(la['jg'] - lt['jg']) / lt['y'] * 100:.2f}% do PIB); "
+              f"com prêmio de 1 ponto: {(la['jg'] - lb['jg']) / lb['y'] * 100:.2f}%; DBGG {lt['dg']:.1f} (b: {lb['dg']:.1f}); "
+              f"nominal {lt['nominal_pp']:.2f} (b: {lb['nominal_pp']:.2f})")
 
     print("\nDecomposição do alívio de juros líquidos (p.p. do PIB) entre inflação (atualização) e juro real, contra a partida (8,99 = 2,76 + 6,23):")
     from_atual = 8.99 - 6.23
