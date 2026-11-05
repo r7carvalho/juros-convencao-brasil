@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="yT1rKoWz89EuYh7TjpIXGguK4cWeXAEpf1qFl8kP0Bc" />
+    <meta name="viewport" id="viewport" content="width=device-width" />
+    <meta name="google-site-verification" content="roTpQQ5Qcv4KfDN_kZ5F06wCdETOwNUh2dpd6_7volM" />
+            <script src="https://tag.spunmidia.tech/250hairz/investnews.com.br.js" async></script>
+    <link rel="dns-prefetch" href="//tag.spunmidia.tech" />
+    <link rel="preconnect" href="https://tag.spunmidia.tech" crossorigin />
+        <link rel="dns-prefetch" href="//analytics.tiktok.com" />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="//connect.facebook.net" />
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
+    <link rel="dns-prefetch" href="//sdk.mrf.io" />
+    <script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+window.investnewsConsentConfig = {"enabled":true,"ttlDays":180};
+var investnewsConsentDefault = {"ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied","analytics_storage":"denied","functionality_storage":"granted","security_storage":"granted","wait_for_update":1200};
+gtag('consent', 'default', investnewsConsentDefault);
+    // INS-1582: restaura consentimento salvo (retornante) ainda neste script,
+// antes do GTM carregar — evita que o wait_for_update expire antes do
+// restore, que antes só rodava no módulo do footer após DOMContentLoaded.
+// Espelha state.js (STORAGE_KEY/STORAGE_VERSION/TTL_DAYS) e consent-mode.js
+// (mapeamento categorias -> sinais); duplicado aqui de propósito pois este
+// script precisa ser inline/síncrono, sem import de módulo ES.
+try {
+    var investnewsStoredConsentRaw = window.localStorage.getItem('investnews_cookie_consent');
+    if (investnewsStoredConsentRaw) {
+        var investnewsStoredConsent = JSON.parse(investnewsStoredConsentRaw);
+        var investnewsConsentTtlMs = 180 * 24 * 60 * 60 * 1000;
+        var investnewsConsentIsValid = investnewsStoredConsent
+            && investnewsStoredConsent.version === 1
+            && typeof investnewsStoredConsent.timestamp === 'number'
+            && (Date.now() - investnewsStoredConsent.timestamp) <= investnewsConsentTtlMs
+            && investnewsStoredConsent.categories;
+        if (investnewsConsentIsValid) {
+            var investnewsConsentSignals = {
+                analytics_storage: investnewsStoredConsent.categories.analytics ? 'granted' : 'denied',
+                ad_storage: investnewsStoredConsent.categories.marketing ? 'granted' : 'denied',
+                ad_user_data: investnewsStoredConsent.categories.marketing ? 'granted' : 'denied',
+                ad_personalization: investnewsStoredConsent.categories.marketing ? 'granted' : 'denied'
+            };
+            gtag('consent', 'update', investnewsConsentSignals);
+            window.dataLayer.push({
+                event: 'cookie_consent_update',
+                cookie_consent_analytics: investnewsStoredConsent.categories.analytics ? 'granted' : 'denied',
+                cookie_consent_marketing: investnewsStoredConsent.categories.marketing ? 'granted' : 'denied'
+            });
+            window.__investnewsConsentRestoredEarly = true;
+        }
+    }
+} catch (e) {}
+    try {
+    var investnewsCcDebugParam = new URLSearchParams(window.location.search).get('cc_debug');
+    if (investnewsCcDebugParam === '1') {
+        window.localStorage.setItem('investnews_cookie_consent_debug', '1');
+    } else if (investnewsCcDebugParam === '0') {
+        window.localStorage.removeItem('investnews_cookie_consent_debug');
+    }
+    if (window.localStorage.getItem('investnews_cookie_consent_debug') === '1') {
+        console.log('[cookie-consent] consent default', investnewsConsentDefault);
+    }
+} catch (e) {}
+</script>
+    <style id="ins-header-critical">@charset "UTF-8";.ins-btn{display:inline-block;flex-shrink:0;padding:9px 12px;border:none;border-radius:4px;background-color:var(--purple, #4b22f5);color:var(--white, #fff);font-family:Crimson Text,Georgia,serif;font-size:14px;font-weight:700;line-height:22px;text-transform:uppercase;text-decoration:none;white-space:nowrap;cursor:pointer;transition:background-color .3s,transform .1s}.ins-btn:not(.disabled):hover{background-color:#3d1bc4}.ins-btn:not(.disabled):active{transform:scale(.98)}.ins-btn.disabled,.ins-btn:disabled{opacity:.45;cursor:not-allowed}.ins-btn:focus-visible{outline:2px solid #50f;outline-offset:2px}.ins-btn--outline{border:1px solid var(--light-grey-2, #666);background-color:transparent;color:var(--light-grey-2, #666)}.ins-btn--outline:not(.disabled):hover{border-color:var(--purple, #4b22f5);background-color:transparent;color:var(--purple, #4b22f5)}.ins-btn--invert{border:1px solid var(--purple, #4b22f5);background-color:var(--white, #fff);color:var(--purple, #4b22f5)}.ins-btn--invert:not(.disabled):hover{background-color:var(--light-purple, #f4eeff);color:var(--purple, #4b22f5)}.ins-btn--full{width:100%}.ins-ad,.sp-ad-wrapper:has(>.ins-ad){display:flex!important;max-width:100%;overflow:hidden}.ins-ad{flex-direction:column;align-items:center;gap:12px;box-sizing:border-box;min-height:var(--ins-ad-fit, 320px);padding:24px 0 12px;background-color:#f9f9f9}.ins-ad:after{content:"Publicidade";margin-top:auto;color:#6b6b6b;font-family:var(--in-font-family-secondary),sans-serif;font-size:14px;line-height:22px}.ins-ad--floating{width:300px;padding-top:0;padding-bottom:8px;gap:4px;min-height:var(--ins-ad-fit, 284px)}.ins-ad--floating:after{margin-top:0}.ins-ad--content{width:100%}.ins-ad--sidebar{width:300px;max-width:100%}.ins-ad--billboard728,.ins-ad--billboard970{width:100%}.ins-ad--billboard728,.ins-ad--content.ins-ad--medium,#ad-billboard728.ins-ad--content{min-height:var(--ins-ad-fit, 160px)}.floating-ad-container>.ins-ad--floating{float:right;margin:0 0 24px 56px}.ins-ad.ins-ad--sponsor{min-height:0}.ins-simple-list__item--ad{align-items:center}.ins-simple-list__item--ad .ins-ad{width:100%}.ins-ad--between-sections{margin:40px 0}@media(max-width:628px){.ins-ad--billboard728{min-height:var(--ins-ad-fit, 170px)}.ins-ad--content.ins-ad--medium,#ad-billboard728.ins-ad--content{min-height:var(--ins-ad-fit, 320px)}.floating-ad-container>.ins-ad--floating{float:none;margin:0 auto 24px}}.ins-ad--debug:not(:has(iframe,.ins-ad__house)):before{content:attr(data-ins-ad-label);display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:300px;max-width:100%;height:250px;padding:8px;background-color:#ececec;color:#6b6b6b;font:12px/1.4 monospace;text-align:center}@media not (max-width:628px){.ins-ad--debug.ins-ad--content:not(:has(iframe,.ins-ad__house)):before,.ins-ad--debug.ins-ad--billboard970:not(:has(iframe,.ins-ad__house)):before{width:min(100%,970px)}.ins-ad--debug.ins-ad--billboard728:not(:has(iframe,.ins-ad__house)):before{width:min(100%,728px);height:90px}.ins-ad--debug.ins-ad--content.ins-ad--medium:not(:has(iframe,.ins-ad__house)):before{width:min(100%,728px)}.ins-ad--debug.ins-ad--content.ins-ad--narrow:not(:has(iframe,.ins-ad__house)):before{width:300px}}@media(max-width:628px){.ins-ad--debug.ins-ad--billboard728:not(:has(iframe,.ins-ad__house)):before{width:320px;height:100px}}@media(max-width:628px){.floating-ad-container>.ins-ad--floating{align-self:center}}.sp-ad-wrapper:has(>.ins-ad){justify-content:center;margin:0;padding:0;background-color:transparent}.sp-ad-wrapper:has(>.ins-ad):after{content:none}.floating-ad-container>.sp-ad-wrapper:has(>.ins-ad--floating){float:right;width:300px!important;max-width:100%;margin:0 0 24px 56px}.post-content>.sp-ad-wrapper:has(>.ins-ad--content),.page-text-content>.sp-ad-wrapper:has(>.ins-ad--content){width:100%!important;max-width:none;margin:40px 0}.sp-ad-wrapper>.ins-ad--content{width:100%;margin:0}@media(max-width:628px){.floating-ad-container>.sp-ad-wrapper:has(>.ins-ad--floating){float:none;align-self:center;margin:0 auto 24px}}.ins-ad__sponsor img,.ins-ad__house img{display:block;max-width:100%;height:auto}.sp-ad-wrapper:has(iframe):after{color:#6b6b6b}.ins-header{--header-sticky-height: 65px;--side-menu-offset: 0px;position:relative;z-index:100;display:flex;flex-direction:column;justify-content:center;width:100%;margin-bottom:40px;background-color:var(--white)}@media(max-width:767px){.ins-header{margin-bottom:0}}body.landing-page .ins-header{margin-bottom:0}.ins-header--branded .ins-header__brand-main{display:flex;flex-direction:row;align-items:center;justify-content:space-between}.ins-header__logo img{width:316px}.ins-header__logo svg{display:flex;width:316px;height:57px}.ins-header__brand{position:relative;display:flex;align-items:center;justify-content:center;width:100%;padding:40px 0;border-bottom:1px solid var(--light-grey)}.ins-header__cta{position:absolute;right:0;display:flex;text-decoration:unset;text-align:center}.ins-header__cta .btn-mobile-img{display:none}.ins-header__nav{display:flex;align-items:center}.ins-header__nav .header-menu-container{width:calc(100% - 26px);box-sizing:border-box;padding:0 20px}.ins-header__nav .header-menu{display:flex;justify-content:center;position:relative;list-style:none;margin:20px 0}.ins-header__nav .header-menu>.menu-item{font-family:Crimson Text,Georgia,serif;text-transform:uppercase;font-size:16px;font-weight:700;letter-spacing:-.01em;color:var(--darker-grey)}.ins-header__nav .header-menu>.menu-item:not(:last-child){margin-right:32px}.ins-header__nav .header-menu>.menu-item a{text-decoration:none;color:var(--darker-grey)}.ins-header__menu-toggle{position:relative;display:block;width:26px;height:16px;padding:0;border:0;background:none;color:inherit;font:inherit;-webkit-appearance:none;-moz-appearance:none;appearance:none}.ins-header__menu-toggle:hover{cursor:pointer}.ins-header__menu-toggle--compact{display:none}.ins-header__menu-bar{position:absolute;display:block;width:26px;height:2px;background-color:var(--light-grey-2)}.ins-header__menu-bar:nth-child(1){top:0}.ins-header__menu-bar:nth-child(2){top:calc(50% - 1px)}.ins-header__menu-bar:nth-child(3){bottom:0}.ins-header__brand-label{color:var(--light-grey-2);font-family:var(--in-font-family-secondary),sans-serif;font-size:20px;font-weight:700;line-height:30px;padding:0 32px;position:relative}.ins-header__brand-label:before{content:"";position:absolute;left:16px;width:1px;height:100%;background:var(--light-grey-2)}.ins-header__drawer-wrap{position:relative}.ins-header__drawer{position:absolute;top:0;left:0;z-index:101;width:100%;max-height:0;overflow:hidden}@media(max-width:1024px){.ins-header .ins-header__inner,.ins-header .ins-header__inner.container{width:100%;padding:0}.ins-header .ins-header__brand{justify-content:space-between;box-sizing:border-box;padding:17px 16px;gap:16px;margin-bottom:0}.ins-header .ins-header__brand-main{flex:1;display:flex;flex-direction:row;justify-content:flex-start;align-items:center}.ins-header .ins-header__logo{max-width:180px}.ins-header .ins-header__logo img{max-width:100%;max-height:32px}.ins-header .ins-header__logo svg{width:177px;height:32px}.ins-header .ins-header__cta{position:relative}.ins-header .ins-header__cta .btn-mobile-img{display:block}.ins-header .ins-header__nav{display:none}.ins-header .ins-header__menu-toggle--compact{display:block}.ins-header .ins-header__trending{overflow:scroll;padding:0 16px;border-bottom:1px solid var(--light-grey)}.ins-header .ins-header__trending .container{border:none}.ins-header .ins-header__trending .menu-links-em-alta-container{width:max-content;min-width:100%}.ins-header .ins-header__trending ul{gap:unset}.ins-header .ins-header__trending ul li{display:flex;align-items:center}.ins-header .ins-header__trending ul li:not(:last-child):after{content:"";display:block;position:relative;width:1px;height:16px;background-color:var(--purple);margin:0 8px}}@media(max-width:450px){.ins-header .ins-header__trending .menu-links-em-alta-container{padding-right:16px}}@media(max-width:424px){.ins-header .ins-header__logo{max-width:148px}.ins-header .ins-header__logo svg{width:100%;max-width:100%;height:auto}}.ins-header__trending .container{border-bottom:1px solid var(--light-grey)}.ins-header__trending ul{display:flex;justify-content:center;list-style:none;gap:24px;margin:0;padding:0}.ins-header__trending ul li{padding:12px 0;color:var(--black)}.ins-header__trending ul li a{display:block;text-decoration:none;text-transform:uppercase;color:var(--black);font-family:Crimson Text,Georgia,serif;font-size:14px;font-weight:400;line-height:22px;letter-spacing:6%}.ins-header__trending ul li a:hover{text-decoration:underline}.ins-header__trending ul li.menu-item-has-children .sub-menu{display:none}.ins-header__trending ul #menu-item-title{display:flex;align-items:center;justify-content:center;text-transform:uppercase;font-size:14px;font-weight:700;line-height:22px;letter-spacing:6%}body:not(.home,.single-post,.single-patrocinados) .ins-header__trending .container>div{display:none}.ins-header-spacer{width:100%;pointer-events:none;visibility:hidden}@media(min-width:1025px){.single-patrocinados .ins-header .ins-header__brand,.tax-marcas .ins-header--branded .ins-header__brand,.single-post .ins-header .ins-header__brand,.page-template-default:not(.home) .ins-header .ins-header__brand{padding:16px 0}.single-patrocinados .ins-header .ins-header__logo svg,.tax-marcas .ins-header--branded .ins-header__logo svg,.page-template-default:not(.home) .ins-header .ins-header__logo svg,.single-post .ins-header .ins-header__logo svg{width:177px;height:32px}}@media(max-width:767px){.single-patrocinados .ins-header .ins-header__logo svg,.ins-header .ins-header__logo svg,.single-post .ins-header .ins-header__logo svg{width:177px;height:32px}}body.admin-bar #wpadminbar{position:absolute}
+</style>
+<link rel="preload" href="https://investnews.com.br/app/themes/investnews/assets/fonts/SpecialGothic/SpecialGothic-Regular-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://investnews.com.br/app/themes/investnews/assets/fonts/CrimsonText/CrimsonText-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://investnews.com.br/app/themes/investnews/assets/fonts/CrimsonPro/CrimsonPro-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<!-- InvestNews YouTube Schema v2.3.5 LOADED -->
+
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Selic &#039;tabelada&#039;? Entenda a proposta de André Lara Resende</title>
+<meta name="description" content="Economista quer Selic menor para frear a dívida. Críticos veem risco para dólar e inflação"/>
+<meta name="robots" content="follow, index, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+<link rel="canonical" href="https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Selic &#039;tabelada&#039;? Entenda a proposta de André Lara Resende" />
+<meta property="og:description" content="Economista quer Selic menor para frear a dívida. Críticos veem risco para dólar e inflação" />
+<meta property="og:url" content="https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/" />
+<meta property="og:site_name" content="InvestNews" />
+<meta property="article:publisher" content="https://www.facebook.com/investnewsbr/" />
+<meta property="article:tag" content="Inflação" />
+<meta property="article:tag" content="Selic" />
+<meta property="article:section" content="Economia" />
+<meta property="og:updated_time" content="2026-11-03T17:26:59-03:00" />
+<meta property="og:image" content="https://media.investnews.com.br/uploads/2026/11/bancocentral-1200x630.jpg" />
+<meta property="og:image:secure_url" content="https://media.investnews.com.br/uploads/2026/11/bancocentral-1200x630.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="selic" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2026-11-03T16:15:08-03:00" />
+<meta property="article:modified_time" content="2026-11-03T17:26:59-03:00" />
+<meta property="og:video" content="https://www.youtube.com/embed/IOAZPP5ew7I" />
+<meta property="ya:ovs:upload_date" content="2026-11-03-0316:15:08-03:00" />
+<meta property="ya:ovs:allow_embed" content="true" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Selic &#039;tabelada&#039;? Entenda a proposta de André Lara Resende" />
+<meta name="twitter:description" content="Economista quer Selic menor para frear a dívida. Críticos veem risco para dólar e inflação" />
+<meta name="twitter:site" content="@InvestNewsBR" />
+<meta name="twitter:creator" content="@InvestNewsBR" />
+<meta name="twitter:image" content="https://media.investnews.com.br/uploads/2026/11/bancocentral-1200x630.jpg" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Simone Costa" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="9 minutes" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://investnews.com.br/#place","address":{"@type":"PostalAddress","streetAddress":"R. Capote Valente, 120","addressLocality":"Pinheiros","addressRegion":"S\u00e3o Paulo","postalCode":"05409-000","addressCountry":"BR"}},{"@type":"NewsMediaOrganization","@id":"https://investnews.com.br/#organization","name":"InvestNews","url":"https://investnews.com.br","sameAs":["https://www.facebook.com/investnewsbr/","https://twitter.com/InvestNewsBR","https://www.instagram.com/investnewsbr/","https://www.youtube.com/channel/UCo0jMsIPccAXghE_FCWIdNg","https://br.linkedin.com/company/investnewsbr","https://www.tiktok.com/@investnewsbr","https://whatsapp.com/channel/0029VaVwWlBKGGGLc3V4iA1Y","https://profile.google.com/cp/Cg0vZy8xMXpqNzBtdjE1"],"email":"audiencia@investnews.com.br","address":{"@type":"PostalAddress","streetAddress":"R. Capote Valente, 120","addressLocality":"Pinheiros","addressRegion":"S\u00e3o Paulo","postalCode":"05409-000","addressCountry":"BR"},"logo":{"@type":"ImageObject","@id":"https://investnews.com.br/#logo","url":"https://media.investnews.com.br/uploads/2025/01/Avatar_1000x1000-1-1-300x300-1.png","contentUrl":"https://media.investnews.com.br/uploads/2025/01/Avatar_1000x1000-1-1-300x300-1.png","caption":"InvestNews","inLanguage":"pt-BR","width":"300","height":"300"},"description":"O InvestNews \u00e9 uma plataforma de produ\u00e7\u00e3o e distribui\u00e7\u00e3o de conte\u00fado de Neg\u00f3cios, Investimentos, Economia e Tecnologia. S\u00e3o not\u00edcias e an\u00e1lises produzidas por uma equipe altamente qualificada de jornalistas e profissionais multim\u00eddia, al\u00e9m de artigos, guias, calculadoras e cota\u00e7\u00f5es.","legalName":"Nu Pagamentos S.A - Institui\u00e7\u00e3o de Pagamento","location":{"@id":"https://investnews.com.br/#place"},"foundingDate":"2020-01-14","parentOrganization":{"@type":"Organization","name":"Nu Pagamentos S.A."},"masthead":"https://investnews.com.br/quem-somos/"},{"@type":"WebSite","@id":"https://investnews.com.br/#website","url":"https://investnews.com.br","name":"InvestNews","alternateName":"IN","publisher":{"@id":"https://investnews.com.br/#organization"},"inLanguage":"pt-BR"},{"@type":"ImageObject","@id":"https://media.investnews.com.br/uploads/2026/11/bancocentral.jpg","url":"https://media.investnews.com.br/uploads/2026/11/bancocentral.jpg","width":"1200","height":"675","caption":"selic","inLanguage":"pt-BR"},{"@type":"BreadcrumbList","@id":"https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","name":"Home","item":"https://investnews.com.br/"},{"@type":"ListItem","position":"2","name":"Economia","item":"https://investnews.com.br/economia/"},{"@type":"ListItem","position":"3","name":"Selic \u2018tabelada\u2019 para n\u00e3o passar de 5,5% ao ano? Entenda a proposta de Andr\u00e9 Lara Resende","item":"https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/"}]},{"@type":"WebPage","@id":"https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/#webpage","url":"https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/","name":"Selic &#039;tabelada&#039;? Entenda a proposta de Andr\u00e9 Lara Resende","datePublished":"2026-11-03T16:15:08-03:00","dateModified":"2026-11-03T17:26:59-03:00","isPartOf":{"@id":"https://investnews.com.br/#website"},"primaryImageOfPage":{"@id":"https://media.investnews.com.br/uploads/2026/11/bancocentral.jpg"},"inLanguage":"pt-BR","breadcrumb":{"@id":"https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/#breadcrumb"}},{"@type":"Person","@id":"https://investnews.com.br/autor/simone-costa/","name":"Simone Costa","description":"Com mais de 25 anos de experi\u00eancia em reportagem, edi\u00e7\u00e3o e fact-checking, tem passagens por Veja e UOL. Jornalista pela UFMG, possui mestrado em ci\u00eancia pol\u00edtica pela USP e p\u00f3s-gradua\u00e7\u00e3o lato sensu em jornalismo liter\u00e1rio pela Faculdade Vicentina de Curitiba/ABJL","url":"https://investnews.com.br/autor/simone-costa/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/300995f949c7e3cafe275003541829635ee055054bf142a9c02a29e7d1905f6a?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/300995f949c7e3cafe275003541829635ee055054bf142a9c02a29e7d1905f6a?s=96&amp;d=mm&amp;r=g","caption":"Simone Costa","inLanguage":"pt-BR"},"worksFor":{"@id":"https://investnews.com.br/#organization"},"sameAs":"https://www.linkedin.com/in/jornalistasimonecosta/"},{"headline":"Selic &#039;tabelada&#039;? Entenda a proposta de Andr\u00e9 Lara Resende","description":"Economista quer Selic menor para frear a d\u00edvida. Cr\u00edticos veem risco para d\u00f3lar e infla\u00e7\u00e3o","datePublished":"2026-11-03T16:15:08-03:00","dateModified":"2026-11-03T17:26:59-03:00","keywords":"selic","image":[{"@type":"ImageObject","url":"https://media.investnews.com.br/uploads/2026/11/bancocentral-1200x630.jpg","width":"1200","height":"630"},{"@type":"ImageObject","url":"https://media.investnews.com.br/uploads/2026/11/bancocentral-1024x576.jpg","width":"1024","height":"576"}],"author":{"@id":"https://investnews.com.br/autor/simone-costa/","name":"Simone Costa"},"@type":"NewsArticle","name":"Selic &#039;tabelada&#039;? Entenda a proposta de Andr\u00e9 Lara Resende","articleSection":"Economia","@id":"https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/#schema-11319171","isPartOf":{"@id":"https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/#webpage"},"publisher":{"@id":"https://investnews.com.br/#organization"},"inLanguage":"pt-BR","mainEntityOfPage":{"@id":"https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/#webpage"},"isAccessibleForFree":"True"},{"@type":"VideoObject","name":"O que est\u00e1 por tr\u00e1s do pessimismo do mercado ap\u00f3s vit\u00f3ria de Lula","description":"Um dos 'pais' do Plano Real defende juro b\u00e1sico menor para frear o avan\u00e7o da d\u00edvida. Economistass veem risco para d\u00f3lar e infla\u00e7\u00e3o","thumbnailUrl":"https://i.ytimg.com/vi/IOAZPP5ew7I/hqdefault.jpg","embedUrl":"https://www.youtube.com/embed/IOAZPP5ew7I","contentUrl":"https://www.youtube.com/watch?v=IOAZPP5ew7I","uploadDate":"2026-11-03T16:15:08-03:00","width":"480","height":"360","publisher":{"@type":"Organization","name":"YouTube","url":"https://www.youtube.com"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//media.investnews.com.br' />
+<link rel="alternate" type="application/rss+xml" title="Feed para InvestNews &raquo;" href="https://investnews.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para InvestNews &raquo;" href="https://investnews.com.br/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://investnews.com.br/inv-api/oembed/1.0/embed?url=https%3A%2F%2Finvestnews.com.br%2Feconomia%2Fselic-7-5-entenda-proposta-lara-resende%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://investnews.com.br/inv-api/oembed/1.0/embed?url=https%3A%2F%2Finvestnews.com.br%2Feconomia%2Fselic-7-5-entenda-proposta-lara-resende%2F&#038;format=xml" />
+<link rel="alternate" type="application/rss+xml" title="InvestNews &raquo; Stories Feed" href="https://investnews.com.br/web-stories/feed/"><script>
+var ajaxurl = "https://investnews.com.br/wp/wp-admin/admin-ajax.php";
+var siteurl = "https://investnews.com.br/wp";
+var homeurl = "https://investnews.com.br";
+var themeurl = "https://investnews.com.br/app/themes/investnews";
+var themedir = themeurl;
+</script><style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="investnews-fonts-core-inline-css">
+@font-face{font-display:optional;font-family:Crimson Text;font-style:normal;font-weight:700;src:local("Crimson Text Bold"),local("CrimsonText-Bold"),url(https://investnews.com.br/app/themes/investnews/assets/fonts/CrimsonText/CrimsonText-Bold.woff2) format("woff2")}@font-face{font-display:optional;font-family:Crimson Text;font-style:normal;font-weight:400;src:local("Crimson Text Regular"),local("CrimsonText-Regular"),url(https://investnews.com.br/app/themes/investnews/assets/fonts/CrimsonText/CrimsonText-Regular.woff2) format("woff2")}@font-face{font-display:optional;font-family:Crimson Pro;font-style:normal;font-weight:700;src:local("Crimson Pro Bold"),local("CrimsonPro-Bold"),url(https://investnews.com.br/app/themes/investnews/assets/fonts/CrimsonPro/CrimsonPro-Bold.woff2) format("woff2")}@font-face{font-display:optional;font-family:Crimson Pro;font-style:normal;font-weight:400;src:local("Crimson Pro Regular"),local("CrimsonPro-Regular"),url(https://investnews.com.br/app/themes/investnews/assets/fonts/CrimsonPro/CrimsonPro-Regular.woff2) format("woff2")}
+@font-face{font-display:swap;font-family:Special Gothic;font-style:normal;font-weight:400;src:url(https://investnews.com.br/app/themes/investnews/assets/fonts/SpecialGothic/SpecialGothic-Regular-latin.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Special Gothic;font-style:normal;font-weight:400;src:url(https://investnews.com.br/app/themes/investnews/assets/fonts/SpecialGothic/SpecialGothic-Regular-latinext.woff2) format("woff2");unicode-range:u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}
+
+/*# sourceURL=investnews-fonts-core-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='global-style-css' href='https://investnews.com.br/app/themes/investnews/assets/css/global.css?ver=8debe91ac.315532801' media='all' />
+<link rel="stylesheet" id="newsletter-style-css" href="https://investnews.com.br/app/themes/investnews/assets/css/newsletter.css?ver=8debe91ac" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://investnews.com.br/app/themes/investnews/assets/css/newsletter.css?ver=8debe91ac"></noscript>
+<link rel="stylesheet" id="ins-main-css" href="https://investnews.com.br/app/themes/investnews/dist/main.min.css?ver=8debe91ac.315532801" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://investnews.com.br/app/themes/investnews/dist/main.min.css?ver=8debe91ac.315532801"></noscript>
+<link rel="stylesheet" id="post-author-list-css-css" href="https://investnews.com.br/app/themes/investnews/components/on-code/post-parts/post-author-list/assets/css/post-author-list.css?ver=8debe91ac" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://investnews.com.br/app/themes/investnews/components/on-code/post-parts/post-author-list/assets/css/post-author-list.css?ver=8debe91ac"></noscript>
+<style id='post-breadcrumb-css-css'>.post-breadcrumb{align-items:center;display:flex;flex-wrap:wrap;gap:0;margin-bottom:16px;row-gap:4px}.post-breadcrumb__link{color:#50f;font-family:Trebuchet MS,sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:0;line-height:22px;text-decoration:none;text-transform:uppercase}.post-breadcrumb__link:hover{text-decoration:underline}.post-breadcrumb__current{color:#666;font-family:Trebuchet MS,sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:0;line-height:22px;text-transform:uppercase}.post-breadcrumb__sep{background-color:#c4c4c4;display:inline-block;flex-shrink:0;height:10px;margin:0 8px;width:1px}#header-perfil .post-breadcrumb,.post-guias #post-header .post-breadcrumb,.post-head-criptonews .post-breadcrumb,.single-patrocinados .top .post-breadcrumb,.single-post .top .post-breadcrumb,.singular-post .top .post-breadcrumb{margin-top:0}.special-post-template .top .special-top-area .content .post-breadcrumb{justify-content:center;width:100%}.single-post .opinion-post-template .top .post-breadcrumb{border-bottom:1px solid var(--light-grey-2);margin-bottom:24px;padding-bottom:24px}.ins-tools .top-area .top-area__mast>.post-breadcrumb{margin-bottom:0;margin-top:0}</style>
+<link rel="stylesheet" id="google-follow-cta-css-css" href="https://investnews.com.br/app/themes/investnews/assets/css/posts/google-follow-cta.css?ver=8debe91ac" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://investnews.com.br/app/themes/investnews/assets/css/posts/google-follow-cta.css?ver=8debe91ac"></noscript>
+<link rel="stylesheet" id="editorial-content-css-css" href="https://investnews.com.br/app/themes/investnews/assets/css/posts/editorial-content.css?ver=8debe91ac" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://investnews.com.br/app/themes/investnews/assets/css/posts/editorial-content.css?ver=8debe91ac"></noscript>
+<style id="acf-recirculation-list-style-inline-css">
+@charset "UTF-8";body:is(.single-post,.single-patrocinados) .post-content .ins-recirculation-list,.singular-post .ins-recirculation-list,.ins-tools .page-text-content .ins-recirculation-list,.page .ins-recirculation-list,.ins-recirculation-list{margin:48px 0}.ins-recirculation-list__inner{box-sizing:border-box;width:100%;max-width:628px;margin-inline:auto;padding:16px 0 28px;border-top:.5px solid #50f;border-bottom:.5px solid #c4c4c4}@media(min-width:768px){body.single-guias .inner-post-content .ins-recirculation-list__inner{max-width:100%;width:100%}}.ins-recirculation-list__title{margin:0 0 28px;color:#50f;font-family:Trebuchet MS,Segoe UI,system-ui,sans-serif;font-size:14px;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0;text-transform:uppercase;text-box-trim:trim-both;text-box-edge:cap alphabetic}.ins-tools .page-text-content .ins-recirculation-list .ins-recirculation-list__title,.page .ins-recirculation-list .ins-recirculation-list__title{margin:0 0 28px;color:#50f!important;font-family:Trebuchet MS,Segoe UI,system-ui,sans-serif!important;font-size:14px!important;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0;text-transform:uppercase}.ins-recirculation-list__items,.ins-tools .page-text-content .ins-recirculation-list .ins-recirculation-list__items,.page .ins-recirculation-list .ins-recirculation-list__items,.mais_informacoes .ins-recirculation-list .ins-recirculation-list__items,.floating-ad-container .ins-recirculation-list .ins-recirculation-list__items,body.single-patrocinados .post-content .floating-ad-container .ins-recirculation-list .ins-recirculation-list__items{margin:0;padding-left:0!important;padding-inline-start:0!important;list-style:none;font-size:inherit;line-height:inherit}.ins-recirculation-list__item{display:block;margin:0;padding:0;list-style:none}.ins-recirculation-list__item:before{display:none;content:none}.ins-recirculation-list__item:not(:first-child){margin-top:28px}.ins-tools .page-text-content .ins-recirculation-list .ins-recirculation-list__item,.page .ins-recirculation-list .ins-recirculation-list__item{display:block;margin:0;padding:0;list-style:none}.ins-tools .page-text-content .ins-recirculation-list .ins-recirculation-list__item:before,.page .ins-recirculation-list .ins-recirculation-list__item:before{display:none;content:none}.ins-recirculation-list__item-body{display:flex;flex-direction:column;gap:16px}.ins-recirculation-list__category{color:#555;font-family:Trebuchet MS,Segoe UI,system-ui,sans-serif;font-size:14px;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0;text-decoration:none;text-transform:uppercase;text-box-trim:trim-both;text-box-edge:cap alphabetic}.ins-tools .page-text-content .ins-recirculation-list .ins-recirculation-list__category,.page .ins-recirculation-list .ins-recirculation-list__category{color:#555!important;font-family:Trebuchet MS,Segoe UI,system-ui,sans-serif!important;font-size:14px!important;font-style:normal;font-weight:400;line-height:20px;letter-spacing:0;text-decoration:none;text-transform:uppercase}.ins-recirculation-list__link{display:block;width:auto;color:#50f;font-family:Special Gothic,Trebuchet MS,Segoe UI,system-ui,sans-serif;font-size:18px;font-style:normal;font-weight:400;line-height:24px;letter-spacing:-.18px;text-decoration:none;text-box-trim:trim-both;text-box-edge:cap alphabetic}.ins-recirculation-list__link:focus-visible{outline:2px solid #50f;outline-offset:2px}.ins-tools .page-text-content .ins-recirculation-list .ins-recirculation-list__link,.page .ins-recirculation-list .ins-recirculation-list__link{display:block;width:auto;color:#50f!important;font-family:Special Gothic,Trebuchet MS,Segoe UI,system-ui,sans-serif!important;font-size:18px!important;font-style:normal;font-weight:400;line-height:24px;letter-spacing:-.18px;text-decoration:none}body:is(.single-post,.single-patrocinados) .post-content .ins-recirculation-list+:is(p,div,section,figure,blockquote,ul,ol,h1,h2,h3,h4,h5,h6,.wp-block-heading,.wp-block-list){margin-top:0!important}body.single-patrocinados .post-content .ins-recirculation-list .ins-recirculation-list__title{margin:0 0 28px!important;padding:0}body.single-patrocinados .post-content .ins-recirculation-list .ins-recirculation-list__link:hover,body.single-patrocinados .post-content .ins-recirculation-list .ins-recirculation-list__link:focus{text-decoration:underline}@media(max-width:628px){body:is(.single-post,.single-patrocinados) .post-content .ins-recirculation-list,.singular-post .ins-recirculation-list,.ins-tools .page-text-content .ins-recirculation-list,.page .ins-recirculation-list,.ins-recirculation-list{margin:40px 0}.ins-recirculation-list__inner{width:calc(100% - 32px);max-width:calc(100% - 32px)}body.single-patrocinados .ins-recirculation-list__inner,.ins-tools .page-text-content .ins-recirculation-list__inner{width:100%;max-width:100%}}.editor-styles-wrapper .ins-recirculation-list__title,.acf-block-preview .ins-recirculation-list__title{color:#50f!important;font-family:Trebuchet MS,Segoe UI,system-ui,sans-serif!important;font-size:14px!important;font-weight:400!important;line-height:20px!important;text-transform:uppercase!important;margin:0 0 28px!important}.editor-styles-wrapper .ins-recirculation-list__items,.acf-block-preview .ins-recirculation-list__items{margin:0!important;padding-left:0!important;list-style:none!important}.editor-styles-wrapper .ins-recirculation-list__category,.acf-block-preview .ins-recirculation-list__category{color:#555!important;font-family:Trebuchet MS,Segoe UI,system-ui,sans-serif!important;font-size:14px!important;line-height:20px!important;text-transform:uppercase!important}.editor-styles-wrapper .ins-recirculation-list__link,.acf-block-preview .ins-recirculation-list__link{color:#50f!important;font-family:Special Gothic,Trebuchet MS,Segoe UI,system-ui,sans-serif!important;font-size:18px!important;line-height:24px!important;letter-spacing:-.18px!important;text-decoration:none!important}.editor-styles-wrapper .ins-recirculation-list a,.acf-block-preview .ins-recirculation-list a{pointer-events:none}
+
+/*# sourceURL=https://investnews.com.br/app/themes/investnews/dist/blocks/recirculation-list/kit.min.css */
+</style>
+<link rel='stylesheet' id='default-post-css-css' href='https://investnews.com.br/app/themes/investnews/dist/groups/editorial-post.min.css?ver=8debe91ac.315532801' media='all' />
+<link rel="stylesheet" id="related-posts-css-css" href="https://investnews.com.br/app/themes/investnews/components/on-code/related-posts/assets/css/related-posts.css?ver=8debe91ac" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://investnews.com.br/app/themes/investnews/components/on-code/related-posts/assets/css/related-posts.css?ver=8debe91ac"></noscript>
+<link rel="stylesheet" id="exclusiva-banner-css-css" href="https://investnews.com.br/app/themes/investnews/components/on-code/exclusiva-banner/assets/css/exclusiva-banner.css?ver=8debe91ac" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://investnews.com.br/app/themes/investnews/components/on-code/exclusiva-banner/assets/css/exclusiva-banner.css?ver=8debe91ac"></noscript>
+<link rel='stylesheet' id='investnews-cookie-consent-css' href='https://investnews.com.br/app/themes/investnews/dist/cookie-consent.min.css?ver=24f81c811799' media='all' />
+<link rel="stylesheet" id="investnews-youtube-facade-css" href="https://investnews.com.br/app/themes/investnews/assets/css/embeds/youtube-facade.css?ver=315532801" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://investnews.com.br/app/themes/investnews/assets/css/embeds/youtube-facade.css?ver=315532801"></noscript>
+<style id='wp-block-embed-css'>.wp-block-embed.alignleft,.wp-block-embed.alignright,.wp-block[data-align=left]>[data-type="core/embed"],.wp-block[data-align=right]>[data-type="core/embed"]{max-width:360px;width:100%}.wp-block-embed.alignleft .wp-block-embed__wrapper,.wp-block-embed.alignright .wp-block-embed__wrapper,.wp-block[data-align=left]>[data-type="core/embed"] .wp-block-embed__wrapper,.wp-block[data-align=right]>[data-type="core/embed"] .wp-block-embed__wrapper{min-width:280px}.wp-block-cover .wp-block-embed{min-height:240px;min-width:320px}.wp-block-group.is-layout-flex .wp-block-embed{flex:1 1 0%;min-width:0}.wp-block-embed{overflow-wrap:break-word}.wp-block-embed :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-embed iframe{max-width:100%}.wp-block-embed__wrapper{position:relative}.wp-embed-responsive .wp-has-aspect-ratio .wp-block-embed__wrapper:before{content:"";display:block;padding-top:50%}.wp-embed-responsive .wp-has-aspect-ratio iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.wp-embed-responsive .wp-embed-aspect-21-9 .wp-block-embed__wrapper:before{padding-top:42.85%}.wp-embed-responsive .wp-embed-aspect-18-9 .wp-block-embed__wrapper:before{padding-top:50%}.wp-embed-responsive .wp-embed-aspect-16-9 .wp-block-embed__wrapper:before{padding-top:56.25%}.wp-embed-responsive .wp-embed-aspect-4-3 .wp-block-embed__wrapper:before{padding-top:75%}.wp-embed-responsive .wp-embed-aspect-1-1 .wp-block-embed__wrapper:before{padding-top:100%}.wp-embed-responsive .wp-embed-aspect-9-16 .wp-block-embed__wrapper:before{padding-top:177.77%}.wp-embed-responsive .wp-embed-aspect-1-2 .wp-block-embed__wrapper:before{padding-top:200%}</style>
+<script data-wp-strategy="defer" defer id="jquery-core-js" src="https://investnews.com.br/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script data-wp-strategy="defer" defer id="jquery-migrate-js" src="https://investnews.com.br/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://investnews.com.br/inv-api/" /><link rel="alternate" title="JSON" type="application/json" href="https://investnews.com.br/inv-api/wp/v2/posts/888091" /><link rel='shortlink' href='https://investnews.com.br/?p=888091' />
+<link rel="preload" as="image" href="https://media.investnews.com.br/uploads/2026/11/bancocentral-1024x576.jpg" imagesrcset="https://media.investnews.com.br/uploads/2026/11/bancocentral-1024x576.jpg 1024w, https://media.investnews.com.br/uploads/2026/11/bancocentral-300x169.jpg 300w, https://media.investnews.com.br/uploads/2026/11/bancocentral-768x432.jpg 768w, https://media.investnews.com.br/uploads/2026/11/bancocentral-628x353.jpg 628w, https://media.investnews.com.br/uploads/2026/11/bancocentral-172x97.jpg 172w, https://media.investnews.com.br/uploads/2026/11/bancocentral-192x108.jpg 192w, https://media.investnews.com.br/uploads/2026/11/bancocentral-150x84.jpg 150w, https://media.investnews.com.br/uploads/2026/11/bancocentral.jpg 1200w" imagesizes="(max-width: 767px) calc(100vw - 32px), 628px" fetchpriority="high">
+<style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style><link rel="amphtml" href="https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/amp/"><link rel="alternate" hreflang="pt-BR" href="https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/" />
+<link rel="alternate" hreflang="x-default" href="https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/" />
+<link rel="icon" href="https://media.investnews.com.br/uploads/2024/03/favicon-96x96.ico" sizes="32x32" />
+<link rel="icon" href="https://media.investnews.com.br/uploads/2024/03/favicon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://media.investnews.com.br/uploads/2024/03/favicon.ico" />
+<meta name="msapplication-TileImage" content="https://media.investnews.com.br/uploads/2024/03/favicon.ico" />
+<style id="wp-custom-css">
+
+
+/* Temporário: Lista de stories (TikTok) oculta no iOS */
+@supports (-webkit-touch-callout: none) {
+  .ins-stories-list:has([data-video-network="tiktok"]) {
+    display: none !important;
+  }
+}
+
+
+</style>
+    <script>window.INVESTNEWS_TAGGING_MODE = "hibrido";</script>
+<script>window.dataLayer = window.dataLayer || [];window.dataLayer.push({"page_type":"article","content_id":"888091","content_slug":"selic-7-5-entenda-proposta-lara-resende","content_nature":"editorial","category":"economia","author":"simone-costa","content_tags":["inflacao","selic"],"primary_topic":"inflacao","custom_dimension_1":"article","content_group1":"economia","autor":"Simone Costa","topico_principal":"Infla\u00e7\u00e3o"});</script>
+        <!-- Google Tag Manager (INS-1550: carregado em idle/interação/timeout, não no load, pra tirar do caminho crítico de INP/TBT) -->
+     <script>(function(w,d,s,l,i){
+w[l]=w[l]||[];
+function loadGtm(){
+    if (loadGtm.done) return;
+    loadGtm.done = true;
+    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+}
+var interactionEvents = ['scroll','mousemove','touchstart','click','keydown'];
+function onInteraction(){
+    interactionEvents.forEach(function(evt){ w.removeEventListener(evt, onInteraction); });
+    loadGtm();
+}
+interactionEvents.forEach(function(evt){
+    w.addEventListener(evt, onInteraction, { once: true, passive: true });
+});
+if ('requestIdleCallback' in w) {
+    w.requestIdleCallback(loadGtm, { timeout: 4000 });
+} else {
+    w.setTimeout(loadGtm, 4000);
+}
+w.setTimeout(loadGtm, 5000);
+})(window,document,'script','dataLayer','GTM-WGWPT6C');</script>
+    <!-- End Google Tag Manager --->
+         
+    <!-- FigPii Asynchronous Tracking Code -->
+    <!-- <script>!function(){var n=document.createElement('script');n.crossOrigin='anonymous',n.async='async',n.src='https://tracking-cdn.figpii.com/1738b15aa03cd959b2d170c2b8fcf411.js',document.head.append(n),window._fpEvent=window._fpEvent||[]}();</script> -->
+    <!-- End FigPii Asynchronous Tracking Code -->
+</head>
+
+<body class="wp-singular post-template-default single single-post postid-888091 single-format-standard wp-theme-investnews menu-slim">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGWPT6C" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+
+    <header id="header-investnews" class="ins-header" data-analytics-component="site-header" data-analytics-component-position="header">
+        <div class="ins-header__inner container">
+        <div class="ins-header__brand">
+            <button type="button" class="ins-header__menu-toggle ins-header__menu-toggle--compact" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="ins-header-drawer" data-analytics-element="open-menu">
+                <span class="ins-header__menu-bar"></span>
+                <span class="ins-header__menu-bar"></span>
+                <span class="ins-header__menu-bar"></span>
+            </button>
+            <div class="ins-header__brand-main">
+                            <a href="https://investnews.com.br" title="Logo InvestNews" class="ins-header__logo" data-analytics-element="logo">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="316" height="57" viewBox="0 0 316 57" fill="none" focusable="false" style="color:#000000" aria-hidden="true" class="ins-header__logo-img"><path fill="currentColor" d="M5.758 7.327c0-1.68-.378-2.844-1.135-3.495-.703-.704-1.92-1.11-3.65-1.219C.324 2.613 0 2.261 0 1.557c0-.271.081-.488.243-.65A1.1 1.1 0 0 1 1.054.58l2.028.082c2.379.216 5.326.325 8.84.325H7.705c3.514 0 6.46-.109 8.84-.325L18.572.58c.325 0 .568.109.73.325.216.163.325.38.325.65 0 .705-.325 1.057-.974 1.057-1.73.109-2.973.515-3.73 1.22-.703.65-1.055 1.815-1.055 3.494v41.777c0 1.68.352 2.871 1.055 3.576.757.65 2 1.03 3.73 1.138.65 0 .974.352.974 1.056 0 .271-.108.515-.325.732-.162.163-.405.244-.73.244l-2.027-.081c-2.38-.217-5.326-.326-8.84-.326h4.217c-3.514 0-6.461.109-8.84.326l-2.028.08c-.324 0-.594-.08-.81-.243A1.19 1.19 0 0 1 0 54.874c0-.704.324-1.056.973-1.056 1.73-.109 2.947-.488 3.65-1.138.757-.705 1.135-1.896 1.135-3.576V7.327ZM52.93 55.443c-3.514 0-6.461.109-8.84.326l-2.028.08c-.324 0-.594-.08-.81-.243a1.19 1.19 0 0 1-.244-.732c0-.704.325-1.056.973-1.056 1.73-.109 2.947-.488 3.65-1.138.757-.705 1.135-1.896 1.135-3.576V25.127c0-2.005-.432-3.55-1.297-4.633-.866-1.138-2.136-1.707-3.812-1.707-1.622 0-3.109.38-4.46 1.138-1.298.705-3.002 1.924-5.11 3.658v-2.439c4.488-4.389 8.759-6.583 12.814-6.583 3.082 0 5.407.867 6.975 2.6 1.568 1.735 2.352 4.146 2.352 7.235l-.081 24.708c0 1.68.35 2.871 1.054 3.576.757.65 2 1.03 3.73 1.138.65 0 .974.352.974 1.056 0 .271-.108.515-.325.732-.162.163-.405.244-.73.244l-2.027-.081c-2.38-.217-5.326-.326-8.84-.326h4.947Zm-21.086 0c-3.515 0-6.462.109-8.84.326l-2.028.08c-.325 0-.595-.08-.811-.243a1.19 1.19 0 0 1-.243-.732c0-.704.324-1.056.973-1.056 1.73-.109 2.947-.488 3.65-1.138.756-.705 1.135-1.896 1.135-3.576v-25.44c0-2.926-1.46-4.497-4.38-4.714-.703-.108-1.054-.46-1.054-1.057 0-.27.081-.487.243-.65.217-.217.487-.325.811-.325 2-.054 3.704-.217 5.11-.488 1.405-.27 2.92-.785 4.542-1.544.648-.325 1.162-.406 1.54-.244.433.109.65.488.65 1.138v33.324c0 1.68.35 2.871 1.053 3.576.758.65 2.001 1.03 3.731 1.138.649 0 .973.352.973 1.056 0 .271-.108.515-.324.732-.162.163-.405.244-.73.244l-2.027-.081c-2.38-.217-5.326-.326-8.84-.326h4.866ZM72.909 56.5c-.595 0-1.027-.38-1.298-1.138L60.014 22.12c-.54-1.626-1.163-2.79-1.865-3.495-.65-.759-1.595-1.22-2.839-1.382-.703-.108-1.054-.46-1.054-1.056 0-.65.351-.976 1.054-.976l1.784.081c1.73.217 3.704.326 5.92.326.812 0 1.65-.027 2.515-.082.865-.054 1.703-.108 2.514-.162l3.244-.163c.27 0 .487.081.649.244.216.163.324.38.324.65 0 .542-.297.867-.892.976-1.622.325-2.676.84-3.163 1.544-.432.704-.432 1.68 0 2.926l6.65 19.262c.109.217.217.407.325.57.108.108.216.162.324.162.27 0 .46-.27.568-.813l5.272-19.181c.324-1.246.243-2.222-.244-2.926-.432-.705-1.405-1.22-2.92-1.544-.594-.163-.891-.488-.891-.976 0-.27.08-.487.243-.65.216-.163.46-.244.73-.244.486 0 1.324.054 2.514.163 1.297.108 2.379.162 3.244.162l2.433-.162 2.27-.163c.704 0 1.055.325 1.055.975 0 .596-.351.949-1.054 1.057-1.19.109-2.163.542-2.92 1.3-.703.76-1.297 1.951-1.784 3.577l-9.975 33.242c-.27.759-.65 1.138-1.136 1.138Zm29.74 0c-3.947 0-7.273-.975-9.976-2.926-2.65-2.005-4.623-4.606-5.92-7.802-1.244-3.198-1.866-6.665-1.866-10.404 0-3.847.757-7.342 2.271-10.485 1.514-3.197 3.596-5.716 6.245-7.559 2.65-1.842 5.596-2.763 8.84-2.763 2.974 0 5.569.65 7.786 1.95 2.271 1.301 4.001 3.09 5.19 5.365 1.244 2.221 1.866 4.714 1.866 7.477 0 1.03-.271 1.87-.811 2.52-.487.596-1.244.894-2.271.894h-26.52V30.41l19.14-.488c.919-.054 1.595-.298 2.027-.731.487-.488.73-1.246.73-2.276 0-2.98-.649-5.337-1.946-7.071-1.244-1.788-2.92-2.682-5.029-2.682-2.92 0-5.244 1.68-6.974 5.039-1.677 3.36-2.514 7.992-2.514 13.898 0 4.823.892 8.832 2.676 12.03 1.838 3.196 4.595 4.795 8.272 4.795 2.812 0 5.029-.921 6.651-2.764 1.676-1.896 2.892-4.93 3.649-9.103.216-.92.73-1.354 1.541-1.3.541 0 .919.19 1.135.569.217.38.271.894.163 1.544-1.785 9.753-6.57 14.63-14.355 14.63Zm29.474 0c-3.838 0-7.407-.596-10.705-1.788-.703-.217-1.217-.542-1.541-.975-.27-.488-.378-1.111-.324-1.87.216-2.492.216-5.987 0-10.484-.054-.434.027-.76.243-.976.27-.217.595-.325.973-.325.703 0 1.081.38 1.136 1.138.378 4.497 1.486 7.721 3.325 9.672 1.892 1.95 4.433 2.926 7.623 2.926 2.325 0 4.136-.596 5.434-1.788 1.298-1.192 1.947-2.845 1.947-4.958 0-1.517-.46-2.818-1.379-3.902-.919-1.083-2.298-2.004-4.136-2.763l-7.137-3.007c-5.461-2.33-8.192-5.988-8.192-10.973 0-3.576 1.298-6.448 3.893-8.615 2.596-2.167 6.083-3.251 10.462-3.251 3.731 0 7.083.542 10.057 1.625.757.271 1.108.949 1.054 2.032-.162 2.005-.135 4.769.081 8.29.055.38-.027.678-.243.895a1.099 1.099 0 0 1-.811.325c-.703 0-1.108-.38-1.217-1.138-.324-2.98-1.297-5.256-2.919-6.827-1.622-1.626-3.839-2.466-6.65-2.52-2.379-.054-4.272.488-5.677 1.626-1.406 1.083-2.109 2.546-2.109 4.389 0 1.408.351 2.628 1.054 3.657.757.976 2.028 1.87 3.812 2.682l8.678 3.983c2.595 1.192 4.46 2.655 5.596 4.389 1.135 1.68 1.703 3.766 1.703 6.258 0 3.685-1.244 6.665-3.731 8.94-2.487 2.222-5.92 3.333-10.3 3.333Zm29.788-.081c-2.974 0-5.245-.813-6.813-2.439-1.568-1.68-2.352-4.064-2.352-7.152v-27.96l-6.083-.324c-.324 0-.594-.082-.811-.244a1.191 1.191 0 0 1-.243-.732c0-.542.351-.894 1.054-1.056 2.812-.813 5.11-2.466 6.894-4.958 1.838-2.493 2.947-5.392 3.325-8.697.054-.433.216-.786.487-1.057.27-.27.622-.406 1.054-.406.433 0 .757.136.973.406.271.271.406.65.406 1.138v12.273h10.137c.595 0 1.001.081 1.217.244.27.163.405.542.405 1.138 0 .759-.405 1.49-1.216 2.194-.757.65-1.703.949-2.838.894l-7.705-.406v28.284c0 1.789.324 3.116.973 3.983.703.813 1.784 1.22 3.244 1.22 1.244 0 2.325-.462 3.244-1.382.973-.976 1.784-2.412 2.433-4.308.217-.65.649-.948 1.298-.894.486 0 .811.217.973.65.216.38.216.894 0 1.544-1.027 3.035-2.487 5.148-4.379 6.34-1.839 1.138-3.731 1.707-5.677 1.707Zm45.593-19.263a.947.947 0 0 1 .162.244c.108.217.27.325.486.325.217 0 .325-.217.325-.65V7.327c0-1.68-.379-2.844-1.136-3.495-.702-.704-1.919-1.11-3.649-1.219-.649 0-.973-.352-.973-1.056 0-.271.081-.488.243-.65.216-.217.486-.326.811-.326l2.027.082c2.379.216 5.326.325 8.84.325h-9.407c3.514 0 6.461-.109 8.84-.325L216.1.58c.325 0 .568.109.73.325.216.163.325.38.325.65 0 .705-.325 1.057-.974 1.057-1.73.109-2.973.515-3.73 1.22-.703.65-1.055 1.815-1.055 3.494v47.629c0 .487-.162.867-.486 1.138-.271.27-.622.406-1.055.406-.648 0-1.162-.325-1.541-.975L180.091 6.108c-.216-.325-.405-.488-.568-.488-.27 0-.405.19-.405.57v42.914c0 1.68.351 2.871 1.054 3.576.757.65 2.001 1.03 3.731 1.138.649 0 .973.352.973 1.056 0 .271-.108.515-.324.732-.162.163-.406.244-.73.244l-2.028-.081c-2.379-.217-5.325-.326-8.84-.326h9.408c-3.514 0-6.461.109-8.84.326l-2.028.08c-.324 0-.594-.08-.811-.243a1.191 1.191 0 0 1-.243-.732c0-.704.324-1.056.973-1.056 1.73-.109 2.947-.488 3.65-1.138.757-.705 1.135-1.896 1.135-3.576V7.327c0-1.734-.351-2.953-1.054-3.657-.703-.705-1.892-1.057-3.568-1.057-.649 0-.974-.352-.974-1.056 0-.271.081-.488.243-.65.217-.217.487-.326.812-.326.648 0 1.676.054 3.081.163 1.622.108 3.001.162 4.137.162.648 0 1.567-.054 2.757-.162A16.268 16.268 0 0 1 184.471.5c.865 0 1.541.217 2.027.65.487.38 1.081 1.192 1.785 2.439l19.221 33.567ZM233.178 56.5c-3.946 0-7.272-.975-9.976-2.926-2.649-2.005-4.623-4.606-5.92-7.802-1.244-3.198-1.865-6.665-1.865-10.404 0-3.847.757-7.342 2.271-10.485 1.513-3.197 3.595-5.716 6.244-7.559 2.65-1.842 5.595-2.763 8.841-2.763 2.972 0 5.569.65 7.786 1.95 2.271 1.301 4.001 3.09 5.189 5.365 1.245 2.221 1.866 4.714 1.866 7.477 0 1.03-.271 1.87-.81 2.52-.487.596-1.245.894-2.272.894h-26.52V30.41l19.14-.488c.919-.054 1.595-.298 2.028-.731.487-.488.73-1.246.73-2.276 0-2.98-.649-5.337-1.948-7.071-1.243-1.788-2.918-2.682-5.028-2.682-2.92 0-5.243 1.68-6.974 5.039-1.676 3.36-2.514 7.992-2.514 13.898 0 4.823.892 8.832 2.676 12.03 1.837 3.196 4.596 4.795 8.271 4.795 2.813 0 5.03-.921 6.653-2.764 1.675-1.896 2.892-4.93 3.648-9.103.216-.92.731-1.354 1.541-1.3.541 0 .919.19 1.135.569.217.38.271.894.162 1.544-1.784 9.753-6.568 14.63-14.354 14.63Zm41.066-35.518c.597-2.818.028-4.227-1.702-4.227-.865 0-1.459.353-1.784 1.057-.271.704-.217 1.707.161 3.007l6.084 22.026c.161.542.35.813.566.813.217 0 .408-.27.569-.813l5.271-20.725c.487-1.788.433-3.116-.161-3.983-.542-.867-1.514-1.3-2.92-1.3-1.298 0-2.244.406-2.838 1.219-.542.813-.974 1.842-1.298 3.088l-3.083 12.11-1.134-1.462 2.269-10.81Zm-9.975 21.945c.109.433.216.758.325.975.162.163.324.244.487.244.217 0 .433-.407.649-1.22l3.161-13.491 1.867 1.788-6.407 24.14c-.162.758-.542 1.137-1.136 1.137-.594 0-1.026-.38-1.297-1.138L250.887 22.12c-.54-1.626-1.134-2.79-1.785-3.495-.648-.759-1.62-1.22-2.917-1.382-.704-.108-1.056-.46-1.056-1.056 0-.65.352-.976 1.056-.976l1.702.081 6.812.082 7.463-.082c1.675-.054 4.053-.08 7.137-.08 2.378 0 4.162.026 5.353.08l7.783.082 6.327-.082a16.301 16.301 0 0 1 1.623-.08c.703 0 1.054.324 1.054.974 0 .596-.351.949-1.054 1.057-2.271.325-3.812 1.95-4.622 4.877l-9.004 33.242c-.161.759-.542 1.138-1.136 1.138-.594 0-1.026-.38-1.297-1.138L263.541 20.25c-.38-1.192-.84-2.059-1.379-2.6-.488-.542-1.191-.813-2.11-.813-1.081 0-1.839.406-2.272 1.219-.432.758-.457 1.815-.079 3.17l6.568 21.7Zm37.63 13.573c-3.84 0-7.408-.596-10.706-1.788-.703-.217-1.218-.542-1.541-.975-.271-.488-.378-1.111-.325-1.87.216-2.492.216-5.987 0-10.484-.053-.434.027-.76.243-.976.271-.217.596-.325.974-.325.703 0 1.081.38 1.136 1.138.378 4.497 1.486 7.721 3.325 9.672 1.891 1.95 4.433 2.926 7.622 2.926 2.326 0 4.138-.596 5.435-1.788 1.297-1.192 1.946-2.845 1.946-4.958 0-1.517-.46-2.818-1.38-3.902-.917-1.083-2.296-2.004-4.135-2.763l-7.137-3.007c-5.46-2.33-8.191-5.988-8.191-10.973 0-3.576 1.297-6.448 3.894-8.615 2.595-2.167 6.081-3.251 10.46-3.251 3.733 0 7.085.542 10.057 1.625.758.271 1.109.949 1.054 2.032-.162 2.005-.134 4.769.082 8.29.055.38-.027.678-.244.895a1.098 1.098 0 0 1-.81.325c-.703 0-1.108-.38-1.217-1.138-.324-2.98-1.298-5.256-2.92-6.827-1.621-1.626-3.838-2.466-6.651-2.52-2.378-.054-4.269.488-5.676 1.626-1.406 1.083-2.109 2.546-2.109 4.389 0 1.408.352 2.628 1.056 3.657.755.976 2.027 1.87 3.812 2.682l8.675 3.983c2.597 1.192 4.461 2.655 5.597 4.389 1.136 1.68 1.705 3.766 1.705 6.258 0 3.685-1.245 6.665-3.733 8.94-2.485 2.222-5.92 3.333-10.298 3.333Z"/></svg>                                    </a>
+                                        </div>
+                                            <button class="ins-btn ins-header__cta" type="button" id="newsletter-modal-trigger" data-analytics-element="cta" data-analytics-value="newsletter">
+                    <span class="button-text">
+                        Newsletter                    </span>
+                </button>
+                    </div>
+        <div class="ins-header__nav">
+            <button type="button" class="ins-header__menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="ins-header-drawer" data-analytics-element="open-menu">
+                <span class="ins-header__menu-bar"></span>
+                <span class="ins-header__menu-bar"></span>
+                <span class="ins-header__menu-bar"></span>
+            </button>
+            <div class="header-menu-container"><ul id="header-menu" class="header-menu"><li id="menu-item-644374" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644374"><a href="/ultimas/" data-analytics-element="menu-item" data-analytics-value="ultimas">Últimas</a></li>
+<li id="menu-item-560638" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-560638"><a href="https://investnews.com.br/negocios/" data-analytics-element="menu-item" data-analytics-value="negocios">Negócios</a></li>
+<li id="menu-item-681947" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-681947"><a href="https://investnews.com.br/investimentos/" data-analytics-element="menu-item" data-analytics-value="investimentos">Investimentos</a></li>
+<li id="menu-item-560639" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-560639"><a href="https://investnews.com.br/financas/" data-analytics-element="menu-item" data-analytics-value="financas">Finanças</a></li>
+<li id="menu-item-644377" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644377"><a href="https://investnews.com.br/tecnologia/" data-analytics-element="menu-item" data-analytics-value="tecnologia">Tecnologia</a></li>
+<li id="menu-item-560637" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-560637"><a href="https://investnews.com.br/economia/" data-analytics-element="menu-item" data-analytics-value="economia">Economia</a></li>
+<li id="menu-item-644380" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644380"><a href="https://investnews.com.br/carreira/" data-analytics-element="menu-item" data-analytics-value="carreira">Carreira</a></li>
+<li id="menu-item-644381" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644381"><a href="https://investnews.com.br/off-work/" data-analytics-element="menu-item" data-analytics-value="off-work">Off Work</a></li>
+<li id="menu-item-644383" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644383"><a href="https://investnews.com.br/the-wall-street-journal/" data-analytics-element="menu-item" data-analytics-value="the-wall-street-journal">The Wall Street Journal</a></li>
+</ul></div>        </div>
+    </div>
+
+    <div class="ins-header__drawer-wrap" data-analytics-component="side-menu" data-analytics-component-position="header" data-analytics-component-variant="drawer">
+        <div class="container">
+            <div class="ins-header__drawer" id="ins-header-drawer">
+                <div class="container side-menu-container">
+                    <div class="side-menu-side">
+                        <div class="search">
+                            <form role="search" method="get" id="search-form" class="search-form" action="https://investnews.com.br/">
+                                <div class="content">
+                                    <label class="screen-reader-text" for="search-input">Busca</label>
+                                    <input type="search" id="search-input" placeholder="Busca" value="" name="s" autocomplete="off" />
+
+                                    <button type="submit" id="search-submit" value="Search" aria-label="Buscar" data-analytics-element="search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 18.2151 21" fill="none" focusable="false" aria-hidden="true"><path d="M17.5493 19.3486L11.5266 12.2746C11.2409 11.9403 11.2552 11.446 11.5523 11.1203C12.6666 9.89749 13.3094 8.2404 13.1923 6.43475C12.9837 3.19485 10.3095 0.61208 7.06675 0.503512C3.32972 0.380659 0.278394 3.50341 0.512672 7.26043C0.712666 10.4318 3.27258 12.9917 6.44391 13.1917C7.4553 13.2545 8.42099 13.0802 9.28667 12.7174C9.62952 12.5745 10.0266 12.6774 10.2695 12.9602L16.4807 20.2543C16.6207 20.4172 16.815 20.5 17.015 20.5C17.175 20.5 17.3378 20.4457 17.4693 20.3343C17.7635 20.0829 17.7978 19.6429 17.5493 19.3486ZM1.9012 6.85473C1.9012 4.12339 4.12398 1.90347 6.85247 1.90347C9.58095 1.90347 11.8037 4.12625 11.8037 6.85473C11.8037 9.58322 9.58095 11.806 6.85247 11.806C4.12398 11.806 1.9012 9.58322 1.9012 6.85473Z" fill="currentColor" stroke="currentColor"/></svg>                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                                                                            <ul class="side-menu-side-list">
+                                                                                                                                                <li class="item">
+                                                                                        <a class="item-link" href="/autores/" title="Autores" target="_self" data-analytics-element="menu-item" data-analytics-value="autores">Autores</a>
+                                        </li>
+                                                                                                                                                                                        <li class="item">
+                                                                                        <a class="item-link" href="https://investnews.com.br/politica-de-privacidade/" title="Política de Privacidade" target="_self" data-analytics-element="menu-item" data-analytics-value="politica-de-privacidade">Política de Privacidade</a>
+                                        </li>
+                                                                                                                                                                                        <li class="item">
+                                                                                        <a class="item-link" href="https://investnews.com.br/quem-somos/" title="Quem somos" target="_self" data-analytics-element="menu-item" data-analytics-value="quem-somos">Quem somos</a>
+                                        </li>
+                                                                                                                                                                                                            </ul>
+                                            </div>
+                    <div class="menu-content">
+                        <div class="side-menu-header-container"><ul id="side-menu-header" class="side-menu-header"><li id="menu-item-644231" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644231"><span data-analytics-element="menu-item" class="menu-item__label">Notícias</span>
+<ul class="sub-menu">
+	<li id="menu-item-644232" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644232"><a href="https://investnews.com.br/negocios/" data-analytics-element="menu-item" data-analytics-value="negocios">Negócios</a></li>
+	<li id="menu-item-644233" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644233"><a href="https://investnews.com.br/financas/" data-analytics-element="menu-item" data-analytics-value="financas">Finanças</a></li>
+	<li id="menu-item-644234" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644234"><a href="https://investnews.com.br/tecnologia/" data-analytics-element="menu-item" data-analytics-value="tecnologia">Tecnologia</a></li>
+	<li id="menu-item-644235" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-644235"><a href="https://investnews.com.br/economia/" data-analytics-element="menu-item" data-analytics-value="economia">Economia</a></li>
+	<li id="menu-item-644236" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644236"><a href="https://investnews.com.br/opiniao/" data-analytics-element="menu-item" data-analytics-value="opiniao">Opinião</a></li>
+	<li id="menu-item-644237" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644237"><a href="https://investnews.com.br/carreira/" data-analytics-element="menu-item" data-analytics-value="carreira">Carreira</a></li>
+	<li id="menu-item-644238" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644238"><a href="https://investnews.com.br/off-work/" data-analytics-element="menu-item" data-analytics-value="off-work">Off Work</a></li>
+	<li id="menu-item-644239" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644239"><a href="https://investnews.com.br/the-wall-street-journal/" data-analytics-element="menu-item" data-analytics-value="the-wall-street-journal">The Wall Street Journal</a></li>
+	<li id="menu-item-644240" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644240"><a href="/ultimas/" data-analytics-element="menu-item" data-analytics-value="ultimas">Últimas Notícias</a></li>
+</ul>
+</li>
+<li id="menu-item-644241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-644241"><a href="https://investnews.com.br/ferramentas/" data-analytics-element="menu-item" data-analytics-value="ferramentas">Ferramentas</a>
+<ul class="sub-menu">
+	<li id="menu-item-644242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644242"><a href="https://investnews.com.br/ferramentas/calculadoras/" data-analytics-element="menu-item" data-analytics-value="calculadoras">Calculadoras</a></li>
+	<li id="menu-item-644243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644243"><a href="https://investnews.com.br/ferramentas/comparadores/" data-analytics-element="menu-item" data-analytics-value="comparadores">Comparadores</a></li>
+	<li id="menu-item-644244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644244"><a href="https://investnews.com.br/ferramentas/simuladores/" data-analytics-element="menu-item" data-analytics-value="simuladores">Simuladores</a></li>
+</ul>
+</li>
+<li id="menu-item-644245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-644245"><a href="https://investnews.com.br/cotacao/" data-analytics-element="menu-item" data-analytics-value="cotacao">Cotações</a>
+<ul class="sub-menu">
+	<li id="menu-item-644246" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644246"><a href="/cotacao/cambio/" data-analytics-element="menu-item" data-analytics-value="cambio">Câmbio</a></li>
+	<li id="menu-item-644247" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644247"><a href="/cotacao/" data-analytics-element="menu-item" data-analytics-value="cotacao">Ibovespa</a></li>
+	<li id="menu-item-644248" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644248"><a href="/cotacao-criptomoeda/" data-analytics-element="menu-item" data-analytics-value="cotacao-criptomoeda">Criptomoedas</a></li>
+</ul>
+</li>
+<li id="menu-item-644249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644249"><span data-analytics-element="menu-item" class="menu-item__label">Descubra</span>
+<ul class="sub-menu">
+	<li id="menu-item-669195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-669195"><a target="_blank" rel="noopener" href="https://investnews.beehiiv.com/" data-analytics-element="menu-item" data-analytics-value="investnews">Newsletter</a></li>
+	<li id="menu-item-644251" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644251"><a href="/guias/" data-analytics-element="menu-item" data-analytics-value="guias">Guias de investimento</a></li>
+	<li id="menu-item-644252" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644252"><a href="/perfis/" data-analytics-element="menu-item" data-analytics-value="perfis">Perfis</a></li>
+</ul>
+</li>
+<li id="menu-item-644253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644253"><span data-analytics-element="menu-item" class="menu-item__label">Conteúdo de marca</span>
+<ul class="sub-menu">
+	<li id="menu-item-730401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-730401"><a href="https://investnews.com.br/patrocinados/nubank/" data-analytics-element="menu-item" data-analytics-value="nubank">Nubank</a></li>
+	<li id="menu-item-644254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644254"><a href="https://investnews.com.br/patrocinados/nubank-cripto/" title="Nubank" data-analytics-element="menu-item" data-analytics-value="nubank-cripto">Nubank Cripto</a></li>
+	<li id="menu-item-732516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-732516"><a href="https://investnews.com.br/patrocinados/nu-empresas/" data-analytics-element="menu-item" data-analytics-value="nu-empresas">Nu Empresas</a></li>
+</ul>
+</li>
+<li id="menu-item-816848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-816848"><a href="https://investnews.com.br/videos/" data-analytics-element="menu-item" data-analytics-value="videos">Vídeos</a></li>
+</ul></div>                    </div>
+                </div>
+                <div class="container side-menu-mobile-container">
+                    <div class="side-menu-side">
+                        <div class="search">
+                            <form role="search" method="get" id="search-form-mobile" class="search-form" action="https://investnews.com.br/">
+                                <div class="content">
+                                    <label class="screen-reader-text" for="search-input-mobile">Busca</label>
+                                    <input type="search" id="search-input-mobile" placeholder="Busca" value="" name="s" autocomplete="off" />
+
+                                    <button type="submit" id="search-submit-mobile" value="Search" aria-label="Buscar">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 18.2151 21" fill="none" focusable="false" aria-hidden="true"><path d="M17.5493 19.3486L11.5266 12.2746C11.2409 11.9403 11.2552 11.446 11.5523 11.1203C12.6666 9.89749 13.3094 8.2404 13.1923 6.43475C12.9837 3.19485 10.3095 0.61208 7.06675 0.503512C3.32972 0.380659 0.278394 3.50341 0.512672 7.26043C0.712666 10.4318 3.27258 12.9917 6.44391 13.1917C7.4553 13.2545 8.42099 13.0802 9.28667 12.7174C9.62952 12.5745 10.0266 12.6774 10.2695 12.9602L16.4807 20.2543C16.6207 20.4172 16.815 20.5 17.015 20.5C17.175 20.5 17.3378 20.4457 17.4693 20.3343C17.7635 20.0829 17.7978 19.6429 17.5493 19.3486ZM1.9012 6.85473C1.9012 4.12339 4.12398 1.90347 6.85247 1.90347C9.58095 1.90347 11.8037 4.12625 11.8037 6.85473C11.8037 9.58322 9.58095 11.806 6.85247 11.806C4.12398 11.806 1.9012 9.58322 1.9012 6.85473Z" fill="currentColor" stroke="currentColor"/></svg>                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="menu-content">
+                        <div class="side-menu-header-mobile-container"><ul id="side-menu-header-mobile" class="side-menu-header-mobile"><li id="menu-item-644261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644261"><a href="/ultimas/" data-analytics-element="menu-item" data-analytics-value="ultimas">Últimas</a></li>
+<li id="menu-item-644262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644262"><a href="https://investnews.com.br/negocios/" data-analytics-element="menu-item" data-analytics-value="negocios">Negócios</a></li>
+<li id="menu-item-681949" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-681949"><a href="https://investnews.com.br/investimentos/" data-analytics-element="menu-item" data-analytics-value="investimentos">Investimentos</a></li>
+<li id="menu-item-644263" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644263"><a href="https://investnews.com.br/financas/" data-analytics-element="menu-item" data-analytics-value="financas">Finanças</a></li>
+<li id="menu-item-644264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644264"><a href="https://investnews.com.br/tecnologia/" data-analytics-element="menu-item" data-analytics-value="tecnologia">Tecnologia</a></li>
+<li id="menu-item-644265" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-644265"><a href="https://investnews.com.br/economia/" data-analytics-element="menu-item" data-analytics-value="economia">Economia</a></li>
+<li id="menu-item-644266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644266"><a href="https://investnews.com.br/carreira/" data-analytics-element="menu-item" data-analytics-value="carreira">Carreira</a></li>
+<li id="menu-item-644267" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644267"><a href="https://investnews.com.br/off-work/" data-analytics-element="menu-item" data-analytics-value="off-work">Off Work</a></li>
+<li id="menu-item-644268" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644268"><a href="https://investnews.com.br/the-wall-street-journal/" data-analytics-element="menu-item" data-analytics-value="the-wall-street-journal">The Wall Street Journal</a></li>
+<li id="menu-item-644269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-644269"><a href="https://investnews.com.br/ferramentas/" data-analytics-element="menu-item" data-analytics-value="ferramentas">Ferramentas</a>
+<ul class="sub-menu">
+	<li id="menu-item-644270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644270"><a href="https://investnews.com.br/ferramentas/calculadoras/" data-analytics-element="menu-item" data-analytics-value="calculadoras">Calculadoras</a></li>
+	<li id="menu-item-644271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644271"><a href="https://investnews.com.br/ferramentas/comparadores/" data-analytics-element="menu-item" data-analytics-value="comparadores">Comparadores</a></li>
+	<li id="menu-item-644272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644272"><a href="https://investnews.com.br/ferramentas/simuladores/" data-analytics-element="menu-item" data-analytics-value="simuladores">Simuladores</a></li>
+</ul>
+</li>
+<li id="menu-item-644273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-644273"><a href="https://investnews.com.br/cotacao/" data-analytics-element="menu-item" data-analytics-value="cotacao">Cotações</a>
+<ul class="sub-menu">
+	<li id="menu-item-644274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644274"><a href="/cotacao/" data-analytics-element="menu-item" data-analytics-value="cotacao">Ibovespa</a></li>
+	<li id="menu-item-644275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644275"><a href="/cotacao-criptomoeda/" data-analytics-element="menu-item" data-analytics-value="cotacao-criptomoeda">Criptomoedas</a></li>
+</ul>
+</li>
+<li id="menu-item-644276" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644276"><a href="/perfis/" data-analytics-element="menu-item" data-analytics-value="perfis">Perfis</a></li>
+<li id="menu-item-644277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644277"><a href="/guias/" data-analytics-element="menu-item" data-analytics-value="guias">Guias de investimento</a></li>
+<li id="menu-item-644278" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644278"><button type="button" aria-expanded="false" data-menu-toggle data-analytics-element="menu-item" class="menu-item__toggle">Conteúdo de marca</button>
+<ul class="sub-menu">
+	<li id="menu-item-644291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644291"><a href="https://investnews.com.br/patrocinados/nubank/" data-analytics-element="menu-item" data-analytics-value="nubank">Nubank</a></li>
+	<li id="menu-item-732522" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-732522"><a href="https://investnews.com.br/patrocinados/nubank-cripto/" data-analytics-element="menu-item" data-analytics-value="nubank-cripto">Nubank Cripto</a></li>
+	<li id="menu-item-732523" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-732523"><a href="https://investnews.com.br/patrocinados/nu-empresas/" data-analytics-element="menu-item" data-analytics-value="nu-empresas">Nu Empresas</a></li>
+</ul>
+</li>
+</ul></div>                    </div>
+                                                                <ul class="side-menu-side-list">
+                                                                                                                                <li class="item">
+                                                                                <a class="item-link" href="/autores/" title="Autores" target="_self" data-analytics-element="menu-item" data-analytics-value="autores">Autores</a>
+                                    </li>
+                                                                                                                                                                    <li class="item">
+                                                                                <a class="item-link" href="https://investnews.com.br/politica-de-privacidade/" title="Política de Privacidade" target="_self" data-analytics-element="menu-item" data-analytics-value="politica-de-privacidade">Política de Privacidade</a>
+                                    </li>
+                                                                                                                                                                    <li class="item">
+                                                                                <a class="item-link" href="https://investnews.com.br/quem-somos/" title="Quem somos" target="_self" data-analytics-element="menu-item" data-analytics-value="quem-somos">Quem somos</a>
+                                    </li>
+                                                                                        </ul>
+                                                                <div class="social-networks">
+                                                                                            <a class="item-link" href="https://www.facebook.com/investnewsbr/?locale=pt_BR" title="Facebook" target="_self" data-analytics-element="social-network" data-analytics-value="investnewsbr">
+                                    <img width="8" height="15" src="https://media.investnews.com.br/uploads/2025/02/Facebook.png" class="attachment-full size-full" alt="Cruz branca." decoding="async" />                                </a>
+                                                                                                <a class="item-link" href="https://www.youtube.com/channel/UCo0jMsIPccAXghE_FCWIdNg" title="YouTube" target="_self" data-analytics-element="social-network" data-analytics-value="uco0jmsipccaxghe_fcwidng">
+                                    <img width="20" height="15" src="https://media.investnews.com.br/uploads/2025/02/YouTube.png" class="attachment-full size-full" alt="Botão de play preto." decoding="async" />                                </a>
+                                                                                                <a class="item-link" href="https://br.linkedin.com/company/investnewsbr" title="LinkedIn" target="_self" data-analytics-element="social-network" data-analytics-value="investnewsbr">
+                                    <img width="14" height="15" src="https://media.investnews.com.br/uploads/2025/02/LinkedIn.png" class="attachment-full size-full" alt="Letra ñ em negrito." decoding="async" />                                </a>
+                                                                                                <a class="item-link" href="https://www.instagram.com/investnewsbr/" title="Instagram" target="_self" data-analytics-element="social-network" data-analytics-value="investnewsbr">
+                                    <img width="16" height="17" src="https://media.investnews.com.br/uploads/2025/02/Instagram-1.png" class="attachment-full size-full" alt="Ícone pixelado preto: círculo com um quadrado menor no centro." decoding="async" />                                </a>
+                                                                                                <a class="item-link" href="https://www.tiktok.com/@investnewsbr" title="TikTok" target="_self" data-analytics-element="social-network" data-analytics-value="investnewsbr">
+                                    <img width="14" height="17" src="https://media.investnews.com.br/uploads/2025/02/TikTok-1.png" class="attachment-full size-full" alt="Ícone de nota musical: uma colcheia." decoding="async" />                                </a>
+                                                        </div>
+                                        </div>
+            </div>
+        </div>
+        <div class="ins-header__trending" data-analytics-component="trending-bar" data-analytics-component-position="header">
+            <div class="container">
+                <div class="menu-links-em-alta-container"><ul id="menu-links-em-alta" class="trending-menu-header"><li id="menu-item-title" class="menu-item menu-item-type-custom menu-item-object-custom"></li><li id="menu-item-645359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645359"><a href="https://investnews.com.br/tag/criptomoedas/" title="Investir para viver" data-analytics-element="title" data-analytics-value="criptomoedas">Criptomoedas</a></li>
+<li id="menu-item-539057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-539057"><a href="https://investnews.com.br/tag/imposto-para-empresas-pj/" title="Criptomoedas" data-analytics-element="title" data-analytics-value="imposto-para-empresas-pj">Descomplica PJ</a></li>
+<li id="menu-item-724946" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-724946"><a href="https://investnews.com.br/tag/etf/" data-analytics-element="title" data-analytics-value="etf">ETF</a></li>
+</ul></div>            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Newsletter Modal — mesmo padrão cinza do box `ins-newsletter` -->
+<div id="newsletter-modal" class="newsletter-modal" style="display: none;">
+    <div class="newsletter-modal-content">
+        <div class="newsletter-state newsletter-state-initial">
+            <div class="ins-newsletter newsletter-modal__box" data-ins-newsletter-state="initial">
+                <div class="ins-newsletter__head">
+                    <h3 class="ins-newsletter__title">O Essencial</h3>
+                </div>
+                <p class="ins-newsletter__description">Newsletter com curadoria especializada, análises e conteúdos exclusivos sobre negócios.</p>
+
+                <form class="newsletter-form ins-newsletter__form" id="newsletter-subscribe-form" data-analytics-form-name="newsletter-multi-select" data-analytics-form-action="subscribe" data-analytics-component="newsletter-box" data-analytics-component-position="modal" data-analytics-variant="modal">
+                    <input type="hidden" name="newsletter[]" value="o-essencial">
+                    <input type="hidden" name="newsletter_nonce" value="6236f51295">
+                    <input type="hidden" name="website_url" value="" class="ins-newsletter__honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+                    <div class="ins-newsletter__field">
+                        <div class="ins-newsletter__row">
+                            <label class="ins-newsletter__sr-only" for="newsletter-email">E-mail</label>
+                            <input type="email" name="email" id="newsletter-email" class="ins-newsletter__input" placeholder="E-mail" autocomplete="email" inputmode="email" enterkeyhint="send" aria-describedby="newsletter-modal-feedback" required>
+                            <button type="submit" class="ins-btn ins-newsletter__submit newsletter-submit-btn">
+                                <span class="ins-newsletter__submit-label">QUERO RECEBER</span>
+                                <span class="ins-newsletter__spinner" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                        <p class="ins-newsletter__feedback" id="newsletter-modal-feedback" role="status" aria-live="polite" data-newsletter-modal-feedback></p>
+                    </div>
+
+                    <div class="ins-newsletter__consents">
+                        <div class="tool-field-check" data-tool-block="tool-field-check">
+                            <input type="checkbox" id="newsletter-modal-privacy" name="newsletter_privacy" value="1" class="tool-field-check__input" required>
+                            <label class="tool-field-check__label" for="newsletter-modal-privacy">Concordo com a <a href="https://investnews.com.br/politica-de-privacidade/" target="_blank" rel="noopener noreferrer">Política de privacidade</a></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="newsletter-state newsletter-state-success" style="display: none;">
+            <div class="ins-newsletter newsletter-modal__box newsletter-modal__box--success">
+                <p class="newsletter-state-title">Inscrição confirmada!</p>
+                <div class="newsletter-state-message">
+                    <div class="newsletter-state-message-content">
+                        A partir de agora você receberá nosso conteúdo em seu e-mail. Acompanhe também em
+                        <a href="https://open.spotify.com/show/69uWskvEmg6iq9QRwyvfio" target="_blank" rel="noopener noreferrer">Spotify</a> e
+                        <a href="https://podcasts.apple.com/br/podcast/o-essencial/id1495385733" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <main id="main-content">
+    
+<article class="singular-post default-post-template">
+
+        <header class="top">
+    
+    <div class="container">
+        <nav class="post-breadcrumb" aria-label="Navegação estrutural" data-analytics-component="breadcrumb" data-analytics-component-position="article-header">
+                                <a class="post-breadcrumb__link" href="https://investnews.com.br/" data-analytics-element="level" data-analytics-value="investnews" data-analytics-item-position="1">
+                Home            </a>
+                                <span class="post-breadcrumb__sep" aria-hidden="true"></span>
+                            <a class="post-breadcrumb__link" href="https://investnews.com.br/economia/" data-analytics-element="level" data-analytics-value="economia" data-analytics-item-position="2">
+                Economia            </a>
+                                <span class="post-breadcrumb__sep" aria-hidden="true"></span>
+                            <span class="post-breadcrumb__current">Inflação</span>
+            </nav>
+
+        <h1 class="title">Selic &#8216;tabelada&#8217; para não passar de 5,5% ao ano? Entenda a proposta de André Lara Resende</h1>
+
+                    <div class="excerpt">Um dos &#039;pais&#039; do Plano Real defende juro básico menor para frear o avanço da dívida. Economistass veem risco para dólar e inflação</div>
+        
+        <div class="assinatura">
+            <div class="assinatura-info">
+                <div class="author">
+    <span class="by-text">Por</span>
+    <span class="author-list">
+        <a href="https://investnews.com.br/autor/simone-costa/" title="Posts by Simone Costa" class="author url fn" rel="author">Simone Costa</a>    </span>
+</div>
+
+                
+<div class="time-informations">
+    <div class="info-group">
+        <!-- Publication Date and Time -->
+        <time datetime="2026-11-03T16:15:08-03:00" itemprop="datePublished" class="date-published">
+            <span class="date-segment">3 nov. 2026</span>
+            <span class="divider" aria-hidden="true">|</span>
+            <span class="date-segment">16h15</span>
+            <span class="divider" aria-hidden="true">|</span>
+        </time>
+
+        <!-- Reading Time Estimate -->
+        <div class="reading-time">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 13.3333 13.3333" fill="none" focusable="false" aria-hidden="true"><g>
+<path d="M7.33333 2.66667V6.39052L9.13807 8.19526L8.19526 9.13807L6 6.94281V2.66667H7.33333Z" fill="currentColor"/>
+<path d="M13.3333 6.66667C13.3333 10.3486 10.3486 13.3333 6.66667 13.3333C2.98477 13.3333 0 10.3486 0 6.66667C0 2.98477 2.98477 0 6.66667 0C10.3486 0 13.3333 2.98477 13.3333 6.66667ZM12 6.66667C12 3.72115 9.61219 1.33333 6.66667 1.33333C3.72115 1.33333 1.33333 3.72115 1.33333 6.66667C1.33333 9.61219 3.72115 12 6.66667 12C9.61219 12 12 9.61219 12 6.66667Z" fill="currentColor"/>
+</g></svg>            <span>9 min</span>
+        </div>
+    </div>
+
+            
+        <!-- Last Modified Date -->
+        <time datetime="2026-11-03T17:26:59-03:00" itemprop="dateModified" class="date-modified">
+                            <span class="date-segment">Atualizado: 3 nov. 2026</span>
+                <span class="divider" aria-hidden="true">|</span>
+                <span class="date-segment">17h26</span>
+                    </time>
+    </div>
+            </div>
+
+            <div class="share" data-analytics-component="share-post" data-analytics-component-position="article-header">
+        <a href="https://www.google.com/preferences/source?q=investnews.com.br"
+       class="google-follow-cta"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="SIGA NO GOOGLE"
+       aria-label="SIGA NO GOOGLE"
+         data-analytics-element="button" data-analytics-value="siga-no-google">
+        <span class="google-follow-cta__label">SIGA NO GOOGLE</span>
+        <span class="google-follow-cta__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48" fill="none" focusable="false" style="color:#000000" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>        </span>
+    </a>
+        <a href="https://wa.me/?text=Selic%20%E2%80%98tabelada%E2%80%99%20para%20n%C3%A3o%20passar%20de%205%2C5%25%20ao%20ano%3F%20Entenda%20a%20proposta%20de%20Andr%C3%A9%20Lara%20Resende%20https%3A%2F%2Finvestnews.com.br%2Feconomia%2Fselic-7-5-entenda-proposta-lara-resende%2F"
+       aria-label="Compartilhar este post no WhatsApp"
+       data-action="share/whatsapp/share"
+       target="_blank"
+       rel="noopener"
+       title="Compartilhar este post no WhatsApp"
+       class="share-whatsapp"
+        data-analytics-element="button" data-analytics-value="whatsapp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20.7313 20" fill="none" focusable="false" aria-hidden="true"><path d="M10.3682 0H10.363C4.64769 0 0 4.485 0 10C0 11.1875 0.730777 14.215 1.97336 15.8613L0.681541 19.5763L4.66583 18.3475C6.3049 19.395 8.26012 20 10.3682 20C16.0836 20 20.7313 15.5137 20.7313 10C20.7313 4.48625 16.0836 0 10.3682 0ZM16.3997 14.1212C16.1497 14.8025 15.1571 15.3675 14.3655 15.5325C13.8239 15.6437 13.1164 15.7325 10.7349 14.78C7.68871 13.5625 5.72701 10.5762 5.57412 10.3825C5.42771 10.1887 4.3432 8.80125 4.3432 7.36625C4.3432 5.93125 5.0986 5.2325 5.40309 4.9325C5.65316 4.68625 6.06649 4.57375 6.46297 4.57375C6.59125 4.57375 6.70657 4.58 6.81022 4.585C7.11471 4.5975 7.26761 4.615 7.46844 5.07875C7.71851 5.66 8.32749 7.095 8.40005 7.2425C8.47391 7.39 8.54776 7.59 8.44411 7.78375C8.34693 7.98375 8.26141 8.0725 8.10852 8.2425C7.95562 8.4125 7.81051 8.5425 7.65761 8.725C7.51768 8.88375 7.3596 9.05375 7.53582 9.3475C7.71203 9.635 8.32101 10.5937 9.21764 11.3637C10.3747 12.3575 11.3128 12.675 11.6484 12.81C11.8985 12.91 12.1965 12.8863 12.3792 12.6988C12.6111 12.4575 12.8974 12.0575 13.189 11.6638C13.3963 11.3813 13.658 11.3462 13.9327 11.4462C14.2126 11.54 15.6936 12.2462 15.9981 12.3925C16.3026 12.54 16.5034 12.61 16.5772 12.7338C16.6498 12.8575 16.6498 13.4387 16.3997 14.1212Z" fill="currentColor"/></svg>    </a>
+
+    <div class="share-trigger">
+        <button type="button" class="share-button" aria-label="Compartilhar" aria-expanded="false"
+             data-analytics-element="button" data-analytics-value="share">
+            <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24.4781 18" fill="none" focusable="false" aria-hidden="true"><g>
+<path d="M0.816085 17.9948C0.698612 17.9948 0.583748 17.9712 0.474106 17.9189C0.142569 17.7644 -0.0453889 17.4137 0.00943217 17.0525L0.0277059 16.9425C0.254822 15.4636 0.852633 11.5374 2.62779 9.30725C6.16245 4.85749 11.5741 4.33922 13.8713 4.33922V0.818674C13.8713 0.494103 14.0593 0.200942 14.3569 0.0700668C14.6519 -0.0608086 14.9965 -0.0058409 15.2366 0.21403L24.2116 8.39374C24.3865 8.55341 24.4831 8.78114 24.4779 9.01933C24.4727 9.25752 24.3631 9.48001 24.1803 9.63183L15.2053 16.9949C14.9599 17.1964 14.6232 17.2357 14.3386 17.1022C14.0541 16.9661 13.8713 16.6782 13.8713 16.3641V12.3305C12.0074 12.2389 10.1748 12.4823 8.41272 13.0529C5.02426 14.1496 2.75049 16.1939 1.43739 17.7173C1.27815 17.9005 1.05103 18 0.818696 18L0.816085 17.9948ZM13.9575 5.97778C12.0779 5.97778 7.04481 6.37041 3.90173 10.3281C2.99327 11.4719 2.43461 13.2414 2.0848 14.7674C3.52842 13.5319 5.45238 12.2912 7.90889 11.4955C10.1174 10.7809 12.4251 10.5322 14.7641 10.7521C15.1818 10.7914 15.5029 11.1447 15.5029 11.5662V14.6365L22.413 8.96698L15.5029 2.66925V5.18206C15.5029 5.40978 15.4089 5.62442 15.2445 5.77885C15.08 5.93329 14.8633 6.01181 14.6336 5.99872C14.5266 5.99087 14.2942 5.9804 13.9627 5.9804L13.9575 5.97778Z" fill="currentColor"/>
+</g></svg>            </span>
+            <span class="label">Compartilhar</span>
+            <span class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 15.1178 17" fill="none" focusable="false" aria-hidden="true"><path d="M0.542086 0.444372C0.894532 0.150029 1.41135 0.198126 1.70322 0.532262V0.533239L7.55869 7.25101L13.4142 0.533239L13.4181 0.528356L13.4767 0.470739C13.7619 0.21331 14.1924 0.1803 14.5099 0.394567L14.5753 0.444372L14.5802 0.448278C14.9201 0.743696 14.9625 1.2551 14.6661 1.59476L8.87802 8.22855L8.87705 8.22953C8.75705 8.36568 8.74202 8.55794 8.83213 8.70804L8.87705 8.76957L8.87802 8.77054L14.6651 15.4034C14.972 15.7528 14.9198 16.2683 14.5753 16.5547L14.5743 16.5537C14.4187 16.6896 14.2288 16.75 14.045 16.75C13.8368 16.75 13.6367 16.6742 13.4806 16.5323L13.4142 16.4659L7.55869 9.74613L1.70322 16.4659L1.70224 16.4678C1.53779 16.653 1.30042 16.75 1.07334 16.75C0.876846 16.75 0.689359 16.6739 0.544039 16.5557L0.53818 16.5508C0.197959 16.2556 0.155098 15.7442 0.451266 15.4043L6.23935 8.77054L6.24033 8.76957C6.37773 8.61397 6.37768 8.38515 6.24033 8.22953L6.23935 8.22855L0.451266 1.59476L0.452242 1.59379C0.146192 1.2443 0.197918 0.730578 0.542086 0.444372Z" fill="currentColor" stroke="currentColor" stroke-width="0.5"/></svg>            </span>
+        </button>
+
+        <div class="share-options" role="menu">
+            <div class="option-list">
+                <div class="option-list-header">
+                    <span class="option-list-title">Compartilhar</span>
+                    <button type="button" class="share-close" aria-label="Fechar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 15.1178 17" fill="none" focusable="false" aria-hidden="true"><path d="M0.542086 0.444372C0.894532 0.150029 1.41135 0.198126 1.70322 0.532262V0.533239L7.55869 7.25101L13.4142 0.533239L13.4181 0.528356L13.4767 0.470739C13.7619 0.21331 14.1924 0.1803 14.5099 0.394567L14.5753 0.444372L14.5802 0.448278C14.9201 0.743696 14.9625 1.2551 14.6661 1.59476L8.87802 8.22855L8.87705 8.22953C8.75705 8.36568 8.74202 8.55794 8.83213 8.70804L8.87705 8.76957L8.87802 8.77054L14.6651 15.4034C14.972 15.7528 14.9198 16.2683 14.5753 16.5547L14.5743 16.5537C14.4187 16.6896 14.2288 16.75 14.045 16.75C13.8368 16.75 13.6367 16.6742 13.4806 16.5323L13.4142 16.4659L7.55869 9.74613L1.70322 16.4659L1.70224 16.4678C1.53779 16.653 1.30042 16.75 1.07334 16.75C0.876846 16.75 0.689359 16.6739 0.544039 16.5557L0.53818 16.5508C0.197959 16.2556 0.155098 15.7442 0.451266 15.4043L6.23935 8.77054L6.24033 8.76957C6.37773 8.61397 6.37768 8.38515 6.24033 8.22953L6.23935 8.22855L0.451266 1.59476L0.452242 1.59379C0.146192 1.2443 0.197918 0.730578 0.542086 0.444372Z" fill="currentColor" stroke="currentColor" stroke-width="0.5"/></svg>                    </button>
+                </div>
+
+                <a href="https://investnews.com.br/economia/selic-7-5-entenda-proposta-lara-resende/" title="Copiar link" id="copy-link-button" class="option-item" role="menuitem" data-analytics-element="button" data-analytics-value="copiar-link" data-analytics-item-position="1">
+                    <span class="option-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 19" fill="none" focusable="false" aria-hidden="true"><path d="M7.99002 13.7426L5.74563 15.9869C4.84788 16.8847 3.41147 16.8847 2.51371 15.9869C2.06484 15.6278 1.79551 14.9994 1.79551 14.371C1.79551 13.7426 2.06484 13.2039 2.42394 12.755L6.19451 8.98445C7.09227 8.0867 8.52867 8.0867 9.42643 8.98445C9.78553 9.34355 10.3242 9.34355 10.6833 8.98445C11.0424 8.62535 11.0424 8.0867 10.6833 7.72759C9.06733 6.11164 6.46384 6.11164 4.93765 7.72759L1.16708 11.4982C0.359102 12.3061 0 13.2937 0 14.371C0 15.4483 0.448878 16.5256 1.16708 17.2438C1.97506 18.1416 3.05237 18.5007 4.12967 18.5007C5.20698 18.5007 6.19451 18.1416 7.00249 17.3336L9.24688 15.0892C9.60598 14.7301 9.60598 14.1914 9.24688 13.8323C8.88778 13.4732 8.34912 13.3835 7.99002 13.7426Z" fill="currentColor"/>
+<path d="M16.7885 1.71197C15.1725 0.0960101 12.569 0.0960101 11.0428 1.71197L8.79844 3.95636C8.43934 4.31546 8.43934 4.85411 8.79844 5.21321C9.15754 5.57232 9.69619 5.57232 10.0553 5.21321L12.2997 2.96883C13.1974 2.07107 14.6338 2.07107 15.5316 2.96883C15.8907 3.4177 16.16 4.04613 16.16 4.67456C16.16 5.30299 15.8907 5.84164 15.5316 6.29052L11.761 10.0611C10.8633 10.9588 9.42687 10.9588 8.52911 10.0611C8.17001 9.70199 7.63136 9.70199 7.27226 10.0611C6.91315 10.4202 6.91315 10.9588 7.27226 11.318C8.08024 12.1259 9.15754 12.485 10.1451 12.485C11.2224 12.485 12.2099 12.1259 13.0179 11.318L16.7885 7.54738C17.5964 6.7394 17.9555 5.75187 17.9555 4.67456C17.9555 3.50748 17.5067 2.51995 16.7885 1.71197Z" fill="currentColor"/></svg>                    </span>
+                    <span class="option-name">Copiar link</span>
+                </a>
+
+                <a href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Finvestnews.com.br%2Feconomia%2Fselic-7-5-entenda-proposta-lara-resende%2F&#038;title=Selic%20%E2%80%98tabelada%E2%80%99%20para%20n%C3%A3o%20passar%20de%205%2C5%25%20ao%20ano%3F%20Entenda%20a%20proposta%20de%20Andr%C3%A9%20Lara%20Resende"
+                   aria-label="Compartilhar este post no LinkedIn"
+                   target="_blank"
+                   rel="noopener"
+                   title="Compartilhar este post no LinkedIn"
+                   class="option-item"
+                   role="menuitem"
+                    data-analytics-element="button" data-analytics-value="linkedin" data-analytics-item-position="2">
+                    <span class="option-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 19" fill="none" focusable="false" aria-hidden="true"><path d="M3.29777 6.47015H7.03474V18.5H3.29777V6.47015ZM5.15881 0.5C6.34988 0.5 7.31762 1.47015 7.31762 2.66418C7.31762 3.85821 6.34988 4.82836 5.15881 4.82836C3.96774 4.82836 3 3.85821 3 2.66418C3 1.47015 3.96774 0.5 5.15881 0.5Z" fill="currentColor"/>
+<path d="M9.37207 6.47038H12.9453V8.11217H12.9899C13.4961 7.17187 14.7021 6.17188 16.5185 6.17188C20.3001 6.17188 20.985 8.66441 20.985 11.9032V18.5002H17.2629V12.6495C17.2629 11.2465 17.2331 9.45546 15.3274 9.45546C13.4217 9.45546 13.0942 10.9778 13.0942 12.545V18.5002H9.37207V6.47038Z" fill="currentColor"/></svg>                    </span>
+                    <span class="option-name">LinkedIn</span>
+                </a>
+
+                <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Finvestnews.com.br%2Feconomia%2Fselic-7-5-entenda-proposta-lara-resende%2F&#038;text=Selic%20%E2%80%98tabelada%E2%80%99%20para%20n%C3%A3o%20passar%20de%205%2C5%25%20ao%20ano%3F%20Entenda%20a%20proposta%20de%20Andr%C3%A9%20Lara%20Resende"
+                   aria-label="Compartilhar este post no X"
+                   target="_blank"
+                   rel="noopener"
+                   title="Compartilhar este post no X"
+                   class="option-item"
+                   role="menuitem"
+                    data-analytics-element="button" data-analytics-value="x" data-analytics-item-position="3">
+                    <span class="option-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 19" fill="none" focusable="false" aria-hidden="true"><path d="M13.4784 8.12066L20.0398 0.5H18.4852L12.7925 7.11473L8.24301 0.5H3L9.87384 10.5059L3 18.5H4.55461L10.5673 11.5119L15.3683 18.5H20.6113L13.4784 8.12066ZM11.3522 10.5974L10.6588 9.59907L5.11092 1.66596H7.49619L11.9695 8.06732L12.663 9.06562L18.4776 17.3798H16.0923L11.3446 10.5898L11.3522 10.5974Z" fill="currentColor"/></svg>                    </span>
+                    <span class="option-name">X</span>
+                </a>
+
+                <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Finvestnews.com.br%2Feconomia%2Fselic-7-5-entenda-proposta-lara-resende%2F"
+                   aria-label="Compartilhar este post no Facebook"
+                   target="_blank"
+                   rel="noopener"
+                   title="Compartilhar este post no Facebook"
+                   class="option-item"
+                   role="menuitem"
+                    data-analytics-element="button" data-analytics-value="facebook" data-analytics-item-position="4">
+                    <span class="option-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 19" fill="none" focusable="false" aria-hidden="true"><path d="M16.7077 0.503745L14.2881 0.5C11.5699 0.5 9.81319 2.23871 9.81319 4.92982V6.97227H7.38045C7.17023 6.97227 7 7.13668 7 7.33949V10.2988C7 10.5016 7.17043 10.6658 7.38045 10.6658H9.81319V18.133C9.81319 18.3358 9.98342 18.5 10.1936 18.5H13.3677C13.5779 18.5 13.7481 18.3356 13.7481 18.133V10.6658H16.5926C16.8028 10.6658 16.973 10.5016 16.973 10.2988L16.9742 7.33949C16.9742 7.24211 16.934 7.14886 16.8628 7.07994C16.7915 7.01103 16.6945 6.97227 16.5935 6.97227H13.7481V5.24086C13.7481 4.40868 13.9537 3.98622 15.0774 3.98622L16.7073 3.98566C16.9173 3.98566 17.0875 3.82124 17.0875 3.61863V0.870775C17.0875 0.668347 16.9175 0.50412 16.7077 0.503745Z" fill="currentColor"/></svg>                    </span>
+                    <span class="option-name">Facebook</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</header>
+
+                                    <div class="featured-image">
+                <div class="container">
+                    <img width="1024" height="576" src="https://media.investnews.com.br/uploads/2026/11/bancocentral-1024x576.jpg" class="attachment-large size-large wp-post-image" alt="selic" loading="eager" fetchpriority="high" sizes="(max-width: 767px) calc(100vw - 32px), 628px" decoding="async" srcset="https://media.investnews.com.br/uploads/2026/11/bancocentral-1024x576.jpg 1024w, https://media.investnews.com.br/uploads/2026/11/bancocentral-300x169.jpg 300w, https://media.investnews.com.br/uploads/2026/11/bancocentral-768x432.jpg 768w, https://media.investnews.com.br/uploads/2026/11/bancocentral-628x353.jpg 628w, https://media.investnews.com.br/uploads/2026/11/bancocentral-172x97.jpg 172w, https://media.investnews.com.br/uploads/2026/11/bancocentral-192x108.jpg 192w, https://media.investnews.com.br/uploads/2026/11/bancocentral-150x84.jpg 150w, https://media.investnews.com.br/uploads/2026/11/bancocentral.jpg 1200w" />                    <figcaption class="wp-caption-text">Foto: Rmcarvalho/Getty Images </figcaption>                </div>
+            </div>
+            
+        <div class="post-content" data-analytics-component="internal-link" data-analytics-component-position="article-body" data-analytics-element-default="link">
+
+        <div class='floating-ad-container'><div id="ad-category" class="ins-ad ins-ad--floating" data-ins-ad-label="#ad-category · 300x250"></div><p class="wp-block-paragraph">Um plano heterodoxo para tentar levar a <a href="https://investnews.com.br/guias/taxa-selic/">Selic</a> de 13,75% para 7,5% ao ano ganhou o noticiário econômico nos últimos dias. A proposta veio na esteira da <a href="https://investnews.com.br/economia/lula-propostas-economia-quarto-mandato/">reeleição do presidente Luiz Inácio Lula da Lula</a> e da pressão de diferentes alas da sociedade por medidas que permitam a redução gradual dos juros, que pressionam as finanças de empresas e famílias. </p><p class="wp-block-paragraph">O plano tem como base um artigo de André Lara Resende, economista que foi um dos formuladores do Plano Real: e foi publicado há mais de um mês, no dia <a href="https://andrelararesende.substack.com/p/eu-acuso-uma-proposta-para-eliminar" target="_blank" rel="noopener">25 de setembro, em seu Substack</a> (uma conhecida plataforma de newsletters). O nome do artigo é &#8220;<em>Eu Acuso: uma proposta para eliminar os juros absurdos</em>&#8220;.</p><p class="wp-block-paragraph">Na base do plano estão uma espécie de &#8220;tabelamento&#8221; dos juros básicos da economia e o uso das reservas internacionais em moeda estrangeira para ajudar a segurar a esperada fuga de capitais – investidores que tiram dinheiro do país – em reação ao plano considerado heterodoxo, ou seja, que foge do que prega a teoria econômica mais consagrada.</p><p class="wp-block-paragraph">A ideia voltou à tona no domingo (1º), quando o jornalista Lauro Jardim, de <strong>O Globo</strong>, disse que o economista teria um encontro com Lula nesta semana. A notícia foi desmentida na sequência pelo ministro da Fazenda, Dario Durigan. Não foi suficiente: muitos economistas, empresários e investidores entraram em polvorosa com essa possibilidade.</p><p class="wp-block-paragraph">A discussão chegou às vésperas de mais uma decisão do Comitê de Política Monetária (<a href="https://www.bcb.gov.br/controleinflacao/copom" target="_blank" rel="noopener">Copom</a>), marcada para esta quarta-feira (4) – a primeira desde a reeleição de Lula para um quarto mandato para presidente da República.</p><p class="wp-block-paragraph">Vamos explicar a seguir todo o caso.</p><h2 class="wp-block-heading">O que André Lara Resende propõe?</h2><p class="wp-block-paragraph">O plano de Lara Resende tem alguns pontos principais para viabilizar a redução das taxas de juros, que seriam &#8220;tabelados&#8221;:</p><ul class="wp-block-list">
+<li><strong>Novo conselho:</strong> um novo Conselho Fiscal e Monetário Nacional seria criado para coordenar o que Lara Resende chama de novo regime, responsável por fixar um intervalo para a <a href="https://investnews.com.br/guias/taxa-selic/">taxa Selic</a> para um período de quatro a cinco anos à frente.</li>
+<li><strong>Corte acelerado:</strong> a Selic poderia ser reduzida, em cerca de 12 meses, do patamar atual de 13,75% até perto de 7,5% ao ano. Essa taxa seria resultado da soma de 2,5%, que ele estima como o crescimento possível da economia em termos reais somado à meta de inflação (3%), com uma margem de segurança de 2 pontos, que seria reduzida até desaparecer.</li>
+<li><strong>Intervalo para os juros:</strong> depois de um período de transição, o juro básico ficaria entre 3% e 5,5% ao ano. O piso (3%) corresponderia à meta de inflação. O teto (5,5%) somaria a essa meta a um crescimento real potencial de 2,5%.</li>
+</ul></div><section class="ins-recirculation-list" aria-labelledby="ins-recirculation-list-block_d3456c103e5d34002934ac765313f7f9-titulo">
+<div class="ins-recirculation-list__inner">
+<p class="ins-recirculation-list__title" id="ins-recirculation-list-block_d3456c103e5d34002934ac765313f7f9-titulo">Leia também</p>
+<ul class="ins-recirculation-list__items" data-analytics-component="related-content" data-analytics-component-position="article-body" data-analytics-component-variant="leia-tambem-inline">
+<li class="ins-recirculation-list__item">
+<div class="ins-recirculation-list__item-body">
+                            <a href="https://investnews.com.br/economia/" class="ins-recirculation-list__category">Economia</a>                            <a href="https://investnews.com.br/economia/sem-ajuste-crivel-risco-recessao-lula/" title="Sem ajuste fiscal crível, economia em novo governo Lula pode entrar em recessão, diz Solange Srour" class="ins-recirculation-list__link recirculation-link" data-analytics-element="title" data-analytics-value="sem-ajuste-crivel-risco-recessao-lula" data-analytics-item-position="1">Sem ajuste fiscal crível, economia em novo governo Lula pode entrar em recessão, diz Solange Srour</a>
+                        </div>
+</li>
+<li class="ins-recirculation-list__item">
+<div class="ins-recirculation-list__item-body">
+                            <a href="https://investnews.com.br/economia/" class="ins-recirculation-list__category">Economia</a>                            <a href="https://investnews.com.br/economia/lula-propostas-economia-quarto-mandato/" title="Lula reeleito: quais as propostas econômicas para o novo mandato" class="ins-recirculation-list__link recirculation-link" data-analytics-element="title" data-analytics-value="lula-propostas-economia-quarto-mandato" data-analytics-item-position="2">Lula reeleito: quais as propostas econômicas para o novo mandato</a>
+                        </div>
+</li>
+</ul></div>
+</section><h2 class="wp-block-heading">Por que o artigo voltou ao debate?</h2><p class="wp-block-paragraph">Parte do mercado interpretou a notícia do possível encontro como um sinal de que a proposta poderia chegar ao presidente e levar a uma redução forçada dos juros – caso fosse de fato encampada.</p><p class="wp-block-paragraph">O ministro da Fazenda também afirmou que o governo não estuda tabelar os juros – ou seja, fixar a taxa por meio de decisão política, na &#8220;canetada&#8221; – nem usar reservas para compensar uma potencial saída de capitais. </p><p class="wp-block-paragraph">Na esfera de lideranças do PT, as reações divergiram.</p><p class="wp-block-paragraph">Aloizio Mercadante, presidente do BNDES, também disse que não há proposta de tabelamento em discussão.</p><p class="wp-block-paragraph">A deputada federal Gleisi Hoffmann (PT-PR) elogiou o artigo e depois ponderou que conversar sobre uma ideia não significa adotá-la. José Sérgio Gabrielli, coordenador do programa de governo, também elogiou a proposta.</p><figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<div class="wp-block-embed__wrapper">
+<div class="investnews-yt-facade is-pending" data-youtube-id="IOAZPP5ew7I" data-youtube-title="O que está por trás do pessimismo do mercado após vitória de Lula" style="aspect-ratio:16/9"><button type="button" class="investnews-yt-facade__button" aria-label="Reproduzir vídeo: O que está por trás do pessimismo do mercado após vitória de Lula"><img class="investnews-yt-facade__poster" src="https://i.ytimg.com/vi/IOAZPP5ew7I/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async" /><span class="investnews-yt-facade__play" aria-hidden="true"></span></button><a class="investnews-yt-facade__fallback-link screen-reader-text" href="https://www.youtube.com/watch?v=IOAZPP5ew7I" rel="noopener noreferrer" target="_blank">Abrir no YouTube</a></div>
+</div>
+</figure><p class="wp-block-paragraph">Edinho Silva, presidente do PT, por outro lado, disse que só Durigan está autorizado a falar de política econômica, desacreditando qualquer ideia de terceiros.</p><p class="wp-block-paragraph">O próprio presidente Lula ainda não se manifestou.</p><h2 class="wp-block-heading">Quem é André Lara Resende?</h2><div id="ad-billboard970" class="ins-ad ins-ad--content" data-ins-ad-label="#ad-billboard970 · 970x250 · 728x90 · 300x250"></div><p class="wp-block-paragraph">Nascido no Rio de Janeiro em 1951 e hoje com 75 anos de idade, André Lara Resende é um dos formuladores do Plano Real. Economista formado pela PUC-Rio, com doutorado pelo MIT, escreveu com Persio Arida o estudo conhecido como &#8220;Larida&#8221;, base da URV – unidade de valor usada na transição para o real –, mecanismo de transição para o real.&nbsp;</p><p class="wp-block-paragraph">Foi diretor do Banco Central em 1985 e 1986, negociador-chefe da dívida externa do Brasil em 1993 e presidente do BNDES em 1998. Também foi sócio dos bancos Garantia e Matrix. Nos últimos anos, tornou-se um dos principais críticos dos juros altos no Brasil.</p><h2 class="wp-block-heading">Como baixar os juros poderia resolver o problema da dívida?</h2><p class="wp-block-paragraph">Lara Resende diz que a dívida cresce mais do que a economia porque os juros pagos sobre ela superam o avanço do PIB nominal, ou seja, o crescimento da economia sem descontar a inflação. E, portanto, a raiz para controlar a dívida está em reduzir os juros, e não a entrega de superávit primário pelo governo: saldo positivo entre receitas e despesas.</p><p class="wp-block-paragraph">Os dados do BC mostram a diferença de escala. Nos 12 meses até setembro, o déficit primário do setor público, que exclui os juros, foi de 0,52% do PIB. A conta de juros somou R$ 1,205 trilhão, ou 8,99% do PIB. A dívida bruta chegou a 82,9% do PIB, ou R$ 11,1 trilhões.</p><p class="wp-block-paragraph">O custo médio da dívida federal está em 12,63% ao ano, enquanto o PIB nominal cresce cerca de 7%, segundo o economista. Pela conta dele, com o custo em 7,5%, os dois ritmos ficariam próximos, com economia equivalente a cerca de 4% do PIB ao ano. Para ele, nenhum ajuste fiscal alcançaria esse resultado sem causar uma recessão profunda.</p><p class="wp-block-paragraph">O efeito não seria imediato em toda a dívida. Os títulos atrelados à Selic renderiam, obviamente, menos logo após cada corte &#8211; e o fato de que dominam o &#8220;grosso&#8221; da dívida seria uma vantagem. </p><p class="wp-block-paragraph">Nos prefixados e nos papéis ligados à inflação, o custo cairia aos poucos, à medida que vencessem e fossem substituídos por novos títulos. </p><h2 class="wp-block-heading">Como é hoje e o que mudaria?</h2><p class="wp-block-paragraph">A tabela resume as principais diferenças entre o regime atual e o proposto.</p><figure class="wp-block-table">
+<table class="has-fixed-layout">
+<thead>
+<tr>
+<th></th>
+<th><strong>Como é hoje</strong></th>
+<th><strong>Como seria</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quem define a Selic</strong></td>
+<td><a href="https://investnews.com.br/guias/copom-taxa-selic/">Copom</a>, do Banco Central</td>
+<td>BC, dentro de um intervalo definido</td>
+</tr>
+<tr>
+<td><strong>Limite para a Selic</strong></td>
+<td>Não há</td>
+<td>Entre 3% e 5,5%, depois da transição</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>Não se aplica</td>
+<td>Autorizadas pelo novo conselho</td>
+</tr>
+<tr>
+<td><strong>Metas</strong></td>
+<td>Inflação de 3%, com tolerância de 1,5 ponto, definida pelo Conselho Monetário Nacional</td>
+<td>Fiscais, de inflação e de juros, para quatro a cinco anos</td>
+</tr>
+</tbody>
+</table>
+</figure><h2 class="wp-block-heading">Cortar a Selic pode reduzir a inflação?</h2><div id="ad-billboard728" class="ins-ad ins-ad--content" data-ins-ad-label="#ad-billboard728 · 970x250 · 728x90 · 300x250"></div><p class="wp-block-paragraph">Pela teoria econômica consagrada, o juro alto esfria a atividade da economia, faz o desemprego subir e, com essa combinação, a pressão sobre os preços diminui. De acordo com Lara Resende, essa relação entre desemprego e inflação perdeu força desde os anos 1990.</p><p class="wp-block-paragraph">O economista defende uma ideia contrária para o longo prazo. </p><p class="wp-block-paragraph">Em um exemplo hipotético, um juro de 10% pode ser formado por 5% de juro real e 5% de inflação. Lara Resende argumenta que, no longo prazo, o juro real não depende da decisão do BC. </p><p class="wp-block-paragraph">Assim, se a taxa caísse para 7% e o juro real continuasse em 5%, a inflação tenderia a 2%. Por essa lógica, juro menor levaria a inflação menor. No curto prazo, admite, porém, que a queda do juro pode elevar os preços, especialmente por causa da pressão com a desvalorização do câmbio.</p><p class="wp-block-paragraph">Lara Resende também cita John Cochrane, da Hoover Institution, um dos principais formuladores da teoria fiscal do nível de preços, segundo a qual a inflação depende da confiança de que o governo conseguirá honrar sua dívida. Um juro mais baixo ajudaria o governo a reconquistar essa confiança.</p><p class="wp-block-paragraph">Em posts publicados em setembro em seu blog, <a href="https://www.grumpy-economist.com/p/reasons-to-lower-rates" target="_blank" rel="noopener">The Grumpy Economist</a>, Cochrane mostra que seu modelo permite chegar ao resultado defendido por Lara Resende. Mas ele ressalva que acredita nisso só em parte: que economistas costumam levar teorias novas à política na prática rápido demais e que o efeito depende de o gasto público não subir.</p><p class="wp-block-paragraph">Em 2017, ao <a href="https://valor.globo.com/eu-e/coluna/o-economista-incendiario.ghtml" target="_blank" rel="noopener"><em>Valor</em></a>, Cochrane desaconselhou com veemência que o Brasil cortasse os juros para baixar a inflação. Disse que a medida provavelmente não funcionaria sem resolver o problema fiscal, em que o governo gasta muito mais do que arrecada de maneira consistente, ano após ano.</p><h2 class="wp-block-heading">Como o plano tenta evitar a alta do dólar?</h2><p class="wp-block-paragraph">Segundo Lara Resende, com juro menor, investidores que buscam ganho rápido com a diferença de taxas entre países podem deixar o Brasil e pressionar o dólar para cima &#8211; e isso faria a inflação subir. Nesse caso, o BC usaria as reservas internacionais, que ele cita em mais de US$ 350 bilhões, para suavizar e conter a alta da moeda americana.</p><h2 class="wp-block-heading">Quais são os riscos da proposta?</h2><p class="wp-block-paragraph">As objeções de economistas que se manifestaram publicamente se concentram em três pontos:</p><ul class="wp-block-list">
+<li><strong>Confiança fiscal:</strong> a fragilidade das contas públicas é o que mantém os juros altos. Sem confiança de que esse risco será mitigado pelo governo, argumentam os críticos, uma queda forte da Selic poderia gerar o resultado oposto ao desejado: levar investidores a vender títulos de médio e longo prazos, o que faria essas taxas dispararem; e acelerar a busca por dólares, o que acabaria pressionando a inflação.</li>
+<li><strong>Reservas em moeda estrangeira:</strong> elas funcionam como proteção para crises de confiança, e vendas repetidas para conter o dólar poderiam reduzir esse colchão e alimentar uma espiral em que o dólar dispararia, com pressão sobre a inflação. As reservas tenderiam a se esgotar rapidamente sem o efeito desejado.</li>
+<li><strong>Piora no perfil da</strong> <strong>dívida:</strong> até entre aqueles que vêem um excesso no peso dos juros há quem considere os títulos indexados à inflação, as LFTs, um obstáculo a ser resolvido antes de um corte forte. A desconfiança com o rumo da política fiscal pressionaria essas taxas para cima, o que acabaria piorando o perfil da dívida pública.</li>
+</ul><div id="ad-featured" class="ins-ad ins-ad--content" data-ins-ad-label="#ad-featured · 970x250 · 728x90 · 300x250"></div><h2 class="wp-block-heading">Lula pode baixar a Selic?</h2><p class="wp-block-paragraph">Não diretamente. Desde 2021, a <a href="https://www.in.gov.br/en/web/dou/-/lei-complementar-n-179-de-24-de-fevereiro-de-2021-305277273" target="_blank" rel="noopener">Lei Complementar 179</a> garante autonomia ao Banco Central, com mandatos fixos para presidente e diretores. </p><p class="wp-block-paragraph">A Selic é definida pelo Copom, formado pela diretoria do BC, e a meta de inflação é responsabilidade do Conselho Monetário Nacional. O artigo de Lara Resende não detalha como o novo conselho seria criado: provavelmente dependeria de mudança em lei, sendo que, a partir de fevereiro de 2027, as duas casas terão maioria da oposição.</p><h2 class="wp-block-heading">O que mudaria para quem investe?</h2><p class="wp-block-paragraph">Por enquanto, nada. A proposta não faz parte de nenhum plano anunciado pelo governo, e a Selic segue sendo decidida pelo Copom, de um Banco Central que tem autonomia determinada em lei.</p><p class="wp-block-paragraph">O rendimento do <a href="https://investnews.com.br/guias/taxa-selic/">Tesouro Selic</a> e de outros papéis pós-fixados acompanha a taxa básica. Papéis prefixados e títulos atrelados ao <a href="https://investnews.com.br/guias/o-que-e-ipca/">IPCA</a> têm a taxa definida no momento da compra, mas seu preço varia até o vencimento, conforme mudam as expectativas para os juros. Quem vende antes do vencimento pode ganhar ou perder com essa variação.</p>
+            </div>
+
+        <div class="news-post">
+        <div class="newsletter-component" data-component-state="initial">
+    <div class="newsletter-component-body">
+
+        <!-- ESTADO INICIAL: Formulário de inscrição -->
+        <div class="newsletter-component-state newsletter-component-state-initial">
+            <div class="newsletter-component-header">
+                <p class="newsletter-component-title">Nossas newsletters</p>
+            </div>
+
+            <!-- Formulário -->
+            <form action="" class="notifyMe newsletter-component-form" method="POST" data-analytics-form-name="newsletter-multi-select" data-analytics-form-action="subscribe" data-analytics-component="newsletter-box" data-analytics-component-position="article-end" data-analytics-variant="inline">
+                <div class="newsletter-component-options">
+                    <!-- O Essencial -->
+                    <label class="newsletter-component-option-label ">
+
+                        <div class="newsletter-component-option-header">
+                            <input type="checkbox" name="newsletter_essencial" id="newsletter_essencial" class="newsletter-component-checkbox" >
+                            <span class="newsletter-component-checkbox-custom"></span>
+                            <p class="newsletter-component-option-title">O Essencial</p>
+                        </div>
+
+                                                <p class="newsletter-component-option-description">Curadoria afiada sobre negócios, economia e investimentos</p>
+                        
+                        <a href="https://investnews.beehiiv.com/" target="_blank" rel="noopener noreferrer" class="newsletter-component-saiba-mais">Saiba mais</a>
+                    </label>
+
+                    <!-- Morning Cripto -->
+                    <label class="newsletter-component-option-label ">
+
+                        <div class="newsletter-component-option-header">
+                            <input type="checkbox" name="newsletter_cripto" id="newsletter_cripto" class="newsletter-component-checkbox" >
+                            <span class="newsletter-component-checkbox-custom"></span>
+                            <p class="newsletter-component-option-title">Morning Cripto</p>
+                        </div>
+
+                                                <p class="newsletter-component-option-description">Acompanhe o mercado e as notícias importantes do mundo cripto</p>
+                        
+                        <a href="https://morning-cripto-investnews.beehiiv.com/" target="_blank" rel="noopener noreferrer" class="newsletter-component-saiba-mais">Saiba mais</a>
+                    </label>
+
+                                    </div>
+                <input type="hidden" name="form_position" value="box_materia:1">
+                <input name="origem" value="newsletter_investnews" type="hidden">
+                <!-- Honeypot field - deve permanecer oculto e vazio -->
+                <input type="text" name="website_url" style="display:none !important; position:absolute; left:-9999px;" tabindex="-1" autocomplete="off">
+                <input type="hidden" name="newsletter_nonce" value="6236f51295">
+
+                <div class="newsletter-component-form-inline">
+                    <input
+                        type="email"
+                        name="email_address_"
+                        class="newsletter-component-input"
+                        placeholder="E-mail"
+                        required
+                        onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'E-mail'"
+                    >
+                    <button type="submit" class="ins-btn newsletter-component-submit-btn">
+                        INSCREVA-SE                    </button>
+                </div>
+
+                <p class="newsletter-component-privacy-text">
+                    Ao clicar em "Inscrever" você estará concordando com a <a href="https://investnews.com.br/politica-de-privacidade/" target="_blank" rel="noopener noreferrer">Política de privacidade</a>
+                </p>
+            </form>
+        </div>
+
+        <!-- ESTADO SUCESSO -->
+        <div class="newsletter-component-state newsletter-component-state-success" style="display: none;">
+            <div class="newsletter-component-header">
+                <p class="newsletter-component-title">Inscrição confirmada!</p>
+            </div>
+            <div class="newsletter-component-state-message">
+                <div class="newsletter-component-state-message-content">
+                    A partir de agora você receberá nosso conteúdo em seu e-mail. Acompanhe também em
+                    <a href="https://open.spotify.com/show/69uWskvEmg6iq9QRwyvfio" target="_blank" rel="noopener noreferrer">Spotify</a> e
+                    <a href="https://podcasts.apple.com/br/podcast/o-essencial/id1495385733" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>.
+                </div>
+            </div>
+        </div>
+
+        <!-- ESTADO ERRO -->
+        <div class="newsletter-component-state newsletter-component-state-error" style="display: none;">
+            <div class="newsletter-component-header">
+                <p class="newsletter-component-title">Erro ao cadastrar o e-mail</p>
+            </div>
+            <div class="newsletter-component-state-message">
+                <div class="newsletter-component-state-message-content">
+                    Não foi possível cadastrar seu e-mail em nossa newsletter. Por gentileza, tente cadastrar novamente.
+                </div>
+            </div>
+
+            <!-- ARIA live region para acessibilidade -->
+            <div class="newsletter-component-aria-announcer" role="status" aria-live="polite" aria-atomic="true" style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
+            </div>
+
+            <!-- Barra de progresso -->
+            <div class="newsletter-component-error-progress-bar" style="display: none;">
+                <div class="newsletter-component-error-progress-fill"></div>
+            </div>
+
+            <form action="" class="notifyMe newsletter-component-form newsletter-component-form-retry" method="POST" data-analytics-form-name="newsletter-multi-select" data-analytics-form-action="subscribe" data-analytics-component="newsletter-box" data-analytics-component-position="article-end" data-analytics-variant="inline">
+                <input type="hidden" name="form_position" value="box_materia:1">
+                <input name="origem" value="newsletter_investnews" type="hidden">
+                <input type="text" name="website_url" style="display:none !important; position:absolute; left:-9999px;" tabindex="-1" autocomplete="off">
+                <input type="hidden" name="newsletter_nonce" value="6236f51295">
+
+                <div class="newsletter-component-form-inline">
+                    <input
+                        type="email"
+                        name="email_address_"
+                        class="newsletter-component-input"
+                        placeholder="Digite seu e-mail"
+                        required
+                        onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Digite seu e-mail'"
+                    >
+                    <button type="submit" class="ins-btn newsletter-component-submit-btn">
+                        INSCREVA-SE                    </button>
+                </div>
+
+                <p class="newsletter-component-privacy-text">
+                    Ao clicar em "Inscrever" você estará concordando com a <a href="https://investnews.com.br/politica-de-privacidade/" target="_blank" rel="noopener noreferrer">Política de privacidade</a>
+                </p>
+            </form>
+        </div>
+
+    </div>
+</div>
+    </div>
+
+
+            <div class="related-tags" data-analytics-component="related-topics" data-analytics-component-position="article-end">
+        <p class="title">Tópicos relacionados</p>
+        <div class="tag-list">
+                                <a href="https://investnews.com.br/tag/inflacao/" title="Inflação" class="tag-item" data-analytics-element="tag" data-analytics-value="inflacao" data-analytics-item-position="1">
+                        Inflação                    </a>
+                                    <a href="https://investnews.com.br/tag/selic/" title="Selic" class="tag-item" data-analytics-element="tag" data-analytics-value="selic" data-analytics-item-position="2">
+                        Selic                    </a>
+                        </div>
+    </div>
+
+        <div class="post-author-list">
+                    <div class="author">
+                <div class="top">
+                    <a href="https://investnews.com.br/autor/simone-costa/" title="Simone Costa" class="author-image">
+                                                                            <img width="70" height="70" src="https://media.investnews.com.br/uploads/2026/07/fotosimone2-86x86.jpg" class="attachment-70x70 size-70x70" alt="" decoding="async" srcset="https://media.investnews.com.br/uploads/2026/07/fotosimone2-86x86.jpg 86w, https://media.investnews.com.br/uploads/2026/07/fotosimone2-150x150.jpg 150w, https://media.investnews.com.br/uploads/2026/07/fotosimone2-96x96.jpg 96w" sizes="(max-width: 70px) 100vw, 70px" />                                            </a>
+                    <a href="https://investnews.com.br/autor/simone-costa/" title="Simone Costa" class="author-name">
+                        <strong>Simone Costa</strong>
+                    </a>
+                </div>
+                <div class="author-informations">
+                    <p class="author-description">
+                        Com mais de 25 anos de experiência em reportagem, edição e fact-checking, tem passagens por Veja e UOL. Jornalista pela UFMG, possui mestrado em ciência política pela USP e pós-graduação lato sensu em jornalismo literário pela Faculdade Vicentina de Curitiba/ABJL                    </p>
+                    <ul class="author-social-links">
+                                                    <li>
+                                <a href="mailto:simone.costa@investnews.com.br" title="simone.costa@investnews.com.br" aria-label="Entrar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 41" fill="none" focusable="false" style="color:#000000" aria-hidden="true"><circle cx="20" cy="20.501" r="20" fill="currentColor"/><path d="M12 13.8801V27.1187C12 27.352 12.172 27.527 12.4014 27.4978H12.6881C17.3611 27.2645 24.2703 27.2645 28.1119 27.4978H28.3986C28.628 27.4978 28.8 27.352 28.8 27.1187V13.8801C28.8 13.6759 28.628 13.501 28.4273 13.501H12.3727C12.172 13.501 12 13.6759 12 13.8801ZM23.6683 20.0037L26.8218 16.5919C27.0512 16.3295 27.4812 16.5045 27.4812 16.8544V23.9986C27.4812 24.3485 27.0512 24.5235 26.8218 24.261L23.6683 20.5285C23.5536 20.3827 23.5536 20.1495 23.6683 20.0037ZM17.1604 20.4994L14.0068 24.2319C13.7775 24.4943 13.3474 24.3485 13.3474 23.9694V16.8544C13.3474 16.5045 13.7775 16.3295 14.0068 16.5919L17.1604 20.0037C17.3038 20.1495 17.3038 20.3827 17.1604 20.5285V20.4994ZM15.0676 14.8423H25.7324C26.0765 14.8423 26.2485 15.2506 26.0191 15.4839L21.8048 20.0328C21.4321 20.4411 20.916 20.6743 20.4 20.6743C19.884 20.6743 19.3679 20.4411 18.9952 20.0328L14.7809 15.4839C14.5515 15.2214 14.7235 14.8423 15.0676 14.8423ZM14.6949 25.4566C15.641 24.3194 17.5331 22.1323 18.1065 21.4325C18.6799 20.7327 18.3645 21.2867 18.4792 21.3742C19.0239 21.7824 19.6833 22.0157 20.3713 22.0157C21.0594 22.0157 21.6614 21.8116 22.2061 21.4325C22.7509 21.0534 22.5788 21.345 22.7222 21.4908L26.0765 25.4274C26.3058 25.6899 26.1051 26.069 25.7898 26.069C22.6075 25.9815 18.4792 25.9815 15.0102 26.069C14.6662 26.069 14.4942 25.6899 14.7235 25.4274L14.6949 25.4566Z" fill="var(--icon-detail-color, #fff)"/></svg>                                </a>
+                            </li>
+                                                                            <li>
+                                <a href="https://www.linkedin.com/in/jornalistasimonecosta/" title="LinkedIn" aria-label="Entrar" alt="LinkedIn" target="_blank" rel="noopener">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 41" fill="none" focusable="false" style="color:#000000" aria-hidden="true"><circle cx="20" cy="20.501" r="20" fill="currentColor"/><path d="M13.2316 18.1444H16.1381V27.501H13.2316V18.1444ZM14.6791 13.501C15.6055 13.501 16.3581 14.2555 16.3581 15.1842C16.3581 16.1129 15.6055 16.8675 14.6791 16.8675C13.7527 16.8675 13 16.1129 13 15.1842C13 14.2555 13.7527 13.501 14.6791 13.501Z" fill="var(--icon-detail-color, #fff)"/><path d="M17.9561 18.1443H20.7352V19.4212H20.77C21.1637 18.6899 22.1016 17.9121 23.5144 17.9121C26.4556 17.9121 26.9883 19.8507 26.9883 22.3698V27.5008H24.0934V22.9503C24.0934 21.859 24.0702 20.466 22.588 20.466C21.1058 20.466 20.851 21.6501 20.851 22.869V27.5008H17.9561V18.1443Z" fill="var(--icon-detail-color, #fff)"/></svg>                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+            </div>
+    
+        <section class="exclusiva-banner">
+    <div class="container">
+        <a class="exclusiva-banner__link" href="https://investnews.com.br/negocios/engelhart-btg-trading-commodities/" title="No universo das tradings de matérias-primas, sócios do BTG fizeram uma aposta para além da Faria Lima">
+            <div class="exclusiva-banner__text">
+                <p class="exclusiva-banner__chapeu">
+                    <span class="exclusiva-banner__chapeu-line" aria-hidden="true"></span>
+                    Especial                </p>
+                <div class="exclusiva-banner__title-block">
+                                            <p class="exclusiva-banner__category">Negócios</p>
+                                        <h2 class="exclusiva-banner__title">No universo das tradings de matérias-primas, sócios do BTG fizeram uma aposta para além da Faria Lima</h2>
+                </div>
+            </div>
+            <div class="exclusiva-banner__image">
+                                                            <img width="522" height="294" src="https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4.jpg" class="attachment-522x300 size-522x300 wp-post-image" alt="commodities, trading, soja, milho, porto" loading="lazy" decoding="async" srcset="https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4.jpg 1866w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-300x169.jpg 300w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-1024x576.jpg 1024w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-768x432.jpg 768w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-1536x864.jpg 1536w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-1256x707.jpg 1256w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-628x353.jpg 628w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-172x97.jpg 172w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-192x108.jpg 192w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-1200x675.jpg 1200w, https://media.investnews.com.br/uploads/2026/11/investnewsengelhart4-150x84.jpg 150w" sizes="auto, (max-width: 522px) 100vw, 522px" />                                                </div>
+        </a>
+    </div>
+</section>
+
+</article>
+    <section class="related-posts trending-posts" data-analytics-component="related-content" data-analytics-component-position="article-end" data-analytics-component-variant="mais-lidas">
+        <div class="container">
+            <div class="top">
+                <div class="intertitle">
+                    <span class="section-marker" aria-hidden="true"></span>
+                    <p class="title">Mais lidas</p>
+                </div>
+            </div>
+            <div class="related-post-list trending">
+                                <div class="post-item">
+                                        <a href="https://investnews.com.br/investimentos/investidor-debentures-cras-raizen/" title="Investidores de debêntures e CRAs da Raízen vão escolher entre virar acionistas ou aceitar perda de até 80%" class="post-item-link" rel="noopener noreferrer" data-analytics-element="title" data-analytics-value="investidor-debentures-cras-raizen" data-analytics-item-position="1">
+                        <div class="item-image">
+                                                            <img width="298" height="168" src="https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-300x169.webp" class="post-img wp-post-image" alt="Raízen: 3 alternativas para quem investiu em títulos da empresa" loading="lazy" decoding="async" sizes="auto, (max-width: 767px) calc(100vw - 32px), 628px" srcset="https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-300x169.webp 300w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-1024x576.webp 1024w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-768x432.webp 768w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-1536x864.webp 1536w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-1256x707.webp 1256w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-628x353.webp 628w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-172x97.webp 172w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-1200x675.webp 1200w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda-150x84.webp 150w, https://media.investnews.com.br/uploads/2025/08/in-ilustra-raizen-venda.webp 1820w" />                                                    </div>
+                        <div class="item-content">
+                                                            <span class="category">Investimentos</span>
+                                                        <span class="title">Investidores de debêntures e CRAs da Raízen vão escolher entre virar acionistas ou aceitar perda de até 80%</span>
+                        </div>
+                    </a>
+                </div>
+                                <div class="post-item">
+                                        <a href="https://investnews.com.br/negocios/minerio-de-ferro-ja-cai-20-desde-o-pico-de-maio/" title="Minério de ferro já cai 20% desde o pico de maio" class="post-item-link" rel="noopener noreferrer" data-analytics-element="title" data-analytics-value="minerio-de-ferro-ja-cai-20-desde-o-pico-de-maio" data-analytics-item-position="2">
+                        <div class="item-image">
+                                                            <img width="298" height="168" src="https://media.investnews.com.br/uploads/2025/07/GettyImages-594793689-min-300x169.webp" class="post-img wp-post-image" alt="Caminhão de mineração carregado de pedras." loading="lazy" decoding="async" sizes="auto, (max-width: 767px) calc(100vw - 32px), 628px" srcset="https://media.investnews.com.br/uploads/2025/07/GettyImages-594793689-min-300x169.webp 300w, https://media.investnews.com.br/uploads/2025/07/GettyImages-594793689-min-1200x675.webp 1200w" />                                                    </div>
+                        <div class="item-content">
+                                                            <span class="category">Negócios</span>
+                                                        <span class="title">Minério de ferro já cai 20% desde o pico de maio</span>
+                        </div>
+                    </a>
+                </div>
+                                <div class="post-item">
+                                        <a href="https://investnews.com.br/negocios/formula-1-mina-de-ouro-negocios/" title="Fórmula 1: como uma &#8216;reforma fiscal&#8217; transformou a categoria em mina de ouro" class="post-item-link" rel="noopener noreferrer" data-analytics-element="title" data-analytics-value="formula-1-mina-de-ouro-negocios" data-analytics-item-position="3">
+                        <div class="item-image">
+                                                            <img width="298" height="168" src="https://media.investnews.com.br/uploads/2026/11/inilustraf1-300x169.jpg" class="post-img wp-post-image" alt="Carro de Fórmula 1 em curva" loading="lazy" decoding="async" sizes="auto, (max-width: 767px) calc(100vw - 32px), 628px" srcset="https://media.investnews.com.br/uploads/2026/11/inilustraf1-300x169.jpg 300w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-1024x576.jpg 1024w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-768x432.jpg 768w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-1536x864.jpg 1536w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-1256x707.jpg 1256w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-628x353.jpg 628w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-172x97.jpg 172w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-192x108.jpg 192w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-1200x675.jpg 1200w, https://media.investnews.com.br/uploads/2026/11/inilustraf1-150x84.jpg 150w, https://media.investnews.com.br/uploads/2026/11/inilustraf1.jpg 1672w" />                                                    </div>
+                        <div class="item-content">
+                                                            <span class="category">Negócios</span>
+                                                        <span class="title">Fórmula 1: como uma &#8216;reforma fiscal&#8217; transformou a categoria em mina de ouro</span>
+                        </div>
+                    </a>
+                </div>
+                                <div class="post-item">
+                                        <a href="https://investnews.com.br/negocios/reforma-tributaria-fator-r-simples/" title="O lado bom de ter uma folha de pagamento maior &#8211; e o que a reforma tributária fez com essa vantagem" class="post-item-link" rel="noopener noreferrer" data-analytics-element="title" data-analytics-value="reforma-tributaria-fator-r-simples" data-analytics-item-position="4">
+                        <div class="item-image">
+                                                            <img width="298" height="168" src="https://media.investnews.com.br/uploads/2025/07/Jovem_trabalho_Adobe-Stock-300x169.webp" class="post-img wp-post-image" alt="Foto de mãos de um jovem mexendo em papéis brancos sobre uma mesa cinza" loading="lazy" decoding="async" sizes="auto, (max-width: 767px) calc(100vw - 32px), 628px" srcset="https://media.investnews.com.br/uploads/2025/07/Jovem_trabalho_Adobe-Stock-300x169.webp 300w, https://media.investnews.com.br/uploads/2025/07/Jovem_trabalho_Adobe-Stock-1200x675.webp 1200w" />                                                    </div>
+                        <div class="item-content">
+                                                            <span class="category">Negócios</span>
+                                                        <span class="title">O lado bom de ter uma folha de pagamento maior &#8211; e o que a reforma tributária fez com essa vantagem</span>
+                        </div>
+                    </a>
+                </div>
+                            </div>
+        </div>
+    </section>
+        <section class="related-posts more-category" data-analytics-component="related-content" data-analytics-component-position="article-end" data-analytics-component-variant="mais-em">
+        <div class="container">
+            <div class="top">
+                <div class="intertitle">
+                    <span class="section-marker" aria-hidden="true"></span>
+                    <p class="title">Mais em                         <span class="related-term">
+                            Economia                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="related-post-list">
+                                <div class="post-item">
+                    <div class="item-image">
+                        <a href="https://investnews.com.br/economia/13o-salario-proporcional/" title="13º salário proporcional: como funciona para quem mudou de emprego ao longo do ano" rel="noopener noreferrer" data-analytics-element="image" data-analytics-value="13o-salario-proporcional" data-analytics-item-position="1">
+                                                            <img width="298" height="168" src="https://media.investnews.com.br/uploads/2026/11/13salarioproporcional-300x169.jpg" class="post-img wp-post-image" alt="13º salário proporcional" loading="lazy" decoding="async" sizes="auto, (max-width: 767px) calc(100vw - 32px), 628px" srcset="https://media.investnews.com.br/uploads/2026/11/13salarioproporcional-300x169.jpg 300w, https://media.investnews.com.br/uploads/2026/11/13salarioproporcional-1024x576.jpg 1024w, https://media.investnews.com.br/uploads/2026/11/13salarioproporcional-768x432.jpg 768w, https://media.investnews.com.br/uploads/2026/11/13salarioproporcional-628x353.jpg 628w, https://media.investnews.com.br/uploads/2026/11/13salarioproporcional-172x97.jpg 172w, https://media.investnews.com.br/uploads/2026/11/13salarioproporcional-192x108.jpg 192w, https://media.investnews.com.br/uploads/2026/11/13salarioproporcional-150x84.jpg 150w, https://media.investnews.com.br/uploads/2026/11/13salarioproporcional.jpg 1200w" />                                                    </a>
+                    </div>
+                    <div class="item-content">
+                        <a href="https://investnews.com.br/economia/13o-salario-proporcional/" title="13º salário proporcional: como funciona para quem mudou de emprego ao longo do ano" class="title" rel="noopener noreferrer" data-analytics-element="title" data-analytics-value="13o-salario-proporcional" data-analytics-item-position="1">
+                            13º salário proporcional: como funciona para quem mudou de emprego ao longo do ano                        </a>
+                    </div>
+                </div>
+                                <div class="post-item">
+                    <div class="item-image">
+                        <a href="https://investnews.com.br/economia/eleicoes-nos-eua-2026-midterms-presidencia/" title="Eleições nos EUA: quem sai fortalecido das midterms para disputar a Presidência em 2028" rel="noopener noreferrer" data-analytics-element="image" data-analytics-value="eleicoes-nos-eua-2026-midterms-presidencia" data-analytics-item-position="2">
+                                                            <img width="298" height="168" src="https://media.investnews.com.br/uploads/2024/11/367417743-300x169.jpg" class="post-img wp-post-image" alt="Policiais em triciclos motorizados e a pé em formação diante da Casa Branca." loading="lazy" decoding="async" sizes="auto, (max-width: 767px) calc(100vw - 32px), 628px" srcset="https://media.investnews.com.br/uploads/2024/11/367417743-300x169.jpg 300w, https://media.investnews.com.br/uploads/2024/11/367417743-1200x675.jpg 1200w" />                                                    </a>
+                    </div>
+                    <div class="item-content">
+                        <a href="https://investnews.com.br/economia/eleicoes-nos-eua-2026-midterms-presidencia/" title="Eleições nos EUA: quem sai fortalecido das midterms para disputar a Presidência em 2028" class="title" rel="noopener noreferrer" data-analytics-element="title" data-analytics-value="eleicoes-nos-eua-2026-midterms-presidencia" data-analytics-item-position="2">
+                            Eleições nos EUA: quem sai fortalecido das midterms para disputar a Presidência em 2028                        </a>
+                    </div>
+                </div>
+                                <div class="post-item">
+                    <div class="item-image">
+                        <a href="https://investnews.com.br/economia/eleicoes-nos-eua-democratas-conquistam-texas-reduto-republicano-apos-32-anos/" title="Eleições nos EUA: democratas saem vitoriosos no Texas, reduto republicano, após 32 anos" rel="noopener noreferrer" data-analytics-element="image" data-analytics-value="eleicoes-nos-eua-democratas-conquistam-texas-reduto-republicano-apos-32-anos" data-analytics-item-position="3">
+                                                            <img width="298" height="168" src="https://media.investnews.com.br/uploads/2026/11/4736788321-300x169.jpg" class="post-img wp-post-image" alt="James Talarico, democrata eleito senador pelo Texas, em uma vitória que encerra mais de três décadas de domínio republicano em disputas estaduais no estado" loading="lazy" decoding="async" sizes="auto, (max-width: 767px) calc(100vw - 32px), 628px" srcset="https://media.investnews.com.br/uploads/2026/11/4736788321-300x169.jpg 300w, https://media.investnews.com.br/uploads/2026/11/4736788321-192x108.jpg 192w, https://media.investnews.com.br/uploads/2026/11/4736788321-1200x675.jpg 1200w" />                                                    </a>
+                    </div>
+                    <div class="item-content">
+                        <a href="https://investnews.com.br/economia/eleicoes-nos-eua-democratas-conquistam-texas-reduto-republicano-apos-32-anos/" title="Eleições nos EUA: democratas saem vitoriosos no Texas, reduto republicano, após 32 anos" class="title" rel="noopener noreferrer" data-analytics-element="title" data-analytics-value="eleicoes-nos-eua-democratas-conquistam-texas-reduto-republicano-apos-32-anos" data-analytics-item-position="3">
+                            Eleições nos EUA: democratas saem vitoriosos no Texas, reduto republicano, após 32 anos                        </a>
+                    </div>
+                </div>
+                                <div class="post-item">
+                    <div class="item-image">
+                        <a href="https://investnews.com.br/economia/democratas-conquistam-congresso-dos-eua-e-impoem-derrota-politica-a-trump/" title="Democratas conquistam controle do Congresso dos EUA e impõem derrota histórica a Trump" rel="noopener noreferrer" data-analytics-element="image" data-analytics-value="democratas-conquistam-congresso-dos-eua-e-impoem-derrota-politica-a-trump" data-analytics-item-position="4">
+                                                            <img width="298" height="168" src="https://media.investnews.com.br/uploads/2026/11/4736866981-300x169.jpg" class="post-img wp-post-image" alt="Darline Graham, ex-senadora republicana e irmã do falecido senador Lindsey Graham, durante evento de acompanhamento da apuração eleitoral em Charleston, na Carolina do Sul, em 3 de novembro" loading="lazy" decoding="async" sizes="auto, (max-width: 767px) calc(100vw - 32px), 628px" srcset="https://media.investnews.com.br/uploads/2026/11/4736866981-300x169.jpg 300w, https://media.investnews.com.br/uploads/2026/11/4736866981-192x108.jpg 192w, https://media.investnews.com.br/uploads/2026/11/4736866981-1200x675.jpg 1200w" />                                                    </a>
+                    </div>
+                    <div class="item-content">
+                        <a href="https://investnews.com.br/economia/democratas-conquistam-congresso-dos-eua-e-impoem-derrota-politica-a-trump/" title="Democratas conquistam controle do Congresso dos EUA e impõem derrota histórica a Trump" class="title" rel="noopener noreferrer" data-analytics-element="title" data-analytics-value="democratas-conquistam-congresso-dos-eua-e-impoem-derrota-politica-a-trump" data-analytics-item-position="4">
+                            Democratas conquistam controle do Congresso dos EUA e impõem derrota histórica a Trump                        </a>
+                    </div>
+                </div>
+                            </div>
+            <a href="https://investnews.com.br/economia/" title="Ver todas as matérias" class="see-all-cta" data-analytics-element="view-all" data-analytics-value="economia">
+                Ver todas as matérias
+            </a>
+        </div>
+    </section>
+            </main>
+        <footer data-analytics-component="site-footer" data-analytics-component-position="footer">
+            <div class="container">
+                                <div class="top">
+                    <div class="side-links">
+                        <a href="https://investnews.com.br/" class="logo-link" title="InvestNews" data-analytics-element="logo">
+                            <img width="180" height="32" src="https://media.investnews.com.br/uploads/2025/02/logo-1.png" class="logo" alt="Logotipo &quot;InvestNews&quot; em texto branco sobre fundo preto." decoding="async" loading="lazy" srcset="https://media.investnews.com.br/uploads/2025/02/logo-1.png 180w, https://media.investnews.com.br/uploads/2025/02/logo-1-172x31.png 172w, https://media.investnews.com.br/uploads/2025/02/logo-1-150x27.png 150w" sizes="auto, (max-width: 180px) 100vw, 180px" />                        </a>
+                                                            <div class="social-networks">
+                                                                                        <a href="https://www.youtube.com/channel/UCo0jMsIPccAXghE_FCWIdNg" title="Youtube" class="item" data-analytics-element="social-network" data-analytics-value="uco0jmsipccaxghe_fcwidng">
+                                                <img width="20" height="15" src="https://media.investnews.com.br/uploads/2025/02/Youtube.png" class="attachment-full size-full" alt="Botão de play preto." decoding="async" loading="lazy" />                                                    </a>
+                                                                                                <a href="https://br.linkedin.com/company/investnewsbr" title="LinkedIN" class="item" data-analytics-element="social-network" data-analytics-value="investnewsbr">
+                                                <img width="14" height="15" src="https://media.investnews.com.br/uploads/2025/02/LinkedIN.png" class="attachment-full size-full" alt="Letra ñ em negrito." decoding="async" loading="lazy" />                                                    </a>
+                                                                                                <a href="https://www.instagram.com/investnewsbr/" title="Instagram" class="item" data-analytics-element="social-network" data-analytics-value="investnewsbr">
+                                                <img width="16" height="17" src="https://media.investnews.com.br/uploads/2025/02/Instagram.png" class="attachment-full size-full" alt="Ícone de gravação: um quadrado com um losango e um ponto no centro." decoding="async" loading="lazy" />                                                    </a>
+                                                                                                <a href="https://www.tiktok.com/@investnewsbr" title="TikTok" class="item" data-analytics-element="social-network" data-analytics-value="investnewsbr">
+                                                <img width="14" height="17" src="https://media.investnews.com.br/uploads/2025/02/TikTok.png" class="attachment-full size-full" alt="Clave de sol, um símbolo musical." decoding="async" loading="lazy" />                                                    </a>
+                                                                                                <a href="https://whatsapp.com/channel/0029VaVwWlBKGGGLc3V4iA1Y" title="Whatsapp" class="item" data-analytics-element="social-network" data-analytics-value="0029vavwwlbkggglc3v4ia1y">
+                                                <img width="16" height="15" src="https://media.investnews.com.br/uploads/2025/02/Whatsapp.png" class="attachment-full size-full" alt="Ícone de fantasma branco pixelado. Olhos desalinhados, boca lateral." decoding="async" loading="lazy" />                                                    </a>
+                                                                                                <a href="https://investnews.beehiiv.com/" title="Newsletter" class="item" data-analytics-element="social-network" data-analytics-value="investnews">
+                                                <img width="20" height="17" src="https://media.investnews.com.br/uploads/2025/02/Newsletter.png" class="attachment-full size-full" alt="Ícone de envelope de email." decoding="async" loading="lazy" />                                                    </a>
+                                                                                </div>
+                                                    </div>
+                    <div class="menu-menu-footer-container"><ul id="menu-menu-footer" class="footer-menu"><li id="menu-item-644211" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644211"><span data-analytics-element="menu-item" class="menu-item__label">InvestNews</span>
+<ul class="sub-menu">
+	<li id="menu-item-644212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644212"><a href="/ultimas/" data-analytics-element="menu-item" data-analytics-value="ultimas">Últimas notícias</a></li>
+	<li id="menu-item-644213" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644213"><a href="https://investnews.com.br/negocios/" data-analytics-element="menu-item" data-analytics-value="negocios">Negócios</a></li>
+	<li id="menu-item-644214" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644214"><a href="https://investnews.com.br/financas/" data-analytics-element="menu-item" data-analytics-value="financas">Finanças</a></li>
+	<li id="menu-item-644215" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-644215"><a href="https://investnews.com.br/economia/" data-analytics-element="menu-item" data-analytics-value="economia">Economia</a></li>
+	<li id="menu-item-644216" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644216"><a href="https://investnews.com.br/carreira/" data-analytics-element="menu-item" data-analytics-value="carreira">Carreira</a></li>
+	<li id="menu-item-644217" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644217"><a href="https://investnews.com.br/off-work/" data-analytics-element="menu-item" data-analytics-value="off-work">Off Work</a></li>
+	<li id="menu-item-644218" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-644218"><a href="https://investnews.com.br/the-wall-street-journal/" data-analytics-element="menu-item" data-analytics-value="the-wall-street-journal">The Wall Street Journal</a></li>
+</ul>
+</li>
+<li id="menu-item-644219" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644219"><span data-analytics-element="menu-item" class="menu-item__label">Além da Notícia</span>
+<ul class="sub-menu">
+	<li id="menu-item-644220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644220"><a href="https://investnews.com.br/ferramentas/calculadoras/" data-analytics-element="menu-item" data-analytics-value="calculadoras">Calculadoras</a></li>
+	<li id="menu-item-644221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644221"><a href="https://investnews.com.br/ferramentas/comparadores/" data-analytics-element="menu-item" data-analytics-value="comparadores">Comparadores</a></li>
+	<li id="menu-item-644222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644222"><a href="https://investnews.com.br/ferramentas/simuladores/" data-analytics-element="menu-item" data-analytics-value="simuladores">Simuladores</a></li>
+	<li id="menu-item-644223" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644223"><a href="/guias/" data-analytics-element="menu-item" data-analytics-value="guias">Guias</a></li>
+	<li id="menu-item-644224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644224"><a href="/perfis/" data-analytics-element="menu-item" data-analytics-value="perfis">Perfis</a></li>
+	<li id="menu-item-644225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644225"><a href="https://investnews.com.br/cotacao/" data-analytics-element="menu-item" data-analytics-value="cotacao">Cotações</a></li>
+</ul>
+</li>
+<li id="menu-item-644226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-644226"><span data-analytics-element="menu-item" class="menu-item__label">Veja mais</span>
+<ul class="sub-menu">
+	<li id="menu-item-644228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-644228"><a href="https://investnews.com.br/politica-de-privacidade/" data-analytics-element="menu-item" data-analytics-value="politica-de-privacidade">Política de Privacidade</a></li>
+	<li id="menu-item-780351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780351"><a href="https://investnews.com.br/fale-conosco/" data-analytics-element="menu-item" data-analytics-value="fale-conosco">Fale conosco</a></li>
+</ul>
+</li>
+</ul></div>                </div>
+                <div class="bottom">
+                                                        <div class="text">
+                                    <p><strong>O InvestNews é um veículo multiplataforma empenhado em oferecer jornalismo e informação útil para navegar nos mundos da economia, negócios, finanças, investimentos e tecnologia. Com foco em fornecer conteúdo de qualidade de maneira clara e breve, buscando tornar mais simples o entendimento de assuntos complexos e facilitar a vida da audiência.</strong></p>
+<p>AVISO: O portal www.investnews.com.br é de propriedade da Nu Pagamentos S.A. &#8211; Instituição de Pagamento (CNPJ: 18.236.120/0001-58), empresa pertencente ao Grupo Nubank. O Grupo Nubank exerce as seguintes atividades: instituição de pagamentos, corretora de valores, gestora de recursos de terceiros, plataforma de criptoativos, sociedade de crédito, financiamento e investimento, entre outras. Os conteúdos e opiniões veiculados são independentes e elaborados com informações públicas, não sofrendo influência de qualquer tipo das áreas técnicas ou comerciais do grupo, sendo produzidos conforme os juízos de valores e convicções da equipe jornalística do portal. Os conteúdos disponibilizados no IN são meramente jornalísticos e/ou informacionais e não devem ser interpretados como recomendações de investimentos, de compra ou venda de valores mobiliários ou análises exclusivas ao exercício de analistas de valores mobiliários. A Nu Brasil Serviços Ltda. não se responsabiliza por decisões de investimentos tomadas com base nas informações divulgadas e se exime de qualquer responsabilidade por quaisquer perdas, danos e/ou prejuízos, diretos ou indiretos, que venham a decorrer da utilização dos materiais ou seu conteúdo.</p>
+                                    </div>
+                                                    <p class="rights-text">© 2026 InvestNews. Todos os direitos reservados.
+                        <button type="button" class="cookie-consent__reopen" data-cookie-consent-reopen data-analytics-element="cookie-settings">
+                            Configurações de cookies                        </button>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div id="cookie-consent" class="cookie-consent" data-cookie-consent hidden
+    role="dialog" aria-modal="true"
+    aria-labelledby="cookie-consent-title" aria-describedby="cookie-consent-text">
+    <div class="cookie-consent__panel" data-cookie-consent-panel>
+
+        <div class="cookie-consent__layer cookie-consent__layer--1" data-cookie-consent-layer="1">
+            <h2 id="cookie-consent-title" class="cookie-consent__title">
+                Sua privacidade importa pra gente            </h2>
+            <p id="cookie-consent-text" class="cookie-consent__text">
+                Usamos cookies para melhorar sua experiência, entender como você navega e personalizar conteúdo e anúncios. Você pode aceitar, rejeitar ou personalizar suas preferências a qualquer momento. Saiba mais na nossa <a href="https://investnews.com.br/politica-de-privacidade/" class="cookie-consent__link">Política de Privacidade</a>.            </p>
+            <div class="cookie-consent__actions">
+                <button type="button" class="cookie-consent__button cookie-consent__button--outline" data-cookie-consent-action="customize">
+                    Personalizar                </button>
+                <button type="button" class="cookie-consent__button cookie-consent__button--outline" data-cookie-consent-action="reject-all">
+                    Rejeitar todos                </button>
+                <button type="button" class="cookie-consent__button cookie-consent__button--primary" data-cookie-consent-action="accept-all">
+                    Aceitar todos                </button>
+            </div>
+        </div>
+
+        <div class="cookie-consent__layer cookie-consent__layer--2" data-cookie-consent-layer="2" hidden>
+            <h2 class="cookie-consent__title">
+                Preferências de cookies            </h2>
+            <p class="cookie-consent__text">
+                Escolha quais categorias de cookies você permite. Saiba mais na nossa <a href="https://investnews.com.br/politica-de-privacidade/" class="cookie-consent__link">Política de Privacidade</a>.            </p>
+
+            <div class="cookie-consent__categories">
+                <div class="cookie-consent__category">
+                    <div class="cookie-consent__category-body">
+                        <div class="cookie-consent__category-head">
+                            <span class="cookie-consent__category-title">Necessário</span>
+                        </div>
+                        <p class="cookie-consent__category-desc">
+                            Essenciais para o funcionamento do site (segurança, navegação, preferências). Não podem ser desativados.                        </p>
+                    </div>
+                    <span class="cookie-consent__badge">Obrigatório</span>
+                </div>
+
+                <div class="cookie-consent__category">
+                    <div class="cookie-consent__category-body">
+                        <div class="cookie-consent__category-head">
+                            <span class="cookie-consent__category-title" id="cc-cat-analytics-label">Análise</span>
+                        </div>
+                        <p class="cookie-consent__category-desc">
+                            Nos ajudam a entender como você usa o site, pra melhorar conteúdo e navegação.                        </p>
+                    </div>
+                    <button type="button" class="cookie-consent__toggle" role="switch" aria-checked="false"
+                        aria-labelledby="cc-cat-analytics-label" data-cookie-consent-toggle="analytics">
+                        <span class="cookie-consent__toggle-track"><span class="cookie-consent__toggle-thumb"></span></span>
+                    </button>
+                </div>
+
+                <div class="cookie-consent__category">
+                    <div class="cookie-consent__category-body">
+                        <div class="cookie-consent__category-head">
+                            <span class="cookie-consent__category-title" id="cc-cat-marketing-label">Marketing</span>
+                        </div>
+                        <p class="cookie-consent__category-desc">
+                            Usados para personalizar anúncios e medir a efetividade de campanhas.                        </p>
+                    </div>
+                    <button type="button" class="cookie-consent__toggle" role="switch" aria-checked="false"
+                        aria-labelledby="cc-cat-marketing-label" data-cookie-consent-toggle="marketing">
+                        <span class="cookie-consent__toggle-track"><span class="cookie-consent__toggle-thumb"></span></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cookie-consent__actions">
+                <button type="button" class="cookie-consent__button cookie-consent__button--outline" data-cookie-consent-action="back">
+                    Voltar                </button>
+                <button type="button" class="cookie-consent__button cookie-consent__button--primary" data-cookie-consent-action="save">
+                    Salvar preferências                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+        <script>
+    // GTM Helper Functions - Ensures data capture even before GTM loads
+    window.gtmHelper = {
+        // Queue for events before GTM loads
+        eventQueue: [],
+        gtmLoaded: false,
+        
+        // Push event to dataLayer (with queuing if GTM not ready)
+        push: function(eventData) {
+            if (window.dataLayer) {
+                window.dataLayer.push(eventData);
+            } else {
+                // Queue event if dataLayer not ready
+                this.eventQueue.push(eventData);
+            }
+        },
+        
+        // Process queued events when GTM loads
+        processQueue: function() {
+            if (this.eventQueue.length > 0 && window.dataLayer) {
+                this.eventQueue.forEach(function(event) {
+                    window.dataLayer.push(event);
+                });
+                this.eventQueue = [];
+            }
+        }
+    };
+    
+    // Monitor GTM loading status
+    function checkGTMStatus() {
+        if (window.google_tag_manager && !window.gtmHelper.gtmLoaded) {
+            window.gtmHelper.gtmLoaded = true;
+            window.gtmHelper.processQueue();
+        }
+    }
+    
+    // Check GTM status periodically
+    const gtmChecker = setInterval(function() {
+        checkGTMStatus();
+        if (window.gtmHelper.gtmLoaded) {
+            clearInterval(gtmChecker);
+        }
+    }, 100);
+    
+    // Timeout fallback
+    setTimeout(function() {
+        if (!window.gtmHelper.gtmLoaded) {
+            window.gtmHelper.processQueue();
+        }
+        clearInterval(gtmChecker);
+    }, 5000);
+    </script>
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp/wp-*.php","/wp/wp-admin/*","/uploads/*","/app/*","/app/plugins/*","/app/themes/investnews/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="investnews-cookie-consent-js-module" src="https://investnews.com.br/app/themes/investnews/dist/cookie-consent.min.js?ver=8394c1678829" type="module"></script>
+<script>
+(function(w, d) {
+    w.__investnewsRum = {
+        endpoint: "https:\/\/investnews.com.br\/inv-api\/investnews\/v1\/vitals",
+        pageType: "article"    };
+
+    function loadRum() {
+        if (loadRum.done) return;
+        loadRum.done = true;
+        // Corte de amostragem antes do import: a maioria dos pageviews não
+        // chega a baixar o bundle.
+        if (Math.random() > 0.08) return;
+        import("https:\/\/investnews.com.br\/app\/themes\/investnews\/dist\/rum-vitals.min.js?ver=174179fa2f2b");
+    }
+
+    var interactionEvents = ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'];
+    function onInteraction() {
+        interactionEvents.forEach(function(evt) { w.removeEventListener(evt, onInteraction); });
+        loadRum();
+    }
+    interactionEvents.forEach(function(evt) {
+        w.addEventListener(evt, onInteraction, { once: true, passive: true });
+    });
+
+    if ('requestIdleCallback' in w) {
+        w.requestIdleCallback(loadRum, { timeout: 4000 });
+    } else {
+        w.setTimeout(loadRum, 4000);
+    }
+    w.setTimeout(loadRum, 5000);
+})(window, document);
+</script>
+    <script id="insge-embed-resize-js-extra">
+var insgeResize = {"origins":["https://instudio.investnews.com.br"]};
+//# sourceURL=insge-embed-resize-js-extra
+</script>
+<script id="insge-embed-resize-js" src="https://investnews.com.br/app/mu-plugins/investnews-graficos-embed/assets/js/embed-resize.js?ver=0.6.1.315532801"></script>
+<script id="investnews-ad-house-fallback-js-before">
+window.InvestnewsAdHouse = {"link":"https:\/\/investnews.beehiiv.com\/","creatives":{"floating":{"mobile":{"src":"https:\/\/media.investnews.com.br\/uploads\/2026\/11\/fallbackad300x250-1.png","width":300,"height":250},"desktop":null},"content":{"mobile":{"src":"https:\/\/media.investnews.com.br\/uploads\/2026\/11\/fallbackad300x250-1.png","width":300,"height":250},"desktop":{"src":"https:\/\/media.investnews.com.br\/uploads\/2026\/11\/fallbackad728x90-1.png","width":728,"height":90}},"sidebar":{"mobile":{"src":"https:\/\/media.investnews.com.br\/uploads\/2026\/11\/fallbackad300x250-1.png","width":300,"height":250},"desktop":null},"billboard728":{"mobile":{"src":"https:\/\/media.investnews.com.br\/uploads\/2026\/11\/fallbackad320x100-1.png","width":320,"height":100},"desktop":{"src":"https:\/\/media.investnews.com.br\/uploads\/2026\/11\/fallbackad728x90-1.png","width":728,"height":90}},"billboard970":{"mobile":{"src":"https:\/\/media.investnews.com.br\/uploads\/2026\/11\/fallbackad300x250-1.png","width":300,"height":250},"desktop":{"src":"https:\/\/media.investnews.com.br\/uploads\/2026\/11\/fallbackad970x250-1.png","width":970,"height":250}}}};
+//# sourceURL=investnews-ad-house-fallback-js-before
+</script>
+<script data-wp-strategy="defer" defer id="investnews-ad-house-fallback-js" src="https://investnews.com.br/app/themes/investnews/assets/js/ads/house-fallback.js?ver=8debe91ac.315532801"></script>
+<script data-wp-strategy="defer" defer id="investnews-ad-slot-fit-js" src="https://investnews.com.br/app/themes/investnews/assets/js/ads/slot-fit.js?ver=8debe91ac.315532801"></script>
+<script id="analytics-tagging-mode-js" src="https://investnews.com.br/app/themes/investnews/assets/js/analytics/analytics-tagging-mode.js?ver=8debe91ac"></script>
+<script id="analytics-form-js" src="https://investnews.com.br/app/themes/investnews/assets/js/analytics/analytics-form.js?ver=8debe91ac"></script>
+<script data-wp-strategy="defer" defer id="global-script-js" src="https://investnews.com.br/app/themes/investnews/assets/js/global.js?ver=8debe91ac.315532801"></script>
+<script id="newsletter-utils-script-js-extra">
+var investnewsConfig = {"recaptchaSiteKey":"6LdCKFIsAAAAAHUfb-kbAKZN4733A68UNvJMSJn2","allowRecaptchaBypass":""};
+//# sourceURL=newsletter-utils-script-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="newsletter-utils-script-js" src="https://investnews.com.br/app/themes/investnews/assets/js/newsletter-utils.js?ver=8debe91ac.315532801"></script>
+<script id="newsletter-loader-script-js-extra">
+var insNewsletterLoaderConfig = {"legacyScriptUrl":"https://investnews.com.br/app/themes/investnews/assets/js/newsletter-legacy.js?ver=8debe91ac.315532801"};
+//# sourceURL=newsletter-loader-script-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="newsletter-loader-script-js" src="https://investnews.com.br/app/themes/investnews/assets/js/newsletter-loader.js?ver=8debe91ac.315532801"></script>
+<script id="ins-nonce-refresh-js-extra">
+var insNonceRefresh = {"ajax_url":"https://investnews.com.br/wp/wp-admin/admin-ajax.php"};
+//# sourceURL=ins-nonce-refresh-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="ins-nonce-refresh-js" src="https://investnews.com.br/app/themes/investnews/assets/js/global/nonce-refresh.js?ver=8debe91ac"></script>
+<script data-wp-strategy="defer" defer id="analytics-click-js" src="https://investnews.com.br/app/themes/investnews/assets/js/analytics/analytics-click.js?ver=8debe91ac"></script>
+<script data-wp-strategy="defer" defer id="default-script-js" src="https://investnews.com.br/app/themes/investnews/assets/js/posts/default.js?ver=8debe91ac"></script>
+<script data-wp-strategy="defer" defer id="investnews-youtube-facade-js" src="https://investnews.com.br/app/themes/investnews/assets/js/embeds/youtube-facade.js?ver=315532801"></script>
+    </body>
+</html>

@@ -1,0 +1,836 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Biblioteca Digital do BNDES: Busca</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 6.0.230" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/bib/jspui/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" href="/bib/jspui/static/css/jquery-ui/redmond/jquery-ui-1.12.1.css" type="text/css" />
+		<link rel="stylesheet" href="/bib/jspui/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" href="/bib/jspui/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+		<link rel="stylesheet" href="/bib/jspui/static/css/bootstrap/dspace-theme.css" type="text/css" />
+		<link rel="stylesheet" href="/bib/jspui/static/css/bbd.css" type="text/css" />
+		
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self' *.bndes.gov.br;
+		 		script-src 'self' https://www.googletagmanager.com/ https://www.google-analytics.com https://www.google.com https://www.gstatic.com 'unsafe-inline' 'unsafe-eval';
+     			font-src 'self';
+     			img-src *;
+     			style-src 'self' 'unsafe-inline';     			
+				frame-src 'self' https://platform.twitter.com/ https://apis.google.com/ https://www.facebook.com/ http://developers.google.com/ https://developers.google.com/ *.bndes.gov.br https://youtube.com/ https://www.google.com/;
+     			connect-src 'self' https://www.google-analytics.com  https://developers.google.com/ https://www.google.com"
+     	/>
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/bib/jspui/open-search/description.xml" title="DSpace"/>
+
+        <!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-5W32X8BQ');</script>
+		<!-- End Google Tag Manager -->		
+		<script type='text/javascript' src="/bib/jspui/static/js/jquery/jquery-3.5.1.min.js"></script>
+		<script type='text/javascript' src='/bib/jspui/static/js/jquery/jquery-ui.1.13.2.min.js'></script>
+	    <script type='text/javascript' src='/bib/jspui/static/js/bootstrap/bootstrap.min.js'></script>
+        <script type='text/javascript' src='/bib/jspui/static/js/holder.js'></script>
+        <script type="text/javascript" src="/bib/jspui/utils.js"></script>
+        <script type="text/javascript" src="/bib/jspui/static/js/choice-support.js"> </script>
+		<script type='text/javascript' src='/bib/jspui/static/js/bbd.js'></script>
+		<script type='text/javascript' src='/bib/jspui/static/js/collapse.js'></script>
+		<script type='text/javascript' src='/bib/jspui/static/js/hide_description_community.js'></script>
+        
+
+
+    
+    
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-29112060-5', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+
+
+    
+        <script type="text/javascript">
+	var jQ = jQuery.noConflict();
+	jQ(document).ready(function() {
+		jQ( "#spellCheckQuery").on("click", function(){
+			jQ("#query").val(jQ(this).attr('data-spell'));
+			jQ("#main-query-submit").click();
+		});
+		jQ( "#filterquery" )
+			.autocomplete({
+				source: function( request, response ) {
+					jQ.ajax({
+						url: "/bib/jspui/json/discovery/autocomplete?query=juros+politica+monetaria",
+						dataType: "json",
+						cache: false,
+						data: {
+							auto_idx: jQ("#filtername").val(),
+							auto_query: request.term,
+							auto_sort: 'count',
+							auto_type: jQ("#filtertype").val(),
+							location: ''	
+						},
+						success: function( data ) {
+							response( jQ.map( data.autocomplete, function( item ) {
+								var tmp_val = item.authorityKey;
+								if (tmp_val == null || tmp_val == '')
+								{
+									tmp_val = item.displayedValue;
+								}
+								return {
+									label: escapeHtml(item.displayedValue) + " (" + item.count + ")",
+									value: tmp_val
+								};
+							}))			
+						}
+					})
+				}
+			});
+	});
+	function validateFilters() {
+		return document.getElementById("filterquery").value.length > 0;
+	}
+	// Generic HTML escape utility
+	var escapeHtml = s => (s + '').replace(/[&<>"']/g, m => ({
+		'&': '&amp;', '<': '&lt;', '>': '&gt;',
+		'"': '&quot;', "'": '&#39;'
+	})[m]);
+</script>
+    
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/bib/jspui/static/js/html5shiv.js"></script>
+  <script src="/bib/jspui/static/js/respond.min.js"></script>
+<![endif]-->
+</head>
+    
+    
+    <body onload="expandCollapseAll();" >
+    <!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5W32X8BQ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<a class="sr-only" href="#content">Skip navigation</a>
+<header class="container">   
+<br/>
+<div class="navbar bbd-logo-bndes">
+    	    	     	<a id="logo-container"   
+	     	    href="http://www.bndes.gov.br/wps/portal/site/home" 
+	     	    title="BNDES - O banco nacional do desenvolvimento" target="_blank">
+				<img alt="BNDES - O banco nacional do desenvolvimento" src="/bib/jspui/image/logo.png"				/>
+			</a>	
+			<div class="pull-right">
+				<div class="header-language">
+					
+					
+								
+					<a title="Português" class="bbd-language" onclick="javascript:document.repost.locale.value='pt_BR';
+		                  document.repost.submit();" href="http://web.bndes.gov.br/bib/jspui/simple-search?query=juros+politica+monetaria&locale=pt_BR">PT     |</a> 
+				   	<a title="English" class="bbd-language" onclick="javascript:document.repost.locale.value='en';
+		                  document.repost.submit();"href="http://web.bndes.gov.br/bib/jspui/simple-search?query=juros+politica+monetaria&locale=en">&nbsp;    EN     |</a>
+				   	<a title="Español" class="bbd-language" onclick="javascript:document.repost.locale.value='es';
+		                  document.repost.submit();" href="http://web.bndes.gov.br/bib/jspui/simple-search?query=juros+politica+monetaria&locale=es">&nbsp;ES</a> 								
+				</div>
+				
+				<div class="header-social">
+					<a href="https://www.facebook.com/bndes.imprensa" target="_blank";>
+	    				<svg viewBox="0 0 102 102" width="2em" class="bbd-icones-redes-sociais"> 
+		   	            <g transform="translate(0,102) scale(0.1,-0.1)">
+		               <path d="M358 1001 c-115 -37 -213 -112 -280 -215 -106 -164 -106 -388 0 -552 97 -150 252 -234 432 -234 147 0 255 45 360 150 105 105 150 213 150 360 0 227 -144 424 -358 490 -84 26 -224 26 -304 1z m327 -241 l0 -65 -67 -3 -68 -3 0 -34 0 -34 68 -3 67 -3 0 -65 0 -65 -62 -3 -63 -3 0 -145 0 -145 -67 3 -68 3 -3 143 -3 142 -45 0 -45 0 3 68 3 67 41 3 42 3 7 63 c12 118 48 146 185 143 l75 -2 0 -65z"></path>
+		              </g>
+		             </svg>
+					 </a>
+					<a href = "https://twitter.com/bndes_imprensa" target="_blank";> 
+			          <svg viewBox="0 0 102 102"  width="2em" class="bbd-icones-redes-sociais">
+		              <g transform="translate(0,102) scale(0.1,-0.1)">
+		                <path d="M358 1001 c-215 -69 -358 -263 -358 -485 0 -154 43 -260 150 -366 105 -105 213 -150 360 -150 147 0 255 45 360 150 105 105 150 213 150 360 0 227 -144 424 -358 490 -84 26 -224 26 -304 1z m349 -258 c27 -14 38 -15 63 -6 35 13 39 2 9 -28 l-21 -21 33 7 34 7 -31 -33 c-24 -26 -33 -46 -37 -84 -24 -250 -285 -402 -513 -299 l-39 18 30 3 c77 10 185 63 127 63 -22 0 -92 55 -92 71 0 5 10 9 23 9 20 0 19 2 -11 26 -31 25 -62 71 -62 94 0 6 10 8 27 4 l27 -7 -21 27 c-26 33 -37 76 -28 116 l7 30 49 -39 c63 -50 129 -82 182 -88 l42 -5 1 36 c1 44 29 85 75 109 38 20 75 17 126 -10z"></path>
+		              </g>
+		             </svg>
+					 </a>
+					 <a href = "https://www.youtube.com/user/bndesgovbr" target="_blank";>
+			             <svg viewBox="0 0 102 102" width="2em" class="bbd-icones-redes-sociais">
+		                  <g transform="translate(0,102) scale(0.1,-0.1)">
+		                    <path d="M358 1001 c-115 -37 -213 -112 -280 -215 -106 -164 -106 -388 0 -552 97 -150 252 -234 432 -234 147 0 255 45 360 150 105 105 150 213 150 360 0 227 -144 424 -358 490 -84 26 -224 26 -304 1z m419 -325 c24 -28 24 -32 21 -172 -2 -119 -6 -146 -20 -160 -23 -24 -192 -36 -372 -28 -191 9 -186 4 -186 196 1 162 6 176 67 189 21 4 134 7 251 6 l214 -2 25 -29z M420 510 l0 -112 38 22 c20 12 61 36 89 52 29 17 55 33 58 37 3 6 -137 93 -177 109 -4 2 -8 -47 -8 -108z"></path>
+		                  </g>
+		                </svg>
+			         </a>
+					 <a href="https://pt.slideshare.net/bndes" target="_blank";>
+			         <svg viewBox="0 0 102 102" width="2em" class="bbd-icones-redes-sociais">
+		               <g transform="translate(0,102) scale(0.1,-0.1)">
+		                 <path d="M358 1001 c-115 -37 -213 -112 -280 -215 -106 -164 -106 -388 0 -552 97 -150 252 -234 432 -234 147 0 255 45 360 150 105 105 150 213 150 360 0 227 -144 424 -358 490 -84 26 -224 26 -304 1z m399 -225 c28 -24 28 -26 29 -141 0 -89 4 -119 14 -125 21 -13 -15 -58 -71 -91 l-44 -25 -5 -68 c-4 -59 -9 -71 -34 -93 -23 -19 -36 -23 -59 -19 -49 10 -67 33 -67 87 0 26 -4 51 -10 54 -6 4 -10 -12 -10 -41 0 -76 -44 -106 -100 -67 -41 28 -49 45 -50 104 0 56 0 56 -40 74 -61 27 -113 85 -77 85 9 0 12 31 12 121 0 120 0 121 28 145 28 24 30 24 242 24 212 0 214 0 242 -24z M292 748 c-8 -8 -12 -53 -12 -138 0 -149 -4 -144 127 -156 43 -4 86 -11 95 -15 10 -6 19 -5 23 1 3 5 34 10 69 10 34 0 83 7 109 16 l47 16 0 127 c0 85 -4 131 -12 139 -17 17 -429 17 -446 0z m183 -153 c30 -29 32 -55 7 -86 -24 -28 -79 -31 -98 -4 -22 30 -18 81 8 99 32 22 55 20 83 -9z m169 4 c17 -13 26 -30 26 -49 0 -29 -38 -70 -65 -70 -27 0 -65 41 -65 70 0 29 38 70 65 70 7 0 24 -9 39 -21z"></path>
+		               </g>
+		             </svg>
+					 </a>								
+				</div>
+		    </div>    			
+		</div>	
+
+<!--header-->
+    
+            <div class="header-navbar">            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-default" style="background-color:#008e47">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="color:white;">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav bbd-link">        
+        <li class="">
+          <a href="/bib/jspui/">
+            <span class="glyphicon glyphicon-home"></span>
+            Página inicial
+          </a>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle bbd-bar" data-toggle="dropdown">Navegar <b class="caret bbd-bar"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/bib/jspui/community-list">
+                Comunidades e coleções
+              </a>
+            </li>
+				    <li class="divider"></li>				
+            <li class="dropdown-header">
+              Navegar nos Itens por:
+            </li>
+				    
+				
+				    
+            
+              <li>
+                <a href="/bib/jspui/browse?type=dateissued">
+                  Data do documento
+                </a>
+              </li>            
+          
+            
+              <li>
+                <a href="/bib/jspui/browse?type=author">
+                  Autor
+                </a>
+              </li>            
+          
+            
+              <li>
+                <a href="/bib/jspui/browse?type=title">
+                  Título
+                </a>
+              </li>            
+          
+            
+              <li>
+                <a href="/bib/jspui/browse?type=subject">
+                  Assunto
+                </a>
+              </li>            
+          
+            
+              <li>
+                <a href="/bib/jspui/browse?type=tipo">
+                  Tipo de documento
+                </a>
+              </li>            
+           
+            <li>
+              <a href ="/bib/jspui/simple-search?location=&query=&filter_field_1=language&filter_type_1=equals&filter_value_1=en&rpp=10&sort_by=dc.date.issued_dt&order=DESC&etal=0&submit_search=Atualizar"/>
+                Documentos em Inglês
+              </a>
+            </li>
+
+            <li>
+              <a href="/bib/jspui/simple-search?location=&query=&filter_field_1=language&filter_type_1=equals&filter_value_1=es&rpp=10&sort_by=dc.date.issued_dt&order=DESC&etal=0&submit_search=Atualizar"/>
+                Documentos em Espanhol
+              </a>
+            </li>				    
+				  
+          </ul>
+        </li>
+
+        <li>
+          
+            <a class="bbd-bar" href ="javascript:abrePublicacoes();"> Pedido de Publicações </a> 
+          		  
+		    </li>
+
+        <li>
+          <a href="/bib/jspui/subscribe">
+            Alertas
+          </a>
+        </li>
+		
+        <li class="dropdown">          
+          
+            <a href="#" class="dropdown-toggle bbd-bar" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-user bbd-bar"></span>
+              Entrar em:
+              <b class="caret bbd_bar"></b>
+            </a>
+	                     
+             <ul class="dropdown-menu">
+                <li><a href="/bib/jspui/mydspace">Meu espaço</a></li>
+                <li><a href="/bib/jspui/profile">Editar perfil</a></li>
+
+		      
+            </ul>
+        </li>
+      
+      </ul>
+      
+      
+      <form method="get" action="/bib/jspui/simple-search" class="navbar-form navbar-left">
+        <input type="hidden" name="sort_by" value="score"/> 
+        <input type="hidden" name="order" value="DESC"/> 
+        
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar no repositório" name="query" id="tequery" size="25"/>		
+        </div>				
+        <button type="submit" class="btn btn-primary">
+          <span class="glyphicon glyphicon-search"></span>
+        </button> &nbsp; &nbsp;
+        <a style="color:white;" href="/bib/jspui/simple-search">Pesquisa Avançada</a>           
+      </form>    
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+            </div>
+
+</header>
+
+
+<br/>
+                
+
+           
+
+
+
+        
+<div class="container">
+
+    <div class="row">
+    <div class="col-md-9">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<h2>Busca</h2>
+
+<div class="discovery-search-form panel panel-default">
+    
+	<div class="discovery-query panel-heading">
+	
+    <form action="simple-search" method="get">
+        <label for="tlocation">
+         	Buscar em:
+        </label>
+        <select name="location" id="tlocation">
+
+            
+            <option selected="selected" value="/">Todo o repositório</option>
+
+            <option value="1408/680" >
+                01. Produção BNDES
+            </option>
+
+            <option value="1408/677" >
+                02. Patrocínio BNDES
+            </option>
+
+            <option value="1408/662" >
+                03. BNDES - Estudos Contratados
+            </option>
+
+            <option value="1408/665" >
+                04. BNDES em Foco
+            </option>
+
+        </select><br/>
+        <label for="query">por</label>
+        <input type="text" size="50" id="query" name="query" value="juros&#x20;politica&#x20;monetaria"/>
+        <input type="submit" id="main-query-submit" class="btn btn-primary" value="Ir" />
+                  
+        <input type="hidden" value="10" name="rpp" />
+        <input type="hidden" value="dc.date.issued_dt" name="sort_by" />
+        <input type="hidden" value="desc" name="order" />
+
+<a class="btn btn-default" href="/bib/jspui/simple-search">Refazer a pesquisa</a>	
+		</form>
+		</div>
+
+		<div class="discovery-search-filters panel-body">
+		<h5>Adicionar filtros:</h5>
+		<p class="discovery-search-filters-hint">Utilize filtros para refinar o resultado da sua busca.</p>
+		<form action="simple-search" method="get">
+		<input type="hidden" value="" name="location" />
+		<input type="hidden" value="juros&#x20;politica&#x20;monetaria" name="query" />
+		
+		<select id="filtername" name="filtername">
+		<option value="title">Título</option><option value="author">Autor</option><option value="subject">Assunto</option><option value="dateIssued">Data de publicação</option><option value="resumo">Resumo</option><option value="serie">Série </option><option value="title_alternative">Título Alternativo</option><option value="language">Idioma</option><option value="type">Tipo</option><option value="genero">Gênero</option>
+		</select>
+		<select id="filtertype" name="filtertype">
+		<option value="equals">Igual a </option><option value="contains">Contém</option><option value="notequals">Diferente de</option><option value="notcontains">Não contém</option>
+		</select>
+		<input type="text" id="filterquery" name="filterquery" size="45" required="required" />
+		<input type="hidden" value="10" name="rpp" />
+		<input type="hidden" value="dc.date.issued_dt" name="sort_by" />
+		<input type="hidden" value="desc" name="order" />
+		<input class="btn btn-default" type="submit" value="Adicionar" onclick="return validateFilters()" />
+		</form>
+		</div>        
+
+        
+   <div class="discovery-pagination-controls panel-footer">
+   <form action="simple-search" method="get">
+   <input type="hidden" value="" name="location" />
+   <input type="hidden" value="juros&#x20;politica&#x20;monetaria" name="query" />
+		
+           <label for="rpp">Resultados/Página</label>
+           <select name="rpp" id="rpp">
+
+                   <option value="5" >5</option>
+
+                   <option value="10" selected="selected">10</option>
+
+                   <option value="15" >15</option>
+
+                   <option value="20" >20</option>
+
+                   <option value="25" >25</option>
+
+                   <option value="30" >30</option>
+
+                   <option value="35" >35</option>
+
+                   <option value="40" >40</option>
+
+                   <option value="45" >45</option>
+
+                   <option value="50" >50</option>
+
+                   <option value="55" >55</option>
+
+                   <option value="60" >60</option>
+
+                   <option value="65" >65</option>
+
+                   <option value="70" >70</option>
+
+                   <option value="75" >75</option>
+
+                   <option value="80" >80</option>
+
+                   <option value="85" >85</option>
+
+                   <option value="90" >90</option>
+
+                   <option value="95" >95</option>
+
+                   <option value="100" >100</option>
+
+           </select>
+           &nbsp;|&nbsp;
+
+               <label for="sort_by">Ordenar registros por</label>
+               <select name="sort_by" id="sort_by">
+                   <option value="score">Relevância</option>
+ <option value="dc.date.issued_dt" selected="selected" >Data de Publicação</option> <option value="dc.title_sort"  >Título</option>
+               </select>
+
+           <label for="order">Ordenar</label>
+           <select name="order" id="order">
+               <option value="ASC" >Crescente</option>
+               <option value="DESC" selected="selected">Descendente</option>
+           </select>
+           <label for="etal">Autores/Registro(s)</label>
+           <select name="etal" id="etal">
+
+               <option value="0" selected="selected">Todos</option>
+<option value="1" >1</option>
+                       <option value="5" >5</option>
+
+                       <option value="10" >10</option>
+
+                       <option value="15" >15</option>
+
+                       <option value="20" >20</option>
+
+                       <option value="25" >25</option>
+
+                       <option value="30" >30</option>
+
+                       <option value="35" >35</option>
+
+                       <option value="40" >40</option>
+
+                       <option value="45" >45</option>
+
+                       <option value="50" >50</option>
+
+           </select>
+           <input class="btn btn-default" type="submit" name="submit_search" value="Atualizar" />
+
+
+</form>
+   </div>
+</div>   
+
+<hr/>
+<div class="discovery-result-pagination row container">
+
+    
+	<div class="alert alert-info">Resultado 1-10 de 224.</div>
+    <ul class="pagination pull-right">
+	<li class="disabled"><span>Anterior</span></li>
+	
+	<li class="active"><span>1</span></li>
+
+	
+	
+	<li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=10">2</a></li>
+
+	
+	
+	<li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=20">3</a></li>
+
+	
+	
+	<li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=30">4</a></li>
+
+	<li class="disabled"><span>...</span></li><li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=220">23</a></li><li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=10">Próximo</a></li>
+	</ul>
+<!-- give a content to the div -->
+
+</div>
+<div class="discovery-result-results">
+
+
+
+
+
+    <div class="panel panel-info">
+    <div class="panel-heading">Conjunto de itens:</div>
+    <table align="center" class="table" summary="This table browses all dspace content">
+<tr>
+<th id="t1" class="oddRowEvenCol">Data do documento</th><th id="t2" class="oddRowOddCol">Título</th><th id="t3" class="oddRowEvenCol">Autor(es)</th><th id="t4" class="oddRowOddCol">Tipo</th><th id="t5" class="oddRowEvenCol">Comunidade</th></tr><tr><td headers="t1" nowrap="nowrap" align="right">Fev-2025</td><td headers="t2" ><a href="/bib/jspui/handle/1408/26327">Atualizando&#x20;a&#x20;decomposição&#x20;do&#x20;pagamento&#x20;de&#x20;juros&#x20;nominais&#x20;líquido&#x20;no&#x20;Brasil&#x20;2002-2024</a></td><td headers="t3" ><em><a href="/bib/jspui/browse?type=author&amp;value=Banco+Nacional+de+Desenvolvimento+Econ%C3%B4mico+e+Social+%28Brasil%29">Banco&#x20;Nacional&#x20;de&#x20;Desenvolvimento&#x20;Econômico&#x20;e&#x20;Social&#x20;(Brasil)</a>; <a href="/bib/jspui/browse?type=author&amp;value=Banco+Nacional+de+Desenvolvimento+Econ%C3%B4mico+e+Social+%28Brasil%29.+%C3%81rea+de+Relacionamento%2C+Marketing+e+Cultura.+Departamento+de+Relacionamento">Banco&#x20;Nacional&#x20;de&#x20;Desenvolvimento&#x20;Econômico&#x20;e&#x20;Social&#x20;(Brasil).&#x20;Área&#x20;de&#x20;Relacionamento,&#x20;Marketing&#x20;e&#x20;Cultura.&#x20;Departamento&#x20;de&#x20;Relacionamento</a></em></td><td headers="t4" ><em>Folheto</em></td><td headers="t5" ><em>Produção&#x20;BNDES</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">Out-2024</td><td headers="t2" ><a href="/bib/jspui/handle/1408/25627">Base&#x20;monetária&#x20;e&#x20;seus&#x20;fatores&#x20;determinantes&#x20;no&#x20;Brasil&#x20;2018-2023</a></td><td headers="t3" ><em><a href="/bib/jspui/browse?type=author&amp;value=Banco+Nacional+de+Desenvolvimento+Econ%C3%B4mico+e+Social+%28Brasil%29.+Gabinete+da+Presid%C3%AAncia.+Departamento+de+Comunica%C3%A7%C3%A3o.">Banco&#x20;Nacional&#x20;de&#x20;Desenvolvimento&#x20;Econômico&#x20;e&#x20;Social&#x20;(Brasil).&#x20;Gabinete&#x20;da&#x20;Presidência.&#x20;Departamento&#x20;de&#x20;Comunicação.</a></em></td><td headers="t4" ><em>Folheto</em></td><td headers="t5" ><em>Produção&#x20;BNDES</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">2024</td><td headers="t2" ><a href="/bib/jspui/handle/1408/25245">Decomposição&#x20;do&#x20;pagamento&#x20;de&#x20;juros&#x20;nominais&#x20;líquidos&#x20;no&#x20;Brasil</a></td><td headers="t3" >-</td><td headers="t4" ><em>Folheto</em></td><td headers="t5" ><em>Produção&#x20;BNDES</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">Ago-2023</td><td headers="t2" ><a href="/bib/jspui/handle/1408/23265">Afinal,&#x20;o&#x20;BNDES&#x20;afeta&#x20;o&#x20;juro&#x20;neutro&#x20;e&#x20;a&#x20;potência&#x20;da&#x20;política&#x20;monetária?</a></td><td headers="t3" ><em><a href="/bib/jspui/browse?type=author&amp;value=Barboza%2C+Ricardo+de+Menezes">Barboza,&#x20;Ricardo&#x20;de&#x20;Menezes</a>; <a href="/bib/jspui/browse?type=author&amp;value=Furtado%2C+Mauricio">Furtado,&#x20;Mauricio</a></em></td><td headers="t4" ><em>Livro</em></td><td headers="t5" ><em>Produção&#x20;BNDES</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">2023</td><td headers="t2" ><a href="/bib/jspui/handle/1408/23807">O&#x20;BNDES&#x20;afeta&#x20;o&#x20;juro&#x20;neutro&#x20;e&#x20;a&#x20;potência&#x20;da&#x20;política&#x20;monetária?</a></td><td headers="t3" >-</td><td headers="t4" ><em>Folheto</em></td><td headers="t5" ><em>Produção&#x20;BNDES</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">2023</td><td headers="t2" ><a href="/bib/jspui/handle/1408/23925">Qual&#x20;será&#x20;o&#x20;nível&#x20;da&#x20;Selic&#x20;ao&#x20;fim&#x20;do&#x20;atual&#x20;ciclo&#x20;de&#x20;flexibilização&#x20;monetária?</a></td><td headers="t3" >-</td><td headers="t4" ><em>Folheto</em></td><td headers="t5" ><em>Produção&#x20;BNDES</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">Jan-2023</td><td headers="t2" ><a href="/bib/jspui/handle/1408/27847">Ajuste&#x20;do&#x20;orçamento&#x20;financeiro&#x20;e&#x20;custo&#x20;de&#x20;carregamento&#x20;da&#x20;dívida&#x20;pública&#x20;no&#x20;Brasil&#x20;2002-2021</a></td><td headers="t3" ><em><a href="/bib/jspui/browse?type=author&amp;value=Bor%C3%A7a+Junior%2C+Gilberto+Rodrigues">Borça&#x20;Junior,&#x20;Gilberto&#x20;Rodrigues</a>; <a href="/bib/jspui/browse?type=author&amp;value=Barbosa+Filho%2C+Nelson+H.%2C+1969-">Barbosa&#x20;Filho,&#x20;Nelson&#x20;H.,&#x20;1969-</a></em></td><td headers="t4" ><em>Artigo</em></td><td headers="t5" ><em>BNDES&#x20;em&#x20;Foco</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">2022</td><td headers="t2" ><a href="/bib/jspui/handle/1408/22745">Bancos&#x20;públicos&#x20;e&#x20;política&#x20;monetária&#x20;:&#x20;teoria&#x20;e&#x20;alguns&#x20;resultados&#x20;com&#x20;base&#x20;em&#x20;projeções&#x20;locais&#x20;dependentes&#x20;de&#x20;estado</a></td><td headers="t3" ><em><a href="/bib/jspui/browse?type=author&amp;value=Modenesi%2C+Andre+de+Melo">Modenesi,&#x20;Andre&#x20;de&#x20;Melo</a>; <a href="/bib/jspui/browse?type=author&amp;value=Passos%2C+Nikolas">Passos,&#x20;Nikolas</a></em></td><td headers="t4" ><em>Artigo</em></td><td headers="t5" ><em>BNDES&#x20;em&#x20;Foco</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">2021</td><td headers="t2" ><a href="/bib/jspui/handle/1408/21021">As&#x20;implicações&#x20;monetárias&#x20;do&#x20;BNDES:&#x20;uma&#x20;abordagem&#x20;didática</a></td><td headers="t3" ><em><a href="/bib/jspui/browse?type=author&amp;value=Universidade+Federal+do+Rio+de+Janeiro.+Instituto+de+Economia&amp;value_lang=en_US">Universidade&#x20;Federal&#x20;do&#x20;Rio&#x20;de&#x20;Janeiro.&#x20;Instituto&#x20;de&#x20;Economia</a>; <a href="/bib/jspui/browse?type=author&amp;value=Furtado%2C+Mauricio">Furtado,&#x20;Mauricio</a>; <a href="/bib/jspui/browse?type=author&amp;value=Barboza%2C+Ricardo+de+Menezes">Barboza,&#x20;Ricardo&#x20;de&#x20;Menezes</a></em></td><td headers="t4" ><em>Artigo</em></td><td headers="t5" ><em>Produção&#x20;BNDES; BNDES&#x20;em&#x20;Foco</em></td></tr>
+<tr><td headers="t1" nowrap="nowrap" align="right">Jul-2016</td><td headers="t2" ><a href="/bib/jspui/handle/1408/20421">A&#x20;reconstrução&#x20;da&#x20;indústria&#x20;brasileira:&#x20;a&#x20;conexão&#x20;entre&#x20;o&#x20;regime&#x20;macroeconômico&#x20;e&#x20;a&#x20;política&#x20;industrial</a></td><td headers="t3" ><em><a href="/bib/jspui/browse?type=author&amp;value=Pereira%2C+Luiz+C.+Bresser">Pereira,&#x20;Luiz&#x20;C.&#x20;Bresser</a>; <a href="/bib/jspui/browse?type=author&amp;value=Feij%C3%B3%2C+Carmen+Aparecida">Feijó,&#x20;Carmen&#x20;Aparecida</a>; <a href="/bib/jspui/browse?type=author&amp;value=Nassif%2C+Andr%C3%A9">Nassif,&#x20;André</a></em></td><td headers="t4" ><em>Artigo</em></td><td headers="t5" ><em>Produção&#x20;BNDES</em></td></tr>
+</table>
+		
+    </div>
+
+
+
+<div class="discovery-result-pagination row container">
+
+    
+	<div class="alert alert-info">Resultado 1-10 de 224.</div>
+    <ul class="pagination pull-right">
+	<li class="disabled"><span>Anterior</span></li>
+	
+	<li class="active"><span>1</span></li>
+
+	
+	
+	<li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=10">2</a></li>
+
+	
+	
+	<li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=20">3</a></li>
+
+	
+	
+	<li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=30">4</a></li>
+
+	<li class="disabled"><span>...</span></li><li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=220">23</a></li><li><a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;start=10">Próximo</a></li>
+	</ul>
+<!-- give a content to the div -->
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+	</div>
+	<div class="col-md-3">
+                    
+
+
+<h3 class="facets">Filtros</h3>
+<div id="facets" class="facetsBox">
+
+<div id="facet_author" class="panel panel-success">
+	    <div class="panel-heading">Autor</div>
+	    <ul class="list-group"><li class="list-group-item"><span class="badge">86</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Banco+Nacional+de+Desenvolvimento+Econ%C3%B4mico+e+Social+%28Brasil%29.+%C3%81rea+de+Planejamento&amp;filtertype=equals"
+                title="Filtrado por Banco Nacional de Desenvolvimento Econômico e Social (Brasil). Área de Planejamento">
+                Banco Nacional de Desenvolvimento...</a></li><li class="list-group-item"><span class="badge">33</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Al%C3%A9m%2C+Ana+Cl%C3%A1udia+Duarte+de&amp;filtertype=equals"
+                title="Filtrado por Além, Ana Cláudia Duarte de">
+                Além, Ana Cláudia Duarte de</a></li><li class="list-group-item"><span class="badge">26</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Giambiagi%2C+Fabio&amp;filtertype=equals"
+                title="Filtrado por Giambiagi, Fabio">
+                Giambiagi, Fabio</a></li><li class="list-group-item"><span class="badge">15</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Catermol%2C+Fabr%C3%ADcio&amp;filtertype=equals"
+                title="Filtrado por Catermol, Fabrício">
+                Catermol, Fabrício</a></li><li class="list-group-item"><span class="badge">14</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Banco+Nacional+de+Desenvolvimento+Econ%C3%B4mico+e+Social+%28Brasil%29.+%C3%81rea+de+Comunica%C3%A7%C3%A3o+e+Cultura.+Ger%C3%AAncia+de+Imprensa&amp;filtertype=equals"
+                title="Filtrado por Banco Nacional de Desenvolvimento Econômico e Social (Brasil). Área de Comunicação e Cultura. Gerência de Imprensa">
+                Banco Nacional de Desenvolvimento...</a></li><li class="list-group-item"><span class="badge">9</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Gostkorzewicz%2C+Joana&amp;filtertype=equals"
+                title="Filtrado por Gostkorzewicz, Joana">
+                Gostkorzewicz, Joana</a></li><li class="list-group-item"><span class="badge">9</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Madeira%2C+Rodrigo+Ferreira&amp;filtertype=equals"
+                title="Filtrado por Madeira, Rodrigo Ferreira">
+                Madeira, Rodrigo Ferreira</a></li><li class="list-group-item"><span class="badge">8</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Fiani%2C+Ronaldo&amp;filtertype=equals"
+                title="Filtrado por Fiani, Ronaldo">
+                Fiani, Ronaldo</a></li><li class="list-group-item"><span class="badge">8</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Saisse%2C+Simone&amp;filtertype=equals"
+                title="Filtrado por Saisse, Simone">
+                Saisse, Simone</a></li><li class="list-group-item"><span class="badge">8</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=author&amp;filterquery=Zendron%2C+Patricia&amp;filtertype=equals"
+                title="Filtrado por Zendron, Patricia">
+                Zendron, Patricia</a></li><li class="list-group-item"><span style="visibility: hidden;">.</span>
+	        
+            
+            <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;author_page=1"><span class="pull-right">próximo></span></a>
+            </li></ul></div><div id="facet_subject" class="panel panel-success">
+	    <div class="panel-heading">Assunto</div>
+	    <ul class="list-group"><li class="list-group-item"><span class="badge">58</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Economia+-+Peri%C3%B3dicos&amp;filtertype=equals"
+                title="Filtrado por Economia - Periódicos">
+                Economia - Periódicos</a></li><li class="list-group-item"><span class="badge">58</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Economics+-+Periodicals&amp;filtertype=equals"
+                title="Filtrado por Economics - Periodicals">
+                Economics - Periodicals</a></li><li class="list-group-item"><span class="badge">44</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Economia&amp;filtertype=equals"
+                title="Filtrado por Economia">
+                Economia</a></li><li class="list-group-item"><span class="badge">44</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Economic+policy&amp;filtertype=equals"
+                title="Filtrado por Economic policy">
+                Economic policy</a></li><li class="list-group-item"><span class="badge">44</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Economics&amp;filtertype=equals"
+                title="Filtrado por Economics">
+                Economics</a></li><li class="list-group-item"><span class="badge">44</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Employment+%28Economic+theory%29&amp;filtertype=equals"
+                title="Filtrado por Employment (Economic theory)">
+                Employment (Economic theory)</a></li><li class="list-group-item"><span class="badge">44</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Emprego+%28Teoria+econ%C3%B4mica%29&amp;filtertype=equals"
+                title="Filtrado por Emprego (Teoria econômica)">
+                Emprego (Teoria econômica)</a></li><li class="list-group-item"><span class="badge">44</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Inflation+%28Finance%29&amp;filtertype=equals"
+                title="Filtrado por Inflation (Finance)">
+                Inflation (Finance)</a></li><li class="list-group-item"><span class="badge">44</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Infla%C3%A7%C3%A3o&amp;filtertype=equals"
+                title="Filtrado por Inflação">
+                Inflação</a></li><li class="list-group-item"><span class="badge">44</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=subject&amp;filterquery=Mercado+financeiro&amp;filtertype=equals"
+                title="Filtrado por Mercado financeiro">
+                Mercado financeiro</a></li><li class="list-group-item"><span style="visibility: hidden;">.</span>
+	        
+            
+            <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;subject_page=1"><span class="pull-right">próximo></span></a>
+            </li></ul></div><div id="facet_dateIssued" class="panel panel-success">
+	    <div class="panel-heading">Data de Publicação</div>
+	    <ul class="list-group"><li class="list-group-item"><span class="badge">9</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=dateIssued&amp;filterquery=%5B2020+TO+2026%5D&amp;filtertype=equals"
+                title="Filtrado por 2020 - 2026">
+                2020 - 2026</a></li><li class="list-group-item"><span class="badge">18</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=dateIssued&amp;filterquery=%5B2010+TO+2019%5D&amp;filtertype=equals"
+                title="Filtrado por 2010 - 2019">
+                2010 - 2019</a></li><li class="list-group-item"><span class="badge">65</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=dateIssued&amp;filterquery=%5B2000+TO+2009%5D&amp;filtertype=equals"
+                title="Filtrado por 2000 - 2009">
+                2000 - 2009</a></li><li class="list-group-item"><span class="badge">100</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=dateIssued&amp;filterquery=%5B1990+TO+1999%5D&amp;filtertype=equals"
+                title="Filtrado por 1990 - 1999">
+                1990 - 1999</a></li><li class="list-group-item"><span class="badge">10</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=dateIssued&amp;filterquery=%5B1980+TO+1989%5D&amp;filtertype=equals"
+                title="Filtrado por 1980 - 1989">
+                1980 - 1989</a></li><li class="list-group-item"><span class="badge">3</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=dateIssued&amp;filterquery=%5B1970+TO+1979%5D&amp;filtertype=equals"
+                title="Filtrado por 1970 - 1979">
+                1970 - 1979</a></li><li class="list-group-item"><span class="badge">15</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=dateIssued&amp;filterquery=%5B1960+TO+1969%5D&amp;filtertype=equals"
+                title="Filtrado por 1960 - 1969">
+                1960 - 1969</a></li><li class="list-group-item"><span class="badge">4</span> <a href="/bib/jspui/simple-search?query=juros+politica+monetaria&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;rpp=10&amp;etal=0&amp;filtername=dateIssued&amp;filterquery=%5B1953+TO+1959%5D&amp;filtertype=equals"
+                title="Filtrado por 1953 - 1959">
+                1953 - 1959</a></li></ul></div>
+
+</div>
+
+
+    </div>
+    </div>       
+
+</div>
+</main>
+
+<style>
+    div#footer_feedback a {
+        margin: 0 5px;
+    }
+    footer{padding: 2% 0;}
+</style>
+            
+<footer class="container">
+		
+        
+    
+        <div class="row">
+            <div class="share_toolbox" style="display:block;height:10px;vertical-align:middle;width:280px;margin-left:auto;margin-right:auto">
+            
+            
+            
+                <div style="float:left;display:inline-block">
+                    <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
+                        title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.7bf2b0e802ada47dae9548b7a1739fed.pt.html#dnt=false&amp;id=twitter-widget-0&amp;lang=pt&amp;original_referer=https%3A%2F%2Fweb.bndes.gov.br%2Fbib%2Fjspui%2F&amp;size=m&amp;text=Biblioteca Digital do BNDES : Busca;time=1498593707106&amp;type=share&amp;url=http://web.bndes.gov.br/bib/jspui/simple-search"
+                        style="position: static; visibility: visible; width: 70px; height: 20px;"></iframe>
+                </div>
+                
+            
+    
+               
+            
+            <span style="float:left;display:inline-block;margin: 0 0 0 10px;">
+                 <span style="float:left;display:inline-block" class="fb-share-button fb_iframe_widget" data-href="/bib/jspui"
+                     data-layout="button_count" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fweb.bndes.gov.br%2Fbib%2Fjspui%2F&amp;layout=button_count&amp;locale=pt_BR&amp;sdk=joey">
+                     <span style="vertical-align: bottom; width: 107px; height: 20px;">
+                         <iframe name="f3a144427173fec" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true"
+                             scrolling="no" title="fb:share_button Facebook Social Plugin" src="https://www.facebook.com/v2.4/plugins/share_button.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FXBwzv5Yrm_1.js%3Fversion%3D42%23cb%3Df153eb8985eaaec%26domain%3Dweb.bndes.gov.br%26origin%3Dhttps%253A%252F%252Fweb.bndes.gov.br%252Ff387b979eb84378%26relation%3Dparent.parent&amp;container_width=0&amp;href=http://web.bndes.gov.br/bib/jspui/simple-search&amp;layout=button_count&amp;locale=pt_BR&amp;sdk=joey"
+                             style="border: none; visibility: visible; width: 115px; height: 20px;" class=""></iframe>
+                     </span>
+                 </span>
+             </span>
+             
+             
+               
+            </div>
+        </div>
+    
+    
+        <div class="row">
+            <div id="footer_feedback" style="text-align: center;">
+            Versão 6.0.230
+            <a target=&quot;_blank&quot; href=http://www.DSpace.org>DSpace Software</a> Copyright © 2002-2010  <a target=&quot;_blank&quot; href=http://www.duraspace.org>Duraspace</a>
+            	<a href="/bib/jspui/htmlmap"></a>						
+			<script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/bib/jspui/help/ajuda.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Ajuda<\/a>');
+// -->
+</script><noscript><a href="/bib/jspui/help/ajuda.html" target="dspacepopup">Ajuda</a></noscript>
+            					
+		  		<a href ="javascript:abre_FaleConosco();"> Fale Conosco </a> 										
+           
+            </div>
+        </div>
+    </div>
+</footer>
+    </body>
+</html>
