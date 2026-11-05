@@ -293,6 +293,26 @@ no YouTube); os livros e ensaios do autor; as críticas publicadas; os dados do 
   direção de conclusão
 - [x] 13.R Revisão independente do bloco 13 (05/11/2026: relatório 13.md, 59 achados, aplicados em 13-aplicacao-a.md e 13-aplicacao-b.md)
 
+Pedido de 05/11/2026 (segunda parte): mais do que afirmar que a proposta está certa ou errada, mostrar
+por que ela pode ser um argumento teórico consistente, com as leituras que a sustentam (artigos do
+autor, do BNDES e de quem trabalha na mesma linha) e as que a contestam; tirar os dogmatismos dos dois
+lados; lembrar a cada passo que correlação não é causalidade, que as variáveis macro andam juntas
+(colinearidade) e que economia é ciência social, onde a evidência raramente decide sozinha.
+
+- [ ] 13.8 O IS-LM, a moeda fiduciária e as curvas horizontais: de onde vem o modelo (Hicks, 1937,
+  mundo de padrão-ouro e câmbio fixo), o que é a LM (oferta e demanda de moeda), o que muda quando o
+  banco central fixa o juro e a moeda é fiduciária e eletrônica (LM horizontal, Romer 2000, moeda
+  endógena), a curva de Phillips "praticamente horizontal" de que o autor fala em 2026, o problema de
+  identificação (McLeay e Tenreyro) e o que tudo isso implica para a proposta
+- [ ] 13.9 A linha teórica: leituras a favor e contra (Lara Resende 2017 a 2026; BNDES, seminário de
+  mar/2023 e comissão de estudos; Keynes, Minsky, moeda endógena, MMT, teoria fiscal do nível de
+  preços, novo-desenvolvimentismo; críticas acadêmicas), com o que cada texto sustenta e o que não
+  sustenta
+- [ ] 13.10 Juro real, risco e convenção: o que a comparação com países de risco igual ou maior permite
+  concluir e o que não permite (correlação, colinearidade, causalidade reversa, poucas observações);
+  a tese de que o juro virou consenso, testada e não presumida
+- [ ] 13.R2 Revisão independente de 13.8 a 13.10
+
 ## 8–9. Conclusão e apoio
 
 A conclusão (8.1 e 8.2) só se escreve depois dos blocos 10, 11 e 12, porque a matriz final incorpora

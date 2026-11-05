@@ -34,6 +34,18 @@ inclusive a definição do resíduo e a régua única do bloco 12); conteudo/13-
   neo-fisheriana e teoria fiscal do nível de preços); recusa da teoria quantitativa e da âncora fiscal
   como pré-condição.
 
+## Postura de método (vale para 13.8 a 13.10 e para qualquer correção)
+
+- O objetivo é mostrar por que a proposta pode ser um argumento teórico consistente e onde ele para,
+  sem afirmar que está certa ou errada antes do teste. Tirar dogmatismo dos dois lados: nem "juro
+  alto é sempre racional porque o mercado decide", nem "juro alto é só convenção porque é alto".
+- Correlação não é causalidade. Toda associação mostrada (juro × dívida, juro × risco, juro ×
+  inflação) vem com as explicações alternativas: causalidade reversa, variável omitida, choque comum.
+- Colinearidade: dívida, risco, inflação passada, câmbio e juro andam juntos no Brasil; quando duas
+  variáveis se movem juntas, a regressão não separa o peso de cada uma, e a página diz isso.
+- Economia é ciência social: poucas observações, regimes que mudam, expectativas que reagem à própria
+  política (crítica de Lucas). A página diz o grau de confiança e o que mudaria a conclusão.
+
 ## Forma
 
 Página com id 13.N, pai 13, ordem N, entre 2.500 e 4.500 palavras de prosa. Exemplo de brinquedo antes

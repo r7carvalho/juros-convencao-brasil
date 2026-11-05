@@ -121,6 +121,9 @@ próprio ramo (por exemplo `2.4.1`), nunca fora dele.
 13.5   Precedentes no Brasil e no mundo
 13.6   As críticas e as respostas
 13.7   Como argumentar: objeções, respostas e matriz
+13.8   O IS-LM, a moeda fiduciária e as curvas horizontais
+13.9   A linha teórica: leituras a favor e contra
+13.10  Juro real, risco e convenção: o que a comparação permite concluir
 8      Conclusão (escrita no fim)                       conteudo/8-conclusao/
 8.1    Matriz tese × evidência × força (no fim)
 9      Método, fontes, glossário e linha do tempo       conteudo/9-metodo/
