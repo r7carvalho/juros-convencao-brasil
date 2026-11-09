@@ -4,7 +4,7 @@
  "descricao": "Dívida bruta do governo geral, % do PIB (conceito BCB)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=13762",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
- "coleta": "2026-11-02T14:58:30Z",
+ "coleta": "2026-11-09T19:57:45Z",
  "dados": [
   {
    "data": "01/12/2006",

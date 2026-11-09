@@ -1,7 +1,7 @@
 {
  "fonte": "Tesouro Transparente (CKAN)",
  "url_api": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q=relatorio%20mensal%20da%20divida",
- "coleta": "2026-11-02T12:16:55Z",
+ "coleta": "2026-11-09T20:02:54Z",
  "pacotes": [
   {
    "nome": "relatorios-da-divida-contratual-da-uniao",
@@ -81,6 +81,22 @@
    ]
   },
   {
+   "nome": "limites-da-lrf-para-a-uniao-divida-consolidada-liquida-da-uniao",
+   "titulo": "Limites da LRF para a União: Dívida Consolidada Líquida da União",
+   "recursos": [
+    {
+     "nome": "Metadados - Limites da LRF para a União - Dívida Consolidada Líquida",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/d71b6e17-dec9-4c50-8156-7b82c0b7d116/download/metadados---limites-da-lrf-para-a-uniao---divida-consolidada-liquida.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Dívida Consolidada Líquida da União - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/90adbb1e-2d22-4398-ac09-29145b4cc89d/download/limites-da-lrf-para-a-uniao---divida-consolidada-liquida.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
    "nome": "api-rgf-entes",
    "titulo": "Relatório de Gestão Fiscal (RGF) dos Entes da Federação",
    "recursos": [
@@ -133,22 +149,6 @@
    ]
   },
   {
-   "nome": "limites-da-lrf-para-a-uniao-divida-consolidada-liquida-da-uniao",
-   "titulo": "Limites da LRF para a União: Dívida Consolidada Líquida da União",
-   "recursos": [
-    {
-     "nome": "Metadados - Limites da LRF para a União - Dívida Consolidada Líquida",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/d71b6e17-dec9-4c50-8156-7b82c0b7d116/download/metadados---limites-da-lrf-para-a-uniao---divida-consolidada-liquida.pdf",
-     "formato": "PDF"
-    },
-    {
-     "nome": "Dívida Consolidada Líquida da União - Quadrimestral - 2000-atual",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/90adbb1e-2d22-4398-ac09-29145b4cc89d/download/limites-da-lrf-para-a-uniao---divida-consolidada-liquida.csv",
-     "formato": "CSV"
-    }
-   ]
-  },
-  {
    "nome": "ds018",
    "titulo": "Emissões Diretas de Títulos da Dívida Pública Mobiliária Federal interna - DPMFi",
    "recursos": [
@@ -186,22 +186,6 @@
    ]
   },
   {
-   "nome": "api-extrato-entes",
-   "titulo": "Extrato de Entregas dos Entes da Federação",
-   "recursos": [
-    {
-     "nome": "API Dados Abertos - Extrato de Entregas",
-     "url": "http://apidatalake.tesouro.gov.br/docs/siconfi/#/Extrato%20de%20Entregas/get_extrato_entregas",
-     "formato": "API"
-    },
-    {
-     "nome": "Metadados Extrato de Entregas",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/7c4dc876-2151-4d07-ac5f-9ee128637aca/resource/171d3640-2357-4651-b91c-4eb059af78da/download/metadadosextratoentregas.pdf",
-     "formato": "PDF"
-    }
-   ]
-  },
-  {
    "nome": "api-msc-patrimonial-entes",
    "titulo": "Informações Patrimoniais da Matriz de Saldos Contábeis (MSC) dos Entes da Federação",
    "recursos": [
@@ -213,6 +197,22 @@
     {
      "nome": "Metadados MSC Patrimonial",
      "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0acb4523-7664-4a7c-90f8-52e098de4b86/resource/e9d64440-7a44-47f0-8457-06e4afadcc45/download/metadadosmscpatrimonial.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "api-extrato-entes",
+   "titulo": "Extrato de Entregas dos Entes da Federação",
+   "recursos": [
+    {
+     "nome": "API Dados Abertos - Extrato de Entregas",
+     "url": "http://apidatalake.tesouro.gov.br/docs/siconfi/#/Extrato%20de%20Entregas/get_extrato_entregas",
+     "formato": "API"
+    },
+    {
+     "nome": "Metadados Extrato de Entregas",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/7c4dc876-2151-4d07-ac5f-9ee128637aca/resource/171d3640-2357-4651-b91c-4eb059af78da/download/metadadosextratoentregas.pdf",
      "formato": "PDF"
     }
    ]

@@ -4,7 +4,7 @@
  "descricao": "Selic acumulada no mês (% a.m.)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=4390",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json",
- "coleta": "2026-11-02T14:53:24Z",
+ "coleta": "2026-11-09T19:53:47Z",
  "dados": [
   {
    "data": "01/08/1986",
@@ -1937,6 +1937,10 @@
   {
    "data": "01/10/2026",
    "valor": "1.07"
+  },
+  {
+   "data": "01/11/2026",
+   "valor": "0.20"
   }
  ]
 }

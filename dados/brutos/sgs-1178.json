@@ -4,7 +4,7 @@
  "descricao": "Selic anualizada base 252, diária (% a.a.)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=1178",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1178/dados?formato=json",
- "coleta": "2026-11-02T15:07:52Z",
+ "coleta": "2026-11-09T20:01:26Z",
  "dados": [
   {
    "data": "04/06/1986",
@@ -40528,6 +40528,22 @@
   },
   {
    "data": "30/10/2026",
+   "valor": "13.65"
+  },
+  {
+   "data": "03/11/2026",
+   "valor": "13.65"
+  },
+  {
+   "data": "04/11/2026",
+   "valor": "13.65"
+  },
+  {
+   "data": "05/11/2026",
+   "valor": "13.65"
+  },
+  {
+   "data": "06/11/2026",
    "valor": "13.65"
   }
  ]

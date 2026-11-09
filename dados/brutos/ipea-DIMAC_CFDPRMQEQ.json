@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFDPRMQEQ')",
- "coleta": "2026-11-02T17:05:41Z",
+ "coleta": "2026-11-09T20:41:58Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_CFDPRMQEQ",

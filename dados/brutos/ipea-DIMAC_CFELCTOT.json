@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFELCTOT')",
- "coleta": "2026-11-02T16:19:03Z",
+ "coleta": "2026-11-09T20:07:13Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_CFELCTOT",

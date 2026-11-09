@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/Metadados",
- "coleta": "2026-11-02T16:15:00Z",
+ "coleta": "2026-11-09T20:03:10Z",
  "filtro": [
   "capital fixo",
   "estoque de capital",
@@ -625,7 +625,7 @@
    "SERCODIGO": "PAN_FBKFPIBV",
    "SERNOME": "Taxa de investimento nominal",
    "SERCOMENTARIO": "Taxa de investimento a preços correntes, obtida a partir da relação entre a Formação bruta de capital fixo e o Produto interno bruto trimestral nominal (IBGE). As informações sobre as séries do Sistema de Contas Nacionais - referência 2010 estão em conformidade com o novo manual System of National Accounts (SNA) de 2008, da Organização das Nações Unidas (ONU), que inclui, entre outras mudanças metodológicas, a nova classificação de produtos e atividades integrada com a Classificação Nacional de Atividades Econômicas - CNAE 2.0. Para 2014: resultados preliminares estimados a partir das Contas Nacionais Trimestrais Referência 2010.",
-   "SERATUALIZACAO": "2026-03-10T16:58:01.07-03:00",
+   "SERATUALIZACAO": "2026-11-06T12:14:21.383-03:00",
    "BASNOME": "Macroeconômico",
    "FNTSIGLA": "IPEA",
    "FNTNOME": "Instituto de Pesquisa Econômica Aplicada",
@@ -642,7 +642,7 @@
    "SERCODIGO": "PAN4_FBKFPIBV4",
    "SERNOME": "Taxa de investimento nominal",
    "SERCOMENTARIO": "Taxa de investimento a preços correntes, obtida a partir da relação entre a Formação bruta de capital fixo e o Produto interno bruto trimestral nominal (IBGE). Para 2008: resultados preliminares estimados a partir das Contas Nacionais Trimestrais Referência 2000.",
-   "SERATUALIZACAO": "2026-09-30T12:40:06.937-03:00",
+   "SERATUALIZACAO": "2026-11-06T12:14:21.383-03:00",
    "BASNOME": "Macroeconômico",
    "FNTSIGLA": "IPEA",
    "FNTNOME": "Instituto de Pesquisa Econômica Aplicada",

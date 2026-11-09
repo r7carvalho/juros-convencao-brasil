@@ -1,6 +1,6 @@
 {
  "fonte": "Tesouro Transparente (CKAN)",
  "url_api": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q=detentores",
- "coleta": "2026-11-02T12:16:43Z",
+ "coleta": "2026-11-09T20:02:49Z",
  "pacotes": []
 }

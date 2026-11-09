@@ -1,7 +1,7 @@
 {
  "fonte": "Tesouro Transparente (CKAN)",
  "url_api": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q=resultado%20do%20tesouro%20nacional",
- "coleta": "2026-11-02T12:16:59Z",
+ "coleta": "2026-11-09T20:03:00Z",
  "pacotes": [
   {
    "nome": "resultado-do-tesouro-nacional",
@@ -527,6 +527,11 @@
      "nome": "Nota Técnica LC 200_ago 2026",
      "url": "https://www.tesourotransparente.gov.br/ckan/dataset/8675a0a4-31c5-4593-a24d-fb8e17376eca/resource/4da598bc-39ed-484d-8127-470895bc01b3/download/sei64003486notatecnica1301.pdf",
      "formato": "PDF"
+    },
+    {
+     "nome": "Nota Técnica LC 200_out 2026",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/8675a0a4-31c5-4593-a24d-fb8e17376eca/resource/50c898ad-75fb-4f53-a12e-c2775d36dfbd/download/sei65406423notatecnica1637.pdf",
+     "formato": "PDF"
     }
    ]
   },
@@ -611,6 +616,38 @@
     {
      "nome": "Metadados da API",
      "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a8275f7a-da51-485b-a16a-9c1031ca24e1/resource/0de9d645-2226-41d0-9082-24f423c62653/download/metadados-pvl-oc-cl.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "pvl-resumo-oc",
+   "titulo": "Cronogramas de pagamento de operações de crédito contratadas e a contratar por estados e municípios",
+   "recursos": [
+    {
+     "nome": "Link para a API",
+     "url": "http://apidatalake.tesouro.gov.br/docs/sadipem/#/Resumo%20-%20Cronograma%20de%20Pagamentos",
+     "formato": "API"
+    },
+    {
+     "nome": "Metadados da API",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/d30c6d42-ec2b-453c-88ce-8dffab7c7f92/resource/95ce2f03-6514-4b24-a08d-15c650dd8871/download/metadados-pvl-resumo-cp.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "pvl-oc-cambio",
+   "titulo": "Taxas de câmbio utilizadas nos cronogramas de pagamento das operações de crédito contratadas por estados e municípios",
+   "recursos": [
+    {
+     "nome": "Link para a API",
+     "url": "http://apidatalake.tesouro.gov.br/docs/sadipem/#/Opera%C3%A7%C3%B5es%20Contratadas%20-%20Taxas%20de%20C%C3%A2mbio",
+     "formato": "API"
+    },
+    {
+     "nome": "Metadados da API",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/704014f0-0a79-4306-8c49-1c2f65d3d0bc/resource/5563b0ad-b203-40c9-a358-0d27c7054de2/download/metadados-pvl-oc-cambio.pdf",
      "formato": "PDF"
     }
    ]
@@ -707,44 +744,12 @@
    ]
   },
   {
-   "nome": "pvl-resumo-oc",
-   "titulo": "Cronogramas de pagamento de operações de crédito contratadas e a contratar por estados e municípios",
-   "recursos": [
-    {
-     "nome": "Link para a API",
-     "url": "http://apidatalake.tesouro.gov.br/docs/sadipem/#/Resumo%20-%20Cronograma%20de%20Pagamentos",
-     "formato": "API"
-    },
-    {
-     "nome": "Metadados da API",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/d30c6d42-ec2b-453c-88ce-8dffab7c7f92/resource/95ce2f03-6514-4b24-a08d-15c650dd8871/download/metadados-pvl-resumo-cp.pdf",
-     "formato": "PDF"
-    }
-   ]
-  },
-  {
-   "nome": "pvl-oc-cambio",
-   "titulo": "Taxas de câmbio utilizadas nos cronogramas de pagamento das operações de crédito contratadas por estados e municípios",
-   "recursos": [
-    {
-     "nome": "Link para a API",
-     "url": "http://apidatalake.tesouro.gov.br/docs/sadipem/#/Opera%C3%A7%C3%B5es%20Contratadas%20-%20Taxas%20de%20C%C3%A2mbio",
-     "formato": "API"
-    },
-    {
-     "nome": "Metadados da API",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/704014f0-0a79-4306-8c49-1c2f65d3d0bc/resource/5563b0ad-b203-40c9-a358-0d27c7054de2/download/metadados-pvl-oc-cambio.pdf",
-     "formato": "PDF"
-    }
-   ]
-  },
-  {
    "nome": "operacoes-copem",
    "titulo": "Análises de operações de crédito de estados e municípios",
    "recursos": [
     {
      "nome": "Consulta Pública Geral",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/25a770df-920e-4519-a172-65b84b14e643/resource/c9cbf4d5-8c68-4fa6-9224-afc34c006d11/download/sadipemconsultapublicageralbatch29102026.csv",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/25a770df-920e-4519-a172-65b84b14e643/resource/c9cbf4d5-8c68-4fa6-9224-afc34c006d11/download/sadipemconsultapublicageralbatch08112026.csv",
      "formato": "CSV"
     },
     {

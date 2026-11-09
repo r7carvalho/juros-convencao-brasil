@@ -1,7 +1,7 @@
 {
  "fonte": "Tesouro Transparente (CKAN)",
  "url_api": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q=divida%20publica%20federal%20estoque",
- "coleta": "2026-11-02T12:16:52Z",
+ "coleta": "2026-11-09T20:02:51Z",
  "pacotes": [
   {
    "nome": "estoque-da-divida-publica-federal",
@@ -52,38 +52,6 @@
     {
      "nome": "Estoque da Dívida - Por Credor",
      "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0e763dcf-c7f9-4928-aa3d-61318de7141f/resource/f9a981c0-6281-43b2-9238-5270eacd4a77/download/relatorio-estoque-final.csv",
-     "formato": "CSV"
-    }
-   ]
-  },
-  {
-   "nome": "emissoes-e-resgates-divida-publica-federal",
-   "titulo": "Emissões e Resgates - Dívida Pública Federal",
-   "recursos": [
-    {
-     "nome": "Metadados - Emissões e Resgates da DPF",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/48a31b6b-034a-473b-be7d-228be30437a1/resource/8bd48230-db6e-4e6b-8001-9117540ea32f/download/metadadosemissoeseresgatesdadpf.pdf",
-     "formato": "PDF"
-    },
-    {
-     "nome": "Emissões e Resgates da Dívida Pública Federal",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/48a31b6b-034a-473b-be7d-228be30437a1/resource/bf69babd-ac07-40ce-90ff-c8e07ec8c8bf/download/emissoes-e-resgates---divida-publica-federal.xlsx",
-     "formato": "XLSX"
-    }
-   ]
-  },
-  {
-   "nome": "estoque-do-tesouro-direto",
-   "titulo": "Estoque do Tesouro Direto",
-   "recursos": [
-    {
-     "nome": "Metadados",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/ca43792c-5580-47d4-9eb5-fae55dce0ce0/download/estoquedotesourodireto-metadados.pdf",
-     "formato": "PDF"
-    },
-    {
-     "nome": "Estoque do Tesouro Direto",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/650cdc18-0513-4bb1-9222-003ad1c11ac7/download/estoquetesourodireto.csv",
      "formato": "CSV"
     }
    ]
@@ -226,6 +194,38 @@
      "nome": "2024 - Resultado dos leilões da DPMFi",
      "url": "https://sisweb.tesouro.gov.br/apex/cosis/rleiloes/arquivos/unico/desc/historico-leiloes-2024.xlsx",
      "formato": "XLS"
+    }
+   ]
+  },
+  {
+   "nome": "emissoes-e-resgates-divida-publica-federal",
+   "titulo": "Emissões e Resgates - Dívida Pública Federal",
+   "recursos": [
+    {
+     "nome": "Metadados - Emissões e Resgates da DPF",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/48a31b6b-034a-473b-be7d-228be30437a1/resource/8bd48230-db6e-4e6b-8001-9117540ea32f/download/metadadosemissoeseresgatesdadpf.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Emissões e Resgates da Dívida Pública Federal",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/48a31b6b-034a-473b-be7d-228be30437a1/resource/bf69babd-ac07-40ce-90ff-c8e07ec8c8bf/download/emissoes-e-resgates---divida-publica-federal.xlsx",
+     "formato": "XLSX"
+    }
+   ]
+  },
+  {
+   "nome": "estoque-do-tesouro-direto",
+   "titulo": "Estoque do Tesouro Direto",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/ca43792c-5580-47d4-9eb5-fae55dce0ce0/download/estoquedotesourodireto-metadados.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Estoque do Tesouro Direto",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/650cdc18-0513-4bb1-9222-003ad1c11ac7/download/estoquetesourodireto.csv",
+     "formato": "CSV"
     }
    ]
   },
