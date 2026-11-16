@@ -4,7 +4,7 @@
  "descricao": "CDI diário (% a.d.)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=12",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.12/dados?formato=json",
- "coleta": "2026-11-09T19:54:07Z",
+ "coleta": "2026-11-16T19:40:46Z",
  "dados": [
   {
    "data": "06/03/1986",
@@ -40712,6 +40712,22 @@
   },
   {
    "data": "06/11/2026",
+   "valor": "0.050788"
+  },
+  {
+   "data": "09/11/2026",
+   "valor": "0.050788"
+  },
+  {
+   "data": "10/11/2026",
+   "valor": "0.050788"
+  },
+  {
+   "data": "11/11/2026",
+   "valor": "0.050788"
+  },
+  {
+   "data": "12/11/2026",
    "valor": "0.050788"
   }
  ]

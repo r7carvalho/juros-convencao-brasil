@@ -1,7 +1,7 @@
 {
  "fonte": "Tesouro Transparente (CKAN)",
  "url_api": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q=relatorio%20mensal%20da%20divida",
- "coleta": "2026-11-09T20:02:54Z",
+ "coleta": "2026-11-16T19:48:35Z",
  "pacotes": [
   {
    "nome": "relatorios-da-divida-contratual-da-uniao",
@@ -81,22 +81,6 @@
    ]
   },
   {
-   "nome": "limites-da-lrf-para-a-uniao-divida-consolidada-liquida-da-uniao",
-   "titulo": "Limites da LRF para a União: Dívida Consolidada Líquida da União",
-   "recursos": [
-    {
-     "nome": "Metadados - Limites da LRF para a União - Dívida Consolidada Líquida",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/d71b6e17-dec9-4c50-8156-7b82c0b7d116/download/metadados---limites-da-lrf-para-a-uniao---divida-consolidada-liquida.pdf",
-     "formato": "PDF"
-    },
-    {
-     "nome": "Dívida Consolidada Líquida da União - Quadrimestral - 2000-atual",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/90adbb1e-2d22-4398-ac09-29145b4cc89d/download/limites-da-lrf-para-a-uniao---divida-consolidada-liquida.csv",
-     "formato": "CSV"
-    }
-   ]
-  },
-  {
    "nome": "api-rgf-entes",
    "titulo": "Relatório de Gestão Fiscal (RGF) dos Entes da Federação",
    "recursos": [
@@ -149,6 +133,22 @@
    ]
   },
   {
+   "nome": "limites-da-lrf-para-a-uniao-divida-consolidada-liquida-da-uniao",
+   "titulo": "Limites da LRF para a União: Dívida Consolidada Líquida da União",
+   "recursos": [
+    {
+     "nome": "Metadados - Limites da LRF para a União - Dívida Consolidada Líquida",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/d71b6e17-dec9-4c50-8156-7b82c0b7d116/download/metadados---limites-da-lrf-para-a-uniao---divida-consolidada-liquida.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Dívida Consolidada Líquida da União - Quadrimestral - 2000-atual",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/26ee99d4-6f2e-49d3-bcca-21118508a87b/resource/90adbb1e-2d22-4398-ac09-29145b4cc89d/download/limites-da-lrf-para-a-uniao---divida-consolidada-liquida.csv",
+     "formato": "CSV"
+    }
+   ]
+  },
+  {
    "nome": "ds018",
    "titulo": "Emissões Diretas de Títulos da Dívida Pública Mobiliária Federal interna - DPMFi",
    "recursos": [
@@ -186,22 +186,6 @@
    ]
   },
   {
-   "nome": "api-msc-patrimonial-entes",
-   "titulo": "Informações Patrimoniais da Matriz de Saldos Contábeis (MSC) dos Entes da Federação",
-   "recursos": [
-    {
-     "nome": "API Dados Abertos - MSC Patrimonial",
-     "url": "http://apidatalake.tesouro.gov.br/docs/siconfi/#/MSC%20-%20Patrimonial/get_msc_patrimonial",
-     "formato": "API"
-    },
-    {
-     "nome": "Metadados MSC Patrimonial",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0acb4523-7664-4a7c-90f8-52e098de4b86/resource/e9d64440-7a44-47f0-8457-06e4afadcc45/download/metadadosmscpatrimonial.pdf",
-     "formato": "PDF"
-    }
-   ]
-  },
-  {
    "nome": "api-extrato-entes",
    "titulo": "Extrato de Entregas dos Entes da Federação",
    "recursos": [
@@ -213,6 +197,22 @@
     {
      "nome": "Metadados Extrato de Entregas",
      "url": "https://www.tesourotransparente.gov.br/ckan/dataset/7c4dc876-2151-4d07-ac5f-9ee128637aca/resource/171d3640-2357-4651-b91c-4eb059af78da/download/metadadosextratoentregas.pdf",
+     "formato": "PDF"
+    }
+   ]
+  },
+  {
+   "nome": "api-msc-patrimonial-entes",
+   "titulo": "Informações Patrimoniais da Matriz de Saldos Contábeis (MSC) dos Entes da Federação",
+   "recursos": [
+    {
+     "nome": "API Dados Abertos - MSC Patrimonial",
+     "url": "http://apidatalake.tesouro.gov.br/docs/siconfi/#/MSC%20-%20Patrimonial/get_msc_patrimonial",
+     "formato": "API"
+    },
+    {
+     "nome": "Metadados MSC Patrimonial",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/0acb4523-7664-4a7c-90f8-52e098de4b86/resource/e9d64440-7a44-47f0-8457-06e4afadcc45/download/metadadosmscpatrimonial.pdf",
      "formato": "PDF"
     }
    ]
@@ -234,22 +234,6 @@
    ]
   },
   {
-   "nome": "saldos-e-fluxos-de-recebimentos-dos-haveres-da-uniao-excetos-os-relacionados-a-entes-federacao",
-   "titulo": "Saldos e Fluxos de Recebimentos dos Haveres da União, Excetos os Relacionados a Entes da Federação",
-   "recursos": [
-    {
-     "nome": "Metadados",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/b68e2618-a8c3-44dd-9001-74f95a1a3839/resource/5d9f0256-fa5c-41af-bd66-9a8ef52af37a/download/metadadoshaverescofis.pdf",
-     "formato": "PDF"
-    },
-    {
-     "nome": "Saldos e Fluxos de Recebimentos dos Haveres da União, exceto os Relacionados a Entes da Federação",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/b68e2618-a8c3-44dd-9001-74f95a1a3839/resource/18415ca3-7c73-44d2-8e2e-a26f57df9638/download/tesouro-transparente-haveres-cofi-recebimentos-e-saldos-2018atualizado-ate-31102018.xlsx",
-     "formato": "XLSX"
-    }
-   ]
-  },
-  {
    "nome": "limites-da-lrf-para-a-uniao-despesas-com-pessoal-do-poder-executivo-federal",
    "titulo": "Limites da LRF para a União: Despesas com Pessoal do Poder Executivo Federal",
    "recursos": [
@@ -262,6 +246,22 @@
      "nome": "Despesas com Pessoal do Poder Executivo Federal - Quadrimestral - 2000-atual",
      "url": "https://www.tesourotransparente.gov.br/ckan/dataset/a49d6433-ab0b-41d2-bf79-4d16973831f3/resource/92580d1e-0e30-45c9-9aa1-7a05586a30da/download/limites-da-lrf-para-a-uniao---despesas-com-pessoal.csv",
      "formato": "CSV"
+    }
+   ]
+  },
+  {
+   "nome": "saldos-e-fluxos-de-recebimentos-dos-haveres-da-uniao-excetos-os-relacionados-a-entes-federacao",
+   "titulo": "Saldos e Fluxos de Recebimentos dos Haveres da União, Excetos os Relacionados a Entes da Federação",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/b68e2618-a8c3-44dd-9001-74f95a1a3839/resource/5d9f0256-fa5c-41af-bd66-9a8ef52af37a/download/metadadoshaverescofis.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Saldos e Fluxos de Recebimentos dos Haveres da União, exceto os Relacionados a Entes da Federação",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/b68e2618-a8c3-44dd-9001-74f95a1a3839/resource/18415ca3-7c73-44d2-8e2e-a26f57df9638/download/tesouro-transparente-haveres-cofi-recebimentos-e-saldos-2018atualizado-ate-31102018.xlsx",
+     "formato": "XLSX"
     }
    ]
   },

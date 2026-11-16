@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='PAN_FBKFPIBV')",
- "coleta": "2026-11-09T20:39:55Z",
+ "coleta": "2026-11-16T20:33:21Z",
  "dados": [
   {
    "SERCODIGO": "PAN_FBKFPIBV",
@@ -202,14 +202,14 @@
   {
    "SERCODIGO": "PAN_FBKFPIBV",
    "VALDATA": "2024-01-01T00:00:00-03:00",
-   "VALVALOR": 16.909361,
+   "VALVALOR": 16.9093613196902,
    "NIVNOME": "",
    "TERCODIGO": ""
   },
   {
    "SERCODIGO": "PAN_FBKFPIBV",
    "VALDATA": "2025-01-01T00:00:00-03:00",
-   "VALVALOR": 16.839025,
+   "VALVALOR": 16.8390252317858,
    "NIVNOME": "",
    "TERCODIGO": ""
   }

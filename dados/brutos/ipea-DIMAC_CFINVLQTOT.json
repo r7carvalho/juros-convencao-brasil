@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFINVLQTOT')",
- "coleta": "2026-11-09T20:52:08Z",
+ "coleta": "2026-11-16T20:49:30Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_CFINVLQTOT",

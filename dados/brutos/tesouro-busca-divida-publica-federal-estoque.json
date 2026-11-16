@@ -1,7 +1,7 @@
 {
  "fonte": "Tesouro Transparente (CKAN)",
  "url_api": "https://www.tesourotransparente.gov.br/ckan/api/3/action/package_search?rows=50&q=divida%20publica%20federal%20estoque",
- "coleta": "2026-11-09T20:02:51Z",
+ "coleta": "2026-11-16T19:48:33Z",
  "pacotes": [
   {
    "nome": "estoque-da-divida-publica-federal",
@@ -214,22 +214,6 @@
    ]
   },
   {
-   "nome": "estoque-do-tesouro-direto",
-   "titulo": "Estoque do Tesouro Direto",
-   "recursos": [
-    {
-     "nome": "Metadados",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/ca43792c-5580-47d4-9eb5-fae55dce0ce0/download/estoquedotesourodireto-metadados.pdf",
-     "formato": "PDF"
-    },
-    {
-     "nome": "Estoque do Tesouro Direto",
-     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/650cdc18-0513-4bb1-9222-003ad1c11ac7/download/estoquetesourodireto.csv",
-     "formato": "CSV"
-    }
-   ]
-  },
-  {
    "nome": "ds012",
    "titulo": "Emissões Soberanas da Dívida Pública Federal Externa",
    "recursos": [
@@ -242,6 +226,22 @@
      "nome": "Emissões soberanas da Dívida Pública Federal",
      "url": "https://www.tesourotransparente.gov.br/ckan/dataset/9d056822-5049-4e50-92ee-1c5b61236007/resource/5054eac3-36cb-4487-b218-88108d80a930/download/emissoes-soberanas.xlsx",
      "formato": "XLSX"
+    }
+   ]
+  },
+  {
+   "nome": "estoque-do-tesouro-direto",
+   "titulo": "Estoque do Tesouro Direto",
+   "recursos": [
+    {
+     "nome": "Metadados",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/ca43792c-5580-47d4-9eb5-fae55dce0ce0/download/estoquedotesourodireto-metadados.pdf",
+     "formato": "PDF"
+    },
+    {
+     "nome": "Estoque do Tesouro Direto",
+     "url": "https://www.tesourotransparente.gov.br/ckan/dataset/4d4dac3b-96d2-4011-92c9-ddf7d8392622/resource/650cdc18-0513-4bb1-9222-003ad1c11ac7/download/estoquetesourodireto.csv",
+     "formato": "CSV"
     }
    ]
   },

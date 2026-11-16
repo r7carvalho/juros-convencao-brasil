@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFDPRCTR')",
- "coleta": "2026-11-09T20:41:57Z",
+ "coleta": "2026-11-16T20:37:23Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_CFDPRCTR",
