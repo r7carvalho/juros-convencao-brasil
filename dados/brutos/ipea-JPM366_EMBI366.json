@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='JPM366_EMBI366')",
- "coleta": "2026-11-16T19:50:45Z",
+ "coleta": "2026-11-23T21:42:52Z",
  "dados": [
   {
    "SERCODIGO": "JPM366_EMBI366",

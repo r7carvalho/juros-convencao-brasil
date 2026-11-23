@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='SCN104_FBKFG104')",
- "coleta": "2026-11-16T20:27:16Z",
+ "coleta": "2026-11-23T22:13:29Z",
  "dados": [
   {
    "SERCODIGO": "SCN104_FBKFG104",

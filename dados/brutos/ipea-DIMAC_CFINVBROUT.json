@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_CFINVBROUT')",
- "coleta": "2026-11-16T20:43:27Z",
+ "coleta": "2026-11-23T22:25:43Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_CFINVBROUT",

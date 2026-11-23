@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_ILIQCONSTNRESINF')",
- "coleta": "2026-11-09T20:56:15Z",
+ "coleta": "2026-11-23T22:37:57Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_ILIQCONSTNRESINF",

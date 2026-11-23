@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC12_CF_DPR_CTR12')",
- "coleta": "2026-11-09T21:04:23Z",
+ "coleta": "2026-11-23T22:42:03Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC12_CF_DPR_CTR12",

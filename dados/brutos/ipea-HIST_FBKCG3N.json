@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='HIST_FBKCG3N')",
- "coleta": "2026-11-16T20:06:57Z",
+ "coleta": "2026-11-23T21:59:05Z",
  "dados": [
   {
    "SERCODIGO": "HIST_FBKCG3N",

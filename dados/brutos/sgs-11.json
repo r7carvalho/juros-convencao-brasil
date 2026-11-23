@@ -4,7 +4,7 @@
  "descricao": "Selic over diária (% a.d.)",
  "pagina": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarGraficoPorId&hdOidSeriesSelecionadas=11",
  "url_api": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?formato=json",
- "coleta": "2026-11-16T19:39:56Z",
+ "coleta": "2026-11-23T21:30:12Z",
  "dados": [
   {
    "data": "04/06/1986",
@@ -40564,6 +40564,22 @@
   },
   {
    "data": "13/11/2026",
+   "valor": "0.050788"
+  },
+  {
+   "data": "16/11/2026",
+   "valor": "0.050788"
+  },
+  {
+   "data": "17/11/2026",
+   "valor": "0.050788"
+  },
+  {
+   "data": "18/11/2026",
+   "valor": "0.050788"
+  },
+  {
+   "data": "19/11/2026",
    "valor": "0.050788"
   }
  ]

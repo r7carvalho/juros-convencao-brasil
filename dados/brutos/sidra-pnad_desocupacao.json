@@ -1,7 +1,7 @@
 {
  "fonte": "IBGE, SIDRA",
  "url_api": "https://apisidra.ibge.gov.br/values/t/4099/n1/all/v/4099/p/all",
- "coleta": "2026-11-16T19:48:21Z",
+ "coleta": "2026-11-23T21:40:36Z",
  "dados": [
   {
    "NC": "Nível Territorial (Código)",
@@ -769,6 +769,19 @@
    "D2N": "Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade",
    "D3C": "202602",
    "D3N": "2º trimestre 2026"
+  },
+  {
+   "NC": "1",
+   "NN": "Brasil",
+   "MC": "2",
+   "MN": "%",
+   "V": "5.2",
+   "D1C": "1",
+   "D1N": "Brasil",
+   "D2C": "4099",
+   "D2N": "Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade",
+   "D3C": "202603",
+   "D3N": "3º trimestre 2026"
   }
  ]
 }

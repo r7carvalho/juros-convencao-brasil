@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_IBRUTINFCT')",
- "coleta": "2026-11-09T20:56:15Z",
+ "coleta": "2026-11-23T22:37:56Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_IBRUTINFCT",

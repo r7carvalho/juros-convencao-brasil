@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_ECFLIQTOT12')",
- "coleta": "2026-11-09T20:56:13Z",
+ "coleta": "2026-11-23T22:35:53Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_ECFLIQTOT12",

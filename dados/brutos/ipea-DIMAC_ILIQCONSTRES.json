@@ -1,7 +1,7 @@
 {
  "fonte": "Ipeadata",
  "url_api": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='DIMAC_ILIQCONSTRES')",
- "coleta": "2026-11-09T20:58:17Z",
+ "coleta": "2026-11-23T22:37:58Z",
  "dados": [
   {
    "SERCODIGO": "DIMAC_ILIQCONSTRES",
